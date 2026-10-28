@@ -187,16 +187,20 @@ export function summarize(ctx: CatalogContext, g: Generation, market: MarketCode
 /**
  * Toutes les cartes à collectionner : une par version de chaque fiche (prix et stats de cette version
  * uniquement), ou une carte pour la fiche si aucune version n'est encore publiée.
+ * Les photos de la fiche sont réparties à tour de rôle entre ses versions : deux versions n'ont
+ * la même photo que si la fiche en a moins que de versions (jamais la photo d'un autre modèle).
  */
 export function collectibleCards(ctx: CatalogContext, market: MarketCode): CarSummary[] {
   return [...ctx.brands.keys()].flatMap((brandId) => brandSet(ctx, brandId).flatMap((g) => {
     const base = summarize(ctx, g, market);
     if (!g.variants.length) return [base];
-    return orderedVariants(g).map((v) => {
+    const images = ctx.imagesFor(g);
+    return orderedVariants(g).map((v, i) => {
       const only: Generation = { ...g, variants: [v] };
       const local = startingPrice(only, market);
       return {
         ...base,
+        image: images.length ? images[i % images.length] : null,
         maxPowerHp: v.powerHp,
         powertrains: [v.powertrain],
         keyFact: keyFact(only),
