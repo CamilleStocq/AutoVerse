@@ -263,7 +263,7 @@
           "torqueNm": 760,
           "drivetrain": "rwd",
           "gearbox": "Double embrayage 7 rapports",
-          "accel0100s": 3.0,
+          "accel0100s": 3,
           "topSpeedKmh": 330,
           "consumption": null,
           "electricRangeKm": null,
@@ -488,7 +488,7 @@
           "torqueNm": 540,
           "drivetrain": "rwd",
           "gearbox": "Double embrayage 7 rapports",
-          "accel0100s": 3.0,
+          "accel0100s": 3,
           "topSpeedKmh": 325,
           "consumption": null,
           "electricRangeKm": null,
@@ -582,6 +582,13 @@
           "depicts": "Lamborghini Huracán Sterrato",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Lamborghini Huracán STO IMG 9892.jpg",
+          "caption": "Lamborghini Huracán STO, verte",
+          "depicts": "Huracán STO",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -622,7 +629,7 @@
           "torqueNm": 565,
           "drivetrain": "rwd",
           "gearbox": "Double embrayage 7 rapports",
-          "accel0100s": 3.0,
+          "accel0100s": 3,
           "topSpeedKmh": 310,
           "consumption": null,
           "electricRangeKm": null,
@@ -2420,7 +2427,7 @@
           "torqueNm": 730,
           "drivetrain": "rwd",
           "gearbox": "Double embrayage 8 rapports",
-          "accel0100s": 3.0,
+          "accel0100s": 3,
           "topSpeedKmh": null,
           "consumption": null,
           "electricRangeKm": null,

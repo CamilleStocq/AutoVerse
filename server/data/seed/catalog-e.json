@@ -572,6 +572,13 @@
           "depicts": "Peugeot 308 III restylée (2025), version électrique E-308",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Peugeot e-308 Auto Zuerich 2025 DSC 3028.jpg",
+          "caption": "Peugeot e-308 restylée, Auto Zürich 2025",
+          "depicts": "308 III restylée, E-308",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1217,6 +1224,13 @@
           "depicts": "Dacia Duster III Hybrid (2024)",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 Dacia Duster front.jpg",
+          "caption": "Dacia Duster III (2024)",
+          "depicts": "Duster III",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1511,6 +1525,20 @@
           "commonsFile": "File:Toyota Yaris Cross Hybrid (XP210, 2026) 20260910 (1).JPG",
           "caption": "Toyota Yaris Cross Hybrid (septembre 2026)",
           "depicts": "Toyota Yaris Cross Hybrid (XP210) restylé, millésime 2026",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 Toyota Yaris Cross X in Grayish Blue, front left.jpg",
+          "caption": "Toyota Yaris Cross restylé (2024), Grayish Blue",
+          "depicts": "Yaris Cross restylé",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024-2026 Toyota Yaris Cross Hybrid G.jpg",
+          "caption": "Toyota Yaris Cross Hybrid restylé, blanc",
+          "depicts": "Yaris Cross Hybrid restylé",
           "isOfficial": false,
           "resolved": null
         }
@@ -2163,6 +2191,13 @@
           "commonsFile": "File:2025 Kia EV6 GT IAA 2025 DSC 2508.jpg",
           "caption": "Kia EV6 GT restylée au salon IAA Mobility 2025",
           "depicts": "Kia EV6 GT (2025)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Kia EV6 GT-Line Auto Zuerich 2024 DSC 6468.jpg",
+          "caption": "Kia EV6 GT-Line restylée, Auto Zürich 2024",
+          "depicts": "EV6 restylée, GT-Line",
           "isOfficial": false,
           "resolved": null
         }

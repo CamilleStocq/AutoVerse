@@ -518,6 +518,13 @@
           "depicts": "Porsche Taycan Turbo GT (type 9J1.2), Seoul Mobility Show 2025",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Porsche Taycan Turbo GT - 01.jpg",
+          "caption": "Porsche Taycan Turbo GT (J1.2), New York Auto Show 2025",
+          "depicts": "Taycan J1 II (restylage), Turbo GT",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1325,6 +1332,13 @@
           "depicts": "BMW M3 Competition Berline (G80) avant mise à jour 2024, modèle 2021",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW M3 Touring (53422075211).jpg",
+          "caption": "BMW M3 Touring (G81), Essen Motor Show 2023",
+          "depicts": "M3 Touring (G81)",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -2087,6 +2101,13 @@
           "depicts": "BMW iX3 (NA5, Neue Klasse), BMW Welt 2025",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW iX3 50 xDrive M Sportpaket Pro (NA5) – f 17052026.jpg",
+          "caption": "BMW iX3 50 xDrive (NA5), blanc",
+          "depicts": "iX3 (NA5), 50 xDrive",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -2361,6 +2382,13 @@
           "commonsFile": "File:Mercedes-AMG GT 63 4MATIC+ Coupé (C192) (1).jpg",
           "caption": null,
           "depicts": "Mercedes-AMG GT 63 4MATIC+ Coupé (C192)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes-AMG GT 43 Coupé (C192) front.jpg",
+          "caption": "Mercedes-AMG GT 43 Coupé (C192), rouge",
+          "depicts": "AMG GT Coupé (C192), GT 43",
           "isOfficial": false,
           "resolved": null
         }
@@ -2651,6 +2679,20 @@
           "commonsFile": "File:Mercedes-Benz C178 IMG 6441.jpg",
           "caption": null,
           "depicts": "Mercedes-Benz CLA (C178)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes-Benz CLA 220 4MATIC AMG Line (C 178) – h 11052026.jpg",
+          "caption": "Mercedes-Benz CLA 220 4MATIC AMG Line (C178), vue arrière",
+          "depicts": "CLA (C178), CLA 220 4MATIC",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes-Benz Electric CLA 001.jpg",
+          "caption": "CLA électrique, Auto Shanghai 2025",
+          "depicts": "CLA 3e génération, version électrique (C174)",
           "isOfficial": false,
           "resolved": null
         }
@@ -5207,6 +5249,13 @@
           "depicts": "Bentley Continental GT (4e génération, hybride)",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 Bentley Continental GT Speed.jpg",
+          "caption": "Bentley Continental GT Speed (4e génération), Goodwood 2024",
+          "depicts": "Continental GT (4e génération), GT Speed",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -5435,6 +5484,13 @@
           "commonsFile": "File:Rolls-Royce Spectre Anthracite (2).jpg",
           "caption": null,
           "depicts": "Rolls-Royce Spectre",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Rolls-Royce Spectre Black Badge DSC 9684.jpg",
+          "caption": "Rolls-Royce Black Badge Spectre, BMW Welt",
+          "depicts": "Spectre, Black Badge",
           "isOfficial": false,
           "resolved": null
         }
@@ -5724,6 +5780,13 @@
           "commonsFile": "File:2021 Lotus Emira.jpg",
           "caption": null,
           "depicts": "Lotus Emira, Greater Bay Area Auto Show 2023",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 Lotus Emira Turbo SE.jpg",
+          "caption": "Lotus Emira Turbo SE, Goodwood 2024",
+          "depicts": "Emira (Type 131), Turbo SE",
           "isOfficial": false,
           "resolved": null
         }

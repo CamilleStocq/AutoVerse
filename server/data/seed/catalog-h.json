@@ -470,6 +470,13 @@
           "depicts": "Toyota GR Supra A90 (2021) chez un concessionnaire à Dülmen",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:20 Toyota GR Supra 3.0 (1).jpg",
+          "caption": "Toyota GR Supra 3.0 (2020)",
+          "depicts": "GR Supra (A90), 3.0",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1072,7 +1079,7 @@
           "accel0100s": 2.9,
           "topSpeedKmh": 308,
           "consumption": {
-            "value": 10.0,
+            "value": 10,
             "unit": "l/100km",
             "cycle": "NEDC"
           },
@@ -1234,6 +1241,13 @@
           "depicts": "Lexus LC 500 Convertible, vue avant",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2017 Lexus LC500 Sport + Auto.jpg",
+          "caption": "Lexus LC 500 Sport+ (2017)",
+          "depicts": "LC (Z100), LC 500",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1357,7 +1371,7 @@
           "torqueNm": null,
           "drivetrain": "rwd",
           "gearbox": "Multi Stage Hybrid (train épicycloïdal + boîte 4 rapports)",
-          "accel0100s": 5.0,
+          "accel0100s": 5,
           "topSpeedKmh": 250,
           "consumption": {
             "value": 8.1,
@@ -1436,7 +1450,7 @@
           "torqueNm": 530,
           "drivetrain": "rwd",
           "gearbox": "Automatique 10 rapports",
-          "accel0100s": 5.0,
+          "accel0100s": 5,
           "topSpeedKmh": null,
           "consumption": null,
           "electricRangeKm": null,
@@ -1536,6 +1550,13 @@
           "url": null,
           "caption": null,
           "depicts": "Lexus LFA (2011), blanche",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2012 Lexus LFA (8403213931).jpg",
+          "caption": "Lexus LFA Nürburgring Package, NAIAS 2013",
+          "depicts": "LFA, Nürburgring Package",
           "isOfficial": false,
           "resolved": null
         }
@@ -1740,6 +1761,20 @@
           "url": null,
           "caption": null,
           "depicts": "Chevrolet Corvette C8 Z06 (2025)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Chevrolet Corvette E-Ray 1.jpg",
+          "caption": "Chevrolet Corvette E-Ray (C8) 2025",
+          "depicts": "Corvette C8, E-Ray",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Chevrolet C8 Corvette ZR1.jpg",
+          "caption": "Chevrolet Corvette ZR1 (C8), New York Auto Show 2025",
+          "depicts": "Corvette C8, ZR1",
           "isOfficial": false,
           "resolved": null
         }
@@ -2607,6 +2642,13 @@
           "depicts": "Mitsubishi Lancer GSR Evolution X (CZ4A), spécification japonaise",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2014 Lancer Evolution GSR (12762834965).jpg",
+          "caption": "Mitsubishi Lancer Evolution X GSR, Chicago Auto Show 2014",
+          "depicts": "Lancer Evolution X, GSR",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -2969,7 +3011,7 @@
           "accel0100s": 5.9,
           "topSpeedKmh": 250,
           "consumption": {
-            "value": 8.0,
+            "value": 8,
             "unit": "l/100km",
             "cycle": "WLTP"
           },

@@ -1266,6 +1266,13 @@
           "depicts": "Aston Martin Vantage Roadster (2024)",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Aston Martin V8 Vantage S.jpg",
+          "caption": "Aston Martin Vantage S, Goodwood 2025",
+          "depicts": "Vantage (2024), Vantage S",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1518,6 +1525,13 @@
           "depicts": "Bentley Bentayga Hybrid restylé (2023)",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Bentley Bentayga V8 Facelift Deep Blue.jpg",
+          "caption": "Bentley Bentayga V8 restylé, Séoul",
+          "depicts": "Bentayga (restylé), V8",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1765,6 +1779,13 @@
           "depicts": "Rolls-Royce Cullinan Series II (2024)",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Rolls-Royce Cullinan Series II - 01.jpg",
+          "caption": "Rolls-Royce Cullinan Series II, New York Auto Show 2025",
+          "depicts": "Cullinan Series II",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1959,6 +1980,13 @@
           "commonsFile": "File:2023 Maserati GranTurismo Folgore.jpg",
           "caption": "Maserati GranTurismo Folgore",
           "depicts": "Maserati GranTurismo Folgore (2022), électrique",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Maserati GranTurismo Modena 2023 Front View.jpg",
+          "caption": "Maserati GranTurismo Modena 2023",
+          "depicts": "GranTurismo (2022), Modena",
           "isOfficial": false,
           "resolved": null
         }

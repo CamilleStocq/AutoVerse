@@ -1255,6 +1255,20 @@
           "depicts": "Volkswagen ID. Polo de série exposée au Volkswagen Group Forum de Berlin en août 2026",
           "isOfficial": false,
           "isIllustration": false
+        },
+        {
+          "commonsFile": "File:Volkswagen ID.Polo Leonberg 2026 IMG 8617.jpg",
+          "caption": "ID. Polo bleue à la Leonberger Autoschau 2026",
+          "depicts": "Volkswagen ID. Polo",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2026 VW ID.Polo.jpg",
+          "caption": "Volkswagen ID. Polo 2026",
+          "depicts": "Volkswagen ID. Polo",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1499,6 +1513,13 @@
           "depicts": "Hyundai Ioniq 3 N Line, version européenne de série (2026)",
           "isOfficial": false,
           "isIllustration": false
+        },
+        {
+          "commonsFile": "File:Hyundai Ioniq 3 N Line Sindelfingen 2026 IMG 8249.jpg",
+          "caption": "Ioniq 3 N Line noire, Autosalon Sindelfingen 2026",
+          "depicts": "Hyundai Ioniq 3 N Line",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {

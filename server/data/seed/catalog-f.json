@@ -587,6 +587,13 @@
           "depicts": "Audi R8 Coupé V10 GT RWD",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Audi R8 Coupé V10 performance quattro (49744721803).jpg",
+          "caption": "Audi R8 Coupé V10 performance quattro (4S restylée)",
+          "depicts": "R8 4S phase 2, V10 performance quattro",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1112,6 +1119,13 @@
           "commonsFile": "File:Mercedes-AMG SL 43 1X7A7261.jpg",
           "caption": null,
           "depicts": "Mercedes-AMG SL 43 (R232)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes-AMG SL 63 S E Performance (R232) front.jpg",
+          "caption": "Mercedes-AMG SL 63 S E Performance (R232), bleue",
+          "depicts": "SL (R232), SL 63 S E PERFORMANCE",
           "isOfficial": false,
           "resolved": null
         }

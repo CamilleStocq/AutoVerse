@@ -608,6 +608,13 @@
           "depicts": "Alpine A110 (2017), version A110 R",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 Alpine A110 GT Auto 1.jpg",
+          "caption": "Alpine A110 GT (2023)",
+          "depicts": "A110 (2017), A110 GT",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -920,6 +927,20 @@
           "commonsFile": "File:2024 Peugeot e-3008 Allure EV - 73kWh (210PS) Electric - Obsession Blue - 06-2024, Front.jpg",
           "caption": "Peugeot E-3008 Allure 73 kWh bleu Obsession (juin 2024)",
           "depicts": "Peugeot E-3008 (3e génération, P64), finition Allure, 73 kWh",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Peugeot 3008 Hybrid 136 e-DSC6 Allure (III) – f 09022025.jpg",
+          "caption": "Peugeot 3008 Hybrid Allure (III), gris",
+          "depicts": "3008 III (P64), Hybrid",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Peugeot 3008 C IMG 9387.jpg",
+          "caption": "Peugeot 3008 (III), bleu",
+          "depicts": "3008 III (P64)",
           "isOfficial": false,
           "resolved": null
         }
@@ -1639,6 +1660,27 @@
           "depicts": "Volkswagen Golf 8 restylée (8.5) GTI",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Volkswagen Golf VIII Facelift IMG 8947.jpg",
+          "caption": "Volkswagen Golf VIII restylée, bleue",
+          "depicts": "Golf 8.5",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Volkswagen Golf VIII Facelift IMG 0375.jpg",
+          "caption": "Volkswagen Golf VIII restylée, blanche",
+          "depicts": "Golf 8.5",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Volkswagen Golf VIII GTE Facelift IMG 0059.jpg",
+          "caption": "Volkswagen Golf VIII GTE restylée",
+          "depicts": "Golf 8.5, GTE (hybride rechargeable)",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -2191,6 +2233,13 @@
           "depicts": "Volkswagen Golf 7 restylée (7.5) GTI Performance, millésime 2018",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2018 Volkswagen Golf GTi TSi S-A 2.0.jpg",
+          "caption": "Volkswagen Golf GTI 2018 (7.5)",
+          "depicts": "Golf 7.5, GTI",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -2436,6 +2485,20 @@
           "url": null,
           "caption": null,
           "depicts": "Volkswagen ID.7 Tourer (1re génération)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Volkswagen ID.7 Pro S (2024) (54518854582).jpg",
+          "caption": "Volkswagen ID.7 Pro S (2024)",
+          "depicts": "ID.7, Pro S",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Volkswagen ID.7 GTX (front).jpg",
+          "caption": "Volkswagen ID.7 GTX",
+          "depicts": "ID.7, GTX",
           "isOfficial": false,
           "resolved": null
         }
@@ -2915,6 +2978,20 @@
           "url": null,
           "caption": null,
           "depicts": "Volvo EX30 (1re génération)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Volvo EX30 Plus – f 08032025.jpg",
+          "caption": "Volvo EX30 Plus, blanc",
+          "depicts": "EX30",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Volvo EX30 Ultra Single Motor Extended Range (ZAA-2E400R) front.jpg",
+          "caption": "Volvo EX30 Single Motor Extended Range, jaune",
+          "depicts": "EX30, Single Motor Extended Range",
           "isOfficial": false,
           "resolved": null
         }
@@ -3457,6 +3534,13 @@
           "url": null,
           "caption": null,
           "depicts": "BYD Seal (berline électrique, version européenne présentée à l'IAA 2023)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 BYD Seal Design EV.jpg",
+          "caption": "BYD Seal Design, Goodwood 2024",
+          "depicts": "Seal, Design",
           "isOfficial": false,
           "resolved": null
         }
@@ -4616,6 +4700,13 @@
           "depicts": "Lexus RX 500h F Sport Performance (5e génération, TALH17)",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Lexus RX 350h AWD AALH10 Sonic Chrome (3).jpg",
+          "caption": "Lexus RX 350h AWD (AALH10), Sonic Chrome",
+          "depicts": "RX 5e génération, RX 350h",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -5569,6 +5660,13 @@
           "depicts": "Mazda MX-5 RF (ND) exposée au salon de Bruxelles 2026",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 Mazda MX-5 2.0 Soft Top in Deep Crystal Blue, front right.jpg",
+          "caption": "Mazda MX-5 (ND) roadster 2023, Deep Crystal Blue",
+          "depicts": "MX-5 (ND), roadster",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -6120,6 +6218,13 @@
           "depicts": "Kia EV9 GT-Line (2024)",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Kia EV9 MV Ocean Blue (1).jpg",
+          "caption": "Kia EV9 (MV), Ocean Blue",
+          "depicts": "EV9 (MV)",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -6419,6 +6524,20 @@
           "url": null,
           "caption": "Ford Mustang GT (S650)",
           "depicts": "Ford Mustang S650 GT Fastback 5.0 V8 (7e génération), vue avant 3/4",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Ford Mustang Dark Horse Rutesheimer Autoschau 2025 DSC 9229.jpg",
+          "caption": "Ford Mustang Dark Horse, Rutesheim 2025",
+          "depicts": "Mustang (S650), Dark Horse",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Ford Mustang Convertible 2.3L EcoBoost Premium S650 Race Red (5).jpg",
+          "caption": "Ford Mustang Convertible (S650), Race Red",
+          "depicts": "Mustang (S650), Convertible EcoBoost",
           "isOfficial": false,
           "resolved": null
         }
@@ -7100,6 +7219,20 @@
           "depicts": "Tesla Model 3 « Highland » Performance (2024), vue avant 3/4",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Tesla Model 3 Highland RWD Stealth Grey.jpg",
+          "caption": "Tesla Model 3 Highland RWD, Stealth Grey",
+          "depicts": "Model 3 Highland, Propulsion",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 Tesla Model 3 Long Range RWD in Ultra Red, 07-12-2024.jpg",
+          "caption": "Tesla Model 3 Highland Long Range RWD, Ultra Red",
+          "depicts": "Model 3 Highland, Grande Autonomie Propulsion",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -7553,6 +7686,20 @@
           "url": null,
           "caption": "Tesla Model Y Performance (2025)",
           "depicts": "Tesla Model Y Performance restylé (2025), vue avant 3/4",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Tesla Model Y Juniper Long Range RWD Quicksilver 02.jpg",
+          "caption": "Tesla Model Y Juniper Long Range RWD, Quicksilver",
+          "depicts": "Model Y Juniper, Grande Autonomie Propulsion",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Tesla Model Y Juniper Long Range AWD Ultra Red 02.jpg",
+          "caption": "Tesla Model Y Juniper Long Range AWD, Ultra Red",
+          "depicts": "Model Y Juniper, Grande Autonomie AWD",
           "isOfficial": false,
           "resolved": null
         }
@@ -8073,6 +8220,13 @@
           "url": null,
           "caption": "Tesla Model Y Long Range AWD (2021)",
           "depicts": "Tesla Model Y Grande Autonomie AWD de première génération (millésime 2021), avant restylage",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2022 Tesla Model Y Performance AWD.jpg",
+          "caption": "Tesla Model Y Performance 2022",
+          "depicts": "Model Y (avant restylage), Performance",
           "isOfficial": false,
           "resolved": null
         }

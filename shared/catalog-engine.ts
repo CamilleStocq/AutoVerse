@@ -117,9 +117,23 @@ function orderedVariants(g: Generation): Variant[] {
   return [...g.variants].sort((a, b) => TIER_ORDER[a.tier] - TIER_ORDER[b.tier] || (a.powerHp ?? 0) - (b.powerHp ?? 0) || a.name.localeCompare(b.name));
 }
 
-/** Identifiants des cartes d'une fiche : une par version, ou la fiche elle-même sans version publiée. */
+/** Nombre de photos déclarées pour une fiche (une carte ne peut exister que si elle a sa propre photo). */
+const photoCount = (g: Generation) => g.images.filter((i) => i.commonsFile || i.url).length;
+
+/**
+ * Versions qui ont une carte : une photo par carte, jamais deux cartes avec la même photo.
+ * Quand une fiche a moins de photos que de versions, on garde les versions les plus haut de gamme ;
+ * les autres restent dans la fiche (catalogue, comparateur) mais n'ont pas de carte.
+ */
+function cardVariants(g: Generation): Variant[] {
+  const ordered = orderedVariants(g);
+  return ordered.slice(Math.max(0, ordered.length - photoCount(g)));
+}
+
+/** Identifiants des cartes d'une fiche : une par version photographiée, ou la fiche elle-même sans version publiée. */
 function cardIdsOf(g: Generation): string[] {
-  return g.variants.length ? orderedVariants(g).map((v) => v.id) : [g.id];
+  if (!g.variants.length) return photoCount(g) ? [g.id] : [];
+  return cardVariants(g).map((v) => v.id);
 }
 
 function cardInfo(ctx: CatalogContext, g: Generation, variant: Variant | null = topVariant(g)): CardInfo {
@@ -185,22 +199,22 @@ export function summarize(ctx: CatalogContext, g: Generation, market: MarketCode
 }
 
 /**
- * Toutes les cartes à collectionner : une par version de chaque fiche (prix et stats de cette version
- * uniquement), ou une carte pour la fiche si aucune version n'est encore publiée.
- * Les photos de la fiche sont réparties à tour de rôle entre ses versions : deux versions n'ont
- * la même photo que si la fiche en a moins que de versions (jamais la photo d'un autre modèle).
+ * Toutes les cartes à collectionner : une par version photographiée de chaque fiche (prix et stats
+ * de cette version uniquement), ou une carte pour la fiche si aucune version n'est encore publiée.
+ * Chaque carte a sa propre photo de la fiche : deux cartes n'ont jamais la même photo.
  */
 export function collectibleCards(ctx: CatalogContext, market: MarketCode): CarSummary[] {
   return [...ctx.brands.keys()].flatMap((brandId) => brandSet(ctx, brandId).flatMap((g) => {
+    if (!cardIdsOf(g).length) return [];
     const base = summarize(ctx, g, market);
     if (!g.variants.length) return [base];
     const images = ctx.imagesFor(g);
-    return orderedVariants(g).map((v, i) => {
+    return cardVariants(g).map((v, i) => {
       const only: Generation = { ...g, variants: [v] };
       const local = startingPrice(only, market);
       return {
         ...base,
-        image: images.length ? images[i % images.length] : null,
+        image: images[i] ?? null,
         maxPowerHp: v.powerHp,
         powertrains: [v.powertrain],
         keyFact: keyFact(only),
@@ -397,7 +411,7 @@ export function catalogMeta(ctx: CatalogContext): CatalogMeta {
     powertrains: count(Object.keys(POWERTRAIN_LABELS) as Powertrain[], powertrainsOf, POWERTRAIN_LABELS),
     years: years.length ? { min: Math.min(...years), max: Math.max(...years) } : null,
     totalCars: gens.length,
-    totalCards: gens.reduce((n, g) => n + Math.max(1, g.variants.length), 0),
+    totalCards: gens.reduce((n, g) => n + cardIdsOf(g).length, 0),
     dataUpdatedAt: updated,
   };
 }

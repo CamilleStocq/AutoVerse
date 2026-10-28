@@ -31,6 +31,20 @@
           "depicts": "Peugeot 208 de 2e génération, avant le restylage de 2023",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2021 Peugeot 208 1.2 PureTech 100 Allure (Front).jpg",
+          "caption": "Peugeot 208 II",
+          "depicts": "Peugeot 208 II, 1.2 PureTech 100 Allure",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Peugeot e-208 Allure (II) – f 26122020.jpg",
+          "caption": "Peugeot 208 II",
+          "depicts": "Peugeot 208 II, e-208 Allure",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -336,6 +350,13 @@
           "depicts": "Peugeot e-2008 de 2e génération, version restylée",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Peugeot 2008 B Facelift IMG 1180.jpg",
+          "caption": "Peugeot 2008 II restylé",
+          "depicts": "Peugeot 2008 II restylé",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -638,6 +659,13 @@
           "commonsFile": "File:Peugeot 5008 C Automesse Ludwigsburg 2024 IMG 1452.jpg",
           "caption": "Peugeot 5008 à l'Automesse de Ludwigsburg (2024)",
           "depicts": "Peugeot 5008 de 3e génération",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Peugeot 5008 C DSC 2949.jpg",
+          "caption": "Peugeot 5008 III (2024)",
+          "depicts": "Peugeot 5008 III (2024)",
           "isOfficial": false,
           "resolved": null
         }
@@ -971,6 +999,13 @@
           "depicts": "Peugeot 408 fastback (2022)",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 Peugeot 408 GT PureTech e-Hybrid (Front).jpg",
+          "caption": "Peugeot 408 (2022)",
+          "depicts": "Peugeot 408 (2022), GT Plug-in Hybrid",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1275,6 +1310,13 @@
           "commonsFile": "File:2025 Citroën C4 IMG 2669.jpg",
           "caption": "Citroën C4 restylée (2025)",
           "depicts": "Citroën C4 de 3e génération, version restylée",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Citroën ë-C4 Feel (III) – f 14042024.jpg",
+          "caption": "Citroën C4 III",
+          "depicts": "Citroën C4 III, ë-C4 Feel",
           "isOfficial": false,
           "resolved": null
         }
@@ -1582,6 +1624,13 @@
           "depicts": "Citroën C3 Aircross de 2e génération (modèle européen)",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Citroën C3 Aircross Hybrid 145 Max (III) – f 19052026.jpg",
+          "caption": "Citroën C3 Aircross II (2024)",
+          "depicts": "Citroën C3 Aircross II (2024), Hybrid Max",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1887,6 +1936,13 @@
           "depicts": "Citroën ë-C5 Aircross de 2e génération, électrique",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Citroën C5 Aircross II Ditzingen Mobil 2026 IMG 5445.jpg",
+          "caption": "Citroën C5 Aircross II (2025)",
+          "depicts": "Citroën C5 Aircross II (2025)",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -2189,6 +2245,13 @@
           "depicts": "Opel Corsa F restylée",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 Opel Corsa F IMG 8800.jpg",
+          "caption": "Opel Corsa F restylée (2023)",
+          "depicts": "Opel Corsa F restylée (2023)",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -2482,6 +2545,20 @@
           "commonsFile": "File:Opel Mokka Electric Edition (B, Facelift) – f 12102025.jpg",
           "caption": "Opel Mokka Electric Edition restylé (octobre 2025)",
           "depicts": "Opel Mokka B restylé, version électrique",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Opel Mokka 1.2 Turbo Elegance (B) – f 15022025.jpg",
+          "caption": "Opel Mokka B",
+          "depicts": "Opel Mokka B, 1.2 Turbo Elegance",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Opel Mokka-e Auto Zuerich 2021 IMG 0544.jpg",
+          "caption": "Opel Mokka B",
+          "depicts": "Opel Mokka B, Mokka-e",
           "isOfficial": false,
           "resolved": null
         }
@@ -2790,6 +2867,13 @@
           "depicts": "Opel Astra L Plug-in Hybrid",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Opel Astra 1.2 Turbo Ultimate (L) – f 13122024.jpg",
+          "caption": "Opel Astra L",
+          "depicts": "Opel Astra L, 1.2 Turbo Ultimate",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -3081,6 +3165,20 @@
           "commonsFile": "File:Opel Frontera C Electric Auto Zuerich 2024 DSC 6234.jpg",
           "caption": "Opel Frontera Electric au salon Auto Zürich 2024",
           "depicts": "Opel Frontera (2024), version électrique",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Opel Frontera 1.2 DIT Hybrid Ultimate (C) – f 16082025.jpg",
+          "caption": "Opel Frontera (2024)",
+          "depicts": "Opel Frontera (2024), Hybrid Ultimate",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Opel Frontera C Electric Sindelfingen 2025 DSC 9105.jpg",
+          "caption": "Opel Frontera (2024)",
+          "depicts": "Opel Frontera (2024), Frontera Electric",
           "isOfficial": false,
           "resolved": null
         }
@@ -3389,6 +3487,13 @@
           "depicts": "Fiat 500e (2020), cabriolet",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Fiat 500e La Prima – f 15022025.jpg",
+          "caption": "Fiat 500 (2020)",
+          "depicts": "Fiat 500 (2020), 500e La Prima",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -3692,6 +3797,13 @@
           "commonsFile": "File:Fiat Grande Panda Hybrid IMG 8156.jpg",
           "caption": "Fiat Grande Panda Hybrid",
           "depicts": "Fiat Grande Panda (2024), version hybride",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Fiat Grande Panda Hybrid 1.2 eDCT La Prima – f 14092025.jpg",
+          "caption": "Fiat Grande Panda (2024)",
+          "depicts": "Fiat Grande Panda (2024), Hybrid eDCT La Prima",
           "isOfficial": false,
           "resolved": null
         }
@@ -4008,6 +4120,13 @@
           "depicts": "Fiat 600 (2023), version hybride 48 V",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Fiat 600 Hybrid 1.2 T3 (III) – f 18052025.jpg",
+          "caption": "Fiat 600 (2023)",
+          "depicts": "Fiat 600 (2023), Hybrid",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -4311,6 +4430,13 @@
           "depicts": "Jeep Avenger (2022)",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Jeep Avenger 1.2 GSE T3 Longitude – f 25042024.jpg",
+          "caption": "Jeep Avenger (2022)",
+          "depicts": "Jeep Avenger (2022), 1.2 GSE T3 Longitude",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -4601,15 +4727,7 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [
-        {
-          "commonsFile": "File:2025 Jeep Compass au SIAM 2025.jpg",
-          "caption": "Jeep Compass au salon SIAM 2025",
-          "depicts": "Jeep Compass de 3e génération (2025)",
-          "isOfficial": false,
-          "resolved": null
-        }
-      ],
+      "images": [],
       "editorial": {
         "summary": "Le Jeep Compass de troisième génération, lancé en 2025, adopte la plateforme STLA Medium et est produit à Melfi. Il est proposé en hybride 48 V, en hybride rechargeable et en électrique.",
         "positioning": "SUV compact de Jeep, au-dessus de l'Avenger.",
@@ -4925,6 +5043,13 @@
           "commonsFile": "File:DS N°4 Etoile Hybrid '26 (2).jpg",
           "caption": "DS N°4 Etoile Hybrid",
           "depicts": "DS N°4 (2025), version hybride",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:DS No 4 Auto Zuerich 2025 DSC 3473.jpg",
+          "caption": "DS N°4 (2025)",
+          "depicts": "DS N°4 (2025)",
           "isOfficial": false,
           "resolved": null
         }

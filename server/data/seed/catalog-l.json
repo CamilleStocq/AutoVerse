@@ -24,7 +24,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:2025 Toyota GR Yaris Rally 1 Ogier.jpg",
+          "caption": "GR Yaris Rally1 de Sébastien Ogier, Rally Japan 2025",
+          "depicts": "Toyota GR Yaris Rally1 (spécification 2025)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La GR Yaris Rally1 est la voiture de Toyota Gazoo Racing en championnat du monde des rallyes depuis 2022. Elle a remporté le titre constructeurs chaque saison de 2022 à 2026.",
         "positioning": "Voiture d'usine de la catégorie reine du WRC, au-dessus des Rally2 clients.",
@@ -136,7 +144,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:Thierry Neuville Rally Finland 2025 Ouninpohja.jpg",
+          "caption": "Thierry Neuville en i20 N Rally1, Rally Finland 2025",
+          "depicts": "Hyundai i20 N Rally1 (spécification 2025)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "L'i20 N Rally1 est la voiture de Hyundai Motorsport en WRC depuis 2022. Thierry Neuville a été sacré champion du monde 2024 à son volant.",
         "positioning": "Voiture d'usine de la catégorie reine du WRC.",
@@ -247,7 +263,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:Josh McErlean Rally Finland 2025 Ouninpohja.jpg",
+          "caption": "Josh McErlean en Puma Rally1, Rally Finland 2025",
+          "depicts": "Ford Puma Rally1 (spécification 2025)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La Puma Rally1, développée par M-Sport, représente Ford en WRC depuis 2022. Elle a gagné dès ses débuts au Rallye Monte-Carlo 2022.",
         "positioning": "Voiture Rally1 préparée par M-Sport pour Ford, également proposée aux équipes privées.",
@@ -358,7 +382,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:2024 Skoda Fabia RS Rally2.jpg",
+          "caption": "Škoda Fabia RS Rally2 au Goodwood Festival of Speed 2024",
+          "depicts": "Škoda Fabia RS Rally2",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La Fabia RS Rally2 est la voiture de rallye client de Škoda Motorsport, basée sur la Fabia de quatrième génération. Présentée le 14 juin 2022, elle a gagné dès sa première course.",
         "positioning": "Voiture Rally2 vendue aux équipes privées, deuxième échelon du WRC (WRC2) et référence des championnats nationaux et européen.",
@@ -462,7 +494,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:2024 Rally Japan Nikolay Gryazin.jpg",
+          "caption": "C3 Rally2 de Nikolay Gryazin, Rally Japan 2024",
+          "depicts": "Citroën C3 Rally2",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La C3 Rally2, née C3 R5 en 2018, est la voiture de rallye client de Citroën Racing. Elle a offert le titre WRC2 2020 à Mads Østberg.",
         "positioning": "Voiture Rally2 vendue aux équipes privées.",
@@ -566,7 +606,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:2024 Rally Japan Sami Pajari.jpg",
+          "caption": "GR Yaris Rally2 de Sami Pajari, Rally Japan 2024",
+          "depicts": "Toyota GR Yaris Rally2",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La GR Yaris Rally2 est la voiture de rallye client de Toyota, dotée du 3 cylindres 1,6 l turbo de la GR Yaris de série. Elle a fait ses débuts en WRC2 au Monte-Carlo 2024.",
         "positioning": "Voiture Rally2 vendue aux équipes privées, sous la GR Yaris Rally1 d'usine.",
@@ -670,7 +718,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:2024 Bohemia Rally Mladá Boleslav - Vlček.jpg",
+          "caption": "i20 N Rally2 de Martin Vlček, Bohemia Rally 2024",
+          "depicts": "Hyundai i20 N Rally2",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "L'i20 N Rally2 est la voiture de rallye client de Hyundai Motorsport, lancée au Ypres Rally 2021. Hayden Paddon et Teemu Suninen comptent parmi ses vainqueurs.",
         "positioning": "Voiture Rally2 vendue aux équipes privées par le programme Customer Racing de Hyundai Motorsport.",
@@ -788,7 +844,22 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:2023 Central European Rally - Fourmaux.jpg",
+          "caption": "Fiesta Rally2 MkII d'Adrien Fourmaux, Central European Rally 2023",
+          "depicts": "Ford Fiesta Rally2 (MkII)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:WRC-3 Central European Rallye 2023 Nr. 55 (1).jpg",
+          "caption": "Fiesta Rally3 de Filip Kohn, Central European Rally 2023",
+          "depicts": "Ford Fiesta Rally3",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "M-Sport décline la Fiesta en deux voitures de rallye client : la Rally2 à moteur 1,6 l et la Rally3, plus abordable, à 3 cylindres 1,5 l. La Rally3 est la voiture unique du Junior WRC depuis 2022.",
         "positioning": "Gamme client de M-Sport sous la Puma Rally1 : la Rally2 vise le WRC2, la Rally3 la catégorie d'accès à quatre roues motrices.",
@@ -956,7 +1027,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:Volkswagen Polo GTI R5.jpg",
+          "caption": "Volkswagen Polo GTI R5",
+          "depicts": "Volkswagen Polo GTI R5",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La Polo GTI R5 est la voiture de rallye client de Volkswagen Motorsport, dévoilée fin 2017 et engagée en compétition dès le Rallye de Catalogne 2018. Elle a remporté plusieurs manches WRC-2 et ERC.",
         "positioning": "Voiture R5 (Rally2) vendue aux équipes privées après l'arrêt du programme WRC d'usine de Volkswagen.",
@@ -1072,7 +1151,22 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:1975 Lancia Stratos HF Stradale.jpg",
+          "caption": "Lancia Stratos HF Stradale de 1975, London Concours 2024",
+          "depicts": "Lancia Stratos HF Stradale",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Lancia Stratos Tour Auto 2014 Circuit de Dijon Prenois 01.jpg",
+          "caption": "Lancia Stratos de compétition au Tour Auto 2014, Dijon-Prenois",
+          "depicts": "Lancia Stratos HF (version compétition)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La Stratos HF est une berlinette de rallye à V6 Ferrari Dino en position centrale. Elle a offert à Lancia trois titres mondiaux consécutifs (1974, 1975, 1976).",
         "positioning": "Arme de Lancia en rallye dans les années 1970, produite à environ 492 exemplaires routiers pour l'homologation en Groupe 4.",
@@ -1217,7 +1311,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:1983 Lancia 037 Evo2, front left (Greenwich 2019).jpg",
+          "caption": "Lancia 037 Evo 2 Martini de 1983, Greenwich 2019",
+          "depicts": "Lancia Rally 037 Evoluzione 2 (Groupe B)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La Lancia 037 a remporté le titre mondial des constructeurs 1983 avec une simple propulsion, face aux Audi quattro. Son 4 cylindres 2,0 l est suralimenté par compresseur Volumex.",
         "positioning": "Arme de Lancia en Groupe B entre la Stratos et la Delta S4.",
@@ -1323,7 +1425,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:Cerrato Lancia Delta S4 1986 Sanremo Rallye.jpg",
+          "caption": "Dario Cerrato en Delta S4, Rallye Sanremo 1986",
+          "depicts": "Lancia Delta S4 Groupe B",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La Delta S4 est la Groupe B à quatre roues motrices de Lancia, dont le 1,8 l combine compresseur et turbo. Elle a gagné le RAC Rally 1985 dès ses débuts, avant l'accident fatal d'Henri Toivonen au Tour de Corse 1986.",
         "positioning": "Ultime Lancia du Groupe B, successeur de la 037, à moteur central et quatre roues motrices.",
@@ -1430,7 +1540,22 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:1985 Audi Sport Quattro red.jpg",
+          "caption": "Audi Sport quattro rouge, London Concours 2021",
+          "depicts": "Audi Sport quattro (route)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:1985 Audi Sport Quattro S1 E2 HCC23.jpg",
+          "caption": "Audi Sport quattro S1 E2 de 1985, Hampton Court 2023",
+          "depicts": "Audi Sport quattro S1 E2 (Groupe B)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La Sport quattro est la version raccourcie de l'Audi quattro, construite à 224 exemplaires pour homologuer la S1 en Groupe B. Son évolution S1 E2 fut la dernière Groupe B d'Audi.",
         "positioning": "Successeur des quattro A1 et A2, avec lesquelles Audi a imposé la transmission intégrale en rallye.",
@@ -1582,7 +1707,22 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:1985 Peugeot 205 Turbo 16, front left (Greenwich).jpg",
+          "caption": "Peugeot 205 Turbo 16 de route 1985, Greenwich 2023",
+          "depicts": "Peugeot 205 Turbo 16 (route)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:1986 Peugeot 205 Turbo 16 Evo2 no.3.jpg",
+          "caption": "205 Turbo 16 Évolution 2 de 1986, L'Aventure Peugeot",
+          "depicts": "Peugeot 205 Turbo 16 Évolution 2 (Groupe B)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La 205 Turbo 16 est une 205 à moteur turbo central et quatre roues motrices, championne du monde des rallyes pilotes et constructeurs en 1985 et 1986. Elle a été homologuée grâce à 200 exemplaires routiers.",
         "positioning": "Groupe B de Peugeot Talbot Sport, sans rapport mécanique avec la 205 de série.",
@@ -1746,7 +1886,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:Ford RS200 Group B.jpg",
+          "caption": "Ford RS200 Groupe B, Hampton Court 2024",
+          "depicts": "Ford RS200 Groupe B",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La RS200 est la Groupe B de Ford, à moteur Cosworth turbo central et quatre roues motrices, construite à 200 exemplaires routiers. Sa meilleure place en championnat du monde est une troisième place au Rallye de Suède 1986.",
         "positioning": "Voiture conçue spécifiquement pour le Groupe B, arrivée juste avant l'abolition de la catégorie.",
@@ -1853,7 +2001,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:Subaru Impreza WRC97 (52344084299).jpg",
+          "caption": "Subaru Impreza WRC97 au Goodwood Festival of Speed 2022",
+          "depicts": "Subaru Impreza WRC97",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "L'Impreza WRC97 est la première World Rally Car de Subaru, conçue par Prodrive sur la base du coupé Impreza. Elle a gagné huit des quatorze manches 1997 et le titre constructeurs.",
         "positioning": "Première Impreza conçue selon la nouvelle réglementation World Rally Car de 1997.",
@@ -1971,7 +2127,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:Mitsubishi LANCER GSR Evolution VI (GF-CP9A) front.jpg",
+          "caption": "Lancer GSR Evolution VI (GF-CP9A), vue avant",
+          "depicts": "Mitsubishi Lancer Evolution VI GSR",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La Lancer Evolution VI est la berline avec laquelle Tommi Mäkinen a conquis en 1999 son quatrième titre mondial consécutif. Une série spéciale Tommi Mäkinen Edition lui a rendu hommage.",
         "positioning": "Dernière Evo d'homologation sur la base de la Lancer de deuxième génération.",
@@ -2089,7 +2253,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:Sébastien Loeb - 2005 Cyprus Rally 2.jpg",
+          "caption": "Sébastien Loeb en Xsara WRC, Rallye de Chypre 2005",
+          "depicts": "Citroën Xsara WRC",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La Xsara WRC a remporté 32 rallyes mondiaux, dont 28 avec Sébastien Loeb. Elle a apporté à Citroën trois titres constructeurs (2003-2005) et à Loeb ses trois premiers titres pilotes (2004-2006).",
         "positioning": "Première World Rally Car de Citroën, remplacée en 2007 par la C4 WRC.",
@@ -2193,7 +2365,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:DSC 0099 (10859787675).jpg",
+          "caption": "Volkswagen Polo R WRC au Rally GB 2013",
+          "depicts": "Volkswagen Polo R WRC",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La Polo R WRC a gagné 43 des 53 rallyes qu'elle a disputés de 2013 à 2016. Elle a offert quatre titres pilotes à Sébastien Ogier et quatre titres constructeurs à Volkswagen.",
         "positioning": "World Rally Car d'usine de Volkswagen, retirée après le départ de la marque du WRC fin 2016.",
@@ -2311,7 +2491,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:Sainz, Rallye Catalunya 1992. - panoramio.jpg",
+          "caption": "Carlos Sainz en Celica GT-Four ST185, Rallye Catalunya 1992",
+          "depicts": "Toyota Celica GT-Four ST185 Groupe A",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La Celica GT-Four ST185 a offert trois titres pilotes consécutifs à Toyota : Carlos Sainz (1992), Juha Kankkunen (1993) et Didier Auriol (1994). Toyota a aussi remporté les titres constructeurs 1993 et 1994.",
         "positioning": "Voiture de rallye Groupe A homologuée grâce à 5 000 Celica GT-Four RC de série.",
@@ -2430,7 +2618,22 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:Nationale oldtimerdag Zandvoort 2010, 1981 RENAULT 5 TURBO, JH-VZ-86.JPG",
+          "caption": "Renault 5 Turbo de 1981, Zandvoort 2010",
+          "depicts": "Renault 5 Turbo « Turbo 1 » (route)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Renault 5 Maxi Turbo - Race Retro 2008 01.jpg",
+          "caption": "Maxi 5 Turbo de Jean Ragnotti, Race Retro 2008",
+          "depicts": "Renault Maxi 5 Turbo (Groupe B)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La Renault 5 Turbo place un 1,4 l turbo en position centrale arrière dans une R5 élargie. Jean Ragnotti l'a menée à la victoire au Rallye Monte-Carlo 1981 puis au Tour de Corse 1982 et 1985.",
         "positioning": "Version d'homologation de rallye de la Renault 5, produite à 4 987 exemplaires (Turbo 1 et Turbo 2).",

@@ -39,6 +39,13 @@
           "depicts": "Dacia Sandero Stepway III restylée, vue arrière",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2026 Dacia Sandero III IMG 5889.jpg",
+          "caption": "Dacia Sandero III restylée (2025)",
+          "depicts": "Dacia Sandero III restylée (2025)",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -407,6 +414,20 @@
           "depicts": "Dacia Jogger Hybrid au salon de Genève 2024 (avant restylage)",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2026 Dacia Jogger IMG 4316.jpg",
+          "caption": "Dacia Jogger restylé (2025)",
+          "depicts": "Dacia Jogger restylé (2025)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2026 Dacia Jogger Hybrid IMG 4393.jpg",
+          "caption": "Dacia Jogger restylé (2025)",
+          "depicts": "Dacia Jogger restylé (2025), Hybrid",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -742,7 +763,15 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:2024 Dacia Spring GIMS 2024 1X7A2022.jpg",
+          "caption": "Dacia Spring (2024)",
+          "depicts": "Dacia Spring (2024)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "La Spring est une petite citadine électrique de 3,70 m à quatre places, parmi les moins chères du marché. Depuis fin 2025, elle propose 70 ou 100 ch et la recharge rapide à 40 kW.",
         "positioning": "Citadine électrique d’entrée de gamme, sous la Sandero.",
@@ -1001,6 +1030,13 @@
           "commonsFile": "File:Dacia Bigster 01.jpg",
           "caption": null,
           "depicts": "Dacia Bigster (2025)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Dacia Bigster hybrid 155 DSC 8348.jpg",
+          "caption": "Dacia Bigster (2025)",
+          "depicts": "Dacia Bigster (2025), Hybrid 155",
           "isOfficial": false,
           "resolved": null
         }
@@ -1376,6 +1412,13 @@
           "depicts": "Renault Captur II restylé au salon de Ludwigsburg 2024",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 Renault Captur II IMG 9302.jpg",
+          "caption": "Renault Captur II restylé (2024)",
+          "depicts": "Renault Captur II restylé (2024)",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1688,15 +1731,7 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [
-        {
-          "commonsFile": "File:2023 Renault Austral 1.2 E-Tech Hybrid techno at Renault Manchester 03.jpg",
-          "caption": null,
-          "depicts": "Renault Austral E-Tech hybrid de 2023 (avant restylage)",
-          "isOfficial": false,
-          "resolved": null
-        }
-      ],
+      "images": [],
       "editorial": {
         "summary": "L’Austral restylé est le SUV compact de Renault, proposé en mild hybrid 150 ou en full hybrid E-Tech 200. Le full hybrid associe un trois cylindres 1.2 turbo à un moteur électrique de 51 kW.",
         "positioning": "SUV compact entre le Symbioz et le Rafale.",
@@ -3150,6 +3185,13 @@
           "commonsFile": "File:Nissan Qashqai (III) – f 25042024.jpg",
           "caption": null,
           "depicts": "Nissan Qashqai III (J12), photo d’avril 2024",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Nissan Qashqai 1.5 e-POWER N-Connecta (III, Facelift) – f 03102025.jpg",
+          "caption": "Nissan Qashqai III restylé (J12)",
+          "depicts": "Nissan Qashqai III restylé (J12), e-POWER N-Connecta",
           "isOfficial": false,
           "resolved": null
         }

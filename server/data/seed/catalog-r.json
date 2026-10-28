@@ -38,6 +38,13 @@
           "depicts": "BMW Série 1 (F70) à Leonberg (2024), modèle de série",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW F70 M135 DSC 7849.jpg",
+          "caption": "BMW M135 xDrive (F70) à Stuttgart",
+          "depicts": "BMW Série 1 (F70), M135 xDrive",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -351,6 +358,13 @@
           "commonsFile": "File:BMW X1 U11 sDrive18d 2023 (1).jpg",
           "caption": "BMW X1 sDrive18d (U11), 2023",
           "depicts": "BMW X1 sDrive18d (U11), 2023, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW X1 xDrive30e M Sportpaket Pro (U11) – f 05062025.jpg",
+          "caption": "BMW X1 xDrive30e (U11), vue avant",
+          "depicts": "BMW X1 (U11), xDrive30e",
           "isOfficial": false,
           "resolved": null
         }
@@ -674,6 +688,20 @@
           "depicts": "BMW Série 3 Berline (G20, restylée), livrée de police roumaine",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW G20 LCI 330e M Sport M Portimao Blue Metallic (1).jpg",
+          "caption": "BMW 330e M Sport (G20 restylée) bleu Portimao",
+          "depicts": "BMW Série 3 Berline (G20 restylée), 330e",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW G20 LCI M340i Black Sapphire Metallic (1).jpg",
+          "caption": "BMW M340i (G20 restylée) noir Sapphire",
+          "depicts": "BMW Série 3 Berline (G20 restylée), M340i",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -995,6 +1023,13 @@
           "depicts": "BMW X3 M50 (G45), modèle de série",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW X3 G45 xDrive30e PHEV M Sport Package Dune Grey Metallic 01.jpg",
+          "caption": "BMW X3 30e xDrive (G45) gris Dune",
+          "depicts": "BMW X3 (G45), 30e xDrive",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1309,6 +1344,20 @@
           "commonsFile": "File:BMW 5-series (G60) Washington DC Metro Area, USA.jpg",
           "caption": "BMW Série 5 (G60) aux États-Unis",
           "depicts": "BMW Série 5 (G60) aux États-Unis, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 BMW 530e M Sport Auto.jpg",
+          "caption": "BMW 530e M Sport (G60)",
+          "depicts": "BMW Série 5 Berline (G60), 530e",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW i5 M60 Auto Zuerich 2023 1X7A0938.jpg",
+          "caption": "BMW i5 M60 au salon Auto Zürich 2023",
+          "depicts": "BMW i5 (G60), M60 xDrive",
           "isOfficial": false,
           "resolved": null
         }
@@ -1637,6 +1686,13 @@
           "depicts": "BMW X2 M35i (U10), modèle de série",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW U10E iX2 eDrive20 M Sport M Portimao Blue Metallic (1).jpg",
+          "caption": "BMW iX2 eDrive20 M Sport au Seoul Mobility Show 2025",
+          "depicts": "BMW iX2 (U10), eDrive20",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1951,6 +2007,20 @@
           "depicts": "Mercedes-Benz A 180 (W177) restylée, 2023, modèle de série",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes-Benz W177 250 e 1X7A7225.jpg",
+          "caption": "Mercedes-Benz A 250 e (W177 restylée), vue arrière 3/4",
+          "depicts": "Mercedes-Benz Classe A (W177), A 250 e",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes-AMG A 45 S 4MATIC+ (W177) front.jpg",
+          "caption": "Mercedes-AMG A 45 S 4MATIC+ (W177), vue avant",
+          "depicts": "Mercedes-Benz Classe A (W177), AMG A 45 S 4MATIC+",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -2151,7 +2221,7 @@
           "accel0100s": 3.9,
           "topSpeedKmh": 270,
           "consumption": {
-            "value": 9.0,
+            "value": 9,
             "unit": "l/100km",
             "cycle": "WLTP"
           },
@@ -2268,6 +2338,13 @@
           "commonsFile": "File:MERCEDES-AMG GLA 35 4MATIC (H247) China.jpg",
           "caption": "Mercedes-AMG GLA 35 4MATIC (H247)",
           "depicts": "Mercedes-AMG GLA 35 4MATIC (H247), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes-Benz GLA 250 e AMG Line (H 247) – f 11042021.jpg",
+          "caption": "Mercedes-Benz GLA 250 e AMG Line (H247), vue avant",
+          "depicts": "Mercedes-Benz GLA (H247), GLA 250 e",
           "isOfficial": false,
           "resolved": null
         }
@@ -2590,6 +2667,13 @@
           "depicts": "Mercedes-Benz GLC 300 e 4MATIC AMG Line (X254), modèle de série",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes-AMG GLC 43 4MATIC (X 254) – f 26072025.jpg",
+          "caption": "Mercedes-AMG GLC 43 4MATIC (X254), vue avant",
+          "depicts": "Mercedes-Benz GLC (X254), AMG GLC 43 4MATIC",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -2631,7 +2715,7 @@
           "torqueNm": 440,
           "drivetrain": "awd",
           "gearbox": "Automatique 9 rapports",
-          "accel0100s": 8.0,
+          "accel0100s": 8,
           "topSpeedKmh": 219,
           "consumption": {
             "value": 5.2,
@@ -2910,6 +2994,13 @@
           "depicts": "Mercedes-Benz EQA 250 AMG Line (H243), modèle de série",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes-Benz H243 EQA 250 Iridium Silver Metallic (1).jpg",
+          "caption": "Mercedes-Benz EQA 250 gris Iridium",
+          "depicts": "Mercedes-Benz EQA (H243), EQA 250",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -3116,7 +3207,7 @@
           "torqueNm": 520,
           "drivetrain": "awd",
           "gearbox": null,
-          "accel0100s": 6.0,
+          "accel0100s": 6,
           "topSpeedKmh": 160,
           "consumption": {
             "value": 18.1,
@@ -3242,6 +3333,13 @@
           "commonsFile": "File:MINI J01 Cooper SE Favoured Blazing Blue (5).jpg",
           "caption": "MINI Cooper SE électrique (J01)",
           "depicts": "MINI Cooper SE électrique (J01), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 MINI Cooper Sport C - 1499cc 1.5 (156PS) Petrol - Nanuq White - 06-2024, Front.jpg",
+          "caption": "MINI Cooper C Sport (F66) blanc Nanuq",
+          "depicts": "MINI Cooper 3 portes (F66), Cooper C",
           "isOfficial": false,
           "resolved": null
         }
@@ -3570,6 +3668,13 @@
           "commonsFile": "File:Mini Countryman (U25) John Cooper Works IMG 0034.jpg",
           "caption": "MINI Countryman John Cooper Works (U25)",
           "depicts": "MINI Countryman John Cooper Works (U25), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 MINI Countryman Exclusive C - 1499cc 1.5 (170PS) Petrol - Smokey Green - 03-2024, Front.jpg",
+          "caption": "MINI Countryman C Exclusive (U25) vert Smokey Green",
+          "depicts": "MINI Countryman (U25), Countryman C",
           "isOfficial": false,
           "resolved": null
         }
@@ -4015,7 +4120,7 @@
           "accel0100s": 7.1,
           "topSpeedKmh": 170,
           "consumption": {
-            "value": 14.0,
+            "value": 14,
             "unit": "kWh/100km",
             "cycle": "WLTP"
           },

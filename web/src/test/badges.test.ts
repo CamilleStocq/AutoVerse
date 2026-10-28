@@ -56,3 +56,15 @@ describe.skipIf(!catalog)('collection complète', () => {
     expect(done.reward).toBe(0);
   });
 });
+
+describe.skipIf(!catalog)('photos des cartes', () => {
+  it('deux cartes n’ont jamais la même photo', () => {
+    const real = collectibleCards({
+      brands: new Map(catalog!.brands.map((b) => [b.id, b])),
+      generations: new Map(catalog!.generations.map((g) => [g.id, g])),
+      imagesFor: (g) => ((catalog as unknown as { images?: Record<string, never[]> }).images?.[g.id] ?? []),
+    }, 'BE');
+    const srcs = real.map((c) => c.image?.src).filter(Boolean);
+    expect(new Set(srcs).size).toBe(srcs.length);
+  });
+});

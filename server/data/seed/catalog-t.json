@@ -24,7 +24,22 @@
       ],
       "previousGenerationId": null,
       "nextGenerationId": null,
-      "images": [],
+      "images": [
+        {
+          "commonsFile": "File:Mazda CX-5 KM 2.5 e-Skyactiv-G AWD Mild Hybrid Premium Plus Navy Blue Mica 01.jpg",
+          "caption": "Nouveau Mazda CX-5 2.5 e-Skyactiv G AWD bleu Navy",
+          "depicts": "Mazda CX-5 (3e génération), 2.5 e-Skyactiv G AWD",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mazda CX-5 (KM) IMG 7051.jpg",
+          "caption": "Nouveau Mazda CX-5 rouge, vue avant 3/4",
+          "depicts": "Mazda CX-5 (3e génération)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
       "editorial": {
         "summary": "Troisième génération du SUV best-seller de Mazda, le CX-5 grandit (4,69 m) et adopte un unique 2.5 e-Skyactiv G micro-hybride de 141 ch.",
         "positioning": "SUV compact familial de Mazda, placé entre le CX-30 et le CX-60.",
@@ -66,7 +81,7 @@
           "accel0100s": 10.5,
           "topSpeedKmh": 187,
           "consumption": {
-            "value": 7.0,
+            "value": 7,
             "unit": "l/100km",
             "cycle": "WLTP"
           },
@@ -345,7 +360,7 @@
           "accel0100s": 9.2,
           "topSpeedKmh": 204,
           "consumption": {
-            "value": 7.0,
+            "value": 7,
             "unit": "l/100km",
             "cycle": "WLTP"
           },
@@ -443,6 +458,13 @@
           "commonsFile": "File:Mazda CX-60 PHEV 1X7A0369.jpg",
           "caption": "Mazda CX-60 PHEV",
           "depicts": "Mazda CX-60 PHEV, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 Mazda CX-60 3.3 e-Skyactiv-D AWD MHEV Turbo Sport in Soul Red Crystal, front left, 07-10-2024.jpg",
+          "caption": "Mazda CX-60 3.3 e-Skyactiv D AWD rouge Soul Red",
+          "depicts": "Mazda CX-60 (2022), e-Skyactiv D AWD",
           "isOfficial": false,
           "resolved": null
         }
@@ -975,6 +997,13 @@
           "depicts": "Mazda 6e, modèle de série",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Mazda6e Automesse Ludwigsburg 2025 DSC 2594.jpg",
+          "caption": "Mazda 6e à l'Automesse Ludwigsburg 2025",
+          "depicts": "Mazda 6e (2025)",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1307,7 +1336,7 @@
           "accel0100s": 9.1,
           "topSpeedKmh": 140,
           "consumption": {
-            "value": 1.0,
+            "value": 1,
             "unit": "l/100km",
             "cycle": "WLTP"
           },
@@ -1671,6 +1700,13 @@
           "depicts": "Honda CR-V (6e génération) e:PHEV",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Honda CR-V e-HEV Elegance AWD (VI) – f 14072024.jpg",
+          "caption": "Honda CR-V e:HEV Elegance AWD (6e génération), vue avant",
+          "depicts": "Honda CR-V (6e génération), e:HEV AWD",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -1711,7 +1747,7 @@
           "torqueNm": 335,
           "drivetrain": "fwd",
           "gearbox": "Automatique (transmission e:HEV à rapport fixe)",
-          "accel0100s": 9.0,
+          "accel0100s": 9,
           "topSpeedKmh": 194,
           "consumption": {
             "value": 5.9,
@@ -2466,6 +2502,13 @@
           "depicts": "Range Rover Evoque (L551)",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Land Rover RANGE ROVER EVOQUE R-DYNAMIC HSE P300E (5BA-LZ2XA) front.jpg",
+          "caption": "Range Rover Evoque R-Dynamic HSE P300e, vue avant",
+          "depicts": "Range Rover Evoque (L551), P300e",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -2792,6 +2835,13 @@
           "depicts": "Land Rover Defender OCTA (L663)",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 Land Rover Defender 90 X-Dynamic HSE D250.jpg",
+          "caption": "Land Rover Defender 90 X-Dynamic HSE D250 gris Indus",
+          "depicts": "Land Rover Defender (L663), Defender 90 D250",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -2832,7 +2882,7 @@
           "torqueNm": 570,
           "drivetrain": "awd",
           "gearbox": "Automatique 8 rapports",
-          "accel0100s": 8.0,
+          "accel0100s": 8,
           "topSpeedKmh": 188,
           "consumption": {
             "value": 8.5,
@@ -2990,7 +3040,7 @@
           "torqueNm": 750,
           "drivetrain": "awd",
           "gearbox": null,
-          "accel0100s": 4.0,
+          "accel0100s": 4,
           "topSpeedKmh": 250,
           "consumption": null,
           "electricRangeKm": null,
@@ -3101,6 +3151,13 @@
           "commonsFile": "File:Land Rover Range Rover Sport L461 Carpathian Grey (1).jpg",
           "caption": "Range Rover Sport (L461) Carpathian Grey",
           "depicts": "Range Rover Sport (L461)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 Range Rover Sport P400 Dynamic SE in Fuji White, front left.jpg",
+          "caption": "Range Rover Sport P400 Dynamic SE blanc Fuji",
+          "depicts": "Range Rover Sport (L461), P400",
           "isOfficial": false,
           "resolved": null
         }
@@ -3403,6 +3460,13 @@
           "depicts": "Lexus NX 350h (AZ20)",
           "isOfficial": false,
           "resolved": null
+        },
+        {
+          "commonsFile": "File:Lexus NX 450h+ (AAZH26) 1X7A0347.jpg",
+          "caption": "Lexus NX 450h+ F Sport à Filderstadt",
+          "depicts": "Lexus NX (AZ20), 450h+",
+          "isOfficial": false,
+          "resolved": null
         }
       ],
       "editorial": {
@@ -3522,7 +3586,7 @@
           "accel0100s": 7.7,
           "topSpeedKmh": 200,
           "consumption": {
-            "value": 6.0,
+            "value": 6,
             "unit": "l/100km",
             "cycle": "WLTP"
           },
@@ -3601,7 +3665,7 @@
           "accel0100s": 6.3,
           "topSpeedKmh": 200,
           "consumption": {
-            "value": 1.0,
+            "value": 1,
             "unit": "l/100km",
             "cycle": "WLTP"
           },
@@ -3961,6 +4025,13 @@
           "commonsFile": "File:Polestar 2 facelift 003.jpg",
           "caption": "Polestar 2 restylée",
           "depicts": "Polestar 2 restylée",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Polestar 2 Long Range Dual Motor (Facelift) – f 05072025.jpg",
+          "caption": "Polestar 2 Long Range Dual Motor restylée, vue avant",
+          "depicts": "Polestar 2 (restylée), Long Range Dual Motor",
           "isOfficial": false,
           "resolved": null
         }
