@@ -1,0 +1,2448 @@
+{
+  "generations": [
+    {
+      "id": "ferrari-f50",
+      "modelId": "ferrari-f50",
+      "brandId": "ferrari",
+      "modelName": "F50",
+      "name": "F50 (Tipo F130)",
+      "yearsLabel": "1995 – 1997",
+      "startYear": 1995,
+      "endYear": 1997,
+      "status": "discontinued",
+      "segment": "Supercar à moteur central arrière",
+      "bodyStyles": [
+        "Targa 2 portes"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:1997 Ferrari F50 front.jpg",
+          "caption": null,
+          "depicts": "Ferrari F50 de 1997, vue avant",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Ferrari F50 Sinsheim.jpg",
+          "caption": null,
+          "depicts": "Ferrari F50 exposée au Technik Museum de Sinsheim",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Supercar du cinquantenaire de Ferrari, la F50 reçoit un V12 dérivé de celui de la Ferrari 641 de Formule 1 de 1990. Seuls 349 exemplaires ont été construits entre 1995 et 1997.",
+        "positioning": "Successeur de la F40 au sommet de la gamme Ferrari dans les années 1990.",
+        "technicalFacts": [
+          "V12 à 65° de 4 698 cm³ (Tipo F130B), 520 ch (382 kW) à 8 500 tr/min.",
+          "Couple de 471 Nm à 6 500 tr/min.",
+          "Boîte manuelle 6 rapports, propulsion, moteur central arrière.",
+          "Dessin de Pininfarina (Pietro Camardella et Lorenzo Ramaciotti).",
+          "349 exemplaires produits."
+        ],
+        "pros": [
+          "V12 atmosphérique d'origine F1 à très haut régime.",
+          "Rareté extrême et statut d'icône."
+        ],
+        "differentiators": [
+          "V12 développé à partir du 3,5 litres de la monoplace Ferrari 641 (saison 1990 de F1)."
+        ],
+        "pricePositioning": "Modèle de collection : aucun prix neuf d'époque retenu (pas de prix sourcé dans une devise du catalogue) ; cote actuelle non renseignée.",
+        "innovations": [],
+        "compromises": [
+          "Confort et insonorisation sacrifiés au profit de la sensation mécanique.",
+          "Longtemps jugée moins radicale que la F40 par une partie des amateurs."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ferrari-f50-f50",
+          "name": "F50",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 65° atmosphérique",
+            "displacementCc": 4698
+          },
+          "powerHp": 520,
+          "powerKw": 382,
+          "torqueNm": 471,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 325,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1230,
+          "dimensions": {
+            "lengthMm": 4480,
+            "widthMm": 1986,
+            "heightMm": 1120,
+            "wheelbaseMm": 2580
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs d'époque d'après Wikipedia (site Ferrari non lisible) : 520 PS (382 kW) à 8 500 tr/min, cylindrée 4 698,50 cm³. Vitesse maximale 325 km/h annoncée. Seul le 0-97 km/h (3,8 s) est publié : 0-100 km/h laissé vide. Poids : masse à vide (« curb weight ») selon la source.",
+          "sources": [
+            {
+              "label": "Wikipedia – Ferrari F50",
+              "url": "https://en.wikipedia.org/wiki/Ferrari_F50",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Ferrari F50",
+          "url": "https://en.wikipedia.org/wiki/Ferrari_F50",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ferrari-enzo",
+      "modelId": "ferrari-enzo",
+      "brandId": "ferrari",
+      "modelName": "Enzo Ferrari",
+      "name": "Enzo Ferrari (Tipo F140)",
+      "yearsLabel": "2002 – 2004",
+      "startYear": 2002,
+      "endYear": 2004,
+      "status": "discontinued",
+      "segment": "Hypercar à moteur central arrière",
+      "bodyStyles": [
+        "Berlinette (coupé) à portes papillon"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Red Ferrari Enzo in Nancy 2013.jpg",
+          "caption": null,
+          "depicts": "Ferrari Enzo rouge à Nancy (2013)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2003 Ferrari Enzo.jpg",
+          "caption": null,
+          "depicts": "Ferrari Enzo de 2003",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Hypercar baptisée du nom du fondateur, l'Enzo a été dévoilée au Mondial de l'automobile de Paris 2002. Son V12 de 6,0 litres et sa boîte robotisée issue de la F1 en ont fait la Ferrari de route la plus extrême de son époque.",
+        "positioning": "Successeur de la F50 au sommet de la gamme Ferrari au début des années 2000.",
+        "technicalFacts": [
+          "V12 de 5 999 cm³ (Tipo F140 B), 660 ch (485 kW) à 7 800 tr/min.",
+          "Couple de 657 Nm à 5 500 tr/min.",
+          "Boîte robotisée « F1 » 6 rapports (Graziano), propulsion.",
+          "Dessin de Ken Okuyama chez Pininfarina.",
+          "498 exemplaires produits de 2002 à 2004."
+        ],
+        "pros": [
+          "V12 atmosphérique de 660 ch, parmi les plus puissants de son époque.",
+          "Technologie directement inspirée de la Formule 1 de l'ère Schumacher."
+        ],
+        "differentiators": [
+          "Portes à ouverture en élytre et nez inspiré des monoplaces F1."
+        ],
+        "pricePositioning": "Modèle de collection : aucun prix neuf d'époque retenu (pas de prix sourcé dans une devise du catalogue) ; cote actuelle non renseignée.",
+        "innovations": [],
+        "compromises": [
+          "Boîte robotisée de première génération, moins douce que les doubles embrayages actuels.",
+          "Ligne très technique qui a divisé à sa sortie."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ferrari-enzo-enzo",
+          "name": "Enzo Ferrari",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 atmosphérique",
+            "displacementCc": 5999
+          },
+          "powerHp": 660,
+          "powerKw": 485,
+          "torqueNm": 657,
+          "drivetrain": "rwd",
+          "gearbox": "Robotisée 6 rapports (F1)",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4702,
+            "widthMm": 2035,
+            "heightMm": 1147,
+            "wheelbaseMm": 2650
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs d'après Wikipedia (site Ferrari non lisible) : 660 PS (485 kW), cylindrée 5 998,80 cm³. Vitesse maximale de 355 km/h « enregistrée » et 0-97 km/h en 3,14 s : valeurs non constructeur, laissées vides. Poids : 1 255 kg à sec et 1 480 kg en ordre de marche selon la source, valeurs divergentes laissées vides.",
+          "sources": [
+            {
+              "label": "Wikipedia – Enzo Ferrari (automobile)",
+              "url": "https://en.wikipedia.org/wiki/Enzo_Ferrari_(automobile)",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2002
+          },
+          "market": "FR",
+          "source": {
+            "label": "Wikipedia – Enzo Ferrari (automobile)",
+            "url": "https://en.wikipedia.org/wiki/Enzo_Ferrari_(automobile)",
+            "type": "database",
+            "publishedAt": null,
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Enzo Ferrari (automobile)",
+          "url": "https://en.wikipedia.org/wiki/Enzo_Ferrari_(automobile)",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ferrari-250-gto",
+      "modelId": "ferrari-250-gto",
+      "brandId": "ferrari",
+      "modelName": "250 GTO",
+      "name": "250 GTO",
+      "yearsLabel": "1962 – 1964",
+      "startYear": 1962,
+      "endYear": 1964,
+      "status": "discontinued",
+      "segment": "Grand tourisme de compétition homologué pour la route",
+      "bodyStyles": [
+        "Berlinette (coupé)"
+      ],
+      "categories": [
+        "classic",
+        "gt",
+        "coupe",
+        "sports"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:1962 Ferrari 250 GTO HCC23.jpg",
+          "caption": null,
+          "depicts": "Ferrari 250 GTO de 1962, Hampton Court Concours 2023",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Construite à 36 exemplaires pour l'homologation en catégorie GT, la 250 GTO est l'une des Ferrari les plus convoitées de l'histoire. Elle débute en course aux 12 Heures de Sebring 1962 avec une deuxième place au général.",
+        "positioning": "Grand tourisme de course homologuée pour la route, sommet de la lignée Ferrari 250.",
+        "technicalFacts": [
+          "V12 Colombo à 60° de 2 953 cm³ (Tipo 168 Comp/62), 300 ch (221 kW) à 7 500 tr/min.",
+          "Couple de 294 Nm à 5 500 tr/min.",
+          "Boîte manuelle 5 rapports, propulsion, moteur avant.",
+          "Conception attribuée à Giotto Bizzarrini et carrosserie à Sergio Scaglietti.",
+          "36 exemplaires (39 en comptant les trois 330 GTO)."
+        ],
+        "pros": [
+          "Pedigree en compétition exceptionnel.",
+          "Une des voitures les plus recherchées par les collectionneurs."
+        ],
+        "differentiators": [
+          "Conçue d'abord pour la course GT, utilisable sur route."
+        ],
+        "pricePositioning": "Modèle de collection : aucun prix neuf d'époque retenu (pas de prix sourcé dans une devise du catalogue) ; cote actuelle non renseignée.",
+        "innovations": [],
+        "compromises": [
+          "Voiture de compétition des années 1960 : confort et sécurité rudimentaires.",
+          "Pratiquement jamais utilisée sur route aujourd'hui, vu sa valeur."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ferrari-250-gto-250-gto",
+          "name": "250 GTO",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 60° atmosphérique (Colombo)",
+            "displacementCc": 2953
+          },
+          "powerHp": 300,
+          "powerKw": 221,
+          "torqueNm": 294,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4325,
+            "widthMm": 1600,
+            "heightMm": 1210,
+            "wheelbaseMm": 2400
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs d'époque d'après Wikipedia : 300 PS (221 kW) à 7 500 tr/min. Masse indiquée en fourchette (880 à 950 kg), laissée vide. Vitesse maximale et 0-100 km/h non publiés dans la source. Prix neuf d'époque en dollars US (18 000 $ selon l'introduction, 18 500 selon le tableau des prix) : devise hors catalogue, non repris.",
+          "sources": [
+            {
+              "label": "Wikipedia – Ferrari 250 GTO",
+              "url": "https://en.wikipedia.org/wiki/Ferrari_250_GTO",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Ferrari 250 GTO",
+          "url": "https://en.wikipedia.org/wiki/Ferrari_250_GTO",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mclaren-f1",
+      "modelId": "mclaren-f1",
+      "brandId": "mclaren",
+      "modelName": "F1",
+      "name": "F1",
+      "yearsLabel": "1992 – 1998",
+      "startYear": 1992,
+      "endYear": 1998,
+      "status": "discontinued",
+      "segment": "Supercar à moteur central arrière",
+      "bodyStyles": [
+        "Coupé 3 places à portes papillon"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:1996 McLaren F1 Chassis No 63 6.1 Front.jpg",
+          "caption": null,
+          "depicts": "McLaren F1 de 1996 (châssis n° 63), Concours of Elegance Hampton Court 2019",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:1993 McLaren F1 (64712).jpg",
+          "caption": null,
+          "depicts": "McLaren F1 de 1993",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Conçue par Gordon Murray, la McLaren F1 place le conducteur au centre d'un habitacle à trois places, derrière lequel loge un V12 BMW atmosphérique de 6,1 litres. Présentée à Monaco le 28 mai 1992, elle a détenu le record de la voiture de série la plus rapide.",
+        "positioning": "Supercar de référence des années 1990, première voiture de route de McLaren.",
+        "technicalFacts": [
+          "V12 BMW S70/2 de 6 064 cm³, 627 ch (461 kW) à 7 400 tr/min.",
+          "Couple de 650 Nm à 5 600 tr/min.",
+          "Boîte manuelle 6 rapports, propulsion.",
+          "Poste de conduite central et deux passagers en retrait.",
+          "Record de 386,4 km/h établi en 1998 par le prototype XP5, limiteur relevé."
+        ],
+        "pros": [
+          "Rapport poids/puissance exceptionnel pour une voiture de route des années 1990.",
+          "Moteur atmosphérique exceptionnel, conçu par Paul Rosche chez BMW."
+        ],
+        "differentiators": [
+          "Trois places avec conducteur au centre, configuration restée quasi unique."
+        ],
+        "pricePositioning": "Modèle de collection : aucun prix neuf d'époque retenu (pas de prix sourcé dans une devise du catalogue) ; cote actuelle non renseignée.",
+        "innovations": [],
+        "compromises": [
+          "Accès à bord acrobatique et position centrale déroutante.",
+          "Aucune aide électronique ni assistance de direction."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mclaren-f1-f1",
+          "name": "F1 (route)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 BMW atmosphérique",
+            "displacementCc": 6064
+          },
+          "powerHp": 627,
+          "powerKw": 461,
+          "torqueNm": 650,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1260,
+          "dimensions": {
+            "lengthMm": 4287,
+            "widthMm": 1820,
+            "heightMm": 1140,
+            "wheelbaseMm": 2718
+          },
+          "seats": 3,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs d'après Wikipedia : 627 PS (461 kW). Poids : 1 140 kg à sec, 1 260 kg en ordre de marche (retenu). Vitesse maximale : 356 km/h mesurés par Car and Driver au régime maxi en 6e ; record de 386,4 km/h par le prototype XP5 (limiteur à 8 300 tr/min) : valeurs non constructeur pour la version de série, laissées vides. 0-100 km/h non publié dans la source. Prix neuf d'époque contradictoire selon les sources (540 000 ou 640 000 £), non repris. 64 ou 62 voitures de route selon les passages de la source.",
+          "sources": [
+            {
+              "label": "Wikipedia – McLaren F1",
+              "url": "https://en.wikipedia.org/wiki/McLaren_F1",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 1992,
+            "month": 5,
+            "day": 28
+          },
+          "market": "MC",
+          "source": {
+            "label": "Wikipedia – McLaren F1",
+            "url": "https://en.wikipedia.org/wiki/McLaren_F1",
+            "type": "database",
+            "publishedAt": null,
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – McLaren F1",
+          "url": "https://en.wikipedia.org/wiki/McLaren_F1",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lamborghini-miura",
+      "modelId": "lamborghini-miura",
+      "brandId": "lamborghini",
+      "modelName": "Miura",
+      "name": "Miura",
+      "yearsLabel": "1966 – 1973",
+      "startYear": 1966,
+      "endYear": 1973,
+      "status": "discontinued",
+      "segment": "Supercar à moteur central arrière",
+      "bodyStyles": [
+        "Berlinette (coupé)"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Lamborghini Miura P400 (1967) Classic-Gala 2022 1X7A0061.jpg",
+          "caption": null,
+          "depicts": "Lamborghini Miura P400 de 1967, Classic-Gala 2022",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:1971 Lamborghini Miura P400 SV.jpg",
+          "caption": null,
+          "depicts": "Lamborghini Miura P400 SV de 1971, Concours of Elegance Hampton Court 2019",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Souvent présentée comme la première supercar moderne, la Miura installe un V12 transversal en position centrale arrière dans une carrosserie dessinée par Marcello Gandini chez Bertone. Le prototype P400 a été dévoilé au Salon de Genève 1966.",
+        "positioning": "Supercar phare de Lamborghini de la fin des années 1960, avant la Countach.",
+        "technicalFacts": [
+          "V12 de 3 929 cm³ monté transversalement en position centrale arrière.",
+          "Boîte manuelle 5 rapports, propulsion.",
+          "Dessin de Marcello Gandini chez Bertone.",
+          "Châssis roulant présenté au Salon de Turin 1965.",
+          "Production : 275 P400, 338 P400 S et 150 P400 SV."
+        ],
+        "pros": [
+          "Ligne considérée comme l'une des plus belles de l'histoire automobile.",
+          "Architecture à moteur central qui a défini la supercar."
+        ],
+        "differentiators": [
+          "V12 transversal partageant son carter avec la boîte (sauf lubrification séparée sur la SV)."
+        ],
+        "pricePositioning": "Modèle de collection : aucun prix neuf d'époque retenu (pas de prix sourcé dans une devise du catalogue) ; cote actuelle non renseignée.",
+        "innovations": [],
+        "compromises": [
+          "Comportement délicat à haute vitesse, critiqué à l'époque.",
+          "Habitacle exigu et chaleur du moteur proche des occupants."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lamborghini-miura-p400",
+          "name": "Miura P400",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 atmosphérique transversal",
+            "displacementCc": 3929
+          },
+          "powerHp": 350,
+          "powerKw": 257,
+          "torqueNm": 355,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 300,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4360,
+            "widthMm": 1760,
+            "heightMm": 1060,
+            "wheelbaseMm": 2500
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs d'époque d'après Wikipedia : 350 PS (257 kW) à 7 000 tr/min, 355 Nm à 5 000 tr/min, 1966-1969, 275 exemplaires. Vitesse maximale : 300 km/h annoncés (275 km/h mesurés). Poids : 1 125 kg à sec seulement, laissé vide. Seul un 0-97 km/h mesuré est publié : 0-100 km/h laissé vide.",
+          "sources": [
+            {
+              "label": "Wikipedia – Lamborghini Miura",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_Miura",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lamborghini-miura-p400-sv",
+          "name": "Miura P400 SV",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 atmosphérique transversal",
+            "displacementCc": 3929
+          },
+          "powerHp": 385,
+          "powerKw": 283,
+          "torqueNm": 400,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 290,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4360,
+            "widthMm": 1780,
+            "heightMm": 1060,
+            "wheelbaseMm": 2500
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance et couple d'après Wikipedia : 385 PS (283 kW) à 7 850 tr/min, 400 Nm à 5 750 tr/min, 1971-1973, 150 exemplaires. Vitesse maximale de 290 km/h annoncée selon Lambocars (source communautaire). Poids : 1 298 kg à sec (Wikipedia) et 1 245 kg (Lambocars), divergents, laissé vide. Voies arrière élargies (1 540 mm).",
+          "sources": [
+            {
+              "label": "Wikipedia – Lamborghini Miura",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_Miura",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Lambocars – Miura P400 SV Specs & Performance",
+              "url": "https://www.lambocars.com/miura-p400-sv-specs-performance/",
+              "type": "community",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 1966
+          },
+          "market": "CH",
+          "source": {
+            "label": "Wikipedia – Lamborghini Miura",
+            "url": "https://en.wikipedia.org/wiki/Lamborghini_Miura",
+            "type": "database",
+            "publishedAt": null,
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Lamborghini Miura",
+          "url": "https://en.wikipedia.org/wiki/Lamborghini_Miura",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lamborghini-countach",
+      "modelId": "lamborghini-countach",
+      "brandId": "lamborghini",
+      "modelName": "Countach",
+      "name": "Countach (1974)",
+      "yearsLabel": "1974 – 1990",
+      "startYear": 1974,
+      "endYear": 1990,
+      "status": "discontinued",
+      "segment": "Supercar à moteur central arrière",
+      "bodyStyles": [
+        "Coupé à portes en élytre"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:1974 Lamborghini Countach LP400 at Grand basel 2018 (Ank Kumar) 01.jpg",
+          "caption": null,
+          "depicts": "Lamborghini Countach LP400 de 1974, Grand Basel 2018",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:1985 Lamborghini Countach 5000 Quattrovalvole in Rosso, front right.jpg",
+          "caption": null,
+          "depicts": "Lamborghini Countach 5000 Quattrovalvole « Downdraft », Greenwich Concours 2025",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Avec sa silhouette en coin et ses portes en élytre, la Countach dessinée par Marcello Gandini a défini l'image de la supercar pendant deux décennies. Elle a évolué de la LP400 de 1974 à la 5000 Quattrovalvole de 1985.",
+        "positioning": "Supercar phare de Lamborghini des années 1970 et 1980, successeur de la Miura.",
+        "technicalFacts": [
+          "V12 monté longitudinalement en position centrale arrière, boîte placée devant le moteur.",
+          "Boîte manuelle 5 rapports synchronisée, propulsion.",
+          "Dessin de Marcello Gandini chez Bertone.",
+          "LP400 présentée au Salon de Genève 1974 ; 157 exemplaires.",
+          "5000 Quattrovalvole (1985-1988) : 5 167 cm³, culasses à 4 soupapes par cylindre ; 610 exemplaires."
+        ],
+        "pros": [
+          "Design spectaculaire devenu une icône des posters.",
+          "V12 rageur, particulièrement la version Quattrovalvole."
+        ],
+        "differentiators": [
+          "Portes en élytre, devenues une signature des V12 Lamborghini."
+        ],
+        "pricePositioning": "Modèle de collection : aucun prix neuf d'époque retenu (pas de prix sourcé dans une devise du catalogue) ; cote actuelle non renseignée.",
+        "innovations": [],
+        "compromises": [
+          "Visibilité arrière quasi nulle.",
+          "Ergonomie et confort très sommaires."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lamborghini-countach-lp400",
+          "name": "Countach LP400",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 atmosphérique longitudinal",
+            "displacementCc": 3929
+          },
+          "powerHp": 375,
+          "powerKw": 276,
+          "torqueNm": 361,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": 5.4,
+          "topSpeedKmh": 315,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1300.5,
+          "dimensions": {
+            "lengthMm": 4140,
+            "widthMm": 1887,
+            "heightMm": 1070,
+            "wheelbaseMm": 2450
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs d'après Wikipedia : 375 PS (276 kW) à 8 000 tr/min ; couple 361 Nm à 5 000 tr/min selon le tableau moteur (5 500 tr/min dans le texte). Vitesse maximale 315 km/h annoncée (288 km/h mesurés). Poids en ordre de marche 1 300,5 kg (1 065 kg à sec). Longueur, hauteur et empattement : valeurs générales du modèle. 1974-1978, 157 exemplaires.",
+          "sources": [
+            {
+              "label": "Wikipedia – Lamborghini Countach",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_Countach",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lamborghini-countach-5000-qv",
+          "name": "Countach 5000 Quattrovalvole",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 atmosphérique longitudinal, 48 soupapes",
+            "displacementCc": 5167
+          },
+          "powerHp": 455,
+          "powerKw": 335,
+          "torqueNm": 500,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": 4.8,
+          "topSpeedKmh": 298,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1488,
+          "dimensions": {
+            "lengthMm": 4140,
+            "widthMm": 2000,
+            "heightMm": 1070,
+            "wheelbaseMm": 2450
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs d'après Wikipedia pour la version européenne à carburateurs Weber (« Downdraft ») : 455 PS (335 kW) à 7 000 tr/min, 500 Nm à 5 200 tr/min. Version à injection (marché US) : 426 PS (313 kW) et 461 Nm. Poids en ordre de marche 1 488 kg. Longueur, hauteur et empattement : valeurs générales du modèle (pare-chocs US plus longs). 1985-1988, 610 exemplaires.",
+          "sources": [
+            {
+              "label": "Wikipedia – Lamborghini Countach",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_Countach",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 1974
+          },
+          "market": "CH",
+          "source": {
+            "label": "Wikipedia – Lamborghini Countach",
+            "url": "https://en.wikipedia.org/wiki/Lamborghini_Countach",
+            "type": "database",
+            "publishedAt": null,
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Lamborghini Countach",
+          "url": "https://en.wikipedia.org/wiki/Lamborghini_Countach",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "porsche-959",
+      "modelId": "porsche-959",
+      "brandId": "porsche",
+      "modelName": "959",
+      "name": "959",
+      "yearsLabel": "1986 – 1993",
+      "startYear": 1986,
+      "endYear": 1993,
+      "status": "discontinued",
+      "segment": "Supercar à moteur arrière et transmission intégrale",
+      "bodyStyles": [
+        "Coupé 2+2"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Porsche 959 Komfort at Canepa Motorsports Museum Scotts Valley dllu.jpg",
+          "caption": null,
+          "depicts": "Porsche 959 Komfort, profil, Canepa Motorsports Museum",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Silver Porsche 959 front left.jpg",
+          "caption": null,
+          "depicts": "Porsche 959 argent, trois quarts avant",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Démonstrateur technologique conçu pour le Groupe B, la 959 associe un flat-six biturbo de 2,85 litres à une transmission intégrale pilotée électroniquement. Porsche annonce 450 ch et 315 km/h.",
+        "positioning": "Vitrine technologique de Porsche dans les années 1980, dérivée de la 911.",
+        "technicalFacts": [
+          "Flat-six biturbo de 2 849 cm³, 450 ch (331 kW).",
+          "Transmission intégrale à pilotage électronique, associée à l'ABS.",
+          "Moteur étroitement dérivé de celui de la 956 victorieuse en endurance.",
+          "Amortissement à quatre programmes et correcteur d'assiette selon la vitesse.",
+          "Concept Groupe B présenté au Salon de Francfort 1983."
+        ],
+        "pros": [
+          "Avance technologique considérable pour son époque.",
+          "Performances accessibles grâce à la transmission intégrale."
+        ],
+        "differentiators": [
+          "Transmission intégrale à pilotage électronique, rare sur une supercar en 1986."
+        ],
+        "pricePositioning": "Modèle de collection : aucun prix neuf d'époque retenu (pas de prix sourcé dans une devise du catalogue) ; cote actuelle non renseignée.",
+        "innovations": [],
+        "compromises": [
+          "Complexité mécanique et coût d'entretien élevés.",
+          "Ligne moins spectaculaire que ses rivales italiennes."
+        ]
+      },
+      "variants": [
+        {
+          "id": "porsche-959-959",
+          "name": "959",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "Flat-six biturbo",
+            "displacementCc": 2849
+          },
+          "powerHp": 450,
+          "powerKw": 331,
+          "torqueNm": 500,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 315,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4260,
+            "widthMm": 1840,
+            "heightMm": 1280,
+            "wheelbaseMm": 2272
+          },
+          "seats": 4,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance, cylindrée et vitesse maximale : Porsche Newsroom (331 kW / 450 ch, 315 km/h). Couple de 500 Nm à 5 000 tr/min, boîte et dimensions : Wikipedia. Poids : 1 450 kg selon Wikipedia, valeur non confirmée par le constructeur, laissé vide. 0-100 km/h de 3,7 s mesuré par Auto, Motor und Sport : non constructeur, laissé vide. Prix de lancement de 420 000 DM selon Porsche : devise hors catalogue, non repris. Série de 292 exemplaires selon Porsche (337 avec prototypes et pré-série selon Wikipedia).",
+          "sources": [
+            {
+              "label": "Porsche Newsroom – Porsche 959 Coupé (Porsche Museum)",
+              "url": "https://newsroom.porsche.com/en/press-kits/Porsche-Museum/Porsche-959-Coup%C3%A9.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Porsche 959",
+              "url": "https://en.wikipedia.org/wiki/Porsche_959",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 1985
+          },
+          "market": "DE",
+          "source": {
+            "label": "Wikipedia – Porsche 959",
+            "url": "https://en.wikipedia.org/wiki/Porsche_959",
+            "type": "database",
+            "publishedAt": null,
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Porsche Newsroom – Porsche 959 Coupé (Porsche Museum)",
+          "url": "https://newsroom.porsche.com/en/press-kits/Porsche-Museum/Porsche-959-Coup%C3%A9.html",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Porsche 959",
+          "url": "https://en.wikipedia.org/wiki/Porsche_959",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mercedes-benz-300-sl-w198",
+      "modelId": "mercedes-benz-300-sl",
+      "brandId": "mercedes-benz",
+      "modelName": "300 SL",
+      "name": "300 SL (W 198)",
+      "yearsLabel": "1954 – 1963",
+      "startYear": 1954,
+      "endYear": 1963,
+      "status": "discontinued",
+      "segment": "Grand tourisme sportif",
+      "bodyStyles": [
+        "Coupé à portes papillon",
+        "Roadster"
+      ],
+      "categories": [
+        "classic",
+        "sports",
+        "gt",
+        "coupe",
+        "convertible"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mercedes-Benz W198 300 SL Gullwing Genf 2019 1Y7A5009.jpg",
+          "caption": null,
+          "depicts": "Mercedes-Benz 300 SL Coupé « Gullwing » (W 198), Salon de Genève 2019",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes-Benz W198 300 SL Roadster (1957) Solitude Revival 2022 1X7A0407.jpg",
+          "caption": null,
+          "depicts": "Mercedes-Benz 300 SL Roadster (W 198) de 1957, Solitude Revival 2022",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Dérivée de la voiture de course W 194, la 300 SL est l'une des premières voitures de série à injection directe d'essence. Le coupé à portes papillon est présenté à New York en février 1954, le roadster à Genève en mars 1957.",
+        "positioning": "Sportive de prestige de Mercedes-Benz des années 1950, ancêtre de la lignée SL.",
+        "technicalFacts": [
+          "Six cylindres en ligne M198 de 2 996 cm³ à injection directe.",
+          "Boîte manuelle 4 rapports, propulsion.",
+          "Châssis tubulaire, d'où les portes papillon du coupé.",
+          "Coupé : 1 400 exemplaires (1954-1957) ; roadster : 1 858 exemplaires (1957-1963).",
+          "Freins à disque sur les quatre roues à partir de mars 1961."
+        ],
+        "pros": [
+          "Silhouette mythique, notamment le coupé « Gullwing ».",
+          "Technique d'avant-garde héritée de la compétition."
+        ],
+        "differentiators": [
+          "Injection directe d'essence sur une voiture de série dès 1954."
+        ],
+        "pricePositioning": "Modèle de collection : aucun prix neuf d'époque retenu (pas de prix sourcé dans une devise du catalogue) ; cote actuelle non renseignée.",
+        "innovations": [],
+        "compromises": [
+          "Accès difficile au coupé à cause des seuils hauts du châssis tubulaire.",
+          "Freins à tambour avant 1961."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mercedes-benz-300-sl-w198-coupe",
+          "name": "300 SL Coupé (Gullwing)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "6 cylindres en ligne, injection directe",
+            "displacementCc": 2996
+          },
+          "powerHp": 215,
+          "powerKw": 158,
+          "torqueNm": 275,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 4 rapports",
+          "accel0100s": 10,
+          "topSpeedKmh": 260,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1295,
+          "dimensions": {
+            "lengthMm": 4520,
+            "widthMm": 1790,
+            "heightMm": 1300,
+            "wheelbaseMm": 2400
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs d'époque, norme DIN : 215 PS (158 kW) à 5 800 tr/min, 275 Nm à 4 600 tr/min (ADAC et Wikipedia ; 240 hp SAE brut aux États-Unis). Vitesse maximale de 260 km/h selon l'ADAC (235 à 263 km/h selon le rapport de pont d'après Wikipedia). Consommation moyenne constructeur de 9,5 l/100 km sans cycle normalisé : non reprise. Prix neuf de 29 000 DM : devise hors catalogue, non repris.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Mercedes-Benz 300 SL Coupé (W 198)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/sl-klasse/198/282445/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Mercedes-Benz 300 SL",
+              "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_300_SL",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mercedes-benz-300-sl-w198-roadster",
+          "name": "300 SL Roadster",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "6 cylindres en ligne, injection directe",
+            "displacementCc": 2996
+          },
+          "powerHp": null,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 4 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1330,
+          "dimensions": {
+            "lengthMm": 4520,
+            "widthMm": 1790,
+            "heightMm": 1300,
+            "wheelbaseMm": 2400
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Wikipedia indique pour le roadster une puissance portée à 240 hp (179 kW) sans préciser la norme (la valeur SAE brute du coupé est identique) : puissance et couple laissés vides faute de valeur DIN sourcée pour cette version. Poids de 1 330 kg (1 370 kg à partir de 1961). Dimensions : valeurs générales du modèle. Vitesse maximale et 0-100 km/h non sourcés pour le roadster. Prix neuf de 32 500 DM : devise hors catalogue, non repris.",
+          "sources": [
+            {
+              "label": "Wikipedia – Mercedes-Benz 300 SL",
+              "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_300_SL",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 1954,
+            "month": 2
+          },
+          "market": "US",
+          "source": {
+            "label": "Wikipedia – Mercedes-Benz 300 SL",
+            "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_300_SL",
+            "type": "database",
+            "publishedAt": null,
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Mercedes-Benz 300 SL Coupé (W 198)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/sl-klasse/198/282445/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Mercedes-Benz 300 SL",
+          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_300_SL",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "bmw-m1-e26",
+      "modelId": "bmw-m1",
+      "brandId": "bmw",
+      "modelName": "M1",
+      "name": "M1 (E26)",
+      "yearsLabel": "1978 – 1981",
+      "startYear": 1978,
+      "endYear": 1981,
+      "status": "discontinued",
+      "segment": "Supercar à moteur central arrière",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:BMW M1 (E26).jpg",
+          "caption": null,
+          "depicts": "BMW M1 (E26) chez un concessionnaire à Nicosie",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW M1 (E26) front high.jpg",
+          "caption": null,
+          "depicts": "BMW M1 (E26), vue avant plongeante",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Seule BMW de série à moteur central, la M1 a été dessinée par Giorgetto Giugiaro chez Italdesign et conçue pour l'homologation en compétition. 399 exemplaires de route ont été construits entre 1978 et 1981.",
+        "positioning": "Première voiture de BMW Motorsport, devenue l'acte fondateur de la lignée « M ».",
+        "technicalFacts": [
+          "Six cylindres en ligne M88/1 de 3 453 cm³, 277 ch (204 kW) à 6 500 tr/min.",
+          "Couple de 330 Nm à 5 000 tr/min.",
+          "Boîte manuelle ZF 5 rapports, propulsion.",
+          "Dessin de Giorgetto Giugiaro (Italdesign).",
+          "453 exemplaires au total, dont 399 de route."
+        ],
+        "pros": [
+          "Moteur six cylindres à 24 soupapes réputé pour sa souplesse.",
+          "Supercar utilisable au quotidien pour son époque."
+        ],
+        "differentiators": [
+          "Base du championnat monotype Procar disputé en lever de rideau de la F1 en 1979-1980."
+        ],
+        "pricePositioning": "Modèle de collection : aucun prix neuf d'époque retenu (pas de prix sourcé dans une devise du catalogue) ; cote actuelle non renseignée.",
+        "innovations": [],
+        "compromises": [
+          "Performances dépassées par les rivales italiennes à V12.",
+          "Genèse industrielle chaotique, qui a retardé sa commercialisation."
+        ]
+      },
+      "variants": [
+        {
+          "id": "bmw-m1-e26-m1",
+          "name": "M1",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "6 cylindres en ligne atmosphérique",
+            "displacementCc": 3453
+          },
+          "powerHp": 277,
+          "powerKw": 204,
+          "torqueNm": 330,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 5 rapports (ZF)",
+          "accel0100s": null,
+          "topSpeedKmh": 265,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1300,
+          "dimensions": {
+            "lengthMm": 4361,
+            "widthMm": 1824,
+            "heightMm": 1140,
+            "wheelbaseMm": 2600
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs d'époque d'après Wikipedia, confirmées par l'ADAC pour la puissance, le couple et la boîte : 277 PS (204 kW) à 6 500 tr/min, 330 Nm à 5 000 tr/min. Vitesse maximale 265 km/h. 0-100 km/h non publié dans les sources consultées. Prix neuf d'époque non trouvé.",
+          "sources": [
+            {
+              "label": "Wikipedia – BMW M1",
+              "url": "https://en.wikipedia.org/wiki/BMW_M1",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "ADAC Autokatalog – BMW M1 (E26)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/m1/e26/254477/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – BMW M1",
+          "url": "https://en.wikipedia.org/wiki/BMW_M1",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – BMW M1 (E26)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/m1/e26/254477/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "nissan-skyline-gt-r-r34",
+      "modelId": "nissan-skyline-gt-r",
+      "brandId": "nissan",
+      "modelName": "Skyline GT-R",
+      "name": "Skyline GT-R (R34 / BNR34)",
+      "yearsLabel": "1999 – 2002",
+      "startYear": 1999,
+      "endYear": 2002,
+      "status": "discontinued",
+      "segment": "Coupé sportif à transmission intégrale",
+      "bodyStyles": [
+        "Coupé 2 portes"
+      ],
+      "categories": [
+        "classic",
+        "sports",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2001 Nissan Skyline R34 GT-R V-Spec II (34703155766).jpg",
+          "caption": null,
+          "depicts": "Nissan Skyline GT-R V-spec II (R34) de 2001, vente RM Sotheby's Auburn 2017",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Dernière Skyline GT-R à six cylindres en ligne, la R34 est lancée le 8 janvier 1999 avec le RB26DETT biturbo et la transmission intégrale ATTESA E-TS. Sa production s'arrête en 2002 avec les séries limitées Nür.",
+        "positioning": "Sportive japonaise de référence de la fin des années 1990, au sommet de la gamme Nissan.",
+        "technicalFacts": [
+          "Six cylindres en ligne RB26DETT biturbo de 2 568 cm³, 280 ch (206 kW) à 6 800 tr/min annoncés.",
+          "Couple de 392 Nm à 4 400 tr/min.",
+          "Boîte manuelle Getrag 6 rapports, transmission intégrale ATTESA E-TS.",
+          "11 578 exemplaires produits de 1999 à 2002.",
+          "Séries Nür (2002) : 718 V·spec II Nür et 285 M·spec Nür, moteur à cache-culbuteurs doré."
+        ],
+        "pros": [
+          "Moteur RB26DETT réputé pour son potentiel de préparation.",
+          "Motricité et efficacité de la transmission intégrale."
+        ],
+        "differentiators": [
+          "Séries limitées Nür baptisées d'après le Nürburgring, où les GT-R étaient mises au point."
+        ],
+        "pricePositioning": "Modèle de collection : aucun prix neuf d'époque retenu (pas de prix sourcé dans une devise du catalogue) ; cote actuelle non renseignée.",
+        "innovations": [],
+        "compromises": [
+          "Masse élevée pour une sportive (environ 1,56 t).",
+          "Puissance officielle plafonnée par l'accord tacite des constructeurs japonais."
+        ]
+      },
+      "variants": [
+        {
+          "id": "nissan-skyline-gt-r-r34-v-spec-ii",
+          "name": "Skyline GT-R V·spec II",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "6 cylindres en ligne biturbo",
+            "displacementCc": 2568
+          },
+          "powerHp": 280,
+          "powerKw": 206,
+          "torqueNm": 392,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 6 rapports (Getrag)",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1560,
+          "dimensions": {
+            "lengthMm": 4600,
+            "widthMm": 1780,
+            "heightMm": 1360,
+            "wheelbaseMm": 2665
+          },
+          "seats": 4,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Fiche technique constructeur (Nissan Heritage Collection, modèle 2000) : 206 kW (280 PS) à 6 800 tr/min, 392 Nm à 4 400 tr/min, 1 560 kg. Boîte et transmission d'après Wikipedia. Puissance annoncée limitée à 280 PS par l'accord des constructeurs japonais. Vitesse maximale et 0-100 km/h non publiés par Nissan. V·spec II : capot en carbone avec prise NACA.",
+          "sources": [
+            {
+              "label": "Nissan Heritage Collection – Skyline GT-R V·spec II (BNR34)",
+              "url": "https://www.nissan-global.com/EN/HERITAGE/280_skyline_gt-r_v-spec_ii.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Nissan Skyline GT-R",
+              "url": "https://en.wikipedia.org/wiki/Nissan_Skyline_GT-R",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "nissan-skyline-gt-r-r34-m-spec-nur",
+          "name": "Skyline GT-R M·spec Nür",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "6 cylindres en ligne biturbo (spécification N1)",
+            "displacementCc": 2568
+          },
+          "powerHp": 280,
+          "powerKw": 206,
+          "torqueNm": 392,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 6 rapports (Getrag)",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1580,
+          "dimensions": {
+            "lengthMm": 4600,
+            "widthMm": 1780,
+            "heightMm": 1360,
+            "wheelbaseMm": 2665
+          },
+          "seats": 4,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Fiche technique constructeur (Nissan Heritage Collection) : 206 kW (280 PS) à 6 800 tr/min, 392 Nm à 4 400 tr/min, 1 580 kg. Moteur de spécification N1 (pistons et bielles équilibrés, cache-culbuteurs doré). Wikipedia indique plus de 330 hp réels en sortie d'usine, non repris. Série limitée de 2002, 285 exemplaires selon Wikipedia ; suspension plus souple que la V·spec II Nür.",
+          "sources": [
+            {
+              "label": "Nissan Heritage Collection – Skyline GT-R M·spec Nür (BNR34)",
+              "url": "https://www.nissan-global.com/EN/HERITAGE_COLLECTION/306_skyline_gt-r_m-spec_nur.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Nissan Skyline GT-R",
+              "url": "https://en.wikipedia.org/wiki/Nissan_Skyline_GT-R",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 1999,
+            "month": 1,
+            "day": 8
+          },
+          "market": "JP",
+          "source": {
+            "label": "Wikipedia – Nissan Skyline GT-R",
+            "url": "https://en.wikipedia.org/wiki/Nissan_Skyline_GT-R",
+            "type": "database",
+            "publishedAt": null,
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Nissan Heritage Collection – Skyline GT-R V·spec II (BNR34)",
+          "url": "https://www.nissan-global.com/EN/HERITAGE/280_skyline_gt-r_v-spec_ii.html",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Nissan Heritage Collection – Skyline GT-R M·spec Nür (BNR34)",
+          "url": "https://www.nissan-global.com/EN/HERITAGE_COLLECTION/306_skyline_gt-r_m-spec_nur.html",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Nissan Skyline GT-R",
+          "url": "https://en.wikipedia.org/wiki/Nissan_Skyline_GT-R",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "honda-nsx-na",
+      "modelId": "honda-nsx",
+      "brandId": "honda",
+      "modelName": "NSX",
+      "name": "NSX (NA1 / NA2)",
+      "yearsLabel": "1990 – 2005",
+      "startYear": 1990,
+      "endYear": 2005,
+      "status": "discontinued",
+      "segment": "Sportive à moteur central arrière",
+      "bodyStyles": [
+        "Coupé",
+        "Targa (NSX-T)"
+      ],
+      "categories": [
+        "classic",
+        "sports",
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Honda NSX 1991.jpg",
+          "caption": null,
+          "depicts": "Honda NSX (NA1) de 1991",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2005 Honda NSX.jpg",
+          "caption": null,
+          "depicts": "Honda NSX (NA2) de 2005, après restylage",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Première supercar japonaise à coque en aluminium, la NSX associe un V6 VTEC en position centrale à une facilité d'usage inédite dans la catégorie. Lancée en septembre 1990, elle passe au V6 3,2 litres et à la boîte 6 rapports en 1997.",
+        "positioning": "Vitrine technologique de Honda, conçue pour rivaliser avec les Ferrari de son époque.",
+        "technicalFacts": [
+          "Coque et carrosserie en aluminium.",
+          "NA1 : V6 C30A de 2 977 cm³ à distribution variable VTEC, 280 PS à 7 300 tr/min (boîte manuelle).",
+          "NA2 (à partir de 1997) : V6 C32B de 3 179 cm³, boîte manuelle 6 rapports.",
+          "Première apparition publique au Salon de Chicago en février 1989.",
+          "Production arrêtée le 30 novembre 2005."
+        ],
+        "pros": [
+          "Fiabilité et facilité de conduite au quotidien.",
+          "Châssis et direction très précis."
+        ],
+        "differentiators": [
+          "Coque en aluminium sur une voiture de série dès 1990."
+        ],
+        "pricePositioning": "Modèle de collection : aucun prix neuf d'époque retenu (pas de prix sourcé dans une devise du catalogue) ; cote actuelle non renseignée.",
+        "innovations": [],
+        "compromises": [
+          "Puissance modeste face aux supercars européennes.",
+          "Puissance officielle plafonnée à 280 PS au Japon pendant toute sa carrière."
+        ]
+      },
+      "variants": [
+        {
+          "id": "honda-nsx-na-na1-30-5mt",
+          "name": "NSX 3.0 (NA1) boîte manuelle",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 VTEC atmosphérique transversal",
+            "displacementCc": 2977
+          },
+          "powerHp": 280,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1350,
+          "dimensions": {
+            "lengthMm": 4430,
+            "widthMm": 1810,
+            "heightMm": 1170,
+            "wheelbaseMm": 2530
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Fiche technique Honda Japon (E-NA1, septembre 1990) : 280 PS (net) à 7 300 tr/min, couple de 30,0 kgm à 5 400 tr/min, 1 350 kg. Honda ne publie ni kW ni Nm : champs laissés vides (Wikipedia indique 270 hp et 285 Nm pour la version export). Puissance annoncée limitée à 280 PS au Japon. Vitesse maximale et 0-100 km/h non publiés.",
+          "sources": [
+            {
+              "label": "Honda Japon – Factbook NSX (septembre 1990), caractéristiques",
+              "url": "https://www.honda.co.jp/factbook/auto/NSX/19900913/ns90-036.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Honda Global – moteur C30A (NSX)",
+              "url": "https://global.honda/en/tech/engine/car/C30A_NSX_vtec_DOHC/",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Honda NSX (first generation)",
+              "url": "https://en.wikipedia.org/wiki/Honda_NSX_(first_generation)",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "honda-nsx-na-na2-32-6mt",
+          "name": "NSX 3.2 (NA2) boîte manuelle",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 VTEC atmosphérique transversal",
+            "displacementCc": 3179
+          },
+          "powerHp": 280,
+          "powerKw": 206,
+          "torqueNm": 304,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1340,
+          "dimensions": {
+            "lengthMm": 4430,
+            "widthMm": 1810,
+            "heightMm": 1170,
+            "wheelbaseMm": 2530
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Fiche technique Honda Japon (ABA-NA2, modèle 2005) : 206 kW (280 PS) à 7 300 tr/min, 304 Nm à 5 300 tr/min, 1 340 kg. Le modèle 1997 (E-NA2) annonce les mêmes 280 PS et 31,0 kgm, pour 1 350 kg. Vitesse maximale et 0-100 km/h non publiés par Honda.",
+          "sources": [
+            {
+              "label": "Honda Japon – Archive NSX 2005, caractéristiques",
+              "url": "https://www.honda.co.jp/auto-archive/nsx/2005/grade-data/",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Honda Japon – Archive NSX (modèle 1997), caractéristiques",
+              "url": "https://www.honda.co.jp/auto-archive/nsx/2001/shogen-nsx97.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 1989,
+            "month": 2
+          },
+          "market": "US",
+          "source": {
+            "label": "Wikipedia – Honda NSX (first generation)",
+            "url": "https://en.wikipedia.org/wiki/Honda_NSX_(first_generation)",
+            "type": "database",
+            "publishedAt": null,
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Honda Japon – Factbook NSX (septembre 1990), caractéristiques",
+          "url": "https://www.honda.co.jp/factbook/auto/NSX/19900913/ns90-036.html",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Honda Japon – Archive NSX 2005, caractéristiques",
+          "url": "https://www.honda.co.jp/auto-archive/nsx/2005/grade-data/",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Honda NSX (first generation)",
+          "url": "https://en.wikipedia.org/wiki/Honda_NSX_(first_generation)",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mazda-rx-7-fd",
+      "modelId": "mazda-rx-7",
+      "brandId": "mazda",
+      "modelName": "RX-7",
+      "name": "RX-7 (FD3S)",
+      "yearsLabel": "1991 – 2002",
+      "startYear": 1991,
+      "endYear": 2002,
+      "status": "discontinued",
+      "segment": "Coupé sportif à moteur rotatif",
+      "bodyStyles": [
+        "Coupé 2+2"
+      ],
+      "categories": [
+        "classic",
+        "sports",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:1994 Mazda RX-7 FD White (3).jpg",
+          "caption": null,
+          "depicts": "Mazda RX-7 (FD) blanche de 1994",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mazda RX-7 (FD) Washington DC Metro Area, USA (1).jpg",
+          "caption": null,
+          "depicts": "Mazda RX-7 (FD), région de Washington",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Troisième et dernière RX-7, la FD3S est animée par un moteur rotatif birotor 13B-REW à double turbo séquentiel. Produite d'octobre 1991 à août 2002, elle est réputée pour son équilibre et sa ligne fluide.",
+        "positioning": "Sportive phare de Mazda dans les années 1990, dernière RX-7 avant la RX-8.",
+        "technicalFacts": [
+          "Moteur rotatif birotor 13B-REW de 1 308 cm³ à deux turbos séquentiels.",
+          "Propulsion, boîte manuelle 5 rapports (automatique 4 rapports sur certaines versions).",
+          "Puissance portée de 255 PS (Series 6) à 280 PS (Series 8, Type R et RS).",
+          "68 589 exemplaires produits.",
+          "Seulement 1 152 exemplaires vendus par le réseau officiel Mazda en Europe."
+        ],
+        "pros": [
+          "Équilibre du châssis et faible masse.",
+          "Ligne restée moderne des décennies plus tard."
+        ],
+        "differentiators": [
+          "Moteur rotatif Wankel, spécialité de Mazda."
+        ],
+        "pricePositioning": "Modèle de collection : aucun prix neuf d'époque retenu (pas de prix sourcé dans une devise du catalogue) ; cote actuelle non renseignée.",
+        "innovations": [],
+        "compromises": [
+          "Fiabilité et consommation du moteur rotatif suralimenté.",
+          "Commercialisation en Europe arrêtée dès 1995 sur la plupart des marchés."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mazda-rx-7-fd-type-r-series-6",
+          "name": "RX-7 Type R (Series 6)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "Birotor rotatif biturbo séquentiel",
+            "displacementCc": 1308
+          },
+          "powerHp": 255,
+          "powerKw": 188,
+          "torqueNm": 294,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1260,
+          "dimensions": {
+            "lengthMm": 4285,
+            "widthMm": 1760,
+            "heightMm": 1230,
+            "wheelbaseMm": 2446
+          },
+          "seats": 4,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs d'époque d'après Wikipedia (marché japonais, 1991-1995) : 255 PS (188 kW), 294 Nm, 1 260 kg. Version européenne (EU-Spec) : 239 PS (176 kW), 1 325 kg. Dimensions : valeurs générales de la génération. Vitesse maximale et 0-100 km/h non publiés dans la source. Prix britannique d'époque (32 000 £ ramenés à 25 000 £ en 1993) cité sans date ni version précises : non repris.",
+          "sources": [
+            {
+              "label": "Wikipedia – Mazda RX-7",
+              "url": "https://en.wikipedia.org/wiki/Mazda_RX-7",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mazda-rx-7-fd-type-rs-series-8",
+          "name": "RX-7 Type RS (Series 8)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "Birotor rotatif biturbo séquentiel",
+            "displacementCc": 1308
+          },
+          "powerHp": 280,
+          "powerKw": 206,
+          "torqueNm": 314,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1280,
+          "dimensions": {
+            "lengthMm": 4285,
+            "widthMm": 1760,
+            "heightMm": 1230,
+            "wheelbaseMm": 2446
+          },
+          "seats": 4,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs d'époque d'après Wikipedia (marché japonais, 1998-2002) : 280 PS (206 kW) à 6 500 tr/min, 314 Nm à 5 000 tr/min, 1 280 kg. Puissance annoncée limitée à 280 PS au Japon. Dimensions : valeurs générales de la génération. Vitesse maximale et 0-100 km/h non publiés dans la source.",
+          "sources": [
+            {
+              "label": "Wikipedia – Mazda RX-7",
+              "url": "https://en.wikipedia.org/wiki/Mazda_RX-7",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Mazda RX-7",
+          "url": "https://en.wikipedia.org/wiki/Mazda_RX-7",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "toyota-2000gt",
+      "modelId": "toyota-2000gt",
+      "brandId": "toyota",
+      "modelName": "2000GT",
+      "name": "2000GT (MF10)",
+      "yearsLabel": "1967 – 1970",
+      "startYear": 1967,
+      "endYear": 1970,
+      "status": "discontinued",
+      "segment": "Grand tourisme sportif",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "classic",
+        "sports",
+        "gt",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:1968 Toyota 2000GT Low.jpg",
+          "caption": null,
+          "depicts": "Toyota 2000GT de 1968, London Concours 2022",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:1968 Toyota 2000GT photo1.JPG",
+          "caption": null,
+          "depicts": "Toyota 2000GT de 1968, musée Louwman",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Première supercar japonaise, la 2000GT a été développée avec Yamaha, qui l'assemblait à la main à environ huit exemplaires par mois. Présentée au Salon de Tokyo 1965, elle a été produite de 1967 à 1970.",
+        "positioning": "Vitrine technologique de Toyota à la fin des années 1960.",
+        "technicalFacts": [
+          "Six cylindres en ligne double arbre 3M de 1 988 cm³, 150 PS (110,3 kW) à 6 600 tr/min.",
+          "Couple de 176,5 Nm à 5 000 tr/min selon Yamaha.",
+          "Suspensions à double triangulation, freins à disque sur les quatre roues, jantes en magnésium.",
+          "Moteur dérivé du six cylindres de la Toyota Crown, passé en double arbre à cames en tête.",
+          "337 exemplaires de série selon Yamaha, dont 115 exportés (351 au total selon Wikipedia)."
+        ],
+        "pros": [
+          "Rareté et importance historique pour l'industrie japonaise.",
+          "Équipement technique très avancé pour 1967."
+        ],
+        "differentiators": [
+          "Record de vitesse : 3 records du monde et 13 records internationaux en 1966, selon Yamaha."
+        ],
+        "pricePositioning": "Modèle de collection : aucun prix neuf d'époque retenu (pas de prix sourcé dans une devise du catalogue) ; cote actuelle non renseignée.",
+        "innovations": [],
+        "compromises": [
+          "Puissance modeste face aux GT européennes à six ou douze cylindres.",
+          "Habitacle très bas et exigu."
+        ]
+      },
+      "variants": [
+        {
+          "id": "toyota-2000gt-mf10",
+          "name": "2000GT (MF10)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "6 cylindres en ligne DOHC atmosphérique",
+            "displacementCc": 1988
+          },
+          "powerHp": 150,
+          "powerKw": 110.3,
+          "torqueNm": 176.5,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1120,
+          "dimensions": {
+            "lengthMm": 4175,
+            "widthMm": 1600,
+            "heightMm": 1160,
+            "wheelbaseMm": 2330
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Fiche Yamaha (modèle 1967) : 110,3 kW (150,0 PS) à 6 600 tr/min, 176,5 Nm à 5 000 tr/min, 1 120 kg, 4 175 × 1 600 × 1 160 mm. Empattement et boîte d'après Wikipedia. Vitesse maximale annoncée de 135 mph (217 km/h) selon Wikipedia, exprimée en mph : laissée vide. Prix de lancement de 2 380 000 ¥ (Yamaha) : devise hors catalogue, non repris.",
+          "sources": [
+            {
+              "label": "Yamaha Motor – Communication Plaza, Toyota 2000GT",
+              "url": "https://global.yamaha-motor.com/jp/showroom/cp/collection/am_toyota2000gt/",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Toyota 2000GT",
+              "url": "https://en.wikipedia.org/wiki/Toyota_2000GT",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 1965
+          },
+          "market": "JP",
+          "source": {
+            "label": "Wikipedia – Toyota 2000GT",
+            "url": "https://en.wikipedia.org/wiki/Toyota_2000GT",
+            "type": "database",
+            "publishedAt": null,
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Yamaha Motor – Communication Plaza, Toyota 2000GT",
+          "url": "https://global.yamaha-motor.com/jp/showroom/cp/collection/am_toyota2000gt/",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Toyota 2000GT",
+          "url": "https://en.wikipedia.org/wiki/Toyota_2000GT",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "alpine-a110-berlinette",
+      "modelId": "alpine-a110-berlinette",
+      "brandId": "alpine",
+      "modelName": "A110 Berlinette",
+      "name": "A110 Berlinette (1963)",
+      "yearsLabel": "1963 – 1977",
+      "startYear": 1963,
+      "endYear": 1977,
+      "status": "discontinued",
+      "segment": "Petite sportive à moteur arrière",
+      "bodyStyles": [
+        "Berlinette (coupé)"
+      ],
+      "categories": [
+        "classic",
+        "sports",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:1971 Alpine A110 1600 S LC23.jpg",
+          "caption": null,
+          "depicts": "Alpine A110 1600 S de 1971, London Concours 2023",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:1972 Alpine A110 1600 S, Tour Auto 2015, Toulouse.jpg",
+          "caption": null,
+          "depicts": "Alpine A110 1600 S de 1972, Tour Auto 2015 à Toulouse",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Berlinette à carrosserie en fibre de verre et moteur Renault en porte-à-faux arrière, l'A110 de Jean Rédélé a fait la renommée d'Alpine en rallye. La version 1600 S en est la déclinaison routière la plus puissante.",
+        "positioning": "Sportive emblématique d'Alpine, ancêtre de l'A110 moderne lancée en 2017.",
+        "technicalFacts": [
+          "Prototype présenté au Salon de Paris en octobre 1962, production lancée en juin 1963.",
+          "Dessin attribué à Giovanni Michelotti.",
+          "Carrosserie en fibre de verre sur châssis-poutre en acier, moteur Renault en porte-à-faux arrière.",
+          "1600 S (1970-1973) : 1 565 cm³, 125 ch DIN (138 ch SAE).",
+          "7 176 exemplaires assemblés à Dieppe jusqu'en juillet 1977."
+        ],
+        "pros": [
+          "Légèreté et agilité remarquables.",
+          "Palmarès en rallye, dont le premier championnat du monde des rallyes des constructeurs, en 1973."
+        ],
+        "differentiators": [
+          "Carrosserie en panneaux de fibre de verre, technique dont Alpine a été pionnière."
+        ],
+        "pricePositioning": "Modèle de collection : aucun prix neuf d'époque retenu (pas de prix sourcé dans une devise du catalogue) ; cote actuelle non renseignée.",
+        "innovations": [],
+        "compromises": [
+          "Habitacle exigu et finition artisanale.",
+          "Comportement survireur exigeant, lié au moteur arrière."
+        ]
+      },
+      "variants": [
+        {
+          "id": "alpine-a110-berlinette-1600-s",
+          "name": "A110 1600 S",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne Renault atmosphérique",
+            "displacementCc": 1565
+          },
+          "powerHp": 125,
+          "powerKw": 92,
+          "torqueNm": null,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 210,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 3850,
+            "widthMm": null,
+            "heightMm": null,
+            "wheelbaseMm": null
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs d'époque d'après Wikipedia (1970-1973) : 125 ch DIN (92 kW), 138 ch SAE, 1 565 cm³, 210 km/h. Ultimate Specs donne 144 Nm, 204 km/h et 1 606 cm³ pour une 1600S de 1971, valeurs non retenues car incohérentes avec la cylindrée de référence. Poids, largeur, hauteur et empattement varient selon les années et les sources : laissés vides. Boîte 5 rapports de série sur la 1600 S à partir de mai 1973.",
+          "sources": [
+            {
+              "label": "Wikipedia – Alpine A110",
+              "url": "https://en.wikipedia.org/wiki/Alpine_A110",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Ultimate Specs – Alpine A110 1600S (1971)",
+              "url": "https://www.ultimatespecs.com/fr/car-specs/Alpine/16023/Alpine-A110-1600S.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 1962,
+            "month": 10
+          },
+          "market": "FR",
+          "source": {
+            "label": "Wikipedia – Alpine A110",
+            "url": "https://en.wikipedia.org/wiki/Alpine_A110",
+            "type": "database",
+            "publishedAt": null,
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Alpine A110",
+          "url": "https://en.wikipedia.org/wiki/Alpine_A110",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lancia-delta-hf-integrale",
+      "modelId": "lancia-delta",
+      "brandId": "lancia",
+      "modelName": "Delta HF Integrale",
+      "name": "Delta HF Integrale (route)",
+      "yearsLabel": "1987 – 1994",
+      "startYear": 1987,
+      "endYear": 1994,
+      "status": "discontinued",
+      "segment": "Compacte sportive à transmission intégrale",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "classic",
+        "sports",
+        "compact"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Lancia Delta HF Integrale Evoluzione Stradale.jpg",
+          "caption": null,
+          "depicts": "Lancia Delta HF Integrale Evoluzione de route, Rosso Monza",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:1994 Lancia Delta HF Integrale.jpg",
+          "caption": null,
+          "depicts": "Lancia Delta HF Integrale de 1994",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Version de route de la Delta championne du monde des rallyes, l'HF Integrale associe un quatre cylindres turbo de 2,0 litres à une transmission intégrale permanente. Les versions 16v puis Evoluzione ont élargi ses voies et augmenté sa puissance.",
+        "positioning": "Base d'homologation de la Lancia Delta Groupe A, six fois championne du monde des constructeurs.",
+        "technicalFacts": [
+          "Quatre cylindres turbo de 1 995 cm³.",
+          "Transmission intégrale permanente.",
+          "HF Integrale lancée en septembre 1987 en remplacement de la HF 4WD ; production arrêtée en 1994.",
+          "HF Integrale 16v (Salon de Genève 1989) : 200 PS (147 kW) à 5 500 tr/min.",
+          "HF Integrale Evoluzione (octobre 1991 à 1992) : 210 PS (154 kW) à 5 750 tr/min, voies et ailes élargies."
+        ],
+        "pros": [
+          "Efficacité et motricité de la transmission intégrale.",
+          "Lien direct avec la voiture de rallye."
+        ],
+        "differentiators": [
+          "Ailes élargies « boxées » devenues sa signature visuelle."
+        ],
+        "pricePositioning": "Modèle de collection : aucun prix neuf d'époque retenu (pas de prix sourcé dans une devise du catalogue) ; cote actuelle non renseignée.",
+        "innovations": [],
+        "compromises": [
+          "Fragilité de certains éléments et corrosion.",
+          "Finition intérieure en retrait des rivales allemandes."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lancia-delta-hf-integrale-16v",
+          "name": "Delta HF Integrale 16v",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo, 16 soupapes",
+            "displacementCc": 1995
+          },
+          "powerHp": 200,
+          "powerKw": 147,
+          "torqueNm": 298,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 5.7,
+          "topSpeedKmh": 220,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs d'époque d'après Wikipedia : 200 PS (147 kW) à 5 500 tr/min, 298 Nm à 3 000 tr/min, 220 km/h, 0-100 km/h en 5,7 s. Boîte, poids et dimensions non précisés pour cette version dans la source.",
+          "sources": [
+            {
+              "label": "Wikipedia – Lancia Delta HF Integrale",
+              "url": "https://en.wikipedia.org/wiki/Lancia_Delta_HF_Integrale",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lancia-delta-hf-integrale-evoluzione",
+          "name": "Delta HF Integrale Evoluzione",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo, 16 soupapes",
+            "displacementCc": 1995
+          },
+          "powerHp": 210,
+          "powerKw": 154,
+          "torqueNm": 298,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": 5.7,
+          "topSpeedKmh": 220,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 3898,
+            "widthMm": 1767,
+            "heightMm": 1365,
+            "wheelbaseMm": 2479
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs d'époque d'après Wikipedia : 210 PS (154 kW) à 5 750 tr/min, 298 Nm à 3 500 tr/min (31 kgm / 300 Nm dans le texte), 220 km/h, 0-100 km/h en 5,7 s. Production d'octobre 1991 à 1992. Poids non précisé dans la source.",
+          "sources": [
+            {
+              "label": "Wikipedia – Lancia Delta HF Integrale",
+              "url": "https://en.wikipedia.org/wiki/Lancia_Delta_HF_Integrale",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Lancia Delta HF Integrale",
+          "url": "https://en.wikipedia.org/wiki/Lancia_Delta_HF_Integrale",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}

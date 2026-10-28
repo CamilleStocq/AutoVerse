@@ -1,0 +1,2484 @@
+{
+  "generations": [
+    {
+      "id": "ferrari-f8",
+      "modelId": "ferrari-v8-berlinetta",
+      "brandId": "ferrari",
+      "modelName": "F8",
+      "name": "F8 Tributo / F8 Spider (F142MFL)",
+      "yearsLabel": "2019 – 2023",
+      "startYear": 2019,
+      "endYear": 2023,
+      "status": "discontinued",
+      "segment": "Supercar V8 à moteur central arrière",
+      "bodyStyles": [
+        "Berlinette",
+        "Spider (toit rigide escamotable)"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe",
+        "convertible"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track",
+        "collection"
+      ],
+      "previousGenerationId": "ferrari-488",
+      "nextGenerationId": "ferrari-296-gtb",
+      "images": [
+        {
+          "commonsFile": "File:2020 Ferrari F8 Tributo 3.9.jpg",
+          "caption": null,
+          "depicts": "Ferrari F8 Tributo, 2020",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Ferrari F8 Spider IMG 2940.jpg",
+          "caption": null,
+          "depicts": "Ferrari F8 Spider",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Dévoilée au Salon de Genève 2019, la F8 Tributo a succédé à la 488 GTB avec le V8 biturbo de 720 ch de la 488 Pista. Elle est la dernière berlinette V8 non hybride de Ferrari avant la 296.",
+        "positioning": "Berlinette V8 à moteur central arrière, cœur de gamme sportif de Ferrari de 2019 à 2023.",
+        "technicalFacts": [
+          "V8 3.9 biturbo (famille F154) de 720 ch à 8 000 tr/min et 770 Nm à 3 250 tr/min, repris de la 488 Pista.",
+          "Boîte à double embrayage 7 rapports, propulsion.",
+          "Appui aérodynamique annoncé en hausse de 15 % par rapport à la 488 GTB.",
+          "Le Spider a un toit rigide escamotable manœuvrable en 14 secondes jusqu'à 45 km/h."
+        ],
+        "pros": [
+          "Moteur de la 488 Pista dans une voiture plus facile à vivre.",
+          "0-100 km/h en 2,9 s en coupé comme en Spider."
+        ],
+        "differentiators": [
+          "V8 le plus puissant d'une Ferrari de série à son lancement, selon Wikipedia."
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Ferrari Dynamic Enhancer utilisable en mode Race."
+        ],
+        "compromises": [
+          "Ni hybridation ni transmission intégrale.",
+          "Carrière courte de quatre ans."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ferrari-f8-tributo",
+          "name": "F8 Tributo",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 3902
+          },
+          "powerHp": 720,
+          "powerKw": null,
+          "torqueNm": 770,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 2.9,
+          "topSpeedKmh": 340,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1330,
+          "dimensions": {
+            "lengthMm": 4611,
+            "widthMm": 1979,
+            "heightMm": 1206,
+            "wheelbaseMm": 2650
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Poids à sec avec options d'allègement, selon la fiche Ferrari reprise par Motor1. Cylindrée issue de l'article Wikipedia de la 488 (même moteur F154).",
+          "sources": [
+            {
+              "label": "Wikipedia – Ferrari F8",
+              "url": "https://en.wikipedia.org/wiki/Ferrari_F8",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Motor1 – Ferrari F8 Tributo Arrives In Geneva With Pista-Matching Power",
+              "url": "https://www.motor1.com/news/307242/ferrari-f8-tributo-revealed/",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ferrari-f8-spider",
+          "name": "F8 Spider",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 3902
+          },
+          "powerHp": 720,
+          "powerKw": null,
+          "torqueNm": 770,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 2.9,
+          "topSpeedKmh": 340,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1400,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Poids à sec selon Wikipedia (coffre de 200 L cité). Dimensions non distinguées du coupé dans la source, laissées vides.",
+          "sources": [
+            {
+              "label": "Wikipedia – Ferrari F8",
+              "url": "https://en.wikipedia.org/wiki/Ferrari_F8",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Ferrari F8",
+          "url": "https://en.wikipedia.org/wiki/Ferrari_F8",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Motor1 – Ferrari F8 Tributo Arrives In Geneva With Pista-Matching Power",
+          "url": "https://www.motor1.com/news/307242/ferrari-f8-tributo-revealed/",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ferrari-488",
+      "modelId": "ferrari-v8-berlinetta",
+      "brandId": "ferrari",
+      "modelName": "488",
+      "name": "488 GTB / 488 Pista (F142M)",
+      "yearsLabel": "2015 – 2020",
+      "startYear": 2015,
+      "endYear": 2020,
+      "status": "discontinued",
+      "segment": "Supercar V8 à moteur central arrière",
+      "bodyStyles": [
+        "Berlinette",
+        "Spider (toit rigide escamotable)"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track",
+        "collection"
+      ],
+      "previousGenerationId": "ferrari-458-italia",
+      "nextGenerationId": "ferrari-f8",
+      "images": [
+        {
+          "commonsFile": "File:Ferrari 488 GTB (55069717742) (cropped).jpg",
+          "caption": null,
+          "depicts": "Ferrari 488 GTB, vue arrière",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Ferrari 488 Pista MYLE Festival 2025 DSC 9444.jpg",
+          "caption": null,
+          "depicts": "Ferrari 488 Pista",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La 488 GTB a remplacé la 458 Italia en 2015 et ramené le turbo sur une Ferrari V8 à moteur central, une première depuis la F40. La 488 Pista de 2018 en est la version radicale de 720 ch.",
+        "positioning": "Berlinette V8 à moteur central arrière de Ferrari, entre la 458 et la F8.",
+        "technicalFacts": [
+          "V8 3 902 cm³ biturbo (F154 CB) : 670 ch à 8 000 tr/min et 760 Nm à 3 000 tr/min sur la GTB.",
+          "La Pista reprend des pièces de la 488 Challenge (bielles en titane, collecteurs en Inconel) pour 720 ch et 770 Nm.",
+          "Appui aérodynamique de la GTB en hausse de 50 % par rapport à la 458, selon Wikipedia.",
+          "Disques carbone-céramique de 398 mm à l'avant et 360 mm à l'arrière."
+        ],
+        "pros": [
+          "Couple très présent dès les bas régimes.",
+          "Pista nettement plus légère et plus appuyée que la GTB."
+        ],
+        "differentiators": [
+          "Première Ferrari V8 à moteur central turbocompressée depuis la F40."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Sonorité moins aiguë que le V8 atmosphérique de la 458.",
+          "Pista orientée circuit, plus ferme au quotidien."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ferrari-488-gtb",
+          "name": "488 GTB",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 3902
+          },
+          "powerHp": 670,
+          "powerKw": null,
+          "torqueNm": 760,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 3.0,
+          "topSpeedKmh": 330,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4568,
+            "widthMm": 1952,
+            "heightMm": 1213,
+            "wheelbaseMm": 2650
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Poids laissé vide : Wikipedia ne le donne qu'en livres. Performances constructeur reprises par Wikipedia.",
+          "sources": [
+            {
+              "label": "Wikipedia – Ferrari 488",
+              "url": "https://en.wikipedia.org/wiki/Ferrari_488",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ferrari-488-pista",
+          "name": "488 Pista",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 3902
+          },
+          "powerHp": 720,
+          "powerKw": null,
+          "torqueNm": 770,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 2.85,
+          "topSpeedKmh": 340,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1280,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Poids à sec avec options d'allègement (fiche Ferrari reprise par la presse).",
+          "sources": [
+            {
+              "label": "Wikipedia – Ferrari 488",
+              "url": "https://en.wikipedia.org/wiki/Ferrari_488",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "CAR magazine (Afrique du Sud) – Say hello to the new special series Ferrari 488 Pista",
+              "url": "https://www.carmag.co.za/news/new-models/say-hello-to-the-new-special-series-ferrari-488-pista/",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Ferrari 488",
+          "url": "https://en.wikipedia.org/wiki/Ferrari_488",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "CAR magazine (Afrique du Sud) – Say hello to the new special series Ferrari 488 Pista",
+          "url": "https://www.carmag.co.za/news/new-models/say-hello-to-the-new-special-series-ferrari-488-pista/",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ferrari-458-italia",
+      "modelId": "ferrari-v8-berlinetta",
+      "brandId": "ferrari",
+      "modelName": "458",
+      "name": "458 Italia / 458 Speciale (F142)",
+      "yearsLabel": "2009 – 2015",
+      "startYear": 2009,
+      "endYear": 2015,
+      "status": "discontinued",
+      "segment": "Supercar V8 atmosphérique à moteur central arrière",
+      "bodyStyles": [
+        "Berlinette",
+        "Spider (toit rigide escamotable)"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track",
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": "ferrari-488",
+      "images": [
+        {
+          "commonsFile": "File:Ferrari 458 Fort Worth June 2016 56 (Ferrari) (cropped-2).jpg",
+          "caption": null,
+          "depicts": "Ferrari 458 Italia",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Ferrari 458 Speciale (15848932487) (cropped).jpg",
+          "caption": null,
+          "depicts": "Ferrari 458 Speciale",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Présentée au Salon de Francfort 2009, la 458 Italia est la dernière Ferrari V8 à moteur central atmosphérique. Son V8 4.5 atteint 570 ch à 9 000 tr/min.",
+        "positioning": "Berlinette V8 à moteur central arrière de Ferrari, entre la F430 et la 488.",
+        "technicalFacts": [
+          "V8 4 497 cm³ atmosphérique (F136) à injection directe, une première sur une Ferrari à moteur central.",
+          "570 ch à 9 000 tr/min et 540 Nm à 6 000 tr/min sur la 458 Italia ; 605 ch sur la Speciale.",
+          "Boîte à double embrayage 7 rapports Getrag.",
+          "Consommation mixte annoncée de 13,3 l/100 km et 307 g/km de CO2 (cycle ECE+EUDC) pour la 458 Italia."
+        ],
+        "pros": [
+          "V8 atmosphérique à très haut régime.",
+          "Speciale élue Supercar de l'année 2013 par Top Gear."
+        ],
+        "differentiators": [
+          "Dernière Ferrari V8 à moteur central sans turbo."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Couple modeste à bas régime face aux générations turbo.",
+          "Rappel en 2010 pour un risque d'incendie lié à une colle des passages de roue."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ferrari-458-italia-coupe",
+          "name": "458 Italia",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 atmosphérique",
+            "displacementCc": 4497
+          },
+          "powerHp": 570,
+          "powerKw": null,
+          "torqueNm": 540,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 3.4,
+          "topSpeedKmh": null,
+          "consumption": {
+            "value": 13.3,
+            "unit": "l/100km",
+            "cycle": "NEDC"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 307,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4527,
+            "widthMm": 1937,
+            "heightMm": 1213,
+            "wheelbaseMm": 2650
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Vitesse maximale annoncée « supérieure à 325 km/h », laissée vide. Consommation et CO2 en cycle ECE+EUDC (NEDC). Poids donné en livres seulement par Wikipedia.",
+          "sources": [
+            {
+              "label": "Wikipedia – Ferrari 458",
+              "url": "https://en.wikipedia.org/wiki/Ferrari_458",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ferrari-458-speciale",
+          "name": "458 Speciale",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 atmosphérique",
+            "displacementCc": 4497
+          },
+          "powerHp": 605,
+          "powerKw": null,
+          "torqueNm": 540,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 3.0,
+          "topSpeedKmh": 325,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1290,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Poids à sec, 0-100 km/h et vitesse maximale selon la fiche Rosso Automobili.",
+          "sources": [
+            {
+              "label": "Wikipedia – Ferrari 458",
+              "url": "https://en.wikipedia.org/wiki/Ferrari_458",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Rosso Automobili – 2013 Ferrari 458 Speciale",
+              "url": "https://rossoautomobili.com/blogs/ferrari-models/2013-ferrari-458-speciale",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Ferrari 458",
+          "url": "https://en.wikipedia.org/wiki/Ferrari_458",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Rosso Automobili – 2013 Ferrari 458 Speciale",
+          "url": "https://rossoautomobili.com/blogs/ferrari-models/2013-ferrari-458-speciale",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lamborghini-huracan-sto-tecnica-sterrato",
+      "modelId": "lamborghini-huracan",
+      "brandId": "lamborghini",
+      "modelName": "Huracán",
+      "name": "Huracán STO / Tecnica / Sterrato (dérivés finaux)",
+      "yearsLabel": "2021 – 2024",
+      "startYear": 2021,
+      "endYear": 2024,
+      "status": "discontinued",
+      "segment": "Supercar V10 atmosphérique à moteur central arrière",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track",
+        "collection"
+      ],
+      "previousGenerationId": "lamborghini-huracan-evo",
+      "nextGenerationId": "lamborghini-temerario",
+      "images": [
+        {
+          "commonsFile": "File:2022 Lamborghini Huracan Tecnica (cropped).jpg",
+          "caption": null,
+          "depicts": "Lamborghini Huracán Tecnica, 2022",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 Lamborghini Huracan Sterrato Yellow.jpg",
+          "caption": null,
+          "depicts": "Lamborghini Huracán Sterrato",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Les dernières Huracán déclinent le V10 atmosphérique 5.2 en trois caractères : la STO dérivée de la Super Trofeo, la Tecnica routière et la Sterrato tout-terrain. La Sterrato est le dernier modèle non hybride lancé par Lamborghini.",
+        "positioning": "Versions de fin de carrière de la Huracán, au-dessus de la Huracán EVO.",
+        "technicalFacts": [
+          "V10 5 204 cm³ atmosphérique : 640 ch à 8 000 tr/min et 565 Nm à 6 500 tr/min sur STO et Tecnica.",
+          "STO et Tecnica en propulsion ; Sterrato en transmission intégrale avec 610 ch et 560 Nm.",
+          "La carrosserie de la STO est composée à 75 % de fibre de carbone.",
+          "Sterrato : garde au sol relevée, voies élargies, pneus Bridgestone tout-terrain, mode Rally et 1 499 exemplaires."
+        ],
+        "pros": [
+          "Dernier V10 atmosphérique de Lamborghini.",
+          "Trois caractères très différents sur une même base."
+        ],
+        "differentiators": [
+          "Sterrato : supercar conçue pour rouler sur terre et gravier."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "STO très typée circuit au quotidien.",
+          "Sterrato limitée à 260 km/h."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lamborghini-huracan-sto-tecnica-sterrato-sto",
+          "name": "Huracán STO",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V10 atmosphérique",
+            "displacementCc": 5204
+          },
+          "powerHp": 640,
+          "powerKw": null,
+          "torqueNm": 565,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 3.0,
+          "topSpeedKmh": 310,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1339,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Poids à sec, puissance, couple et performances selon Automoto.it. Cylindrée et boîte selon Wikipedia.",
+          "sources": [
+            {
+              "label": "Automoto.it – Lamborghini Huracán STO : Super Trofeo Omologata da 640 CV e 1.339 kg",
+              "url": "https://www.automoto.it/news/lamborghini-huracan-sto-dalle-corse-alla-strada-arriva-la-super-trofeo-omologata.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Lamborghini Huracán",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lamborghini-huracan-sto-tecnica-sterrato-tecnica",
+          "name": "Huracán Tecnica",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V10 atmosphérique",
+            "displacementCc": 5204
+          },
+          "powerHp": 640,
+          "powerKw": null,
+          "torqueNm": 565,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 3.2,
+          "topSpeedKmh": 325,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1379,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Poids à sec, couple et performances selon HDmotori ; cylindrée et boîte selon Wikipedia.",
+          "sources": [
+            {
+              "label": "HDmotori – Lamborghini Huracán Tecnica : motore e prestazioni",
+              "url": "https://www.hdmotori.it/lamborghini/articoli/n554313/lamborghini-huracan-tecnica-motore-prestazioni/",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Lamborghini Huracán",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lamborghini-huracan-sto-tecnica-sterrato-sterrato",
+          "name": "Huracán Sterrato",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V10 atmosphérique",
+            "displacementCc": 5204
+          },
+          "powerHp": 610,
+          "powerKw": null,
+          "torqueNm": 560,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 3.4,
+          "topSpeedKmh": 260,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1470,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Poids à sec, puissance, couple (560 Nm) et performances selon HDmotori ; Wikipedia indique 565 Nm.",
+          "sources": [
+            {
+              "label": "HDmotori – Lamborghini Huracán Sterrato : motore e prestazioni",
+              "url": "https://www.hdmotori.it/lamborghini/articoli/n563846/lamborghini-huracan-sterrato-motore-prestazioni/",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Lamborghini Huracán",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Lamborghini Huracán",
+          "url": "https://en.wikipedia.org/wiki/Lamborghini_Hurac%C3%A1n",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Automoto.it – Lamborghini Huracán STO : Super Trofeo Omologata da 640 CV e 1.339 kg",
+          "url": "https://www.automoto.it/news/lamborghini-huracan-sto-dalle-corse-alla-strada-arriva-la-super-trofeo-omologata.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "HDmotori – Lamborghini Huracán Tecnica : motore e prestazioni",
+          "url": "https://www.hdmotori.it/lamborghini/articoli/n554313/lamborghini-huracan-tecnica-motore-prestazioni/",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "HDmotori – Lamborghini Huracán Sterrato : motore e prestazioni",
+          "url": "https://www.hdmotori.it/lamborghini/articoli/n563846/lamborghini-huracan-sterrato-motore-prestazioni/",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lamborghini-gallardo",
+      "modelId": "lamborghini-gallardo",
+      "brandId": "lamborghini",
+      "modelName": "Gallardo",
+      "name": "Gallardo LP 560-4 / LP 570-4 Superleggera",
+      "yearsLabel": "2003 – 2013",
+      "startYear": 2003,
+      "endYear": 2013,
+      "status": "discontinued",
+      "segment": "Supercar V10 à moteur central arrière",
+      "bodyStyles": [
+        "Coupé",
+        "Spyder"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": "lamborghini-huracan-evo",
+      "images": [
+        {
+          "commonsFile": "File:Lamborghini Gallardo LP560-4 - 009.jpg",
+          "caption": null,
+          "depicts": "Lamborghini Gallardo LP 560-4",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Gallardo a été la Lamborghini la plus vendue de son époque, avec 14 022 exemplaires de 2003 à 2013. Elle a inauguré le V10 maison et a été remplacée par la Huracán.",
+        "positioning": "Supercar V10 d'accès chez Lamborghini, sous la Murciélago puis l'Aventador.",
+        "technicalFacts": [
+          "V10 5.0 de 500 ch au lancement en 2003, puis V10 5.2 à injection directe à partir de la LP 560-4 de 2008.",
+          "LP 560-4 : 560 ch à 8 000 tr/min et 540 Nm à 6 500 tr/min, transmission intégrale.",
+          "Boîte manuelle 6 rapports ou robotisée e-gear 6 rapports (Graziano).",
+          "LP 570-4 Superleggera (2010) : 570 ch et 1 340 kg grâce à un large usage de la fibre de carbone."
+        ],
+        "pros": [
+          "Boîte manuelle encore proposée.",
+          "Base technique partagée avec l'Audi R8."
+        ],
+        "differentiators": [
+          "Lamborghini la plus produite de son époque."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Boîte e-gear à simple embrayage brutale à basse vitesse.",
+          "Habitacle d'inspiration Audi vite daté."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lamborghini-gallardo-lp560-4",
+          "name": "Gallardo LP 560-4",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V10 atmosphérique",
+            "displacementCc": null
+          },
+          "powerHp": 560,
+          "powerKw": null,
+          "torqueNm": 540,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 6 rapports ou robotisée e-gear 6 rapports",
+          "accel0100s": 3.7,
+          "topSpeedKmh": 325,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Cylindrée donnée par Wikipedia en litres seulement (5,2 L). Poids donné en livres seulement.",
+          "sources": [
+            {
+              "label": "Wikipedia – Lamborghini Gallardo",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lamborghini-gallardo-lp570-4-superleggera",
+          "name": "Gallardo LP 570-4 Superleggera",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V10 atmosphérique",
+            "displacementCc": null
+          },
+          "powerHp": 570,
+          "powerKw": null,
+          "torqueNm": 540,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 3.2,
+          "topSpeedKmh": 329,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1340,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Chiffres selon Wikipedia (5,2 L). Boîte non précisée par la source pour cette version.",
+          "sources": [
+            {
+              "label": "Wikipedia – Lamborghini Gallardo",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Lamborghini Gallardo",
+          "url": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lamborghini-murcielago",
+      "modelId": "lamborghini-v12",
+      "brandId": "lamborghini",
+      "modelName": "Murciélago",
+      "name": "Murciélago LP 640 / LP 670-4 SuperVeloce",
+      "yearsLabel": "2001 – 2010",
+      "startYear": 2001,
+      "endYear": 2010,
+      "status": "discontinued",
+      "segment": "Supercar V12 à moteur central arrière",
+      "bodyStyles": [
+        "Coupé",
+        "Roadster"
+      ],
+      "categories": [
+        "supercar",
+        "coupe",
+        "classic"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Lamborghini Murciélago LP-640 - Flickr - Alexandre Prévot (40).jpg",
+          "caption": null,
+          "depicts": "Lamborghini Murciélago LP 640",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Lamborghini Murcielago LP670-4.jpg",
+          "caption": null,
+          "depicts": "Lamborghini Murciélago LP 670-4 SuperVeloce",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Murciélago a été le vaisseau amiral V12 de Lamborghini de 2001 à 2010, entre la Diablo et l'Aventador, produit à 4 099 exemplaires. Sa version ultime, la LP 670-4 SuperVeloce, atteint 670 ch.",
+        "positioning": "Supercar V12 à portes en élytre, sommet de la gamme Lamborghini de la décennie 2000.",
+        "technicalFacts": [
+          "V12 atmosphérique porté de 6,2 L à 6 496 cm³ avec la LP 640 de 2006.",
+          "Transmission intégrale (visco-coupleur central), boîte manuelle 6 rapports ou robotisée e-gear 6 rapports.",
+          "LP 670-4 SV : 670 ch à 8 000 tr/min et 660 Nm, environ 100 kg de moins que la LP 640.",
+          "Production arrêtée le 5 novembre 2010."
+        ],
+        "pros": [
+          "V12 atmosphérique et portes en élytre, codes historiques de Lamborghini.",
+          "Boîte manuelle disponible sur la LP 640."
+        ],
+        "differentiators": [
+          "Dernière Lamborghini équipée du V12 historique de la marque."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Consommation très élevée : la moins sobre des voitures de 2008 selon l'EPA.",
+          "Visibilité et maniabilité urbaine limitées."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lamborghini-murcielago-lp640",
+          "name": "Murciélago LP 640",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 atmosphérique",
+            "displacementCc": 6496
+          },
+          "powerHp": 640,
+          "powerKw": 471,
+          "torqueNm": 660,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 6 rapports ou robotisée e-gear 6 rapports",
+          "accel0100s": 3.4,
+          "topSpeedKmh": 340,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance, couple, cylindrée et 0-100 km/h selon le communiqué Lamborghini reproduit par Lambocars ; vitesse maximale officielle selon Wikipedia.",
+          "sources": [
+            {
+              "label": "Lambocars – The official press release of Murciélago LP640",
+              "url": "https://lambocars.com/the-official-press-release-of-murcielago-lp640/",
+              "type": "community",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Lamborghini Murciélago",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lamborghini-murcielago-lp670-4-sv",
+          "name": "Murciélago LP 670-4 SuperVeloce",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 atmosphérique",
+            "displacementCc": 6496
+          },
+          "powerHp": 670,
+          "powerKw": 493,
+          "torqueNm": 660,
+          "drivetrain": "awd",
+          "gearbox": "Robotisée e-gear 6 rapports",
+          "accel0100s": 3.2,
+          "topSpeedKmh": 337,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Vitesse maximale de 337 km/h avec l'aileron Aeropack de série, 342 km/h avec le petit aileron optionnel (GoAuto). 350 exemplaires prévus.",
+          "sources": [
+            {
+              "label": "GoAuto – Geneva 2009: Lamborghini Murciélago LP670-4 SuperVeloce",
+              "url": "https://goauto.com.au/motor-show/geneva/2009/12161.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Lamborghini Murciélago",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Lamborghini Murciélago",
+          "url": "https://en.wikipedia.org/wiki/Lamborghini_Murci%C3%A9lago",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Lambocars – The official press release of Murciélago LP640",
+          "url": "https://lambocars.com/the-official-press-release-of-murcielago-lp640/",
+          "type": "community",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "GoAuto – Geneva 2009: Lamborghini Murciélago LP670-4 SuperVeloce",
+          "url": "https://goauto.com.au/motor-show/geneva/2009/12161.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mclaren-720s",
+      "modelId": "mclaren-super-series",
+      "brandId": "mclaren",
+      "modelName": "720S",
+      "name": "720S (Coupé / Spider)",
+      "yearsLabel": "2017 – 2023",
+      "startYear": 2017,
+      "endYear": 2023,
+      "status": "discontinued",
+      "segment": "Supercar V8 biturbo à moteur central arrière",
+      "bodyStyles": [
+        "Coupé",
+        "Spider (toit rigide escamotable)"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe",
+        "convertible"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": "mclaren-765lt",
+      "images": [
+        {
+          "commonsFile": "File:2018 McLaren 720S V8 S-A 4.0.jpg",
+          "caption": null,
+          "depicts": "McLaren 720S, 2018",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:McLaren 720S Spider IMG 3285.jpg",
+          "caption": null,
+          "depicts": "McLaren 720S Spider",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Dévoilée au Salon de Genève 2017, la 720S a inauguré la deuxième génération de Super Series McLaren avec 720 ch et une coque carbone Monocage II. Elle a été remplacée par la 750S en 2023.",
+        "positioning": "Supercar de cœur de gamme McLaren (Super Series), entre les Sports Series et les Ultimate Series.",
+        "technicalFacts": [
+          "V8 4.0 biturbo M840T de 720 ch à 7 500 tr/min et 770 Nm à 5 500 tr/min.",
+          "Coque en carbone Monocage II, reprise ensuite par la Senna, la Speedtail et l'Elva.",
+          "Suspension active Proactive Chassis Control II.",
+          "Boîte à double embrayage 7 rapports Graziano."
+        ],
+        "pros": [
+          "Performances de premier plan pour la catégorie.",
+          "Le Spider n'a pas besoin de renforts grâce à la structure carbone."
+        ],
+        "differentiators": [
+          "Mode Variable Drift qui module le contrôle de stabilité."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Style tranché qui ne fait pas l'unanimité.",
+          "Spider plus lourd de 49 kg que le coupé."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mclaren-720s-coupe",
+          "name": "720S Coupé",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 3994
+          },
+          "powerHp": 720,
+          "powerKw": null,
+          "torqueNm": 770,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 2.9,
+          "topSpeedKmh": 341,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1419,
+          "dimensions": {
+            "lengthMm": 4544,
+            "widthMm": 2161,
+            "heightMm": 1196,
+            "wheelbaseMm": 2670
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "0-100 km/h et vitesse maximale selon GTspirit ; poids de 1 419 kg selon Wikipedia (poids à sec annoncé par GTspirit : 1 283 kg).",
+          "sources": [
+            {
+              "label": "Wikipedia – McLaren 720S",
+              "url": "https://en.wikipedia.org/wiki/McLaren_720S",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "GTspirit – McLaren 720S",
+              "url": "https://gtspirit.com/?p=194818",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mclaren-720s-spider",
+          "name": "720S Spider",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 3994
+          },
+          "powerHp": 720,
+          "powerKw": null,
+          "torqueNm": 770,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 341,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1468,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Vitesse maximale toit fermé. Wikipedia ne donne que le 0-97 km/h (2,9 s) : 0-100 km/h laissé vide.",
+          "sources": [
+            {
+              "label": "Wikipedia – McLaren 720S",
+              "url": "https://en.wikipedia.org/wiki/McLaren_720S",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – McLaren 720S",
+          "url": "https://en.wikipedia.org/wiki/McLaren_720S",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "GTspirit – McLaren 720S",
+          "url": "https://gtspirit.com/?p=194818",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mclaren-765lt",
+      "modelId": "mclaren-super-series",
+      "brandId": "mclaren",
+      "modelName": "765LT",
+      "name": "765LT (Coupé / Spider)",
+      "yearsLabel": "2020 – 2023",
+      "startYear": 2020,
+      "endYear": 2023,
+      "status": "discontinued",
+      "segment": "Supercar V8 biturbo « Longtail » orientée circuit",
+      "bodyStyles": [
+        "Coupé",
+        "Spider (toit rigide escamotable)"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe",
+        "convertible"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track",
+        "collection"
+      ],
+      "previousGenerationId": "mclaren-720s",
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2020 McLaren 765LT 4.0.jpg",
+          "caption": null,
+          "depicts": "McLaren 765LT, 2020",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:McLaren 765LT Spider.jpg",
+          "caption": null,
+          "depicts": "McLaren 765LT Spider",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Dévoilée le 3 mars 2020, la 765LT est la version Longtail de la 720S, limitée à 765 coupés puis 765 Spider. Elle pousse le V8 4.0 à 765 ch et perd 80 kg.",
+        "positioning": "Série limitée orientée circuit, au sommet de la lignée 720S.",
+        "technicalFacts": [
+          "V8 4.0 biturbo M840T de 765 ch à 7 500 tr/min et 800 Nm à 5 500 tr/min.",
+          "Pistons en aluminium forgé et joint de culasse trois couches repris de la Senna.",
+          "0-200 km/h en 7,2 s selon les chiffres de lancement publiés par Giltrap.",
+          "Spider dévoilé le 27 juillet 2021, 49 kg plus lourd que le coupé."
+        ],
+        "pros": [
+          "Gain de poids et de puissance marqué par rapport à la 720S.",
+          "Chassis affûté pour la piste."
+        ],
+        "differentiators": [
+          "Successeur de la 675LT dans la lignée Longtail."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Vitesse maximale réduite à 330 km/h par la traînée aérodynamique.",
+          "Production limitée et cote élevée."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mclaren-765lt-coupe",
+          "name": "765LT Coupé",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 3994
+          },
+          "powerHp": 765,
+          "powerKw": null,
+          "torqueNm": 800,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 2.8,
+          "topSpeedKmh": 330,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1339,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance, couple, 0-100 km/h et poids DIN selon Giltrap (poids à sec le plus léger : 1 229 kg) ; vitesse maximale de 330 km/h selon Wikipedia.",
+          "sources": [
+            {
+              "label": "Giltrap McLaren – McLaren 765LT",
+              "url": "https://www.giltrap.com/latest-news/2020/march/mclaren-765lt",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – McLaren 720S",
+              "url": "https://en.wikipedia.org/wiki/McLaren_720S",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mclaren-765lt-spider",
+          "name": "765LT Spider",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 3994
+          },
+          "powerHp": 765,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1388,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Seuls la puissance et le poids (1 388 kg) sont donnés par Wikipedia ; couple et performances laissés vides.",
+          "sources": [
+            {
+              "label": "Wikipedia – McLaren 720S",
+              "url": "https://en.wikipedia.org/wiki/McLaren_720S",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – McLaren 720S",
+          "url": "https://en.wikipedia.org/wiki/McLaren_720S",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Giltrap McLaren – McLaren 765LT",
+          "url": "https://www.giltrap.com/latest-news/2020/march/mclaren-765lt",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mclaren-senna",
+      "modelId": "mclaren-senna",
+      "brandId": "mclaren",
+      "modelName": "Senna",
+      "name": "Senna",
+      "yearsLabel": "2018 (série limitée)",
+      "startYear": 2018,
+      "endYear": null,
+      "status": "discontinued",
+      "segment": "Supercar de piste homologuée (Ultimate Series)",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "supercar",
+        "coupe",
+        "classic"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "track",
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:McLaren Senna IMG 3279.jpg",
+          "caption": null,
+          "depicts": "McLaren Senna",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La McLaren Senna, dévoilée en décembre 2017 puis exposée à Genève en 2018, est une supercar de piste homologuée de 800 ch. Elle rejoint la F1 et la P1 dans la gamme Ultimate Series.",
+        "positioning": "Troisième modèle de la gamme Ultimate Series de McLaren, conçu en priorité pour la piste.",
+        "technicalFacts": [
+          "V8 4.0 biturbo M840TR de 588 kW (800 ch) à 7 250 tr/min et 800 Nm à 5 500 tr/min.",
+          "Poids à sec annoncé de 1 198 kg, sans assistance électrique.",
+          "0-200 km/h en 6,8 s et 0-300 km/h en 17,5 s selon Wikipedia.",
+          "Coque carbone dérivée de celle de la 720S."
+        ],
+        "pros": [
+          "Rapport poids/puissance exceptionnel pour une voiture homologuée.",
+          "Appui aérodynamique très élevé."
+        ],
+        "differentiators": [
+          "Pas d'hybridation, contrairement à la P1."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Confort et discrétion sacrifiés au profit de la piste.",
+          "Série limitée, très recherchée en collection."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mclaren-senna-senna",
+          "name": "Senna",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 3994
+          },
+          "powerHp": 800,
+          "powerKw": 588,
+          "torqueNm": 800,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 2.8,
+          "topSpeedKmh": 335,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1198,
+          "dimensions": {
+            "lengthMm": 4744,
+            "widthMm": 2153,
+            "heightMm": 1195,
+            "wheelbaseMm": 2670
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Poids à sec annoncé ; Wikipedia indique aussi 1 374 kg (type non précisé). 800 ch : valeur arrondie par Wikipedia à partir de 588 kW.",
+          "sources": [
+            {
+              "label": "Wikipedia – McLaren Senna",
+              "url": "https://en.wikipedia.org/wiki/McLaren_Senna",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – McLaren Senna",
+          "url": "https://en.wikipedia.org/wiki/McLaren_Senna",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mclaren-600lt",
+      "modelId": "mclaren-sports-series",
+      "brandId": "mclaren",
+      "modelName": "600LT",
+      "name": "600LT (Coupé / Spider)",
+      "yearsLabel": "2018 – 2021",
+      "startYear": 2018,
+      "endYear": 2021,
+      "status": "discontinued",
+      "segment": "Supercar V8 biturbo « Longtail » dérivée de la 570S",
+      "bodyStyles": [
+        "Coupé",
+        "Spider (toit rigide escamotable)"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe",
+        "convertible"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:600LT Orange.jpg",
+          "caption": null,
+          "depicts": "McLaren 600LT",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:McLaren 600LT Spider MSO Genf 2019 1Y7A5301.jpg",
+          "caption": null,
+          "depicts": "McLaren 600LT Spider MSO, Salon de Genève 2019",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Dévoilée en juin 2018, la 600LT est la version Longtail de la 570S, allongée et nettement allégée. Son V8 3.8 biturbo développe 600 ch.",
+        "positioning": "Sommet de la gamme Sports Series de McLaren, orienté circuit.",
+        "technicalFacts": [
+          "V8 3.8 biturbo de 600 ch et 620 Nm, boîte à double embrayage 7 rapports.",
+          "Échappements en titane sortant sur le dessus de la poupe, comme sur la Senna.",
+          "23 % de pièces nouvelles par rapport à la 570S selon McLaren.",
+          "Spider présenté au Salon de Détroit en janvier 2019."
+        ],
+        "pros": [
+          "Très légère pour sa catégorie.",
+          "Performances de supercar sur une base plus accessible."
+        ],
+        "differentiators": [
+          "Cinquième McLaren à porter l'appellation Longtail."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Aileron fixe et suspension ferme peu adaptés au quotidien.",
+          "Sièges baquets de la Senna en option seulement."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mclaren-600lt-coupe",
+          "name": "600LT Coupé",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": null
+          },
+          "powerHp": 600,
+          "powerKw": null,
+          "torqueNm": 620,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 2.9,
+          "topSpeedKmh": 328,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1247,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance, couple, 0-100 km/h et vitesse maximale selon Autogespot ; poids à sec selon Wikipedia. Cylindrée de 3,8 L non détaillée en cm³.",
+          "sources": [
+            {
+              "label": "Autogespot – World debut for new McLaren 600LT at Goodwood FoS",
+              "url": "https://www.autogespot.com/world-debut-for-new-mclaren-600lt-at-goodwood-fos",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – McLaren 570S (section 600LT)",
+              "url": "https://en.wikipedia.org/wiki/McLaren_570S",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mclaren-600lt-spider",
+          "name": "600LT Spider",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": null
+          },
+          "powerHp": 600,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Wikipedia indique un surpoids d'environ 50 kg et des performances identiques au coupé sans chiffres précis : valeurs laissées vides.",
+          "sources": [
+            {
+              "label": "Wikipedia – McLaren 570S (section 600LT)",
+              "url": "https://en.wikipedia.org/wiki/McLaren_570S",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – McLaren 570S (section 600LT)",
+          "url": "https://en.wikipedia.org/wiki/McLaren_570S",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autogespot – World debut for new McLaren 600LT at Goodwood FoS",
+          "url": "https://www.autogespot.com/world-debut-for-new-mclaren-600lt-at-goodwood-fos",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "porsche-911-turbo-s-992",
+      "modelId": "porsche-911",
+      "brandId": "porsche",
+      "modelName": "911 Turbo S",
+      "name": "911 Turbo S (992)",
+      "yearsLabel": "2020 – aujourd'hui",
+      "startYear": 2020,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Supercar à moteur arrière et transmission intégrale",
+      "bodyStyles": [
+        "Coupé",
+        "Cabriolet"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "daily",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Porsche 992 Turbo S 1X7A0411.jpg",
+          "caption": null,
+          "depicts": "Porsche 911 Turbo S (992.1) coupé",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Porsche 992 Turbo S coupes IAA 2025 DSC 1836.jpg",
+          "caption": null,
+          "depicts": "Porsche 911 Turbo S (992.2) coupé, IAA 2025",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La 911 Turbo S de génération 992 associe un flat-6 biturbo et la transmission intégrale. Depuis 2025, la version 992.2 adopte l'hybridation T-Hybrid et atteint 711 ch, un record pour une 911 de série.",
+        "positioning": "Sommet de la gamme 911 routière, à côté des modèles GT orientés piste.",
+        "technicalFacts": [
+          "992.1 (2020) : flat-6 3 745 cm³ biturbo de 478 kW et 800 Nm, PDK 8 rapports.",
+          "992.2 (2025) : flat-6 3 591 cm³ à turbos électriques eTurbo, 711 ch (523 kW) et 800 Nm de 2 300 à 6 000 tr/min.",
+          "Le système hybride de la 992.2 ajoute 85 kg selon Wikipedia.",
+          "Tour du Nürburgring en 7:03.92 pour la 992.2, 14 s de mieux que la 992.1."
+        ],
+        "pros": [
+          "Performances de supercar avec un usage quotidien possible.",
+          "Transmission intégrale efficace par tous les temps."
+        ],
+        "differentiators": [
+          "Plus puissante 911 de série produite selon Porsche (992.2)."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Poids en hausse avec l'hybridation.",
+          "Prix très élevé pour une 911."
+        ]
+      },
+      "variants": [
+        {
+          "id": "porsche-911-turbo-s-992-1",
+          "name": "911 Turbo S (992.1)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "Flat-6 biturbo",
+            "displacementCc": 3745
+          },
+          "powerHp": 650,
+          "powerKw": 478,
+          "torqueNm": 800,
+          "drivetrain": "awd",
+          "gearbox": "PDK 8 rapports",
+          "accel0100s": 2.7,
+          "topSpeedKmh": 330,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 254,
+          "weightKg": 1640,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "650 ch : valeur Porsche implicite dans Wikipedia (711 ch, soit 61 ch de plus que la 992.1). Poids DIN et CO2 en cycle NEDC selon Wikipedia. Modèle 2020-2025.",
+          "sources": [
+            {
+              "label": "Wikipedia – Porsche 911 (992)",
+              "url": "https://en.wikipedia.org/wiki/Porsche_911_(992)",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "porsche-911-turbo-s-992-2",
+          "name": "911 Turbo S (992.2, T-Hybrid)",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "Flat-6 biturbo hybride (eTurbo)",
+            "displacementCc": 3591
+          },
+          "powerHp": 711,
+          "powerKw": 523,
+          "torqueNm": 800,
+          "drivetrain": "awd",
+          "gearbox": "PDK 8 rapports",
+          "accel0100s": 2.5,
+          "topSpeedKmh": 322,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Chiffres Porsche repris par Wikipedia (0-100 km/h avec pneus été). Poids non publié dans la source.",
+          "sources": [
+            {
+              "label": "Wikipedia – Porsche 911 (992)",
+              "url": "https://en.wikipedia.org/wiki/Porsche_911_(992)",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Porsche 911 (992)",
+          "url": "https://en.wikipedia.org/wiki/Porsche_911_(992)",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mercedes-benz-sls-amg",
+      "modelId": "mercedes-amg-sls",
+      "brandId": "mercedes-benz",
+      "modelName": "SLS AMG",
+      "name": "SLS AMG (C197) / Black Series",
+      "yearsLabel": "2010 – 2015",
+      "startYear": 2010,
+      "endYear": 2015,
+      "status": "discontinued",
+      "segment": "Supercar à moteur avant central et portes papillon",
+      "bodyStyles": [
+        "Coupé",
+        "Roadster"
+      ],
+      "categories": [
+        "supercar",
+        "gt",
+        "coupe",
+        "classic"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "travel",
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mercedes-Benz SLS AMG (C 197) – Frontansicht geöffnet, 10. August 2011, Düsseldorf.jpg",
+          "caption": null,
+          "depicts": "Mercedes-Benz SLS AMG coupé (C197), portes ouvertes",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:RM Sotheby’s 2017 - Mercedes-Benz SLS AMG black series - 2014 - 008.jpg",
+          "caption": null,
+          "depicts": "Mercedes-Benz SLS AMG Black Series, 2014",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Présentée au Salon de Francfort 2009, la SLS AMG est la première Mercedes conçue entièrement par AMG. Ses portes papillon rendent hommage à la 300 SL.",
+        "positioning": "Supercar GT à moteur V8 avant central, sommet de la gamme Mercedes-AMG de 2010 à 2015.",
+        "technicalFacts": [
+          "V8 6 208 cm³ atmosphérique M159 de 571 ch à 6 800 tr/min et 650 Nm à 4 750 tr/min.",
+          "Boîte à double embrayage 7 rapports Getrag (AMG Speedshift DCT).",
+          "Structure en aluminium de 241 kg, produite par Magna Steyr à Graz et assemblée à Sindelfingen.",
+          "Black Series : 631 ch à 7 400 tr/min, régime maximal de 8 000 tr/min et 70 kg de moins ; 132 exemplaires."
+        ],
+        "pros": [
+          "Design iconique et portes papillon.",
+          "V8 atmosphérique très sonore."
+        ],
+        "differentiators": [
+          "Première voiture conçue de A à Z par AMG."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Accès à bord délicat avec les portes papillon.",
+          "Coffre de 176 L seulement."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mercedes-benz-sls-amg-coupe",
+          "name": "SLS AMG Coupé",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 atmosphérique",
+            "displacementCc": 6208
+          },
+          "powerHp": 571,
+          "powerKw": null,
+          "torqueNm": 650,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 3.8,
+          "topSpeedKmh": 315,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1619,
+          "dimensions": {
+            "lengthMm": 4638,
+            "widthMm": 1939,
+            "heightMm": 1252,
+            "wheelbaseMm": 2680
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Chiffres constructeur repris par Wikipedia ; poids sans précision de norme.",
+          "sources": [
+            {
+              "label": "Wikipedia – Mercedes-Benz SLS AMG",
+              "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLS_AMG",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mercedes-benz-sls-amg-black-series",
+          "name": "SLS AMG Coupé Black Series",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 atmosphérique",
+            "displacementCc": 6208
+          },
+          "powerHp": 631,
+          "powerKw": null,
+          "torqueNm": 635,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 3.6,
+          "topSpeedKmh": 315,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1550,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Poids à vide et vitesse limitée électroniquement selon Auto Bild ; puissance, couple et cylindrée selon Wikipedia.",
+          "sources": [
+            {
+              "label": "Auto Bild – Mercedes SLS AMG Black Series",
+              "url": "https://www.autobild.de/artikel/mercedes-sls-amg-black-series-3703807.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Mercedes-Benz SLS AMG",
+              "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLS_AMG",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Mercedes-Benz SLS AMG",
+          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLS_AMG",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Auto Bild – Mercedes SLS AMG Black Series",
+          "url": "https://www.autobild.de/artikel/mercedes-sls-amg-black-series-3703807.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "aston-martin-dbs-superleggera",
+      "modelId": "aston-martin-dbs",
+      "brandId": "aston-martin",
+      "modelName": "DBS Superleggera",
+      "name": "DBS Superleggera (Coupé / Volante)",
+      "yearsLabel": "2018 – 2024",
+      "startYear": 2018,
+      "endYear": 2024,
+      "status": "discontinued",
+      "segment": "Super-GT V12 à moteur avant",
+      "bodyStyles": [
+        "Coupé",
+        "Volante (cabriolet)"
+      ],
+      "categories": [
+        "supercar",
+        "gt",
+        "coupe",
+        "convertible"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2018 Aston Martin DBS Superleggera V12 Automatic 5.2 Front.jpg",
+          "caption": null,
+          "depicts": "Aston Martin DBS Superleggera, 2018",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Aston Martin DBS Superleggera Volante IMG 4413.jpg",
+          "caption": null,
+          "depicts": "Aston Martin DBS Superleggera Volante",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Dévoilée en juin 2018, la DBS Superleggera a remplacé la Vanquish de deuxième génération en haut de la gamme Aston Martin. Son V12 5.2 biturbo développe 725 ch et 900 Nm.",
+        "positioning": "Super-GT V12 à moteur avant, sommet de la gamme Aston Martin de 2018 à 2024.",
+        "technicalFacts": [
+          "V12 5.2 biturbo AE31 de 725 ch à 6 500 tr/min et 900 Nm de 1 800 à 5 000 tr/min.",
+          "Boîte automatique ZF 8HP95 à 8 rapports, rapport de pont de 2,93:1.",
+          "Différentiel autobloquant mécanique et vectorisation du couple.",
+          "Fin de carrière marquée par la DBS 770 Ultimate de 770 ch, limitée à 499 exemplaires."
+        ],
+        "pros": [
+          "Couple énorme disponible très tôt.",
+          "Grand tourisme confortable sur long trajet."
+        ],
+        "differentiators": [
+          "Plus fort appui aérodynamique d'une Aston Martin de série à son lancement, selon Wikipedia."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Poids élevé, surtout en Volante.",
+          "Garde au sol basse critiquée par la presse."
+        ]
+      },
+      "variants": [
+        {
+          "id": "aston-martin-dbs-superleggera-coupe",
+          "name": "DBS Superleggera",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 biturbo",
+            "displacementCc": null
+          },
+          "powerHp": 725,
+          "powerKw": null,
+          "torqueNm": 900,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 3.4,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1693,
+          "dimensions": {
+            "lengthMm": 4715,
+            "widthMm": 2145,
+            "heightMm": 1280,
+            "wheelbaseMm": 2805
+          },
+          "seats": 4,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Selon Motoring Research : 0-62 mph (environ 0-100 km/h) en 3,4 s, vitesse maximale de 211 mph laissée vide en km/h, poids à sec de 1 693 kg.",
+          "sources": [
+            {
+              "label": "Motoring Research – Aston Martin DBS Superleggera review",
+              "url": "https://www.motoringresearch.com/car-reviews/aston-martin-dbs-superleggera-review/",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Aston Martin DBS Superleggera",
+              "url": "https://en.wikipedia.org/wiki/Aston_Martin_DBS_Superleggera",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "aston-martin-dbs-superleggera-volante",
+          "name": "DBS Superleggera Volante",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 biturbo",
+            "displacementCc": null
+          },
+          "powerHp": 725,
+          "powerKw": null,
+          "torqueNm": 900,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 3.6,
+          "topSpeedKmh": 340,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1863,
+          "dimensions": null,
+          "seats": 4,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance, couple, 0-100 km/h et vitesse maximale selon Motor1 ; poids selon Wikipedia, sans précision de norme.",
+          "sources": [
+            {
+              "label": "Motor1 Deutschland – Aston Martin DBS Superleggera Volante (2019)",
+              "url": "https://de.motor1.com/news/346311/aston-martin-dbs-superleggera-volante/",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Aston Martin DBS Superleggera",
+              "url": "https://en.wikipedia.org/wiki/Aston_Martin_DBS_Superleggera",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Aston Martin DBS Superleggera",
+          "url": "https://en.wikipedia.org/wiki/Aston_Martin_DBS_Superleggera",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Motoring Research – Aston Martin DBS Superleggera review",
+          "url": "https://www.motoringresearch.com/car-reviews/aston-martin-dbs-superleggera-review/",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Motor1 Deutschland – Aston Martin DBS Superleggera Volante (2019)",
+          "url": "https://de.motor1.com/news/346311/aston-martin-dbs-superleggera-volante/",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "maserati-mc20",
+      "modelId": "maserati-mc20",
+      "brandId": "maserati",
+      "modelName": "MC20",
+      "name": "MC20 (Coupé / Cielo)",
+      "yearsLabel": "2020 – remplacée par la MCPura",
+      "startYear": 2020,
+      "endYear": null,
+      "status": "discontinued",
+      "segment": "Supercar V6 biturbo à moteur central arrière",
+      "bodyStyles": [
+        "Coupé",
+        "Cielo (toit rigide escamotable)"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe",
+        "convertible"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Maserati MC20 IAA 2021 1X7A0087.jpg",
+          "caption": null,
+          "depicts": "Maserati MC20, IAA 2021",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2022 Maserati MC20 Cielo.jpg",
+          "caption": null,
+          "depicts": "Maserati MC20 Cielo, 2022",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Présentée en septembre 2020 à Modène, la MC20 a marqué le retour de Maserati dans les supercars avec le V6 Nettuno conçu en interne. Elle cède la place à la MCPura, présentée en 2025.",
+        "positioning": "Supercar à moteur central de Maserati.",
+        "technicalFacts": [
+          "V6 Nettuno 2 992 cm³ biturbo à préchambre et double allumage : 630 ch à 7 500 tr/min et 730 Nm de 3 000 à 5 500 tr/min.",
+          "Boîte à double embrayage 8 rapports Tremec.",
+          "Cielo dévoilée en mai 2022 : toit rigide escamotable en 12 s, vitre électrochrome, 65 kg de plus.",
+          "Produite à l'usine Maserati de Modène."
+        ],
+        "pros": [
+          "Moteur V6 développé en interne par Maserati.",
+          "Poids contenu pour la catégorie."
+        ],
+        "differentiators": [
+          "Allumage à préchambre, technologie rare sur une voiture de série."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "V6 à la sonorité moins noble que les V8 et V12 concurrents.",
+          "Remplacée après cinq ans par la MCPura."
+        ]
+      },
+      "variants": [
+        {
+          "id": "maserati-mc20-coupe",
+          "name": "MC20",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 biturbo",
+            "displacementCc": 2992
+          },
+          "powerHp": 630,
+          "powerKw": 463,
+          "torqueNm": 730,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 8 rapports",
+          "accel0100s": 2.9,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4669,
+            "widthMm": 1965,
+            "heightMm": 1224,
+            "wheelbaseMm": 2700
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Selon le communiqué repris par Automotive World : 0-100 km/h « en moins de 2,9 s », vitesse maximale « supérieure à 325 km/h » (laissée vide) et poids à vide « inférieur à 1 500 kg » (laissé vide).",
+          "sources": [
+            {
+              "label": "Automotive World – Maserati MC20: the brand's new super sports car (communiqué Maserati)",
+              "url": "https://www.automotiveworld.com/news-releases/maserati-mc20-the-brands-new-super-sports-car",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Maserati MC20",
+              "url": "https://en.wikipedia.org/wiki/Maserati_MC20",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "maserati-mc20-cielo",
+          "name": "MC20 Cielo",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 biturbo",
+            "displacementCc": 2992
+          },
+          "powerHp": 630,
+          "powerKw": null,
+          "torqueNm": 730,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 8 rapports",
+          "accel0100s": 3.0,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1540,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "0-100 km/h (environ 3,0 s) et poids selon CarExpert ; vitesse maximale « supérieure à 320 km/h », laissée vide. Puissance et couple selon Wikipedia (même V6 que le coupé) ; CarExpert indique 470 kW et 700 Nm.",
+          "sources": [
+            {
+              "label": "CarExpert – Maserati MC20 Cielo spyder revealed",
+              "url": "https://www.carexpert.com.au/car-news/maserati-mc20-cielo-spyder-revealed",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Maserati MC20",
+              "url": "https://en.wikipedia.org/wiki/Maserati_MC20",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Maserati MC20",
+          "url": "https://en.wikipedia.org/wiki/Maserati_MC20",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Automotive World – Maserati MC20: the brand's new super sports car (communiqué Maserati)",
+          "url": "https://www.automotiveworld.com/news-releases/maserati-mc20-the-brands-new-super-sports-car",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "CarExpert – Maserati MC20 Cielo spyder revealed",
+          "url": "https://www.carexpert.com.au/car-news/maserati-mc20-cielo-spyder-revealed",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}

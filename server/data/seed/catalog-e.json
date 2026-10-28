@@ -1,0 +1,3013 @@
+{
+  "generations": [
+    {
+      "id": "renault-clio-6",
+      "modelId": "renault-clio",
+      "brandId": "renault",
+      "modelName": "Clio",
+      "name": "Renault Clio VI (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine polyvalente (segment B)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Renault Clio VI IMG 4563.jpg",
+          "caption": "Renault Clio VI grise à Leinfelden-Echterdingen (janvier 2026)",
+          "depicts": "Renault Clio VI (2025), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Renault Clio VI Auto Zuerich 2025 DSC 3205.jpg",
+          "caption": "Renault Clio VI rouge au salon Auto Zürich (octobre 2025)",
+          "depicts": "Renault Clio VI (2025), exposée au salon Auto Zürich 2025",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La sixième génération de la Renault Clio grandit à 4,12 m et coiffe sa gamme d'un nouvel hybride E-Tech de 160 ch. Elle conserve des versions essence TCe 115 en boîte manuelle ou automatique.",
+        "positioning": "Citadine polyvalente de Renault, entre la Renault 5 E-Tech électrique et le Captur ; best-seller historique de la marque.",
+        "technicalFacts": [
+          "Hybride E-Tech 160 : 1.8 quatre cylindres à injection directe associé à deux moteurs électriques et une boîte automatique à crabots, batterie de 1,4 kWh (Renault).",
+          "Selon Renault, l'hybride roule jusqu'à 80 % du temps en électrique en ville et périurbain.",
+          "Longueur 4 116 mm, empattement 2 591 mm (Autotijd).",
+          "Coffre de 391 L en essence et 309 L en hybride (Renault France)."
+        ],
+        "pros": [
+          "Hybride E-Tech 160 sobre (3,9 l/100 km annoncés) et nettement plus vif que l'ancien 145 ch.",
+          "Coffre de 391 L en essence, généreux pour la catégorie.",
+          "Gamme d'entrée accessible avec le TCe 115 en boîte manuelle."
+        ],
+        "differentiators": [
+          "Une des rares citadines à proposer une hybridation complète (full hybrid) de 160 ch."
+        ],
+        "pricePositioning": "En France, le TCe 115 Techno était affiché 23 900 € et l'E-Tech 160 démarrait à 24 600 € (relevés d'octobre 2025).",
+        "innovations": [
+          "Nouveau groupe hybride E-Tech 1.8 de 160 ch, inédit sur la Clio."
+        ],
+        "compromises": [
+          "Le coffre de l'hybride perd 82 L par rapport aux versions essence.",
+          "Gabarit en hausse : à 4,12 m, la Clio frôle le segment des compactes."
+        ]
+      },
+      "variants": [
+        {
+          "id": "renault-clio-6-tce-115",
+          "name": "TCe 115 BVM6",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne turbo essence",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 115,
+          "powerKw": 85,
+          "torqueNm": 190,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 10.1,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 114,
+          "weightKg": 1277,
+          "dimensions": {
+            "lengthMm": 4116,
+            "widthMm": 1768,
+            "heightMm": 1451,
+            "wheelbaseMm": 2591
+          },
+          "seats": 5,
+          "trunkL": 391,
+          "equipmentHighlights": [
+            "Aussi disponible en boîte automatique EDC selon Renault"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 23900,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-10",
+              "source": {
+                "label": "L'argus – fiche technique Renault Clio VI 1.2 TCe 115 ch Techno",
+                "url": "https://www.largus.fr/fiche-technique/Renault/Clio/VI/2025/Berline+5+Portes/12+TCe+115ch+Techno-2980516.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance 115 ch / 85 kW et 0-100 km/h en 10,1 s selon Autotijd ; L'argus indique 114 ch / 84 kW. Vitesse maxi, consommation mixte (5,0 l/100 km, cycle non précisé par la source mais homologation WLTP), CO2 et poids à vide (1 277 kg) issus de L'argus pour la finition Techno. Prix France : finition Techno, tarif au 15/10/2025 relevé par L'argus.",
+          "sources": [
+            {
+              "label": "Autotijd.be – Renault Clio TCe 115 BVM (2026), fiche technique",
+              "url": "https://autotijd.be/en/specs/renault/clio/tce-115-manual-5451",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Renault Clio TCe 115 BVM (2026), dimensions",
+              "url": "https://autotijd.be/en/dimensions/renault/clio/tce-115-manual-5451",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – fiche technique Renault Clio VI 1.2 TCe 115 ch Techno",
+              "url": "https://www.largus.fr/fiche-technique/Renault/Clio/VI/2025/Berline+5+Portes/12+TCe+115ch+Techno-2980516.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Renault France – Nouvelle Clio, habitabilité et dimensions",
+              "url": "https://www.renault.fr/vehicules-hybrides/nouvelle-clio/habitabilite-et-dimensions.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "renault-clio-6-e-tech-160",
+          "name": "E-Tech full hybrid 160",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.8 4 cylindres en ligne essence + 2 moteurs électriques",
+            "displacementCc": 1789,
+            "electricMotors": 2
+          },
+          "powerHp": 160,
+          "powerKw": 115,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique à crabots sans embrayage (2 rapports électriques, 4 thermiques)",
+          "accel0100s": 8.3,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 3.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 1.4,
+          "charging": null,
+          "co2Gkm": 89,
+          "weightKg": 1271,
+          "dimensions": {
+            "lengthMm": 4116,
+            "widthMm": 1768,
+            "heightMm": 1451,
+            "wheelbaseMm": 2591
+          },
+          "seats": 5,
+          "trunkL": 309,
+          "equipmentHighlights": [
+            "Batterie lithium-ion de 1,4 kWh (brute)",
+            "Jusqu'à 80 % du temps en électrique en ville selon Renault"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 24600,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-10",
+              "source": {
+                "label": "Automobile Propre – Renault Clio 6 : voici les tarifs de sa nouvelle version hybride de 160 ch",
+                "url": "https://www.automobile-propre.com/articles/renault-clio-6-voici-les-tarifs-de-sa-nouvelle-version-hybride-de-160-ch/",
+                "type": "press",
+                "publishedAt": "2025-10-15",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Couple système non retenu : 270 Nm selon Automobile Propre, 205 Nm selon Autotijd. Autotijd donne 156 ch (115 kW) ; Renault annonce 160 ch. Poids à vide 1 271 à 1 316 kg selon équipement (Automobile Propre) ; valeur basse retenue. Consommation et CO2 : valeurs « à partir de » annoncées par Renault. Coffre 309 L selon Renault France (Autotijd indique 391 L, valeur des versions essence). Prix France : finition evolution, article du 15/10/2025.",
+          "sources": [
+            {
+              "label": "Renault Group – Efficiency and driving pleasure aboard New Clio thanks to the 160 hp hybrid engine",
+              "url": "https://www.renaultgroup.com/en/magazine/energy-and-powertrains/efficiency-and-driving-pleasure-aboard-new-clio-thanks-to-the-160-hp-hybrid-engine/",
+              "type": "manufacturer",
+              "publishedAt": "2025-09-22",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Automobile Propre – Renault Clio 6 E-Tech, fiche technique",
+              "url": "https://www.automobile-propre.com/voitures/renault-clio-6-e-tech/fiche-technique/",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Automobile Propre – Renault Clio 6 : voici les tarifs de sa nouvelle version hybride de 160 ch",
+              "url": "https://www.automobile-propre.com/articles/renault-clio-6-voici-les-tarifs-de-sa-nouvelle-version-hybride-de-160-ch/",
+              "type": "press",
+              "publishedAt": "2025-10-15",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Renault Clio E-Tech Full Hybrid 160 (2026), fiche technique",
+              "url": "https://autotijd.be/en/specs/renault/clio/e-tech-full-hybrid-160-5450",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Renault Clio E-Tech Full Hybrid 160 (2026), dimensions",
+              "url": "https://autotijd.be/en/dimensions/renault/clio/e-tech-full-hybrid-160-5450",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Renault France – Nouvelle Clio, habitabilité et dimensions",
+              "url": "https://www.renault.fr/vehicules-hybrides/nouvelle-clio/habitabilite-et-dimensions.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Renault Group – Efficiency and driving pleasure aboard New Clio thanks to the 160 hp hybrid engine",
+          "url": "https://www.renaultgroup.com/en/magazine/energy-and-powertrains/efficiency-and-driving-pleasure-aboard-new-clio-thanks-to-the-160-hp-hybrid-engine/",
+          "type": "manufacturer",
+          "publishedAt": "2025-09-22",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Renault France – Nouvelle Clio, habitabilité et dimensions",
+          "url": "https://www.renault.fr/vehicules-hybrides/nouvelle-clio/habitabilite-et-dimensions.html",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Automobile Propre – Renault Clio 6 E-Tech, fiche technique",
+          "url": "https://www.automobile-propre.com/voitures/renault-clio-6-e-tech/fiche-technique/",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "alpine-a390",
+      "modelId": "alpine-a390",
+      "brandId": "alpine",
+      "modelName": "A390",
+      "name": "Alpine A390 (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV coupé électrique sportif (segment D)",
+      "bodyStyles": [
+        "SUV coupé 5 portes"
+      ],
+      "categories": [
+        "sport-suv",
+        "suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "driving-pleasure",
+        "family",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Alpine A390 GT – f 11042026.jpg",
+          "caption": "Alpine A390 GT bleue, vue avant (avril 2026)",
+          "depicts": "Alpine A390 GT (2025), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Alpine A390 GTS, Auto 2025, Zurich (20251029-P1074101).jpg",
+          "caption": "Alpine A390 GTS au salon Auto Zürich (octobre 2025)",
+          "depicts": "Alpine A390 GTS (2025), exposée au salon Auto Zürich 2025",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "L'Alpine A390 est le premier SUV coupé 100 % électrique de la marque, avec trois moteurs et une transmission intégrale à vectorisation de couple. Il se décline en GT de 400 ch et GTS de 470 ch, sur une batterie de 89 kWh.",
+        "positioning": "Modèle familial et haut de gamme d'Alpine, au-dessus de la citadine A290 et à côté du coupé A110.",
+        "technicalFacts": [
+          "Trois moteurs électriques (un à l'avant, deux à l'arrière), transmission intégrale et Alpine Active Torque Vectoring.",
+          "Batterie de 89 kWh de capacité utile ; recharge DC jusqu'à 190 kW et chargeur AC 11 kW bidirectionnel (22 kW en option) selon Automobile Propre.",
+          "Longueur 4 615 mm, empattement 2 708 mm, répartition des masses 49/51 (Alpine UK).",
+          "Coffre de 532 L sous tablette, 1 643 L banquette rabattue (Alpine UK)."
+        ],
+        "pros": [
+          "Performances de premier plan : 0 à 100 km/h en 3,9 s pour la GTS.",
+          "Vrai coffre de 532 L et cinq places, rare pour un modèle Alpine.",
+          "Autonomie WLTP de 555 km annoncée pour la GT malgré le caractère sportif."
+        ],
+        "differentiators": [
+          "Architecture à trois moteurs avec vectorisation active du couple sur l'essieu arrière, peu courante dans la catégorie."
+        ],
+        "pricePositioning": "Lancé en France à 67 500 € (GT) et 78 000 € (GTS), face aux Tesla Model Y Performance, Kia EV6 GT et Polestar 4.",
+        "innovations": [
+          "Alpine Active Torque Vectoring grâce aux deux moteurs arrière indépendants."
+        ],
+        "compromises": [
+          "Masse d'environ 2,1 tonnes selon electrive, sensible pour une Alpine.",
+          "Tarifs nettement plus élevés que les autres Alpine électriques."
+        ]
+      },
+      "variants": [
+        {
+          "id": "alpine-a390-gt",
+          "name": "GT (400 ch)",
+          "tier": "sport",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "3 moteurs électriques (1 avant, 2 arrière)",
+            "displacementCc": null,
+            "electricMotors": 3
+          },
+          "powerHp": 400,
+          "powerKw": 295,
+          "torqueNm": 661,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 4.8,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": 555,
+          "batteryKwh": 89,
+          "charging": {
+            "dcMaxKw": 190,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4615,
+            "widthMm": 1885,
+            "heightMm": 1525,
+            "wheelbaseMm": 2708
+          },
+          "seats": 5,
+          "trunkL": 532,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW bidirectionnel de série, 22 kW en option",
+            "Alpine Active Torque Vectoring"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 67500,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2025-10",
+              "source": {
+                "label": "Automobile Propre – Alpine A390 : voici les prix du crossover électrique",
+                "url": "https://www.automobile-propre.com/articles/alpine-a390-voici-les-prix-du-crossover-electrique/",
+                "type": "press",
+                "publishedAt": "2025-10-27",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance 295 kW et couple 661 Nm selon electrive ; 400 ch et 0-100 km/h en 4,8 s selon Automobile Propre. electrive mentionne une vitesse maxi limitée à 200 km/h sans préciser la version : non retenue. Autonomie WLTP mixte 555 km (Automobile Propre ; d'autres sources indiquent 557 km). Batterie : 89 kWh de capacité utile. Recharge DC « jusqu'à 190 kW » citée par Automobile Propre sans précision de version. Poids non publié par version (environ 2,1 t selon electrive). Prix France de lancement (octobre 2025).",
+          "sources": [
+            {
+              "label": "Automobile Propre – Alpine A390 : voici les prix du crossover électrique",
+              "url": "https://www.automobile-propre.com/articles/alpine-a390-voici-les-prix-du-crossover-electrique/",
+              "type": "press",
+              "publishedAt": "2025-10-27",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "electrive – Alpine announces UK prices for the A390",
+              "url": "https://www.electrive.com/2026/01/06/alpine-announces-uk-prices-for-the-a390",
+              "type": "press",
+              "publishedAt": "2026-01-06",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Alpine UK – A390 dimensions and specifications",
+              "url": "https://www.alpine-cars.co.uk/electric-models/a390/dimensions.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "alpine-a390-gts",
+          "name": "GTS (470 ch)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "3 moteurs électriques (1 avant, 2 arrière)",
+            "displacementCc": null,
+            "electricMotors": 3
+          },
+          "powerHp": 470,
+          "powerKw": 345,
+          "torqueNm": 824,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 3.9,
+          "topSpeedKmh": 220,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": 89,
+          "charging": null,
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4615,
+            "widthMm": 1885,
+            "heightMm": 1525,
+            "wheelbaseMm": 2708
+          },
+          "seats": 5,
+          "trunkL": 532,
+          "equipmentHighlights": [
+            "Alpine Active Torque Vectoring"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 78000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-10",
+              "source": {
+                "label": "Automobile Propre – Alpine A390 : voici les prix du crossover électrique",
+                "url": "https://www.automobile-propre.com/articles/alpine-a390-voici-les-prix-du-crossover-electrique/",
+                "type": "press",
+                "publishedAt": "2025-10-27",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "345 kW et 824 Nm selon electrive ; 470 ch, 3,9 s et 220 km/h selon Automobile Propre. Autonomie WLTP non retenue : « jusqu'à 312 miles » au Royaume-Uni (electrive), 503 km selon cars-data.com sans mention du cycle. cars-data.com indique aussi 2 099 kg et une hauteur de 1 532 mm, valeurs non recoupées par Alpine. Dimensions : page Alpine UK (non spécifique à la version). Prix France de lancement (octobre 2025).",
+          "sources": [
+            {
+              "label": "Automobile Propre – Alpine A390 : voici les prix du crossover électrique",
+              "url": "https://www.automobile-propre.com/articles/alpine-a390-voici-les-prix-du-crossover-electrique/",
+              "type": "press",
+              "publishedAt": "2025-10-27",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "electrive – Alpine announces UK prices for the A390",
+              "url": "https://www.electrive.com/2026/01/06/alpine-announces-uk-prices-for-the-a390",
+              "type": "press",
+              "publishedAt": "2026-01-06",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Alpine UK – A390 dimensions and specifications",
+              "url": "https://www.alpine-cars.co.uk/electric-models/a390/dimensions.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "cars-data.com – Alpine A390 GTS (2026) specs",
+              "url": "https://cars-data.com/en/alpine/a390/2026/gts--112318/specs",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Automobile Propre – Alpine A390 : voici les prix du crossover électrique",
+          "url": "https://www.automobile-propre.com/articles/alpine-a390-voici-les-prix-du-crossover-electrique/",
+          "type": "press",
+          "publishedAt": "2025-10-27",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "electrive – Alpine announces UK prices for the A390",
+          "url": "https://www.electrive.com/2026/01/06/alpine-announces-uk-prices-for-the-a390",
+          "type": "press",
+          "publishedAt": "2026-01-06",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Alpine UK – A390 dimensions and specifications",
+          "url": "https://www.alpine-cars.co.uk/electric-models/a390/dimensions.html",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "peugeot-308-3-restylage",
+      "modelId": "peugeot-308",
+      "brandId": "peugeot",
+      "modelName": "308",
+      "name": "Peugeot 308 III restylée (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2025 Peugeot e-308 Auto Zuerich 2025 DSC 3384.jpg",
+          "caption": "Peugeot E-308 restylée au salon Auto Zürich (octobre 2025)",
+          "depicts": "Peugeot 308 III restylée (2025), version électrique E-308",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Peugeot 308 de troisième génération reçoit en 2025 un restylage centré sur une nouvelle face avant. Sa gamme couvre la micro-hybridation, l'hybride rechargeable de 195 ch et l'électrique E-308.",
+        "positioning": "Compacte de Peugeot, sous le 3008 ; concurrente des Volkswagen Golf, Renault Mégane et Toyota Corolla.",
+        "technicalFacts": [
+          "Selon L'argus, le restylage conserve la plateforme et les motorisations de la phase 1, hormis la nouvelle face avant.",
+          "Nouvelle motorisation Plug-in Hybrid 195 ch (1.6 turbo + moteur électrique, batterie 17,2 kWh, 85 km d'autonomie électrique).",
+          "E-308 : moteur de 115 kW (156 ch) et batterie d'environ 55 kWh selon L'argus.",
+          "Coffre de 412 L (Hybrid 145), 361 L (E-308) et 314 L (hybride rechargeable)."
+        ],
+        "pros": [
+          "Gamme de motorisations très complète, de la micro-hybride à l'électrique.",
+          "E-308 sobre (environ 15 kWh/100 km WLTP) et autonomie annoncée jusqu'à 450 km.",
+          "Hybride rechargeable de 195 ch vif (7,6 s de 0 à 100 km/h)."
+        ],
+        "differentiators": [
+          "Une des rares compactes à proposer simultanément versions micro-hybride, hybride rechargeable et 100 % électrique."
+        ],
+        "pricePositioning": "En France (septembre 2025) : 33 850 € en Hybrid 145 Style, 42 600 € en E-308 Style et 43 250 € en Plug-in Hybrid 195 Allure.",
+        "innovations": [],
+        "compromises": [
+          "Coffre réduit à 314 L sur l'hybride rechargeable.",
+          "Recharge DC de l'E-308 limitée à 100 kW."
+        ]
+      },
+      "variants": [
+        {
+          "id": "peugeot-308-3-restylage-hybrid-145",
+          "name": "Hybrid 145 e-DCS6",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.2 3 cylindres en ligne turbo, micro-hybride",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 145,
+          "powerKw": 107,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 6 rapports (e-DCS6)",
+          "accel0100s": 9,
+          "topSpeedKmh": 210,
+          "consumption": {
+            "value": 4.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 0.876,
+          "charging": null,
+          "co2Gkm": 106,
+          "weightKg": 1375,
+          "dimensions": {
+            "lengthMm": 4360,
+            "widthMm": 1850,
+            "heightMm": 1460,
+            "wheelbaseMm": 2670
+          },
+          "seats": 5,
+          "trunkL": 412,
+          "equipmentHighlights": [
+            "Micro-hybridation avec moteur électrique de 21 kW (Autotijd)"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 33850,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-09",
+              "source": {
+                "label": "L'argus – fiche technique Peugeot 308 III 1.2 Hybrid 145ch Style e-DCS6 (2025)",
+                "url": "https://www.largus.fr/fiche-technique/Peugeot/308/III/2025/Berline+5+Portes/12+Hybrid+145ch+Style+e-DCS6-2970651.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Classée micro-hybride (« mild hybrid petrol ») par Autotijd. Puissance système 145 ch / 107 kW (Autotijd) ; L'argus affiche 136 ch / 100 kW (puissance du moteur thermique). Couple système non publié : 230 Nm pour le moteur thermique seul. Consommation WLTP 4,7 à 5,0 l/100 km et CO2 106 à 112 g/km selon équipement (Autotijd) ; valeurs basses retenues. Poids à vide DIN 1 375 kg (1 450 kg norme UE). Prix France : finition Style au 15/09/2025 (L'argus).",
+          "sources": [
+            {
+              "label": "Autotijd.be – Peugeot 308 Hybrid 145 (2025-2027), fiche technique",
+              "url": "https://autotijd.be/en/specs/peugeot/308/hybrid-5439",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Peugeot 308 Hybrid 145, consommation",
+              "url": "https://autotijd.be/en/consumption/peugeot/308/hybrid-5439",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Peugeot 308 Hybrid 145, poids",
+              "url": "https://autotijd.be/en/weight/peugeot/308/hybrid-5439",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Peugeot 308 Hybrid 145, dimensions",
+              "url": "https://autotijd.be/en/dimensions/peugeot/308/hybrid-5439",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – fiche technique Peugeot 308 III 1.2 Hybrid 145ch Style e-DCS6 (2025)",
+              "url": "https://www.largus.fr/fiche-technique/Peugeot/308/III/2025/Berline+5+Portes/12+Hybrid+145ch+Style+e-DCS6-2970651.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "peugeot-308-3-restylage-e-308",
+          "name": "E-308 156 ch",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 156,
+          "powerKw": 115,
+          "torqueNm": 270,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 9.3,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 14.9,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 450,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1674,
+          "dimensions": {
+            "lengthMm": 4360,
+            "widthMm": 1850,
+            "heightMm": 1460,
+            "wheelbaseMm": 2670
+          },
+          "seats": 5,
+          "trunkL": 361,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW",
+            "Recharge DC 100 kW (20-80 % en 32 min selon Autotijd)"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 42600,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-09",
+              "source": {
+                "label": "L'argus – fiche technique Peugeot e-308 156ch batterie 55 kWh Style (2025)",
+                "url": "https://www.largus.fr/fiche-technique/Peugeot/308/III/2025/Berline+5+Portes/e-308+156ch+batterie+55+kWh+Style-2971191.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Autonomie WLTP 443 à 450 km et consommation 14,9 à 15,0 kWh/100 km selon équipement (Autotijd) ; valeurs favorables retenues. Capacité de batterie non retenue : 58,3 kWh selon Autotijd (brute ou nette non précisé), 55 kWh selon L'argus. Poids à vide DIN 1 674 kg (1 749 kg norme UE). Prix France : finition Style au 15/09/2025 (L'argus).",
+          "sources": [
+            {
+              "label": "Autotijd.be – Peugeot 308 Electric 115 kW (2025-2027), fiche technique",
+              "url": "https://autotijd.be/en/specs/peugeot/308/electric-115-kw-5437",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Peugeot 308 Electric 115 kW, consommation et recharge",
+              "url": "https://autotijd.be/en/consumption/peugeot/308/electric-115-kw-5437",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Peugeot 308 Electric 115 kW, poids",
+              "url": "https://autotijd.be/en/weight/peugeot/308/electric-115-kw-5437",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Peugeot 308 Electric 115 kW, dimensions",
+              "url": "https://autotijd.be/en/dimensions/peugeot/308/electric-115-kw-5437",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – fiche technique Peugeot e-308 156ch batterie 55 kWh Style (2025)",
+              "url": "https://www.largus.fr/fiche-technique/Peugeot/308/III/2025/Berline+5+Portes/e-308+156ch+batterie+55+kWh+Style-2971191.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "peugeot-308-3-restylage-plug-in-hybrid-195",
+          "name": "Plug-in Hybrid 195 e-DCS7",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "1.6 4 cylindres en ligne turbo + moteur électrique",
+            "displacementCc": 1598,
+            "electricMotors": 1
+          },
+          "powerHp": 195,
+          "powerKw": 144,
+          "torqueNm": 360,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports (e-DCS7)",
+          "accel0100s": 7.6,
+          "topSpeedKmh": 225,
+          "consumption": {
+            "value": 2.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 85,
+          "batteryKwh": 17.2,
+          "charging": null,
+          "co2Gkm": 54,
+          "weightKg": 1635,
+          "dimensions": {
+            "lengthMm": 4360,
+            "widthMm": 1850,
+            "heightMm": null,
+            "wheelbaseMm": null
+          },
+          "seats": 5,
+          "trunkL": 314,
+          "equipmentHighlights": [
+            "Batterie lithium-ion de 17,2 kWh",
+            "Chargeur AC 7,4 kW"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 43250,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-09",
+              "source": {
+                "label": "L'argus – fiche technique Peugeot 308 III Plug-In Hybrid 195ch Allure e-DCS7 (2025)",
+                "url": "https://www.largus.fr/fiche-technique/Peugeot/308/III/2025/Berline+5+Portes/Plug-In+Hybrid+195ch+Allure+e-DCS7-2971188.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance et couple système (195 ch / 144 kW, 360 Nm) selon Autotijd. Consommation 2,4 l/100 km et CO2 54 g/km WLTP selon Autotijd ; L'argus indique 2,2 l/100 km et 50 g/km pour la finition Allure. Autonomie électrique 85 km (Autotijd, L'argus). Hauteur et empattement non retenus : Autotijd donne 1 480 mm et 2 730 mm, valeurs incohérentes avec les autres versions de la berline. Poids à vide DIN 1 635 kg (1 710 kg norme UE). Prix France : finition Allure au 15/09/2025 (L'argus).",
+          "sources": [
+            {
+              "label": "Autotijd.be – Peugeot 308 Plug-in Hybrid 195 (2025-2027), fiche technique",
+              "url": "https://autotijd.be/en/specs/peugeot/308/plug-in-hybrid-5438",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Peugeot 308 Plug-in Hybrid 195, consommation",
+              "url": "https://autotijd.be/en/consumption/peugeot/308/plug-in-hybrid-5438",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Peugeot 308 Plug-in Hybrid 195, poids",
+              "url": "https://autotijd.be/en/weight/peugeot/308/plug-in-hybrid-5438",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Peugeot 308 Plug-in Hybrid 195, dimensions",
+              "url": "https://autotijd.be/en/dimensions/peugeot/308/plug-in-hybrid-5438",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – fiche technique Peugeot 308 III Plug-In Hybrid 195ch Allure e-DCS7 (2025)",
+              "url": "https://www.largus.fr/fiche-technique/Peugeot/308/III/2025/Berline+5+Portes/Plug-In+Hybrid+195ch+Allure+e-DCS7-2971188.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "L'argus – essais Peugeot 308 (restylage, Hybrid 145 et Plug-in Hybrid 195)",
+          "url": "https://www.largus.fr/essais/Peugeot_308.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – Peugeot 308 (2025-2027), versions",
+          "url": "https://autotijd.be/en/specs/peugeot/308",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "citroen-c3-4",
+      "modelId": "citroen-c3",
+      "brandId": "citroen",
+      "modelName": "C3 / ë-C3",
+      "name": "Citroën C3 IV et ë-C3 (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine (segment B)",
+      "bodyStyles": [
+        "Berline 5 portes surélevée"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Citroen ë-C3 IMG 4539.jpg",
+          "caption": "Citroën ë-C3 grise à Stuttgart-Vaihingen (janvier 2026)",
+          "depicts": "Citroën ë-C3 (2024), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Citroën C3 (4th generation) DSC 7101.jpg",
+          "caption": "Citroën C3 de quatrième génération à Gerlingen (novembre 2024)",
+          "depicts": "Citroën C3 IV (2024), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La quatrième Citroën C3 adopte une silhouette de petit crossover sur la plateforme STLA Smart Car et se décline en électrique ë-C3 ou en essence. Elle est assemblée à Trnava, en Slovaquie.",
+        "positioning": "Citadine d'entrée de gamme de Citroën, sous le C3 Aircross ; l'ë-C3 vise une électrique abordable.",
+        "technicalFacts": [
+          "Plateforme STLA Smart Car, assemblage à Trnava (Autotijd).",
+          "ë-C3 : batterie LFP de 44 kWh, recharge DC jusqu'à 100 kW.",
+          "Longueur 4 015 mm, hauteur 1 577 mm, empattement 2 540 mm.",
+          "Coffre de 310 L, 1 180 L banquette rabattue."
+        ],
+        "pros": [
+          "Prix d'appel très bas en Belgique (14 990 € en essence, 23 300 € en électrique fin 2024).",
+          "Garde au sol et position de conduite surélevées pratiques en ville.",
+          "Batterie LFP réputée robuste."
+        ],
+        "differentiators": [
+          "Une des électriques européennes les moins chères au lancement, sous les 25 000 € en Belgique."
+        ],
+        "pricePositioning": "En Belgique (décembre 2024) : de 14 990 € (Turbo 100 You) à 27 800 € (ë-C3 Max).",
+        "innovations": [],
+        "compromises": [
+          "ë-C3 limitée à 132 km/h et 11 s de 0 à 100 km/h.",
+          "Autonomie WLTP d'environ 320 km pour l'ë-C3."
+        ]
+      },
+      "variants": [
+        {
+          "id": "citroen-c3-4-puretech-100",
+          "name": "Turbo 100 BVM6",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.2 3 cylindres en ligne turbo essence",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 100,
+          "powerKw": 74,
+          "torqueNm": 205,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 10.6,
+          "topSpeedKmh": 183,
+          "consumption": {
+            "value": 5.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 126,
+          "weightKg": 1151,
+          "dimensions": {
+            "lengthMm": 4015,
+            "widthMm": 1755,
+            "heightMm": 1577,
+            "wheelbaseMm": 2540
+          },
+          "seats": 5,
+          "trunkL": 310,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 14990,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Citroën C3 (décembre 2024)",
+                "url": "https://autotijd.be/fr/prix/citroen/c3",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Désignée « 1.2 PureTech 100 » chez Autotijd et « 1.2 Turbo 100 » dans le barème belge. CO2 WLTP 126 à 127 g/km. Poids à vide DIN 1 151 kg (1 226 kg norme UE). Prix belge : finition You, barème « à partir de décembre 2024 ».",
+          "sources": [
+            {
+              "label": "Autotijd.be – Citroën C3 1.2 PureTech 100 BVM, fiche technique",
+              "url": "https://autotijd.be/en/specs/citroen/c3/12-puretech-100-hp-4239",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Citroën C3 1.2 PureTech 100 BVM, consommation",
+              "url": "https://autotijd.be/en/consumption/citroen/c3/12-puretech-100-hp-4239",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Citroën C3 1.2 PureTech 100 BVM, poids",
+              "url": "https://autotijd.be/en/weight/citroen/c3/12-puretech-100-hp-4239",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Citroën C3 1.2 PureTech 100 BVM, dimensions",
+              "url": "https://autotijd.be/en/dimensions/citroen/c3/12-puretech-100-hp-4239",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Citroën C3 (décembre 2024)",
+              "url": "https://autotijd.be/fr/prix/citroen/c3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "citroen-c3-4-e-c3",
+          "name": "ë-C3 113 ch (44 kWh)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 113,
+          "powerKw": 83,
+          "torqueNm": 125,
+          "drivetrain": "fwd",
+          "gearbox": null,
+          "accel0100s": 11,
+          "topSpeedKmh": 132,
+          "consumption": {
+            "value": 17.1,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 326,
+          "batteryKwh": 44,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1416,
+          "dimensions": {
+            "lengthMm": 4015,
+            "widthMm": 1755,
+            "heightMm": 1577,
+            "wheelbaseMm": 2540
+          },
+          "seats": 5,
+          "trunkL": 310,
+          "equipmentHighlights": [
+            "Batterie LFP de 44 kWh",
+            "Recharge DC 100 kW (20-80 % en 26 min selon Autotijd)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 23300,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Citroën C3 (décembre 2024)",
+                "url": "https://autotijd.be/fr/prix/citroen/c3",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Autonomie WLTP mixte 321 à 326 km et consommation 17,1 à 17,4 kWh/100 km selon équipement (Autotijd) ; valeurs favorables retenues. Capacité batterie de 44 kWh (brute ou nette non précisé). Poids à vide DIN 1 416 kg (1 491 kg norme UE). Prix belge : finition You, barème « à partir de décembre 2024 ».",
+          "sources": [
+            {
+              "label": "Autotijd.be – Citroën ë-C3 44 kWh 113 ch, fiche technique",
+              "url": "https://autotijd.be/en/specs/citroen/c3/44-kwh-113-hp-4068",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Citroën ë-C3 44 kWh, consommation et recharge",
+              "url": "https://autotijd.be/en/consumption/citroen/c3/44-kwh-113-hp-4068",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Citroën ë-C3 44 kWh, poids",
+              "url": "https://autotijd.be/en/weight/citroen/c3/44-kwh-113-hp-4068",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Citroën ë-C3 44 kWh, dimensions",
+              "url": "https://autotijd.be/en/dimensions/citroen/c3/44-kwh-113-hp-4068",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Citroën C3 (décembre 2024)",
+              "url": "https://autotijd.be/fr/prix/citroen/c3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – Citroën C3 (2024-2027), versions",
+          "url": "https://autotijd.be/en/specs/citroen/c3",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Citroën C3 (décembre 2024)",
+          "url": "https://autotijd.be/fr/prix/citroen/c3",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "dacia-duster-3",
+      "modelId": "dacia-duster",
+      "brandId": "dacia",
+      "modelName": "Duster",
+      "name": "Dacia Duster III (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Dacia Duster III IMG 8961.jpg",
+          "caption": "Dacia Duster III grise à Stuttgart-Vaihingen (mai 2024)",
+          "depicts": "Dacia Duster III (2024), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Dacia Duster III Hybrid Automesse Ludwigsburg 2024 IMG 1510.jpg",
+          "caption": "Dacia Duster III Hybrid au salon de Ludwigsburg (2024)",
+          "depicts": "Dacia Duster III Hybrid (2024)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Dacia Duster de troisième génération reste le SUV compact à petit prix de référence, avec une gamme renouvelée fin 2025. Il propose micro-hybride, full hybrid et une transmission intégrale 4x4.",
+        "positioning": "SUV compact de Dacia, sous le Bigster ; concurrent à bas prix des SUV du segment C.",
+        "technicalFacts": [
+          "Longueur 4 343 mm, largeur 1 813 mm, empattement 2 657 mm (ADAC).",
+          "Hybrid 155 : 1.8 quatre cylindres de 1 789 cm³ associé à un moteur électrique de 36 kW, batterie de 1,2 kWh brute (ADAC).",
+          "Version 4x4 à boîte double embrayage EDC et bicarburation essence/GPL (ADAC).",
+          "Coffre de 517 L en traction micro-hybride, 430 L en hybride, 348 L en 4x4 (ADAC)."
+        ],
+        "pros": [
+          "Rapport prix/prestations très favorable.",
+          "Transmission intégrale disponible, rare à ce niveau de prix.",
+          "Coffre de 517 L sur les versions deux roues motrices non hybrides."
+        ],
+        "differentiators": [
+          "Un des seuls SUV compacts à proposer 4x4 et bicarburation GPL."
+        ],
+        "pricePositioning": "En Allemagne (catalogue ADAC, gamme d'octobre 2025) : 22 190 € en mild hybrid 140, 25 690 € en hybrid 155 et 27 490 € en 4x4 EDC, finition Expression.",
+        "innovations": [],
+        "compromises": [
+          "Coffre nettement réduit sur les versions hybride et 4x4.",
+          "Performances modestes (0 à 100 km/h entre 9,4 et 10,2 s)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "dacia-duster-3-mild-hybrid-140",
+          "name": "Mild hybrid 140 BVM6",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.2 3 cylindres en ligne turbo, micro-hybride",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 140,
+          "powerKw": 103,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 9.4,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 5.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 123,
+          "weightKg": 1377,
+          "dimensions": {
+            "lengthMm": 4343,
+            "widthMm": 1813,
+            "heightMm": 1656,
+            "wheelbaseMm": 2657
+          },
+          "seats": 5,
+          "trunkL": 517,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 22190,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-10",
+              "source": {
+                "label": "ADAC Autokatalog – Dacia Duster mild hybrid 140 Expression (dès 10/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/3generation/345058/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Micro-hybride classé essence. Poids à vide norme UE (avec conducteur) 1 377 kg selon l'ADAC. Prix allemand, finition Expression, version commercialisée à partir d'octobre 2025 ; aucun barème belge ou français à jour trouvé pour cette motorisation.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Dacia Duster mild hybrid 140 Expression (dès 10/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/3generation/345058/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "ADAC Autokatalog – Dacia Duster (3e génération), versions et prix",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/3generation/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "dacia-duster-3-hybrid-155",
+          "name": "Hybrid 155",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.8 4 cylindres essence + moteur électrique",
+            "displacementCc": 1789,
+            "electricMotors": null
+          },
+          "powerHp": 158,
+          "powerKw": 116,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Boîte robotisée 6 rapports",
+          "accel0100s": 9.4,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 4.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 1.2,
+          "charging": null,
+          "co2Gkm": 107,
+          "weightKg": 1455,
+          "dimensions": {
+            "lengthMm": 4343,
+            "widthMm": 1813,
+            "heightMm": 1656,
+            "wheelbaseMm": 2657
+          },
+          "seats": 5,
+          "trunkL": 430,
+          "equipmentHighlights": [
+            "Batterie de 1,2 kWh brute (0,6 kWh nette)",
+            "Moteur électrique de 36 kW / 205 Nm"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 25690,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-10",
+              "source": {
+                "label": "ADAC Autokatalog – Dacia Duster hybrid 155 Expression (dès 10/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/3generation/345061/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance système 116 kW (158 PS) selon l'ADAC pour la version commercialisée « hybrid 155 ». Couple système non publié. Poids à vide norme UE 1 455 kg. Prix allemand, finition Expression, à partir d'octobre 2025.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Dacia Duster hybrid 155 Expression (dès 10/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/3generation/345061/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "ADAC Autokatalog – Dacia Duster (3e génération), versions et prix",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/3generation/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "dacia-duster-3-150-4x4",
+          "name": "150 4x4 EDC (essence/GPL)",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.2 3 cylindres turbo bicarburation essence/GPL + moteur électrique 10 kW",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 154,
+          "powerKw": 113,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage EDC 6 rapports",
+          "accel0100s": 10.2,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 135,
+          "weightKg": 1559,
+          "dimensions": {
+            "lengthMm": 4343,
+            "widthMm": 1813,
+            "heightMm": 1659,
+            "wheelbaseMm": 2658
+          },
+          "seats": 5,
+          "trunkL": 348,
+          "equipmentHighlights": [
+            "Transmission intégrale 4x4",
+            "Bicarburation essence/GPL"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 27490,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-10",
+              "source": {
+                "label": "ADAC Autokatalog – Dacia Duster tribrid 150 Expression 4x4 EDC (dès 10/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/3generation/345076/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Désignée « tribrid 150 4x4 EDC » par l'ADAC et classée hybride (moteur électrique de 10 kW / 87 Nm). Consommation et CO2 en fonctionnement essence. Couple système non publié (230 Nm pour le moteur thermique). Poids à vide norme UE 1 559 kg. Prix allemand, finition Expression, à partir d'octobre 2025.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Dacia Duster tribrid 150 Expression 4x4 EDC (dès 10/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/3generation/345076/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "ADAC Autokatalog – Dacia Duster (3e génération), versions et prix",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/3generation/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Dacia Duster (3e génération), versions et prix",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/duster/3generation/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – Dacia Duster (2024-2027), versions",
+          "url": "https://autotijd.be/en/specs/dacia/duster",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "toyota-yaris-cross-2024",
+      "modelId": "toyota-yaris-cross",
+      "brandId": "toyota",
+      "modelName": "Yaris Cross",
+      "name": "Toyota Yaris Cross restylé (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "city"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Toyota Yaris Cross Hybrid (XP210, 2026) 20260910 (1).JPG",
+          "caption": "Toyota Yaris Cross Hybrid (septembre 2026)",
+          "depicts": "Toyota Yaris Cross Hybrid (XP210) restylé, millésime 2026",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Toyota Yaris Cross restylé en 2024 reste un petit SUV exclusivement hybride, désormais proposé en 116 ou 130 ch. Une transmission intégrale AWD-i est disponible.",
+        "positioning": "SUV urbain de Toyota, entre la Yaris et le C-HR.",
+        "technicalFacts": [
+          "Moteur 1.5 trois cylindres de 1 490 cm³ (91 ch) associé à un système hybride (Autotijd).",
+          "Puissance système de 116 ch (Hybrid 115) ou 130 ch (Hybrid 130).",
+          "Longueur 4 172 mm, empattement 2 560 mm."
+        ],
+        "pros": [
+          "Consommation WLTP basse, à partir de 4,4 l/100 km.",
+          "Transmission intégrale proposée sur un SUV de cette taille.",
+          "Gabarit compact adapté à la ville."
+        ],
+        "differentiators": [
+          "Gamme 100 % hybride, sans version essence seule ni diesel."
+        ],
+        "pricePositioning": "En Belgique (décembre 2024) : de 31 474 € (Hybrid 115 Dynamic) à 41 990 € (Hybrid 130 Premiere).",
+        "innovations": [],
+        "compromises": [
+          "Performances modestes (0 à 100 km/h entre 10,7 et 11,3 s).",
+          "Vitesse maxi limitée à 170 km/h.",
+          "Tarifs élevés pour le segment."
+        ]
+      },
+      "variants": [
+        {
+          "id": "toyota-yaris-cross-2024-hybrid-115",
+          "name": "Hybrid 115 (116 ch)",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.5 3 cylindres en ligne essence + système hybride",
+            "displacementCc": 1490,
+            "electricMotors": null
+          },
+          "powerHp": 116,
+          "powerKw": 85,
+          "torqueNm": 141,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 11.2,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 4.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 100,
+          "weightKg": 1165,
+          "dimensions": {
+            "lengthMm": 4172,
+            "widthMm": 1765,
+            "heightMm": 1595,
+            "wheelbaseMm": 2560
+          },
+          "seats": 5,
+          "trunkL": 397,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 31474,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Toyota Yaris Cross (décembre 2024)",
+                "url": "https://autotijd.be/fr/prix/toyota/yaris-cross",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 4,4 à 5,0 l/100 km et CO2 100 à 114 g/km selon équipement (Autotijd) ; valeurs basses retenues. Poids à vide DIN 1 165 kg (1 265 kg norme UE). Prix belge : finition Dynamic, barème « à partir de décembre 2024 ».",
+          "sources": [
+            {
+              "label": "Autotijd.be – Toyota Yaris Cross Hybrid 115, fiche technique",
+              "url": "https://autotijd.be/en/specs/toyota/yaris-cross/hybrid-115-116-hp-4298",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Toyota Yaris Cross Hybrid 115, consommation",
+              "url": "https://autotijd.be/en/consumption/toyota/yaris-cross/hybrid-115-116-hp-4298",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Toyota Yaris Cross Hybrid 115, poids",
+              "url": "https://autotijd.be/en/weight/toyota/yaris-cross/hybrid-115-116-hp-4298",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Toyota Yaris Cross Hybrid 115, dimensions",
+              "url": "https://autotijd.be/en/dimensions/toyota/yaris-cross/hybrid-115-116-hp-4298",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Toyota Yaris Cross (décembre 2024)",
+              "url": "https://autotijd.be/fr/prix/toyota/yaris-cross",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "toyota-yaris-cross-2024-hybrid-130",
+          "name": "Hybrid 130",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.5 3 cylindres en ligne essence + système hybride",
+            "displacementCc": 1490,
+            "electricMotors": null
+          },
+          "powerHp": 130,
+          "powerKw": 96,
+          "torqueNm": 185,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 10.7,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 4.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 103,
+          "weightKg": 1195,
+          "dimensions": {
+            "lengthMm": 4172,
+            "widthMm": 1765,
+            "heightMm": 1595,
+            "wheelbaseMm": 2560
+          },
+          "seats": 5,
+          "trunkL": 397,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 34500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Toyota Yaris Cross (décembre 2024)",
+                "url": "https://autotijd.be/fr/prix/toyota/yaris-cross",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 4,5 à 5,4 l/100 km et CO2 103 à 122 g/km selon équipement (Autotijd) ; valeurs basses retenues. Poids à vide DIN 1 195 kg (1 295 kg norme UE). Prix belge : finition Dynamic Plus, barème « à partir de décembre 2024 ».",
+          "sources": [
+            {
+              "label": "Autotijd.be – Toyota Yaris Cross Hybrid 130, fiche technique",
+              "url": "https://autotijd.be/en/specs/toyota/yaris-cross/hybrid-130-130-hp-4300",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Toyota Yaris Cross Hybrid 130, consommation",
+              "url": "https://autotijd.be/en/consumption/toyota/yaris-cross/hybrid-130-130-hp-4300",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Toyota Yaris Cross Hybrid 130, poids",
+              "url": "https://autotijd.be/en/weight/toyota/yaris-cross/hybrid-130-130-hp-4300",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Toyota Yaris Cross Hybrid 130, dimensions",
+              "url": "https://autotijd.be/en/dimensions/toyota/yaris-cross/hybrid-130-130-hp-4300",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Toyota Yaris Cross (décembre 2024)",
+              "url": "https://autotijd.be/fr/prix/toyota/yaris-cross",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "toyota-yaris-cross-2024-hybrid-130-awd",
+          "name": "Hybrid 130 AWD-i",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.5 3 cylindres en ligne essence + système hybride",
+            "displacementCc": 1490,
+            "electricMotors": null
+          },
+          "powerHp": 130,
+          "powerKw": 96,
+          "torqueNm": 185,
+          "drivetrain": "awd",
+          "gearbox": "Automatique",
+          "accel0100s": 11.3,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 4.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 103,
+          "weightKg": 1290,
+          "dimensions": {
+            "lengthMm": 4172,
+            "widthMm": 1765,
+            "heightMm": 1595,
+            "wheelbaseMm": 2560
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Consommation et CO2 : fourchettes Autotijd 4,5 à 5,4 l/100 km et 103 à 122 g/km ; valeurs basses retenues. Poids à vide DIN 1 290 kg. Volume de coffre non retenu : Autotijd indique 397 L, valeur identique à la traction et non recoupée pour la version intégrale. Aucun prix belge pour la version AWD dans le barème consulté.",
+          "sources": [
+            {
+              "label": "Autotijd.be – Toyota Yaris Cross Hybrid 130 AWD, fiche technique",
+              "url": "https://autotijd.be/en/specs/toyota/yaris-cross/hybrid-130-130-hp-awd-4301",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Toyota Yaris Cross Hybrid 130 AWD, consommation",
+              "url": "https://autotijd.be/en/consumption/toyota/yaris-cross/hybrid-130-130-hp-awd-4301",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Toyota Yaris Cross Hybrid 130 AWD, poids",
+              "url": "https://autotijd.be/en/weight/toyota/yaris-cross/hybrid-130-130-hp-awd-4301",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Toyota Yaris Cross Hybrid 130 AWD, dimensions",
+              "url": "https://autotijd.be/en/dimensions/toyota/yaris-cross/hybrid-130-130-hp-awd-4301",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – Toyota Yaris Cross (2024-2027), versions",
+          "url": "https://autotijd.be/en/specs/toyota/yaris-cross",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Toyota Yaris Cross (décembre 2024)",
+          "url": "https://autotijd.be/fr/prix/toyota/yaris-cross",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "hyundai-ioniq-6-2025",
+      "modelId": "hyundai-ioniq-6",
+      "brandId": "hyundai",
+      "modelName": "Ioniq 6",
+      "name": "Hyundai Ioniq 6 restylée (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Berline électrique (segment D)",
+      "bodyStyles": [
+        "Berline 4 portes"
+      ],
+      "categories": [
+        "family-sedan",
+        "sport-sedan"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "travel",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Hyundai Ioniq 6 N Line (Facelift) – f 28082026.jpg",
+          "caption": "Hyundai Ioniq 6 N Line restylée, vue avant (août 2026)",
+          "depicts": "Hyundai Ioniq 6 restylée (2025), finition N Line",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Hyundai IONIQ 6 N CE1 N Performance Blue Pearl (6).jpg",
+          "caption": "Hyundai Ioniq 6 N bleue",
+          "depicts": "Hyundai Ioniq 6 N (2025)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Hyundai Ioniq 6 restylée conserve sa silhouette de berline profilée, avec des faces avant et arrière revues et une batterie portée à 84 kWh. Elle est coiffée par l'Ioniq 6 N de 609 ch (650 ch en N Grin Boost).",
+        "positioning": "Berline électrique de Hyundai, à côté du crossover Ioniq 5 ; en France, seule la version N est commercialisée depuis 2026.",
+        "technicalFacts": [
+          "Batterie de 84 kWh ; recharge DC jusqu'à 260 kW sur les versions 84 kWh selon Auto Zeitung.",
+          "Ioniq 6 N : 448 kW (478 kW en N Grin Boost), 740 Nm (770 Nm), 257 km/h (Hyundai).",
+          "Recharge 10-80 % en 18 min sur borne de 350 kW pour l'Ioniq 6 N (Hyundai).",
+          "Coffre arrière de 401 L."
+        ],
+        "pros": [
+          "Autonomie WLTP jusqu'à 680 km en propulsion 84 kWh selon Auto Zeitung.",
+          "Consommation très basse grâce à l'aérodynamique.",
+          "Ioniq 6 N : performances de supercar (3,2 s de 0 à 100 km/h avec N Launch Control)."
+        ],
+        "differentiators": [
+          "Une des rares berlines électriques à proposer une déclinaison sportive radicale (N) aux côtés de versions axées sur l'autonomie."
+        ],
+        "pricePositioning": "En Allemagne (avril 2026) : 55 300 € en 84 kWh propulsion, 61 550 € en 84 kWh AWD. En France, l'Ioniq 6 N est vendue 79 000 €.",
+        "innovations": [
+          "N Grin Boost et N Launch Control sur la version N."
+        ],
+        "compromises": [
+          "Coffre de 401 L limité par la forme fastback.",
+          "Ioniq 6 N lourde (plus de 2,1 t) et chère.",
+          "Gamme standard retirée du marché français."
+        ]
+      },
+      "variants": [
+        {
+          "id": "hyundai-ioniq-6-2025-84-rwd",
+          "name": "84 kWh propulsion (229 ch)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 229,
+          "powerKw": 168,
+          "torqueNm": 350,
+          "drivetrain": "rwd",
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": {
+            "value": 13.5,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 680,
+          "batteryKwh": 84,
+          "charging": {
+            "dcMaxKw": 260,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 2000,
+          "dimensions": {
+            "lengthMm": 4925,
+            "widthMm": 1880,
+            "heightMm": 1495,
+            "wheelbaseMm": null
+          },
+          "seats": 5,
+          "trunkL": 401,
+          "equipmentHighlights": [
+            "Coffre avant de 45 L"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 55300,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-04",
+              "source": {
+                "label": "Auto Zeitung – Hyundai Ioniq 6 (restylage) : caractéristiques et prix",
+                "url": "https://www.autozeitung.de/hyundai/hyundai-ioniq6",
+                "type": "press",
+                "publishedAt": "2026-04-30",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Autonomie WLTP 585 à 680 km et consommation 13,5 à 15,5 kWh/100 km selon équipement (Auto Zeitung) ; valeurs favorables retenues. Batterie de 84 kWh nette. Poids à vide norme UE 2 000 à 2 080 kg ; valeur basse retenue. 0-100 km/h et vitesse maxi non publiés par la source. Prix allemand de départ (avril 2026) pour cette motorisation.",
+          "sources": [
+            {
+              "label": "Auto Zeitung – Hyundai Ioniq 6 (restylage) : caractéristiques et prix",
+              "url": "https://www.autozeitung.de/hyundai/hyundai-ioniq6",
+              "type": "press",
+              "publishedAt": "2026-04-30",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "hyundai-ioniq-6-2025-84-awd",
+          "name": "84 kWh AWD (325 ch)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Deux moteurs électriques (avant et arrière)",
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "powerHp": 325,
+          "powerKw": 239,
+          "torqueNm": 605,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": {
+            "value": 13.8,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 650,
+          "batteryKwh": 84,
+          "charging": {
+            "dcMaxKw": 260,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 2105,
+          "dimensions": {
+            "lengthMm": 4925,
+            "widthMm": 1880,
+            "heightMm": 1495,
+            "wheelbaseMm": null
+          },
+          "seats": 5,
+          "trunkL": 401,
+          "equipmentHighlights": [
+            "Coffre avant de 14,5 L"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 61550,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-04",
+              "source": {
+                "label": "Auto Zeitung – Hyundai Ioniq 6 (restylage) : caractéristiques et prix",
+                "url": "https://www.autozeitung.de/hyundai/hyundai-ioniq6",
+                "type": "press",
+                "publishedAt": "2026-04-30",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Autonomie WLTP 570 à 650 km et consommation 13,8 à 15,9 kWh/100 km selon équipement (Auto Zeitung) ; valeurs favorables retenues. Poids à vide norme UE 2 105 à 2 185 kg ; valeur basse retenue. 0-100 km/h et vitesse maxi non publiés par la source. Prix allemand de départ (avril 2026).",
+          "sources": [
+            {
+              "label": "Auto Zeitung – Hyundai Ioniq 6 (restylage) : caractéristiques et prix",
+              "url": "https://www.autozeitung.de/hyundai/hyundai-ioniq6",
+              "type": "press",
+              "publishedAt": "2026-04-30",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "hyundai-ioniq-6-2025-n",
+          "name": "Ioniq 6 N",
+          "tier": "sport",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteurs électriques avant et arrière",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 609,
+          "powerKw": 448,
+          "torqueNm": 740,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 3.4,
+          "topSpeedKmh": 257,
+          "consumption": {
+            "value": 21.2,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 487,
+          "batteryKwh": 84,
+          "charging": {
+            "dcMaxKw": null,
+            "dc10to80Min": 18
+          },
+          "co2Gkm": 0,
+          "weightKg": 2166,
+          "dimensions": {
+            "lengthMm": 4935,
+            "widthMm": 1940,
+            "heightMm": 1495,
+            "wheelbaseMm": 2965
+          },
+          "seats": 5,
+          "trunkL": 401,
+          "equipmentHighlights": [
+            "N Grin Boost : 478 kW (650 ch) et 770 Nm",
+            "N Launch Control (0-100 km/h en 3,2 s)"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 79000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-08",
+              "source": {
+                "label": "Automobile Propre – La Hyundai Ioniq 6 revient en France uniquement dans sa version N de 650 ch",
+                "url": "https://www.automobile-propre.com/articles/la-hyundai-ioniq-6-revient-en-france-uniquement-dans-sa-version-n-de-650-ch-et-voici-son-prix/",
+                "type": "press",
+                "publishedAt": "2026-08-27",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance et couple de base ; 478 kW / 650 ch et 770 Nm avec N Grin Boost (Hyundai). 0-100 km/h : 3,4 s, 3,3 s avec N Grin Boost, 3,2 s avec N Launch Control. Poids à vide 2 166 à 2 201 kg selon équipement ; valeur basse retenue. Recharge 10-80 % en 18 min sur borne de 350 kW ; puissance de charge maximale du véhicule non précisée. Prix France (article du 27/08/2026).",
+          "sources": [
+            {
+              "label": "Hyundai Europe – IONIQ 6 N, technical data",
+              "url": "https://org-eu-www.hyundai.com/eu/en/models/ioniq6-n/technical-data-downloads.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Hyundai UK – IONIQ 6 N, technical data",
+              "url": "https://www.hyundai.com/uk/en/models/ioniq6-n/technical-data-downloads.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Automobile Propre – La Hyundai Ioniq 6 revient en France uniquement dans sa version N de 650 ch",
+              "url": "https://www.automobile-propre.com/articles/la-hyundai-ioniq-6-revient-en-france-uniquement-dans-sa-version-n-de-650-ch-et-voici-son-prix/",
+              "type": "press",
+              "publishedAt": "2026-08-27",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Auto Zeitung – Hyundai Ioniq 6 (restylage) : caractéristiques et prix",
+          "url": "https://www.autozeitung.de/hyundai/hyundai-ioniq6",
+          "type": "press",
+          "publishedAt": "2026-04-30",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Hyundai Europe – IONIQ 6 N, technical data",
+          "url": "https://org-eu-www.hyundai.com/eu/en/models/ioniq6-n/technical-data-downloads.html",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "kia-ev6-2024",
+      "modelId": "kia-ev6",
+      "brandId": "kia",
+      "modelName": "EV6",
+      "name": "Kia EV6 restylée (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Crossover électrique (segment D)",
+      "bodyStyles": [
+        "Crossover 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "sport-suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "family",
+        "travel",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Kia EV6 GT-line (Facelift) – f 27072025.jpg",
+          "caption": "Kia EV6 GT-Line restylée, vue avant (juillet 2025)",
+          "depicts": "Kia EV6 restylée (2024), finition GT-Line",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Kia EV6 GT IAA 2025 DSC 2508.jpg",
+          "caption": "Kia EV6 GT restylée au salon IAA Mobility 2025",
+          "depicts": "Kia EV6 GT (2025)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Kia EV6 restylé en 2024 reçoit une batterie de 84 kWh et une recharge rapide jusqu'à 258 kW. La version GT grimpe à 448 kW, et 478 kW avec le Launch Control.",
+        "positioning": "Crossover électrique de Kia, sous le grand SUV EV9.",
+        "technicalFacts": [
+          "Batterie de 84 kWh (77,4 kWh avant restylage).",
+          "Recharge DC jusqu'à 258 kW, 10-80 % en 18 min (Autotijd).",
+          "EV6 GT : 0 à 100 km/h en 3,5 s et 260 km/h (InsideEVs).",
+          "Longueur 4 695 mm, empattement 2 900 mm, coffre de 490 L."
+        ],
+        "pros": [
+          "Recharge très rapide : 10-80 % en 18 min selon Autotijd.",
+          "Autonomie WLTP jusqu'à 582 km en propulsion 84 kWh.",
+          "Version GT aux performances de sportive."
+        ],
+        "differentiators": [
+          "Gamme allant de la propulsion axée autonomie à une GT de plus de 600 ch."
+        ],
+        "pricePositioning": "En Belgique (novembre 2024) : de 49 990 € (63 kWh Business) à 66 390 € (84 kWh AWD GT Line) ; la GT était annoncée 69 990 € en Allemagne en janvier 2025.",
+        "innovations": [
+          "EV6 GT : passages de rapports virtuels repris de l'Ioniq 5 N selon InsideEVs."
+        ],
+        "compromises": [
+          "Autonomie de la GT limitée à environ 450 km.",
+          "Poids élevé : près de 2 t en propulsion."
+        ]
+      },
+      "variants": [
+        {
+          "id": "kia-ev6-2024-84-rwd",
+          "name": "84 kWh propulsion (229 ch)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 229,
+          "powerKw": 168,
+          "torqueNm": 350,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 7.7,
+          "topSpeedKmh": 186,
+          "consumption": {
+            "value": 15.9,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 582,
+          "batteryKwh": 84,
+          "charging": {
+            "dcMaxKw": 258,
+            "dc10to80Min": 18
+          },
+          "co2Gkm": 0,
+          "weightKg": 1950,
+          "dimensions": {
+            "lengthMm": 4695,
+            "widthMm": 1880,
+            "heightMm": 1575,
+            "wheelbaseMm": 2900
+          },
+          "seats": 5,
+          "trunkL": 490,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 53590,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Kia EV6 (novembre 2024)",
+                "url": "https://autotijd.be/fr/prix/kia/ev6",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Autonomie WLTP 560 à 582 km et consommation 15,9 à 16,9 kWh/100 km selon équipement (Autotijd) ; valeurs favorables retenues. Poids à vide DIN 1 950 kg. Prix belge : finition Business, barème « à partir de novembre 2024 ».",
+          "sources": [
+            {
+              "label": "Autotijd.be – Kia EV6 84 kWh 229 ch, fiche technique",
+              "url": "https://autotijd.be/en/specs/kia/ev6/84-kwh-4309",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Kia EV6 84 kWh 229 ch, consommation et recharge",
+              "url": "https://autotijd.be/en/consumption/kia/ev6/84-kwh-4309",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Kia EV6 84 kWh 229 ch, poids",
+              "url": "https://autotijd.be/en/weight/kia/ev6/84-kwh-4309",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Kia EV6 84 kWh 229 ch, dimensions",
+              "url": "https://autotijd.be/en/dimensions/kia/ev6/84-kwh-4309",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Kia EV6 (novembre 2024)",
+              "url": "https://autotijd.be/fr/prix/kia/ev6",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "kia-ev6-2024-84-awd",
+          "name": "84 kWh AWD (325 ch)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Deux moteurs électriques (avant et arrière)",
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "powerHp": 325,
+          "powerKw": 239,
+          "torqueNm": 605,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 5.3,
+          "topSpeedKmh": 188,
+          "consumption": {
+            "value": 17.7,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 522,
+          "batteryKwh": 84,
+          "charging": {
+            "dcMaxKw": 258,
+            "dc10to80Min": 18
+          },
+          "co2Gkm": 0,
+          "weightKg": 2060,
+          "dimensions": {
+            "lengthMm": 4695,
+            "widthMm": 1880,
+            "heightMm": 1575,
+            "wheelbaseMm": 2900
+          },
+          "seats": 5,
+          "trunkL": 490,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 66390,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Kia EV6 (novembre 2024)",
+                "url": "https://autotijd.be/fr/prix/kia/ev6",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Poids à vide DIN 2 060 kg. Prix belge : finition GT Line, barème « à partir de novembre 2024 ».",
+          "sources": [
+            {
+              "label": "Autotijd.be – Kia EV6 84 kWh AWD 325 ch, fiche technique",
+              "url": "https://autotijd.be/en/specs/kia/ev6/84-kwh-awd-4310",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Kia EV6 84 kWh AWD 325 ch, consommation et recharge",
+              "url": "https://autotijd.be/en/consumption/kia/ev6/84-kwh-awd-4310",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Kia EV6 84 kWh AWD 325 ch, poids",
+              "url": "https://autotijd.be/en/weight/kia/ev6/84-kwh-awd-4310",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Kia EV6 84 kWh AWD 325 ch, dimensions",
+              "url": "https://autotijd.be/en/dimensions/kia/ev6/84-kwh-awd-4310",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Kia EV6 (novembre 2024)",
+              "url": "https://autotijd.be/fr/prix/kia/ev6",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "kia-ev6-2024-gt",
+          "name": "GT (609 ch)",
+          "tier": "sport",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteurs électriques avant et arrière",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 609,
+          "powerKw": 448,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 3.5,
+          "topSpeedKmh": 260,
+          "consumption": null,
+          "electricRangeKm": 450,
+          "batteryKwh": 84,
+          "charging": {
+            "dcMaxKw": 258,
+            "dc10to80Min": 18
+          },
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Launch Control : 478 kW (650 ch) et 770 Nm",
+            "Rapports virtuels (Virtual Gear Shift)"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 69990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-01",
+              "source": {
+                "label": "InsideEVs Allemagne – Kia EV6 GT Facelift : moins cher malgré plus de puissance",
+                "url": "https://insideevs.de/news/744047/kia-ev6-gt-478kw-vorstellung/",
+                "type": "press",
+                "publishedAt": "2025-01-20",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance système 448 kW (609 ch), jusqu'à 478 kW (650 ch) et 770 Nm avec Launch Control (autonotizen, InsideEVs) ; couple hors Launch Control non publié. Autonomie 450 km annoncée comme WLTP par autonotizen. Poids, dimensions et coffre propres à la GT non publiés dans les sources consultées. Prix allemand annoncé en janvier 2025.",
+          "sources": [
+            {
+              "label": "InsideEVs Allemagne – Kia EV6 GT Facelift : moins cher malgré plus de puissance",
+              "url": "https://insideevs.de/news/744047/kia-ev6-gt-478kw-vorstellung/",
+              "type": "press",
+              "publishedAt": "2025-01-20",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "autonotizen.de – Kia EV6 GT Facelift 2025",
+              "url": "https://autonotizen.de/neuigkeiten/kia-ev6-gt-facelift-2025",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – Kia EV6 (2024-2027), versions",
+          "url": "https://autotijd.be/en/specs/kia/ev6",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Kia EV6 (novembre 2024)",
+          "url": "https://autotijd.be/fr/prix/kia/ev6",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "InsideEVs Allemagne – Kia EV6 GT Facelift : moins cher malgré plus de puissance",
+          "url": "https://insideevs.de/news/744047/kia-ev6-gt-478kw-vorstellung/",
+          "type": "press",
+          "publishedAt": "2025-01-20",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "tesla-model-s-2021",
+      "modelId": "tesla-model-s",
+      "brandId": "tesla",
+      "modelName": "Model S",
+      "name": "Tesla Model S (restylage 2021)",
+      "yearsLabel": "2021 – 2026",
+      "startYear": 2021,
+      "endYear": 2026,
+      "status": "discontinued",
+      "segment": "Grande berline électrique (segment F)",
+      "bodyStyles": [
+        "Berline 5 portes (hayon)"
+      ],
+      "categories": [
+        "luxury",
+        "sport-sedan"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "travel",
+        "daily",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Tesla Model S Plaid Autofrühling Ulm IMG 9321.jpg",
+          "caption": "Tesla Model S Plaid bleue à Ulm (2024)",
+          "depicts": "Tesla Model S Plaid (restylage 2021)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2021 Tesla Model S P2 Long Range front right view.jpg",
+          "caption": "Tesla Model S Long Range 2021, trois quarts avant droit",
+          "depicts": "Tesla Model S Long Range (restylage 2021)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Tesla Model S, pionnière des grandes berlines électriques, a vécu sa dernière évolution avec le restylage de 2021 et la version Plaid de 1 020 ch. Tesla a annoncé l'arrêt de sa production en janvier 2026.",
+        "positioning": "Ancienne berline haut de gamme de Tesla, au-dessus de la Model 3 ; l'usine de Fremont qui la produisait est réaffectée au robot Optimus.",
+        "technicalFacts": [
+          "Model S Plaid : 750 kW (1 020 ch), 0 à 100 km/h en 2,1 s et 322 km/h (Autotijd).",
+          "Batterie de 95 kWh et recharge DC jusqu'à 250 kW (Autotijd).",
+          "Longueur 5 021 mm, empattement 2 960 mm.",
+          "Arrêt de la production annoncé par Elon Musk lors des résultats du 4e trimestre 2025 (FOX Business, 29/01/2026)."
+        ],
+        "pros": [
+          "Performances hors normes de la Plaid.",
+          "Autonomie WLTP de 634 km en Long Range.",
+          "Volume de chargement de 793 L (avant et arrière) selon Autotijd."
+        ],
+        "differentiators": [
+          "Version Plaid annoncée à 1 020 ch, un niveau de puissance rare pour une berline de série."
+        ],
+        "pricePositioning": "En Belgique (avril 2024) : 93 970 € en Dual Motor et 108 970 € en Plaid.",
+        "innovations": [],
+        "compromises": [
+          "Modèle en fin de vie, retiré de la production en 2026.",
+          "Habitacle et présentation vieillissants face aux concurrentes récentes."
+        ]
+      },
+      "variants": [
+        {
+          "id": "tesla-model-s-2021-long-range",
+          "name": "Long Range / Dual Motor",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteurs électriques avant et arrière",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 680,
+          "powerKw": 500,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 3.2,
+          "topSpeedKmh": 250,
+          "consumption": null,
+          "electricRangeKm": 634,
+          "batteryKwh": 95,
+          "charging": {
+            "dcMaxKw": 250,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 5021,
+            "widthMm": 1987,
+            "heightMm": 1431,
+            "wheelbaseMm": 2960
+          },
+          "seats": 5,
+          "trunkL": 793,
+          "equipmentHighlights": [
+            "Recharge AC 16,5 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 93970,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – prix belges Tesla Model S (avril 2024)",
+                "url": "https://autotijd.be/fr/prix/tesla/model-s",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance 680 ch / 500 kW selon Autotijd. Consommation WLTP et poids non publiés par la source. Coffre : 793 L au total (avant et arrière cumulés selon Autotijd), 1 645 L banquette rabattue. Capacité de batterie (95 kWh) brute ou nette non précisée. Prix belge (barème d'avril 2024), version « Dual Motor ».",
+          "sources": [
+            {
+              "label": "Autotijd.be – Tesla Model S Long Range AWD, fiche technique",
+              "url": "https://autotijd.be/en/specs/tesla/model-s/long-range-680-hp-awd-3471",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Tesla Model S Long Range AWD, consommation et recharge",
+              "url": "https://autotijd.be/en/consumption/tesla/model-s/long-range-680-hp-awd-3471",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Tesla Model S Long Range AWD, dimensions",
+              "url": "https://autotijd.be/en/dimensions/tesla/model-s/long-range-680-hp-awd-3471",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Tesla Model S (avril 2024)",
+              "url": "https://autotijd.be/fr/prix/tesla/model-s",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "tesla-model-s-2021-plaid",
+          "name": "Plaid",
+          "tier": "sport",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteurs électriques, transmission intégrale",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 1020,
+          "powerKw": 750,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 2.1,
+          "topSpeedKmh": 322,
+          "consumption": null,
+          "electricRangeKm": 600,
+          "batteryKwh": 95,
+          "charging": {
+            "dcMaxKw": 250,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 5021,
+            "widthMm": 1987,
+            "heightMm": 1431,
+            "wheelbaseMm": 2960
+          },
+          "seats": 5,
+          "trunkL": 793,
+          "equipmentHighlights": [
+            "Recharge AC 16,5 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 108970,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – prix belges Tesla Model S (avril 2024)",
+                "url": "https://autotijd.be/fr/prix/tesla/model-s",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance 1 020 ch / 750 kW selon Autotijd. Consommation WLTP et poids non publiés par la source. Coffre : 793 L au total (avant et arrière cumulés). Prix belge (barème d'avril 2024).",
+          "sources": [
+            {
+              "label": "Autotijd.be – Tesla Model S Plaid, fiche technique",
+              "url": "https://autotijd.be/en/specs/tesla/model-s/plaid-1020-hp-awd-3470",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Tesla Model S Plaid, consommation et recharge",
+              "url": "https://autotijd.be/en/consumption/tesla/model-s/plaid-1020-hp-awd-3470",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Tesla Model S Plaid, dimensions",
+              "url": "https://autotijd.be/en/dimensions/tesla/model-s/plaid-1020-hp-awd-3470",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Tesla Model S (avril 2024)",
+              "url": "https://autotijd.be/fr/prix/tesla/model-s",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – Tesla Model S (2021-), versions",
+          "url": "https://autotijd.be/en/specs/tesla/model-s",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Tesla Model S (avril 2024)",
+          "url": "https://autotijd.be/fr/prix/tesla/model-s",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "FOX Business – Tesla ends production of Model S and Model X vehicles, will focus on robots in 2026",
+          "url": "https://www.fox5dc.com/news/tesla-ends-production-model-s-model-x-cars-2026",
+          "type": "press",
+          "publishedAt": "2026-01-29",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "polestar-4",
+      "modelId": "polestar-4",
+      "brandId": "polestar",
+      "modelName": "4",
+      "name": "Polestar 4 (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV coupé électrique (segment D)",
+      "bodyStyles": [
+        "SUV coupé 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "sport-suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "travel",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Polestar 4 Auto Zuerich 2024 DSC 6364.jpg",
+          "caption": "Polestar 4 dorée au salon Auto Zürich (2024)",
+          "depicts": "Polestar 4 (2023), exposée au salon Auto Zürich 2024",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Polestar 4 DSC 8232 (cropped).jpg",
+          "caption": "Polestar 4 grise à Stuttgart-Vaihingen (mars 2025)",
+          "depicts": "Polestar 4 (2023), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Polestar 4 est un SUV coupé électrique de 4,84 m proposé en propulsion de 272 ch ou en transmission intégrale de 544 ch. Il affiche jusqu'à 600 km d'autonomie WLTP.",
+        "positioning": "SUV coupé de Polestar, entre le Polestar 2 et le grand Polestar 3.",
+        "technicalFacts": [
+          "Longueur 4 839 mm, empattement 2 999 mm (Autotijd).",
+          "Recharge DC jusqu'à 200 kW, 5-80 % en 32 min (Autotijd).",
+          "Version Dual Motor : 400 kW, 686 Nm, 0 à 100 km/h en 3,8 s.",
+          "Coffre de 500 L, 1 536 L banquette rabattue."
+        ],
+        "pros": [
+          "Autonomie WLTP de 600 km en Single Motor.",
+          "Performances très élevées de la Dual Motor.",
+          "Empattement de près de 3 m, favorable à l'espace aux places arrière."
+        ],
+        "differentiators": [
+          "Absence de lunette arrière : la vision arrière passe par une caméra."
+        ],
+        "pricePositioning": "En Belgique (août 2024) : 63 500 € en Long range Single motor, 71 500 € en Dual motor.",
+        "innovations": [
+          "Rétroviseur intérieur numérique alimenté par une caméra, en l'absence de lunette arrière."
+        ],
+        "compromises": [
+          "Pas de lunette arrière, ce qui peut dérouter.",
+          "Recharge DC plafonnée à 200 kW."
+        ]
+      },
+      "variants": [
+        {
+          "id": "polestar-4-long-range-single-motor",
+          "name": "Long range Single motor (272 ch)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 272,
+          "powerKw": 200,
+          "torqueNm": 343,
+          "drivetrain": "rwd",
+          "gearbox": null,
+          "accel0100s": 7.4,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 14.8,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 600,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 200,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4839,
+            "widthMm": null,
+            "heightMm": 1544,
+            "wheelbaseMm": 2999
+          },
+          "seats": 5,
+          "trunkL": 500,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 63500,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-08",
+              "source": {
+                "label": "Autotijd.be – prix belges Polestar 4 (août 2024)",
+                "url": "https://autotijd.be/fr/prix/polestar/4",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 14,8 à 14,9 kWh/100 km (Autotijd). Batterie annoncée à 102 kWh par Autotijd sans préciser brute ou nette ; d'autres sources citent 94 ou 100 kWh, valeur non retenue. Poids non retenu : Autotijd indique 2 232 kg pour les deux versions. Largeur hors rétroviseurs non publiée (2 139 mm rétroviseurs inclus). Recharge 5-80 % en 32 min. Prix belge (barème d'août 2024).",
+          "sources": [
+            {
+              "label": "Autotijd.be – Polestar 4 Long range Single motor, fiche technique",
+              "url": "https://autotijd.be/en/specs/polestar/4/long-range-single-motor-272-hp-3892",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Polestar 4 Long range Single motor, consommation et recharge",
+              "url": "https://autotijd.be/en/consumption/polestar/4/long-range-single-motor-272-hp-3892",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Polestar 4 Long range Single motor, dimensions",
+              "url": "https://autotijd.be/en/dimensions/polestar/4/long-range-single-motor-272-hp-3892",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Polestar 4 (août 2024)",
+              "url": "https://autotijd.be/fr/prix/polestar/4",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "polestar-4-long-range-dual-motor",
+          "name": "Long range Dual motor (544 ch)",
+          "tier": "sport",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Deux moteurs électriques (avant et arrière)",
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "powerHp": 544,
+          "powerKw": 400,
+          "torqueNm": 686,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 3.8,
+          "topSpeedKmh": 200,
+          "consumption": {
+            "value": 16.7,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 560,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 200,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4839,
+            "widthMm": null,
+            "heightMm": 1544,
+            "wheelbaseMm": 2999
+          },
+          "seats": 5,
+          "trunkL": 500,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 71500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-08",
+              "source": {
+                "label": "Autotijd.be – prix belges Polestar 4 (août 2024)",
+                "url": "https://autotijd.be/fr/prix/polestar/4",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 16,7 à 16,8 kWh/100 km (Autotijd). Batterie 102 kWh selon Autotijd (brute ou nette non précisé), non retenue. Poids non retenu (2 232 kg indiqués par Autotijd pour les deux versions). Largeur hors rétroviseurs non publiée. Recharge 5-80 % en 32 min. Prix belge (barème d'août 2024).",
+          "sources": [
+            {
+              "label": "Autotijd.be – Polestar 4 Long range Dual motor, fiche technique",
+              "url": "https://autotijd.be/en/specs/polestar/4/long-range-dual-motor-544-hp-awd-3891",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Polestar 4 Long range Dual motor, consommation et recharge",
+              "url": "https://autotijd.be/en/consumption/polestar/4/long-range-dual-motor-544-hp-awd-3891",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Polestar 4 Long range Dual motor, dimensions",
+              "url": "https://autotijd.be/en/dimensions/polestar/4/long-range-dual-motor-544-hp-awd-3891",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Polestar 4 (août 2024)",
+              "url": "https://autotijd.be/fr/prix/polestar/4",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – Polestar 4 (2023-2027), versions",
+          "url": "https://autotijd.be/en/specs/polestar/4",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Polestar 4 (août 2024)",
+          "url": "https://autotijd.be/fr/prix/polestar/4",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}

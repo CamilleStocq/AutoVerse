@@ -231,7 +231,8 @@
       "country": "France",
       "founded": 1919,
       "accent": "#DA291C",
-      "group": "Stellantis"
+      "group": "Stellantis",
+      "wikidataId": "Q6746"
     },
     {
       "id": "ds",
@@ -247,7 +248,8 @@
       "country": "Tchéquie",
       "founded": 1895,
       "accent": "#4BA82E",
-      "group": "Volkswagen Group"
+      "group": "Volkswagen Group",
+      "wikidataId": "Q29637"
     },
     {
       "id": "cupra",
@@ -263,7 +265,8 @@
       "country": "Suède",
       "founded": null,
       "accent": "#D7C9A6",
-      "group": "Geely"
+      "group": "Geely",
+      "wikidataId": "Q4047174"
     },
     {
       "id": "nissan",
@@ -279,7 +282,8 @@
       "country": "Italie",
       "founded": 1914,
       "accent": "#0C2340",
-      "group": "Stellantis"
+      "group": "Stellantis",
+      "wikidataId": "Q35962"
     },
     {
       "id": "alfa-romeo",
@@ -319,7 +323,8 @@
       "country": "Roumanie",
       "founded": 1966,
       "accent": "#7A8F2E",
-      "group": "Renault Group"
+      "group": "Renault Group",
+      "wikidataId": "Q27460"
     },
     {
       "id": "genesis",
@@ -360,6 +365,123 @@
       "founded": 2007,
       "accent": "#8A9BA8",
       "group": null
+    },
+    {
+      "id": "chevrolet",
+      "name": "Chevrolet",
+      "country": "États-Unis",
+      "founded": 1911,
+      "accent": "#C9A227",
+      "group": "General Motors",
+      "wikidataId": "Q29570"
+    },
+    {
+      "id": "cadillac",
+      "name": "Cadillac",
+      "country": "États-Unis",
+      "founded": 1902,
+      "accent": "#1F2A44",
+      "group": "General Motors",
+      "wikidataId": "Q27436"
+    },
+    {
+      "id": "subaru",
+      "name": "Subaru",
+      "country": "Japon",
+      "founded": 1953,
+      "accent": "#0B3D91",
+      "group": null,
+      "wikidataId": "Q172741"
+    },
+    {
+      "id": "mitsubishi",
+      "name": "Mitsubishi",
+      "country": "Japon",
+      "founded": 1970,
+      "accent": "#E60012",
+      "group": null,
+      "wikidataId": "Q36033"
+    },
+    {
+      "id": "lancia",
+      "name": "Lancia",
+      "country": "Italie",
+      "founded": 1906,
+      "accent": "#0A3A7A",
+      "group": "Stellantis",
+      "wikidataId": "Q35896"
+    },
+    {
+      "id": "rimac",
+      "name": "Rimac",
+      "country": "Croatie",
+      "founded": 2009,
+      "accent": "#2B2B2B",
+      "group": "Bugatti Rimac",
+      "wikidataId": "Q7334368"
+    },
+    {
+      "id": "abarth",
+      "name": "Abarth",
+      "country": "Italie",
+      "founded": 1949,
+      "accent": "#D7261E",
+      "group": "Stellantis",
+      "wikidataId": "Q26823"
+    },
+    {
+      "id": "dodge",
+      "name": "Dodge",
+      "country": "États-Unis",
+      "founded": 1900,
+      "accent": "#B5121B",
+      "group": "Stellantis",
+      "wikidataId": "Q27564"
+    },
+    {
+      "id": "seat",
+      "name": "Seat",
+      "country": "Espagne",
+      "founded": 1950,
+      "accent": "#B5121B",
+      "group": "Volkswagen",
+      "wikidataId": null
+    },
+    {
+      "id": "opel",
+      "name": "Opel",
+      "country": "Allemagne",
+      "founded": 1862,
+      "accent": "#F7D417",
+      "group": "Stellantis",
+      "wikidataId": "Q40966"
+    },
+    {
+      "id": "fiat",
+      "name": "Fiat",
+      "country": "Italie",
+      "founded": 1899,
+      "accent": "#9B1C2E",
+      "group": "Stellantis",
+      "wikidataId": "Q27597"
+    },
+    {
+      "id": "mg",
+      "name": "MG",
+      "country": "Royaume-Uni / Chine",
+      "founded": 1924,
+      "accent": "#A6192E",
+      "group": "SAIC Motor",
+      "wikidataId": "Q1881443"
+    },
+    {
+      "id": "suzuki",
+      "name": "Suzuki",
+      "country": "Japon",
+      "founded": 1909,
+      "accent": "#004B98",
+      "group": null,
+      "wikidataId": "Q181642"
     }
   ]
 }

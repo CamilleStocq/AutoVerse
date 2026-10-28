@@ -24,6 +24,8 @@ export const CATEGORY_LABELS: Record<CategoryId, string> = {
   ice: 'Thermiques',
   offroad: 'Tout-terrain',
   classic: 'Collection et icônes',
+  endurance: 'Endurance',
+  rally: 'Rallye',
 };
 
 /** Libellé court au singulier, pour les cartes. */
@@ -32,6 +34,7 @@ export const CATEGORY_SHORT: Record<CategoryId, string> = {
   convertible: 'Cabriolet', city: 'Citadine', compact: 'Compacte', 'family-sedan': 'Berline', wagon: 'Break',
   suv: 'SUV', 'sport-suv': 'SUV sportif', luxury: 'Luxe', gt: 'GT', ev: 'Électrique', phev: 'Hybride rechargeable',
   hybrid: 'Hybride', ice: 'Thermique', offroad: 'Tout-terrain', classic: 'Icône',
+  endurance: 'Endurance', rally: 'Rallye',
 };
 
 export const POWERTRAIN_LABELS: Record<Powertrain, string> = {
@@ -47,7 +50,7 @@ export const PRICE_RANGE_LABELS: Record<PriceRange, string> = {
 };
 
 export const STATUS_LABELS: Record<GenerationStatus, string> = {
-  'on-sale': 'Commercialisé', announced: 'Annoncé', 'in-preparation': 'En préparation', discontinued: 'Plus commercialisé',
+  'on-sale': 'Commercialisé', announced: 'Annoncé', 'in-preparation': 'En préparation', discontinued: 'Plus commercialisé', racing: 'En compétition',
 };
 
 export const CONFIRMATION_LABELS: Record<ConfirmationStatus, string> = {

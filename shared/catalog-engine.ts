@@ -84,13 +84,14 @@ function keyFact(g: Generation): CarSummary['keyFact'] {
 /**
  * Rareté de la carte, règle explicite et stable (jamais aléatoire) :
  * Légendaire = icône de collection ou ≥ 900 ch ; Épique = supercar, luxe ou ≥ 600 ch ;
+ * (voiture de course d'endurance ou de rallye : au moins Épique) ;
  * Rare = premium, sportive, SUV sportif, GT ou ≥ 300 ch ; sinon Commune.
  */
 export function rarityOf(g: Generation, variant?: Variant | null): Rarity {
   const power = variant ? (variant.powerHp ?? 0) : Math.max(0, ...g.variants.map((v) => v.powerHp ?? 0));
   const has = (c: CategoryId) => g.categories.includes(c);
   if (has('classic') || power >= 900) return 'legendary';
-  if (has('supercar') || g.priceRange === 'luxury' || power >= 600) return 'epic';
+  if (has('supercar') || has('endurance') || has('rally') || g.priceRange === 'luxury' || power >= 600) return 'epic';
   if (g.priceRange === 'premium' || has('sports') || has('sport-suv') || has('gt') || power >= 300) return 'rare';
   return 'common';
 }

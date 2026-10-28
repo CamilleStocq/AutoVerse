@@ -31,7 +31,9 @@ export type CategoryId =
   | 'hybrid'
   | 'ice' // Thermiques
   | 'offroad'
-  | 'classic'; // Collection et modèles iconiques
+  | 'classic' // Collection et modèles iconiques
+  | 'endurance' // Voiture de course d'endurance (WEC, Le Mans, GT3…)
+  | 'rally'; // Voiture de rallye (WRC, Rally2, Groupe B…)
 
 export type Powertrain = 'petrol' | 'diesel' | 'hybrid' | 'phev' | 'ev';
 export type Drivetrain = 'fwd' | 'rwd' | 'awd';
@@ -115,7 +117,8 @@ export interface Variant {
   sources: Source[];
 }
 
-export type GenerationStatus = 'on-sale' | 'announced' | 'in-preparation' | 'discontinued';
+/** « racing » : voiture de course engagée en compétition (non vendue au public). */
+export type GenerationStatus = 'on-sale' | 'announced' | 'in-preparation' | 'discontinued' | 'racing';
 
 /** Niveau de confirmation d'une nouveauté (rubrique Nouveautés). */
 export type ConfirmationStatus =

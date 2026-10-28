@@ -1,0 +1,2180 @@
+{
+  "generations": [
+    {
+      "id": "ferrari-amalfi",
+      "modelId": "ferrari-amalfi",
+      "brandId": "ferrari",
+      "modelName": "Amalfi",
+      "name": "Ferrari Amalfi (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Coupé et spider GT 2+2 à moteur V8 avant",
+      "bodyStyles": [
+        "Coupé 2+2",
+        "Spider 2+2"
+      ],
+      "categories": [
+        "gt",
+        "coupe",
+        "convertible",
+        "sports"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Ferrari Amalfi IMG 8179.jpg",
+          "caption": "Ferrari Amalfi",
+          "depicts": "Ferrari Amalfi coupé (2025)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Ferrari Amalfi, Berkeley Square 2025-12-23.jpg",
+          "caption": "Ferrari Amalfi à Berkeley Square, Londres (décembre 2025)",
+          "depicts": "Ferrari Amalfi coupé (2025)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Ferrari Amalfi est la GT 2+2 à moteur V8 avant de Maranello, présentée en juillet 2025 pour remplacer la Roma. Son V8 biturbo de 3,9 litres développe 640 ch et une version Spider à toit en toile a suivi en mars 2026.",
+        "positioning": "Porte d'entrée de la gamme Ferrari à moteur avant, sous la 12Cilindri ; GT polyvalente plutôt que supercar.",
+        "technicalFacts": [
+          "V8 biturbo de 3 855 cm³ : 640 ch à 7 500 tr/min et 760 Nm entre 3 000 et 5 750 tr/min.",
+          "Boîte à double embrayage à 8 rapports, propulsion.",
+          "Poids à sec annoncé de 1 470 kg pour le coupé, répartition 50/50.",
+          "Spider : capote en toile repliable en 13,5 s jusqu'à 60 km/h."
+        ],
+        "pros": [
+          "Performances de supercar (0-100 km/h en 3,3 s) dans une GT utilisable au quotidien.",
+          "Ligne épurée dans la continuité de la Roma.",
+          "Offre en coupé et en spider avec des performances quasi identiques."
+        ],
+        "differentiators": [
+          "Aileron arrière mobile intégré qui ajuste l'appui selon la vitesse et le style de conduite.",
+          "Habitacle « double cockpit » avec écran passager dédié."
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Aileron arrière actif intégré à la carrosserie."
+        ],
+        "compromises": [
+          "Places arrière d'appoint (2+2).",
+          "Coffre modeste, réduit à 172 litres sur le Spider capote ouverte."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ferrari-amalfi-coupe",
+          "name": "Amalfi (coupé)",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo 3,9 l, moteur avant central",
+            "displacementCc": 3855
+          },
+          "powerHp": 640,
+          "powerKw": 471,
+          "torqueNm": 760,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 8 rapports",
+          "accel0100s": 3.3,
+          "topSpeedKmh": 320,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1470,
+          "dimensions": {
+            "lengthMm": 4660,
+            "widthMm": 1974,
+            "heightMm": 1301,
+            "wheelbaseMm": 2670
+          },
+          "seats": 4,
+          "trunkL": 273,
+          "equipmentHighlights": [
+            "Écran conducteur 15,6\", écran central 10,25\" et écran passager 8,8\"",
+            "Aileron arrière mobile intégré"
+          ],
+          "prices": [],
+          "notes": "Poids : 1 470 kg à sec selon Ferrari (avec options d'allègement selon certaines sources), repris comme « poids à vide » par Autotijd. 0-200 km/h en 9,0 s. Consommation et CO2 WLTP non trouvés. Aucun prix belge, français ou allemand officiel trouvé.",
+          "sources": [
+            {
+              "label": "Ferrari Beverly Hills (concessionnaire officiel) – Ferrari Amalfi, fiche technique",
+              "url": "https://ferraribeverlyhills.com/new-vehicles/ferrari-amalfi",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – fiche technique Ferrari Amalfi V8 640 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/ferrari/amalfi/v8-5425",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Ferrari Amalfi",
+              "url": "https://autotijd.be/fr/dimensions/ferrari/amalfi",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Italpassion – Ferrari dévoile l'Amalfi, nouveau coupé V8",
+              "url": "https://www.italpassion.fr/en/ferrari/ferrari-unveils-lamalfi-the-new-coupe-with-v8-engine/",
+              "type": "press",
+              "publishedAt": "2025-07-02",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ferrari-amalfi-spider",
+          "name": "Amalfi Spider",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo 3,9 l, moteur avant central",
+            "displacementCc": null
+          },
+          "powerHp": 640,
+          "powerKw": null,
+          "torqueNm": 760,
+          "drivetrain": "rwd",
+          "gearbox": null,
+          "accel0100s": 3.3,
+          "topSpeedKmh": 320,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 4,
+          "trunkL": 255,
+          "equipmentHighlights": [
+            "Capote en toile repliable en 13,5 s jusqu'à 60 km/h",
+            "Coffre de 255 l capote fermée, 172 l capote ouverte"
+          ],
+          "prices": [],
+          "notes": "Chiffres issus de la presse au lancement (13 mars 2026). Poids non publié en valeur absolue (annoncé 86 kg de plus que le coupé). 0-200 km/h en 9,4 s. Dimensions, consommation et prix non trouvés.",
+          "sources": [
+            {
+              "label": "Autocar India – Ferrari Amalfi Spider unveiled",
+              "url": "https://www.autocarindia.com/stories/ferrari-amalfi-spider-unveiled-1888",
+              "type": "press",
+              "publishedAt": "2026-03-13",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Italpassion – Ferrari dévoile l'Amalfi, nouveau coupé V8",
+          "url": "https://www.italpassion.fr/en/ferrari/ferrari-unveils-lamalfi-the-new-coupe-with-v8-engine/",
+          "type": "press",
+          "publishedAt": "2025-07-02",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autocar India – Ferrari Amalfi Spider unveiled",
+          "url": "https://www.autocarindia.com/stories/ferrari-amalfi-spider-unveiled-1888",
+          "type": "press",
+          "publishedAt": "2026-03-13",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Ferrari Beverly Hills (concessionnaire officiel) – Ferrari Amalfi, fiche technique",
+          "url": "https://ferraribeverlyhills.com/new-vehicles/ferrari-amalfi",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ferrari-849-testarossa",
+      "modelId": "ferrari-849-testarossa",
+      "brandId": "ferrari",
+      "modelName": "849 Testarossa",
+      "name": "Ferrari 849 Testarossa (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Supercar hybride rechargeable à moteur central arrière",
+      "bodyStyles": [
+        "Coupé 2 places",
+        "Spider 2 places (toit rigide escamotable)"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe",
+        "convertible"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track",
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2026 Ferrari 849 Testarossa Assetto Fiorano in Blu Corsa.jpg",
+          "caption": "Ferrari 849 Testarossa Assetto Fiorano bleue",
+          "depicts": "Ferrari 849 Testarossa (2025), pack Assetto Fiorano",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Ferrari 849 Testarossa at the 2026 Adelaide Rally Street Party on King William Road (028A4137).jpg",
+          "caption": "Ferrari 849 Testarossa à Adélaïde (2026)",
+          "depicts": "Ferrari 849 Testarossa (2025)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Ferrari 849 Testarossa est la supercar hybride rechargeable de 1 050 ch qui a succédé à la SF90 Stradale, présentée à Milan le 9 septembre 2025. Elle associe un V8 biturbo de 4,0 litres à trois moteurs électriques et une transmission intégrale.",
+        "positioning": "Sommet de la gamme Ferrari de série (hors séries spéciales), au-dessus de la 296 GTB.",
+        "technicalFacts": [
+          "V8 biturbo de 3 990 cm³ de 830 ch et 842 Nm, épaulé par trois moteurs électriques : 1 050 ch (772 kW) cumulés.",
+          "Batterie de 7,45 kWh et environ 25 km d'autonomie électrique annoncés.",
+          "Boîte à double embrayage à 8 rapports, transmission intégrale.",
+          "0-100 km/h en 2,3 s et plus de 330 km/h annoncés."
+        ],
+        "pros": [
+          "Performances parmi les plus élevées du marché pour une voiture de série.",
+          "Possibilité de rouler quelques kilomètres en mode 100 % électrique.",
+          "Reprise d'un nom mythique de Ferrari."
+        ],
+        "differentiators": [
+          "Architecture hybride rechargeable à trois moteurs électriques, dont deux sur l'essieu avant."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Coffre avant de 74 litres seulement.",
+          "Poids nettement supérieur à celui d'une supercar thermique comparable, conséquence de l'hybridation."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ferrari-849-testarossa-coupe",
+          "name": "849 Testarossa (coupé)",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l central arrière + 3 moteurs électriques",
+            "displacementCc": 3990,
+            "electricMotors": 3
+          },
+          "powerHp": 1050,
+          "powerKw": 772,
+          "torqueNm": 842,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage 8 rapports",
+          "accel0100s": 2.3,
+          "topSpeedKmh": 330,
+          "consumption": null,
+          "electricRangeKm": 25,
+          "batteryKwh": 7.45,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1570,
+          "dimensions": {
+            "lengthMm": 4718,
+            "widthMm": null,
+            "heightMm": 1225,
+            "wheelbaseMm": 2650
+          },
+          "seats": 2,
+          "trunkL": 74,
+          "equipmentHighlights": [
+            "Batterie de 7,45 kWh (capacité brute)",
+            "Pack Assetto Fiorano disponible en option"
+          ],
+          "prices": [],
+          "notes": "Couple de 842 Nm donné pour le V8 seul. Vitesse maximale et 0-100 km/h annoncés « plus de 330 km/h » et « moins de 2,3 s ». Poids de 1 570 kg à sec selon un concessionnaire Ferrari, repris comme poids à vide par Autotijd. Largeur publiée de 2 304 mm, vraisemblablement rétroviseurs inclus : non retenue. 0-200 km/h en 6,35 s. Consommation et CO2 WLTP non trouvés. Prix de lancement européen de 460 000 € cité par la presse sans marché précis : non retenu.",
+          "sources": [
+            {
+              "label": "Ferrari Beverly Hills (concessionnaire officiel) – 849 Testarossa, fiche technique",
+              "url": "https://ferraribeverlyhills.com/new-vehicles/849-testarossa",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – fiche technique Ferrari 849 Testarossa",
+              "url": "https://autotijd.be/fr/fiches-techniques/ferrari/849-testarossa/twin-turbo-v8-awd-5453",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Ferrari 849 Testarossa",
+              "url": "https://autotijd.be/fr/dimensions/ferrari/849-testarossa",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "CAR magazine (Afrique du Sud) – Ferrari 849 Testarossa price & specs",
+              "url": "https://www.carmag.co.za/news/new-models/ferrari-849-testarossa-price-specs/",
+              "type": "press",
+              "publishedAt": "2025-12-03",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ferrari-849-testarossa-spider",
+          "name": "849 Testarossa Spider",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l central arrière + 3 moteurs électriques",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 1050,
+          "powerKw": null,
+          "torqueNm": 842,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 2.3,
+          "topSpeedKmh": 330,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1660,
+          "dimensions": {
+            "lengthMm": 4718,
+            "widthMm": null,
+            "heightMm": 1225,
+            "wheelbaseMm": 2650
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Chiffres issus d'un concessionnaire Ferrari : 0-100 km/h « moins de 2,3 s », vitesse « plus de 330 km/h », poids à sec de 1 660 kg, 0-200 km/h en 6,35 s (6,5 s selon Italpassion). Largeur publiée de 2 304 mm non retenue (rétroviseurs vraisemblablement inclus). Autonomie électrique, consommation et prix non trouvés.",
+          "sources": [
+            {
+              "label": "Ferrari Westlake (concessionnaire officiel) – 849 Testarossa Spider, fiche technique",
+              "url": "https://www.ferrariwestlake.com/new-vehicles/849-testarossa-spider",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Italpassion – Ferrari 849 Testarossa / 849 Testarossa Spider",
+              "url": "https://www.italpassion.fr/en/cars/ferrari-849-testarossa-849-testarossa-spider/",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Italpassion – Ferrari 849 Testarossa / 849 Testarossa Spider",
+          "url": "https://www.italpassion.fr/en/cars/ferrari-849-testarossa-849-testarossa-spider/",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "CAR magazine (Afrique du Sud) – Ferrari 849 Testarossa price & specs",
+          "url": "https://www.carmag.co.za/news/new-models/ferrari-849-testarossa-price-specs/",
+          "type": "press",
+          "publishedAt": "2025-12-03",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Ferrari Beverly Hills (concessionnaire officiel) – 849 Testarossa, fiche technique",
+          "url": "https://ferraribeverlyhills.com/new-vehicles/849-testarossa",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ferrari-purosangue",
+      "modelId": "ferrari-purosangue",
+      "brandId": "ferrari",
+      "modelName": "Purosangue",
+      "name": "Ferrari Purosangue (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Grand tourisme 4 portes / 4 places à moteur V12",
+      "bodyStyles": [
+        "4 portes, 4 places"
+      ],
+      "categories": [
+        "sport-suv",
+        "suv",
+        "gt",
+        "luxury"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "travel",
+        "family",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Ferrari Purosangue DSC 7008.jpg",
+          "caption": "Ferrari Purosangue",
+          "depicts": "Ferrari Purosangue (2022)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Ferrari Purosangue, Auto 2025, Zurich (20251029-P1074508).jpg",
+          "caption": "Ferrari Purosangue au salon Auto Zürich 2025",
+          "depicts": "Ferrari Purosangue (2022)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Ferrari Purosangue est la première Ferrari à quatre portes et quatre places, dévoilée le 13 septembre 2022. Elle conserve un V12 atmosphérique de 6,5 litres et 725 ch, une exception dans sa catégorie.",
+        "positioning": "Modèle à part dans la gamme Ferrari : grand tourisme haut perché à quatre vraies places, face aux SUV de luxe sportifs.",
+        "technicalFacts": [
+          "V12 atmosphérique F140 IA de 6 496 cm³ : 725 ch et 716 Nm à 6 250 tr/min.",
+          "Boîte à double embrayage à 8 rapports et transmission intégrale.",
+          "Portes arrière à ouverture antagoniste.",
+          "Coffre de 473 litres."
+        ],
+        "pros": [
+          "V12 atmosphérique devenu rare, avec des performances de sportive (0-100 km/h en 3,3 s).",
+          "Quatre vraies places et un coffre exploitable.",
+          "Récompensée par le Compasso d'Oro pour son design (2024)."
+        ],
+        "differentiators": [
+          "Seule Ferrari de série à quatre portes et quatre places."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Poids supérieur à 2 tonnes.",
+          "Aucune version électrifiée : consommation élevée attendue d'un V12 de 6,5 litres."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ferrari-purosangue-v12",
+          "name": "Purosangue V12",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 atmosphérique 6,5 l avant central",
+            "displacementCc": 6496
+          },
+          "powerHp": 725,
+          "powerKw": 532,
+          "torqueNm": 716,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage 8 rapports",
+          "accel0100s": 3.3,
+          "topSpeedKmh": 310,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 2033,
+          "dimensions": {
+            "lengthMm": 4973,
+            "widthMm": 2028,
+            "heightMm": 1589,
+            "wheelbaseMm": 3018
+          },
+          "seats": 4,
+          "trunkL": 473,
+          "equipmentHighlights": [
+            "Portes arrière à ouverture antagoniste",
+            "Quatre sièges individuels"
+          ],
+          "prices": [],
+          "notes": "Seule version commercialisée. Vitesse maximale annoncée « plus de 310 km/h ». Poids de 2 033 kg à sec (km77), repris comme poids à vide par Autotijd. 0-200 km/h en 10,6 s (km77). Consommation et CO2 WLTP non trouvés ; aucun prix BE/FR/DE trouvé.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Ferrari Purosangue V12 725 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/ferrari/purosangue/v12-awd-3610",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Ferrari Purosangue",
+              "url": "https://autotijd.be/fr/dimensions/ferrari/purosangue",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "km77 – Ferrari Purosangue, información general",
+              "url": "https://km77.com/coches/ferrari/purosangue/informacion",
+              "type": "press",
+              "publishedAt": "2022-09-13",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autocar India – Ferrari Purosangue specifications",
+              "url": "https://www.autocarindia.com/cars/ferrari/purosangue/specifications",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Ferrari Purosangue",
+          "url": "https://en.wikipedia.org/wiki/Ferrari_Purosangue",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "km77 – Ferrari Purosangue, información general",
+          "url": "https://km77.com/coches/ferrari/purosangue/informacion",
+          "type": "press",
+          "publishedAt": "2022-09-13",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Ferrari Purosangue V12 725 ch",
+          "url": "https://autotijd.be/fr/fiches-techniques/ferrari/purosangue/v12-awd-3610",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lamborghini-urus-se",
+      "modelId": "lamborghini-urus",
+      "brandId": "lamborghini",
+      "modelName": "Urus",
+      "name": "Lamborghini Urus SE (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV sportif de luxe hybride rechargeable",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "sport-suv",
+        "suv",
+        "luxury"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "travel",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Lamborghini Urus SE DSC 8524.jpg",
+          "caption": "Lamborghini Urus SE",
+          "depicts": "Lamborghini Urus SE (2024)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Lamborghini Urus SE DSC 9099.jpg",
+          "caption": "Lamborghini Urus SE",
+          "depicts": "Lamborghini Urus SE (2024)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "L'Urus SE, révélé en avril 2024, est la version hybride rechargeable du SUV Lamborghini, avec 800 ch cumulés. Il a été rejoint en juillet 2026 par l'Urus SE Performante de 812 ch, plus léger et plus affûté.",
+        "positioning": "Unique SUV de la gamme Lamborghini, sur la plateforme MLB Evo du groupe Volkswagen.",
+        "technicalFacts": [
+          "V8 biturbo de 3 996 cm³ (620 ch, 800 Nm) associé à un moteur électrique : 800 ch et 950 Nm cumulés pour l'Urus SE.",
+          "Batterie lithium-ion de 25,9 kWh logée sous le plancher du coffre.",
+          "Environ 60 km d'autonomie électrique annoncés.",
+          "Boîte automatique à 8 rapports et transmission intégrale."
+        ],
+        "pros": [
+          "Performances de supercar (0-100 km/h en 3,3 à 3,4 s) dans un SUV à cinq places.",
+          "Possibilité de rouler en électrique sur les trajets courts.",
+          "Consommation homologuée bien plus basse que les anciens Urus thermiques."
+        ],
+        "differentiators": [
+          "Premier Urus hybride rechargeable."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Masse élevée, conséquence de l'hybridation.",
+          "Consommation réelle très dépendante de la recharge (12,9 l/100 km batterie déchargée en WLTP pour l'Urus SE)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lamborghini-urus-se-se",
+          "name": "Urus SE",
+          "tier": "sport",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l + moteur électrique",
+            "displacementCc": 3996,
+            "electricMotors": 1
+          },
+          "powerHp": 800,
+          "powerKw": 588,
+          "torqueNm": 950,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 3.4,
+          "topSpeedKmh": 312,
+          "consumption": {
+            "value": 5.71,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 60,
+          "batteryKwh": 25.9,
+          "charging": null,
+          "co2Gkm": 140,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Batterie de 25,9 kWh (capacité brute)",
+            "Consommation électrique WLTP de 21,4 kWh/100 km"
+          ],
+          "prices": [],
+          "notes": "Consommation et CO2 WLTP combinés affichés par Lamborghini (valeurs susceptibles de varier selon le marché) ; 12,9 l/100 km batterie déchargée. Autonomie électrique de 60 km selon Autocar India. 0-200 km/h en 11,2 s (Autotijd). Poids non retenu : 2 197 kg selon Autotijd, 2 200 kg selon un concessionnaire, chiffres incohérents avec d'autres sources. Dimensions non publiées par version. Aucun prix BE/FR/DE trouvé.",
+          "sources": [
+            {
+              "label": "Lamborghini – Urus SE",
+              "url": "https://www.lamborghini.com/en-en/models/urus/urus-se",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – fiche technique Lamborghini Urus SE 800 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/lamborghini/urus/se-666-hp-awd-4283",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autocar India – Lamborghini Urus SE launched in India",
+              "url": "https://www.autocarindia.com/car-news-amp/lamborghini-urus-se-launched-in-india-at-rs-457-crore-432491",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lamborghini-urus-se-performante",
+          "name": "Urus SE Performante",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l + moteur électrique",
+            "displacementCc": 3996,
+            "electricMotors": 1
+          },
+          "powerHp": 812,
+          "powerKw": 597,
+          "torqueNm": 1000,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 3.3,
+          "topSpeedKmh": 312,
+          "consumption": null,
+          "electricRangeKm": 60,
+          "batteryKwh": 25.9,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 2473,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Capot, toit et bas de caisse en fibre de carbone",
+            "Échappement Akrapovič",
+            "Suspension pneumatique à double chambre"
+          ],
+          "prices": [],
+          "notes": "Révélé le 1er juillet 2026. Consommation et CO2 en cours d'homologation selon Lamborghini. Couple de 1 000 Nm, autonomie électrique de 60 km et poids à vide de 2 473 kg selon Autocar India. Prix non annoncé.",
+          "sources": [
+            {
+              "label": "Lamborghini – Urus SE Performante",
+              "url": "https://www.lamborghini.com/en-en/models/urus/urus-se-performante",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autocar India – Urus SE Performante revealed as hottest Lamborghini SUV yet",
+              "url": "https://www.autocarindia.com/car-news-amp/lamborghini-reveals-urus-se-performante-440094",
+              "type": "press",
+              "publishedAt": "2026-07-01",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Motor1 – Lamborghini Urus SE Performante specs & details",
+              "url": "https://www.motor1.com/news/800221/lamborghini-urus-se-performante-specs-details/",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Lamborghini Urus",
+          "url": "https://en.wikipedia.org/wiki/Lamborghini_Urus",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Lamborghini – Urus SE",
+          "url": "https://www.lamborghini.com/en-en/models/urus/urus-se",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Lamborghini – Urus SE Performante",
+          "url": "https://www.lamborghini.com/en-en/models/urus/urus-se-performante",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mclaren-750s",
+      "modelId": "mclaren-750s",
+      "brandId": "mclaren",
+      "modelName": "750S",
+      "name": "McLaren 750S (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Supercar à moteur V8 central arrière",
+      "bodyStyles": [
+        "Coupé 2 places",
+        "Spider 2 places (toit rigide escamotable)"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe",
+        "convertible"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2024 McLaren 750S.jpg",
+          "caption": "McLaren 750S coupé",
+          "depicts": "McLaren 750S coupé (2023)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 McLaren 750S Spider.jpg",
+          "caption": "McLaren 750S Spider",
+          "depicts": "McLaren 750S Spider (2023)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La McLaren 750S, dévoilée le 26 avril 2023, est l'évolution de la 720S avec un V8 biturbo de 750 ch. McLaren a annoncé en octobre 2026 la fin de sa production en 2027.",
+        "positioning": "Supercar thermique de McLaren, au-dessus de l'Artura hybride.",
+        "technicalFacts": [
+          "V8 biturbo de 3 994 cm³ : 750 ch à 7 500 tr/min et 800 Nm à 5 500 tr/min.",
+          "Boîte à double embrayage SSG à 7 rapports, propulsion.",
+          "Poids à sec de 1 277 kg (coupé) et 1 326 kg (Spider) dans leur configuration la plus légère.",
+          "0-100 km/h en 2,8 s et 332 km/h en pointe."
+        ],
+        "pros": [
+          "Rapport poids/puissance de premier ordre grâce à la monocoque carbone.",
+          "Spider à peine plus lent que le coupé."
+        ],
+        "differentiators": [
+          "Dernière McLaren sur la base de la 720S, avant un successeur non encore officialisé."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Fin de production annoncée pour 2027.",
+          "Coffres réduits, propres à l'architecture à moteur central."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mclaren-750s-coupe",
+          "name": "750S Coupé",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l central arrière",
+            "displacementCc": 3994
+          },
+          "powerHp": 750,
+          "powerKw": 552,
+          "torqueNm": 800,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage SSG 7 rapports",
+          "accel0100s": 2.8,
+          "topSpeedKmh": 332,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1277,
+          "dimensions": {
+            "lengthMm": 4569,
+            "widthMm": 1930,
+            "heightMm": 1196,
+            "wheelbaseMm": 2670
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance en PS (750 PS). Poids à sec dans la configuration la plus légère ; 1 389 kg avec fluides et 90 % de carburant (DIN). 0-200 km/h en 7,2 s. Consommation, CO2, volume de coffre et prix non trouvés.",
+          "sources": [
+            {
+              "label": "Openers – The Lightest and Most Powerful Yet: The McLaren 750S Debuts (communiqué McLaren)",
+              "url": "https://openers.jp/en/car/car_news/2HZs4",
+              "type": "press",
+              "publishedAt": "2023-04-28",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – fiche technique McLaren 750S",
+              "url": "https://autotijd.be/fr/fiches-techniques/mclaren/750s/40l-twin-turbo-v8-750-hp-3903",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mclaren-750s-spider",
+          "name": "750S Spider",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l central arrière",
+            "displacementCc": null
+          },
+          "powerHp": 750,
+          "powerKw": 552,
+          "torqueNm": 800,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage SSG 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1326,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Poids à sec dans la configuration la plus légère. 0-200 km/h en 7,3 s. 0-100 km/h, vitesse maximale et dimensions non publiés séparément pour le Spider dans la source consultée. Consommation, CO2 et prix non trouvés.",
+          "sources": [
+            {
+              "label": "Openers – The Lightest and Most Powerful Yet: The McLaren 750S Debuts (communiqué McLaren)",
+              "url": "https://openers.jp/en/car/car_news/2HZs4",
+              "type": "press",
+              "publishedAt": "2023-04-28",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Openers – The Lightest and Most Powerful Yet: The McLaren 750S Debuts (communiqué McLaren)",
+          "url": "https://openers.jp/en/car/car_news/2HZs4",
+          "type": "press",
+          "publishedAt": "2023-04-28",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Carscoops – McLaren confirms it'll kill off the 750S in 2027",
+          "url": "https://carscoops.com/2026/10/mclaren-750s-production-ends-2027-confirmed",
+          "type": "press",
+          "publishedAt": "2026-10",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "aston-martin-db12",
+      "modelId": "aston-martin-db12",
+      "brandId": "aston-martin",
+      "modelName": "DB12",
+      "name": "Aston Martin DB12 (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Grand tourisme 2+2 à moteur V8 avant",
+      "bodyStyles": [
+        "Coupé 2+2",
+        "Cabriolet (Volante) 2+2"
+      ],
+      "categories": [
+        "gt",
+        "coupe",
+        "convertible",
+        "luxury"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "travel",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Aston Martin DB12 1X7A1921.jpg",
+          "caption": "Aston Martin DB12 coupé",
+          "depicts": "Aston Martin DB12 coupé (2023)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Aston Martin DB12 Volante DSC 7248.jpg",
+          "caption": "Aston Martin DB12 Volante",
+          "depicts": "Aston Martin DB12 Volante (2023)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "L'Aston Martin DB12, présentée le 24 mai 2023 au Festival de Cannes, succède à la DB11 avec un V8 biturbo de 680 ch. La gamme compte un coupé, un cabriolet Volante et, depuis octobre 2025, une DB12 S de 700 ch.",
+        "positioning": "Grand tourisme de la marque, entre la Vantage et la Vanquish.",
+        "technicalFacts": [
+          "V8 biturbo de 4,0 litres : 680 ch et 800 Nm entre 2 750 et 6 000 tr/min (700 ch pour la DB12 S).",
+          "Boîte automatique ZF à 8 rapports montée à l'arrière, propulsion.",
+          "Longueur de 4 725 mm et empattement de 2 805 mm.",
+          "Coffre de 262 litres pour le coupé."
+        ],
+        "pros": [
+          "Performances élevées (325 km/h) dans une GT confortable.",
+          "Consommation WLTP mesurée pour la catégorie (environ 12 l/100 km).",
+          "Choix entre coupé et cabriolet sans grosse perte de performances."
+        ],
+        "differentiators": [
+          "Gamme complète coupé, Volante et S autour du même V8 biturbo."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Places arrière d'appoint.",
+          "Coffre réduit à 206 litres sur la Volante.",
+          "Poids proche de 1,8 à 1,9 tonne selon la carrosserie."
+        ]
+      },
+      "variants": [
+        {
+          "id": "aston-martin-db12-coupe",
+          "name": "DB12 Coupé",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l avant",
+            "displacementCc": null
+          },
+          "powerHp": 680,
+          "powerKw": null,
+          "torqueNm": 800,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique ZF 8 rapports",
+          "accel0100s": 3.6,
+          "topSpeedKmh": 325,
+          "consumption": {
+            "value": 12.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 278,
+          "weightKg": 1788,
+          "dimensions": {
+            "lengthMm": 4725,
+            "widthMm": 1980,
+            "heightMm": 1295,
+            "wheelbaseMm": 2805
+          },
+          "seats": 4,
+          "trunkL": 262,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance en PS. Poids : masse en ordre de marche UE avec options d'allègement. Largeur arrière hors rétroviseurs (2 135 mm rétroviseurs inclus). Aucun prix BE/FR/DE trouvé.",
+          "sources": [
+            {
+              "label": "Aston Martin – DB12, spécifications",
+              "url": "https://www.astonmartin.com/en/models/db12",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "aston-martin-db12-volante",
+          "name": "DB12 Volante",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l avant",
+            "displacementCc": null
+          },
+          "powerHp": 680,
+          "powerKw": null,
+          "torqueNm": 800,
+          "drivetrain": "rwd",
+          "gearbox": null,
+          "accel0100s": 3.7,
+          "topSpeedKmh": 325,
+          "consumption": {
+            "value": 12.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 280,
+          "weightKg": 1898,
+          "dimensions": {
+            "lengthMm": 4725,
+            "widthMm": 1980,
+            "heightMm": 1295,
+            "wheelbaseMm": 2805
+          },
+          "seats": 4,
+          "trunkL": 206,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance en PS. Poids : masse en ordre de marche UE avec options d'allègement. Coffre de 206 l capote fermée, 169 l capote ouverte. Largeur arrière hors rétroviseurs. Aucun prix BE/FR/DE trouvé.",
+          "sources": [
+            {
+              "label": "Aston Martin – DB12 Volante, spécifications",
+              "url": "https://www.astonmartin.com/en/models/db12-volante",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "aston-martin-db12-s",
+          "name": "DB12 S (coupé)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l avant",
+            "displacementCc": null
+          },
+          "powerHp": 700,
+          "powerKw": 515,
+          "torqueNm": 800,
+          "drivetrain": "rwd",
+          "gearbox": null,
+          "accel0100s": 3.5,
+          "topSpeedKmh": 325,
+          "consumption": {
+            "value": 11.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 269,
+          "weightKg": 1820,
+          "dimensions": {
+            "lengthMm": 4725,
+            "widthMm": 1980,
+            "heightMm": 1290,
+            "wheelbaseMm": 2805
+          },
+          "seats": 4,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Dévoilée le 8 octobre 2025. Puissance en PS. Poids : masse en ordre de marche UE (unité non précisée sur la page, kg supposés). Volume de coffre non indiqué sur la page DB12 S. Aucun prix BE/FR/DE trouvé.",
+          "sources": [
+            {
+              "label": "Aston Martin – DB12 S, spécifications",
+              "url": "https://www.astonmartin.com/en/models/db12-s",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Aston Martin DB12",
+              "url": "https://en.wikipedia.org/wiki/Aston_Martin_DB12",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Aston Martin – DB12, spécifications",
+          "url": "https://www.astonmartin.com/en/models/db12",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Aston Martin DB12",
+          "url": "https://en.wikipedia.org/wiki/Aston_Martin_DB12",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "aston-martin-vantage-2024",
+      "modelId": "aston-martin-vantage",
+      "brandId": "aston-martin",
+      "modelName": "Vantage",
+      "name": "Aston Martin Vantage (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Sportive 2 places à moteur V8 avant",
+      "bodyStyles": [
+        "Coupé 2 places",
+        "Roadster 2 places"
+      ],
+      "categories": [
+        "sports",
+        "coupe",
+        "convertible",
+        "gt"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Aston Martin Vantage (2024) IMG 0002.jpg",
+          "caption": "Aston Martin Vantage coupé",
+          "depicts": "Aston Martin Vantage coupé (2024)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Aston Martin Vantage Roadster (2024) Classic-Gala 2025 DSC 0923.jpg",
+          "caption": "Aston Martin Vantage Roadster au Classic-Gala 2025",
+          "depicts": "Aston Martin Vantage Roadster (2024)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Vantage profondément remaniée en février 2024 est la sportive biplace d'Aston Martin, avec un V8 biturbo de 4,0 litres. Elle se décline en coupé, en Roadster depuis janvier 2025 et en Vantage S depuis juillet 2025.",
+        "positioning": "Modèle d'accès à la gamme Aston Martin, face aux Porsche 911 Turbo et Mercedes-AMG GT.",
+        "technicalFacts": [
+          "V8 biturbo de 4,0 litres : 665 ch au lancement en 2024, 680 ch et 800 Nm selon les fiches actuelles d'Aston Martin.",
+          "Longueur de 4 495 mm et empattement de 2 705 mm.",
+          "Roadster à capote en Z, plus lourd de 60 kg que le coupé.",
+          "325 km/h en vitesse maximale pour toutes les versions."
+        ],
+        "pros": [
+          "Hausse de puissance de 30 % par rapport à la Vantage précédente lors du restylage 2024.",
+          "Performances de premier plan (0-100 km/h en 3,4 à 3,6 s)."
+        ],
+        "differentiators": [
+          "Une des rares sportives biplaces à V8 avant et propulsion."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Deux places seulement.",
+          "Consommation WLTP d'environ 12 l/100 km."
+        ]
+      },
+      "variants": [
+        {
+          "id": "aston-martin-vantage-2024-coupe",
+          "name": "Vantage Coupé",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l avant",
+            "displacementCc": null
+          },
+          "powerHp": 680,
+          "powerKw": null,
+          "torqueNm": 800,
+          "drivetrain": "rwd",
+          "gearbox": null,
+          "accel0100s": 3.5,
+          "topSpeedKmh": 325,
+          "consumption": {
+            "value": 12.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 274,
+          "weightKg": 1745,
+          "dimensions": {
+            "lengthMm": 4495,
+            "widthMm": 1980,
+            "heightMm": 1275,
+            "wheelbaseMm": 2705
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Fiche Aston Martin actuelle : 680 PS (665 PS au lancement en 2024 selon Wikipedia et Autotijd). Poids : masse en ordre de marche UE (unité non précisée, kg supposés). Longueur avec support de plaque. Coffre non indiqué. Aucun prix BE/FR/DE trouvé.",
+          "sources": [
+            {
+              "label": "Aston Martin – Vantage, spécifications",
+              "url": "https://www.astonmartin.com/en/models/vantage-coupe",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Aston Martin Vantage (2018)",
+              "url": "https://en.wikipedia.org/wiki/Aston_Martin_Vantage_(2018)",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "aston-martin-vantage-2024-roadster",
+          "name": "Vantage Roadster",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l avant",
+            "displacementCc": null
+          },
+          "powerHp": 680,
+          "powerKw": null,
+          "torqueNm": 800,
+          "drivetrain": "rwd",
+          "gearbox": null,
+          "accel0100s": 3.6,
+          "topSpeedKmh": 325,
+          "consumption": {
+            "value": 12.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 279,
+          "weightKg": 1805,
+          "dimensions": {
+            "lengthMm": 4495,
+            "widthMm": 1980,
+            "heightMm": 1275,
+            "wheelbaseMm": 2705
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Capote souple à pliage en Z"
+          ],
+          "prices": [],
+          "notes": "Dévoilé en janvier 2025. Puissance en PS selon la fiche Aston Martin actuelle. Poids : masse en ordre de marche UE (unité non précisée, kg supposés). Coffre non indiqué. Aucun prix BE/FR/DE trouvé.",
+          "sources": [
+            {
+              "label": "Aston Martin – Vantage Roadster, spécifications",
+              "url": "https://www.astonmartin.com/en/models/vantage-roadster",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Aston Martin Vantage (2018)",
+              "url": "https://en.wikipedia.org/wiki/Aston_Martin_Vantage_(2018)",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "aston-martin-vantage-2024-s",
+          "name": "Vantage S (coupé)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l avant",
+            "displacementCc": null
+          },
+          "powerHp": 680,
+          "powerKw": null,
+          "torqueNm": 800,
+          "drivetrain": "rwd",
+          "gearbox": null,
+          "accel0100s": 3.4,
+          "topSpeedKmh": 325,
+          "consumption": {
+            "value": 12.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 274,
+          "weightKg": 1745,
+          "dimensions": {
+            "lengthMm": 4495,
+            "widthMm": 1980,
+            "heightMm": 1275,
+            "wheelbaseMm": 2705
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Dévoilée en juillet 2025. Puissance identique à la Vantage actuelle sur les fiches Aston Martin, la S se distinguant par son 0-100 km/h (3,4 s) et ses réglages. Poids : masse en ordre de marche UE (unité non précisée, kg supposés). Coffre non indiqué. Aucun prix BE/FR/DE trouvé.",
+          "sources": [
+            {
+              "label": "Aston Martin – Vantage S, spécifications",
+              "url": "https://www.astonmartin.com/en/models/vantage-s",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Aston Martin Vantage (2018)",
+              "url": "https://en.wikipedia.org/wiki/Aston_Martin_Vantage_(2018)",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Aston Martin Vantage (2018)",
+          "url": "https://en.wikipedia.org/wiki/Aston_Martin_Vantage_(2018)",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Aston Martin – Vantage, spécifications",
+          "url": "https://www.astonmartin.com/en/models/vantage-coupe",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "bentley-bentayga",
+      "modelId": "bentley-bentayga",
+      "brandId": "bentley",
+      "modelName": "Bentayga",
+      "name": "Bentley Bentayga (2015, restylé 2020)",
+      "yearsLabel": "2015 –",
+      "startYear": 2015,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV de luxe",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "luxury",
+        "sport-suv"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "travel",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2025 Bentley Bentayga Speed.jpg",
+          "caption": "Bentley Bentayga Speed (2025)",
+          "depicts": "Bentley Bentayga Speed (2025), V8",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Bentley Bentayga Hybrid (2023) (53051040320).jpg",
+          "caption": "Bentley Bentayga Hybrid (2023)",
+          "depicts": "Bentley Bentayga Hybrid restylé (2023)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Bentley Bentayga, présenté au salon de Francfort en septembre 2015 et restylé en 2020, est le SUV de luxe de Bentley. La gamme va du V6 hybride rechargeable au Bentayga Speed, passé en 2025 du W12 à un V8 biturbo de 650 ch.",
+        "positioning": "SUV de la marque, plateforme MLB Evo partagée avec l'Audi Q7, le Porsche Cayenne et le Lamborghini Urus.",
+        "technicalFacts": [
+          "Plateforme MLB Evo du groupe Volkswagen.",
+          "V8 biturbo de 3 996 cm³ (550 ch) pour le Bentayga V8, 650 ch pour le Bentayga Speed 2025.",
+          "Bentayga Hybrid : V6 3,0 l turbo et moteur électrique, 449 ch cumulés.",
+          "Boîte automatique à 8 rapports et transmission intégrale."
+        ],
+        "pros": [
+          "Raffinement et finition de très haut niveau.",
+          "Large gamme de motorisations, de l'hybride rechargeable au V8 de 650 ch.",
+          "Bentayga Speed 2025 plus rapide que l'ancien W12 (310 km/h)."
+        ],
+        "differentiators": [
+          "Premier SUV de Bentley, ouvert sur une version à empattement long (EWB)."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Poids élevé (2,4 à 2,6 tonnes selon la version).",
+          "Autonomie électrique de l'Hybrid limitée (40 km WLTP).",
+          "Base technique datant de 2015 malgré le restylage."
+        ]
+      },
+      "variants": [
+        {
+          "id": "bentley-bentayga-hybrid",
+          "name": "Bentayga Hybrid",
+          "tier": "entry",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "V6 turbo 3,0 l + moteur électrique",
+            "displacementCc": 2995,
+            "electricMotors": 1
+          },
+          "powerHp": 449,
+          "powerKw": 330,
+          "torqueNm": 700,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 5.5,
+          "topSpeedKmh": 254,
+          "consumption": {
+            "value": 3.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 40,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 82,
+          "weightKg": 2645,
+          "dimensions": {
+            "lengthMm": null,
+            "widthMm": 1998,
+            "heightMm": null,
+            "wheelbaseMm": 2995
+          },
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Moteur thermique 340 ch / 450 Nm, moteur électrique 128 ch / 350 Nm (Autotijd). Capacité de batterie : 17,3 kWh selon Wikipedia (non vérifiée sur une source constructeur, non retenue). Longueur (5 125–5 144 mm) et hauteur (1 742–1 745 mm) publiées en fourchette sans détail par version. Nombre de places : 4 selon Autotijd, configuration variable selon les options, non retenu. Aucun prix BE/FR/DE trouvé.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Bentley Bentayga Hybrid 449 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/bentley/bentayga/hybrid-449-hp-awd-3539",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Bentley Bentayga",
+              "url": "https://autotijd.be/fr/dimensions/bentley/bentayga",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bentley-bentayga-v8",
+          "name": "Bentayga V8",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l",
+            "displacementCc": 3996
+          },
+          "powerHp": 550,
+          "powerKw": 404,
+          "torqueNm": 770,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 4.5,
+          "topSpeedKmh": 290,
+          "consumption": {
+            "value": 13,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 294,
+          "weightKg": 2416,
+          "dimensions": {
+            "lengthMm": null,
+            "widthMm": 1998,
+            "heightMm": null,
+            "wheelbaseMm": 2995
+          },
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Données Autotijd. Longueur et hauteur publiées en fourchette sans détail par version. Nombre de places non retenu (4 selon Autotijd, configuration variable). Aucun prix BE/FR/DE trouvé.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Bentley Bentayga V8 550 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/bentley/bentayga/v8-550-hp-awd-2457",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Bentley Bentayga",
+              "url": "https://autotijd.be/fr/dimensions/bentley/bentayga",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bentley-bentayga-speed",
+          "name": "Bentayga Speed (V8, 2025)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l",
+            "displacementCc": null
+          },
+          "powerHp": 650,
+          "powerKw": 478,
+          "torqueNm": 850,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 310,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 2466,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Jantes 22\" de série, 23\" en option",
+            "Échappement sport de série, Akrapovič titane en option",
+            "Roues arrière directrices"
+          ],
+          "prices": [],
+          "notes": "Remplace le Bentayga Speed W12. 0-100 km/h non retenu : Bentley annonce 0-60 mph en 3,4 s, Autocar India indique 3,6 s. Vitesse maximale de 310 km/h avec freins carbone-céramique optionnels. Poids à vide de 2 466 kg selon Autocar India. Consommation, CO2 et prix non trouvés.",
+          "sources": [
+            {
+              "label": "Automotive World (communiqué Bentley) – New Bentayga Speed sets a Goodwood hillclimb record",
+              "url": "https://www.automotiveworld.com/news-releases/bentley-new-bentayga-speed-sets-a-goodwood-hillclimb-record/",
+              "type": "press",
+              "publishedAt": "2025-07-11",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autocar India – 2025 Bentley Bentayga Speed is the brand's fastest SUV yet",
+              "url": "https://www.autocarindia.com/car-news/2025-bentley-bentayga-speed-is-the-brand8217s-fastest-suv-yet-435575",
+              "type": "press",
+              "publishedAt": "2025-06-03",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Bentley Bentayga",
+          "url": "https://en.wikipedia.org/wiki/Bentley_Bentayga",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Automotive World (communiqué Bentley) – New Bentayga Speed sets a Goodwood hillclimb record",
+          "url": "https://www.automotiveworld.com/news-releases/bentley-new-bentayga-speed-sets-a-goodwood-hillclimb-record/",
+          "type": "press",
+          "publishedAt": "2025-07-11",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Bentley Bentayga V8 550 ch",
+          "url": "https://autotijd.be/fr/fiches-techniques/bentley/bentayga/v8-550-hp-awd-2457",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "rolls-royce-cullinan-series-ii",
+      "modelId": "rolls-royce-cullinan",
+      "brandId": "rolls-royce",
+      "modelName": "Cullinan",
+      "name": "Rolls-Royce Cullinan Series II (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV de très grand luxe",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "luxury"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "travel",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Rolls-Royce Cullinan Series II DSC 9678.jpg",
+          "caption": "Rolls-Royce Cullinan Series II",
+          "depicts": "Rolls-Royce Cullinan Series II (2024)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Cullinan Series II est la version restylée, sortie en 2024, du SUV de Rolls-Royce, avec un V12 biturbo de 6,75 litres inchangé. Il est proposé en version standard de 571 ch et en Black Badge de 600 ch.",
+        "positioning": "SUV de Rolls-Royce, au sommet du segment des SUV de luxe.",
+        "technicalFacts": [
+          "V12 biturbo de 6,75 litres : 571 ch et 850 Nm (600 ch et 900 Nm en Black Badge).",
+          "Boîte automatique à 8 rapports et transmission intégrale.",
+          "Longueur de 5 341 mm et empattement de 3 295 mm.",
+          "Series II : nouvelle face avant, calandre illuminée, jantes de 23 pouces et instrumentation numérique."
+        ],
+        "pros": [
+          "Confort et silence de fonctionnement de référence.",
+          "Personnalisation quasi illimitée.",
+          "Black Badge au caractère plus affirmé (calibrations de boîte et d'accélérateur revues)."
+        ],
+        "differentiators": [
+          "Un des derniers SUV à moteur V12."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Poids supérieur à 2,6 tonnes et consommation WLTP de 15 l/100 km.",
+          "Gabarit encombrant en ville (5,34 m)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "rolls-royce-cullinan-series-ii-v12",
+          "name": "Cullinan",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 biturbo 6,75 l",
+            "displacementCc": null
+          },
+          "powerHp": 571,
+          "powerKw": 420,
+          "torqueNm": 850,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 5.2,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 15,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 341,
+          "weightKg": 2660,
+          "dimensions": {
+            "lengthMm": 5341,
+            "widthMm": 2000,
+            "heightMm": 1835,
+            "wheelbaseMm": 3295
+          },
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Données Autotijd (millésime 2027). Largeur hors rétroviseurs (2 164 mm rétroviseurs inclus selon Wikipedia). Volume de coffre et prix non trouvés.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Rolls-Royce Cullinan V12 571 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/rolls-royce/cullinan/675-twin-turbo-v12-571-hp-awd-2670",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Rolls-Royce Cullinan",
+              "url": "https://autotijd.be/fr/dimensions/rolls-royce/cullinan",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "rolls-royce-cullinan-series-ii-black-badge",
+          "name": "Black Badge Cullinan",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 biturbo 6,75 l",
+            "displacementCc": null
+          },
+          "powerHp": 600,
+          "powerKw": 441,
+          "torqueNm": 900,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 5.2,
+          "topSpeedKmh": 250,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance et couple confirmés par Motor1 Italia (essai Series II, mai 2025) ; kW et vitesse maximale selon Wikipedia. 0-100 km/h : 5,2 s selon Motor1 Italia, d'autres sources citent 5,0 ou 5,1 s. Poids (« plus de 2,7 t »), dimensions, consommation et prix non publiés précisément dans les sources consultées.",
+          "sources": [
+            {
+              "label": "Motor1 Italia – Rolls-Royce Cullinan Series II Black Badge, prova",
+              "url": "https://it.motor1.com/reviews/758740/rolls-royce-cullinan-2025-video/",
+              "type": "press",
+              "publishedAt": "2025-05-11",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Rolls-Royce Cullinan",
+              "url": "https://en.wikipedia.org/wiki/Rolls-Royce_Cullinan",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Rolls-Royce Cullinan",
+          "url": "https://en.wikipedia.org/wiki/Rolls-Royce_Cullinan",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Rolls-Royce Cullinan V12 571 ch",
+          "url": "https://autotijd.be/fr/fiches-techniques/rolls-royce/cullinan/675-twin-turbo-v12-571-hp-awd-2670",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Motor1 Italia – Rolls-Royce Cullinan Series II Black Badge, prova",
+          "url": "https://it.motor1.com/reviews/758740/rolls-royce-cullinan-2025-video/",
+          "type": "press",
+          "publishedAt": "2025-05-11",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "maserati-granturismo-2022",
+      "modelId": "maserati-granturismo",
+      "brandId": "maserati",
+      "modelName": "GranTurismo",
+      "name": "Maserati GranTurismo (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Grand tourisme 2+2 / 4 places",
+      "bodyStyles": [
+        "Coupé 4 places"
+      ],
+      "categories": [
+        "gt",
+        "coupe",
+        "luxury",
+        "sports"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "travel",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2024 Maserati GranTurismo Trofeo.jpg",
+          "caption": "Maserati GranTurismo Trofeo",
+          "depicts": "Maserati GranTurismo Trofeo (2022)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 Maserati GranTurismo Folgore.jpg",
+          "caption": "Maserati GranTurismo Folgore",
+          "depicts": "Maserati GranTurismo Folgore (2022), électrique",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La deuxième génération de la Maserati GranTurismo, révélée en octobre 2022 et produite depuis avril 2023, est proposée en V6 biturbo Nettuno ou en version 100 % électrique Folgore. Les trois versions sont à transmission intégrale.",
+        "positioning": "Coupé grand tourisme de Maserati, proposé en thermique et en électrique.",
+        "technicalFacts": [
+          "Plateforme Giorgio (Stellantis), code interne M189.",
+          "V6 biturbo Nettuno de 2 992 cm³ : 490 ch (Modena) ou 550 ch (Trofeo).",
+          "Folgore : trois moteurs électriques, architecture 800 V et batterie de 92,5 kWh, 761 ch.",
+          "Longueur d'environ 4,96 m et empattement de 2 929 mm."
+        ],
+        "pros": [
+          "Choix rare entre thermique et électrique sur la même carrosserie.",
+          "Quatre places réellement utilisables pour un coupé GT.",
+          "Folgore très performant (0-100 km/h en 2,7 s)."
+        ],
+        "differentiators": [
+          "Un des premiers coupés GT de luxe proposés en version 100 % électrique."
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Architecture électrique 800 V avec recharge DC jusqu'à 270 kW sur la Folgore."
+        ],
+        "compromises": [
+          "Folgore nettement plus lourde que les versions V6 (2 260 kg contre 1 795 kg).",
+          "Autonomie WLTP de la Folgore variable selon les sources et les millésimes."
+        ]
+      },
+      "variants": [
+        {
+          "id": "maserati-granturismo-2022-modena",
+          "name": "GranTurismo Modena",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 biturbo Nettuno 3,0 l",
+            "displacementCc": 2992
+          },
+          "powerHp": 490,
+          "powerKw": 365,
+          "torqueNm": 600,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 3.9,
+          "topSpeedKmh": 302,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1795,
+          "dimensions": {
+            "lengthMm": null,
+            "widthMm": 1957,
+            "heightMm": 1353,
+            "wheelbaseMm": 2929
+          },
+          "seats": 4,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Données Autotijd. Longueur publiée en fourchette (4 959–4 966 mm) sans détail par version. Consommation, CO2, coffre et prix non trouvés (site Maserati inaccessible).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Maserati GranTurismo Modena 490 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/maserati/granturismo/modena-490-hp-awd-3627",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Maserati GranTurismo",
+              "url": "https://autotijd.be/fr/dimensions/maserati/granturismo",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "maserati-granturismo-2022-trofeo",
+          "name": "GranTurismo Trofeo",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 biturbo Nettuno 3,0 l",
+            "displacementCc": 2992
+          },
+          "powerHp": 550,
+          "powerKw": 410,
+          "torqueNm": 650,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 3.5,
+          "topSpeedKmh": 320,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1795,
+          "dimensions": {
+            "lengthMm": null,
+            "widthMm": 1957,
+            "heightMm": 1353,
+            "wheelbaseMm": 2929
+          },
+          "seats": 4,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Données Autotijd (poids à vide identique à la Modena selon cette source). Longueur publiée en fourchette sans détail par version. Consommation, CO2, coffre et prix non trouvés.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Maserati GranTurismo Trofeo 550 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/maserati/granturismo/trofeo-550-hp-awd-3628",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Maserati GranTurismo",
+              "url": "https://autotijd.be/fr/dimensions/maserati/granturismo",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "maserati-granturismo-2022-folgore",
+          "name": "GranTurismo Folgore",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Trois moteurs électriques",
+            "displacementCc": null,
+            "electricMotors": 3
+          },
+          "powerHp": 761,
+          "powerKw": 560,
+          "torqueNm": 1350,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 2.7,
+          "topSpeedKmh": 320,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": 92.5,
+          "charging": {
+            "dcMaxKw": 270,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 2260,
+          "dimensions": {
+            "lengthMm": null,
+            "widthMm": 1957,
+            "heightMm": 1353,
+            "wheelbaseMm": 2929
+          },
+          "seats": 4,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Batterie 800 V de 92,5 kWh (capacité brute)",
+            "Charge rapide DC jusqu'à 270 kW"
+          ],
+          "prices": [],
+          "notes": "Données Autotijd ; trois moteurs et boîte à rapport unique selon Wikipedia. Autonomie et consommation WLTP non retenues : 450 km au lancement selon Wikipedia, mais les bases de données divergent selon le millésime (de 426 à 501 km). Longueur publiée en fourchette sans détail par version. Coffre et prix non trouvés.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Maserati GranTurismo Folgore 761 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/maserati/granturismo/folgore-761-hp-awd-3629",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Maserati GranTurismo",
+              "url": "https://autotijd.be/fr/dimensions/maserati/granturismo",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Maserati GranTurismo",
+              "url": "https://en.wikipedia.org/wiki/Maserati_GranTurismo",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Maserati GranTurismo",
+          "url": "https://en.wikipedia.org/wiki/Maserati_GranTurismo",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Maserati GranTurismo",
+          "url": "https://autotijd.be/fr/dimensions/maserati/granturismo",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}

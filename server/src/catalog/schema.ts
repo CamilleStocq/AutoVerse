@@ -62,7 +62,7 @@ const milestone = z.object({
 
 const category = z.enum([
   'sports', 'supercar', 'sport-sedan', 'coupe', 'convertible', 'city', 'compact', 'family-sedan', 'wagon',
-  'suv', 'sport-suv', 'luxury', 'gt', 'ev', 'phev', 'hybrid', 'ice', 'offroad', 'classic',
+  'suv', 'sport-suv', 'luxury', 'gt', 'ev', 'phev', 'hybrid', 'ice', 'offroad', 'classic', 'endurance', 'rally',
 ]);
 
 export const generationSchema = z.looseObject({
@@ -74,7 +74,7 @@ export const generationSchema = z.looseObject({
   yearsLabel: z.string(),
   startYear: z.number().int().nullable(),
   endYear: z.number().int().nullable(),
-  status: z.enum(['on-sale', 'announced', 'in-preparation', 'discontinued']),
+  status: z.enum(['on-sale', 'announced', 'in-preparation', 'discontinued', 'racing']),
   segment: z.string().default(''),
   bodyStyles: z.array(z.string()).default([]),
   categories: z.array(category).default([]),
