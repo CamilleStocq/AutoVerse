@@ -2,6 +2,7 @@
  * Deck de cartes (esprit cartes Pokémon). Une carte n'entre dans le deck que si elle sort d'un booster.
  * - Boosters de 7 cartes : 3 de bienvenue, puis 1 toutes les 2 heures (jusqu'à 3 en réserve).
  * - Jamais de double : un booster ne contient que des cartes pas encore possédées.
+ * - Chaque badge obtenu rapporte 3 boosters, une seule fois.
  * - Boosters bonus : questionnaire F1 / WEC / WRC parfait (5/5) ; au plus 2 bonus par période
  *   de 2 heures, et au plus 3 questionnaires par heure.
  * - Un booster ouvert reste « en attente » jusqu'au bouton « Ajouter au deck » : fermer l'app
@@ -25,8 +26,10 @@ export interface CollectionState {
   quizzes: string[];
   /** Boosters bonus gagnés (ISO), pour la limite de 2 par période de 2 h. */
   bonuses: string[];
-  /** Badges déjà annoncés (pour ne féliciter qu'une fois). */
+  /** Badges déjà vus sur la page Badges (point sur la médaille tant qu'ils ne le sont pas). */
   badges: string[];
+  /** Badges dont la récompense (3 boosters) a déjà été donnée. */
+  rewarded: string[];
 }
 
 export const BOOSTER_SIZE = 7;
@@ -37,9 +40,11 @@ export const BOOSTER_INTERVAL_MS = 2 * 3600 * 1000;
 export const BOOSTER_INTERVAL_HOURS = BOOSTER_INTERVAL_MS / 3600_000;
 export const QUIZ_PER_HOUR = 3;
 export const MAX_BONUS_PER_INTERVAL = 2;
+/** Boosters offerts pour chaque badge obtenu. */
+export const BOOSTERS_PER_BADGE = 3;
 const HOUR = 3600 * 1000;
 
-const EMPTY: CollectionState = { cards: {}, boosters: 0, lastGrantAt: null, welcomeGiven: false, opened: 0, pending: null, quizzes: [], bonuses: [], badges: [] };
+const EMPTY: CollectionState = { cards: {}, boosters: 0, lastGrantAt: null, welcomeGiven: false, opened: 0, pending: null, quizzes: [], bonuses: [], badges: [], rewarded: [] };
 
 /** Probabilités par emplacement (la dernière carte du booster est au moins Rare). */
 export const RARITY_WEIGHTS: Record<Rarity, number> = { common: 55, rare: 30, epic: 12, legendary: 3 };
@@ -164,7 +169,7 @@ function load(): CollectionState {
   const { lastGrantDay: _legacy, ...rest } = raw;
   // Plus de doubles : une carte possédée compte toujours pour 1.
   const cards = Object.fromEntries(Object.entries(rest.cards ?? {}).map(([id, c]) => [id, { ...c, count: 1 }]));
-  return { ...EMPTY, ...rest, cards, quizzes: rest.quizzes ?? [], bonuses: rest.bonuses ?? [], badges: rest.badges ?? [], pending: rest.pending ?? null };
+  return { ...EMPTY, ...rest, cards, quizzes: rest.quizzes ?? [], bonuses: rest.bonuses ?? [], badges: rest.badges ?? [], rewarded: rest.rewarded ?? [], pending: rest.pending ?? null };
 }
 
 function save(next: CollectionState) {
@@ -234,7 +239,15 @@ export function useCollection() {
     return true;
   }, []);
 
-  /** Enregistre les badges annoncés ; renvoie ceux qui étaient nouveaux. */
+  /** Donne 3 boosters par badge obtenu pas encore récompensé (une seule fois par badge). */
+  const rewardBadges = useCallback((ids: string[]) => {
+    const current = load();
+    const fresh = ids.filter((id) => !current.rewarded.includes(id));
+    if (fresh.length) save({ ...current, boosters: current.boosters + fresh.length * BOOSTERS_PER_BADGE, rewarded: [...current.rewarded, ...fresh] });
+    return fresh;
+  }, []);
+
+  /** Enregistre les badges vus ; renvoie ceux qui étaient nouveaux. */
   const markBadges = useCallback((ids: string[]) => {
     const current = load();
     const fresh = ids.filter((id) => !current.badges.includes(id));
@@ -242,7 +255,7 @@ export function useCollection() {
     return fresh;
   }, []);
 
-  return { state, owned: state.cards, markBadges, openBooster, commitPending, startQuiz, rewardQuiz };
+  return { state, owned: state.cards, markBadges, rewardBadges, openBooster, commitPending, startQuiz, rewardQuiz };
 }
 
 export function readCollection(): CollectionState {

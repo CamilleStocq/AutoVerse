@@ -5,7 +5,7 @@ import {
   MAX_STORED_BOOSTERS, migrateCardIds, nextBoosterIn, quizAllowance, QUIZ_PER_HOUR, WELCOME_BOOSTERS, type CollectionState,
 } from '../state/collection';
 
-const empty: CollectionState = { cards: {}, boosters: 0, lastGrantAt: null, welcomeGiven: false, opened: 0, pending: null, quizzes: [], bonuses: [], badges: [] };
+const empty: CollectionState = { cards: {}, boosters: 0, lastGrantAt: null, welcomeGiven: false, opened: 0, pending: null, quizzes: [], bonuses: [], badges: [], rewarded: [] };
 const car = (id: string, rarity: Rarity, brandId = 'porsche') => ({ id, brandId, card: { rarity } }) as unknown as CarSummary;
 const at = (iso: string) => new Date(iso);
 

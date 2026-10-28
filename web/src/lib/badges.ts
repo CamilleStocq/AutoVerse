@@ -82,9 +82,9 @@ export function remainingText(b: Badge): string {
 /** Badges de l'utilisateur, et ceux débloqués mais pas encore vus sur la page Badges. */
 export function useBadges() {
   const cards = useCards();
-  const { state, owned, markBadges } = useCollection();
+  const { state, owned, markBadges, rewardBadges } = useCollection();
   const all = cards.data ?? [];
   const badges = useMemo(() => computeBadges(all, owned, state.opened), [all, owned, state.opened]);
   const unseen = badges.filter((b) => b.unlocked && !state.badges.includes(b.id));
-  return { badges, unseen, loading: cards.isLoading, error: cards.isError, retry: () => cards.refetch(), markBadges };
+  return { badges, unseen, rewarded: state.rewarded, loading: cards.isLoading, error: cards.isError, retry: () => cards.refetch(), markBadges, rewardBadges };
 }
