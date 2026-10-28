@@ -1,0 +1,2887 @@
+{
+  "generations": [
+    {
+      "id": "ferrari-luce",
+      "modelId": "ferrari-luce",
+      "brandId": "ferrari",
+      "modelName": "Luce",
+      "name": "1re génération (F222)",
+      "yearsLabel": "2026 –",
+      "startYear": 2026,
+      "endYear": null,
+      "status": "announced",
+      "segment": "Grande routière électrique 5 portes (segment E/F)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "ev",
+        "luxury",
+        "gt",
+        "sport-sedan"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "travel",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2027 Ferrari Luce, front left.jpg",
+          "caption": null,
+          "depicts": "Ferrari Luce (version de série) exposée à Pebble Beach en août 2026",
+          "isOfficial": false,
+          "isIllustration": false
+        }
+      ],
+      "editorial": {
+        "summary": "Première Ferrari 100 % électrique, la Luce a été dévoilée le 25 mai 2026 à Rome. Il s'agit d'une grande routière à quatre moteurs électriques (un par roue), et non d'une supercar. Prix catalogue rapporté par l'ANSA : 550 000 € ; premières livraisons annoncées pour fin 2026.",
+        "positioning": "Premier modèle électrique de Ferrari, positionné comme une addition à la gamme thermique et hybride, pas comme un remplacement.",
+        "technicalFacts": [
+          "Quatre moteurs électriques, un par roue (transmission intégrale)",
+          "Batterie de 122 kWh",
+          "0 à 100 km/h en 2,5 s ; 0 à 200 km/h en 6,8 s (données constructeur)",
+          "Vitesse maximale supérieure à 310 km/h",
+          "Autonomie annoncée supérieure à 530 km",
+          "Poids annoncé : 2 260 kg"
+        ],
+        "pros": [],
+        "differentiators": [
+          "Première Ferrari électrique de série",
+          "Carrosserie 5 portes et habitacle 4/5 places, inédit chez Ferrari"
+        ],
+        "pricePositioning": "Prix catalogue de 550 000 € rapporté par l'ANSA lors de la présentation (marché européen / Italie, TVA comprise). Prix belge et français non publiés.",
+        "innovations": [
+          "Architecture à quatre moteurs avec gestion du couple roue par roue"
+        ],
+        "compromises": []
+      },
+      "variants": [
+        {
+          "id": "ferrari-luce-base",
+          "name": "Luce",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": null,
+            "displacementCc": null,
+            "electricMotors": 4
+          },
+          "powerHp": 1050,
+          "powerKw": 772,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 2.5,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 0,
+          "weightKg": 2260,
+          "dimensions": {
+            "lengthMm": 5026,
+            "widthMm": 1999,
+            "heightMm": 1544,
+            "wheelbaseMm": 2961
+          },
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "IT",
+              "amount": 550000,
+              "currency": "EUR",
+              "type": "official",
+              "asOf": "2026-05-26",
+              "source": {
+                "label": "ANSA",
+                "url": "https://www.ansa.it/english/news/2026/05/26/ferrari-presents-its-first-all-electric-car-luce_84d6b5f9-f0d3-4b63-91a4-da68148fdc13.html",
+                "type": "press",
+                "publishedAt": "2026-05-26",
+                "retrievedAt": "2026-10-28"
+              },
+              "estimate": null
+            }
+          ],
+          "notes": "Puissance (772 kW / 1 050 ch) et dimensions d'après Wikipedia (référençant Ferrari) ; batterie 122 kWh brute, autonomie > 530 km et Vmax > 310 km/h : valeurs « supérieures à », non saisies comme chiffres exacts. Prix : marché italien (ANSA), prix BE/FR non publiés.",
+          "sources": [
+            {
+              "label": "ANSA",
+              "url": "https://www.ansa.it/english/news/2026/05/26/ferrari-presents-its-first-all-electric-car-luce_84d6b5f9-f0d3-4b63-91a4-da68148fdc13.html",
+              "type": "press",
+              "publishedAt": "2026-05-26",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Ferrari Luce",
+              "url": "https://en.wikipedia.org/wiki/Ferrari_Luce",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2026,
+            "month": 5,
+            "day": 25
+          },
+          "market": "WORLD",
+          "source": {
+            "label": "Wikipedia – Ferrari Luce",
+            "url": "https://en.wikipedia.org/wiki/Ferrari_Luce",
+            "type": "database",
+            "publishedAt": null,
+            "retrievedAt": "2026-10-28"
+          }
+        },
+        "firstDeliveries": {
+          "date": {
+            "year": 2026,
+            "half": "late"
+          },
+          "market": null,
+          "source": {
+            "label": "ANSA",
+            "url": "https://www.ansa.it/english/news/2026/05/26/ferrari-presents-its-first-all-electric-car-luce_84d6b5f9-f0d3-4b63-91a4-da68148fdc13.html",
+            "type": "press",
+            "publishedAt": "2026-05-26",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": {
+        "confirmation": "orders-open",
+        "confirmed": [
+          "Présentée officiellement le 25 mai 2026 à Rome",
+          "Quatre moteurs électriques, batterie 122 kWh",
+          "0-100 km/h en 2,5 s, plus de 310 km/h, plus de 530 km d'autonomie",
+          "Premières livraisons prévues fin 2026 (ANSA)",
+          "Prix catalogue 550 000 € (ANSA)"
+        ],
+        "unknown": [
+          "Prix et calendrier de livraison spécifiques à la Belgique et à la France",
+          "Consommation WLTP homologuée",
+          "Puissance de recharge officielle (350 kW selon Wikipedia, non vérifié auprès de Ferrari)"
+        ],
+        "expectedPowertrains": [
+          "ev"
+        ],
+        "priceStatus": "official"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "ANSA",
+          "url": "https://www.ansa.it/english/news/2026/05/26/ferrari-presents-its-first-all-electric-car-luce_84d6b5f9-f0d3-4b63-91a4-da68148fdc13.html",
+          "type": "press",
+          "publishedAt": "2026-05-26",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Ferrari Luce",
+          "url": "https://en.wikipedia.org/wiki/Ferrari_Luce",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "evo",
+          "url": "https://www.evo.co.uk/ferrari/luce/206888/ferrari-luce-price-specs-and-release-date-of-italys-infamous-ev",
+          "type": "press",
+          "publishedAt": "2026-08-24",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mercedes-amg-gt-4-door-amg-ea",
+      "modelId": "mercedes-amg-gt-4-door",
+      "brandId": "mercedes-benz",
+      "modelName": "Mercedes-AMG GT 4 portes Coupé",
+      "name": "Électrique (AMG.EA)",
+      "yearsLabel": "2026 –",
+      "startYear": 2026,
+      "endYear": null,
+      "status": "announced",
+      "segment": "Grande berline sportive électrique (segment F)",
+      "bodyStyles": [
+        "Coupé 4 portes"
+      ],
+      "categories": [
+        "ev",
+        "sport-sedan",
+        "gt",
+        "luxury"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "travel"
+      ],
+      "previousGenerationId": "mercedes-amg-gt-4-door-x290",
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "Premier modèle de la plateforme électrique dédiée AMG.EA, le GT 4 portes Coupé électrique a été présenté en mai 2026 à Los Angeles. Il inaugure en série des moteurs à flux axial (trois moteurs) et une architecture 800 V acceptant jusqu'à 600 kW en recharge rapide. Commandes ouvertes en Europe depuis fin mai 2026.",
+        "positioning": "Succède en électrique au Mercedes-AMG GT 4 portes Coupé thermique/hybride (X290) ; vitrine de la plateforme AMG.EA.",
+        "technicalFacts": [
+          "Trois moteurs électriques à flux axial (deux à l'arrière, un à l'avant)",
+          "Architecture 800 V, batterie de 106 kWh nets",
+          "Recharge DC jusqu'à 600 kW, 10-80 % en 11 minutes (constructeur)",
+          "GT 63 : 860 kW (1 169 ch), 0-100 km/h en 2,1 s",
+          "GT 55 : 600 kW (816 ch)",
+          "Production en série à Sindelfingen à partir de l'été 2026"
+        ],
+        "pros": [],
+        "differentiators": [
+          "Premiers moteurs à flux axial dans une voiture électrique de série"
+        ],
+        "pricePositioning": "En France, la gamme débute à 168 950 € et la GT 63 à 217 450 € (Automobile Propre). En Allemagne : GT 55 dès 154 700 €, GT 63 dès 196 350 €.",
+        "innovations": [
+          "Moteurs à flux axial",
+          "Recharge 600 kW"
+        ],
+        "compromises": []
+      },
+      "variants": [
+        {
+          "id": "mercedes-amg-gt-4-door-amg-ea-gt55",
+          "name": "GT 55",
+          "tier": "sport",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": null,
+            "displacementCc": null,
+            "electricMotors": 3
+          },
+          "powerHp": 816,
+          "powerKw": 600,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": 106,
+          "charging": {
+            "dcMaxKw": 600,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 168950,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-05-31",
+              "source": {
+                "label": "Automobile Propre",
+                "url": "https://www.automobile-propre.com/breves/mercedes-amg-electrique-son-prix-fait-tres-mal-mais-pas-autant-que-celui-de-la-ferrari-luce/",
+                "type": "press",
+                "publishedAt": "2026-05-31",
+                "retrievedAt": "2026-10-28"
+              },
+              "estimate": null
+            }
+          ],
+          "notes": "Prix FR = prix d'entrée de gamme selon Automobile Propre (attribué au GT 55 par déduction, l'article ne nomme pas la version). Autonomie WLTP 597-700 km selon Automotive World.",
+          "sources": [
+            {
+              "label": "Automotive World",
+              "url": "https://www.automotiveworld.com/news/mercedes-amg-launches-electric-gt-4-door-coupe/",
+              "type": "press",
+              "publishedAt": "2026-05-20",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "ecomento.de",
+              "url": "https://ecomento.de/2026/05/27/mercedes-amg-gt-4-tuerer-coupe-ab-154700-euro-bestellbar/",
+              "type": "press",
+              "publishedAt": "2026-05-27",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Automobile Propre",
+              "url": "https://www.automobile-propre.com/breves/mercedes-amg-electrique-son-prix-fait-tres-mal-mais-pas-autant-que-celui-de-la-ferrari-luce/",
+              "type": "press",
+              "publishedAt": "2026-05-31",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mercedes-amg-gt-4-door-amg-ea-gt63",
+          "name": "GT 63",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": null,
+            "displacementCc": null,
+            "electricMotors": 3
+          },
+          "powerHp": 1169,
+          "powerKw": 860,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 2.1,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": 106,
+          "charging": {
+            "dcMaxKw": 600,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 217450,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-05-31",
+              "source": {
+                "label": "Automobile Propre",
+                "url": "https://www.automobile-propre.com/breves/mercedes-amg-electrique-son-prix-fait-tres-mal-mais-pas-autant-que-celui-de-la-ferrari-luce/",
+                "type": "press",
+                "publishedAt": "2026-05-31",
+                "retrievedAt": "2026-10-28"
+              },
+              "estimate": null
+            }
+          ],
+          "notes": "Vmax 300 km/h avec AMG Driver's Package (option). Autonomie WLTP 596-696 km selon Automotive World.",
+          "sources": [
+            {
+              "label": "Automotive World",
+              "url": "https://www.automotiveworld.com/news/mercedes-amg-launches-electric-gt-4-door-coupe/",
+              "type": "press",
+              "publishedAt": "2026-05-20",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Automobile Propre",
+              "url": "https://www.automobile-propre.com/breves/mercedes-amg-electrique-son-prix-fait-tres-mal-mais-pas-autant-que-celui-de-la-ferrari-luce/",
+              "type": "press",
+              "publishedAt": "2026-05-31",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2026,
+            "month": 5
+          },
+          "market": "WORLD",
+          "source": {
+            "label": "Automotive World",
+            "url": "https://www.automotiveworld.com/news/mercedes-amg-launches-electric-gt-4-door-coupe/",
+            "type": "press",
+            "publishedAt": "2026-05-20",
+            "retrievedAt": "2026-10-28"
+          }
+        },
+        "ordersOpen": {
+          "date": {
+            "year": 2026,
+            "month": 5
+          },
+          "market": "EU",
+          "source": {
+            "label": "Automobile Propre",
+            "url": "https://www.automobile-propre.com/breves/mercedes-amg-electrique-son-prix-fait-tres-mal-mais-pas-autant-que-celui-de-la-ferrari-luce/",
+            "type": "press",
+            "publishedAt": "2026-05-31",
+            "retrievedAt": "2026-10-28"
+          }
+        },
+        "productionStart": {
+          "date": {
+            "year": 2026,
+            "half": "mid"
+          },
+          "market": null,
+          "source": {
+            "label": "Automotive World",
+            "url": "https://www.automotiveworld.com/news/mercedes-amg-launches-electric-gt-4-door-coupe/",
+            "type": "press",
+            "publishedAt": "2026-05-20",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": {
+        "confirmation": "orders-open",
+        "confirmed": [
+          "Présentation mondiale en mai 2026 (Los Angeles)",
+          "Deux versions au lancement : GT 55 et GT 63",
+          "Commandes ouvertes en Europe (mai 2026)",
+          "Production en série à Sindelfingen à partir de l'été 2026",
+          "Prix officiels publiés en Allemagne et en France"
+        ],
+        "unknown": [
+          "Date des premières livraisons clients en Belgique/France",
+          "Prix belges",
+          "Consommation WLTP par version"
+        ],
+        "expectedPowertrains": [
+          "ev"
+        ],
+        "priceStatus": "official"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "Automotive World",
+          "url": "https://www.automotiveworld.com/news/mercedes-amg-launches-electric-gt-4-door-coupe/",
+          "type": "press",
+          "publishedAt": "2026-05-20",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ecomento.de",
+          "url": "https://ecomento.de/2026/05/27/mercedes-amg-gt-4-tuerer-coupe-ab-154700-euro-bestellbar/",
+          "type": "press",
+          "publishedAt": "2026-05-27",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Automobile Propre",
+          "url": "https://www.automobile-propre.com/breves/mercedes-amg-electrique-son-prix-fait-tres-mal-mais-pas-autant-que-celui-de-la-ferrari-luce/",
+          "type": "press",
+          "publishedAt": "2026-05-31",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "bmw-i3-na0",
+      "modelId": "bmw-i3",
+      "brandId": "bmw",
+      "modelName": "i3",
+      "name": "Neue Klasse (NA0)",
+      "yearsLabel": "2026 –",
+      "startYear": 2026,
+      "endYear": null,
+      "status": "announced",
+      "segment": "Berline familiale premium électrique (segment D)",
+      "bodyStyles": [
+        "Berline"
+      ],
+      "categories": [
+        "ev",
+        "family-sedan"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "family",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:BMW i3 50 xDrive First Edition (NA0) – f 20082026.jpg",
+          "caption": null,
+          "depicts": "BMW i3 50 xDrive First Edition (NA0), version de série, photographiée en août 2026",
+          "isOfficial": false,
+          "isIllustration": false
+        }
+      ],
+      "editorial": {
+        "summary": "Berline électrique de la Neue Klasse, pendant électrique de la Série 3, la nouvelle i3 a été présentée à Munich en mars 2026. La version 50 xDrive annonce jusqu'à 912 km WLTP grâce à une batterie de 108,7 kWh nets et une architecture 800 V. Production en série à Munich depuis août 2026 ; commandes ouvertes en France pour la série de lancement First Edition à 74 850 €.",
+        "positioning": "Deuxième modèle de la Neue Klasse après l'iX3, pendant électrique de la Série 3 (sans lien avec l'ancienne citadine i3 de 2013).",
+        "technicalFacts": [
+          "i3 50 xDrive : 345 kW (469 ch), 645 Nm, deux moteurs, transmission intégrale",
+          "Batterie 108,7 kWh nets, architecture 800 V",
+          "Autonomie WLTP jusqu'à 912 km (758 à 906 km pour la First Edition selon options)",
+          "0-100 km/h en 4,7 s, Vmax 200 km/h",
+          "Recharge DC jusqu'à 400 kW, 10-80 % en 21 minutes",
+          "Production en série à Munich depuis août 2026"
+        ],
+        "pros": [],
+        "differentiators": [
+          "Autonomie WLTP parmi les plus élevées du segment"
+        ],
+        "pricePositioning": "First Edition à 74 850 € en France. En Allemagne : i3 40 xDrive dès 59 900 €, i3 50 xDrive dès 65 900 €, First Edition 75 340 €.",
+        "innovations": [
+          "Architecture électrique/électronique Neue Klasse",
+          "Batterie cylindrique cell-to-pack 800 V"
+        ],
+        "compromises": []
+      },
+      "variants": [
+        {
+          "id": "bmw-i3-na0-50-xdrive-first-edition",
+          "name": "50 xDrive First Edition",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": null,
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "powerHp": 469,
+          "powerKw": 345,
+          "torqueNm": 645,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 4.7,
+          "topSpeedKmh": 200,
+          "consumption": null,
+          "electricRangeKm": 906,
+          "batteryKwh": 108.7,
+          "charging": {
+            "dcMaxKw": 400,
+            "dc10to80Min": 21
+          },
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4760,
+            "widthMm": 1870,
+            "heightMm": 1480,
+            "wheelbaseMm": 2900
+          },
+          "seats": null,
+          "trunkL": 420,
+          "equipmentHighlights": [
+            "Pack M Sport",
+            "Chargeur AC 22 kW (11 kW de série ailleurs dans la gamme)"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 74850,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-06-19",
+              "source": {
+                "label": "L'argus",
+                "url": "https://www.largus.fr/actualite-automobile/prix-bmw-i3-2026-serie-speciale-de-lancement-pour-la-berline-electrique-2207364.html",
+                "type": "press",
+                "publishedAt": "2026-06-19",
+                "retrievedAt": "2026-10-28"
+              },
+              "estimate": null
+            }
+          ],
+          "notes": "Autonomie WLTP 758 à 906 km selon équipement (valeur maximale saisie). Dimensions arrondies (électrive : 4,76 × 1,87 × 1,48 m, empattement 2,90 m) ; coffre 420 L + frunk 31 L.",
+          "sources": [
+            {
+              "label": "L'argus",
+              "url": "https://www.largus.fr/actualite-automobile/prix-bmw-i3-2026-serie-speciale-de-lancement-pour-la-berline-electrique-2207364.html",
+              "type": "press",
+              "publishedAt": "2026-06-19",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "electrive.com",
+              "url": "https://electrive.com/2026/09/30/electric-bmw-i3-shines-with-900-km-range",
+              "type": "press",
+              "publishedAt": "2026-09-30",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2026,
+            "month": 3
+          },
+          "market": "WORLD",
+          "source": {
+            "label": "The Driven",
+            "url": "https://thedriven.io/2026/03/20/bmw-unveils-i3-electric-sedan-with-900-km-of-range/",
+            "type": "press",
+            "publishedAt": "2026-03-20",
+            "retrievedAt": "2026-10-28"
+          }
+        },
+        "ordersOpen": {
+          "date": {
+            "year": 2026,
+            "month": 6
+          },
+          "market": "FR",
+          "source": {
+            "label": "L'argus",
+            "url": "https://www.largus.fr/actualite-automobile/prix-bmw-i3-2026-serie-speciale-de-lancement-pour-la-berline-electrique-2207364.html",
+            "type": "press",
+            "publishedAt": "2026-06-19",
+            "retrievedAt": "2026-10-28"
+          }
+        },
+        "productionStart": {
+          "date": {
+            "year": 2026,
+            "month": 8
+          },
+          "market": null,
+          "source": {
+            "label": "electrive.com",
+            "url": "https://electrive.com/2026/09/30/electric-bmw-i3-shines-with-900-km-range",
+            "type": "press",
+            "publishedAt": "2026-09-30",
+            "retrievedAt": "2026-10-28"
+          }
+        },
+        "firstDeliveries": {
+          "date": {
+            "year": 2026,
+            "month": 9
+          },
+          "market": "FR",
+          "source": {
+            "label": "L'argus",
+            "url": "https://www.largus.fr/actualite-automobile/prix-bmw-i3-2026-serie-speciale-de-lancement-pour-la-berline-electrique-2207364.html",
+            "type": "press",
+            "publishedAt": "2026-06-19",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": {
+        "confirmation": "orders-open",
+        "confirmed": [
+          "Présentation mondiale à Munich en mars 2026",
+          "Commandes First Edition ouvertes en juin 2026 (France : 74 850 €)",
+          "Production en série à Munich depuis août 2026",
+          "Commandes des versions standard en Europe annoncées pour fin septembre 2026",
+          "Premières livraisons prévues en septembre 2026 selon L'argus (calendrier exact non confirmé)"
+        ],
+        "unknown": [
+          "Prix français des versions standard (40 xDrive, 50 xDrive)",
+          "Prix belges",
+          "Fiche technique complète de l'i3 40 xDrive"
+        ],
+        "expectedPowertrains": [
+          "ev"
+        ],
+        "priceStatus": "official"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "The Driven",
+          "url": "https://thedriven.io/2026/03/20/bmw-unveils-i3-electric-sedan-with-900-km-of-range/",
+          "type": "press",
+          "publishedAt": "2026-03-20",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "BMWBLOG",
+          "url": "https://www.bmwblog.com/2026/07/30/standard-bmw-i3-orders-start-september/",
+          "type": "press",
+          "publishedAt": "2026-07-30",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "electrive.com",
+          "url": "https://electrive.com/2026/09/30/electric-bmw-i3-shines-with-900-km-range",
+          "type": "press",
+          "publishedAt": "2026-09-30",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus",
+          "url": "https://www.largus.fr/actualite-automobile/prix-bmw-i3-2026-serie-speciale-de-lancement-pour-la-berline-electrique-2207364.html",
+          "type": "press",
+          "publishedAt": "2026-06-19",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "bmw-m3-electric",
+      "modelId": "bmw-m3",
+      "brandId": "bmw",
+      "modelName": "M3",
+      "name": "M3 électrique (Neue Klasse)",
+      "yearsLabel": "2027",
+      "startYear": null,
+      "endYear": null,
+      "status": "in-preparation",
+      "segment": "Berline sportive électrique (segment D)",
+      "bodyStyles": [
+        "Berline"
+      ],
+      "categories": [
+        "ev",
+        "sport-sedan"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:BMW M Concept Neue Klasse 001.jpg",
+          "caption": null,
+          "depicts": "BMW M Concept Neue Klasse (concept-car 2026), pas la version de série de la M3 électrique",
+          "isOfficial": false,
+          "isIllustration": true
+        }
+      ],
+      "editorial": {
+        "summary": "BMW a confirmé dès 2023 que la prochaine M3 serait proposée en version 100 % électrique, sur la base Neue Klasse, aux côtés d'une M3 thermique. Lors de l'assemblée générale 2026, le président Oliver Zipse a indiqué qu'elle serait dévoilée en 2027. Le concept M Concept Neue Klasse montré en 2026 la préfigure, sans valeur de fiche technique.",
+        "positioning": "Déclinaison M électrique de la berline i3 Neue Klasse ; elle doit coexister avec une M3 thermique (la M3 G80 actuelle et sa remplaçante thermique).",
+        "technicalFacts": [
+          "Électrique, basée sur la Neue Klasse (confirmé par Frank Weber, BMW, 2023)",
+          "Une M3 thermique continuera d'être proposée en parallèle (BMW)",
+          "Dévoilement annoncé pour 2027 (Oliver Zipse, AG 2026, rapporté par BMWBLOG)"
+        ],
+        "pros": [],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": []
+      },
+      "variants": [],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2027
+          },
+          "market": "WORLD",
+          "source": {
+            "label": "BMWBLOG",
+            "url": "https://www.bmwblog.com/2026/05/13/electric-bmw-m3-spy-video-za0/",
+            "type": "press",
+            "publishedAt": "2026-05-13",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": {
+        "confirmation": "official-announcement",
+        "confirmed": [
+          "Existence d'une M3 100 % électrique confirmée par BMW",
+          "Coexistence avec une M3 thermique",
+          "Présentation prévue en 2027"
+        ],
+        "unknown": [
+          "Nom commercial définitif",
+          "Nombre de moteurs (quatre moteurs rapportés par la presse, non confirmés)",
+          "Puissance, batterie, autonomie",
+          "Prix",
+          "Date de commercialisation"
+        ],
+        "expectedPowertrains": [
+          "ev"
+        ],
+        "priceStatus": "not-announced"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "BMWBLOG",
+          "url": "https://www.bmwblog.com/2023/09/13/bmw-confirms-next-generation-m3-fully-electric/",
+          "type": "press",
+          "publishedAt": "2023-09-13",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "BMWBLOG",
+          "url": "https://www.bmwblog.com/2026/05/13/electric-bmw-m3-spy-video-za0/",
+          "type": "press",
+          "publishedAt": "2026-05-13",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "BMWBLOG",
+          "url": "https://www.bmwblog.com/2026/08/18/bmw-m-concept-neue-klasse-monterey-car-week-debut/",
+          "type": "press",
+          "publishedAt": "2026-08-18",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "audi-a2-e-tron",
+      "modelId": "audi-a2",
+      "brandId": "audi",
+      "modelName": "A2 e-tron",
+      "name": "A2 e-tron (2026)",
+      "yearsLabel": "2026 –",
+      "startYear": 2026,
+      "endYear": null,
+      "status": "announced",
+      "segment": "Compacte premium électrique (segment C)",
+      "bodyStyles": [
+        "Berline compacte 5 portes"
+      ],
+      "categories": [
+        "ev",
+        "compact"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Audi A2 e-tron IMG 20261009.jpg",
+          "caption": null,
+          "depicts": "Audi A2 e-tron de série, photographiée en octobre 2026",
+          "isOfficial": false,
+          "isIllustration": false
+        }
+      ],
+      "editorial": {
+        "summary": "Nouvelle porte d'entrée électrique d'Audi, l'A2 e-tron a été dévoilée le 7 septembre 2026. Produite à Ingolstadt, elle propose trois batteries (52, 61 et 84 kWh) et jusqu'à 646 km d'autonomie WLTP, avec un Cx de 0,24. Commandable en France dès 38 600 € ; premières livraisons prévues en décembre 2026.",
+        "positioning": "Modèle d'accès à la gamme électrique Audi, sous le Q4 e-tron ; reprend le nom de l'A2 (1999-2005) sans en être la remplaçante directe.",
+        "technicalFacts": [
+          "Quatre niveaux de puissance : 125, 140, 170 et 240 kW",
+          "Batteries 52, 61 et 84 kWh",
+          "Autonomie WLTP jusqu'à 646 km",
+          "Consommation annoncée 12,8 kWh/100 km (WLTP)",
+          "Cx de 0,24",
+          "Production à Ingolstadt"
+        ],
+        "pros": [],
+        "differentiators": [
+          "Efficience aérodynamique (Cx 0,24)"
+        ],
+        "pricePositioning": "De 38 600 € (170 ch, 52 kWh) à 52 000 € (326 ch, 84 kWh) en France, hors packs Advanced / S Line.",
+        "innovations": [],
+        "compromises": []
+      },
+      "variants": [
+        {
+          "id": "audi-a2-e-tron-125kw",
+          "name": "e-tron 170 ch (52 kWh)",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": null,
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 170,
+          "powerKw": 125,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Automatique (rapport unique)",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": 423,
+          "batteryKwh": 52,
+          "charging": null,
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 38600,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-09-11",
+              "source": {
+                "label": "L'argus",
+                "url": "https://www.largus.fr/actualite-automobile/prix-audi-a2-e-tron-2026-gamme-equipements-et-tarifs-de-la-compacte-electrique-40006607.html",
+                "type": "press",
+                "publishedAt": "2026-09-11",
+                "retrievedAt": "2026-10-28"
+              },
+              "estimate": null
+            }
+          ],
+          "notes": "Puissance kW d'après Electrek (125/140/170/240 kW), ch et autonomie WLTP d'après L'argus ; capacité batterie telle que publiée (brute/nette non précisée).",
+          "sources": [
+            {
+              "label": "L'argus",
+              "url": "https://www.largus.fr/actualite-automobile/prix-audi-a2-e-tron-2026-gamme-equipements-et-tarifs-de-la-compacte-electrique-40006607.html",
+              "type": "press",
+              "publishedAt": "2026-09-11",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Electrek",
+              "url": "https://electrek.co/2026/09/07/audi-reveals-prices-new-entry-level-ev-400-miles-range/",
+              "type": "press",
+              "publishedAt": "2026-09-07",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "audi-a2-e-tron-140kw",
+          "name": "e-tron 190 ch (61 kWh)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": null,
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 190,
+          "powerKw": 140,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Automatique (rapport unique)",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": 515,
+          "batteryKwh": 61,
+          "charging": null,
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 42900,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-09-11",
+              "source": {
+                "label": "L'argus",
+                "url": "https://www.largus.fr/actualite-automobile/prix-audi-a2-e-tron-2026-gamme-equipements-et-tarifs-de-la-compacte-electrique-40006607.html",
+                "type": "press",
+                "publishedAt": "2026-09-11",
+                "retrievedAt": "2026-10-28"
+              },
+              "estimate": null
+            }
+          ],
+          "notes": "Puissance kW d'après Electrek (125/140/170/240 kW), ch et autonomie WLTP d'après L'argus ; capacité batterie telle que publiée (brute/nette non précisée).",
+          "sources": [
+            {
+              "label": "L'argus",
+              "url": "https://www.largus.fr/actualite-automobile/prix-audi-a2-e-tron-2026-gamme-equipements-et-tarifs-de-la-compacte-electrique-40006607.html",
+              "type": "press",
+              "publishedAt": "2026-09-11",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Electrek",
+              "url": "https://electrek.co/2026/09/07/audi-reveals-prices-new-entry-level-ev-400-miles-range/",
+              "type": "press",
+              "publishedAt": "2026-09-07",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "audi-a2-e-tron-170kw",
+          "name": "e-tron 231 ch (84 kWh)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": null,
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 231,
+          "powerKw": 170,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Automatique (rapport unique)",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": 646,
+          "batteryKwh": 84,
+          "charging": {
+            "dcMaxKw": 183,
+            "dc10to80Min": 29
+          },
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 46900,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-09-11",
+              "source": {
+                "label": "L'argus",
+                "url": "https://www.largus.fr/actualite-automobile/prix-audi-a2-e-tron-2026-gamme-equipements-et-tarifs-de-la-compacte-electrique-40006607.html",
+                "type": "press",
+                "publishedAt": "2026-09-11",
+                "retrievedAt": "2026-10-28"
+              },
+              "estimate": null
+            }
+          ],
+          "notes": "Puissance kW d'après Electrek (125/140/170/240 kW), ch et autonomie WLTP d'après L'argus ; capacité batterie telle que publiée (brute/nette non précisée). Recharge 183 kW / 10-80 % en 29 min annoncée pour la batterie 84 kWh.",
+          "sources": [
+            {
+              "label": "L'argus",
+              "url": "https://www.largus.fr/actualite-automobile/prix-audi-a2-e-tron-2026-gamme-equipements-et-tarifs-de-la-compacte-electrique-40006607.html",
+              "type": "press",
+              "publishedAt": "2026-09-11",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Electrek",
+              "url": "https://electrek.co/2026/09/07/audi-reveals-prices-new-entry-level-ev-400-miles-range/",
+              "type": "press",
+              "publishedAt": "2026-09-07",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "audi-a2-e-tron-240kw",
+          "name": "e-tron 326 ch (84 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": null,
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 326,
+          "powerKw": 240,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Automatique (rapport unique)",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": 630,
+          "batteryKwh": 84,
+          "charging": {
+            "dcMaxKw": 183,
+            "dc10to80Min": 29
+          },
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 52000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-09-11",
+              "source": {
+                "label": "L'argus",
+                "url": "https://www.largus.fr/actualite-automobile/prix-audi-a2-e-tron-2026-gamme-equipements-et-tarifs-de-la-compacte-electrique-40006607.html",
+                "type": "press",
+                "publishedAt": "2026-09-11",
+                "retrievedAt": "2026-10-28"
+              },
+              "estimate": null
+            }
+          ],
+          "notes": "Puissance kW d'après Electrek (125/140/170/240 kW), ch et autonomie WLTP d'après L'argus ; capacité batterie telle que publiée (brute/nette non précisée). Recharge 183 kW / 10-80 % en 29 min annoncée pour la batterie 84 kWh.",
+          "sources": [
+            {
+              "label": "L'argus",
+              "url": "https://www.largus.fr/actualite-automobile/prix-audi-a2-e-tron-2026-gamme-equipements-et-tarifs-de-la-compacte-electrique-40006607.html",
+              "type": "press",
+              "publishedAt": "2026-09-11",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Electrek",
+              "url": "https://electrek.co/2026/09/07/audi-reveals-prices-new-entry-level-ev-400-miles-range/",
+              "type": "press",
+              "publishedAt": "2026-09-07",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2026,
+            "month": 9,
+            "day": 7
+          },
+          "market": "WORLD",
+          "source": {
+            "label": "Electrek",
+            "url": "https://electrek.co/2026/09/07/audi-reveals-prices-new-entry-level-ev-400-miles-range/",
+            "type": "press",
+            "publishedAt": "2026-09-07",
+            "retrievedAt": "2026-10-28"
+          }
+        },
+        "ordersOpen": {
+          "date": {
+            "year": 2026,
+            "month": 9,
+            "day": 10
+          },
+          "market": "DE",
+          "source": {
+            "label": "Electrek",
+            "url": "https://electrek.co/2026/09/07/audi-reveals-prices-new-entry-level-ev-400-miles-range/",
+            "type": "press",
+            "publishedAt": "2026-09-07",
+            "retrievedAt": "2026-10-28"
+          }
+        },
+        "firstDeliveries": {
+          "date": {
+            "year": 2026,
+            "month": 12
+          },
+          "market": "EU",
+          "source": {
+            "label": "Electrek",
+            "url": "https://electrek.co/2026/09/07/audi-reveals-prices-new-entry-level-ev-400-miles-range/",
+            "type": "press",
+            "publishedAt": "2026-09-07",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": {
+        "confirmation": "orders-open",
+        "confirmed": [
+          "Présentée le 7 septembre 2026",
+          "Commandes ouvertes (Allemagne le 10 septembre 2026, France en septembre 2026)",
+          "Tarifs officiels France de 38 600 € à 52 000 €",
+          "Premières livraisons prévues en décembre 2026"
+        ],
+        "unknown": [
+          "Prix belges",
+          "Couple et performances détaillées par version",
+          "Dimensions officielles"
+        ],
+        "expectedPowertrains": [
+          "ev"
+        ],
+        "priceStatus": "official"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "Electrek",
+          "url": "https://electrek.co/2026/09/07/audi-reveals-prices-new-entry-level-ev-400-miles-range/",
+          "type": "press",
+          "publishedAt": "2026-09-07",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus",
+          "url": "https://www.largus.fr/actualite-automobile/prix-audi-a2-e-tron-2026-gamme-equipements-et-tarifs-de-la-compacte-electrique-40006607.html",
+          "type": "press",
+          "publishedAt": "2026-09-11",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "volkswagen-id-polo",
+      "modelId": "volkswagen-id-polo",
+      "brandId": "volkswagen",
+      "modelName": "ID. Polo",
+      "name": "1re génération",
+      "yearsLabel": "2026 –",
+      "startYear": 2026,
+      "endYear": null,
+      "status": "announced",
+      "segment": "Citadine polyvalente électrique (segment B)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "ev",
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Volkswagen ID. Polo 2026-08-19 (1).jpg",
+          "caption": null,
+          "depicts": "Volkswagen ID. Polo de série exposée au Volkswagen Group Forum de Berlin en août 2026",
+          "isOfficial": false,
+          "isIllustration": false
+        }
+      ],
+      "editorial": {
+        "summary": "Citadine électrique de Volkswagen, l'ID. Polo reprend le nom de la Polo en électrique avec un ticket d'entrée annoncé à 24 995 € en France. Trois puissances (116, 135 et 211 ch) et deux batteries (37 kWh LFP et 52 kWh NMC) sont proposées ; premières livraisons annoncées dans le courant de septembre 2026.",
+        "positioning": "Modèle électrique d'entrée de gamme de Volkswagen, sous l'ID.3 ; la Polo thermique reste distincte.",
+        "technicalFacts": [
+          "Puissances : 116, 135 et 211 ch",
+          "Batterie 37 kWh nets LFP (116 et 135 ch) : jusqu'à 329 km",
+          "Batterie 52 kWh nets NMC (211 ch) : jusqu'à 455 km"
+        ],
+        "pros": [],
+        "differentiators": [],
+        "pricePositioning": "À partir de 24 995 € en France ; version 211 ch à partir de 35 820 €.",
+        "innovations": [],
+        "compromises": []
+      },
+      "variants": [
+        {
+          "id": "volkswagen-id-polo-116",
+          "name": "116 ch (37 kWh)",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": null,
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 116,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": 329,
+          "batteryKwh": 37,
+          "charging": null,
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 24995,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-04-29",
+              "source": {
+                "label": "Journal de l'Automobile",
+                "url": "https://journalauto.com/journal-des-flottes/volkswagen-revient-a-lessentiel-avec-son-id-polo/",
+                "type": "press",
+                "publishedAt": "2026-04-29",
+                "retrievedAt": "2026-10-28"
+              },
+              "estimate": null
+            }
+          ],
+          "notes": "Autonomie maximale annoncée (norme non précisée par la source). Commandes des versions d'entrée annoncées pour juillet 2026.",
+          "sources": [
+            {
+              "label": "Journal de l'Automobile",
+              "url": "https://journalauto.com/journal-des-flottes/volkswagen-revient-a-lessentiel-avec-son-id-polo/",
+              "type": "press",
+              "publishedAt": "2026-04-29",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-id-polo-135",
+          "name": "135 ch (37 kWh)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": null,
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 135,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": 329,
+          "batteryKwh": 37,
+          "charging": null,
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Prix non précisé par la source.",
+          "sources": [
+            {
+              "label": "Journal de l'Automobile",
+              "url": "https://journalauto.com/journal-des-flottes/volkswagen-revient-a-lessentiel-avec-son-id-polo/",
+              "type": "press",
+              "publishedAt": "2026-04-29",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-id-polo-211",
+          "name": "211 ch (52 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": null,
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 211,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": 455,
+          "batteryKwh": 52,
+          "charging": null,
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 35820,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-04-29",
+              "source": {
+                "label": "Journal de l'Automobile",
+                "url": "https://journalauto.com/journal-des-flottes/volkswagen-revient-a-lessentiel-avec-son-id-polo/",
+                "type": "press",
+                "publishedAt": "2026-04-29",
+                "retrievedAt": "2026-10-28"
+              },
+              "estimate": null
+            }
+          ],
+          "notes": "Première version commandable. Autonomie maximale annoncée (norme non précisée par la source).",
+          "sources": [
+            {
+              "label": "Journal de l'Automobile",
+              "url": "https://journalauto.com/journal-des-flottes/volkswagen-revient-a-lessentiel-avec-son-id-polo/",
+              "type": "press",
+              "publishedAt": "2026-04-29",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "firstDeliveries": {
+          "date": {
+            "year": 2026,
+            "month": 9
+          },
+          "market": "FR",
+          "source": {
+            "label": "Journal de l'Automobile",
+            "url": "https://journalauto.com/journal-des-flottes/volkswagen-revient-a-lessentiel-avec-son-id-polo/",
+            "type": "press",
+            "publishedAt": "2026-04-29",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": {
+        "confirmation": "orders-open",
+        "confirmed": [
+          "Commandes ouvertes d'abord pour la version 211 ch, versions à moins de 25 000 € annoncées pour juillet 2026",
+          "Prix d'entrée 24 995 € en France",
+          "Premières livraisons annoncées en septembre 2026"
+        ],
+        "unknown": [
+          "Confirmation que les livraisons ont effectivement débuté",
+          "Prix belges",
+          "Performances (0-100 km/h, Vmax) et puissances de recharge"
+        ],
+        "expectedPowertrains": [
+          "ev"
+        ],
+        "priceStatus": "official"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "Journal de l'Automobile",
+          "url": "https://journalauto.com/journal-des-flottes/volkswagen-revient-a-lessentiel-avec-son-id-polo/",
+          "type": "press",
+          "publishedAt": "2026-04-29",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "hyundai-ioniq-3",
+      "modelId": "hyundai-ioniq-3",
+      "brandId": "hyundai",
+      "modelName": "Ioniq 3",
+      "name": "1re génération",
+      "yearsLabel": "2026 –",
+      "startYear": 2026,
+      "endYear": null,
+      "status": "announced",
+      "segment": "Compacte électrique (segment B/C)",
+      "bodyStyles": [
+        "Berline compacte 5 portes"
+      ],
+      "categories": [
+        "ev",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2026 Hyundai Ioniq 3 N Line (Europe) front view 02.png",
+          "caption": null,
+          "depicts": "Hyundai Ioniq 3 N Line, version européenne de série (2026)",
+          "isOfficial": false,
+          "isIllustration": false
+        }
+      ],
+      "editorial": {
+        "summary": "Compacte électrique conçue et produite pour l'Europe (usine d'İzmit, Turquie), l'Ioniq 3 a été dévoilée en avril 2026 à Milan. Deux batteries (42,2 et 61 kWh) offrent jusqu'à 497 km WLTP. Hyundai a ouvert les commandes en France le 2 septembre 2026, à partir de 29 995 €.",
+        "positioning": "Modèle électrique d'accès de la gamme Ioniq, sous l'Ioniq 5 ; jumelle technique du Kia EV2 selon la presse.",
+        "technicalFacts": [
+          "Batterie 42,2 kWh : environ 344 km WLTP",
+          "Batterie 61 kWh : jusqu'à 497 km WLTP",
+          "Architecture 400 V",
+          "Production à İzmit (Turquie) depuis août 2026"
+        ],
+        "pros": [],
+        "differentiators": [],
+        "pricePositioning": "À partir de 29 995 € en France (communiqué Hyundai).",
+        "innovations": [],
+        "compromises": []
+      },
+      "variants": [
+        {
+          "id": "hyundai-ioniq-3-42kwh",
+          "name": "Batterie standard 42,2 kWh",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": null,
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": null,
+          "powerKw": 107.8,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": 344,
+          "batteryKwh": 42.2,
+          "charging": null,
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 29995,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-09-02",
+              "source": {
+                "label": "Hyundai France (communiqué)",
+                "url": "https://www.hyundai.news/fr/articles/press-releases/20260902---hyundai-ouvre-les-commandes-de-ioniq-3-en-france-et-d.html",
+                "type": "manufacturer",
+                "publishedAt": "2026-09-02",
+                "retrievedAt": "2026-10-28"
+              },
+              "estimate": null
+            }
+          ],
+          "notes": "Prix d'entrée de gamme France (communiqué) ; puissance et autonomie d'après electrive (Pays-Bas).",
+          "sources": [
+            {
+              "label": "electrive.com",
+              "url": "https://www.electrive.com/es/2026/07/31/el-hyundai-ioniq-3-sale-al-mercado-en-los-paises-bajos-a-partir-de-27-995-euros/",
+              "type": "press",
+              "publishedAt": "2026-07-31",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Hyundai France (communiqué)",
+              "url": "https://www.hyundai.news/fr/articles/press-releases/20260902---hyundai-ouvre-les-commandes-de-ioniq-3-en-france-et-d.html",
+              "type": "manufacturer",
+              "publishedAt": "2026-09-02",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "hyundai-ioniq-3-61kwh",
+          "name": "Long Range 61 kWh",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": null,
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": null,
+          "powerKw": 99.5,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": 497,
+          "batteryKwh": 61,
+          "charging": null,
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Prix France par version non repris (non publié dans le communiqué consulté).",
+          "sources": [
+            {
+              "label": "electrive.com",
+              "url": "https://www.electrive.com/es/2026/07/31/el-hyundai-ioniq-3-sale-al-mercado-en-los-paises-bajos-a-partir-de-27-995-euros/",
+              "type": "press",
+              "publishedAt": "2026-07-31",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2026,
+            "month": 4,
+            "day": 20
+          },
+          "market": "WORLD",
+          "source": {
+            "label": "Wikipedia – Hyundai Ioniq 3",
+            "url": "https://en.wikipedia.org/wiki/Hyundai_Ioniq_3",
+            "type": "database",
+            "publishedAt": null,
+            "retrievedAt": "2026-10-28"
+          }
+        },
+        "ordersOpen": {
+          "date": {
+            "year": 2026,
+            "month": 9,
+            "day": 2
+          },
+          "market": "FR",
+          "source": {
+            "label": "Hyundai France (communiqué)",
+            "url": "https://www.hyundai.news/fr/articles/press-releases/20260902---hyundai-ouvre-les-commandes-de-ioniq-3-en-france-et-d.html",
+            "type": "manufacturer",
+            "publishedAt": "2026-09-02",
+            "retrievedAt": "2026-10-28"
+          }
+        },
+        "productionStart": {
+          "date": {
+            "year": 2026,
+            "month": 8
+          },
+          "market": null,
+          "source": {
+            "label": "Wikipedia – Hyundai Ioniq 3",
+            "url": "https://en.wikipedia.org/wiki/Hyundai_Ioniq_3",
+            "type": "database",
+            "publishedAt": null,
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": {
+        "confirmation": "orders-open",
+        "confirmed": [
+          "Présentée en avril 2026 à Milan",
+          "Commandes ouvertes en France le 2 septembre 2026, dès 29 995 €",
+          "Deux batteries : 42,2 et 61 kWh",
+          "Production à İzmit (Turquie)"
+        ],
+        "unknown": [
+          "Date des premières livraisons en France et en Belgique",
+          "Prix belges",
+          "Puissance de recharge DC officielle"
+        ],
+        "expectedPowertrains": [
+          "ev"
+        ],
+        "priceStatus": "official"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "Hyundai France (communiqué)",
+          "url": "https://www.hyundai.news/fr/articles/press-releases/20260902---hyundai-ouvre-les-commandes-de-ioniq-3-en-france-et-d.html",
+          "type": "manufacturer",
+          "publishedAt": "2026-09-02",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "electrive.com",
+          "url": "https://www.electrive.com/es/2026/07/31/el-hyundai-ioniq-3-sale-al-mercado-en-los-paises-bajos-a-partir-de-27-995-euros/",
+          "type": "press",
+          "publishedAt": "2026-07-31",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Hyundai Ioniq 3",
+          "url": "https://en.wikipedia.org/wiki/Hyundai_Ioniq_3",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "peugeot-e-208-gti",
+      "modelId": "peugeot-208-gti",
+      "brandId": "peugeot",
+      "modelName": "e-208 GTi",
+      "name": "e-208 GTi (2026)",
+      "yearsLabel": "2026 –",
+      "startYear": 2026,
+      "endYear": null,
+      "status": "announced",
+      "segment": "Citadine sportive électrique (segment B)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "ev",
+        "city",
+        "sports"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "driving-pleasure",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Peugeot 208 GTI (2026) (55083142500).jpg",
+          "caption": null,
+          "depicts": "Peugeot e-208 GTi (2026), version de série",
+          "isOfficial": false,
+          "isIllustration": false
+        }
+      ],
+      "editorial": {
+        "summary": "Retour du badge GTi chez Peugeot en version 100 % électrique : 281 ch, 345 Nm et 0 à 100 km/h en 5,5 s. Commandes ouvertes en France à partir de 42 900 € ; premières livraisons attendues à l'automne 2026.",
+        "positioning": "Déclinaison sportive de la 208 actuelle (2e génération).",
+        "technicalFacts": [
+          "281 ch, 345 Nm",
+          "0-100 km/h en 5,5 s",
+          "Batterie 54 kWh bruts (51 kWh nets)",
+          "Autonomie WLTP 352 à 375 km selon pneumatiques"
+        ],
+        "pros": [],
+        "differentiators": [],
+        "pricePositioning": "À partir de 42 900 € en France.",
+        "innovations": [],
+        "compromises": []
+      },
+      "variants": [
+        {
+          "id": "peugeot-e-208-gti-base",
+          "name": "e-208 GTi",
+          "tier": "sport",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": null,
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 281,
+          "powerKw": null,
+          "torqueNm": 345,
+          "drivetrain": null,
+          "gearbox": null,
+          "accel0100s": 5.5,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": 375,
+          "batteryKwh": 51,
+          "charging": null,
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 42900,
+              "currency": "EUR",
+              "type": "official",
+              "asOf": "2026-06-15",
+              "source": {
+                "label": "Journal de l'Automobile",
+                "url": "https://journalauto.com/constructeurs/peugeot-ouvre-les-commandes-de-la-e-208-gti/",
+                "type": "press",
+                "publishedAt": "2026-06-15",
+                "retrievedAt": "2026-10-28"
+              },
+              "estimate": null
+            }
+          ],
+          "notes": "Batterie : 51 kWh nets (54 kWh bruts). Autonomie 352 km (Michelin) à 375 km (Hankook).",
+          "sources": [
+            {
+              "label": "Journal de l'Automobile",
+              "url": "https://journalauto.com/constructeurs/peugeot-ouvre-les-commandes-de-la-e-208-gti/",
+              "type": "press",
+              "publishedAt": "2026-06-15",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "ordersOpen": {
+          "date": {
+            "year": 2026,
+            "month": 6
+          },
+          "market": "FR",
+          "source": {
+            "label": "Journal de l'Automobile",
+            "url": "https://journalauto.com/constructeurs/peugeot-ouvre-les-commandes-de-la-e-208-gti/",
+            "type": "press",
+            "publishedAt": "2026-06-15",
+            "retrievedAt": "2026-10-28"
+          }
+        },
+        "firstDeliveries": {
+          "date": {
+            "year": 2026,
+            "half": "late"
+          },
+          "market": "FR",
+          "source": {
+            "label": "Journal de l'Automobile",
+            "url": "https://journalauto.com/constructeurs/peugeot-ouvre-les-commandes-de-la-e-208-gti/",
+            "type": "press",
+            "publishedAt": "2026-06-15",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": {
+        "confirmation": "orders-open",
+        "confirmed": [
+          "Commandes ouvertes en France (juin 2026)",
+          "Prix 42 900 €",
+          "281 ch, 0-100 km/h en 5,5 s",
+          "Premières livraisons attendues à l'automne 2026"
+        ],
+        "unknown": [
+          "Prix belge",
+          "Vitesse maximale et puissance de recharge officielles",
+          "Poids"
+        ],
+        "expectedPowertrains": [
+          "ev"
+        ],
+        "priceStatus": "official"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "Journal de l'Automobile",
+          "url": "https://journalauto.com/constructeurs/peugeot-ouvre-les-commandes-de-la-e-208-gti/",
+          "type": "press",
+          "publishedAt": "2026-06-15",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "renault-5-turbo-3e",
+      "modelId": "renault-5-turbo-3e",
+      "brandId": "renault",
+      "modelName": "5 Turbo 3E",
+      "name": "Série limitée (1 980 ex.)",
+      "yearsLabel": "2027",
+      "startYear": 2027,
+      "endYear": null,
+      "status": "announced",
+      "segment": "Petite sportive électrique de série limitée",
+      "bodyStyles": [
+        "Coupé 3 portes"
+      ],
+      "categories": [
+        "ev",
+        "sports"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "collection",
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Renault 5 Turbo 3E IAA 2025 DSC 2375.jpg",
+          "caption": null,
+          "depicts": "Renault 5 Turbo 3E exposée à l'IAA 2025 (Munich)",
+          "isOfficial": false,
+          "isIllustration": false
+        }
+      ],
+      "editorial": {
+        "summary": "Hommage électrique à la R5 Turbo, la 5 Turbo 3E est une série limitée à 1 980 exemplaires numérotés, avec deux moteurs-roues arrière totalisant 540 ch. Réservations ouvertes depuis avril 2025 (acompte de 50 000 €) ; prix public prévisionnel relevé à 160 000 € ; premières livraisons prévues en 2027.",
+        "positioning": "Modèle halo de Renault ; sans lien de remplacement avec la Renault 5 E-Tech.",
+        "technicalFacts": [
+          "Deux moteurs-roues arrière, 540 ch au total",
+          "Couple annoncé : 4 800 Nm (aux roues)",
+          "0-100 km/h en moins de 3,5 s",
+          "Batterie 70 kWh, architecture 800 V, recharge jusqu'à 350 kW",
+          "Autonomie WLTP supérieure à 400 km",
+          "1 980 exemplaires numérotés"
+        ],
+        "pros": [],
+        "differentiators": [
+          "Moteurs-roues arrière, solution rare en série"
+        ],
+        "pricePositioning": "Lancée à 155 000 € (avril 2025), puis prix public recommandé prévisionnel porté à 160 000 € (mai 2025), hors options ; Renault indique que ce prix reste prévisionnel.",
+        "innovations": [
+          "Moteurs-roues (in-wheel motors)"
+        ],
+        "compromises": []
+      },
+      "variants": [
+        {
+          "id": "renault-5-turbo-3e-base",
+          "name": "5 Turbo 3E",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": null,
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "powerHp": 540,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "rwd",
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": 70,
+          "charging": {
+            "dcMaxKw": 350,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 160000,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2025-05-20",
+              "source": {
+                "label": "Planète Renault",
+                "url": "https://www.planeterenault.com/1-gamme/1676-zero-emission-ze/1597-actualite-automobile/12755--renault-5-turbo-3e-voit-ses-tarifs-deja-augmenter/",
+                "type": "press",
+                "publishedAt": "2025-05-20",
+                "retrievedAt": "2026-10-28"
+              },
+              "estimate": null
+            }
+          ],
+          "notes": "Prix public recommandé PRÉVISIONNEL (Renault), hors options. 0-100 km/h « moins de 3,5 s » et autonomie « plus de 400 km » : valeurs plancher non saisies comme chiffres exacts.",
+          "sources": [
+            {
+              "label": "Motor1 France",
+              "url": "https://fr.motor1.com/news/757303/renault-ouvre-reservation-r5-turbo/",
+              "type": "press",
+              "publishedAt": "2025-04-22",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Planète Renault",
+              "url": "https://www.planeterenault.com/1-gamme/1676-zero-emission-ze/1597-actualite-automobile/12755--renault-5-turbo-3e-voit-ses-tarifs-deja-augmenter/",
+              "type": "press",
+              "publishedAt": "2025-05-20",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "ordersOpen": {
+          "date": {
+            "year": 2025,
+            "month": 4,
+            "day": 22
+          },
+          "market": "EU",
+          "source": {
+            "label": "Motor1 France",
+            "url": "https://fr.motor1.com/news/757303/renault-ouvre-reservation-r5-turbo/",
+            "type": "press",
+            "publishedAt": "2025-04-22",
+            "retrievedAt": "2026-10-28"
+          }
+        },
+        "firstDeliveries": {
+          "date": {
+            "year": 2027
+          },
+          "market": null,
+          "source": {
+            "label": "Planète Renault",
+            "url": "https://www.planeterenault.com/1-gamme/1676-zero-emission-ze/1597-actualite-automobile/12755--renault-5-turbo-3e-voit-ses-tarifs-deja-augmenter/",
+            "type": "press",
+            "publishedAt": "2025-05-20",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": {
+        "confirmation": "orders-open",
+        "confirmed": [
+          "Réservations ouvertes le 22 avril 2025 avec acompte de 50 000 €",
+          "1 980 exemplaires",
+          "540 ch, batterie 70 kWh",
+          "Premières livraisons prévues en 2027"
+        ],
+        "unknown": [
+          "Prix définitif (160 000 € prévisionnel)",
+          "Date de début de production",
+          "Poids et fiche technique homologuée"
+        ],
+        "expectedPowertrains": [
+          "ev"
+        ],
+        "priceStatus": "official"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "Motor1 France",
+          "url": "https://fr.motor1.com/news/757303/renault-ouvre-reservation-r5-turbo/",
+          "type": "press",
+          "publishedAt": "2025-04-22",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Planète Renault",
+          "url": "https://www.planeterenault.com/1-gamme/1676-zero-emission-ze/1597-actualite-automobile/12755--renault-5-turbo-3e-voit-ses-tarifs-deja-augmenter/",
+          "type": "press",
+          "publishedAt": "2025-05-20",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "toyota-gr-gt",
+      "modelId": "toyota-gr-gt",
+      "brandId": "toyota",
+      "modelName": "GR GT",
+      "name": "1re génération",
+      "yearsLabel": "2027",
+      "startYear": null,
+      "endYear": null,
+      "status": "announced",
+      "segment": "Supercar GT hybride",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "supercar",
+        "gt",
+        "hybrid",
+        "sports"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Toyota GR GT prototype (front three-quarter view) at Osaka Auto Messe 2026.jpg",
+          "caption": null,
+          "depicts": "Prototype Toyota GR GT exposé à l'Osaka Auto Messe 2026 (prototype, pas forcément la version client définitive)",
+          "isOfficial": false,
+          "isIllustration": true
+        }
+      ],
+      "editorial": {
+        "summary": "Vaisseau amiral de Toyota Gazoo Racing, la GR GT a été révélée en décembre 2025 avec sa déclinaison course GR GT3. Elle associe un V8 4.0 biturbo à une assistance hybride (non rechargeable), une boîte 8 rapports à embrayage humide et la propulsion. Toyota la présente encore comme un prototype en développement ; lancement attendu vers 2027.",
+        "positioning": "Nouveau sommet de la gamme Toyota Gazoo Racing, au-dessus de la GR Supra ; développée en parallèle de la GR GT3 de compétition et de la Lexus LFA Concept électrique.",
+        "technicalFacts": [
+          "V8 4,0 litres biturbo avec assistance hybride (non rechargeable)",
+          "Plus de 641 bhp annoncés (chiffre « supérieur à »)",
+          "Boîte 8 rapports à embrayage humide",
+          "Propulsion",
+          "Poids cible : 1 750 kg ou moins",
+          "Vitesse maximale d'au moins 320 km/h (199 mph) selon Toyota"
+        ],
+        "pros": [],
+        "differentiators": [
+          "Développée en tandem avec une GT3 de compétition"
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": []
+      },
+      "variants": [],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2025,
+            "month": 12
+          },
+          "market": "WORLD",
+          "source": {
+            "label": "evo",
+            "url": "https://www.evo.co.uk/toyota/204473/the-toyota-gr-gt-is-japans-answer-to-the-aston-martin-vantage",
+            "type": "press",
+            "publishedAt": "2025-12-08",
+            "retrievedAt": "2026-10-28"
+          }
+        },
+        "marketAvailability": {
+          "date": {
+            "year": 2027
+          },
+          "market": null,
+          "source": {
+            "label": "evo",
+            "url": "https://www.evo.co.uk/toyota/204473/the-toyota-gr-gt-is-japans-answer-to-the-aston-martin-vantage",
+            "type": "press",
+            "publishedAt": "2025-12-08",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": {
+        "confirmation": "official-reveal",
+        "confirmed": [
+          "Présentée en décembre 2025 (prototype)",
+          "V8 4.0 biturbo hybride, propulsion, boîte 8 rapports",
+          "Lancement attendu vers 2027"
+        ],
+        "unknown": [
+          "Prix (estimation evo ≈ 200 000 £, non officielle)",
+          "Puissance et performances définitives",
+          "Date précise de commercialisation en Europe",
+          "Volume de production"
+        ],
+        "expectedPowertrains": [
+          "hybrid"
+        ],
+        "priceStatus": "not-announced"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "evo",
+          "url": "https://www.evo.co.uk/toyota/204473/the-toyota-gr-gt-is-japans-answer-to-the-aston-martin-vantage",
+          "type": "press",
+          "publishedAt": "2025-12-08",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lexus-lfa-electric",
+      "modelId": "lexus-lfa",
+      "brandId": "lexus",
+      "modelName": "LFA",
+      "name": "LFA électrique (concept)",
+      "yearsLabel": "Date inconnue",
+      "startYear": null,
+      "endYear": null,
+      "status": "in-preparation",
+      "segment": "Sportive électrique haut de gamme",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "ev",
+        "sports",
+        "supercar"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2025 Lexus LFA Concept.jpg",
+          "caption": null,
+          "depicts": "Lexus LFA Concept (concept-car présenté en 2025), pas une version de série",
+          "isOfficial": false,
+          "isIllustration": true
+        }
+      ],
+      "editorial": {
+        "summary": "Lexus a ressuscité le nom LFA pour un concept de sportive 100 % électrique dévoilé le 5 décembre 2025 à Woven City, issu du Lexus Sport Concept de 2025. Il repose sur la structure aluminium de la Toyota GR GT. Aucun calendrier de production n'a été annoncé.",
+        "positioning": "Successeur spirituel de la LFA V10 (2010-2012), cette fois en électrique.",
+        "technicalFacts": [
+          "Concept de sportive à batterie (BEV)",
+          "Structure aluminium partagée avec la Toyota GR GT",
+          "Deux places",
+          "Dimensions estimées par le constructeur : environ 4 690 × 2 040 × 1 195 mm, empattement 2 725 mm"
+        ],
+        "pros": [],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": []
+      },
+      "variants": [],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2025,
+            "month": 12,
+            "day": 5
+          },
+          "market": "WORLD",
+          "source": {
+            "label": "Lexus Pressroom (US)",
+            "url": "https://pressroom.lexus.com/lexus-lfa-concept-debuts-as-all-electric-sports-car/",
+            "type": "manufacturer",
+            "publishedAt": "2025-12-05",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": {
+        "confirmation": "official-reveal",
+        "confirmed": [
+          "Concept LFA électrique présenté le 5 décembre 2025",
+          "Base technique partagée avec la GR GT"
+        ],
+        "unknown": [
+          "Décision de production en série",
+          "Calendrier",
+          "Puissance, batterie, autonomie",
+          "Prix"
+        ],
+        "expectedPowertrains": [
+          "ev"
+        ],
+        "priceStatus": "not-announced"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "Lexus Pressroom (US)",
+          "url": "https://pressroom.lexus.com/lexus-lfa-concept-debuts-as-all-electric-sports-car/",
+          "type": "manufacturer",
+          "publishedAt": "2025-12-05",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "tesla-roadster-2",
+      "modelId": "tesla-roadster",
+      "brandId": "tesla",
+      "modelName": "Roadster",
+      "name": "2e génération",
+      "yearsLabel": "2028",
+      "startYear": null,
+      "endYear": null,
+      "status": "announced",
+      "segment": "Supercar électrique",
+      "bodyStyles": [
+        "Roadster (toit Targa)"
+      ],
+      "categories": [
+        "ev",
+        "supercar",
+        "sports"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Tesla roadster 2020 prototype.jpg",
+          "caption": null,
+          "depicts": "Prototype Tesla Roadster présenté en novembre 2017 ; le design révélé en octobre 2026 est différent",
+          "isOfficial": false,
+          "isIllustration": true
+        }
+      ],
+      "editorial": {
+        "summary": "Annoncé en 2017, le Roadster de seconde génération a été présenté dans une version redessinée le 15 octobre 2026 près de Waco (Texas), lors d'une démonstration avec propulseurs à gaz froid. Trois configurations (Performance, Thrust, Rocket) sont annoncées ; aucun prix n'a été communiqué et Elon Musk évoque une production en 2028. Le projet a déjà connu de nombreux reports.",
+        "positioning": null,
+        "technicalFacts": [
+          "Présentation le 15 octobre 2026 (reportée du 1er octobre)",
+          "Trois configurations annoncées : Performance, Thrust (propulseurs à gaz froid), Rocket (monoplace, sur invitation)",
+          "Autonomie revendiquée d'environ 300 miles (≈ 480 km), chiffres Tesla non homologués"
+        ],
+        "pros": [],
+        "differentiators": [],
+        "pricePositioning": "Aucun prix annoncé ; réservations avec acompte (50 000 $ Performance, 250 000 $ Thrust) aux États-Unis.",
+        "innovations": [],
+        "compromises": [
+          "Historique de reports importants depuis l'annonce de 2017 (production initialement prévue en 2020)"
+        ]
+      },
+      "variants": [],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2026,
+            "month": 10,
+            "day": 15
+          },
+          "market": "WORLD",
+          "source": {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
+            "type": "press",
+            "publishedAt": "2026-10-15",
+            "retrievedAt": "2026-10-28"
+          }
+        },
+        "productionStart": {
+          "date": {
+            "year": 2028
+          },
+          "market": null,
+          "source": {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
+            "type": "press",
+            "publishedAt": "2026-10-15",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": {
+        "confirmation": "official-reveal",
+        "confirmed": [
+          "Version redessinée présentée le 15 octobre 2026",
+          "Réservations rouvertes aux États-Unis",
+          "Production annoncée pour 2028 par Elon Musk"
+        ],
+        "unknown": [
+          "Prix",
+          "Commercialisation en Europe",
+          "Batterie et fiche technique homologuée",
+          "Performances vérifiées indépendamment (chiffres revendiqués : 0-60 mph sous 1,6 s pour la Performance)"
+        ],
+        "expectedPowertrains": [
+          "ev"
+        ],
+        "priceStatus": "not-announced"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "Electrek",
+          "url": "https://electrek.co/2026/10/15/tesla-unveils-cyberfied-new-roadster-kickflip/",
+          "type": "press",
+          "publishedAt": "2026-10-15",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
+          "type": "press",
+          "publishedAt": "2026-10-15",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Motor1",
+          "url": "https://www.motor1.com/news/808103/tesla-roadster-reveal-date-confirmed/",
+          "type": "press",
+          "publishedAt": "2026-09-14",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Tesla Roadster (second generation)",
+          "url": "https://en.wikipedia.org/wiki/Tesla_Roadster_(second_generation)",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "alpine-a110-app",
+      "modelId": "alpine-a110",
+      "brandId": "alpine",
+      "modelName": "A110",
+      "name": "3e génération (électrique, APP)",
+      "yearsLabel": "Date inconnue",
+      "startYear": null,
+      "endYear": null,
+      "status": "in-preparation",
+      "segment": "Sportive électrique (berlinette)",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "ev",
+        "sports"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "driving-pleasure"
+      ],
+      "previousGenerationId": "alpine-a110",
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "Alpine a confirmé que la troisième génération de l'A110 serait 100 % électrique et inaugurerait la plateforme maison APP (Alpine Performance Platform). La production de l'A110 thermique s'arrête mi-2026. Un mulet était annoncé au Festival of Speed de Goodwood en juillet 2026 et une sculpture voilée préfigurant le design était exposée au Mondial de Paris 2026 ; la date de présentation définitive n'est pas annoncée.",
+        "positioning": "Remplaçante de l'Alpine A110 thermique (2017-2026).",
+        "technicalFacts": [
+          "Électrique, premier modèle sur plateforme APP",
+          "Batteries réparties entre l'avant et l'arrière, technologie cell-to-pack 800 V (communiqué cité par le Mondial)",
+          "Objectif de poids : environ 1 400 kg (cible, non garantie)",
+          "Fin de production de l'A110 thermique mi-2026"
+        ],
+        "pros": [],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": []
+      },
+      "variants": [],
+      "launch": null,
+      "upcoming": {
+        "confirmation": "official-announcement",
+        "confirmed": [
+          "A110 de 3e génération 100 % électrique confirmée par Alpine",
+          "Plateforme APP",
+          "Fin de l'A110 thermique mi-2026",
+          "Mulet annoncé pour le Festival of Speed de Goodwood (9 juillet 2026)"
+        ],
+        "unknown": [
+          "Date de présentation de la version de série",
+          "Date de commercialisation (2027 ou 2028 selon la presse)",
+          "Puissance, batterie, autonomie",
+          "Prix",
+          "Lieu de production"
+        ],
+        "expectedPowertrains": [
+          "ev"
+        ],
+        "priceStatus": "not-announced"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "electrive.com",
+          "url": "https://www.electrive.com/2025/10/27/alpine-confirms-electric-successor-to-the-a110",
+          "type": "press",
+          "publishedAt": "2025-10-27",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Motor1",
+          "url": "https://www.motor1.com/news/799484/alpine-porsche-rival-debut/",
+          "type": "press",
+          "publishedAt": "2026-06-23",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Mondial de l'Auto (site officiel)",
+          "url": "https://mondial.paris/actualites/auto-mondial/future-alpine-a110-electrique-premier-apercu-de-son-design-90637.html",
+          "type": "press",
+          "publishedAt": "2026-09-28",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "porsche-718-electric",
+      "modelId": "porsche-718",
+      "brandId": "porsche",
+      "modelName": "718 Boxster / Cayman",
+      "name": "Électrique (nouvelle génération)",
+      "yearsLabel": "2028",
+      "startYear": null,
+      "endYear": null,
+      "status": "in-preparation",
+      "segment": "Sportive électrique à moteur central",
+      "bodyStyles": [
+        "Roadster",
+        "Coupé"
+      ],
+      "categories": [
+        "ev",
+        "sports",
+        "convertible",
+        "coupe"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure"
+      ],
+      "previousGenerationId": "porsche-718-982",
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "Annoncés à l'origine pour le milieu de la décennie, les Boxster et Cayman électriques ont été repoussés à plusieurs reprises. Lors de son Capital Markets Day 2026, Porsche a présenté la future gamme 718 comme exclusivement électrique, avec 2028 comme première année complète de production ; une version thermique n'a jamais été validée.",
+        "positioning": "Remplaçants des Porsche 718 Boxster et Cayman thermiques (génération 982).",
+        "technicalFacts": [
+          "Gamme 718 future exclusivement électrique (feuille de route Porsche, Capital Markets Day 2026)",
+          "2028 : première année complète de production selon Porsche",
+          "Pas de 718 thermique de nouvelle génération (Porsche)"
+        ],
+        "pros": [],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": []
+      },
+      "variants": [],
+      "launch": null,
+      "upcoming": {
+        "confirmation": "delayed",
+        "confirmed": [
+          "Projet confirmé et maintenu par Porsche",
+          "Exclusivement électrique",
+          "Première année complète de production : 2028 (lancement initialement attendu vers 2025)"
+        ],
+        "unknown": [
+          "Date de présentation (2027 selon la presse)",
+          "Puissance, batterie, autonomie",
+          "Prix"
+        ],
+        "expectedPowertrains": [
+          "ev"
+        ],
+        "priceStatus": "not-announced"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "AutoGuide",
+          "url": "https://www.autoguide.com/auto/porsche-says-718-ev-will-arrive-in-2028-combustion-power-is-dead-44639881",
+          "type": "press",
+          "publishedAt": "2026-10-07",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lamborghini-lanzador-ev",
+      "modelId": "lamborghini-lanzador",
+      "brandId": "lamborghini",
+      "modelName": "Lanzador",
+      "name": "Version 100 % électrique (projet annulé)",
+      "yearsLabel": "Date inconnue",
+      "startYear": null,
+      "endYear": null,
+      "status": "in-preparation",
+      "segment": "Grand tourisme surélevé (crossover GT)",
+      "bodyStyles": [
+        "Crossover coupé"
+      ],
+      "categories": [
+        "gt",
+        "luxury",
+        "sport-suv"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "travel",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Lamborghini Lanzador at Pebble Beach Concours 2023.jpg",
+          "caption": null,
+          "depicts": "Lamborghini Lanzador Concept (2023), concept électrique non produit",
+          "isOfficial": false,
+          "isIllustration": true
+        }
+      ],
+      "editorial": {
+        "summary": "Le Lanzador, présenté en concept électrique en 2023, devait être la première Lamborghini 100 % électrique (prévue pour 2028, puis 2029). Début 2026, le PDG Stephan Winkelmann a annoncé l'arrêt du développement de la version électrique, faute de demande ; selon la presse, le Lanzador sera reconverti en hybride rechargeable, sans date annoncée.",
+        "positioning": null,
+        "technicalFacts": [],
+        "pros": [],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": []
+      },
+      "variants": [],
+      "launch": null,
+      "upcoming": {
+        "confirmation": "cancelled",
+        "confirmed": [
+          "Développement de la version 100 % électrique arrêté (Stephan Winkelmann, entretien à The Times, février 2026)",
+          "Le projet Lanzador est réorienté vers un hybride rechargeable (selon la presse)"
+        ],
+        "unknown": [
+          "Date de lancement de la version hybride rechargeable",
+          "Motorisation détaillée",
+          "Prix"
+        ],
+        "expectedPowertrains": null,
+        "priceStatus": "not-announced"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "Notebookcheck (d'après The Times)",
+          "url": "https://www.notebookcheck.com/Lamborghini-killt-Elektro-Bullen-Lanzador-CEO-nennt-BEV-ein-teures-Hobby.1232915.0.html",
+          "type": "press",
+          "publishedAt": "2026-02-23",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "InsideEVs",
+          "url": "https://insideevs.com/news/766917/lamborghini-first-ev-hybrid-lanzador/",
+          "type": "press",
+          "publishedAt": "2025-07-24",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "alpine-a310-app",
+      "modelId": "alpine-a310",
+      "brandId": "alpine",
+      "modelName": "A310",
+      "name": "Projet de série (non confirmé)",
+      "yearsLabel": "Date inconnue",
+      "startYear": null,
+      "endYear": null,
+      "status": "in-preparation",
+      "segment": "Coupé sportif",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "sports",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Alpine A310 Vision 2026.jpg",
+          "caption": null,
+          "depicts": "Alpine A310 Vision, concept unique présenté au Mondial de Paris 2026, pas une version de série",
+          "isOfficial": false,
+          "isIllustration": true
+        }
+      ],
+      "editorial": {
+        "summary": "Au Mondial de Paris 2026, Alpine a exposé l'A310 Vision, réinterprétation rétro-futuriste de l'A310 sur la future plateforme APP. La marque insiste sur le fait qu'il s'agit d'un exercice de style unique et non de l'annonce d'un modèle de série. Une A310 de production est évoquée par la presse, sans confirmation d'Alpine.",
+        "positioning": null,
+        "technicalFacts": [
+          "Concept A310 Vision : 4,55 m de long, 1,18 m de haut (concept, pas de série)",
+          "Basé sur la plateforme APP de la future A110"
+        ],
+        "pros": [],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": []
+      },
+      "variants": [],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2026,
+            "month": 10
+          },
+          "market": "FR",
+          "source": {
+            "label": "Automobile Propre",
+            "url": "https://www.automobile-propre.com/articles/mondial-de-lauto-2026-alpine-fait-revivre-la310-avec-un-concept-qui-donne-envie-dy-croire/",
+            "type": "press",
+            "publishedAt": "2026-10-12",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": {
+        "confirmation": "press-reported",
+        "confirmed": [
+          "Concept A310 Vision présenté officiellement au Mondial de Paris (octobre 2026)",
+          "Alpine présente ce concept comme une étude de style unique, pas un modèle de série"
+        ],
+        "unknown": [
+          "Existence d'une A310 de série (rapportée par la presse, non confirmée)",
+          "Configuration (2 places ou 2+2)",
+          "Motorisation",
+          "Calendrier",
+          "Prix"
+        ],
+        "expectedPowertrains": null,
+        "priceStatus": "not-announced"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "Automobile Propre",
+          "url": "https://www.automobile-propre.com/articles/mondial-de-lauto-2026-alpine-fait-revivre-la310-avec-un-concept-qui-donne-envie-dy-croire/",
+          "type": "press",
+          "publishedAt": "2026-10-12",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "peugeot-208-gen3",
+      "modelId": "peugeot-208",
+      "brandId": "peugeot",
+      "modelName": "208",
+      "name": "3e génération (STLA Small)",
+      "yearsLabel": "2027",
+      "startYear": null,
+      "endYear": null,
+      "status": "in-preparation",
+      "segment": "Citadine polyvalente (segment B)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Peugeot Polygon.jpg",
+          "caption": null,
+          "depicts": "Concept Peugeot Polygon, qui préfigurerait l'habitacle et le style de la future 208 selon la presse ; pas la version de série",
+          "isOfficial": false,
+          "isIllustration": true
+        }
+      ],
+      "editorial": {
+        "summary": "La troisième génération de la Peugeot 208 est attendue en 2027 selon la presse. Elle serait la première voiture sur la plateforme électrique STLA Small de Stellantis et ne serait proposée qu'en électrique, l'actuelle 208 thermique/hybride restant au catalogue. Peugeot n'a pas encore officiellement présenté ce modèle.",
+        "positioning": "Remplacerait la Peugeot 208 de 2e génération (2019) pour la version électrique.",
+        "technicalFacts": [],
+        "pros": [],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": []
+      },
+      "variants": [],
+      "launch": null,
+      "upcoming": {
+        "confirmation": "press-reported",
+        "confirmed": [],
+        "unknown": [
+          "Date de présentation (2027 selon la presse ; un temps attendue au Mondial 2026)",
+          "Plateforme STLA Small et motorisation 100 % électrique (rapportées par Autocar, non confirmées)",
+          "Batteries, autonomie, puissance",
+          "Prix",
+          "Lieu de production (Saragosse selon la presse espagnole)"
+        ],
+        "expectedPowertrains": null,
+        "priceStatus": "not-announced"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "electrive.com (d'après Autocar)",
+          "url": "https://www.electrive.com/es/2025/10/27/next-peugeot-e-208-debuts-stla-small-platform/",
+          "type": "press",
+          "publishedAt": "2025-10-27",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Actu-Automobile",
+          "url": "https://www.actu-automobile.com/2026/02/09/peugeot-208-le-renouveau-de-2027-se-profile/",
+          "type": "press",
+          "publishedAt": "2026-02-09",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mazda-mx-5-ne",
+      "modelId": "mazda-mx-5",
+      "brandId": "mazda",
+      "modelName": "MX-5",
+      "name": "5e génération",
+      "yearsLabel": "Date inconnue",
+      "startYear": null,
+      "endYear": null,
+      "status": "in-preparation",
+      "segment": "Roadster compact",
+      "bodyStyles": [
+        "Roadster"
+      ],
+      "categories": [
+        "sports",
+        "convertible"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "driving-pleasure"
+      ],
+      "previousGenerationId": "mazda-mx-5-nd",
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "Mazda prépare la cinquième génération du MX-5. Son PDG Masahiro Moro a indiqué en août 2026 qu'elle devait être prête pour un scénario sans moteur thermique, avec un objectif de poids de 1 000 à 1 200 kg. La motorisation de lancement et la date de présentation ne sont pas annoncées.",
+        "positioning": "Remplaçante du Mazda MX-5 ND (2015 –).",
+        "technicalFacts": [
+          "Plateforme pensée pour plusieurs motorisations, y compris électrique (Masahiro Moro, PDG)",
+          "Objectif de poids : 1 000 à 1 200 kg (Masahiro Moro)"
+        ],
+        "pros": [],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": []
+      },
+      "variants": [],
+      "launch": null,
+      "upcoming": {
+        "confirmation": "official-announcement",
+        "confirmed": [
+          "Successeur en développement, évoqué par le PDG de Mazda (août 2026)",
+          "Conçu pour pouvoir accueillir une motorisation électrique"
+        ],
+        "unknown": [
+          "Motorisation de lancement (thermique Skyactiv-Z hybridé selon la presse, non confirmé)",
+          "Date de présentation et de commercialisation",
+          "Prix"
+        ],
+        "expectedPowertrains": null,
+        "priceStatus": "not-announced"
+      },
+      "changes": null,
+      "sources": [
+        {
+          "label": "GoAuto",
+          "url": "https://goauto.com.au/future-models/mazda/mx-5/mazda-prepares-mx-5-for-an-electric-future/2026-08-04/100027.html",
+          "type": "press",
+          "publishedAt": "2026-08-04",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}

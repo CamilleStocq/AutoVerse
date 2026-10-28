@@ -1,0 +1,693 @@
+{
+  "snapshotAt": "2026-10-28",
+  "wec": {
+    "season": 2026,
+    "classes": [
+      {
+        "id": "hypercar",
+        "name": "Hypercar",
+        "description": "Catégorie reine du championnat du monde d'endurance, réunissant les prototypes LMH et LMDh des constructeurs (hybrides pour la plupart). Elle décerne les titres mondiaux pilotes et constructeurs."
+      },
+      {
+        "id": "lmgt3",
+        "name": "LMGT3",
+        "description": "Catégorie GT basée sur les voitures GT3 adaptées au règlement Le Mans, avec équipages mixtes amateurs/professionnels. Elle décerne les FIA Endurance Trophies pilotes et équipes LMGT3."
+      }
+    ],
+    "events": [
+      {
+        "round": null,
+        "name": "Qatar 1812 km",
+        "shortName": "Qatar",
+        "circuit": "Lusail International Circuit",
+        "country": "Qatar",
+        "countryCode": "QA",
+        "startDate": "2026-03-26",
+        "endDate": "2026-03-28",
+        "raceStartUtc": null,
+        "timezone": "Asia/Qatar",
+        "durationLabel": "1812 km",
+        "status": "cancelled",
+        "results": null,
+        "sources": [
+          { "label": "FIA – WEC: Qatar 1812km postponed, season to start at Imola", "url": "https://www.fia.com/news/wec-qatar-1812km-postponed-season-start-imola", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "FIA WEC – FIA WEC and FIA confirm venues for final two rounds of 2026", "url": "https://www.fiawec.com/en/news/fia-wec-and-fia-confirm-venues-for-final-two-rounds-of-2026/13698", "type": "championship", "publishedAt": "2026-07-28", "retrievedAt": "2026-10-28" },
+          { "label": "Qatar Tribune – Qatar 1812 km race withdrawn from FIA WEC for 2026", "url": "https://www.qatar-tribune.com/article/246327/latest-news/qatar-1812-km-race-withdrawn-from-fia-world-endurance-championships-for-2026", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 1,
+        "name": "6 Hours of Imola",
+        "shortName": "Imola",
+        "circuit": "Autodromo Internazionale Enzo e Dino Ferrari",
+        "country": "Italie",
+        "countryCode": "IT",
+        "startDate": "2026-04-17",
+        "endDate": "2026-04-19",
+        "raceStartUtc": "2026-04-19T11:00:00Z",
+        "timezone": "Europe/Rome",
+        "durationLabel": "6 Heures",
+        "status": "completed",
+        "results": [
+          {
+            "classId": "hypercar",
+            "podium": [
+              { "position": 1, "carNumber": "8", "team": "Toyota Racing", "manufacturer": "Toyota", "car": "Toyota TR010 Hybrid", "drivers": ["Sébastien Buemi", "Brendon Hartley", "Ryō Hirakawa"] },
+              { "position": 2, "carNumber": "51", "team": "Ferrari AF Corse", "manufacturer": "Ferrari", "car": "Ferrari 499P", "drivers": ["Alessandro Pier Guidi", "James Calado", "Antonio Giovinazzi"] },
+              { "position": 3, "carNumber": "7", "team": "Toyota Racing", "manufacturer": "Toyota", "car": "Toyota TR010 Hybrid", "drivers": ["Mike Conway", "Kamui Kobayashi", "Nyck de Vries"] }
+            ]
+          },
+          {
+            "classId": "lmgt3",
+            "podium": [
+              { "position": 1, "carNumber": "69", "team": "Team WRT", "manufacturer": "BMW", "car": "BMW M4 LMGT3 Evo", "drivers": ["Anthony McIntosh", "Parker Thompson", "Daniel Harper"] },
+              { "position": 2, "carNumber": "33", "team": "TF Sport", "manufacturer": "Corvette", "car": "Corvette Z06 LMGT3.R", "drivers": ["Blake McDonald", "Jonny Edgar", "Nicky Catsburg"] },
+              { "position": 3, "carNumber": "92", "team": "The Bend Manthey", "manufacturer": "Porsche", "car": "Porsche 911 GT3 R LMGT3", "drivers": ["Yasser Shahin", "Riccardo Pera", "Richard Lietz"] }
+            ]
+          }
+        ],
+        "sources": [
+          { "label": "FIA WEC (Al Kamel) – 6 Hours of Imola, Race Classification Hour 6", "url": "https://fiawec.alkamelsystems.com/Results/15_2026/01_IMOLA/645_FIA%20WEC/202604191300_Race/06_Hour%206/03_Classification_Race_Hour%206.PDF", "type": "championship", "publishedAt": "2026-04-19", "retrievedAt": "2026-10-28" },
+          { "label": "FIA WEC – Breaking news: Toyota wins at Imola", "url": "https://www.fiawec.com/en/news/breaking-news-toyota-wins-at-imola/13216", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "RacingNews365 – 2026 WEC Six Hours of Imola results", "url": "https://racingnews365.com/2026-wec-six-hours-of-imola-results", "type": "press", "publishedAt": "2026-04-19", "retrievedAt": "2026-10-28" },
+          { "label": "FIA WEC – 6 Hours of Imola 2026 (page course)", "url": "https://www.fiawec.com/en/race/6-hours-of-imola-2026", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 2,
+        "name": "TotalEnergies 6 Hours of Spa-Francorchamps",
+        "shortName": "Spa-Francorchamps",
+        "circuit": "Circuit de Spa-Francorchamps",
+        "country": "Belgique",
+        "countryCode": "BE",
+        "startDate": "2026-05-07",
+        "endDate": "2026-05-09",
+        "raceStartUtc": "2026-05-09T12:00:00Z",
+        "timezone": "Europe/Brussels",
+        "durationLabel": "6 Heures",
+        "status": "completed",
+        "results": [
+          {
+            "classId": "hypercar",
+            "podium": [
+              { "position": 1, "carNumber": "20", "team": "BMW M Team WRT", "manufacturer": "BMW", "car": "BMW M Hybrid V8", "drivers": ["Robin Frijns", "René Rast", "Sheldon van der Linde"] },
+              { "position": 2, "carNumber": "15", "team": "BMW M Team WRT", "manufacturer": "BMW", "car": "BMW M Hybrid V8", "drivers": ["Kevin Magnussen", "Raffaele Marciello", "Dries Vanthoor"] },
+              { "position": 3, "carNumber": "50", "team": "Ferrari AF Corse", "manufacturer": "Ferrari", "car": "Ferrari 499P", "drivers": ["Antonio Fuoco", "Miguel Molina", "Nicklas Nielsen"] }
+            ]
+          },
+          {
+            "classId": "lmgt3",
+            "podium": [
+              { "position": 1, "carNumber": "10", "team": "Garage 59", "manufacturer": "McLaren", "car": "McLaren 720S LMGT3 Evo", "drivers": ["Antares Au", "Thomas Fleming", "Marvin Kirchhöfer"] },
+              { "position": 2, "carNumber": "27", "team": "Heart of Racing Team", "manufacturer": "Aston Martin", "car": "Aston Martin Vantage AMR LMGT3", "drivers": ["Ian James", "Zacharie Robichon", "Mattia Drudi"] },
+              { "position": 3, "carNumber": "92", "team": "The Bend Manthey", "manufacturer": "Porsche", "car": "Porsche 911 GT3 R LMGT3", "drivers": ["Yasser Shahin", "Riccardo Pera", "Richard Lietz"] }
+            ]
+          }
+        ],
+        "sources": [
+          { "label": "FIA WEC (Al Kamel) – 6 Hours of Spa-Francorchamps, Final Classification", "url": "https://fiawec.alkamelsystems.com/Results/15_2026/02_SPA%20FRANCORCHAMPS/653_FIA%20WEC/202605091400_Race/06_Hour%206/03_Classification_Race_Hour%206.PDF", "type": "championship", "publishedAt": "2026-05-09", "retrievedAt": "2026-10-28" },
+          { "label": "Racing Sports Cars – FIA WEC 6 Hours of Spa 2026 report", "url": "https://www.racingsportscars.com/report/Spa-2026-05-09-report.html", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Wikipedia – 2026 6 Hours of Spa-Francorchamps (recoupement)", "url": "https://en.wikipedia.org/wiki/2026_6_Hours_of_Spa-Francorchamps", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 3,
+        "name": "24 Heures du Mans",
+        "shortName": "Le Mans",
+        "circuit": "Circuit des 24 Heures du Mans (Circuit de la Sarthe)",
+        "country": "France",
+        "countryCode": "FR",
+        "startDate": "2026-06-10",
+        "endDate": "2026-06-14",
+        "raceStartUtc": "2026-06-13T14:00:00Z",
+        "timezone": "Europe/Paris",
+        "durationLabel": "24 Heures",
+        "status": "completed",
+        "results": [
+          {
+            "classId": "hypercar",
+            "podium": [
+              { "position": 1, "carNumber": "7", "team": "Toyota Racing", "manufacturer": "Toyota", "car": "Toyota TR010 Hybrid", "drivers": ["Mike Conway", "Kamui Kobayashi", "Nyck de Vries"] },
+              { "position": 2, "carNumber": "20", "team": "BMW M Team WRT", "manufacturer": "BMW", "car": "BMW M Hybrid V8", "drivers": ["Robin Frijns", "René Rast", "Sheldon van der Linde"] },
+              { "position": 3, "carNumber": "8", "team": "Toyota Racing", "manufacturer": "Toyota", "car": "Toyota TR010 Hybrid", "drivers": ["Sébastien Buemi", "Brendon Hartley", "Ryō Hirakawa"] }
+            ]
+          },
+          {
+            "classId": "lmgt3",
+            "podium": [
+              { "position": 1, "carNumber": "33", "team": "TF Sport", "manufacturer": "Corvette", "car": "Corvette Z06 LMGT3.R", "drivers": ["Ben Keating", "Jonny Edgar", "Nicky Catsburg"] },
+              { "position": 2, "carNumber": "78", "team": "Akkodis ASP Team", "manufacturer": "Lexus", "car": "Lexus RC F LMGT3", "drivers": ["Tom Van Rompuy", "Hadrien David", "Jack Hawksworth"] },
+              { "position": 3, "carNumber": "23", "team": "Heart of Racing Team", "manufacturer": "Aston Martin", "car": "Aston Martin Vantage AMR LMGT3", "drivers": ["Gray Newell", "Eduardo Barrichello", "Jonny Adam"] }
+            ]
+          }
+        ],
+        "sources": [
+          { "label": "FIA WEC (Al Kamel) – 94e édition des 24 Heures du Mans, Classification Hour 24", "url": "https://fiawec.alkamelsystems.com/Results/15_2026/03_LE%20MANS/657_FIA%20WEC/202606131600_Race/24_Hour%2024/03_Classification_Race_Hour%2024.PDF", "type": "championship", "publishedAt": "2026-06-14", "retrievedAt": "2026-10-28" },
+          { "label": "FIA WEC – Corvette claims hard-fought Le Mans victory in LMGT3", "url": "https://www.fiawec.com/en/news/corvette-claims-hard-fought-le-mans-victory-in-lmgt3/13635", "type": "championship", "publishedAt": "2026-06-14", "retrievedAt": "2026-10-28" },
+          { "label": "24h-lemans.com – TF Sport earns Corvette a historic LMGT3 victory", "url": "https://www.24h-lemans.com/en/news/2026-24-hours-of-le-mans-tf-sport-earns-corvette-a-historic-lmgt3-victory-60823", "type": "championship", "publishedAt": "2026-06-16", "retrievedAt": "2026-10-28" },
+          { "label": "Toyota (communiqué) – Victoire aux 24 Heures du Mans pour TOYOTA RACING", "url": "https://media.toyota.ca/fr/releases/2026/le-mans-victory-for-toyota-racing.html", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 4,
+        "name": "Rolex 6 Hours of São Paulo",
+        "shortName": "São Paulo",
+        "circuit": "Autódromo José Carlos Pace (Interlagos)",
+        "country": "Brésil",
+        "countryCode": "BR",
+        "startDate": "2026-07-10",
+        "endDate": "2026-07-12",
+        "raceStartUtc": "2026-07-12T14:30:00Z",
+        "timezone": "America/Sao_Paulo",
+        "durationLabel": "6 Heures",
+        "status": "completed",
+        "results": [
+          {
+            "classId": "hypercar",
+            "podium": [
+              { "position": 1, "carNumber": "15", "team": "BMW M Team WRT", "manufacturer": "BMW", "car": "BMW M Hybrid V8", "drivers": ["Kevin Magnussen", "Raffaele Marciello", "Dries Vanthoor"] },
+              { "position": 2, "carNumber": "51", "team": "Ferrari AF Corse", "manufacturer": "Ferrari", "car": "Ferrari 499P", "drivers": ["Alessandro Pier Guidi", "James Calado", "Antonio Giovinazzi"] },
+              { "position": 3, "carNumber": "12", "team": "Cadillac Hertz Team JOTA", "manufacturer": "Cadillac", "car": "Cadillac V-Series.R", "drivers": ["Will Stevens", "Norman Nato"] }
+            ]
+          },
+          {
+            "classId": "lmgt3",
+            "podium": [
+              { "position": 1, "carNumber": "34", "team": "Racing Team Turkey by TF", "manufacturer": "Corvette", "car": "Corvette Z06 LMGT3.R", "drivers": ["Peter Dempsey", "Salih Yoluç", "Charlie Eastwood"] },
+              { "position": 2, "carNumber": "69", "team": "Team WRT", "manufacturer": "BMW", "car": "BMW M4 LMGT3 Evo", "drivers": ["Anthony McIntosh", "Parker Thompson", "Daniel Harper"] },
+              { "position": 3, "carNumber": "92", "team": "The Bend Manthey", "manufacturer": "Porsche", "car": "Porsche 911 GT3 R LMGT3", "drivers": ["Yasser Shahin", "Riccardo Pera", "Richard Lietz"] }
+            ]
+          }
+        ],
+        "sources": [
+          { "label": "FIA WEC (Al Kamel) – Rolex 6 Hours of São Paulo, Final Classification", "url": "https://fiawec.alkamelsystems.com/Results/15_2026/04_SAO%20PAULO/666_FIA%20WEC/202607121130_Race/06_Hour%206/03_Classification_Race_Hour%206%20Final.PDF", "type": "championship", "publishedAt": "2026-07-12", "retrievedAt": "2026-10-28" },
+          { "label": "FIA – WEC: BMW bests rivals to Brazil victory", "url": "https://api.fia.com/news/wec-bmw-bests-rivals-brazil-victory", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "RacingNews365 – 2026 WEC Six Hours of São Paulo results", "url": "https://racingnews365.com/2026-wec-six-hours-of-sao-paulo-results", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 5,
+        "name": "Lone Star Le Mans",
+        "shortName": "COTA",
+        "circuit": "Circuit of the Americas",
+        "country": "États-Unis",
+        "countryCode": "US",
+        "startDate": "2026-09-04",
+        "endDate": "2026-09-06",
+        "raceStartUtc": "2026-09-06T18:00:00Z",
+        "timezone": "America/Chicago",
+        "durationLabel": "6 Heures",
+        "status": "completed",
+        "results": [
+          {
+            "classId": "hypercar",
+            "podium": [
+              { "position": 1, "carNumber": "50", "team": "Ferrari AF Corse", "manufacturer": "Ferrari", "car": "Ferrari 499P", "drivers": ["Antonio Fuoco", "Miguel Molina", "Nicklas Nielsen"] },
+              { "position": 2, "carNumber": "38", "team": "Cadillac Hertz Team JOTA", "manufacturer": "Cadillac", "car": "Cadillac V-Series.R", "drivers": ["Earl Bamber", "Sébastien Bourdais", "Jack Aitken"] },
+              { "position": 3, "carNumber": "35", "team": "Alpine Endurance Team", "manufacturer": "Alpine", "car": "Alpine A424", "drivers": ["Charles Milesi", "Ferdinand Habsburg", "António Félix da Costa"] }
+            ]
+          },
+          {
+            "classId": "lmgt3",
+            "podium": [
+              { "position": 1, "carNumber": "27", "team": "Heart of Racing Team", "manufacturer": "Aston Martin", "car": "Aston Martin Vantage AMR LMGT3", "drivers": ["Ian James", "Zacharie Robichon", "Mattia Drudi"] },
+              { "position": 2, "carNumber": "91", "team": "Manthey DK Engineering", "manufacturer": "Porsche", "car": "Porsche 911 GT3 R LMGT3", "drivers": ["James Cottingham", "Timur Boguslavskiy", "Ayhancan Güven"] },
+              { "position": 3, "carNumber": "23", "team": "Heart of Racing Team", "manufacturer": "Aston Martin", "car": "Aston Martin Vantage AMR LMGT3", "drivers": ["Gray Newell", "Eduardo Barrichello", "Jonny Adam"] }
+            ]
+          }
+        ],
+        "sources": [
+          { "label": "FIA WEC (Al Kamel) – Lone Star Le Mans, Final Classification", "url": "https://fiawec.alkamelsystems.com/Results/15_2026/05_CIRCUIT%20OF%20THE%20AMERICAS/673_FIA%20WEC/202609061300_Race/06_Hour%206/03_Classification_Race_Hour%206_Final.PDF", "type": "championship", "publishedAt": "2026-09-06", "retrievedAt": "2026-10-28" },
+          { "label": "Pit Debrief – Lone Star Le Mans race: Ferrari wins, Heart of Racing takes LMGT3 victory", "url": "https://www.pitdebrief.com/?p=143383", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "FIA WEC – Lone Star Le Mans, breaking news", "url": "https://www.fiawec.com/en/news/breaking-news-2/13765", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 6,
+        "name": "6 Hours of Fuji",
+        "shortName": "Fuji",
+        "circuit": "Fuji Speedway",
+        "country": "Japon",
+        "countryCode": "JP",
+        "startDate": "2026-09-25",
+        "endDate": "2026-09-27",
+        "raceStartUtc": "2026-09-27T02:00:00Z",
+        "timezone": "Asia/Tokyo",
+        "durationLabel": "6 Heures",
+        "status": "completed",
+        "results": [
+          {
+            "classId": "hypercar",
+            "podium": [
+              { "position": 1, "carNumber": "8", "team": "Toyota Racing", "manufacturer": "Toyota", "car": "Toyota TR010 Hybrid", "drivers": ["Sébastien Buemi", "Brendon Hartley", "Ryō Hirakawa"] },
+              { "position": 2, "carNumber": "36", "team": "Alpine Endurance Team", "manufacturer": "Alpine", "car": "Alpine A424", "drivers": ["Jules Gounon", "Victor Martins"] },
+              { "position": 3, "carNumber": "15", "team": "BMW M Team WRT", "manufacturer": "BMW", "car": "BMW M Hybrid V8", "drivers": ["Kevin Magnussen", "Raffaele Marciello", "Dries Vanthoor"] }
+            ]
+          },
+          {
+            "classId": "lmgt3",
+            "podium": [
+              { "position": 1, "carNumber": "32", "team": "Team WRT", "manufacturer": "BMW", "car": "BMW M4 LMGT3 Evo", "drivers": ["Darren Leung", "Sean Gelael", "Augusto Farfus"] },
+              { "position": 2, "carNumber": "27", "team": "Heart of Racing Team", "manufacturer": "Aston Martin", "car": "Aston Martin Vantage AMR LMGT3", "drivers": ["Ian James", "Zacharie Robichon", "Mattia Drudi"] },
+              { "position": 3, "carNumber": "34", "team": "Racing Team Turkey by TF", "manufacturer": "Corvette", "car": "Corvette Z06 LMGT3.R", "drivers": ["Peter Dempsey", "Salih Yoluç", "Charlie Eastwood"] }
+            ]
+          }
+        ],
+        "sources": [
+          { "label": "FIA WEC – 6 Hours of Fuji 2026, résumé de course", "url": "https://www.fiawec.com/en/race/summary/4954", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "FIA WEC (Al Kamel) – 6 Hours of Fuji, Final Classification by Category", "url": "https://fiawec.alkamelsystems.com/Results/15_2026/06_FUJI%20SPEEDWAY/679_FIA%20WEC/202609271100_Race/06_Hour%206/05_ClassificationByCategory_Race_Hour%206_Final.PDF", "type": "championship", "publishedAt": "2026-09-27", "retrievedAt": "2026-10-28" },
+          { "label": "FIA WEC – How Team WRT took last-gasp Fuji thriller", "url": "https://www.fiawec.com/en/news/how-team-wrt-took-last-gasp-fuji-thriller/13825", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Racer – No. 8 Toyota makes shocking storm to home victory in WEC's 6 Hours of Fuji", "url": "https://racer.com/2026/09/27/no-8-toyota-makes-shocking-storm-to-home-victory-in-wec-s-6-hours-of-fuji", "type": "press", "publishedAt": "2026-09-27", "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 7,
+        "name": "6 Hours of Barcelona",
+        "shortName": "Barcelone",
+        "circuit": "Circuit de Barcelona-Catalunya",
+        "country": "Espagne",
+        "countryCode": "ES",
+        "startDate": "2026-10-16",
+        "endDate": "2026-10-18",
+        "raceStartUtc": "2026-10-18T10:00:00Z",
+        "timezone": "Europe/Madrid",
+        "durationLabel": "6 Heures",
+        "status": "completed",
+        "results": [
+          {
+            "classId": "hypercar",
+            "podium": [
+              { "position": 1, "carNumber": "8", "team": "Toyota Racing", "manufacturer": "Toyota", "car": "Toyota TR010 Hybrid", "drivers": ["Sébastien Buemi", "Brendon Hartley", "Ryō Hirakawa"] },
+              { "position": 2, "carNumber": "7", "team": "Toyota Racing", "manufacturer": "Toyota", "car": "Toyota TR010 Hybrid", "drivers": ["Mike Conway", "Kamui Kobayashi", "Nyck de Vries"] },
+              { "position": 3, "carNumber": "50", "team": "Ferrari AF Corse", "manufacturer": "Ferrari", "car": "Ferrari 499P", "drivers": ["Antonio Fuoco", "Miguel Molina", "Nicklas Nielsen"] }
+            ]
+          },
+          {
+            "classId": "lmgt3",
+            "podium": [
+              { "position": 1, "carNumber": "92", "team": "The Bend Manthey", "manufacturer": "Porsche", "car": "Porsche 911 GT3 R LMGT3", "drivers": ["Yasser Shahin", "Riccardo Pera", "Richard Lietz"] },
+              { "position": 2, "carNumber": "10", "team": "Garage 59", "manufacturer": "McLaren", "car": "McLaren 720S LMGT3 Evo", "drivers": ["Antares Au", "Thomas Fleming", "Marvin Kirchhöfer"] },
+              { "position": 3, "carNumber": "69", "team": "Team WRT", "manufacturer": "BMW", "car": "BMW M4 LMGT3 Evo", "drivers": ["Anthony McIntosh", "Parker Thompson", "Daniel Harper"] }
+            ]
+          }
+        ],
+        "sources": [
+          { "label": "FIA WEC – 6 Hours of Barcelona 2026, résumé de course", "url": "https://www.fiawec.com/en/race/summary/5065", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "FIA WEC – Toyota masters mixed conditions to clinch the crown in Spain", "url": "https://www.fiawec.com/en/news/toyota-masters-mixed-conditions-to-clinch-the-crown-in-spain/13889", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "FIA WEC – 6 Hours of Barcelona, Provisional Entry List v1 (équipages)", "url": "https://www.fiawec.com/umbrella_media/2026-fia-wec-6-hours-of-barcelona-provisional-entry-list-v1-6ac390f54fda0855359647.pdf", "type": "championship", "publishedAt": "2026-10-05", "retrievedAt": "2026-10-28" },
+          { "label": "RacingNews365 – 2026 WEC Six Hours of Barcelona results", "url": "https://racingnews365.com/2026-wec-six-hours-of-barcelona-results", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "FIA WEC – 6 Hours of Barcelona 2026 (page course, horaire)", "url": "https://www.fiawec.com/en/race/6-hours-of-barcelona-2026", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": null,
+        "name": "Qatar 1812 km (date de report)",
+        "shortName": "Qatar (report)",
+        "circuit": "Lusail International Circuit",
+        "country": "Qatar",
+        "countryCode": "QA",
+        "startDate": "2026-10-22",
+        "endDate": "2026-10-24",
+        "raceStartUtc": null,
+        "timezone": "Asia/Qatar",
+        "durationLabel": "1812 km",
+        "status": "cancelled",
+        "results": null,
+        "sources": [
+          { "label": "FIA WEC – FIA WEC and FIA confirm venues for final two rounds of 2026", "url": "https://www.fiawec.com/en/news/fia-wec-and-fia-confirm-venues-for-final-two-rounds-of-2026/13698", "type": "championship", "publishedAt": "2026-07-28", "retrievedAt": "2026-10-28" },
+          { "label": "QNA – Qatar 1812 km race withdrawn from FIA WEC for 2026", "url": "https://qna.org.qa/en/News-Area/News/2026-7/28/qatar-1812-km-race-withdrawn-from-fia-world-endurance-championships-for-2026", "type": "press", "publishedAt": "2026-07-28", "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 8,
+        "name": "6 Hours of Monza",
+        "shortName": "Monza",
+        "circuit": "Autodromo Nazionale Monza",
+        "country": "Italie",
+        "countryCode": "IT",
+        "startDate": "2026-11-06",
+        "endDate": "2026-11-08",
+        "raceStartUtc": "2026-11-08T10:00:00Z",
+        "timezone": "Europe/Rome",
+        "durationLabel": "6 Heures",
+        "status": "upcoming",
+        "results": null,
+        "sources": [
+          { "label": "FIA WEC – 6 Hours of Monza 2026 (page course, horaire)", "url": "https://www.fiawec.com/en/race/6-hours-of-monza-2026", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "FIA WEC – FIA WEC and FIA confirm venues for final two rounds of 2026", "url": "https://www.fiawec.com/en/news/fia-wec-and-fia-confirm-venues-for-final-two-rounds-of-2026/13698", "type": "championship", "publishedAt": "2026-07-28", "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": null,
+        "name": "8 Hours of Bahrain",
+        "shortName": "Bahreïn",
+        "circuit": "Bahrain International Circuit",
+        "country": "Bahreïn",
+        "countryCode": "BH",
+        "startDate": "2026-11-05",
+        "endDate": "2026-11-07",
+        "raceStartUtc": null,
+        "timezone": "Asia/Bahrain",
+        "durationLabel": "8 Heures",
+        "status": "cancelled",
+        "results": null,
+        "sources": [
+          { "label": "FIA WEC – FIA WEC and FIA confirm venues for final two rounds of 2026", "url": "https://www.fiawec.com/en/news/fia-wec-and-fia-confirm-venues-for-final-two-rounds-of-2026/13698", "type": "championship", "publishedAt": "2026-07-28", "retrievedAt": "2026-10-28" },
+          { "label": "FIA – WEC: 2026 calendar announced, continues recent stability (calendrier initial)", "url": "https://www.fia.com/news/wec-2026-calendar-announced-continues-recent-stability", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      }
+    ],
+    "standings": {
+      "afterRound": 7,
+      "asOf": "2026-10-18",
+      "hypercarDrivers": [
+        { "position": 1, "drivers": ["Brendon Hartley", "Ryō Hirakawa", "Sébastien Buemi"], "team": "Toyota Racing (#8)", "points": 114 },
+        { "position": 2, "drivers": ["Kamui Kobayashi", "Mike Conway", "Nyck de Vries"], "team": "Toyota Racing (#7)", "points": 97 },
+        { "position": 3, "drivers": ["Kevin Magnussen", "Raffaele Marciello"], "team": "BMW M Team WRT (#15)", "points": 75 },
+        { "position": 4, "drivers": ["René Rast", "Robin Frijns"], "team": "BMW M Team WRT (#20)", "points": 75 },
+        { "position": 5, "drivers": ["Dries Vanthoor"], "team": "BMW M Team WRT (#15)", "points": 69 },
+        { "position": 6, "drivers": ["Antonio Fuoco", "Miguel Molina", "Nicklas Nielsen"], "team": "Ferrari AF Corse (#50)", "points": 69 },
+        { "position": 7, "drivers": ["Sheldon van der Linde"], "team": "BMW M Team WRT (#20)", "points": 65 },
+        { "position": 8, "drivers": ["Alessandro Pier Guidi", "Antonio Giovinazzi", "James Calado"], "team": "Ferrari AF Corse (#51)", "points": 59 },
+        { "position": 9, "drivers": ["Norman Nato", "Will Stevens"], "team": "Cadillac Hertz Team JOTA (#12)", "points": 58 },
+        { "position": 10, "drivers": ["Charles Milesi", "Ferdinand Habsburg"], "team": "Alpine Endurance Team (#35)", "points": 57 }
+      ],
+      "hypercarManufacturers": [
+        { "position": 1, "manufacturer": "Toyota", "points": 212 },
+        { "position": 2, "manufacturer": "BMW", "points": 154 },
+        { "position": 3, "manufacturer": "Ferrari", "points": 130 },
+        { "position": 4, "manufacturer": "Cadillac", "points": 118 },
+        { "position": 5, "manufacturer": "Alpine", "points": 104 },
+        { "position": 6, "manufacturer": "Aston Martin", "points": 58 },
+        { "position": 7, "manufacturer": "Peugeot", "points": 24 },
+        { "position": 8, "manufacturer": "Genesis", "points": 14 }
+      ],
+      "lmgt3Drivers": [
+        { "position": 1, "drivers": ["Jonny Edgar"], "team": "TF Sport (#33)", "points": 92 },
+        { "position": 2, "drivers": ["Nicky Catsburg"], "team": "TF Sport (#33)", "points": 88 },
+        { "position": 3, "drivers": ["Riccardo Pera", "Richard Lietz", "Yasser Shahin"], "team": "The Bend Manthey (#92)", "points": 74 },
+        { "position": 4, "drivers": ["Charlie Eastwood", "Peter Dempsey", "Salih Yoluç"], "team": "Racing Team Turkey by TF (#34)", "points": 70 },
+        { "position": 5, "drivers": ["Ben Keating"], "team": "TF Sport (#33)", "points": 70 }
+      ],
+      "lmgt3Teams": [
+        { "position": 1, "team": "TF Sport (#33)", "points": 92 },
+        { "position": 2, "team": "The Bend Manthey (#92)", "points": 74 },
+        { "position": 3, "team": "Racing Team Turkey by TF (#34)", "points": 70 },
+        { "position": 4, "team": "Team WRT (#69)", "points": 66 },
+        { "position": 5, "team": "Vista AF Corse (#21)", "points": 64 }
+      ],
+      "sources": [
+        { "label": "FIA WEC – Classements (constructeurs Hypercar, pilotes Hypercar, pilotes et équipes LMGT3)", "url": "https://www.fiawec.com/en/page/manufacturers-classification", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+        { "label": "FIA WEC – Toyota masters mixed conditions to clinch the crown in Spain (titre constructeurs)", "url": "https://www.fiawec.com/en/news/toyota-masters-mixed-conditions-to-clinch-the-crown-in-spain/13889", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" }
+      ]
+    },
+    "manufacturers": [
+      { "name": "Toyota", "car": "Toyota TR010 Hybrid", "class": "hypercar", "note": "Nouvelle appellation en 2026 (ex-GR010 Hybrid), engagée sous la bannière Toyota Racing ; titre constructeurs 2026 assuré à Barcelone." },
+      { "name": "Ferrari", "car": "Ferrari 499P", "class": "hypercar", "note": "Deux voitures officielles Ferrari AF Corse (#50, #51) et une voiture AF Corse (#83)." },
+      { "name": "BMW", "car": "BMW M Hybrid V8", "class": "hypercar", "note": "Engagée par BMW M Team WRT (#15, #20)." },
+      { "name": "Cadillac", "car": "Cadillac V-Series.R", "class": "hypercar", "note": "Engagée par Cadillac Hertz Team JOTA (#12, #38)." },
+      { "name": "Alpine", "car": "Alpine A424", "class": "hypercar", "note": "Engagée par Alpine Endurance Team (#35, #36)." },
+      { "name": "Aston Martin", "car": "Aston Martin Valkyrie", "class": "hypercar", "note": "Engagée par Aston Martin THOR Team (#007, #009)." },
+      { "name": "Peugeot", "car": "Peugeot 9X8", "class": "hypercar", "note": "Engagée par Peugeot TotalEnergies (#93, #94)." },
+      { "name": "Genesis", "car": "Genesis GMR-001", "class": "hypercar", "note": "Nouveau constructeur en 2026, engagé par Genesis Magma Racing (#17, #19)." },
+      { "name": "Aston Martin", "car": "Aston Martin Vantage AMR LMGT3", "class": "lmgt3", "note": "Heart of Racing Team (#23, #27)." },
+      { "name": "BMW", "car": "BMW M4 LMGT3 Evo", "class": "lmgt3", "note": "Team WRT (#32, #69)." },
+      { "name": "Corvette", "car": "Corvette Z06 LMGT3.R", "class": "lmgt3", "note": "TF Sport (#33) et Racing Team Turkey by TF (#34)." },
+      { "name": "Ferrari", "car": "Ferrari 296 LMGT3 Evo", "class": "lmgt3", "note": "Vista AF Corse (#21, #54)." },
+      { "name": "Ford", "car": "Ford Mustang LMGT3", "class": "lmgt3", "note": "Proton Competition (#77, #88)." },
+      { "name": "Lexus", "car": "Lexus RC F LMGT3", "class": "lmgt3", "note": "Akkodis ASP Team (#78, #87)." },
+      { "name": "McLaren", "car": "McLaren 720S LMGT3 Evo", "class": "lmgt3", "note": "Garage 59 (#10, #58)." },
+      { "name": "Mercedes-AMG", "car": "Mercedes-AMG LMGT3", "class": "lmgt3", "note": "Iron Lynx (#61, #79)." },
+      { "name": "Porsche", "car": "Porsche 911 GT3 R LMGT3", "class": "lmgt3", "note": "Manthey DK Engineering (#91) et The Bend Manthey (#92). Porsche n'est plus engagé en Hypercar en 2026." }
+    ],
+    "sources": [
+      { "label": "FIA WEC – Saison 2026 (calendrier)", "url": "https://www.fiawec.com/en/season/2026", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+      { "label": "FIA WEC – FIA WEC and FIA confirm venues for final two rounds of 2026", "url": "https://www.fiawec.com/en/news/fia-wec-and-fia-confirm-venues-for-final-two-rounds-of-2026/13698", "type": "championship", "publishedAt": "2026-07-28", "retrievedAt": "2026-10-28" },
+      { "label": "FIA – WEC: Qatar 1812km postponed, season to start at Imola", "url": "https://www.fia.com/news/wec-qatar-1812km-postponed-season-start-imola", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+      { "label": "FIA WEC – Toyota reveals new name and new look for 2026 title tilt", "url": "https://www.fiawec.com/en/news/toyota-reveals-new-name-and-new-look-for-2026-title-tilt/8607", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+      { "label": "FIA WEC – 6 Hours of Barcelona, Provisional Entry List v1", "url": "https://www.fiawec.com/umbrella_media/2026-fia-wec-6-hours-of-barcelona-provisional-entry-list-v1-6ac390f54fda0855359647.pdf", "type": "championship", "publishedAt": "2026-10-05", "retrievedAt": "2026-10-28" },
+      { "label": "Wikipedia – 2026 FIA World Endurance Championship (recoupement)", "url": "https://en.wikipedia.org/wiki/2026_FIA_World_Endurance_Championship", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" }
+    ]
+  },
+  "wrc": {
+    "season": 2026,
+    "categories": [
+      { "id": "rally1", "name": "WRC (Rally1)", "description": "Catégorie reine du championnat du monde des rallyes, réservée aux voitures Rally1 hybrides des équipes constructeurs (Toyota, Hyundai, M-Sport Ford). Elle décerne les titres mondiaux pilotes, copilotes et constructeurs." },
+      { "id": "wrc2", "name": "WRC2", "description": "Deuxième échelon mondial, disputé en voitures Rally2 par des équipes privées et des pilotes en quête d'une promotion en Rally1." },
+      { "id": "wrc3", "name": "WRC3", "description": "Troisième échelon, disputé en voitures Rally3 à deux roues motrices, porte d'entrée vers le championnat du monde." },
+      { "id": "junior", "name": "Junior WRC", "description": "Championnat destiné aux jeunes pilotes, disputé sur une sélection de manches avec des voitures Rally3 identiques." }
+    ],
+    "events": [
+      {
+        "round": 1, "name": "Rallye Automobile Monte-Carlo", "shortName": "Monte-Carlo", "country": "Monaco", "countryCode": "MC", "base": null,
+        "startDate": "2026-01-22", "endDate": "2026-01-25", "timezone": "Europe/Monaco",
+        "surface": "mixte", "stages": 17, "distanceKm": 339.15, "status": "completed",
+        "results": { "category": "rally1", "podium": [
+          { "position": 1, "driver": "Oliver Solberg", "coDriver": "Elliott Edmondson", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "4:24:59.0" },
+          { "position": 2, "driver": "Elfyn Evans", "coDriver": "Scott Martin", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "+51.8" },
+          { "position": 3, "driver": "Sébastien Ogier", "coDriver": "Vincent Landais", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "+2:02.2" }
+        ] },
+        "sources": [
+          { "label": "WRC.com – Rallye Monte-Carlo 2026, résultats", "url": "https://www.wrc.com/en/events/wrc-rallye-monte-carlo-2026/wrc-rally-monte-carlo-2026-results", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "WRC.com – Solberg seals history with record-breaking Monte-Carlo victory", "url": "https://www.wrc.com/en/news/solberg-seals-history-with-record-breaking-monte-carlo-victory", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Juwra – Monte Carlo 2026 results", "url": "https://juwra.com/monte_carlo_2026_results.html", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 2, "name": "Rally Sweden", "shortName": "Suède", "country": "Suède", "countryCode": "SE", "base": "Umeå",
+        "startDate": "2026-02-12", "endDate": "2026-02-15", "timezone": "Europe/Stockholm",
+        "surface": "neige", "stages": 18, "distanceKm": 300.66, "status": "completed",
+        "results": { "category": "rally1", "podium": [
+          { "position": 1, "driver": "Elfyn Evans", "coDriver": "Scott Martin", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "2:35:53.1" },
+          { "position": 2, "driver": "Takamoto Katsuta", "coDriver": "Aaron Johnston", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "+14.3" },
+          { "position": 3, "driver": "Sami Pajari", "coDriver": "Marko Salminen", "team": "Toyota Gazoo Racing WRT2", "car": "Toyota GR Yaris Rally1", "time": "+46.0" }
+        ] },
+        "sources": [
+          { "label": "WRC.com – Rally Sweden 2026, résultats", "url": "https://www.wrc.com/en/events/wrc-rally-sweden-2026/wrc-rally-sweden-2026-results", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "TGR-WRT – Snow master Evans leads 1-2-3-4 finish for TGR-WRT", "url": "https://tgr-wrt.com/snow-master-evans-leads-1-2-3-4-finish-for-tgr-wrt/", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Juwra – Sweden 2026 results", "url": "https://juwra.com/sweden_2026_results.html", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 3, "name": "Safari Rally Kenya", "shortName": "Kenya", "country": "Kenya", "countryCode": "KE", "base": "Nairobi",
+        "startDate": "2026-03-12", "endDate": "2026-03-15", "timezone": "Africa/Nairobi",
+        "surface": "terre", "stages": 20, "distanceKm": null, "status": "completed",
+        "results": { "category": "rally1", "podium": [
+          { "position": 1, "driver": "Takamoto Katsuta", "coDriver": "Aaron Johnston", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "3:16:05.6" },
+          { "position": 2, "driver": "Adrien Fourmaux", "coDriver": "Alexandre Coria", "team": "Hyundai Shell Mobis WRT", "car": "Hyundai i20 N Rally1", "time": "+27.4" },
+          { "position": 3, "driver": "Sami Pajari", "coDriver": "Marko Salminen", "team": "Toyota Gazoo Racing WRT2", "car": "Toyota GR Yaris Rally1", "time": "+4:26.1" }
+        ] },
+        "sources": [
+          { "label": "WRC.com – Safari Rally Kenya 2026, résultats", "url": "https://www.wrc.com/en/events/wrc-safari-rally-kenya-2026/wrc-rally-kenya-2026-results", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Citizen Digital – Katsuta wins Safari Rally 2026 as Fourmaux and Pajari complete podium", "url": "https://www.citizen.digital/sports/katsuta-wins-safari-rally-2026-as-fourmaux-and-pajari-complete-podium-n379088", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Juwra – Safari 2026 results", "url": "https://juwra.com/safari_2026_results.html", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 4, "name": "Croatia Rally", "shortName": "Croatie", "country": "Croatie", "countryCode": "HR", "base": null,
+        "startDate": "2026-04-09", "endDate": "2026-04-12", "timezone": "Europe/Zagreb",
+        "surface": "asphalte", "stages": 20, "distanceKm": 300.28, "status": "completed",
+        "results": { "category": "rally1", "podium": [
+          { "position": 1, "driver": "Takamoto Katsuta", "coDriver": "Aaron Johnston", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "2:51:15.8" },
+          { "position": 2, "driver": "Sami Pajari", "coDriver": "Marko Salminen", "team": "Toyota Gazoo Racing WRT2", "car": "Toyota GR Yaris Rally1", "time": "+20.7" },
+          { "position": 3, "driver": "Hayden Paddon", "coDriver": "John Kennard", "team": "Hyundai Shell Mobis WRT", "car": "Hyundai i20 N Rally1", "time": "+2:07.7" }
+        ] },
+        "sources": [
+          { "label": "WRC.com – Croatia Rally 2026, résultats", "url": "https://www.wrc.com/en/events/wrc-croatia-rally-2026/wrc-croatia-rally-results-2026", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Toyota UK – Katsuta takes World Rally Championship lead with Croatia victory", "url": "https://media.toyota.co.uk/katsuta-takes-world-rally-championship-lead-with-croatia-victory/", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Juwra – Croatia 2026 results", "url": "https://juwra.com/croatia_2026_results.html", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 5, "name": "Rally Islas Canarias", "shortName": "Canaries", "country": "Espagne", "countryCode": "ES", "base": "Las Palmas de Gran Canaria",
+        "startDate": "2026-04-23", "endDate": "2026-04-26", "timezone": "Atlantic/Canary",
+        "surface": "asphalte", "stages": 18, "distanceKm": null, "status": "completed",
+        "results": { "category": "rally1", "podium": [
+          { "position": 1, "driver": "Sébastien Ogier", "coDriver": "Vincent Landais", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "2:43:18.9" },
+          { "position": 2, "driver": "Elfyn Evans", "coDriver": "Scott Martin", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "+19.9" },
+          { "position": 3, "driver": "Sami Pajari", "coDriver": "Marko Salminen", "team": "Toyota Gazoo Racing WRT2", "car": "Toyota GR Yaris Rally1", "time": "+1:40.8" }
+        ] },
+        "sources": [
+          { "label": "WRC.com – Rally Islas Canarias 2026, résultats", "url": "https://www.wrc.com/en/events/wrc-rally-islas-canarias-2026/wrc-rally-islas-canarias-2026-results?page=results&tab=overall", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Toyota UK – Ogier wins Rally Islas Canarias after thrilling intra-team battle", "url": "https://media.toyota.co.uk/?p=67328", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Juwra – Canarias 2026 results", "url": "https://juwra.com/canarias_2026_results.html", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 6, "name": "Vodafone Rally de Portugal", "shortName": "Portugal", "country": "Portugal", "countryCode": "PT", "base": "Matosinhos",
+        "startDate": "2026-05-07", "endDate": "2026-05-10", "timezone": "Europe/Lisbon",
+        "surface": "terre", "stages": 23, "distanceKm": 344.91, "status": "completed",
+        "results": { "category": "rally1", "podium": [
+          { "position": 1, "driver": "Thierry Neuville", "coDriver": "Martijn Wydaeghe", "team": "Hyundai Shell Mobis WRT", "car": "Hyundai i20 N Rally1", "time": "3:53:01.7" },
+          { "position": 2, "driver": "Oliver Solberg", "coDriver": "Elliott Edmondson", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "+16.3" },
+          { "position": 3, "driver": "Elfyn Evans", "coDriver": "Scott Martin", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "+29.1" }
+        ] },
+        "sources": [
+          { "label": "WRC.com – Rally de Portugal 2026, résultats", "url": "https://www.wrc.com/en/events/wrc-vodafone-rally-de-portugal-2026/wrc-rally-portugal-2026-results", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "WRC.com – Neuville wins Portugal after Ogier heartbreak", "url": "https://www.wrc.com/en/news/neuville-wins-portugal-after-ogier-heartbreak", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Juwra – Portugal 2026 results", "url": "https://juwra.com/portugal_2026_results.html", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 7, "name": "FORUM8 Rally Japan", "shortName": "Japon", "country": "Japon", "countryCode": "JP", "base": "Toyota City",
+        "startDate": "2026-05-28", "endDate": "2026-05-31", "timezone": "Asia/Tokyo",
+        "surface": "asphalte", "stages": 20, "distanceKm": 302.82, "status": "completed",
+        "results": { "category": "rally1", "podium": [
+          { "position": 1, "driver": "Elfyn Evans", "coDriver": "Scott Martin", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "3:17:08.0" },
+          { "position": 2, "driver": "Sébastien Ogier", "coDriver": "Vincent Landais", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "+12.8" },
+          { "position": 3, "driver": "Sami Pajari", "coDriver": "Marko Salminen", "team": "Toyota Gazoo Racing WRT2", "car": "Toyota GR Yaris Rally1", "time": "+51.4" }
+        ] },
+        "sources": [
+          { "label": "WRC.com – Rally Japan 2026, résultats", "url": "https://www.wrc.com/en/events/wrc-forum8-rally-japan-2026/results-wrc-rally-japan-2026?page=results&tab=overall", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Toyota UK – Evans leads TGR-WRT 1-2-3-4 on Rally Japan", "url": "https://media.toyota.co.uk/evans-leads-tgr-wrt-1-2-3-4-on-rally-japan/", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Juwra – Japan 2026 results", "url": "https://juwra.com/japan_2026_results.html", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 8, "name": "EKO Acropolis Rally Greece", "shortName": "Acropole", "country": "Grèce", "countryCode": "GR", "base": "Loutraki",
+        "startDate": "2026-06-25", "endDate": "2026-06-28", "timezone": "Europe/Athens",
+        "surface": "terre", "stages": 17, "distanceKm": 323.31, "status": "completed",
+        "results": { "category": "rally1", "podium": [
+          { "position": 1, "driver": "Sébastien Ogier", "coDriver": "Vincent Landais", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "3:36:40.7" },
+          { "position": 2, "driver": "Thierry Neuville", "coDriver": "Martijn Wydaeghe", "team": "Hyundai Shell Mobis WRT", "car": "Hyundai i20 N Rally1", "time": "+58.3" },
+          { "position": 3, "driver": "Takamoto Katsuta", "coDriver": "Aaron Johnston", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "+3:04.8" }
+        ] },
+        "sources": [
+          { "label": "WRC.com – Acropolis Rally Greece 2026, résultats", "url": "https://www.wrc.com/en/events/wrc-eko-acropolis-rally-greece-2026/wrc-eko-acropolis-rally-greece-results-2026", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Racer – Ogier takes WRC Acropolis Rally Greece win as tire dramas dash Neuville chances", "url": "https://racer.com/2026/06/28/ogier-takes-wrc-acropolis-rally-greece-win-as-tire-dramas-dash-neuville-chances", "type": "press", "publishedAt": "2026-06-28", "retrievedAt": "2026-10-28" },
+          { "label": "Juwra – Acropolis 2026 results", "url": "https://juwra.com/acropolis_2026_results.html", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 9, "name": "Delfi Rally Estonia", "shortName": "Estonie", "country": "Estonie", "countryCode": "EE", "base": "Tartu",
+        "startDate": "2026-07-16", "endDate": "2026-07-19", "timezone": "Europe/Tallinn",
+        "surface": "terre", "stages": 18, "distanceKm": 301.80, "status": "completed",
+        "results": { "category": "rally1", "podium": [
+          { "position": 1, "driver": "Sami Pajari", "coDriver": "Marko Salminen", "team": "Toyota Gazoo Racing WRT2", "car": "Toyota GR Yaris Rally1", "time": "2:31:16.5" },
+          { "position": 2, "driver": "Oliver Solberg", "coDriver": "Elliott Edmondson", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "+19.5" },
+          { "position": 3, "driver": "Adrien Fourmaux", "coDriver": "Alexandre Coria", "team": "Hyundai Shell Mobis WRT", "car": "Hyundai i20 N Rally1", "time": "+53.8" }
+        ] },
+        "sources": [
+          { "label": "WRC.com – Rally Estonia 2026, résultats", "url": "https://www.wrc.com/en/events/wrc-delfi-rally-estonia-2026/wrc-rally-estonia-results-2026", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Racer – Pajari dominates Rally Estonia to land first WRC win", "url": "https://racer.com/2026/07/19/pajari-dominates-rally-estonia-to-land-first-wrc-win", "type": "press", "publishedAt": "2026-07-19", "retrievedAt": "2026-10-28" },
+          { "label": "Juwra – Estonia 2026 results", "url": "https://juwra.com/estonia_2026_results.html", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 10, "name": "Secto Rally Finland", "shortName": "Finlande", "country": "Finlande", "countryCode": "FI", "base": "Jyväskylä",
+        "startDate": "2026-07-30", "endDate": "2026-08-02", "timezone": "Europe/Helsinki",
+        "surface": "terre", "stages": 20, "distanceKm": null, "status": "completed",
+        "results": { "category": "rally1", "podium": [
+          { "position": 1, "driver": "Sami Pajari", "coDriver": "Marko Salminen", "team": "Toyota Gazoo Racing WRT2", "car": "Toyota GR Yaris Rally1", "time": "2:27:58.0" },
+          { "position": 2, "driver": "Oliver Solberg", "coDriver": "Elliott Edmondson", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "+26.7" },
+          { "position": 3, "driver": "Elfyn Evans", "coDriver": "Scott Martin", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "+1:19.5" }
+        ] },
+        "sources": [
+          { "label": "WRC.com – Rally Finland 2026, résultats", "url": "https://www.wrc.com/en/events/wrc-secto-rally-finland-2026/wrc-secto-rally-finland-results-2026", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Toyota UK – Pajari makes it two wins in a row with home victory in Finland", "url": "https://media.toyota.co.uk/pajari-makes-it-two-wins-in-a-row-with-home-victory-in-finland/", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Juwra – Finland 2026 results", "url": "https://juwra.com/finland_2026_results.html", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 11, "name": "ueno Rally del Paraguay", "shortName": "Paraguay", "country": "Paraguay", "countryCode": "PY", "base": "Encarnación",
+        "startDate": "2026-08-27", "endDate": "2026-08-30", "timezone": "America/Asuncion",
+        "surface": "terre", "stages": 22, "distanceKm": null, "status": "completed",
+        "results": { "category": "rally1", "podium": [
+          { "position": 1, "driver": "Sami Pajari", "coDriver": "Marko Salminen", "team": "Toyota Gazoo Racing WRT2", "car": "Toyota GR Yaris Rally1", "time": "3:13:28.5" },
+          { "position": 2, "driver": "Hayden Paddon", "coDriver": "John Kennard", "team": "Hyundai Shell Mobis WRT", "car": "Hyundai i20 N Rally1", "time": "+25.8" },
+          { "position": 3, "driver": "Adrien Fourmaux", "coDriver": "Alexandre Coria", "team": "Hyundai Shell Mobis WRT", "car": "Hyundai i20 N Rally1", "time": "+40.0" }
+        ] },
+        "sources": [
+          { "label": "WRC.com – Rally del Paraguay 2026, résultats", "url": "https://www.wrc.com/en/events/wrc-rally-del-paraguay-2026/wrc-uneo-rally-del-paraguay-2026?page=results&tab=overall", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "WRC.com – Paddon: Paraguay podium proves there's more there", "url": "https://www.wrc.com/en/news/paddon-paraguay-podium-proves-there-s-more-there", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Hyundai Motor Group – 2026 WRC Paraguay Rally: Hyundai double podium", "url": "https://www.hyundaimotorgroup.com/en/story/2026-wrc-paraguay-rally-hyundai-double-podium", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Juwra – Paraguay 2026 results", "url": "https://juwra.com/paraguay_2026_results.html", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 12, "name": "Rally Chile Biobío", "shortName": "Chili", "country": "Chili", "countryCode": "CL", "base": null,
+        "startDate": "2026-09-10", "endDate": "2026-09-13", "timezone": "America/Santiago",
+        "surface": "terre", "stages": 16, "distanceKm": null, "status": "completed",
+        "results": { "category": "rally1", "podium": [
+          { "position": 1, "driver": "Oliver Solberg", "coDriver": "Elliott Edmondson", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "2:57:08.2" },
+          { "position": 2, "driver": "Sébastien Ogier", "coDriver": "Vincent Landais", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "+16.6" },
+          { "position": 3, "driver": "Adrien Fourmaux", "coDriver": "Alexandre Coria", "team": "Hyundai Shell Mobis WRT", "car": "Hyundai i20 N Rally1", "time": "+33.3" }
+        ] },
+        "sources": [
+          { "label": "WRC.com – Rally Chile Biobío 2026, résultats", "url": "https://www.wrc.com/en/events/wrc-rally-chile-bio-bio-2026/wrc-rally-chile-biobio-results-2026?page=results&tab=overall", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Autosport – Rally Chile 2026 results", "url": "https://www.autosport.com/wrc/results/2026/rally-chile-665422/?st=RACE", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "Juwra – Chile 2026 results", "url": "https://juwra.com/chile_2026_results.html", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": 13, "name": "Rally Italia Sardegna", "shortName": "Sardaigne", "country": "Italie", "countryCode": "IT", "base": "Alghero",
+        "startDate": "2026-10-01", "endDate": "2026-10-04", "timezone": "Europe/Rome",
+        "surface": "terre", "stages": null, "distanceKm": null, "status": "completed",
+        "results": { "category": "rally1", "podium": [
+          { "position": 1, "driver": "Oliver Solberg", "coDriver": "Elliott Edmondson", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "3:24:57.0" },
+          { "position": 2, "driver": "Sébastien Ogier", "coDriver": "Vincent Landais", "team": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "time": "+57.6" },
+          { "position": 3, "driver": "Sami Pajari", "coDriver": "Marko Salminen", "team": "Toyota Gazoo Racing WRT2", "car": "Toyota GR Yaris Rally1", "time": "+1:37.4" }
+        ] },
+        "sources": [
+          { "label": "WRC.com – Rally Italia Sardegna 2026, résultats", "url": "https://www.wrc.com/en/events/wrc-rally-italia-sardegna-2026/results-wrc-rally-italia-sardegna-2026", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "WRC.com – Evans ends long wait to become WRC champion in Sardinia thriller", "url": "https://www.wrc.com/en/news/evans-crowned-2026-wrc-champion-in-sardinia-thriller", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+          { "label": "FIA – Rally Italia Sardegna event review", "url": "https://www.fia.com/news/2026-fia-world-rally-championship-rally-italia-sardegna-event-review", "type": "championship", "publishedAt": "2026-10-04", "retrievedAt": "2026-10-28" },
+          { "label": "DH (Belga) – WRC - Rallye de Sardaigne - Les classements", "url": "https://www.dhnet.be/dernieres-depeches/2026/10/04/wrc-rallye-de-sardaigne-les-classements-LWPW7I2XSBHM7PMUISDTQJF74I/", "type": "press", "publishedAt": "2026-10-04", "retrievedAt": "2026-10-28" }
+        ]
+      },
+      {
+        "round": null, "name": "Rally Saudi Arabia", "shortName": "Arabie saoudite", "country": "Arabie saoudite", "countryCode": "SA", "base": "Djeddah",
+        "startDate": null, "endDate": null, "timezone": "Asia/Riyadh",
+        "surface": "terre", "stages": null, "distanceKm": null, "status": "cancelled",
+        "results": null,
+        "sources": [
+          { "label": "Racer – WRC cancels Rally Saudi Arabia, will end 2026 season in Italy", "url": "https://racer.com/2026/09/17/wrc-cancels-rally-saudi-arabia-will-end-2026-season-in-italy", "type": "press", "publishedAt": "2026-09-17", "retrievedAt": "2026-10-28" },
+          { "label": "PlanetF1 – FIA cancels WRC Saudi Arabia", "url": "https://www.planetf1.com/news/fia-wrc-rally-saudi-arabia", "type": "press", "publishedAt": "2026-09-19", "retrievedAt": "2026-10-28" }
+        ]
+      }
+    ],
+    "standings": {
+      "afterRound": 13,
+      "asOf": "2026-10-04",
+      "drivers": [
+        { "position": 1, "driver": "Elfyn Evans", "coDriver": "Scott Martin", "team": "Toyota Gazoo Racing WRT", "points": 243 },
+        { "position": 2, "driver": "Oliver Solberg", "coDriver": "Elliott Edmondson", "team": "Toyota Gazoo Racing WRT", "points": 238 },
+        { "position": 3, "driver": "Sami Pajari", "coDriver": "Marko Salminen", "team": "Toyota Gazoo Racing WRT2", "points": 237 },
+        { "position": 4, "driver": "Sébastien Ogier", "coDriver": "Vincent Landais", "team": "Toyota Gazoo Racing WRT", "points": 189 },
+        { "position": 5, "driver": "Adrien Fourmaux", "coDriver": "Alexandre Coria", "team": "Hyundai Shell Mobis WRT", "points": 183 },
+        { "position": 6, "driver": "Takamoto Katsuta", "coDriver": "Aaron Johnston", "team": "Toyota Gazoo Racing WRT", "points": 175 },
+        { "position": 7, "driver": "Thierry Neuville", "coDriver": "Martijn Wydaeghe", "team": "Hyundai Shell Mobis WRT", "points": 134 },
+        { "position": 8, "driver": "Hayden Paddon", "coDriver": "John Kennard", "team": "Hyundai Shell Mobis WRT", "points": 38 },
+        { "position": 9, "driver": "Josh McErlean", "coDriver": "Eoin Treacy", "team": "M-Sport Ford WRT", "points": 35 },
+        { "position": 10, "driver": "Esapekka Lappi", "coDriver": "Enni Mälkönen", "team": "Hyundai Shell Mobis WRT", "points": 33 }
+      ],
+      "manufacturers": [
+        { "position": 1, "team": "Toyota Gazoo Racing WRT", "points": 662 },
+        { "position": 2, "team": "Hyundai Shell Mobis WRT", "points": 440 },
+        { "position": 3, "team": "Toyota Gazoo Racing WRT2", "points": 251 },
+        { "position": 4, "team": "M-Sport Ford WRT", "points": 168 }
+      ],
+      "sources": [
+        { "label": "TNT Sports – WRC standings 2026", "url": "https://www.tntsports.co.uk/wrc/championship-2/standings.shtml", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" },
+        { "label": "Speedweek – WRC standings 2026", "url": "https://www.speedweek.com/en/o/rallysport/wrc/standings", "type": "press", "publishedAt": null, "retrievedAt": "2026-10-28" },
+        { "label": "DH (Belga) – WRC - Rallye de Sardaigne - Les classements (constructeurs)", "url": "https://www.dhnet.be/dernieres-depeches/2026/10/04/wrc-rallye-de-sardaigne-les-classements-LWPW7I2XSBHM7PMUISDTQJF74I/", "type": "press", "publishedAt": "2026-10-04", "retrievedAt": "2026-10-28" },
+        { "label": "Grixme – WRC 2026 final standings (recoupement)", "url": "https://www.grixme.com/wrc-racing-guide/wrc-2026-season/standings/", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" },
+        { "label": "WRC.com – Championship standings", "url": "https://www.wrc.com/en/results-and-standings/championship-standings", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" }
+      ]
+    },
+    "teams": [
+      { "name": "Toyota Gazoo Racing WRT", "car": "Toyota GR Yaris Rally1", "drivers": ["Elfyn Evans", "Oliver Solberg", "Takamoto Katsuta", "Sébastien Ogier"], "note": "Sébastien Ogier en programme partiel ; Oliver Solberg, champion WRC2 2025, promu à temps plein en remplacement de Kalle Rovanperä. Titre constructeurs 2026 conservé." },
+      { "name": "Toyota Gazoo Racing WRT2", "car": "Toyota GR Yaris Rally1", "drivers": ["Sami Pajari"], "note": "Cinquième Toyota, engagée sous une structure distincte ; Pajari a signé ses premières victoires en 2026 (Estonie, Finlande, Paraguay)." },
+      { "name": "Hyundai Shell Mobis WRT", "car": "Hyundai i20 N Rally1", "drivers": ["Thierry Neuville", "Adrien Fourmaux", "Esapekka Lappi", "Dani Sordo", "Hayden Paddon"], "note": "Neuville et Fourmaux à temps plein ; la troisième voiture est partagée entre Lappi, Sordo et Paddon. Ott Tänak en pause." },
+      { "name": "M-Sport Ford WRT", "car": "Ford Puma Rally1", "drivers": ["Josh McErlean", "Jon Armstrong"], "note": "Jon Armstrong fait ses débuts en Rally1 en 2026." }
+    ],
+    "sources": [
+      { "label": "WRC.com – Results & Standings (calendrier et vainqueurs 2026)", "url": "https://www.wrc.com/en/results-and-standings", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+      { "label": "WRC.com – Solberg steps up as Toyota confirms five-car 2026 line-up", "url": "https://www.wrc.com/en/news/solberg-steps-up-as-toyota-confirms-five-car-2026-line-up", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+      { "label": "WRC.com – Paddon back in WRC as Hyundai confirm five-driver 2026 line-up", "url": "https://www.wrc.com/en/news/paddon-back-in-wrc-as-hyundai-confirm-five-driver-2026-line-up", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+      { "label": "WRC.com – Armstrong steps up to Rally1 as M-Sport confirms 2026 line-up", "url": "https://www.wrc.com/en/news/armstrong-steps-up-to-rally1-as-m-sport-confirms-2026-line-up", "type": "championship", "publishedAt": null, "retrievedAt": "2026-10-28" },
+      { "label": "Juwra – fiches épreuves 2026 (nombre d'ES et kilométrage chronométré)", "url": "https://juwra.com/sweden_2026.html", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" },
+      { "label": "Wikipedia – 2026 World Rally Championship (recoupement)", "url": "https://en.wikipedia.org/wiki/2026_World_Rally_Championship", "type": "community", "publishedAt": null, "retrievedAt": "2026-10-28" }
+    ]
+  }
+}
