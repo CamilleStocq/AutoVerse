@@ -25,4 +25,5 @@ export const KEYS = {
   theme: 'autoverse.theme',
   history: 'autoverse.history',
   exploreView: 'autoverse.exploreView',
+  alerts: 'autoverse.alerts',
 } as const;

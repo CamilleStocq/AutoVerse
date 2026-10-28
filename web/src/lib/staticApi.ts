@@ -70,5 +70,12 @@ export async function staticGet(pathWithQuery: string): Promise<unknown> {
   if (url.pathname === '/sport/wec') return loadData('wec.json');
   if (url.pathname === '/sport/wrc') return loadData('wrc.json');
   if (url.pathname === '/sport/calendar') return loadData('calendar.json');
+  if (url.pathname === '/events') {
+    // Avant la première détection, aucune alerte publiée : liste vide plutôt qu'une erreur.
+    return loadData('events.json').catch((e) => {
+      if (e instanceof ApiError && e.status === 404) return { updatedAt: null, events: [] };
+      throw e;
+    });
+  }
   throw new ApiError('Fonction indisponible dans la version en ligne.', 404);
 }

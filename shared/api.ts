@@ -133,6 +133,21 @@ export interface NewsItem {
   relevance?: number;
 }
 
+// ---------- Alertes (centre de notifications + push) ----------
+export type EventTopic = 'releases' | 'f1' | 'wec' | 'wrc';
+
+/** Changement détecté entre deux publications des données (nouvelle date, nouveaux résultats). */
+export interface AppEvent {
+  id: string; // déterministe : un même changement n'est jamais notifié deux fois
+  topic: EventTopic;
+  title: string;
+  body: string;
+  /** Chemin dans l'application, relatif à sa racine (ex. « voiture/bmw-i3-na0 »). */
+  url: string;
+  createdAt: string;
+  brandId?: string | null;
+}
+
 // ---------- Sport ----------
 export type Discipline = 'f1' | 'wec' | 'wrc';
 

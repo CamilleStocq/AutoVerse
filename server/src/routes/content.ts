@@ -8,6 +8,10 @@ import { sportCalendar } from '../sport/calendar.ts';
 
 export const contentRoutes = new Hono();
 
+// Les alertes sont calculées à la publication (scripts/export-static.ts) par comparaison avec la
+// version en ligne ; en développement local, il n'y a pas de version de référence.
+contentRoutes.get('/events', (c) => c.json({ updatedAt: null, events: [] }));
+
 contentRoutes.get('/news', async (c) => {
   const q = c.req.query();
   const { items, ...rest } = await newsFeed(newsScopeOf(q.scope));

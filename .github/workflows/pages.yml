@@ -49,18 +49,30 @@ jobs:
         run: npm run export:static --workspace server -- ../web/public/data
         env:
           HTTP_USER_AGENT: Autoverse/1.0 (https://github.com/${{ github.repository }})
-          # Si une source est en panne, la dernière version publiée est conservée.
+          # Si une source est en panne, la dernière version publiée est conservée ;
+          # elle sert aussi de référence pour détecter les nouvelles alertes.
           PUBLISHED_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+          NEW_EVENTS_FILE: ${{ runner.temp }}/new-events.json
 
       - name: Construire l'application
         run: npm run build:pages --workspace web
         env:
           VITE_STATIC: '1'
           VITE_BASE: /${{ github.event.repository.name }}/
+          # Clés publiques des notifications (vides tant que le push n'est pas configuré).
+          VITE_PUSH_API_URL: ${{ vars.PUSH_API_URL }}
+          VITE_VAPID_PUBLIC_KEY: ${{ vars.VAPID_PUBLIC_KEY }}
 
       - uses: actions/upload-pages-artifact@v3
         with:
           path: web/dist
+
+      - name: Conserver les nouvelles alertes
+        uses: actions/upload-artifact@v4
+        with:
+          name: new-events
+          path: ${{ runner.temp }}/new-events.json
+          retention-days: 1
 
   deploy:
     needs: build
@@ -71,3 +83,33 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Notifications push : après la mise en ligne, pour que le lien de la notification
+  # ouvre une page déjà à jour. Ignoré tant que le registre d'abonnements n'est pas configuré.
+  notify:
+    needs: deploy
+    if: vars.PUSH_API_URL != ''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci --workspace server --include-workspace-root=false
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: new-events
+          path: ${{ runner.temp }}
+
+      - name: Envoyer les notifications
+        run: npm run send:push --workspace server -- ${{ runner.temp }}/new-events.json
+        env:
+          PUSH_API_URL: ${{ vars.PUSH_API_URL }}
+          PUSH_ADMIN_TOKEN: ${{ secrets.PUSH_ADMIN_TOKEN }}
+          VAPID_PUBLIC_KEY: ${{ vars.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          APP_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/

@@ -17,6 +17,18 @@ Fonctionnement de la version en ligne (GitHub Pages, sans serveur) :
 
 **Activation, une seule fois :** dans le dépôt GitHub, *Settings → Pages → Build and deployment → Source* : choisir **GitHub Actions**.
 
+### Alertes et notifications
+
+À chaque mise à jour, l'export compare les nouvelles données à la version en ligne (`server/src/events.ts`). Il en tire des alertes :
+- **Sorties :** nouveau modèle à venir ; date de présentation, de commandes, de production, de livraison ou de commercialisation annoncée ou modifiée ; report ; annulation.
+- **Sport :** résultats d'un nouveau Grand Prix de F1 ; podiums WEC par catégorie et podiums WRC dès leur intégration.
+
+Les alertes s'affichent dans la page **Alertes** de l'app. Elles sont aussi envoyées en **notification push** (même app fermée) une fois le registre d'abonnements configuré : voir [`push-worker/README.md`](push-worker/README.md), une seule fois et 10 minutes.
+
+### Actualité
+
+La rubrique est recentrée sur les **futures sorties de modèles** : annonces, présentations, prochaines générations, dates de commercialisation. Elle comprend aussi l'actualité **F1, WEC et WRC**. L'actualité automobile générale (essais, trafic, carburant, aides…) est filtrée (`isLaunchNews`).
+
 ## Développement local
 
 Prérequis : **Node.js ≥ 22.18** (testé avec Node 24). Aucune base de données à installer : SQLite est intégré à Node.

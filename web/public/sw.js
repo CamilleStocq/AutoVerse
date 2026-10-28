@@ -5,7 +5,7 @@
  * - Fichiers de l'application (/assets, polices, icônes) : cache d'abord (noms versionnés par le build).
  * - Photos (Wikimedia, médias) : cache puis mise à jour en arrière-plan, nombre d'entrées limité.
  */
-const VERSION = 'v1';
+const VERSION = 'v2';
 const SHELL = `autoverse-shell-${VERSION}`;
 const DATA = `autoverse-data-${VERSION}`;
 const IMAGES = `autoverse-images-${VERSION}`;
@@ -91,4 +91,39 @@ self.addEventListener('fetch', (event) => {
   if (request.destination === 'image') {
     event.respondWith(staleWhileRevalidate(request, IMAGES));
   }
+});
+
+// ---------- Notifications push (nouvelles dates de sortie, résultats F1 / WEC / WRC) ----------
+self.addEventListener('push', (event) => {
+  let payload = {};
+  try {
+    payload = event.data ? event.data.json() : {};
+  } catch {
+    payload = { body: event.data?.text() };
+  }
+  const title = payload.title || 'Autoverse';
+  event.waitUntil(self.registration.showNotification(title, {
+    body: payload.body || '',
+    tag: payload.tag,
+    icon: `${base}icons/icon-192.png`,
+    badge: `${base}icons/icon-192.png`,
+    lang: 'fr',
+    data: { url: payload.url || base },
+  }));
+});
+
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+  const target = event.notification.data?.url || base;
+  event.waitUntil((async () => {
+    // Réutilise une fenêtre déjà ouverte de l'application si possible.
+    const windows = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+    for (const client of windows) {
+      if (new URL(client.url).pathname.startsWith(base) && 'navigate' in client) {
+        await client.focus();
+        return client.navigate(target);
+      }
+    }
+    return self.clients.openWindow(target);
+  })());
 });

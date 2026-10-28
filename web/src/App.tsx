@@ -15,6 +15,7 @@ const Wishlist = lazy(() => import('./pages/Wishlist').then((m) => ({ default: m
 const Compare = lazy(() => import('./pages/Compare').then((m) => ({ default: m.Compare })));
 const News = lazy(() => import('./pages/News').then((m) => ({ default: m.News })));
 const Sport = lazy(() => import('./pages/Sport').then((m) => ({ default: m.Sport })));
+const Alerts = lazy(() => import('./pages/Alerts').then((m) => ({ default: m.Alerts })));
 const Settings = lazy(() => import('./pages/Settings').then((m) => ({ default: m.Settings })));
 const NotFound = lazy(() => import('./pages/NotFound').then((m) => ({ default: m.NotFound })));
 
@@ -45,6 +46,7 @@ export function AppRoutes() {
           <Route path="comparer" element={<Compare />} />
           <Route path="actualite" element={<News />} />
           <Route path="sport/*" element={<Sport />} />
+          <Route path="alertes" element={<Alerts />} />
           <Route path="profil" element={<Settings />} />
           <Route path="*" element={<NotFound />} />
         </Route>

@@ -1,7 +1,8 @@
 import { NavLink, Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { useCallback, useEffect, useState } from 'react';
-import { CalendarClock, Compass, Download, Flag, Heart, Home, Newspaper, Search, Settings, X } from 'lucide-react';
+import { Bell, CalendarClock, Compass, Download, Flag, Heart, Home, Newspaper, Search, Settings, X } from 'lucide-react';
 import { useInstallState } from './InstallApp';
+import { useMyEvents } from '../state/alerts';
 import { QuickSearch, useQuickSearchShortcut } from './QuickSearch';
 import { useProfile } from '../state/ProfileProvider';
 import { useUi } from '../state/UiProvider';
@@ -23,6 +24,7 @@ const NAV = [
   { to: '/nouveautes', label: 'Nouveautés', icon: CalendarClock },
   { to: '/wishlist', label: 'Wishlist', icon: Heart },
   { to: '/actualite', label: 'Actualité', icon: Newspaper },
+  { to: '/alertes', label: 'Alertes', icon: Bell },
   { to: '/sport', label: 'Sport auto', icon: Flag },
   { to: '/profil', label: 'Profil et paramètres', icon: Settings },
 ];
@@ -54,6 +56,7 @@ export function AppShell() {
   const { pathname } = useLocation();
   const [searchOpen, setSearchOpen] = useState(false);
   const install = useInstallState();
+  const { unread } = useMyEvents();
   const openSearch = useCallback(() => setSearchOpen(true), []);
   useQuickSearchShortcut(openSearch);
   useEffect(() => { window.scrollTo({ top: 0 }); }, [pathname]);
@@ -73,6 +76,7 @@ export function AppShell() {
                   <Icon size={20} strokeWidth={1.8} />
                   {label}
                   {to === '/wishlist' && wishlist.length > 0 && <span className="count num">{wishlist.length}</span>}
+                  {to === '/alertes' && unread > 0 && <span className="count num unread">{unread}</span>}
                 </NavLink>
               </li>
             ))}
@@ -92,6 +96,7 @@ export function AppShell() {
               <button type="button" className="icon-btn" onClick={install.prompt} aria-label="Installer l’application" data-tip="Installer"><Download size={20} /></button>
             )}
             <button type="button" className="icon-btn" onClick={openSearch} aria-label="Rechercher" data-tip="Rechercher"><Search size={20} /></button>
+            <NavLink to="/alertes" className="icon-btn" aria-label={unread ? `Alertes (${unread} non lues)` : 'Alertes'} data-tip="Alertes"><Bell size={20} />{unread > 0 && <span className="dot num">{unread > 9 ? '9+' : unread}</span>}</NavLink>
             <NavLink to="/actualite" className="icon-btn" aria-label="Actualité" data-tip="Actualité"><Newspaper size={20} /></NavLink>
             <NavLink to="/profil" className="icon-btn" aria-label="Profil et paramètres" data-tip="Profil"><Settings size={20} /></NavLink>
           </div>

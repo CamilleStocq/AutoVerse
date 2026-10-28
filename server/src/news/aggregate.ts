@@ -94,6 +94,19 @@ export async function newsFeed(scope: FeedSource['scope']) {
   };
 }
 
+/** Vocabulaire des lancements (FR/EN), recherché dans le titre. */
+const LAUNCH_RE = /(prochain|futur|à venir|arrive (en|chez|bientôt|in|to)|arrivera|dévoil|devoil|présent[eé]|présentation|révél|lancement|\blance (la|le|sa|son|une|un)|sortie|commercialis|commandes|teaser|prototype|espion|camoufl|nouvelle génération|next[- ]gen|restyl|facelift|unveil|reveal|debut|premiere|first look|confirm|coming|upcoming|will (arrive|launch|get)|production version|concept|nouveau (modèle|suv|coupé|break)|nouvelle (berline|citadine|version|gamme)|all-new|new generation)/i;
+/** Articles qui ne parlent pas d'une sortie : essais, aides, rappels, trafic, finance… */
+const NOT_LAUNCH_RE = /(\bessai|\breview\b|first drive|we drive|tested|\bprime\b|\bbonus\b|rappel|recall|carburant|bison futé|collection|occasion|assurance|amende|radar|bourse|résultats financiers|ventes|pilote|formule e|\brally|rallye|podium)/i;
+
+/**
+ * Article sur une future sortie de modèle : il concerne une marque identifiée et son titre
+ * parle d'annonce, de présentation, de prochaine génération ou de commercialisation.
+ */
+export function isLaunchNews(n: NewsItem): boolean {
+  return n.brands.length > 0 && LAUNCH_RE.test(n.title) && !NOT_LAUNCH_RE.test(n.title);
+}
+
 export async function loadNews(scope: FeedSource['scope']): Promise<{ items: NewsItem[]; feeds: FeedStatus[]; fetchedAt: string; stale: boolean }> {
   const feeds = FEEDS.filter((f) => f.scope === scope);
   const results = await Promise.all(feeds.map(async (feed) => {
@@ -105,7 +118,9 @@ export async function loadNews(scope: FeedSource['scope']): Promise<{ items: New
     }
   }));
   const minDate = Date.now() - MAX_AGE_DAYS * 24 * 3600 * 1000;
-  const items = results.flatMap(({ feed, raw }) => raw.map((r) => toItem(r, feed)).filter((x): x is NewsItem => !!x && Date.parse(x.publishedAt) >= minDate));
+  const items = results.flatMap(({ feed, raw }) => raw.map((r) => toItem(r, feed)).filter((x): x is NewsItem => !!x && Date.parse(x.publishedAt) >= minDate))
+    // Rubrique automobile recentrée sur les futures sorties de modèles (pas d'actualité générale).
+    .filter((n) => scope !== 'auto' || isLaunchNews(n));
   const fetchedTimes = results.map((r) => r.status.fetchedAt).filter((x): x is string => !!x).sort();
   return {
     items: dedupe(items),

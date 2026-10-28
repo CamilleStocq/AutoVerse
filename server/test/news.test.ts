@@ -67,3 +67,13 @@ test('marques reconnues par nom exact, modèles seulement avec leur marque', () 
   assert.deepEqual(tagEntities('Le vol 911 retardé', '').models, []);
   assert.deepEqual(tagEntities('Une bmw mini', '').brands, [], 'casse respectée : « bmw » minuscule ignoré');
 });
+
+test('actualité recentrée : seules les futures sorties de modèles sont gardées', async () => {
+  const { isLaunchNews } = await import('../src/news/aggregate.ts');
+  const n = (title: string, brands = ['volkswagen']) => ({ ...item('a', title, 'press', 1), brands });
+  assert.ok(isLaunchNews(n('Le Volkswagen ID. Tiguan se dévoile sans camouflage')));
+  assert.ok(isLaunchNews(n('La prochaine Alpine quatre places abandonne le style rétro', ['alpine'])));
+  assert.ok(!isLaunchNews(n('Essai Volkswagen ID.7 : le grand voyageur')), 'essai d’un modèle existant');
+  assert.ok(!isLaunchNews(n('Tesla FSD : la vidéo relance le débat', ['tesla'])), '« relance » ≠ « lance »');
+  assert.ok(!isLaunchNews(n('Nouveau modèle à venir', [])), 'sans marque identifiée');
+});

@@ -149,7 +149,7 @@ export function Home() {
         </div>
       </Section>
 
-      <Section title="Actualité automobile" subtitle="Priorité aux marques que vous suivez." to="/actualite" id="news">
+      <Section title="Futures sorties dans l’actualité" subtitle="Annonces et présentations de nouveaux modèles, vos marques en priorité." to="/actualite" id="news">
         {news.isLoading ? <NewsSkeleton count={3} /> : news.isError ? <ErrorState message="Les flux d’actualité ne répondent pas." onRetry={() => news.refetch()} /> : (
           <div className="news-grid">{news.data?.pages[0].data.items.slice(0, 6).map((n) => <NewsCard key={n.id} item={n} compact />)}</div>
         )}

@@ -10,3 +10,4 @@ coverage/
 .claude/
 *.pdf
 web/public/data/
+*.local.txt
