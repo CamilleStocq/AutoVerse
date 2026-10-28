@@ -82,7 +82,7 @@ export function Explore() {
   return (
     <div className="page-enter">
       <header className="page-head">
-        <span className="eyebrow">Explorer</span>
+        <span className="eyebrow">Recherche</span>
         <h1>Rechercher</h1>
         <p>Tapez un modèle ou une marque pour voir sa carte et sa fiche complète. Pour l’avoir dans votre deck, il faudra la tirer dans un booster.</p>
       </header>

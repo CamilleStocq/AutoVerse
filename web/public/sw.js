@@ -5,7 +5,7 @@
  * - Fichiers de l'application (/assets, polices, icônes) : cache d'abord (noms versionnés par le build).
  * - Photos (Wikimedia, médias) : cache puis mise à jour en arrière-plan, nombre d'entrées limité.
  */
-const VERSION = 'v10';
+const VERSION = 'v11';
 const SHELL = `autoverse-shell-${VERSION}`;
 const DATA = `autoverse-data-${VERSION}`;
 const IMAGES = `autoverse-images-${VERSION}`;

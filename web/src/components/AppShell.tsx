@@ -1,6 +1,6 @@
 import { NavLink, Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { useCallback, useEffect, useState } from 'react';
-import { Bell, CalendarClock, Compass, Download, Flag, Heart, Home, Layers, Newspaper, Search, Settings, X } from 'lucide-react';
+import { Bell, CalendarClock, Download, Flag, Heart, Home, Layers, Newspaper, Search, Settings, X } from 'lucide-react';
 import { useInstallState } from './InstallApp';
 import { useMyEvents } from '../state/alerts';
 import { useTableLabels } from '../hooks/useTableLabels';
@@ -22,7 +22,7 @@ export function Logo() {
 
 const NAV = [
   { to: '/', label: 'Accueil', icon: Home, end: true },
-  { to: '/explorer', label: 'Explorer', icon: Compass },
+  { to: '/explorer', label: 'Recherche', icon: Search },
   { to: '/deck', label: 'Deck', icon: Layers },
   { to: '/nouveautes', label: 'Nouveautés', icon: CalendarClock },
   { to: '/wishlist', label: 'Wishlist', icon: Heart },
