@@ -1,0 +1,2540 @@
+{
+  "generations": [
+    {
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2024,
+            "month": 1,
+            "day": 31
+          },
+          "market": "WORLD",
+          "source": {
+            "label": "BMW Group PressClub – The new BMW M4 Coupé, the new BMW M4 Convertible",
+            "url": "https://www.press.bmwgroup.com/global/article/detail/T0439308EN/",
+            "type": "manufacturer",
+            "publishedAt": "2024-01-31",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "updatedAt": "2026-10-28",
+      "id": "bmw-m4-g82-2",
+      "modelId": "bmw-m4",
+      "brandId": "bmw",
+      "modelName": "M4",
+      "name": "G82 / G83 (phase 2)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Coupé et cabriolet sportifs (segment D premium)",
+      "bodyStyles": [
+        "Coupé",
+        "Cabriolet"
+      ],
+      "categories": [
+        "sports",
+        "coupe",
+        "convertible"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "daily",
+        "track"
+      ],
+      "images": [
+        {
+          "commonsFile": "File:2024 BMW M4 (G82) Competition IMG 9367.jpg",
+          "caption": null,
+          "depicts": "BMW M4 Competition Coupé (G82) phase 2, 2024",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 BMW M4 (G83) Competition DSC 9811.jpg",
+          "caption": null,
+          "depicts": "BMW M4 Competition Cabriolet (G83) phase 2",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Phase 2 de la BMW M4 présentée en janvier 2024, avec un six-cylindres 3.0 biturbo porté à 530 ch sur les versions M xDrive. Production lancée en mars 2024.",
+        "positioning": "Version M du Série 4 Coupé et Cabriolet, entre la M2 et la M8.",
+        "technicalFacts": [
+          "Six-cylindres en ligne 3.0 biturbo de 2 993 cm³.",
+          "M4 Competition M xDrive : 390 kW (530 ch) et 650 Nm, contre 375 kW (510 ch) pour la Competition à propulsion.",
+          "Boîte automatique M Steptronic à 8 rapports sur les versions Competition.",
+          "Production depuis mars 2024, premières livraisons en avril 2024 selon BMW."
+        ],
+        "pros": [
+          "Choix entre propulsion et transmission intégrale M xDrive.",
+          "Coffre de 440 litres pour le coupé, utilisable au quotidien.",
+          "Moteur six-cylindres puissant dès les bas régimes."
+        ],
+        "differentiators": [
+          "Une des rares sportives de ce gabarit proposée en coupé et en cabriolet à toit souple."
+        ],
+        "pricePositioning": "Au-dessus de 100 000 € en Allemagne pour les versions Competition.",
+        "innovations": [],
+        "compromises": [
+          "Poids élevé : 1 800 à 2 000 kg selon la carrosserie.",
+          "Cabriolet nettement plus lourd et moins logeable que le coupé."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "6 cylindres en ligne 3.0 biturbo",
+            "displacementCc": 2993
+          },
+          "powerHp": 510,
+          "powerKw": 375,
+          "torqueNm": 650,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique M Steptronic 8 rapports",
+          "accel0100s": 3.9,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 9.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 219,
+          "weightKg": 1800,
+          "dimensions": {
+            "lengthMm": 4801,
+            "widthMm": 1887,
+            "heightMm": 1397,
+            "wheelbaseMm": 2857
+          },
+          "seats": 4,
+          "trunkL": 440,
+          "equipmentHighlights": [
+            "Propulsion"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 104700,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – BMW M4 Competition Coupé Steptronic (ab 07/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/4er-reihe/g22-g23-g26-g82-g83-facelift/340917/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC du modèle 07/2025. Poids : valeur EU (avec conducteur). Vitesse maximale bridée à 250 km/h. Prix de base allemand relevé sur l'ADAC.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – BMW M4 Competition Coupé Steptronic (ab 07/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/4er-reihe/g22-g23-g26-g82-g83-facelift/340917/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "bmw-m4-g82-2-competition",
+          "name": "M4 Competition Coupé (510 ch)",
+          "tier": "sport",
+          "powertrain": "petrol"
+        },
+        {
+          "engine": {
+            "architecture": "6 cylindres en ligne 3.0 biturbo",
+            "displacementCc": 2993
+          },
+          "powerHp": 530,
+          "powerKw": 390,
+          "torqueNm": 650,
+          "drivetrain": "awd",
+          "gearbox": "Automatique M Steptronic 8 rapports",
+          "accel0100s": 3.5,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 10,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 226,
+          "weightKg": 1850,
+          "dimensions": {
+            "lengthMm": 4801,
+            "widthMm": 1887,
+            "heightMm": 1398,
+            "wheelbaseMm": 2857
+          },
+          "seats": 4,
+          "trunkL": 440,
+          "equipmentHighlights": [
+            "Transmission intégrale M xDrive"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 109600,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – BMW M4 Competition Coupé M xDrive Steptronic (ab 07/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/4er-reihe/g22-g23-g26-g82-g83-facelift/340918/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "GB",
+              "amount": 84250,
+              "currency": "GBP",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "BMW Group PressClub UK – The new BMW M4 Competition Coupé with M xDrive and the new BMW M4 Competition Convertible with M xDrive",
+                "url": "https://press.bmwgroup.com/united-kingdom/article/detail/T0439398EN_GB/the-new-bmw-m4-competition-coup%c3%a9-with-m-xdrive-and-the-new-bmw-m4-competition-convertible-with-m",
+                "type": "manufacturer",
+                "publishedAt": "2024-01-31",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC du modèle 07/2025 ; consommation WLTP 10,1–10,0 l/100 km et CO2 229–226 g/km selon BMW. Poids : valeur EU. Vitesse bridée électroniquement à 250 km/h.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – BMW M4 Competition Coupé M xDrive Steptronic (ab 07/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/4er-reihe/g22-g23-g26-g82-g83-facelift/340918/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "BMW Group PressClub – The new BMW M4 Coupé, the new BMW M4 Convertible",
+              "url": "https://www.press.bmwgroup.com/global/article/detail/T0439308EN/",
+              "type": "manufacturer",
+              "publishedAt": "2024-01-31",
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "bmw-m4-g82-2-competition-xdrive",
+          "name": "M4 Competition Coupé M xDrive (530 ch)",
+          "tier": "top",
+          "powertrain": "petrol"
+        },
+        {
+          "engine": {
+            "architecture": "6 cylindres en ligne 3.0 biturbo",
+            "displacementCc": 2993
+          },
+          "powerHp": 530,
+          "powerKw": 390,
+          "torqueNm": 650,
+          "drivetrain": "awd",
+          "gearbox": "Automatique M Steptronic 8 rapports",
+          "accel0100s": 3.7,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 10.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 231,
+          "weightKg": 2000,
+          "dimensions": {
+            "lengthMm": 4801,
+            "widthMm": 1887,
+            "heightMm": 1399,
+            "wheelbaseMm": 2857
+          },
+          "seats": 4,
+          "trunkL": 385,
+          "equipmentHighlights": [
+            "Capote en toile",
+            "Transmission intégrale M xDrive"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 114100,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – BMW M4 Competition Cabrio M xDrive Steptronic (ab 06/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/4er-reihe/g22-g23-g26-g82-g83-facelift/340919/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC du modèle 06/2025 ; BMW annonce 10,3–10,2 l/100 km et 233–231 g/km WLTP. Poids : valeur EU.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – BMW M4 Competition Cabrio M xDrive Steptronic (ab 06/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/4er-reihe/g22-g23-g26-g82-g83-facelift/340919/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "BMW Group PressClub – The new BMW M4 Coupé, the new BMW M4 Convertible",
+              "url": "https://www.press.bmwgroup.com/global/article/detail/T0439308EN/",
+              "type": "manufacturer",
+              "publishedAt": "2024-01-31",
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "bmw-m4-g83-2-competition-cabrio-xdrive",
+          "name": "M4 Competition Cabriolet M xDrive (530 ch)",
+          "tier": "top",
+          "powertrain": "petrol"
+        }
+      ],
+      "sources": [
+        {
+          "label": "BMW Group PressClub – The new BMW M4 Coupé, the new BMW M4 Convertible",
+          "url": "https://www.press.bmwgroup.com/global/article/detail/T0439308EN/",
+          "type": "manufacturer",
+          "publishedAt": "2024-01-31",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – BMW M4 Competition Coupé M xDrive Steptronic (ab 07/25)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/4er-reihe/g22-g23-g26-g82-g83-facelift/340918/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "updatedAt": "2026-10-28",
+      "id": "bmw-z4-g29-2",
+      "modelId": "bmw-z4",
+      "brandId": "bmw",
+      "modelName": "Z4",
+      "name": "G29 (phase 2)",
+      "yearsLabel": "2022 – 2026",
+      "startYear": 2022,
+      "endYear": 2026,
+      "status": "discontinued",
+      "segment": "Roadster sportif deux places",
+      "bodyStyles": [
+        "Roadster"
+      ],
+      "categories": [
+        "sports",
+        "convertible"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "driving-pleasure",
+        "travel"
+      ],
+      "images": [
+        {
+          "commonsFile": "File:BMW Z4 (G29, facelift) M40i DSC 7273.jpg",
+          "caption": null,
+          "depicts": "BMW Z4 M40i (G29) phase 2",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW G29 1X7A1570.jpg",
+          "caption": null,
+          "depicts": "BMW Z4 (G29)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Phase 2 du roadster BMW Z4 de troisième génération (G29), commercialisée de novembre 2022 à mai 2026. Elle était proposée en quatre-cylindres sDrive20i et en six-cylindres M40i.",
+        "positioning": "Roadster deux places de BMW, cousin technique de la Toyota GR Supra.",
+        "technicalFacts": [
+          "sDrive20i : 4 cylindres 2.0 turbo de 145 kW (197 ch) et 320 Nm.",
+          "M40i : 6 cylindres 3.0 turbo de 250 kW (340 ch) et 500 Nm.",
+          "Capote en toile ; coffre de 281 litres.",
+          "Fin de commercialisation en mai 2026 selon le catalogue ADAC."
+        ],
+        "pros": [
+          "Six-cylindres M40i performant et sonore.",
+          "Coffre correct pour un roadster.",
+          "Bon compromis confort/efficacité."
+        ],
+        "differentiators": [
+          "Un des derniers roadsters premium thermiques du marché."
+        ],
+        "pricePositioning": "Entre 53 000 et 70 000 € environ en Allemagne selon la version (barèmes ADAC).",
+        "innovations": [],
+        "compromises": [
+          "Deux places seulement.",
+          "Poids proche de 1,5 à 1,65 t, élevé pour un roadster.",
+          "Plus produit depuis 2026."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "4 cylindres 2.0 turbo",
+            "displacementCc": null
+          },
+          "powerHp": 197,
+          "powerKw": 145,
+          "torqueNm": 320,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 6.6,
+          "topSpeedKmh": 240,
+          "consumption": {
+            "value": 6.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 157,
+          "weightKg": 1525,
+          "dimensions": {
+            "lengthMm": 4324,
+            "widthMm": 1864,
+            "heightMm": 1304,
+            "wheelbaseMm": 2470
+          },
+          "seats": 2,
+          "trunkL": 281,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 53050,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2025-11",
+              "source": {
+                "label": "ADAC Autokatalog – BMW Z4 Roadster sDrive20i Steptronic Sport (03/24 - 11/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/z4/g29-facelift/332364/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC du modèle 03/2024 – 11/2025. Poids : valeur EU. Dernier prix de base allemand relevé sur l'ADAC.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – BMW Z4 Roadster sDrive20i Steptronic Sport (03/24 - 11/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/z4/g29-facelift/332364/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "bmw-z4-g29-2-sdrive20i",
+          "name": "sDrive20i Steptronic Sport (197 ch)",
+          "tier": "entry",
+          "powertrain": "petrol"
+        },
+        {
+          "engine": {
+            "architecture": "6 cylindres en ligne 3.0 turbo",
+            "displacementCc": null
+          },
+          "powerHp": 340,
+          "powerKw": 250,
+          "torqueNm": 500,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 4.5,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 7.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 175,
+          "weightKg": 1640,
+          "dimensions": {
+            "lengthMm": 4324,
+            "widthMm": 1864,
+            "heightMm": 1303,
+            "wheelbaseMm": 2470
+          },
+          "seats": 2,
+          "trunkL": 281,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 70200,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-05",
+              "source": {
+                "label": "ADAC Autokatalog – BMW Z4 Roadster M40i Steptronic Sport (11/25 - 05/26)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/z4/g29-facelift/349934/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC du modèle 11/2025 – 05/2026. Poids : valeur EU. Vitesse bridée.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – BMW Z4 Roadster M40i Steptronic Sport (11/25 - 05/26)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/z4/g29-facelift/349934/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "bmw-z4-g29-2-m40i",
+          "name": "M40i Steptronic Sport (340 ch)",
+          "tier": "top",
+          "powertrain": "petrol"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – BMW Z4 Roadster sDrive20i Steptronic Sport (03/24 - 11/25)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/z4/g29-facelift/332364/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – BMW Z4 Roadster M40i Steptronic Sport (11/25 - 05/26)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/z4/g29-facelift/349934/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "updatedAt": "2026-10-28",
+      "id": "audi-r8-4s-2",
+      "modelId": "audi-r8",
+      "brandId": "audi",
+      "modelName": "R8",
+      "name": "4S (2e génération, phase 2)",
+      "yearsLabel": "2019 – 2024",
+      "startYear": 2019,
+      "endYear": 2024,
+      "status": "discontinued",
+      "segment": "Supercar à moteur central",
+      "bodyStyles": [
+        "Coupé",
+        "Spyder"
+      ],
+      "categories": [
+        "supercar",
+        "coupe",
+        "classic"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track",
+        "collection"
+      ],
+      "images": [
+        {
+          "commonsFile": "File:Audi R8 V10 Performance 4S FL Java Green Metallic (1).jpg",
+          "caption": null,
+          "depicts": "Audi R8 V10 performance Coupé (4S) phase 2",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Audi R8 Gt Rwd Monterey car week 2024.jpg",
+          "caption": null,
+          "depicts": "Audi R8 Coupé V10 GT RWD",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Phase 2 de la seconde Audi R8, produite de 2019 à 2024 avec un V10 atmosphérique de 5,2 litres. La série limitée V10 GT RWD de 2022 marque la fin du V10 chez Audi.",
+        "positioning": "Supercar d'Audi Sport, techniquement proche de la Lamborghini Huracán.",
+        "technicalFacts": [
+          "V10 atmosphérique de 5 204 cm³, jusqu'à 620 ch.",
+          "Boîte S tronic à double embrayage 7 rapports.",
+          "R8 Coupé V10 GT RWD : 333 exemplaires, propulsion, 565 Nm.",
+          "Carrosserie sur structure Audi Space Frame en aluminium et carbone."
+        ],
+        "pros": [
+          "V10 atmosphérique haut perché, rare aujourd'hui.",
+          "Utilisable au quotidien pour une supercar.",
+          "Transmission quattro rassurante sur les versions intégrales."
+        ],
+        "differentiators": [
+          "Dernière Audi à moteur V10 atmosphérique."
+        ],
+        "pricePositioning": "De 166 000 € (V10 quattro, 2019) à 225 000 € (GT RWD) en Allemagne.",
+        "innovations": [
+          "Mode « Torque Rear » à sept niveaux sur la GT RWD."
+        ],
+        "compromises": [
+          "Coffre avant de 112 litres seulement.",
+          "Consommation élevée.",
+          "Plus produite depuis 2024."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "V10 5.2 atmosphérique",
+            "displacementCc": 5204
+          },
+          "powerHp": 570,
+          "powerKw": 419,
+          "torqueNm": 550,
+          "drivetrain": "awd",
+          "gearbox": "S tronic double embrayage 7 rapports",
+          "accel0100s": 3.4,
+          "topSpeedKmh": 324,
+          "consumption": {
+            "value": 13.5,
+            "unit": "l/100km",
+            "cycle": "NEDC"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 310,
+          "weightKg": 1660,
+          "dimensions": {
+            "lengthMm": 4429,
+            "widthMm": 1940,
+            "heightMm": 1236,
+            "wheelbaseMm": 2650
+          },
+          "seats": 2,
+          "trunkL": 112,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 166000,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2019-03",
+              "source": {
+                "label": "Motor1 Deutschland – Audi R8 (2019) Facelift: Jetzt sind die Preise bekannt",
+                "url": "https://de.motor1.com/news/273068/audi-r8-2019-facelift-vorgestellt/",
+                "type": "press",
+                "publishedAt": "2019-03-04",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Fiche technique Audi Allemagne du 19.10.2020. Consommation et CO2 en valeurs NEDC (corrélées) indiquées par Audi. Poids sans conducteur. Prix de lancement 2019 selon Motor1.",
+          "sources": [
+            {
+              "label": "Audi MediaCenter – Technische Daten Audi R8 V10 Coupé (419 kW), Stand 19.10.2020",
+              "url": "https://uploads.audi-mediacenter.com/system/production/car_motorizations/335/file_de/824cd6b831b620f3969a43e61549348b22b8d6e6/Technische_Daten_Audi_R8V10_Coupe_419kW.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2020-10-19",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Motor1 Deutschland – Audi R8 (2019) Facelift: Jetzt sind die Preise bekannt",
+              "url": "https://de.motor1.com/news/273068/audi-r8-2019-facelift-vorgestellt/",
+              "type": "press",
+              "publishedAt": "2019-03-04",
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "audi-r8-4s-2-v10-quattro",
+          "name": "R8 Coupé V10 quattro (570 ch)",
+          "tier": "entry",
+          "powertrain": "petrol"
+        },
+        {
+          "engine": {
+            "architecture": "V10 5.2 atmosphérique",
+            "displacementCc": null
+          },
+          "powerHp": 620,
+          "powerKw": 456,
+          "torqueNm": 580,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 3.1,
+          "topSpeedKmh": 331,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4429,
+            "widthMm": 1940,
+            "heightMm": 1236,
+            "wheelbaseMm": 2650
+          },
+          "seats": 2,
+          "trunkL": 112,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 200000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2019-03",
+              "source": {
+                "label": "Motor1 Deutschland – Audi R8 (2019) Facelift: Jetzt sind die Preise bekannt",
+                "url": "https://de.motor1.com/news/273068/audi-r8-2019-facelift-vorgestellt/",
+                "type": "press",
+                "publishedAt": "2019-03-04",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance, couple, dimensions et coffre : auto motor und sport ; 0-100 km/h, vitesse maximale et prix de lancement 2019 : Motor1. Poids et consommation non trouvés.",
+          "sources": [
+            {
+              "label": "auto motor und sport – Audi R8 V10 Performance, technische Daten",
+              "url": "https://www.auto-motor-und-sport.de/test/audi-r8-v10-performance/technische-daten/",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Motor1 Deutschland – Audi R8 (2019) Facelift: Jetzt sind die Preise bekannt",
+              "url": "https://de.motor1.com/news/273068/audi-r8-2019-facelift-vorgestellt/",
+              "type": "press",
+              "publishedAt": "2019-03-04",
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "audi-r8-4s-2-v10-performance-quattro",
+          "name": "R8 Coupé V10 performance quattro (620 ch)",
+          "tier": "sport",
+          "powertrain": "petrol"
+        },
+        {
+          "engine": {
+            "architecture": "V10 5.2 atmosphérique",
+            "displacementCc": null
+          },
+          "powerHp": 620,
+          "powerKw": null,
+          "torqueNm": 565,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 3.4,
+          "topSpeedKmh": 320,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1570,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Série limitée à 333 exemplaires",
+            "Mode Torque Rear à 7 niveaux"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 225000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2022-10",
+              "source": {
+                "label": "auto motor und sport – Audi R8 Coupé V10 GT RWD: Sondermodell zum V10-Abschied",
+                "url": "https://www.auto-motor-und-sport.de/neuheiten/audi-r8-coupe-v10-gt-rwd-sondermodell-zum-v10-abschied/",
+                "type": "press",
+                "publishedAt": "2022-10-04",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données auto motor und sport (octobre 2022). 0-200 km/h en 10,1 s. Puissance en kW non indiquée par la source.",
+          "sources": [
+            {
+              "label": "auto motor und sport – Audi R8 Coupé V10 GT RWD: Sondermodell zum V10-Abschied",
+              "url": "https://www.auto-motor-und-sport.de/neuheiten/audi-r8-coupe-v10-gt-rwd-sondermodell-zum-v10-abschied/",
+              "type": "press",
+              "publishedAt": "2022-10-04",
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "audi-r8-4s-2-v10-gt-rwd",
+          "name": "R8 Coupé V10 GT RWD (620 ch)",
+          "tier": "top",
+          "powertrain": "petrol"
+        }
+      ],
+      "sources": [
+        {
+          "label": "auto motor und sport – Audi R8 V10 Performance, technische Daten",
+          "url": "https://www.auto-motor-und-sport.de/test/audi-r8-v10-performance/technische-daten/",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "auto motor und sport – Audi R8 Coupé V10 GT RWD: Sondermodell zum V10-Abschied",
+          "url": "https://www.auto-motor-und-sport.de/neuheiten/audi-r8-coupe-v10-gt-rwd-sondermodell-zum-v10-abschied/",
+          "type": "press",
+          "publishedAt": "2022-10-04",
+          "retrievedAt": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "updatedAt": "2026-10-28",
+      "id": "audi-rs-e-tron-gt-fw-2",
+      "modelId": "audi-rs-e-tron-gt",
+      "brandId": "audi",
+      "modelName": "RS e-tron GT",
+      "name": "FW (phase 2, 2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Grande routière électrique sportive (segment F)",
+      "bodyStyles": [
+        "Berline 4 portes"
+      ],
+      "categories": [
+        "sport-sedan",
+        "gt",
+        "luxury"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "travel",
+        "daily"
+      ],
+      "images": [
+        {
+          "commonsFile": "File:2024 Audi e-tron GT RS Performance.jpg",
+          "caption": null,
+          "depicts": "Audi RS e-tron GT performance (2024)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Audi RS e-tron GT at Paris Motor Show 2024.jpg",
+          "caption": null,
+          "depicts": "Audi RS e-tron GT au Mondial de Paris 2024",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Version restylée de la grande berline électrique d'Audi Sport, commercialisée depuis juin 2024. La RS e-tron GT performance est la voiture de série la plus puissante d'Audi.",
+        "positioning": "Haut de la gamme électrique d'Audi, cousine de la Porsche Taycan.",
+        "technicalFacts": [
+          "Batterie de 105 kWh brut (97 kWh net) contre 83,7 kWh net auparavant.",
+          "Recharge DC jusqu'à 320 kW, 10-80 % en 18 min.",
+          "Jusqu'à 680 kW (925 ch) en boost pour la version performance, selon Audi.",
+          "Transmission intégrale à deux moteurs électriques."
+        ],
+        "pros": [
+          "Performances de supercar.",
+          "Recharge très rapide.",
+          "Autonomie WLTP proche de 600 km."
+        ],
+        "differentiators": [
+          "Design de grand coupé quatre portes, plus bas que la plupart des berlines électriques."
+        ],
+        "pricePositioning": "À partir de 147 500 € en Allemagne, 160 500 € pour la performance.",
+        "innovations": [
+          "Fonction boost de 10 secondes."
+        ],
+        "compromises": [
+          "Poids proche de 2,4 t.",
+          "Coffre de 350 litres modeste pour le gabarit."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "2 moteurs électriques",
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "powerHp": 775,
+          "powerKw": 570,
+          "torqueNm": 865,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur 2 rapports",
+          "accel0100s": 3.1,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 18.7,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 592,
+          "batteryKwh": 97,
+          "charging": {
+            "dcMaxKw": 320,
+            "dc10to80Min": 18
+          },
+          "co2Gkm": 0,
+          "weightKg": 2395,
+          "dimensions": {
+            "lengthMm": 4997,
+            "widthMm": 1964,
+            "heightMm": 1389,
+            "wheelbaseMm": 2900
+          },
+          "seats": 4,
+          "trunkL": 350,
+          "equipmentHighlights": [
+            "Coffre avant de 77 litres",
+            "Batterie 105 kWh brut / 97 kWh net"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 147500,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Audi RS e-tron GT quattro (ab 06/24)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/e-tron-gt/fw-facelift/336004/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC. Audi annonce jusqu'à 630 kW en boost et 2,8 s au 0-100 km/h (InsideEVs) ; valeurs ADAC retenues. Poids : valeur EU.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Audi RS e-tron GT quattro (ab 06/24)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/e-tron-gt/fw-facelift/336004/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "InsideEVs Deutschland – Audi e-tron GT (2024): Preise, Reichweite",
+              "url": "https://insideevs.de/news/723627/audi-etron-gt-2024-preise-reichweite/",
+              "type": "press",
+              "publishedAt": "2024-06-18",
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "audi-rs-e-tron-gt-fw-2-rs",
+          "name": "RS e-tron GT quattro",
+          "tier": "sport",
+          "powertrain": "ev"
+        },
+        {
+          "engine": {
+            "architecture": "2 moteurs électriques",
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "powerHp": 843,
+          "powerKw": 620,
+          "torqueNm": 1027,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur 2 rapports",
+          "accel0100s": 2.9,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 19,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 582,
+          "batteryKwh": 97,
+          "charging": {
+            "dcMaxKw": 320,
+            "dc10to80Min": 18
+          },
+          "co2Gkm": 0,
+          "weightKg": 2395,
+          "dimensions": {
+            "lengthMm": 4997,
+            "widthMm": 1964,
+            "heightMm": 1379,
+            "wheelbaseMm": 2900
+          },
+          "seats": 4,
+          "trunkL": 350,
+          "equipmentHighlights": [
+            "Coffre avant de 77 litres",
+            "Boost jusqu'à 680 kW (925 ch) pendant 10 s selon Audi"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 160500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Audi RS e-tron GT Performance quattro (ab 06/24)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/e-tron-gt/fw-facelift/336005/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC. Audi annonce jusqu'à 680 kW (925 ch) en boost et 2,5 s au 0-100 km/h (InsideEVs) ; valeurs ADAC retenues. Poids : valeur EU.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Audi RS e-tron GT Performance quattro (ab 06/24)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/e-tron-gt/fw-facelift/336005/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "InsideEVs Deutschland – Audi e-tron GT (2024): Preise, Reichweite",
+              "url": "https://insideevs.de/news/723627/audi-etron-gt-2024-preise-reichweite/",
+              "type": "press",
+              "publishedAt": "2024-06-18",
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "audi-rs-e-tron-gt-fw-2-rs-performance",
+          "name": "RS e-tron GT performance",
+          "tier": "top",
+          "powertrain": "ev"
+        }
+      ],
+      "sources": [
+        {
+          "label": "InsideEVs Deutschland – Audi e-tron GT (2024): Preise, Reichweite",
+          "url": "https://insideevs.de/news/723627/audi-etron-gt-2024-preise-reichweite/",
+          "type": "press",
+          "publishedAt": "2024-06-18",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – Audi RS e-tron GT Performance quattro (ab 06/24)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/e-tron-gt/fw-facelift/336005/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "updatedAt": "2026-10-28",
+      "id": "mercedes-amg-sl-r232",
+      "modelId": "mercedes-amg-sl",
+      "brandId": "mercedes-benz",
+      "modelName": "Mercedes-AMG SL",
+      "name": "R232",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Roadster GT 2+2 de luxe",
+      "bodyStyles": [
+        "Roadster"
+      ],
+      "categories": [
+        "sports",
+        "convertible",
+        "gt",
+        "luxury"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "travel"
+      ],
+      "images": [
+        {
+          "commonsFile": "File:Mercedes-AMG SL 63 (R232) 1X7A7444.jpg",
+          "caption": null,
+          "depicts": "Mercedes-AMG SL 63 (R232)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes-AMG SL 43 1X7A7261.jpg",
+          "caption": null,
+          "depicts": "Mercedes-AMG SL 43 (R232)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Génération R232 de la SL, commercialisée depuis 2022 sous la marque Mercedes-AMG, en roadster à quatre places. La gamme va du quatre-cylindres SL 43 au V8 hybride rechargeable de 816 ch.",
+        "positioning": "Roadster de prestige de Mercedes, à côté de la Mercedes-AMG GT Coupé.",
+        "technicalFacts": [
+          "SL 43 : 4 cylindres 2.0 électrifié (48 V), propulsion.",
+          "SL 63 : V8 4.0 biturbo de 430 kW (585 ch), transmission 4MATIC+.",
+          "SL 63 S E PERFORMANCE : 600 kW (816 ch) et 1 420 Nm en cumulé.",
+          "Quatre places homologuées selon l'ADAC."
+        ],
+        "pros": [
+          "Large plage de motorisations.",
+          "Places arrière d'appoint rares sur un roadster.",
+          "Performances de très haut niveau en SL 63."
+        ],
+        "differentiators": [
+          "Roadster à quatre places, rare dans cette catégorie."
+        ],
+        "pricePositioning": "De 132 000 € à plus de 230 000 € en Allemagne selon la version.",
+        "innovations": [],
+        "compromises": [
+          "Coffre réduit à 110 litres sur l'hybride rechargeable.",
+          "Poids élevé, jusqu'à 2,2 t."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "4 cylindres 2.0 turbo, micro-hybride 48 V",
+            "displacementCc": 1991
+          },
+          "powerHp": 435,
+          "powerKw": 320,
+          "torqueNm": 500,
+          "drivetrain": "rwd",
+          "gearbox": "AMG SPEEDSHIFT MCT 9G",
+          "accel0100s": 4.7,
+          "topSpeedKmh": 278,
+          "consumption": {
+            "value": 9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 206,
+          "weightKg": 1810,
+          "dimensions": {
+            "lengthMm": 4700,
+            "widthMm": 1915,
+            "heightMm": 1359,
+            "wheelbaseMm": 2700
+          },
+          "seats": 4,
+          "trunkL": 213,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 131965,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Mercedes-Benz AMG SL 43 SPEEDSHIFT MCT 9G (ab 06/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/sl-klasse/232/341943/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC du modèle 06/2025 (Otto mild-hybride). Le modèle 2022–2024 développait 280 kW (381 ch). Poids : valeur EU.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Mercedes-Benz AMG SL 43 SPEEDSHIFT MCT 9G (ab 06/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/sl-klasse/232/341943/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "mercedes-amg-sl-r232-sl-43",
+          "name": "SL 43 (435 ch)",
+          "tier": "entry",
+          "powertrain": "hybrid"
+        },
+        {
+          "engine": {
+            "architecture": "V8 4.0 biturbo",
+            "displacementCc": 3982
+          },
+          "powerHp": 585,
+          "powerKw": 430,
+          "torqueNm": 800,
+          "drivetrain": "awd",
+          "gearbox": "AMG SPEEDSHIFT MCT 9G",
+          "accel0100s": 3.6,
+          "topSpeedKmh": 315,
+          "consumption": {
+            "value": 13.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 298,
+          "weightKg": 1970,
+          "dimensions": {
+            "lengthMm": 4705,
+            "widthMm": 1915,
+            "heightMm": 1354,
+            "wheelbaseMm": 2700
+          },
+          "seats": 4,
+          "trunkL": 213,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 203496,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Mercedes-Benz AMG SL 63 Premium Plus 4MATIC+ (ab 06/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/sl-klasse/232/341949/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC du modèle 06/2025 ; prix de la finition Premium Plus. Poids : valeur EU.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Mercedes-Benz AMG SL 63 Premium Plus 4MATIC+ (ab 06/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/sl-klasse/232/341949/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "mercedes-amg-sl-r232-sl-63",
+          "name": "SL 63 4MATIC+ (585 ch)",
+          "tier": "sport",
+          "powertrain": "petrol"
+        },
+        {
+          "engine": {
+            "architecture": "V8 4.0 biturbo + moteur électrique arrière",
+            "displacementCc": 3982,
+            "electricMotors": 1
+          },
+          "powerHp": 816,
+          "powerKw": 600,
+          "torqueNm": 1420,
+          "drivetrain": "awd",
+          "gearbox": "AMG SPEEDSHIFT MCT 9G",
+          "accel0100s": 2.9,
+          "topSpeedKmh": 317,
+          "consumption": {
+            "value": 10,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 12,
+          "batteryKwh": 4.8,
+          "charging": null,
+          "co2Gkm": 228,
+          "weightKg": 2195,
+          "dimensions": {
+            "lengthMm": 4705,
+            "widthMm": 1915,
+            "heightMm": 1354,
+            "wheelbaseMm": 2700
+          },
+          "seats": 4,
+          "trunkL": 110,
+          "equipmentHighlights": [
+            "Batterie 6,1 kWh brut / 4,8 kWh net"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 232514,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Mercedes-Benz AMG SL 63 S E PERFORMANCE Premium Plus 4MATIC+ (ab 06/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/sl-klasse/232/341951/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC du modèle 06/2025 ; prix de la finition Premium Plus. Moteur thermique seul : 450 kW (612 ch) et 850 Nm. Consommation WLTP combinée indiquée sans précision de pondération. Poids : valeur EU.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Mercedes-Benz AMG SL 63 S E PERFORMANCE Premium Plus 4MATIC+ (ab 06/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/sl-klasse/232/341951/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "mercedes-amg-sl-r232-sl-63-s-e-performance",
+          "name": "SL 63 S E PERFORMANCE (816 ch)",
+          "tier": "top",
+          "powertrain": "phev"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Mercedes-Benz AMG SL 43 SPEEDSHIFT MCT 9G (ab 06/25)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/sl-klasse/232/341943/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – Mercedes-Benz AMG SL 63 Premium Plus 4MATIC+ (ab 06/25)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/sl-klasse/232/341949/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – Mercedes-Benz AMG SL 63 S E PERFORMANCE Premium Plus 4MATIC+ (ab 06/25)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/sl-klasse/232/341951/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "updatedAt": "2026-10-28",
+      "id": "mercedes-amg-one",
+      "modelId": "mercedes-amg-one",
+      "brandId": "mercedes-benz",
+      "modelName": "Mercedes-AMG ONE",
+      "name": "AMG ONE",
+      "yearsLabel": "2022 – série limitée",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "discontinued",
+      "segment": "Hypercar hybride rechargeable",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "track",
+        "collection"
+      ],
+      "images": [
+        {
+          "commonsFile": "File:Mercedes-AMG One IAA 2023 1X7A0454.jpg",
+          "caption": null,
+          "depicts": "Mercedes-AMG ONE, IAA 2023",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes-AMG One, EMS 2024, Essen (P1032097).jpg",
+          "caption": null,
+          "depicts": "Mercedes-AMG ONE, Essen Motor Show 2024",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Hypercar routière dérivée de la Formule 1, dévoilée en série en 2022 et limitée à 275 exemplaires. Son V6 1.6 hybride dérivé de la F1 et quatre moteurs électriques délivrent 1 063 ch.",
+        "positioning": "Vitrine technologique de Mercedes-AMG, au-dessus de toute la gamme.",
+        "technicalFacts": [
+          "V6 1.6 turbo hybride (1 599 cm³) de 422 kW (574 ch), régime maximal de 11 000 tr/min.",
+          "Puissance cumulée de 782 kW (1 063 ch) avec quatre moteurs électriques.",
+          "Boîte manuelle automatisée 7 rapports ; essieu avant électrique avec vectorisation du couple.",
+          "Batterie de 8,4 kWh en 800 V ; 18,1 km d'autonomie électrique.",
+          "Tour du Nürburgring Nordschleife en 6:35,183 min (Maro Engel), selon AUTO BILD."
+        ],
+        "pros": [
+          "Technologie directement issue de la F1.",
+          "Performances extrêmes et record sur la Nordschleife.",
+          "Rareté (275 exemplaires)."
+        ],
+        "differentiators": [
+          "Moteur thermique dérivé de la Formule 1 dans une voiture homologuée pour la route."
+        ],
+        "pricePositioning": "Environ 2,75 millions d'euros hors taxes selon la presse.",
+        "innovations": [
+          "Groupe motopropulseur hybride dérivé de la Formule 1, régime maximal de 11 000 tr/min."
+        ],
+        "compromises": [
+          "Très peu pratique au quotidien.",
+          "Exemplaires tous vendus, accessibles seulement en occasion."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "V6 1.6 turbo hybride + 4 moteurs électriques",
+            "displacementCc": 1599,
+            "electricMotors": 4
+          },
+          "powerHp": 1063,
+          "powerKw": 782,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle automatisée 7 rapports",
+          "accel0100s": 2.9,
+          "topSpeedKmh": 352,
+          "consumption": null,
+          "electricRangeKm": 18.1,
+          "batteryKwh": 8.4,
+          "charging": null,
+          "co2Gkm": 198,
+          "weightKg": 1695,
+          "dimensions": {
+            "lengthMm": 4756,
+            "widthMm": 2010,
+            "heightMm": 1261,
+            "wheelbaseMm": 2720
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Série limitée à 275 exemplaires",
+            "Recharge AC 3,7 kW"
+          ],
+          "prices": [],
+          "notes": "Vitesse maximale bridée électroniquement. Consommation combinée pondérée 8,7 l/100 km et 32 kWh/100 km selon le communiqué Mercedes-AMG, cycle non précisé (non renseignée). Couple non publié. Prix non renseigné : seule une valeur approximative (environ 2,75 M€ HT) est publiée.",
+          "sources": [
+            {
+              "label": "Communiqué Mercedes-AMG « The new Mercedes-AMG ONE: Formula 1 technology for the road » (repris par Auto International)",
+              "url": "https://autointernational.com.my/Mercedes_The new Mercedes-AMG ONE_ Formula 1 technology for the road  - 2 July 22.html",
+              "type": "press",
+              "publishedAt": "2022-07-02",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "AUTO BILD – Mercedes-AMG One (2022): Preis, Nordschleife, 0-100, PS, Gewicht",
+              "url": "https://www.autobild.de/artikel/mercedes-amg-one-2022-preis-nordschleife-0-100-ps-gewicht-auslieferung-sound-10641195.html",
+              "type": "press",
+              "publishedAt": "2022-11-10",
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "mercedes-amg-one-one",
+          "name": "AMG ONE (1 063 ch)",
+          "tier": "top",
+          "powertrain": "phev"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Communiqué Mercedes-AMG « The new Mercedes-AMG ONE: Formula 1 technology for the road » (repris par Auto International)",
+          "url": "https://autointernational.com.my/Mercedes_The new Mercedes-AMG ONE_ Formula 1 technology for the road  - 2 July 22.html",
+          "type": "press",
+          "publishedAt": "2022-07-02",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "AUTO BILD – Mercedes-AMG One (2022): Preis, Nordschleife, 0-100, PS, Gewicht",
+          "url": "https://www.autobild.de/artikel/mercedes-amg-one-2022-preis-nordschleife-0-100-ps-gewicht-auslieferung-sound-10641195.html",
+          "type": "press",
+          "publishedAt": "2022-11-10",
+          "retrievedAt": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2013,
+            "month": 9
+          },
+          "market": "WORLD",
+          "source": {
+            "label": "Porsche Newsroom – Porsche 918 Spyder (dossier Porsche Museum, PDF)",
+            "url": "https://newsroom.porsche.com/pdf/d652f8ca-5fbd-4fdd-9467-df7507165f92",
+            "type": "manufacturer",
+            "publishedAt": null,
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "updatedAt": "2026-10-28",
+      "id": "porsche-918-spyder",
+      "modelId": "porsche-918",
+      "brandId": "porsche",
+      "modelName": "918 Spyder",
+      "name": "918 Spyder",
+      "yearsLabel": "2013 – 2015",
+      "startYear": 2013,
+      "endYear": 2015,
+      "status": "discontinued",
+      "segment": "Hypercar hybride rechargeable",
+      "bodyStyles": [
+        "Spyder"
+      ],
+      "categories": [
+        "supercar",
+        "convertible",
+        "classic"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "collection",
+        "track"
+      ],
+      "images": [
+        {
+          "commonsFile": "File:Porsche 918 Spyder IAA 2013.jpg",
+          "caption": null,
+          "depicts": "Porsche 918 Spyder, IAA 2013",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2015 Porsche 918 Spyder 4.6.jpg",
+          "caption": null,
+          "depicts": "Porsche 918 Spyder (2015)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Hypercar hybride rechargeable de Porsche, dévoilée au salon de Francfort 2013 et limitée à 918 exemplaires. Elle associe un V8 de 608 ch à deux moteurs électriques pour 887 ch.",
+        "positioning": "Supercar phare de Porsche, membre de la « sainte trinité » hybride avec la McLaren P1 et la LaFerrari.",
+        "technicalFacts": [
+          "V8 de 4 593 cm³ (608 ch) et deux moteurs électriques totalisant 286 ch.",
+          "Puissance cumulée de 652 kW (887 ch).",
+          "0 à 100 km/h en 2,6 s, vitesse maximale de 345 km/h.",
+          "Tour de la Nordschleife en 6:57 min (Marc Lieb, 4 septembre 2013)."
+        ],
+        "pros": [
+          "Performances encore de premier plan.",
+          "Transmission intégrale hybride avancée pour son époque.",
+          "Toit amovible."
+        ],
+        "differentiators": [
+          "Une des premières hypercars hybrides rechargeables."
+        ],
+        "pricePositioning": "768 026 € en Allemagne en 2014 ; aujourd'hui bien au-delà du million.",
+        "innovations": [
+          "Hybride rechargeable haute performance avec essieu avant électrique."
+        ],
+        "compromises": [
+          "Prix de collection inaccessible.",
+          "Autonomie électrique très limitée."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "V8 atmosphérique + 2 moteurs électriques",
+            "displacementCc": 4593,
+            "electricMotors": 2
+          },
+          "powerHp": 887,
+          "powerKw": 652,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 2.6,
+          "topSpeedKmh": 345,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1634,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Série limitée à 918 exemplaires",
+            "Pack Weissach en option"
+          ],
+          "prices": [],
+          "notes": "Poids : 1 634 kg avec le pack Weissach optionnel, moins de 1 674 kg sans, selon Porsche. Couple système non retenu (valeurs divergentes selon les sources). Prix neuf allemand « en 2014 » selon Porsche, mois non précisé. Prix de lancement publié sans mois précis : 768026 EUR (DE, année 2014, Porsche – How much is a Porsche 918 Spyder?) ; non affiché comme prix daté.",
+          "sources": [
+            {
+              "label": "Porsche Newsroom – Porsche 918 Spyder (dossier Porsche Museum, PDF)",
+              "url": "https://newsroom.porsche.com/pdf/d652f8ca-5fbd-4fdd-9467-df7507165f92",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Porsche – How much is a Porsche 918 Spyder?",
+              "url": "https://www.porsche.com/stories/innovation/how-much-is-a-porsche-918-spyder/",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "porsche-918-spyder-918",
+          "name": "918 Spyder (887 ch)",
+          "tier": "top",
+          "powertrain": "phev"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Porsche Newsroom – Porsche 918 Spyder (dossier Porsche Museum, PDF)",
+          "url": "https://newsroom.porsche.com/pdf/d652f8ca-5fbd-4fdd-9467-df7507165f92",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Porsche – How much is a Porsche 918 Spyder?",
+          "url": "https://www.porsche.com/stories/innovation/how-much-is-a-porsche-918-spyder/",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2000,
+            "month": 9
+          },
+          "market": "WORLD",
+          "source": {
+            "label": "Porsche Newsroom – Porsche Carrera GT: A legendary supercar marks its milestone",
+            "url": "https://newsroom.porsche.com/en/2025/history/porsche-25-years-world-premiere-carrera-gt-40609.html",
+            "type": "manufacturer",
+            "publishedAt": "2025-09-28",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "updatedAt": "2026-10-28",
+      "id": "porsche-carrera-gt",
+      "modelId": "porsche-carrera-gt",
+      "brandId": "porsche",
+      "modelName": "Carrera GT",
+      "name": "Carrera GT (980)",
+      "yearsLabel": "2003 – 2006",
+      "startYear": 2003,
+      "endYear": 2006,
+      "status": "discontinued",
+      "segment": "Supercar à moteur central",
+      "bodyStyles": [
+        "Roadster targa"
+      ],
+      "categories": [
+        "supercar",
+        "convertible",
+        "classic"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "images": [
+        {
+          "commonsFile": "File:Porsche Carrera GT Classic-Gala 2025 DSC 0837.jpg",
+          "caption": null,
+          "depicts": "Porsche Carrera GT, Classic-Gala 2025",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Supercar à V10 atmosphérique issue du prototype LMP 2000, produite à 1 270 exemplaires entre l'automne 2003 et mai 2006. Elle a été présentée comme étude au Mondial de Paris en septembre 2000.",
+        "positioning": "Supercar emblématique de Porsche des années 2000, entre la 959 et la 918 Spyder.",
+        "technicalFacts": [
+          "V10 atmosphérique de 5 733 cm³, 450 kW (612 ch) à 8 000 tr/min et 590 Nm.",
+          "Boîte manuelle 6 rapports avec embrayage céramique.",
+          "Monocoque intégralement en carbone ; 1 380 kg.",
+          "Production à Zuffenhausen et Leipzig, 1 270 exemplaires."
+        ],
+        "pros": [
+          "V10 d'origine course au son exceptionnel.",
+          "Boîte manuelle, devenue rare dans cette catégorie.",
+          "Construction carbone très en avance."
+        ],
+        "differentiators": [
+          "Moteur dérivé d'un prototype des 24 Heures du Mans jamais engagé."
+        ],
+        "pricePositioning": "452 690 € neuve en 2003 ; cote de collection très supérieure aujourd'hui.",
+        "innovations": [
+          "Embrayage céramique sur une voiture de série."
+        ],
+        "compromises": [
+          "Réputée exigeante à la limite, sans aides modernes.",
+          "Prix de collection inaccessible."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "V10 atmosphérique (68°)",
+            "displacementCc": 5733
+          },
+          "powerHp": 612,
+          "powerKw": 450,
+          "torqueNm": 590,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 6 rapports, embrayage céramique",
+          "accel0100s": 3.9,
+          "topSpeedKmh": 330,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1380,
+          "dimensions": {
+            "lengthMm": 4613,
+            "widthMm": 1921,
+            "heightMm": 1166,
+            "wheelbaseMm": 2730
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "1 270 exemplaires"
+          ],
+          "prices": [],
+          "notes": "Fiche technique Porsche (2025). 0-200 km/h en 9,9 s. Prix neuf de 2003 en euros indiqué par Porsche (marché allemand supposé, mois non précisé). Prix de lancement publié sans mois précis : 452690 EUR (DE, année 2003, Porsche Newsroom – Porsche Carrera GT: A legendary supercar marks its milestone (PDF)) ; non affiché comme prix daté.",
+          "sources": [
+            {
+              "label": "Porsche Newsroom – Porsche Carrera GT: A legendary supercar marks its milestone (PDF)",
+              "url": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1",
+              "type": "manufacturer",
+              "publishedAt": "2025-09-28",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Porsche Newsroom – Porsche Carrera GT: A legendary supercar marks its milestone",
+              "url": "https://newsroom.porsche.com/en/2025/history/porsche-25-years-world-premiere-carrera-gt-40609.html",
+              "type": "manufacturer",
+              "publishedAt": "2025-09-28",
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "porsche-carrera-gt-v10",
+          "name": "Carrera GT (612 ch)",
+          "tier": "top",
+          "powertrain": "petrol"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Porsche Newsroom – Porsche Carrera GT: A legendary supercar marks its milestone",
+          "url": "https://newsroom.porsche.com/en/2025/history/porsche-25-years-world-premiere-carrera-gt-40609.html",
+          "type": "manufacturer",
+          "publishedAt": "2025-09-28",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Porsche Newsroom – Porsche Carrera GT: A legendary supercar marks its milestone (PDF)",
+          "url": "https://newsroom.porsche.com/pdf/40a8f71c-d926-4ebd-9882-604c5db97ea1",
+          "type": "manufacturer",
+          "publishedAt": "2025-09-28",
+          "retrievedAt": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "updatedAt": "2026-10-28",
+      "id": "alfa-romeo-giulia-quadrifoglio-952-2",
+      "modelId": "alfa-romeo-giulia",
+      "brandId": "alfa-romeo",
+      "modelName": "Giulia Quadrifoglio",
+      "name": "952 (restylage 2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Berline sportive (segment D premium)",
+      "bodyStyles": [
+        "Berline 4 portes"
+      ],
+      "categories": [
+        "sport-sedan"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "daily",
+        "family"
+      ],
+      "images": [
+        {
+          "commonsFile": "File:2026 Alfa Romeo Giulia Quadrifoglio rear.jpg",
+          "caption": null,
+          "depicts": "Alfa Romeo Giulia Quadrifoglio (952) restylée, vue arrière",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Version restylée en 2023 de la berline sportive d'Alfa Romeo, avec un V6 2.9 biturbo porté à 520 ch. Elle reste une propulsion à boîte automatique 8 rapports.",
+        "positioning": "Haut de gamme sportif de la Giulia, face aux BMW M3 et Mercedes-AMG C 63.",
+        "technicalFacts": [
+          "V6 2.9 biturbo de 520 ch (10 ch de plus qu'avant le restylage) et 600 Nm.",
+          "Différentiel autobloquant mécanique dérivé de la Giulia GTA.",
+          "Capot, becquet et éléments latéraux en carbone.",
+          "Échappement Akrapovič de série selon Motor1."
+        ],
+        "pros": [
+          "Direction et châssis très vifs.",
+          "Propulsion pure, de plus en plus rare dans la catégorie.",
+          "Moteur V6 expressif."
+        ],
+        "differentiators": [
+          "Une des dernières berlines sportives à moteur thermique non électrifié."
+        ],
+        "pricePositioning": "95 300 € en France à l'ouverture des commandes (juin 2023).",
+        "innovations": [],
+        "compromises": [
+          "Consommation élevée.",
+          "Infodivertissement moins moderne que les rivales allemandes."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "V6 2.9 biturbo",
+            "displacementCc": 2891
+          },
+          "powerHp": 520,
+          "powerKw": 382,
+          "torqueNm": 600,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 3.9,
+          "topSpeedKmh": 308,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 229,
+          "weightKg": 1735,
+          "dimensions": null,
+          "seats": 5,
+          "trunkL": 480,
+          "equipmentHighlights": [
+            "Différentiel autobloquant mécanique",
+            "Jantes de 19 pouces de série"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 95300,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2023-06",
+              "source": {
+                "label": "Motor1 France – Les nouvelles Alfa Romeo Giulia et Stelvio Quadrifoglio sont à vendre",
+                "url": "https://fr.motor1.com/news/673946/alfa-romeo-vente-giulia-stelvio/",
+                "type": "press",
+                "publishedAt": "2023-06-27",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Couple, poids à vide, coffre et CO2 WLTP issus de la fiche Caradisiac de la finition Supersport (même mécanique). Cylindrée, kW, 0-100 et vitesse maximale : Cars-data. Consommation WLTP non retenue (valeurs divergentes : 10,1 à 10,6 l/100 km selon les sources). Prix français à l'ouverture des commandes, avant remise temporaire à 85 870 €.",
+          "sources": [
+            {
+              "label": "Motor1 France – Les nouvelles Alfa Romeo Giulia et Stelvio Quadrifoglio sont à vendre",
+              "url": "https://fr.motor1.com/news/673946/alfa-romeo-vente-giulia-stelvio/",
+              "type": "press",
+              "publishedAt": "2023-06-27",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Caradisiac – fiche technique Alfa Romeo Giulia II (2) 2.9 V6 520 Quadrifoglio Supersport AT8",
+              "url": "https://www.caradisiac.com/fiches-techniques/modele--alfa-romeo-giulia-2-quadrifoglio/2024/ii+(2)+2.9+v6+520+quadrifoglio+supersport+at8/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Cars-data – Alfa Romeo Giulia Quadrifoglio (Giulia Facelift 2023)",
+              "url": "https://cars-data.com/en/alfa-romeo/giulia/2023/quadrifoglio--107481",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "alfa-romeo-giulia-quadrifoglio-952-2-qv",
+          "name": "Quadrifoglio 2.9 V6 (520 ch)",
+          "tier": "top",
+          "powertrain": "petrol"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Motor1 France – Les nouvelles Alfa Romeo Giulia et Stelvio Quadrifoglio sont à vendre",
+          "url": "https://fr.motor1.com/news/673946/alfa-romeo-vente-giulia-stelvio/",
+          "type": "press",
+          "publishedAt": "2023-06-27",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Caradisiac – fiche technique Alfa Romeo Giulia II (2) 2.9 V6 520 Quadrifoglio Supersport AT8",
+          "url": "https://www.caradisiac.com/fiches-techniques/modele--alfa-romeo-giulia-2-quadrifoglio/2024/ii+(2)+2.9+v6+520+quadrifoglio+supersport+at8/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2023,
+            "month": 8,
+            "day": 30
+          },
+          "market": "WORLD",
+          "source": {
+            "label": "auto.it – Alfa Romeo 33 Stradale, la scheda tecnica",
+            "url": "https://www.auto.it/news/anteprime/2023/08/30-6629340/alfa_romeo_33_stradale_la_scheda_tecnica",
+            "type": "press",
+            "publishedAt": "2023-08-30",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "updatedAt": "2026-10-28",
+      "id": "alfa-romeo-33-stradale-2023",
+      "modelId": "alfa-romeo-33-stradale",
+      "brandId": "alfa-romeo",
+      "modelName": "33 Stradale",
+      "name": "33 Stradale (2023)",
+      "yearsLabel": "2023 – série limitée",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "discontinued",
+      "segment": "Supercar « fuoriserie » à moteur central",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "images": [
+        {
+          "commonsFile": "File:Alfa Romeo 33 Stradale at Paris Motor Show 2024.jpg",
+          "caption": null,
+          "depicts": "Alfa Romeo 33 Stradale (2023) au Mondial de Paris 2024",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Alfa Romeo 33 Stradale - 01.jpg",
+          "caption": null,
+          "depicts": "Alfa Romeo 33 Stradale (2023) au concours de Chantilly 2024",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Supercar limitée à 33 exemplaires, dévoilée le 30 août 2023 en hommage à la 33 Stradale de 1967. Elle est proposée en V6 biturbo de 620 ch ou en électrique de 750 ch.",
+        "positioning": "Série ultra-limitée « fuoriserie » au-dessus de toute la gamme Alfa Romeo.",
+        "technicalFacts": [
+          "V6 3.0 biturbo (2 992 cm³) et boîte à double embrayage 8 rapports, propulsion.",
+          "Version électrique : 750 ch, batterie de 102 kWh (90 kWh utiles), architecture 800 V.",
+          "Longueur de 4,637 m et empattement de 2,70 m pour les deux versions.",
+          "Coefficient de traînée Cx de 0,357."
+        ],
+        "pros": [
+          "Design inspiré de la 33 Stradale originale.",
+          "Choix entre thermique et électrique.",
+          "Extrême rareté."
+        ],
+        "differentiators": [
+          "Première « fuoriserie » d'Alfa Romeo depuis des décennies, avec deux motorisations au choix."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Prix non communiqué officiellement.",
+          "Version électrique plus lourde de 600 kg."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "V6 3.0 biturbo",
+            "displacementCc": 2992
+          },
+          "powerHp": 620,
+          "powerKw": null,
+          "torqueNm": 730,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 8 rapports",
+          "accel0100s": 3,
+          "topSpeedKmh": 333,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1500,
+          "dimensions": {
+            "lengthMm": 4637,
+            "widthMm": 2171,
+            "heightMm": 1226,
+            "wheelbaseMm": 2700
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance de 620 ch selon la fiche reprise par auto.it ; Autotijd indique 630 ch / 463 kW. 0-100 km/h : « moins de 3 s » selon auto.it, 3,0 s selon Autotijd. Prix non publié officiellement.",
+          "sources": [
+            {
+              "label": "auto.it – Alfa Romeo 33 Stradale, la scheda tecnica",
+              "url": "https://www.auto.it/news/anteprime/2023/08/30-6629340/alfa_romeo_33_stradale_la_scheda_tecnica",
+              "type": "press",
+              "publishedAt": "2023-08-30",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Alfa Romeo 33 Stradale 3.0l biturbo V6",
+              "url": "https://autotijd.be/en/specs/alfa-romeo/33-stradale/30l-biturbo-v6-620-hp-4038",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "alfa-romeo-33-stradale-2023-v6",
+          "name": "33 Stradale V6 biturbo (620 ch)",
+          "tier": "top",
+          "powertrain": "petrol"
+        },
+        {
+          "engine": {
+            "architecture": "Moteurs électriques",
+            "displacementCc": null
+          },
+          "powerHp": 750,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur",
+          "accel0100s": 3,
+          "topSpeedKmh": 310,
+          "consumption": null,
+          "electricRangeKm": 450,
+          "batteryKwh": 90,
+          "charging": null,
+          "co2Gkm": 0,
+          "weightKg": 2100,
+          "dimensions": {
+            "lengthMm": 4637,
+            "widthMm": 2171,
+            "heightMm": 1226,
+            "wheelbaseMm": 2700
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Batterie 102 kWh installés / 90 kWh utiles",
+            "Architecture 800 V"
+          ],
+          "prices": [],
+          "notes": "Autotijd indique 750 PS / 551 kW. 0-100 km/h : « moins de 3 s » selon auto.it, 3,0 s selon Autotijd. Nombre de moteurs et couple non publiés dans les sources consultées.",
+          "sources": [
+            {
+              "label": "auto.it – Alfa Romeo 33 Stradale, la scheda tecnica",
+              "url": "https://www.auto.it/news/anteprime/2023/08/30-6629340/alfa_romeo_33_stradale_la_scheda_tecnica",
+              "type": "press",
+              "publishedAt": "2023-08-30",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Alfa Romeo 33 Stradale 102 kWh 750 PS AWD",
+              "url": "https://autotijd.be/en/specs/alfa-romeo/33-stradale/102-kwh-750-hp-awd-4039",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "alfa-romeo-33-stradale-2023-ev",
+          "name": "33 Stradale électrique (750 ch)",
+          "tier": "top",
+          "powertrain": "ev"
+        }
+      ],
+      "sources": [
+        {
+          "label": "auto.it – Alfa Romeo 33 Stradale, la scheda tecnica",
+          "url": "https://www.auto.it/news/anteprime/2023/08/30-6629340/alfa_romeo_33_stradale_la_scheda_tecnica",
+          "type": "press",
+          "publishedAt": "2023-08-30",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – Alfa Romeo 33 Stradale 3.0l biturbo V6",
+          "url": "https://autotijd.be/en/specs/alfa-romeo/33-stradale/30l-biturbo-v6-620-hp-4038",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – Alfa Romeo 33 Stradale 102 kWh 750 PS AWD",
+          "url": "https://autotijd.be/en/specs/alfa-romeo/33-stradale/102-kwh-750-hp-awd-4039",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "updatedAt": "2026-10-28",
+      "id": "abarth-600e",
+      "modelId": "abarth-600e",
+      "brandId": "abarth",
+      "modelName": "600e",
+      "name": "600e (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact électrique sportif (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "sport-suv",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "driving-pleasure",
+        "daily"
+      ],
+      "images": [
+        {
+          "commonsFile": "File:Abarth 600e Scorpionissima Auto Zuerich 2024 DSC 6149.jpg",
+          "caption": null,
+          "depicts": "Abarth 600e Scorpionissima",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Abarth 600e Scorpionissima Auto Zuerich 2025 DSC 3357.jpg",
+          "caption": null,
+          "depicts": "Abarth 600e Scorpionissima",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Petit SUV électrique sportif d'Abarth, commercialisé depuis octobre 2024 sur la base de la Fiat 600e. Elle existe en 237 ch (Turismo) et 280 ch (Scorpionissima).",
+        "positioning": "Modèle électrique haut de gamme d'Abarth, au-dessus de l'Abarth 500e.",
+        "technicalFacts": [
+          "Batterie de 54 kWh brut (51 kWh net), recharge DC jusqu'à 100 kW.",
+          "Traction avant, 345 Nm pour les deux versions.",
+          "Turismo : 174 kW (237 ch) ; Scorpionissima : 207 kW (280 ch).",
+          "Coffre de 360 litres."
+        ],
+        "pros": [
+          "Performances vives pour un petit SUV.",
+          "Habitabilité de cinq places et coffre correct.",
+          "Recharge 0-80 % en 27 min."
+        ],
+        "differentiators": [
+          "Une des rares petites sportives électriques à traction avant de ce niveau de puissance."
+        ],
+        "pricePositioning": "De 41 990 € (Turismo) à 48 990 € (Scorpionissima) en Allemagne.",
+        "innovations": [],
+        "compromises": [
+          "Autonomie WLTP limitée à 344 km.",
+          "Poids de 1,7 t."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 237,
+          "powerKw": 174,
+          "torqueNm": 345,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 6.2,
+          "topSpeedKmh": 200,
+          "consumption": {
+            "value": 17.5,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 344,
+          "batteryKwh": 51,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1700,
+          "dimensions": {
+            "lengthMm": 4187,
+            "widthMm": 1779,
+            "heightMm": 1557,
+            "wheelbaseMm": 2559
+          },
+          "seats": 5,
+          "trunkL": 360,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 41990,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Abarth 600e Turismo (ab 10/24)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/abarth/600/1generation/337357/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC. Recharge DC 0-80 % en 27 min (pas de valeur 10-80 %). Batterie 54 kWh brut. Poids : valeur EU.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Abarth 600e Turismo (ab 10/24)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/abarth/600/1generation/337357/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "abarth-600e-turismo",
+          "name": "600e Turismo (237 ch)",
+          "tier": "sport",
+          "powertrain": "ev"
+        },
+        {
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 280,
+          "powerKw": 207,
+          "torqueNm": 345,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 5.9,
+          "topSpeedKmh": 200,
+          "consumption": {
+            "value": 17.5,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 344,
+          "batteryKwh": 51,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1700,
+          "dimensions": {
+            "lengthMm": 4187,
+            "widthMm": 1779,
+            "heightMm": 1557,
+            "wheelbaseMm": 2559
+          },
+          "seats": 5,
+          "trunkL": 360,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 48990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-11",
+              "source": {
+                "label": "ADAC Autokatalog – Abarth 600e Scorpionissima (10/24 - 11/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/abarth/600/1generation/337358/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC ; version listée de 10/2024 à 11/2025. Recharge DC 0-80 % en 27 min. Batterie 54 kWh brut. Poids : valeur EU.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Abarth 600e Scorpionissima (10/24 - 11/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/abarth/600/1generation/337358/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "abarth-600e-scorpionissima",
+          "name": "600e Scorpionissima (280 ch)",
+          "tier": "top",
+          "powertrain": "ev"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Abarth 600e Turismo (ab 10/24)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/abarth/600/1generation/337357/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – Abarth 600e Scorpionissima (10/24 - 11/25)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/abarth/600/1generation/337358/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "updatedAt": "2026-10-28",
+      "id": "porsche-718-boxster-982",
+      "modelId": "porsche-718-boxster",
+      "brandId": "porsche",
+      "modelName": "718 Boxster / Spyder",
+      "name": "982 – 718 Spyder RS",
+      "yearsLabel": "2023 – 2025",
+      "startYear": 2023,
+      "endYear": 2025,
+      "status": "discontinued",
+      "segment": "Roadster sportif à moteur central",
+      "bodyStyles": [
+        "Roadster"
+      ],
+      "categories": [
+        "sports",
+        "convertible"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track"
+      ],
+      "images": [
+        {
+          "commonsFile": "File:Porsche 718 Boxster Spyder RS IAA 2023 1X7A0535.jpg",
+          "caption": null,
+          "depicts": "Porsche 718 Spyder RS (982), IAA 2023",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 Porsche 718 Spyder RS 2.jpg",
+          "caption": null,
+          "depicts": "Porsche 718 Spyder RS (982)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Version la plus radicale du roadster 718 (type 982), produite de mai 2023 à décembre 2025 avec le six-cylindres atmosphérique 4.0 de 500 ch.",
+        "positioning": "Sommet de la gamme 718 Boxster, pendant découvert de la 718 Cayman GT4 RS.",
+        "technicalFacts": [
+          "Flat-6 atmosphérique de 3 996 cm³, 368 kW (500 ch) et 450 Nm.",
+          "Boîte PDK à double embrayage 7 rapports, propulsion.",
+          "Coffres de 122 litres à l'arrière et 150 litres à l'avant."
+        ],
+        "pros": [
+          "Moteur atmosphérique haut perché.",
+          "Moteur central et excellent équilibre.",
+          "Capote légère."
+        ],
+        "differentiators": [
+          "Six-cylindres atmosphérique 4.0 de 500 ch dans un roadster à moteur central."
+        ],
+        "pricePositioning": "158 700 € en Allemagne (barème ADAC).",
+        "innovations": [],
+        "compromises": [
+          "Boîte PDK uniquement.",
+          "Capote rudimentaire, peu pratique au quotidien.",
+          "Production terminée fin 2025."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "Flat-6 4.0 atmosphérique",
+            "displacementCc": 3996
+          },
+          "powerHp": 500,
+          "powerKw": 368,
+          "torqueNm": 450,
+          "drivetrain": "rwd",
+          "gearbox": "PDK double embrayage 7 rapports",
+          "accel0100s": 3.4,
+          "topSpeedKmh": 308,
+          "consumption": {
+            "value": 12.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 288,
+          "weightKg": 1485,
+          "dimensions": {
+            "lengthMm": 4418,
+            "widthMm": 1822,
+            "heightMm": 1252,
+            "wheelbaseMm": 2482
+          },
+          "seats": 2,
+          "trunkL": 122,
+          "equipmentHighlights": [
+            "Coffre avant de 150 litres"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 158700,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2025-12",
+              "source": {
+                "label": "ADAC Autokatalog – Porsche 718 Spyder RS PDK (05/23 - 12/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/boxster/982/328367/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC (modèle 05/2023 – 12/2025). Poids : valeur EU (avec conducteur). Coffre arrière seul indiqué ; 150 l supplémentaires à l'avant.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Porsche 718 Spyder RS PDK (05/23 - 12/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/boxster/982/328367/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ],
+          "id": "porsche-718-boxster-982-spyder-rs",
+          "name": "718 Spyder RS (500 ch)",
+          "tier": "top",
+          "powertrain": "petrol"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Porsche 718 Spyder RS PDK (05/23 - 12/25)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/porsche/boxster/982/328367/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}
