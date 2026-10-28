@@ -27,7 +27,7 @@ Fonctionnement de la version en ligne (GitHub Pages, sans serveur) :
   - comparateur caractéristique par caractéristique.
 - **Sauvegarde sur l'appareil, écrite immédiatement :** préférences, favoris, collection de cartes, sujets d'alertes, comparateur, thème, vue choisie, questionnaire en cours. Une sauvegarde de secours est faite quand l'app passe en arrière-plan. Le navigateur est aussi prié de ne jamais effacer ces données.
 
-### Cartes à collectionner (Explorer)
+### Cartes à collectionner (Explorer et Deck)
 
 - **Catalogue :** chaque voiture est une carte à collectionner (format 63 × 88). Elle porte :
   - la puissance en « PV » et la rareté ;
@@ -41,10 +41,12 @@ Fonctionnement de la version en ligne (GitHub Pages, sans serveur) :
   - Commune : le reste.
 
   Les cartes Épiques et Légendaires ont un reflet holographique.
-- **Ma collection :**
-  - **Boosters :** 3 boosters de bienvenue, puis 1 par jour (jusqu'à 3 en réserve). Chaque booster contient 5 cartes tirées parmi vos marques préférées, dont au moins une Rare, avec plus de chances de tomber sur une carte qu'on n'a pas encore.
-  - **Albums :** un album par marque, avec les emplacements vides des cartes manquantes.
-  - **Doubles :** 3 doubles s'échangent contre une carte manquante au choix (`web/src/state/collection.ts`).
+- **Onglet Deck** (barre du bas) : tout ce qui concerne les cartes.
+  - **Boosters :** 3 boosters de bienvenue, puis 1 booster gratuit toutes les 3 heures (jusqu'à 3 en réserve). Chaque booster contient 5 cartes tirées parmi vos marques préférées, dont au moins une Rare, avec plus de chances de tomber sur une carte qu'on n'a pas encore.
+  - **Ouverture animée :** le booster fermé arrive en grand, on glisse pour le déchirer, les cartes sortent, on les fait défiler une à une, puis elles s'affichent côte à côte avec le bouton « Ajouter au deck ». Un booster interrompu (app fermée) reprend à la réouverture.
+  - **Questionnaires F1, WEC, WRC :** 5 questions générées à partir des vraies données (classements, calendriers, engagés). Un sans-faute rapporte un booster bonus. Au plus 3 questionnaires par heure et 2 boosters bonus par période de 3 heures.
+  - **Dossiers par marque :** logo (Wikimedia Commons via Wikidata, auteur et licence indiqués ; monogramme aux couleurs de la marque si aucun logo fiable) + nom + progression. Un appui ouvre le dossier et montre les cartes obtenues, un nouvel appui le referme. Tous les dossiers sont fermés à chaque lancement de l'app.
+  - **Recherche :** l'onglet Explorer montre la carte et la fiche de n'importe quelle voiture, mais une carte n'entre dans le deck qu'en sortant d'un booster (`web/src/state/collection.ts`).
 - La collection fait partie de la sauvegarde exportable (*Profil → Exporter mes données*).
 
 > Sur iPhone, Safari et l'application ajoutée à l'écran d'accueil ont des stockages séparés : utilisez toujours l'icône de l'écran d'accueil.

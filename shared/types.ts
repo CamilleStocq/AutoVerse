@@ -240,4 +240,6 @@ export interface Brand {
   accent: string;
   group?: string | null;
   wikidataId?: string | null;
+  /** Logo (Wikimedia Commons, via Wikidata) — renseigné par le serveur ; null si aucun logo fiable. */
+  logo?: { src: string; author: string | null; license: string | null; pageUrl: string } | null;
 }

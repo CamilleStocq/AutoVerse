@@ -1,6 +1,6 @@
 import { NavLink, Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { useCallback, useEffect, useState } from 'react';
-import { Bell, CalendarClock, Compass, Download, Flag, Heart, Home, Newspaper, Search, Settings, X } from 'lucide-react';
+import { Bell, CalendarClock, Compass, Download, Flag, Heart, Home, Layers, Newspaper, Search, Settings, X } from 'lucide-react';
 import { useInstallState } from './InstallApp';
 import { useMyEvents } from '../state/alerts';
 import { useTableLabels } from '../hooks/useTableLabels';
@@ -23,6 +23,7 @@ export function Logo() {
 const NAV = [
   { to: '/', label: 'Accueil', icon: Home, end: true },
   { to: '/explorer', label: 'Explorer', icon: Compass },
+  { to: '/deck', label: 'Deck', icon: Layers },
   { to: '/nouveautes', label: 'Nouveautés', icon: CalendarClock },
   { to: '/wishlist', label: 'Wishlist', icon: Heart },
   { to: '/actualite', label: 'Actualité', icon: Newspaper },
@@ -31,8 +32,8 @@ const NAV = [
   { to: '/profil', label: 'Profil et paramètres', icon: Settings },
 ];
 
-/** Navigation mobile (une main) : 5 rubriques principales ; Actualité et Profil en haut. */
-const BOTTOM = ['/', '/explorer', '/nouveautes', '/wishlist', '/sport'];
+/** Navigation mobile (une main) : 6 rubriques principales ; Actualité et Profil en haut. */
+const BOTTOM = ['/', '/explorer', '/deck', '/nouveautes', '/wishlist', '/sport'];
 
 function CompareTray() {
   const { compare, clearCompare } = useUi();
@@ -61,7 +62,7 @@ function CompareTray() {
 
 export function AppShell() {
   const { wishlist } = useProfile();
-  // Badge d'Explorer : boosters de cartes prêts à ouvrir.
+  // Badge du Deck : boosters de cartes prêts à ouvrir.
   const { state: collection } = useCollection();
   const boosters = collection.boosters;
   const { pathname } = useLocation();
@@ -88,7 +89,7 @@ export function AppShell() {
                   <Icon size={20} strokeWidth={1.8} />
                   {label}
                   {to === '/wishlist' && wishlist.length > 0 && <span className="count num">{wishlist.length}</span>}
-                  {to === '/explorer' && boosters > 0 && <span className="count num unread" title="Boosters à ouvrir">{boosters}</span>}
+                  {to === '/deck' && boosters > 0 && <span className="count num unread" title="Boosters à ouvrir">{boosters}</span>}
                   {to === '/alertes' && unread > 0 && <span className="count num unread">{unread}</span>}
                 </NavLink>
               </li>
@@ -124,8 +125,8 @@ export function AppShell() {
           <NavLink key={to} to={to} end={end}>
             <span style={{ position: 'relative' }}>
               <Icon size={22} strokeWidth={1.8} />
-              {((to === '/wishlist' && wishlist.length > 0) || (to === '/explorer' && boosters > 0)) && (
-                <span className="num" style={{ position: 'absolute', top: -4, right: -10, fontSize: 10, fontWeight: 700, background: 'var(--accent)', color: 'var(--on-accent)', borderRadius: 8, padding: '0 4px', lineHeight: '14px' }} aria-label={to === '/explorer' ? boosters + ' boosters à ouvrir' : wishlist.length + ' favoris'}>{to === '/explorer' ? boosters : wishlist.length}</span>
+              {((to === '/wishlist' && wishlist.length > 0) || (to === '/deck' && boosters > 0)) && (
+                <span className="num" style={{ position: 'absolute', top: -4, right: -10, fontSize: 10, fontWeight: 700, background: 'var(--accent)', color: 'var(--on-accent)', borderRadius: 8, padding: '0 4px', lineHeight: '14px' }} aria-label={to === '/deck' ? boosters + ' boosters à ouvrir' : wishlist.length + ' favoris'}>{to === '/deck' ? boosters : wishlist.length}</span>
               )}
             </span>
             {label === 'Sport auto' ? 'Sport' : label}

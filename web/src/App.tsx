@@ -11,6 +11,7 @@ import { CardGridSkeleton } from './components/States';
 const Explore = lazy(() => import('./pages/Explore').then((m) => ({ default: m.Explore })));
 const CarDetailPage = lazy(() => import('./pages/CarDetail').then((m) => ({ default: m.CarDetailPage })));
 const Upcoming = lazy(() => import('./pages/Upcoming').then((m) => ({ default: m.Upcoming })));
+const Deck = lazy(() => import('./pages/Deck').then((m) => ({ default: m.Deck })));
 const Wishlist = lazy(() => import('./pages/Wishlist').then((m) => ({ default: m.Wishlist })));
 const Compare = lazy(() => import('./pages/Compare').then((m) => ({ default: m.Compare })));
 const News = lazy(() => import('./pages/News').then((m) => ({ default: m.News })));
@@ -40,6 +41,7 @@ export function AppRoutes() {
         <Route element={<AppShell />}>
           <Route index element={<HomeGate />} />
           <Route path="explorer" element={<Explore />} />
+          <Route path="deck" element={<Deck />} />
           <Route path="voiture/:id" element={<CarDetailPage />} />
           <Route path="nouveautes" element={<Upcoming />} />
           <Route path="wishlist" element={<Wishlist />} />

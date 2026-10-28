@@ -10,6 +10,7 @@ import './styles/components.css';
 import './styles/pages.css';
 import './styles/search.css';
 import './styles/cards.css';
+import './styles/booster.css';
 import './styles/mobile.css';
 import { App } from './App';
 

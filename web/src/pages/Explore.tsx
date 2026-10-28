@@ -1,5 +1,5 @@
-import { useDeferredValue, useEffect, useMemo, useState, type CSSProperties } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useDeferredValue, useEffect, useMemo, useState } from 'react';
+import { Navigate, useSearchParams } from 'react-router-dom';
 import { LayoutGrid, Rows3, SlidersHorizontal, Search, X } from 'lucide-react';
 import type { CategoryId, Powertrain, PriceRange } from '@shared/types';
 import { CATEGORY_LABELS, POWERTRAIN_LABELS, PRICE_RANGE_LABELS } from '@shared/labels';
@@ -8,7 +8,6 @@ import { useProfile } from '../state/ProfileProvider';
 import { useCollection } from '../state/collection';
 import { CarRow } from '../components/CarCard';
 import { TradingCard } from '../components/TradingCard';
-import { Collection } from '../components/Collection';
 import { KEYS, readLocal, writeLocal } from '../state/storage';
 import { EmptyState, ErrorState } from '../components/States';
 import { Sheet } from '../components/Sheet';
@@ -152,7 +151,7 @@ function Catalogue() {
       )}
 
       <p className="muted num" aria-live="polite" style={{ fontSize: 'var(--text-sm)', margin: 'var(--space-3) 0' }}>
-        {cars.isLoading ? 'Chargement…' : `${total} carte${total > 1 ? 's' : ''} · ${items.filter((c) => owned[c.id]).length} dans votre collection`}
+        {cars.isLoading ? 'Chargement…' : `${total} carte${total > 1 ? 's' : ''} · ${items.filter((c) => owned[c.id]).length} dans votre deck`}
       </p>
 
       {cars.isLoading ? <CardGridSkeleton /> : cars.isError ? (
@@ -161,7 +160,7 @@ function Catalogue() {
         <>
           <div className={view === 'cards' ? 'tcard-grid' : 'car-list'} style={{ opacity: cars.isPlaceholderData ? 0.6 : 1, transition: 'opacity var(--dur-base)' }}>
             {items.map((c) => (view === 'cards'
-              ? <TradingCard key={c.id} car={c} count={owned[c.id]?.count} badge={owned[c.id] ? 'Possédée' : undefined} />
+              ? <TradingCard key={c.id} car={c} count={owned[c.id]?.count} badge={owned[c.id] ? 'Dans mon deck' : undefined} />
               : <CarRow key={c.id} car={c} />))}
           </div>
           {cars.hasNextPage && (
@@ -223,29 +222,17 @@ function Catalogue() {
 }
 
 export function Explore() {
-  const [sp, setSp] = useSearchParams();
-  const { state } = useCollection();
-  const tab = sp.get('onglet') === 'collection' ? 'collection' : 'catalogue';
-  const setTab = (t: 'catalogue' | 'collection') => {
-    // Changer d'onglet repart d'une sélection vierge (les filtres du catalogue ne concernent pas l'album).
-    setSp(t === 'collection' ? new URLSearchParams({ onglet: 'collection' }) : new URLSearchParams(), { replace: true });
-  };
+  const [sp] = useSearchParams();
+  // Ancien lien « Explorer › Mon deck » : la collection a désormais son propre onglet.
+  if (sp.get('onglet') === 'collection') return <Navigate to="/deck" replace />;
   return (
     <div className="page-enter">
       <header className="page-head">
         <span className="eyebrow">Explorer</span>
-        <h1>{tab === 'collection' ? 'Ma collection' : 'Le catalogue'}</h1>
-        <p>{tab === 'collection'
-          ? 'Ouvrez des boosters de vos marques préférées et complétez vos albums de cartes.'
-          : 'Chaque voiture est une carte à collectionner. Touchez une carte pour sa fiche complète.'}</p>
+        <h1>Le catalogue</h1>
+        <p>Recherchez n’importe quelle voiture pour voir sa carte et sa fiche complète. Pour l’avoir dans votre deck, il faudra la tirer dans un booster.</p>
       </header>
-      <nav className="tabs" aria-label="Explorer" style={{ marginBottom: 'var(--space-5)' }}>
-        <button type="button" aria-selected={tab === 'catalogue'} onClick={() => setTab('catalogue')}>Catalogue</button>
-        <button type="button" aria-selected={tab === 'collection'} onClick={() => setTab('collection')} style={{ '--tab-accent': 'var(--accent)' } as CSSProperties}>
-          Ma collection{state.boosters > 0 && <span className="tab-badge num">{state.boosters}</span>}
-        </button>
-      </nav>
-      {tab === 'collection' ? <Collection /> : <Catalogue />}
+      <Catalogue />
     </div>
   );
 }

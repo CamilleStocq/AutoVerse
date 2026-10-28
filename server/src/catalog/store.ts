@@ -18,6 +18,7 @@ export { powertrainsOf, startingPrice } from '../../../shared/catalog-engine.ts'
 import { config } from '../config.ts';
 import { brandSchema, generationSchema } from './schema.ts';
 import { getCachedImage, resolveCommonsImages } from './images.ts';
+import { resolveBrandLogos } from './logos.ts';
 
 const POWERTRAIN_CATEGORY: Record<Powertrain, CategoryId> = {
   ev: 'ev', phev: 'phev', hybrid: 'hybrid', petrol: 'ice', diesel: 'ice',
@@ -114,6 +115,7 @@ export function loadCatalog(seedDir = config.seedDir): CatalogState {
 export async function warmImages(): Promise<void> {
   const files = [...state.generations.values()].flatMap((g) => g.images.map((i) => i.commonsFile).filter((f): f is string => !!f));
   await resolveCommonsImages(files);
+  await resolveBrandLogos(state.brands.values());
 }
 
 export function resolvedImages(g: Generation): ResolvedImage[] {

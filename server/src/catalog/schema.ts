@@ -140,5 +140,5 @@ export const brandSchema = z.object({
   founded: z.number().int().nullable(),
   accent: z.string(),
   group: z.string().nullable().optional(),
-  wikidataId: z.string().nullable().optional(),
+  wikidataId: z.string().regex(/^Q\d+$/).nullable().optional(),
 });

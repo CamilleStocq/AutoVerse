@@ -165,13 +165,13 @@ function CollectionBanner() {
   const { state, owned } = useCollection();
   const count = Object.keys(owned).length;
   return (
-    <Link to="/explorer?onglet=collection" className="collection-banner">
+    <Link to="/deck" className="collection-banner">
       <span className="collection-banner-pack" aria-hidden="true">{state.boosters > 0 ? state.boosters : '✦'}</span>
       <span className="stack" style={{ minWidth: 0 }}>
-        <strong>{state.boosters > 0 ? `${state.boosters} booster${state.boosters > 1 ? 's' : ''} à ouvrir` : 'Ma collection de cartes'}</strong>
+        <strong>{state.boosters > 0 ? `${state.boosters} booster${state.boosters > 1 ? 's' : ''} à ouvrir` : 'Mon deck de cartes'}</strong>
         <span className="muted" style={{ fontSize: 'var(--text-sm)' }}>
           {count ? `${count} carte${count > 1 ? 's' : ''} collectionnée${count > 1 ? 's' : ''}` : 'Collectionnez les cartes de vos marques préférées'}
-          {state.boosters === 0 && ' · prochain booster demain'}
+          {state.boosters === 0 && ' · 1 booster toutes les 3 heures'}
         </span>
       </span>
       <ArrowRight size={18} aria-hidden="true" />
