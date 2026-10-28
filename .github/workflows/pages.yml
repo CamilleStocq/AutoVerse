@@ -49,6 +49,8 @@ jobs:
         run: npm run export:static --workspace server -- ../web/public/data
         env:
           HTTP_USER_AGENT: Autoverse/1.0 (https://github.com/${{ github.repository }})
+          # Si une source est en panne, la dernière version publiée est conservée.
+          PUBLISHED_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
 
       - name: Construire l'application
         run: npm run build:pages --workspace web

@@ -15,7 +15,8 @@ export const F1_SOURCE = { label: 'Jolpica-F1 (données Ergast)', url: 'https://
 
 type J = Record<string, any>;
 
-const get = (path: string) => fetchJson<{ MRData: J }>(`${BASE}/${path}`, 'Jolpica-F1').then((r) => r.MRData);
+// Jolpica répond parfois lentement depuis les serveurs d'intégration continue : délai élargi.
+const get = (path: string) => fetchJson<{ MRData: J }>(`${BASE}/${path}`, 'Jolpica-F1', 30_000).then((r) => r.MRData);
 
 const RACE_DURATION_MS = 3 * 3600 * 1000;
 
