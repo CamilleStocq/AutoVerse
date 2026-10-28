@@ -1,0 +1,4202 @@
+{
+  "generations": [
+    {
+      "id": "toyota-yaris-2024",
+      "modelId": "toyota-yaris",
+      "brandId": "toyota",
+      "modelName": "Yaris",
+      "name": "Toyota Yaris Hybrid (XP210 restylée, 2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine hybride (segment B)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2024 Toyota Yaris Hybrid 130 (XP210) IMG 9425.jpg",
+          "caption": "Toyota Yaris Hybrid 130 à Neu-Ulm",
+          "depicts": "Toyota Yaris Hybrid 130 (XP210 restylée)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 Toyota Yaris Hybrid 130 (XP210) IMG 9910.jpg",
+          "caption": "Toyota Yaris Hybrid 130 à l'Automobil Messe Bietigheim",
+          "depicts": "Toyota Yaris Hybrid 130 (XP210 restylée)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Toyota Yaris restylée est une citadine exclusivement hybride, proposée en 116 ch ou 130 ch. Elle repose sur la plateforme TNGA GA-B (code XP210).",
+        "positioning": "Citadine de référence de Toyota en Europe, sous la Corolla et à côté du Yaris Cross.",
+        "technicalFacts": [
+          "Plateforme TNGA GA-B, code modèle XP210 (restylage).",
+          "Moteur 3 cylindres 1,5 l (1 490 cm³) associé à un moteur électrique ; batterie lithium-ion.",
+          "Deux puissances système : 116 ch (85 kW) et 130 ch (96 kW).",
+          "Coffre de 286 l, 947 l banquette rabattue (Autotijd)."
+        ],
+        "pros": [
+          "Consommation WLTP très basse pour une voiture non rechargeable (à partir de 3,8 l/100 km).",
+          "Gabarit court (3,94 m) adapté à la ville."
+        ],
+        "differentiators": [
+          "Gamme 100 % hybride, sans version essence seule ni diesel."
+        ],
+        "pricePositioning": "Positionnée au-dessus des citadines essence de la catégorie en Belgique, la gamme débutant à 27 600 € (barème de décembre 2024).",
+        "innovations": [],
+        "compromises": [
+          "Coffre modeste (286 l).",
+          "Places arrière juste pour des adultes, comme souvent dans le segment B."
+        ]
+      },
+      "variants": [
+        {
+          "id": "toyota-yaris-2024-hybrid-116",
+          "name": "Hybrid 116 ch",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,5 l essence + moteur électrique (hybride non rechargeable)",
+            "displacementCc": 1490,
+            "electricMotors": 1
+          },
+          "powerHp": 116,
+          "powerKw": 85,
+          "torqueNm": 141,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9.7,
+          "topSpeedKmh": 175,
+          "consumption": {
+            "value": 3.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 87,
+          "weightKg": 1090,
+          "dimensions": {
+            "lengthMm": 3940,
+            "widthMm": 1745,
+            "heightMm": 1500,
+            "wheelbaseMm": 2560
+          },
+          "seats": 5,
+          "trunkL": 286,
+          "equipmentHighlights": [
+            "Batterie lithium-ion",
+            "Moteur électrique de 80 ch (59 kW)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 27600,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Toyota Yaris",
+                "url": "https://autotijd.be/fr/prix/toyota/yaris",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 3,8–4,0 l/100 km et CO2 87–91 g/km selon équipement (Autotijd) ; valeurs les plus favorables retenues. Poids à vide 1 090 kg (Autotijd, 1 165 kg en ordre de marche). Couple système de 141 Nm. Prix : version de base, barème belge « à partir de décembre 2024 » (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Yaris Hybrid 115 (116 ch)",
+              "url": "https://autotijd.be/fr/fiches-techniques/toyota/yaris/hybrid-115-3976",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Yaris Hybrid 115",
+              "url": "https://autotijd.be/fr/dimensions/toyota/yaris/hybrid-115-3976",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Toyota Yaris",
+              "url": "https://autotijd.be/fr/prix/toyota/yaris",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "toyota-yaris-2024-hybrid-130",
+          "name": "Hybrid 130 ch",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,5 l essence + moteur électrique (hybride non rechargeable)",
+            "displacementCc": 1490,
+            "electricMotors": 1
+          },
+          "powerHp": 130,
+          "powerKw": 96,
+          "torqueNm": 185,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9.2,
+          "topSpeedKmh": 175,
+          "consumption": {
+            "value": 4.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 96,
+          "weightKg": 1140,
+          "dimensions": {
+            "lengthMm": 3940,
+            "widthMm": 1745,
+            "heightMm": 1500,
+            "wheelbaseMm": 2560
+          },
+          "seats": 5,
+          "trunkL": 286,
+          "equipmentHighlights": [
+            "Moteur électrique de 84 ch (62 kW)",
+            "Batterie lithium-ion"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 33670,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Toyota Yaris",
+                "url": "https://autotijd.be/fr/prix/toyota/yaris",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 4,2–4,3 l/100 km et CO2 96–97 g/km selon équipement (Autotijd) ; valeurs les plus favorables retenues. Poids à vide 1 140 kg. Prix : finition Style ; la finition GR Sport avec ce moteur est affichée à 35 520 € (barème belge de décembre 2024, base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Yaris Hybrid 130",
+              "url": "https://autotijd.be/fr/fiches-techniques/toyota/yaris/hybrid-130-3977",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Yaris Hybrid 130",
+              "url": "https://autotijd.be/fr/dimensions/toyota/yaris/hybrid-130-3977",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Toyota Yaris",
+              "url": "https://autotijd.be/fr/prix/toyota/yaris",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique Yaris Hybrid 115 (116 ch)",
+          "url": "https://autotijd.be/fr/fiches-techniques/toyota/yaris/hybrid-115-3976",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Toyota Yaris",
+          "url": "https://autotijd.be/fr/prix/toyota/yaris",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "toyota-corolla-2023",
+      "modelId": "toyota-corolla",
+      "brandId": "toyota",
+      "modelName": "Corolla",
+      "name": "Toyota Corolla (E210 restylée, 2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte hybride (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes",
+        "Break (Touring Sports)"
+      ],
+      "categories": [
+        "compact",
+        "wagon"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2023 Toyota Corolla Touring Sports Hybrid (E210) IMG 7679.jpg",
+          "caption": "Toyota Corolla Touring Sports Hybrid à Filderstadt",
+          "depicts": "Toyota Corolla Touring Sports Hybrid (E210), 2023",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 Toyota Corolla Touring Sports Hybrid (E210) 1X7A7081.jpg",
+          "caption": "Toyota Corolla Touring Sports Hybrid à Filderstadt",
+          "depicts": "Toyota Corolla Touring Sports Hybrid (E210), 2023",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Toyota Corolla restylée est une compacte hybride déclinée en 5 portes et en break Touring Sports. Elle reçoit un 1.8 hybride de 140 ch ou un 2.0 hybride de 196 ch.",
+        "positioning": "Compacte familiale de Toyota, entre la Yaris et le C-HR / RAV4.",
+        "technicalFacts": [
+          "Plateforme TNGA GA-C, code modèle E210 (restylage).",
+          "Hybride 1,8 l de 140 ch (103 kW) ou 2,0 l de 196 ch (144 kW), toujours en traction.",
+          "Le break Touring Sports mesure 4,65 m pour 2,70 m d'empattement, contre 4,37 m et 2,64 m pour la 5 portes (Autotijd).",
+          "Coffre de 596 l pour le Touring Sports 1.8, 361 l pour la 5 portes."
+        ],
+        "pros": [
+          "Consommation WLTP contenue (4,4 l/100 km annoncés pour les deux moteurs).",
+          "Break Touring Sports logeable, avec près de 600 l de coffre en 1.8.",
+          "2.0 hybride de 196 ch nettement plus vif (7,4 s de 0 à 100 km/h)."
+        ],
+        "differentiators": [
+          "Une des rares compactes à proposer uniquement de l'hybride non rechargeable, en berline comme en break."
+        ],
+        "pricePositioning": "Prix belges comparables entre 5 portes et Touring Sports en 1.8 (autour de 35 000 € en entrée de gamme, barème de décembre 2024).",
+        "innovations": [],
+        "compromises": [
+          "Coffre de la 5 portes limité (361 l) pour une compacte.",
+          "Pas de version rechargeable ni électrique."
+        ]
+      },
+      "variants": [
+        {
+          "id": "toyota-corolla-2023-hatch-1-8-hybrid-140",
+          "name": "5 portes 1.8 Hybrid 140 ch",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,8 l essence + moteur électrique (hybride non rechargeable)",
+            "displacementCc": 1798,
+            "electricMotors": 1
+          },
+          "powerHp": 140,
+          "powerKw": 103,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9.1,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 4.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 100,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4370,
+            "widthMm": 1790,
+            "heightMm": 1460,
+            "wheelbaseMm": 2640
+          },
+          "seats": 5,
+          "trunkL": 361,
+          "equipmentHighlights": [
+            "Moteur thermique 98 ch / 142 Nm, moteur électrique 95 ch / 185 Nm",
+            "Batterie lithium-ion"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 34970,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Toyota Corolla",
+                "url": "https://autotijd.be/fr/prix/toyota/corolla",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Couple système non publié dans la source (moteur thermique 142 Nm, moteur électrique 185 Nm). Poids non publié dans la source. Prix : finition Dynamic, entrée de gamme de la 5 portes, barème belge de décembre 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Corolla 1.8L",
+              "url": "https://autotijd.be/fr/fiches-techniques/toyota/corolla/18l-3845",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Corolla 1.8L",
+              "url": "https://autotijd.be/fr/dimensions/toyota/corolla/18l-3845",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Toyota Corolla",
+              "url": "https://autotijd.be/fr/prix/toyota/corolla",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "toyota-corolla-2023-ts-1-8-hybrid-140",
+          "name": "Touring Sports 1.8 Hybrid 140 ch",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,8 l essence + moteur électrique (hybride non rechargeable)",
+            "displacementCc": 1798,
+            "electricMotors": 1
+          },
+          "powerHp": 140,
+          "powerKw": 103,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9.1,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 4.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 100,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4650,
+            "widthMm": 1790,
+            "heightMm": 1460,
+            "wheelbaseMm": 2700
+          },
+          "seats": 5,
+          "trunkL": 596,
+          "equipmentHighlights": [
+            "Coffre de 596 l, 1 860 l banquette rabattue",
+            "Batterie lithium-ion"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 34940,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Toyota Corolla Touring Sports",
+                "url": "https://autotijd.be/fr/prix/toyota/corolla-touring-sports",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Couple système non publié dans la source. Poids non publié dans la source. Prix : version de base du Touring Sports, barème belge de décembre 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Corolla Touring Sports 1.8L",
+              "url": "https://autotijd.be/fr/fiches-techniques/toyota/corolla-touring-sports/18l-3843",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Corolla Touring Sports 1.8L",
+              "url": "https://autotijd.be/fr/dimensions/toyota/corolla-touring-sports/18l-3843",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Toyota Corolla Touring Sports",
+              "url": "https://autotijd.be/fr/prix/toyota/corolla-touring-sports",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "toyota-corolla-2023-ts-2-0-hybrid-196-gr-sport",
+          "name": "Touring Sports 2.0 Hybrid 196 ch GR Sport",
+          "tier": "sport",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2,0 l essence + moteur électrique (hybride non rechargeable)",
+            "displacementCc": 1987,
+            "electricMotors": 1
+          },
+          "powerHp": 196,
+          "powerKw": 144,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 7.4,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 4.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 98,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4650,
+            "widthMm": 1790,
+            "heightMm": 1460,
+            "wheelbaseMm": 2700
+          },
+          "seats": 5,
+          "trunkL": 581,
+          "equipmentHighlights": [
+            "Moteur thermique 152 ch / 190 Nm, moteur électrique 113 ch / 206 Nm",
+            "Finition GR Sport"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 43730,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Toyota Corolla Touring Sports",
+                "url": "https://autotijd.be/fr/prix/toyota/corolla-touring-sports",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Couple système non publié dans la source. Poids non publié dans la source. Prix : 2.0L 196 ch GR Sport, barème belge de décembre 2024 (base de données tierce) ; le 2.0 n'apparaît pas dans le barème belge de la 5 portes.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Corolla Touring Sports 2.0L",
+              "url": "https://autotijd.be/fr/fiches-techniques/toyota/corolla-touring-sports/20l-5101",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Corolla Touring Sports 2.0L",
+              "url": "https://autotijd.be/fr/dimensions/toyota/corolla-touring-sports/20l-5101",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Toyota Corolla Touring Sports",
+              "url": "https://autotijd.be/fr/prix/toyota/corolla-touring-sports",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique Corolla 1.8L",
+          "url": "https://autotijd.be/fr/fiches-techniques/toyota/corolla/18l-3845",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Toyota Corolla",
+          "url": "https://autotijd.be/fr/prix/toyota/corolla",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Toyota Corolla Touring Sports",
+          "url": "https://autotijd.be/fr/prix/toyota/corolla-touring-sports",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "toyota-c-hr-2023",
+      "modelId": "toyota-c-hr",
+      "brandId": "toyota",
+      "modelName": "C-HR",
+      "name": "Toyota C-HR (AX20, 2e génération)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact coupé (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Toyota C-HR Hybrid (AX20) DSC 7239.jpg",
+          "caption": "Toyota C-HR Hybrid à Filderstadt",
+          "depicts": "Toyota C-HR Hybrid (AX20, 2e génération)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Toyota C-HR hybrid II GR Sport 1X7A1663.jpg",
+          "caption": "Toyota C-HR hybride GR Sport à Filderstadt",
+          "depicts": "Toyota C-HR (AX20) GR Sport",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Toyota C-HR de deuxième génération est un SUV compact au style de coupé, proposé en hybride 1.8 et 2.0 et en hybride rechargeable de 223 ch.",
+        "positioning": "SUV compact à vocation stylistique, entre le Yaris Cross et le RAV4.",
+        "technicalFacts": [
+          "Code modèle AX20, plateforme TNGA GA-C (Autotijd).",
+          "Hybride 1.8 de 140 ch, hybride 2.0 de 197 ch en transmission intégrale, hybride rechargeable 2.0 de 223 ch.",
+          "Autonomie électrique de 66 km pour la version rechargeable (Autotijd).",
+          "Longueur de 4 362 mm et empattement de 2 640 mm."
+        ],
+        "pros": [
+          "Large choix de motorisations électrifiées.",
+          "Hybride rechargeable vif (7,4 s de 0 à 100 km/h)."
+        ],
+        "differentiators": [
+          "Seul SUV compact de Toyota en Europe à proposer à la fois hybride et hybride rechargeable."
+        ],
+        "pricePositioning": "Gamme belge de 35 930 € (1.8 hybride) à 53 780 € (PHEV GR Sport Premiere), barème de décembre 2024.",
+        "innovations": [],
+        "compromises": [
+          "Coffre réduit sur la version rechargeable (310 l contre 388 l).",
+          "Ligne plongeante qui pénalise la visibilité et l'espace arrière, comme sur la première génération."
+        ]
+      },
+      "variants": [
+        {
+          "id": "toyota-c-hr-2023-1-8-hybrid-140",
+          "name": "1.8 Hybrid 140 ch",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,8 l essence + moteur électrique (hybride non rechargeable)",
+            "displacementCc": 1798,
+            "electricMotors": 1
+          },
+          "powerHp": 140,
+          "powerKw": 103,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9.9,
+          "topSpeedKmh": 175,
+          "consumption": {
+            "value": 4.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 103,
+          "weightKg": 1430,
+          "dimensions": {
+            "lengthMm": 4362,
+            "widthMm": 1832,
+            "heightMm": 1558,
+            "wheelbaseMm": 2640
+          },
+          "seats": 5,
+          "trunkL": 388,
+          "equipmentHighlights": [
+            "Jantes 17 pouces",
+            "Batterie lithium-ion"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 35930,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Toyota C-HR",
+                "url": "https://autotijd.be/fr/prix/toyota/c-hr",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 4,6–5,0 l/100 km et CO2 103–111 g/km selon équipement (Autotijd) ; valeurs les plus favorables retenues. Couple système non publié (moteur thermique 142 Nm, électrique 185 Nm). Prix : version de base, barème belge de décembre 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique C-HR 1.8 VVT-i 140 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/toyota/c-hr/18l-vvt-i-140-hp-3999",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions C-HR 1.8 VVT-i 140 ch",
+              "url": "https://autotijd.be/fr/dimensions/toyota/c-hr/18l-vvt-i-140-hp-3999",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Toyota C-HR",
+              "url": "https://autotijd.be/fr/prix/toyota/c-hr",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "toyota-c-hr-2023-2-0-hybrid-197-awd",
+          "name": "2.0 Hybrid 197 ch AWD-i",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2,0 l essence + moteur électrique (hybride non rechargeable), moteur électrique arrière",
+            "displacementCc": 1987,
+            "electricMotors": 2
+          },
+          "powerHp": 197,
+          "powerKw": 145,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Automatique",
+          "accel0100s": 7.9,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 4.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 112,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4362,
+            "widthMm": 1832,
+            "heightMm": 1558,
+            "wheelbaseMm": 2640
+          },
+          "seats": 5,
+          "trunkL": 388,
+          "equipmentHighlights": [
+            "Transmission intégrale par moteur électrique arrière de 41 ch (30 kW)",
+            "Jantes 17 pouces"
+          ],
+          "prices": [],
+          "notes": "Consommation WLTP 4,8–5,2 l/100 km et CO2 112–117 g/km (Autotijd) ; valeurs les plus favorables retenues. Couple système et poids non publiés dans la source. Cette motorisation ne figure pas dans le barème belge consulté : pas de prix.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique C-HR 2.0 VVT-i 197 ch AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/toyota/c-hr/20l-vvt-i-197-hp-awd-4001",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions C-HR 2.0 VVT-i 197 ch AWD",
+              "url": "https://autotijd.be/fr/dimensions/toyota/c-hr/20l-vvt-i-197-hp-awd-4001",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "toyota-c-hr-2023-2-0-phev-223",
+          "name": "2.0 Plug-in Hybrid 223 ch",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2,0 l essence + moteur électrique (hybride rechargeable)",
+            "displacementCc": 1987,
+            "electricMotors": 1
+          },
+          "powerHp": 223,
+          "powerKw": 164,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 7.4,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 0.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 66,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 19,
+          "weightKg": 1645,
+          "dimensions": {
+            "lengthMm": 4362,
+            "widthMm": 1832,
+            "heightMm": 1564,
+            "wheelbaseMm": 2640
+          },
+          "seats": 5,
+          "trunkL": 310,
+          "equipmentHighlights": [
+            "Moteur électrique de 163 ch (120 kW)",
+            "Jantes 18 pouces"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 42690,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Toyota C-HR",
+                "url": "https://autotijd.be/fr/prix/toyota/c-hr",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation pondérée WLTP 0,8–0,9 l/100 km et CO2 19–20 g/km (Autotijd). Capacité de batterie non publiée dans la source. Prix : finition Executive Bi-Tone, la moins chère en PHEV, barème belge de décembre 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique C-HR 2.0 VVT-i PHEV 223 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/toyota/c-hr/20l-vvt-i-phev-223-hp-4002",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions C-HR 2.0 VVT-i PHEV 223 ch",
+              "url": "https://autotijd.be/fr/dimensions/toyota/c-hr/20l-vvt-i-phev-223-hp-4002",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Toyota C-HR",
+              "url": "https://autotijd.be/fr/prix/toyota/c-hr",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique C-HR 1.8 VVT-i 140 ch",
+          "url": "https://autotijd.be/fr/fiches-techniques/toyota/c-hr/18l-vvt-i-140-hp-3999",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Toyota C-HR",
+          "url": "https://autotijd.be/fr/prix/toyota/c-hr",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "toyota-rav4-2026",
+      "modelId": "toyota-rav4",
+      "brandId": "toyota",
+      "modelName": "RAV4",
+      "name": "Toyota RAV4 (6e génération, 2026)",
+      "yearsLabel": "2026 –",
+      "startYear": 2026,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV familial (segment D)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "travel",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2026 Toyota RAV4 PHEV GR Sport Prototype.jpg",
+          "caption": "Prototype du Toyota RAV4 PHEV GR Sport",
+          "depicts": "Toyota RAV4 PHEV GR Sport (6e génération), prototype de présentation",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Toyota RAV4 de sixième génération n'est proposé en Europe qu'en hybride et en hybride rechargeable. La version rechargeable passe à une batterie de 22,7 kWh.",
+        "positioning": "SUV familial de Toyota, au-dessus du C-HR ; best-seller mondial de la marque.",
+        "technicalFacts": [
+          "En Europe : hybride (183 ch en traction, 191 ch en AWD-i) et hybride rechargeable (268 ch en traction, 304 ch en AWD-i), selon Toyota.",
+          "Batterie de 22,68 kWh pour l'hybride rechargeable, avec recharge DC 50 kW de 10 à 80 % en 30 minutes (Toyota).",
+          "Gabarit proche de la génération précédente : 4 600 mm de long et 2 690 mm d'empattement (Automobile Propre).",
+          "Premières livraisons en Allemagne annoncées pour juin 2026 (heise)."
+        ],
+        "pros": [
+          "Hybride rechargeable à grande autonomie électrique pour la catégorie.",
+          "Recharge rapide DC désormais possible sur la version rechargeable."
+        ],
+        "differentiators": [
+          "Pas de version thermique seule : uniquement hybride ou hybride rechargeable en Europe."
+        ],
+        "pricePositioning": "Prix français à partir de 46 450 € en hybride traction (Automobile Propre, décembre 2025) ; au Royaume-Uni, gamme rechargeable de 43 845 £ à 52 045 £ (GR Sport AWD).",
+        "innovations": [
+          "Recharge rapide DC 50 kW sur l'hybride rechargeable."
+        ],
+        "compromises": [
+          "Puissances européennes inférieures à celles annoncées pour l'Amérique du Nord (normes UE).",
+          "Données techniques européennes détaillées encore partielles et parfois contradictoires selon les sources."
+        ]
+      },
+      "variants": [
+        {
+          "id": "toyota-rav4-2026-hybrid-191-awd",
+          "name": "2.5 Hybrid 191 ch AWD-i",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2,5 l essence + moteurs électriques avant et arrière (hybride non rechargeable)",
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "powerHp": 191,
+          "powerKw": 140,
+          "torqueNm": 221,
+          "drivetrain": "awd",
+          "gearbox": "Automatique",
+          "accel0100s": 7.7,
+          "topSpeedKmh": 180,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1625,
+          "dimensions": {
+            "lengthMm": 4600,
+            "widthMm": 1855,
+            "heightMm": 1680,
+            "wheelbaseMm": 2690
+          },
+          "seats": 5,
+          "trunkL": 514,
+          "equipmentHighlights": [
+            "Transmission intégrale AWD-i par moteur électrique arrière de 40 kW (heise)"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 48500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-12",
+              "source": {
+                "label": "Automobile Propre – Nouveau Toyota RAV4 hybride (2026) : la gamme et les prix",
+                "url": "https://www.automobile-propre.com/articles/nouveau-toyota-rav4-hybride-2026-voici-la-gamme-et-les-prix/",
+                "type": "press",
+                "publishedAt": "2025-12-31",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Fiche Automobile Propre : 191 ch (140 kW), 221 Nm, 0-100 km/h 7,7 s, 180 km/h, poids à vide 1 625–1 655 kg (valeur basse retenue), coffre 514 l. heise donne 143 kW de puissance système pour l'AWD. Consommation (5,7 l/100 km « mixte ») et CO2 (121 g/km) de la fiche non retenus : cycle non précisé et incohérents avec l'article prix (5,6–5,9 l/100 km, 126–132 g/km). La fiche indique « Traction » pour cette version AWD, incohérence non résolue. Prix France : finition Dynamic 4x4, à la commande (décembre 2025).",
+          "sources": [
+            {
+              "label": "Automobile Propre – fiche technique nouveau Toyota RAV4 hybride",
+              "url": "https://www.automobile-propre.com/voitures/nouveau-toyota-rav4-hybride/fiche-technique",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Automobile Propre – Nouveau Toyota RAV4 hybride (2026) : la gamme et les prix",
+              "url": "https://www.automobile-propre.com/articles/nouveau-toyota-rav4-hybride-2026-voici-la-gamme-et-les-prix/",
+              "type": "press",
+              "publishedAt": "2025-12-31",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "heise autos – Toyota RAV4 de sixième génération, commandes ouvertes",
+              "url": "https://heise.de/-11247876",
+              "type": "press",
+              "publishedAt": "2026-04-07",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Toyota Chypre – World debut: new RAV4",
+              "url": "https://www.toyota.com.cy/discover-toyota/news/2025/world-debut-rav4-2026",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "toyota-rav4-2026-phev-fwd",
+          "name": "2.5 Plug-in Hybrid traction",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2,5 l essence + moteur électrique (hybride rechargeable)",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 268,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": 22.68,
+          "charging": {
+            "dcMaxKw": 50,
+            "dc10to80Min": 30
+          },
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 5,
+          "trunkL": 446,
+          "equipmentHighlights": [
+            "Batterie lithium-ion de 22,68 kWh",
+            "Recharge DC 50 kW en option (heise)",
+            "Chargeur embarqué 11 kW (heise)"
+          ],
+          "prices": [
+            {
+              "market": "GB",
+              "amount": 43845,
+              "currency": "GBP",
+              "type": "range-start",
+              "asOf": "2026-04",
+              "source": {
+                "label": "EV Fleet World – Toyota reveals range and pricing for all-new RAV4 (UK)",
+                "url": "https://evfleetworld.co.uk/?p=66783",
+                "type": "press",
+                "publishedAt": "2026-04-07",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "268 ch selon Toyota Chypre ; 200 kW de puissance système selon heise. Autonomie électrique 126–137 km selon heise, « jusqu'à 100 km » selon Toyota au lancement (mai 2025) : valeur laissée vide faute de chiffre WLTP constructeur. Coffre 446 l (heise, version PHEV). Recharge DC 50 kW optionnelle. Prix : finition Icon (Royaume-Uni), la gamme britannique étant exclusivement rechargeable ; aucun prix belge trouvé.",
+          "sources": [
+            {
+              "label": "Toyota Chypre – World debut: new RAV4",
+              "url": "https://www.toyota.com.cy/discover-toyota/news/2025/world-debut-rav4-2026",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "heise autos – Toyota RAV4 de sixième génération, commandes ouvertes",
+              "url": "https://heise.de/-11247876",
+              "type": "press",
+              "publishedAt": "2026-04-07",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "EV Fleet World – Toyota reveals range and pricing for all-new RAV4 (UK)",
+              "url": "https://evfleetworld.co.uk/?p=66783",
+              "type": "press",
+              "publishedAt": "2026-04-07",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "toyota-rav4-2026-phev-awd-gr-sport",
+          "name": "2.5 Plug-in Hybrid 304 ch AWD-i GR Sport",
+          "tier": "sport",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2,5 l essence + moteurs électriques avant et arrière (hybride rechargeable)",
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "powerHp": 304,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Automatique",
+          "accel0100s": 5.8,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": 22.68,
+          "charging": {
+            "dcMaxKw": 50,
+            "dc10to80Min": 30
+          },
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 5,
+          "trunkL": 446,
+          "equipmentHighlights": [
+            "Batterie lithium-ion de 22,68 kWh",
+            "Transmission intégrale AWD-i",
+            "Finition GR Sport"
+          ],
+          "prices": [
+            {
+              "market": "GB",
+              "amount": 52045,
+              "currency": "GBP",
+              "type": "variant",
+              "asOf": "2026-04",
+              "source": {
+                "label": "EV Fleet World – Toyota reveals range and pricing for all-new RAV4 (UK)",
+                "url": "https://evfleetworld.co.uk/?p=66783",
+                "type": "press",
+                "publishedAt": "2026-04-07",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "304 ch et 0-100 km/h en 5,8 s selon Toyota Chypre ; heise donne 227 kW de puissance système, valeur non retenue car incohérente avec 304 ch. Autonomie électrique 121–133 km en AWD selon heise, non retenue faute de chiffre WLTP constructeur. Coffre 446 l (heise, version PHEV). Prix : GR Sport AWD au Royaume-Uni ; aucun prix belge trouvé.",
+          "sources": [
+            {
+              "label": "Toyota Chypre – World debut: new RAV4",
+              "url": "https://www.toyota.com.cy/discover-toyota/news/2025/world-debut-rav4-2026",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "heise autos – Toyota RAV4 de sixième génération, commandes ouvertes",
+              "url": "https://heise.de/-11247876",
+              "type": "press",
+              "publishedAt": "2026-04-07",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "EV Fleet World – Toyota reveals range and pricing for all-new RAV4 (UK)",
+              "url": "https://evfleetworld.co.uk/?p=66783",
+              "type": "press",
+              "publishedAt": "2026-04-07",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Toyota Chypre – World debut: new RAV4",
+          "url": "https://www.toyota.com.cy/discover-toyota/news/2025/world-debut-rav4-2026",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "heise autos – Toyota RAV4 de sixième génération, commandes ouvertes",
+          "url": "https://heise.de/-11247876",
+          "type": "press",
+          "publishedAt": "2026-04-07",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Automobile Propre – Nouveau Toyota RAV4 hybride (2026) : la gamme et les prix",
+          "url": "https://www.automobile-propre.com/articles/nouveau-toyota-rav4-hybride-2026-voici-la-gamme-et-les-prix/",
+          "type": "press",
+          "publishedAt": "2025-12-31",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "toyota-aygo-x-2025",
+      "modelId": "toyota-aygo-x",
+      "brandId": "toyota",
+      "modelName": "Aygo X",
+      "name": "Toyota Aygo X Hybrid (AB70 restylée, 2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine crossover (segment A)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Toyota Aygo X Hybrid IMG 4367.jpg",
+          "caption": "Toyota Aygo X Hybrid à Filderstadt",
+          "depicts": "Toyota Aygo X Hybrid (restylage 2025)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Toyota Aygo X Hybrid Auto Zuerich 2025 DSC 3422.jpg",
+          "caption": "Toyota Aygo X Hybrid à l'Auto Zürich 2025",
+          "depicts": "Toyota Aygo X Hybrid (restylage 2025)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Restylée fin 2025, la Toyota Aygo X abandonne son 3 cylindres essence pour le groupe hybride de 116 ch de la Yaris. Elle reste assemblée à Kolín (République tchèque).",
+        "positioning": "Plus petite Toyota vendue en Europe, sous la Yaris.",
+        "technicalFacts": [
+          "Code modèle AB70 (restylage), plateforme TNGA GA-B, production à Kolín (Autotijd).",
+          "Groupe hybride 1,5 l de 116 ch (85 kW) commun à toutes les versions (Toyota UK).",
+          "CO2 de 87 g/km en cycle mixte WLTP (Toyota UK)."
+        ],
+        "pros": [
+          "Consommation et émissions très basses pour une citadine non rechargeable.",
+          "Boîte automatique de série."
+        ],
+        "differentiators": [
+          "Une des seules citadines du segment A proposées en hybride complet."
+        ],
+        "pricePositioning": "Nettement plus chère que l'ancienne version essence : 22 100 € en France en entrée de gamme (prix catalogue, décembre 2025).",
+        "innovations": [],
+        "compromises": [
+          "Seulement 4 places.",
+          "Coffre de 231 l.",
+          "Fin de la boîte manuelle."
+        ]
+      },
+      "variants": [
+        {
+          "id": "toyota-aygo-x-2025-hybrid-116",
+          "name": "Hybrid 116 ch",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,5 l essence + moteur électrique (hybride non rechargeable)",
+            "displacementCc": 1490,
+            "electricMotors": 1
+          },
+          "powerHp": 116,
+          "powerKw": 85,
+          "torqueNm": 141,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 87,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": null,
+            "widthMm": null,
+            "heightMm": null,
+            "wheelbaseMm": 2430
+          },
+          "seats": 4,
+          "trunkL": 231,
+          "equipmentHighlights": [
+            "Jantes 17 pouces, écran tactile 9 pouces, climatisation automatique (finition Icon, Royaume-Uni)",
+            "Toyota Safety Sense"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 22100,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2025-12",
+              "source": {
+                "label": "Actu-Automobile – Aygo X hybride 2025 : la citadine Toyota dépasse les 22 000 €",
+                "url": "https://www.actu-automobile.com/?p=141470",
+                "type": "press",
+                "publishedAt": "2025-12-01",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance, couple, cylindrée, empattement et coffre : Autotijd (la même page affiche une longueur de « 0 mm », donnée erronée non reprise). Longueur annoncée « 3,78 m » par Actu-Automobile, arrondie, non retenue. CO2 87 g/km (Toyota UK) ; consommation publiée seulement en mpg. 0-100 km/h « sous les 10 s » selon Actu-Automobile, non chiffré précisément. Prix : finition de base en France, prix catalogue avant remise de lancement ; aucun prix belge de la version hybride trouvé.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Aygo X Hybrid 115",
+              "url": "https://autotijd.be/fr/fiches-techniques/toyota/aygo-x/hybrid-115-5369",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Aygo X Hybrid 115",
+              "url": "https://autotijd.be/fr/dimensions/toyota/aygo-x/hybrid-115-5369",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Toyota UK Media – Equipment specifications and prices for the new Aygo X Hybrid",
+              "url": "https://media.toyota.co.uk/toyota-announces-equipment-specifications-and-prices-for-the-new-aygo-x-hybrid/",
+              "type": "manufacturer",
+              "publishedAt": "2025-11-25",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Actu-Automobile – Aygo X hybride 2025 : la citadine Toyota dépasse les 22 000 €",
+              "url": "https://www.actu-automobile.com/?p=141470",
+              "type": "press",
+              "publishedAt": "2025-12-01",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "toyota-aygo-x-2025-hybrid-116-gr-sport",
+          "name": "Hybrid 116 ch GR Sport",
+          "tier": "sport",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,5 l essence + moteur électrique (hybride non rechargeable)",
+            "displacementCc": 1490,
+            "electricMotors": 1
+          },
+          "powerHp": 116,
+          "powerKw": 85,
+          "torqueNm": 141,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": null,
+            "widthMm": null,
+            "heightMm": null,
+            "wheelbaseMm": 2430
+          },
+          "seats": 4,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Suspension à réglage sport",
+            "Jantes GR 18 pouces",
+            "Capot noir sur peinture bi-ton (Toyota UK)"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 28100,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-12",
+              "source": {
+                "label": "Actu-Automobile – Aygo X hybride 2025 : la citadine Toyota dépasse les 22 000 €",
+                "url": "https://www.actu-automobile.com/?p=141470",
+                "type": "press",
+                "publishedAt": "2025-12-01",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Toyota UK indique que toutes les finitions partagent le même groupe hybride de 116 ch ; puissance, couple et cylindrée repris de la fiche Autotijd du Hybrid 115. CO2 et coffre non publiés spécifiquement pour la GR Sport. Prix France : GR Sport, haut de gamme (Actu-Automobile) ; au Royaume-Uni 26 895 £.",
+          "sources": [
+            {
+              "label": "Toyota UK Media – Equipment specifications and prices for the new Aygo X Hybrid",
+              "url": "https://media.toyota.co.uk/toyota-announces-equipment-specifications-and-prices-for-the-new-aygo-x-hybrid/",
+              "type": "manufacturer",
+              "publishedAt": "2025-11-25",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Actu-Automobile – Aygo X hybride 2025 : la citadine Toyota dépasse les 22 000 €",
+              "url": "https://www.actu-automobile.com/?p=141470",
+              "type": "press",
+              "publishedAt": "2025-12-01",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – fiche technique Aygo X Hybrid 115",
+              "url": "https://autotijd.be/fr/fiches-techniques/toyota/aygo-x/hybrid-115-5369",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Toyota UK Media – Equipment specifications and prices for the new Aygo X Hybrid",
+          "url": "https://media.toyota.co.uk/toyota-announces-equipment-specifications-and-prices-for-the-new-aygo-x-hybrid/",
+          "type": "manufacturer",
+          "publishedAt": "2025-11-25",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Actu-Automobile – Aygo X hybride 2025 : la citadine Toyota dépasse les 22 000 €",
+          "url": "https://www.actu-automobile.com/?p=141470",
+          "type": "press",
+          "publishedAt": "2025-12-01",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Aygo X Hybrid 115",
+          "url": "https://autotijd.be/fr/fiches-techniques/toyota/aygo-x/hybrid-115-5369",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "hyundai-tucson-2024",
+      "modelId": "hyundai-tucson",
+      "brandId": "hyundai",
+      "modelName": "Tucson",
+      "name": "Hyundai Tucson (NX4 restylé, 2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Hyundai Tucson (NX4, SWB) Facelift IMG 2347.jpg",
+          "caption": "Hyundai Tucson restylé à Böblingen",
+          "depicts": "Hyundai Tucson (NX4 restylé)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Hyundai Tucson (NX4, SWB) Facelift Sindelfingen 2024 IMG 9237.jpg",
+          "caption": "Hyundai Tucson restylé à l'Autosalon Sindelfingen 2024",
+          "depicts": "Hyundai Tucson (NX4 restylé)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Hyundai Tucson restylé (NX4) est le SUV compact familial de Hyundai, avec une gamme allant de l'essence au diesel micro-hybride, à l'hybride et à l'hybride rechargeable.",
+        "positioning": "SUV compact familial de Hyundai, au-dessus du Kona et sous le Santa Fe.",
+        "technicalFacts": [
+          "Code modèle NX4 (restylage), 4 510 mm de long pour 2 680 mm d'empattement (Autotijd).",
+          "Hybride 1.6 T-GDi de 215 ch (158 kW) avec batterie lithium-ion de 1,49 kWh, en traction ou transmission intégrale.",
+          "Diesel 1.6 CRDi de 136 ch en micro-hybride, boîte automatique à 7 rapports.",
+          "Coffre de 620 l en essence (Autotijd)."
+        ],
+        "pros": [
+          "Gamme très complète de motorisations.",
+          "Grand coffre pour la catégorie.",
+          "Hybride de 215 ch performant (8,5 s de 0 à 100 km/h en AWD)."
+        ],
+        "differentiators": [
+          "Un des derniers SUV compacts à proposer encore un diesel en Belgique."
+        ],
+        "pricePositioning": "Gamme belge de 35 249 € (1.6 T-GDi BVM) à 57 599 € (PHEV AWD Shine), barème de décembre 2024.",
+        "innovations": [],
+        "compromises": [
+          "Consommation élevée de l'essence seule (6,7–7,1 l/100 km WLTP).",
+          "Hybride AWD lourd (1 846 kg en ordre de marche)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "hyundai-tucson-2024-1-6-t-gdi-160-bvm",
+          "name": "1.6 T-GDi 160 ch BVM",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l turbo essence",
+            "displacementCc": 1598,
+            "electricMotors": null
+          },
+          "powerHp": 160,
+          "powerKw": 118,
+          "torqueNm": 265,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 9.9,
+          "topSpeedKmh": 194,
+          "consumption": {
+            "value": 6.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 152,
+          "weightKg": 1661,
+          "dimensions": {
+            "lengthMm": 4510,
+            "widthMm": 1865,
+            "heightMm": 1650,
+            "wheelbaseMm": 2680
+          },
+          "seats": 5,
+          "trunkL": 620,
+          "equipmentHighlights": [
+            "Boîte manuelle 6 rapports"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 35249,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Hyundai Tucson",
+                "url": "https://autotijd.be/fr/prix/hyundai/tucson",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 6,7–7,1 l/100 km et CO2 152–162 g/km (Autotijd) ; valeurs les plus favorables retenues. Poids en ordre de marche (1 661 kg), poids à vide non publié. Prix : finition Techno, barème belge de décembre 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Tucson 1.6 T-GDi BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/hyundai/tucson/16-t-gdi-160-manual-4338",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Tucson 1.6 T-GDi BVM",
+              "url": "https://autotijd.be/fr/dimensions/hyundai/tucson/16-t-gdi-160-manual-4338",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Hyundai Tucson",
+              "url": "https://autotijd.be/fr/prix/hyundai/tucson",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "hyundai-tucson-2024-1-6-crdi-136",
+          "name": "1.6 CRDi 136 ch DCT (micro-hybride 48 V)",
+          "tier": "mid",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l turbo diesel, micro-hybridation 48 V",
+            "displacementCc": 1598,
+            "electricMotors": null
+          },
+          "powerHp": 136,
+          "powerKw": 100,
+          "torqueNm": 320,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 11.4,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 5.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 134,
+          "weightKg": 1763,
+          "dimensions": {
+            "lengthMm": 4510,
+            "widthMm": 1865,
+            "heightMm": 1650,
+            "wheelbaseMm": 2680
+          },
+          "seats": 5,
+          "trunkL": 546,
+          "equipmentHighlights": [
+            "Micro-hybridation 48 V",
+            "Boîte automatique 7 rapports"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 41749,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Hyundai Tucson",
+                "url": "https://autotijd.be/fr/prix/hyundai/tucson",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Motorisation classée « Mhev diesel » par Autotijd. Consommation WLTP 5,1–5,6 l/100 km et CO2 134–147 g/km ; valeurs les plus favorables retenues. Poids en ordre de marche. Prix : finition Feel en boîte automatique, barème belge de décembre 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Tucson 1.6 CRDi",
+              "url": "https://autotijd.be/fr/fiches-techniques/hyundai/tucson/16-crdi-136-4337",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Tucson 1.6 CRDi",
+              "url": "https://autotijd.be/fr/dimensions/hyundai/tucson/16-crdi-136-4337",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Hyundai Tucson",
+              "url": "https://autotijd.be/fr/prix/hyundai/tucson",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "hyundai-tucson-2024-1-6-t-gdi-hev-215-awd",
+          "name": "1.6 T-GDi HEV 215 ch 4WD",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l turbo essence + moteur électrique (hybride non rechargeable)",
+            "displacementCc": 1598,
+            "electricMotors": 1
+          },
+          "powerHp": 215,
+          "powerKw": 158,
+          "torqueNm": 350,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 6 rapports",
+          "accel0100s": 8.5,
+          "topSpeedKmh": 186,
+          "consumption": {
+            "value": 6.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 143,
+          "weightKg": 1846,
+          "dimensions": {
+            "lengthMm": 4510,
+            "widthMm": 1865,
+            "heightMm": 1650,
+            "wheelbaseMm": 2680
+          },
+          "seats": 5,
+          "trunkL": 616,
+          "equipmentHighlights": [
+            "Batterie lithium-ion de 1,49 kWh",
+            "Moteur électrique de 65 ch (48 kW)",
+            "Transmission intégrale"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 47799,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Hyundai Tucson",
+                "url": "https://autotijd.be/fr/prix/hyundai/tucson",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 6,3–6,7 l/100 km et CO2 143–151 g/km (Autotijd) ; valeurs les plus favorables retenues. Poids en ordre de marche. Prix : finition Shine traction intégrale, barème belge de décembre 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Tucson 1.6 T-GDi HEV AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/hyundai/tucson/16-t-gdi-215-hev-awd-4340",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Tucson 1.6 T-GDi HEV AWD",
+              "url": "https://autotijd.be/fr/dimensions/hyundai/tucson/16-t-gdi-215-hev-awd-4340",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Hyundai Tucson",
+              "url": "https://autotijd.be/fr/prix/hyundai/tucson",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique Tucson 1.6 T-GDi BVM",
+          "url": "https://autotijd.be/fr/fiches-techniques/hyundai/tucson/16-t-gdi-160-manual-4338",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Hyundai Tucson",
+          "url": "https://autotijd.be/fr/prix/hyundai/tucson",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "hyundai-kona-2023",
+      "modelId": "hyundai-kona",
+      "brandId": "hyundai",
+      "modelName": "Kona",
+      "name": "Hyundai Kona (SX2, 2e génération)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "city"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Hyundai Kona Electric (SX2) 1X7A1554.jpg",
+          "caption": "Hyundai Kona Electric à Filderstadt",
+          "depicts": "Hyundai Kona Electric (SX2)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Hyundai Kona Hybrid SX2 Atlas White (1).jpg",
+          "caption": "Hyundai Kona Hybrid blanc Atlas",
+          "depicts": "Hyundai Kona Hybrid (SX2)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Hyundai Kona de deuxième génération (2023) est un SUV urbain proposé en essence micro-hybride, en hybride et en 100 % électrique.",
+        "positioning": "SUV urbain de Hyundai, sous le Tucson.",
+        "technicalFacts": [
+          "Longueur de 4 355 mm et empattement de 2 660 mm (Autotijd, EV Database).",
+          "Essence 1.0 T-GDi 48 V de 120 ch, hybride 1.6 GDi de 141 ch, 1.6 T-GDi de 198 ch en N Line.",
+          "Kona Electric 65,4 kWh utiles, 218 ch (160 kW), 514 km WLTP (EV Database).",
+          "Coffre de 466 l, 1 300 l banquette rabattue."
+        ],
+        "pros": [
+          "Trois énergies sur une même carrosserie.",
+          "Autonomie WLTP de 514 km pour l'électrique grande batterie.",
+          "Coffre généreux pour un SUV urbain."
+        ],
+        "differentiators": [
+          "Un des rares SUV du segment B proposé à la fois en essence, hybride et électrique."
+        ],
+        "pricePositioning": "Gamme belge de 26 449 € (1.0 T-GDi BVM) à 49 199 € (Electric 65 kWh Shine), barème de mars 2024.",
+        "innovations": [],
+        "compromises": [
+          "Version électrique nettement plus chère que les versions thermiques.",
+          "Hybride limité à 165 km/h."
+        ]
+      },
+      "variants": [
+        {
+          "id": "hyundai-kona-2023-1-0-t-gdi-120-bvm",
+          "name": "1.0 T-GDi 120 ch BVM (48 V)",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,0 l turbo essence, micro-hybridation 48 V",
+            "displacementCc": 998,
+            "electricMotors": null
+          },
+          "powerHp": 120,
+          "powerKw": 88,
+          "torqueNm": 172,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 11.8,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 5.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 128,
+          "weightKg": 1259,
+          "dimensions": {
+            "lengthMm": 4355,
+            "widthMm": 1825,
+            "heightMm": 1585,
+            "wheelbaseMm": 2660
+          },
+          "seats": 5,
+          "trunkL": 466,
+          "equipmentHighlights": [
+            "Micro-hybridation 48 V (batterie 0,44 kWh)",
+            "Jantes 16 pouces"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 26449,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Hyundai Kona",
+                "url": "https://autotijd.be/fr/prix/hyundai/kona",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Classé « Mhev essence » par Autotijd. Poids à vide 1 259 kg. Prix : finition Techno, barème belge « à partir de mars 2024 » (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Kona 1.0 T-GDI 48V BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/hyundai/kona/10-t-gdi-48v-120-hp-manual-3879",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Kona 1.0 T-GDI 48V BVM",
+              "url": "https://autotijd.be/fr/dimensions/hyundai/kona/10-t-gdi-48v-120-hp-manual-3879",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Hyundai Kona",
+              "url": "https://autotijd.be/fr/prix/hyundai/kona",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "hyundai-kona-2023-1-6-gdi-hybrid-141",
+          "name": "1.6 GDi Hybrid 141 ch",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l essence + moteur électrique (hybride non rechargeable)",
+            "displacementCc": 1580,
+            "electricMotors": 1
+          },
+          "powerHp": 141,
+          "powerKw": 104,
+          "torqueNm": 265,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 6 rapports",
+          "accel0100s": 10.9,
+          "topSpeedKmh": 165,
+          "consumption": {
+            "value": 4.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 104,
+          "weightKg": 1410,
+          "dimensions": {
+            "lengthMm": 4355,
+            "widthMm": 1825,
+            "heightMm": 1580,
+            "wheelbaseMm": 2660
+          },
+          "seats": 5,
+          "trunkL": 466,
+          "equipmentHighlights": [
+            "Batterie lithium-ion de 1,65 kWh",
+            "Jantes 16 pouces"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 30949,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Hyundai Kona",
+                "url": "https://autotijd.be/fr/prix/hyundai/kona",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "La fiche Autotijd est intitulée « 1.6 T-GDI » mais décrit la version hybride (moteur thermique de 105 ch, 1 580 cm³). Couple de 265 Nm tel que publié. Poids à vide 1 410 kg. Prix : 1.6L GDi 141 ch Techno, barème belge de mars 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Kona 1.6 hybride 141 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/hyundai/kona/16-t-gdi-141-hp-3880",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Kona 1.6 hybride 141 ch",
+              "url": "https://autotijd.be/fr/dimensions/hyundai/kona/16-t-gdi-141-hp-3880",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Hyundai Kona",
+              "url": "https://autotijd.be/fr/prix/hyundai/kona",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "hyundai-kona-2023-electric-65",
+          "name": "Electric 65,4 kWh 218 ch",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 218,
+          "powerKw": 160,
+          "torqueNm": 255,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 7.8,
+          "topSpeedKmh": 172,
+          "consumption": {
+            "value": 14.7,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 514,
+          "batteryKwh": 65.4,
+          "charging": {
+            "dcMaxKw": 105,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1773,
+          "dimensions": {
+            "lengthMm": 4355,
+            "widthMm": 1825,
+            "heightMm": 1575,
+            "wheelbaseMm": 2660
+          },
+          "seats": 5,
+          "trunkL": 466,
+          "equipmentHighlights": [
+            "Batterie de 65,4 kWh utiles (68,5 kWh bruts)",
+            "Charge DC jusqu'à 105 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 44699,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Hyundai Kona",
+                "url": "https://autotijd.be/fr/prix/hyundai/kona",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données EV Database (version MY24-25) : autonomie WLTP 514 km et consommation 14,7 kWh/100 km pour la valeur basse (TEL) ; 444 km en version la plus défavorable. Temps 10–80 % de 37 min donné par EV Database pour une borne 150 kW, non retenu (estimation du site). Poids EU à vide 1 773 kg. Prix belge : 65 kWh « 217 ch » Feel, barème de mars 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "EV Database – Hyundai Kona Electric 65 kWh (MY24-25)",
+              "url": "https://ev-database.org/car/1830/Hyundai-Kona-Electric-65-kWh",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Hyundai Kona",
+              "url": "https://autotijd.be/fr/prix/hyundai/kona",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique Kona 1.0 T-GDI 48V BVM",
+          "url": "https://autotijd.be/fr/fiches-techniques/hyundai/kona/10-t-gdi-48v-120-hp-manual-3879",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "EV Database – Hyundai Kona Electric 65 kWh (MY24-25)",
+          "url": "https://ev-database.org/car/1830/Hyundai-Kona-Electric-65-kWh",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Hyundai Kona",
+          "url": "https://autotijd.be/fr/prix/hyundai/kona",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "hyundai-i10-2023",
+      "modelId": "hyundai-i10",
+      "brandId": "hyundai",
+      "modelName": "i10",
+      "name": "Hyundai i10 (3e génération restylée, 2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine (segment A)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2023 Hyundai i10 N Line Auto Zuerich 2023 1X7A1287.jpg",
+          "caption": "Hyundai i10 N Line restylée à l'Auto Zürich 2023",
+          "depicts": "Hyundai i10 N Line (restylage 2023)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Hyundai i10 est une petite citadine 4 places à moteurs essence, du 1.0 MPI de 67 ch au 1.0 T-GDi turbo de 100 ch en N Line.",
+        "positioning": "Plus petite Hyundai en Europe, sous l'i20.",
+        "technicalFacts": [
+          "Longueur de 3 670 mm, empattement de 2 425 mm (Autotijd).",
+          "1.0 MPI 3 cylindres de 67 ch en boîte manuelle ou automatisée, 1.0 T-GDi turbo de 100 ch en N Line.",
+          "Coffre de 252 l, 1 050 l banquette rabattue."
+        ],
+        "pros": [
+          "Prix d'entrée bas en Belgique.",
+          "Gabarit idéal en ville."
+        ],
+        "differentiators": [
+          "Une des dernières citadines du segment A à moteur thermique avec une version turbo plus sportive (N Line)."
+        ],
+        "pricePositioning": "Gamme belge de 14 399 € à 20 949 €, barème d'avril 2024.",
+        "innovations": [],
+        "compromises": [
+          "Seulement 4 places.",
+          "Performances modestes avec le 67 ch (14,7 s de 0 à 100 km/h)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "hyundai-i10-2023-1-0-mpi-67-bvm",
+          "name": "1.0 MPI 67 ch BVM",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,0 l essence atmosphérique",
+            "displacementCc": 998,
+            "electricMotors": null
+          },
+          "powerHp": 67,
+          "powerKw": 49,
+          "torqueNm": 95,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": 14.7,
+          "topSpeedKmh": 156,
+          "consumption": {
+            "value": 5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 113,
+          "weightKg": 933,
+          "dimensions": {
+            "lengthMm": 3670,
+            "widthMm": 1680,
+            "heightMm": 1480,
+            "wheelbaseMm": 2425
+          },
+          "seats": 4,
+          "trunkL": 252,
+          "equipmentHighlights": [
+            "Jantes 14 pouces"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 14399,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – prix belges Hyundai i10",
+                "url": "https://autotijd.be/fr/prix/hyundai/i10",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 5,0–5,3 l/100 km et CO2 113–120 g/km (Autotijd) ; valeurs les plus favorables retenues. La fiche Autotijd mentionne la norme Euro 6d-TEMP, ce qui suggère des données d'homologation antérieures au restylage. Prix : finition Air, barème belge d'avril 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique i10 1.0 MPI BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/hyundai/i10/10-mpi-67-hp-manual-3842",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions i10 1.0 MPI BVM",
+              "url": "https://autotijd.be/fr/dimensions/hyundai/i10/10-mpi-67-hp-manual-3842",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Hyundai i10",
+              "url": "https://autotijd.be/fr/prix/hyundai/i10",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "hyundai-i10-2023-1-0-mpi-67-auto",
+          "name": "1.0 MPI 67 ch automatique",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,0 l essence atmosphérique",
+            "displacementCc": 998,
+            "electricMotors": null
+          },
+          "powerHp": 67,
+          "powerKw": 49,
+          "torqueNm": 95,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 156,
+          "consumption": {
+            "value": 5.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 117,
+          "weightKg": 921,
+          "dimensions": {
+            "lengthMm": 3670,
+            "widthMm": 1680,
+            "heightMm": 1480,
+            "wheelbaseMm": 2425
+          },
+          "seats": 4,
+          "trunkL": 252,
+          "equipmentHighlights": [
+            "Boîte automatique 5 rapports"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 16899,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – prix belges Hyundai i10",
+                "url": "https://autotijd.be/fr/prix/hyundai/i10",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 5,2–5,6 l/100 km et CO2 117–127 g/km (Autotijd) ; valeurs les plus favorables retenues. 0-100 km/h non publié. Poids à vide de 921 kg tel que publié (inférieur à la version manuelle). Prix : finition Twist automatique, barème belge d'avril 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique i10 1.0 MPI",
+              "url": "https://autotijd.be/fr/fiches-techniques/hyundai/i10/10-mpi-3840",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions i10 1.0 MPI",
+              "url": "https://autotijd.be/fr/dimensions/hyundai/i10/10-mpi-3840",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Hyundai i10",
+              "url": "https://autotijd.be/fr/prix/hyundai/i10",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "hyundai-i10-2023-1-0-t-gdi-100-n-line",
+          "name": "1.0 T-GDi 100 ch BVM N Line",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,0 l turbo essence",
+            "displacementCc": 998,
+            "electricMotors": null
+          },
+          "powerHp": 100,
+          "powerKw": 74,
+          "torqueNm": 172,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 5.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 123,
+          "weightKg": 1024,
+          "dimensions": {
+            "lengthMm": 3670,
+            "widthMm": 1680,
+            "heightMm": 1480,
+            "wheelbaseMm": 2425
+          },
+          "seats": 4,
+          "trunkL": 252,
+          "equipmentHighlights": [
+            "Finition N Line",
+            "Jantes 16 pouces"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 18899,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – prix belges Hyundai i10",
+                "url": "https://autotijd.be/fr/prix/hyundai/i10",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "0-100 km/h non publié dans la source. Poids à vide 1 024 kg. Prix : finition Twist N Line, barème belge d'avril 2024 (base de données tierce) ; Sky N Line à 20 949 €.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique i10 1.0 T-GDi BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/hyundai/i10/10-t-gdi-100-hp-manual-3841",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions i10 1.0 T-GDi BVM",
+              "url": "https://autotijd.be/fr/dimensions/hyundai/i10/10-t-gdi-100-hp-manual-3841",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Hyundai i10",
+              "url": "https://autotijd.be/fr/prix/hyundai/i10",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique i10 1.0 MPI BVM",
+          "url": "https://autotijd.be/fr/fiches-techniques/hyundai/i10/10-mpi-67-hp-manual-3842",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Hyundai i10",
+          "url": "https://autotijd.be/fr/prix/hyundai/i10",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "hyundai-i20-2023",
+      "modelId": "hyundai-i20",
+      "brandId": "hyundai",
+      "modelName": "i20",
+      "name": "Hyundai i20 (BC3 restylée, 2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine (segment B)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Hyundai i20 (BC3) Facelift Auto Zuerich 2023 1X7A0968.jpg",
+          "caption": "Hyundai i20 restylée à l'Auto Zürich 2023",
+          "depicts": "Hyundai i20 (BC3 restylée)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Hyundai i20 restylée est une citadine essence de 4,07 m, proposée en 1.2 MPI de 84 ch ou en 1.0 T-GDi micro-hybride de 100 ch.",
+        "positioning": "Citadine polyvalente de Hyundai, entre l'i10 et le Kona.",
+        "technicalFacts": [
+          "Code modèle BC3, longueur 4 065 mm, empattement 2 580 mm (Autotijd).",
+          "1.0 T-GDi micro-hybride 48 V de 100 ch en boîte manuelle 6 rapports ou double embrayage 7 rapports.",
+          "Coffre de 352 l (1.2) ou 262 l (1.0 T-GDi) selon Autotijd."
+        ],
+        "pros": [
+          "Habitabilité correcte pour la catégorie.",
+          "Micro-hybridation de série sur le 1.0 T-GDi."
+        ],
+        "differentiators": [
+          "Boîte à double embrayage disponible sur une citadine à prix contenu."
+        ],
+        "pricePositioning": "Gamme belge de 18 599 € à 26 349 € hors i20 N, barème de mars 2024.",
+        "innovations": [],
+        "compromises": [
+          "Pas de version hybride complète ni électrique.",
+          "Coffre réduit sur les versions 1.0 T-GDi selon la fiche consultée."
+        ]
+      },
+      "variants": [
+        {
+          "id": "hyundai-i20-2023-1-2-mpi-84-bvm",
+          "name": "1.2 MPI 84 ch BVM",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,2 l essence atmosphérique",
+            "displacementCc": 1197,
+            "electricMotors": null
+          },
+          "powerHp": 84,
+          "powerKw": 62,
+          "torqueNm": 118,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": 13.1,
+          "topSpeedKmh": 173,
+          "consumption": {
+            "value": 5.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 119,
+          "weightKg": 1088,
+          "dimensions": {
+            "lengthMm": 4065,
+            "widthMm": 1775,
+            "heightMm": 1450,
+            "wheelbaseMm": 2580
+          },
+          "seats": 5,
+          "trunkL": 352,
+          "equipmentHighlights": [
+            "Jantes 15 pouces"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 18599,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Hyundai i20",
+                "url": "https://autotijd.be/fr/prix/hyundai/i20",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 5,2–5,3 l/100 km et CO2 119–120 g/km (Autotijd) ; valeurs les plus favorables retenues. Poids à vide. Prix : finition Twist, barème belge de mars 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique i20 1.2 MPI BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/hyundai/i20/12-mpi-84-hp-manual-4069",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions i20 1.2 MPI BVM",
+              "url": "https://autotijd.be/fr/dimensions/hyundai/i20/12-mpi-84-hp-manual-4069",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Hyundai i20",
+              "url": "https://autotijd.be/fr/prix/hyundai/i20",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "hyundai-i20-2023-1-0-t-gdi-100-bvm",
+          "name": "1.0 T-GDi 100 ch BVM (48 V)",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,0 l turbo essence, micro-hybridation 48 V",
+            "displacementCc": 998,
+            "electricMotors": null
+          },
+          "powerHp": 100,
+          "powerKw": 74,
+          "torqueNm": 171,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 10.4,
+          "topSpeedKmh": 188,
+          "consumption": {
+            "value": 5.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 115,
+          "weightKg": 1165,
+          "dimensions": {
+            "lengthMm": 4065,
+            "widthMm": 1775,
+            "heightMm": 1450,
+            "wheelbaseMm": 2580
+          },
+          "seats": 5,
+          "trunkL": 262,
+          "equipmentHighlights": [
+            "Micro-hybridation 48 V (batterie 0,44 kWh)",
+            "Jantes 16 pouces"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 19949,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Hyundai i20",
+                "url": "https://autotijd.be/fr/prix/hyundai/i20",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "CO2 115–118 g/km (Autotijd) ; valeur la plus favorable retenue. Coffre de 262 l tel que publié (352 l pour le 1.2). Prix : finition Twist, barème belge de mars 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique i20 1.0 T-GDi BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/hyundai/i20/10-t-gdi-100-hp-manual-4070",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions i20 1.0 T-GDi BVM",
+              "url": "https://autotijd.be/fr/dimensions/hyundai/i20/10-t-gdi-100-hp-manual-4070",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Hyundai i20",
+              "url": "https://autotijd.be/fr/prix/hyundai/i20",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "hyundai-i20-2023-1-0-t-gdi-100-dct",
+          "name": "1.0 T-GDi 100 ch DCT (48 V)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,0 l turbo essence, micro-hybridation 48 V",
+            "displacementCc": 998,
+            "electricMotors": null
+          },
+          "powerHp": 100,
+          "powerKw": 74,
+          "torqueNm": 171,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique double embrayage 7 rapports",
+          "accel0100s": 11.4,
+          "topSpeedKmh": 185,
+          "consumption": {
+            "value": 5.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 117,
+          "weightKg": 1190,
+          "dimensions": {
+            "lengthMm": 4065,
+            "widthMm": 1775,
+            "heightMm": 1450,
+            "wheelbaseMm": 2580
+          },
+          "seats": 5,
+          "trunkL": 262,
+          "equipmentHighlights": [
+            "Boîte à double embrayage 7 rapports",
+            "Micro-hybridation 48 V"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 26349,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Hyundai i20",
+                "url": "https://autotijd.be/fr/prix/hyundai/i20",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Autotijd indique « Automatique, 7 rapports » ; le prix belge est listé sans précision de type de boîte. CO2 117–118 g/km ; valeur la plus favorable retenue. Prix : finition Sky automatique, haut de gamme hors i20 N, barème belge de mars 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique i20 1.0 T-GDi",
+              "url": "https://autotijd.be/fr/fiches-techniques/hyundai/i20/10-t-gdi-100-hp-4071",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions i20 1.0 T-GDi",
+              "url": "https://autotijd.be/fr/dimensions/hyundai/i20/10-t-gdi-100-hp-4071",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Hyundai i20",
+              "url": "https://autotijd.be/fr/prix/hyundai/i20",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique i20 1.2 MPI BVM",
+          "url": "https://autotijd.be/fr/fiches-techniques/hyundai/i20/12-mpi-84-hp-manual-4069",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Hyundai i20",
+          "url": "https://autotijd.be/fr/prix/hyundai/i20",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "hyundai-inster-2024",
+      "modelId": "hyundai-inster",
+      "brandId": "hyundai",
+      "modelName": "Inster",
+      "name": "Hyundai Inster (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine électrique (segment A)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Hyundai Inster DSC 7945.jpg",
+          "caption": "Hyundai Inster à Esslingen",
+          "depicts": "Hyundai Inster (2024)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Hyundai Inster Auto Zuerich 2024 DSC 6286.jpg",
+          "caption": "Hyundai Inster à l'Auto Zürich 2024",
+          "depicts": "Hyundai Inster (2024)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Hyundai Inster est une petite citadine électrique de 3,83 m, proposée avec une batterie de 42 kWh ou 49 kWh. Elle offre jusqu'à 370 km d'autonomie WLTP.",
+        "positioning": "Voiture électrique d'entrée de gamme de Hyundai en Europe, sous le Kona Electric.",
+        "technicalFacts": [
+          "Batteries de 42 kWh (97 ch) ou 49 kWh (115 ch), couple de 147 Nm (Autotijd).",
+          "Autonomie WLTP de 327 km (42 kWh) et 360–370 km (49 kWh).",
+          "Recharge 10–80 % en 30 minutes sur borne rapide, chargeur AC 11 kW (Autotijd).",
+          "Fonction V2L (alimentation d'appareils externes)."
+        ],
+        "pros": [
+          "Autonomie élevée pour une citadine de ce gabarit.",
+          "Prix d'entrée contenu pour une électrique en Belgique."
+        ],
+        "differentiators": [
+          "Format de mini-SUV citadin électrique très compact."
+        ],
+        "pricePositioning": "Gamme belge de 24 499 € à 33 049 €, barème de décembre 2024.",
+        "innovations": [
+          "Prise V2L."
+        ],
+        "compromises": [
+          "Vitesse maximale limitée (140 km/h en 42 kWh).",
+          "Coffre de 280 l."
+        ]
+      },
+      "variants": [
+        {
+          "id": "hyundai-inster-2024-standard-range",
+          "name": "Standard Range 42 kWh 97 ch",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 97,
+          "powerKw": 71,
+          "torqueNm": 147,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 11.7,
+          "topSpeedKmh": 140,
+          "consumption": {
+            "value": 14.3,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 327,
+          "batteryKwh": 42,
+          "charging": {
+            "dcMaxKw": null,
+            "dc10to80Min": 30
+          },
+          "co2Gkm": 0,
+          "weightKg": 1288,
+          "dimensions": {
+            "lengthMm": 3825,
+            "widthMm": 1610,
+            "heightMm": 1575,
+            "wheelbaseMm": 2580
+          },
+          "seats": 5,
+          "trunkL": 280,
+          "equipmentHighlights": [
+            "Batterie lithium-ion de 42 kWh",
+            "Chargeur AC 11 kW",
+            "V2L"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 24499,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Hyundai Inster",
+                "url": "https://autotijd.be/fr/prix/hyundai/inster",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Autotijd indique une « puissance du chargeur DC » de 120 kW, qui correspond à la borne utilisée pour le temps de charge (10–80 % en 30 min) plutôt qu'à la puissance maximale acceptée par la voiture : non retenue. Capacité de batterie présentée comme brute par Autotijd. Poids à vide 1 288 kg. Prix : finition Core, barème belge de décembre 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Inster Standard Range",
+              "url": "https://autotijd.be/fr/fiches-techniques/hyundai/inster/standard-range-4473",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Inster Standard Range",
+              "url": "https://autotijd.be/fr/dimensions/hyundai/inster/standard-range-4473",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Hyundai Inster",
+              "url": "https://autotijd.be/fr/prix/hyundai/inster",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Hyundai Allemagne – Inster, motorisations",
+              "url": "https://www.hyundai.com/de/de/modelle/inster/antriebe.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "hyundai-inster-2024-long-range",
+          "name": "Long Range 49 kWh 115 ch",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 115,
+          "powerKw": 85,
+          "torqueNm": 147,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 10.6,
+          "topSpeedKmh": 150,
+          "consumption": {
+            "value": 14.9,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 370,
+          "batteryKwh": 49,
+          "charging": {
+            "dcMaxKw": null,
+            "dc10to80Min": 30
+          },
+          "co2Gkm": 0,
+          "weightKg": 1318,
+          "dimensions": {
+            "lengthMm": 3825,
+            "widthMm": 1610,
+            "heightMm": 1575,
+            "wheelbaseMm": 2580
+          },
+          "seats": 5,
+          "trunkL": 280,
+          "equipmentHighlights": [
+            "Batterie lithium-ion de 49 kWh",
+            "Chargeur AC 11 kW",
+            "V2L"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 26499,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Hyundai Inster",
+                "url": "https://autotijd.be/fr/prix/hyundai/inster",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Autonomie WLTP 360–370 km et consommation 14,9–15,1 kWh/100 km selon finition (Autotijd, Hyundai Allemagne) ; valeurs les plus favorables retenues. Puissance DC maximale non retenue (voir version 42 kWh). Poids à vide 1 318 kg. Prix : finition Core, barème belge de décembre 2024 (base de données tierce) ; Cross 49 kWh à 32 949 €.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Inster Long Range",
+              "url": "https://autotijd.be/fr/fiches-techniques/hyundai/inster/long-range-4474",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Inster Long Range",
+              "url": "https://autotijd.be/fr/dimensions/hyundai/inster/long-range-4474",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Hyundai Inster",
+              "url": "https://autotijd.be/fr/prix/hyundai/inster",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Hyundai Allemagne – Inster, motorisations",
+              "url": "https://www.hyundai.com/de/de/modelle/inster/antriebe.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique Inster Standard Range",
+          "url": "https://autotijd.be/fr/fiches-techniques/hyundai/inster/standard-range-4473",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Hyundai Inster",
+          "url": "https://autotijd.be/fr/prix/hyundai/inster",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "kia-sportage-2025",
+      "modelId": "kia-sportage",
+      "brandId": "kia",
+      "modelName": "Sportage",
+      "name": "Kia Sportage (NQ5 restylé, 2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2025 Kia Sportage GT-Line facelift front.jpg",
+          "caption": "Kia Sportage GT-Line restylé à York (Australie)",
+          "depicts": "Kia Sportage (NQ5 restylé), finition GT-Line",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Kia Sportage GT-Line facelift rear.jpg",
+          "caption": "Kia Sportage GT-Line restylé, vue arrière",
+          "depicts": "Kia Sportage (NQ5 restylé), finition GT-Line",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Kia Sportage restylé est le SUV compact phare de Kia en Europe. La gamme récente comprend un hybride de 239 ch et un hybride rechargeable de 288 ch.",
+        "positioning": "SUV compact familial de Kia, cousin technique du Hyundai Tucson.",
+        "technicalFacts": [
+          "Longueur de 4 540 mm, empattement de 2 680 mm (Autotijd).",
+          "Hybride 1.6 T-GDi de 239 ch (176 kW) et 380 Nm, hybride rechargeable de 288 ch avec batterie de 13,8 kWh.",
+          "Coffre de 591 l en essence, 587 l en hybride, 540 l en hybride rechargeable."
+        ],
+        "pros": [
+          "Hybride puissant et efficace (5,5 l/100 km WLTP annoncés en valeur basse).",
+          "Grand coffre."
+        ],
+        "differentiators": [
+          "Large gamme d'énergies dans le cœur du marché européen."
+        ],
+        "pricePositioning": "En France, l'hybride de 239 ch débute à 39 550 € (L'Argus, octobre 2026).",
+        "innovations": [],
+        "compromises": [
+          "Essence seule gourmande (7,0–7,5 l/100 km WLTP).",
+          "Données de prix belges à jour non trouvées pour les motorisations actuelles."
+        ]
+      },
+      "variants": [
+        {
+          "id": "kia-sportage-2025-1-6-t-gdi-150-bvm",
+          "name": "1.6 T-GDi 150 ch BVM",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l turbo essence",
+            "displacementCc": 1598,
+            "electricMotors": null
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 250,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 9.7,
+          "topSpeedKmh": 193,
+          "consumption": {
+            "value": 7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 160,
+          "weightKg": 1552,
+          "dimensions": {
+            "lengthMm": 4540,
+            "widthMm": 1865,
+            "heightMm": 1645,
+            "wheelbaseMm": 2680
+          },
+          "seats": 5,
+          "trunkL": 591,
+          "equipmentHighlights": [
+            "Boîte manuelle 6 rapports"
+          ],
+          "prices": [],
+          "notes": "Consommation WLTP 7,0–7,5 l/100 km et CO2 160–169 g/km (Autotijd, norme Euro 6e-bis) ; valeurs les plus favorables retenues. Poids en ordre de marche. Le barème belge consulté (octobre 2024) liste un 1.6 T-GDi de 160 ch, et non cette version de 150 ch : pas de prix.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Sportage 1.6 T-GDi BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/kia/sportage/16-t-gdi-manual-5465",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Sportage 1.6 T-GDi BVM",
+              "url": "https://autotijd.be/fr/dimensions/kia/sportage/16-t-gdi-manual-5465",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "kia-sportage-2025-1-6-t-gdi-hev-239",
+          "name": "1.6 T-GDi HEV 239 ch",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l turbo essence + moteur électrique (hybride non rechargeable)",
+            "displacementCc": 1598,
+            "electricMotors": 1
+          },
+          "powerHp": 239,
+          "powerKw": 176,
+          "torqueNm": 380,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 7.9,
+          "topSpeedKmh": 196,
+          "consumption": {
+            "value": 5.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 124,
+          "weightKg": 1665,
+          "dimensions": {
+            "lengthMm": 4540,
+            "widthMm": 1865,
+            "heightMm": 1645,
+            "wheelbaseMm": 2680
+          },
+          "seats": 5,
+          "trunkL": 587,
+          "equipmentHighlights": [
+            "Batterie lithium-ion de 1,49 kWh",
+            "Moteur électrique de 65 ch (48 kW)"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 39550,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'Argus – prix du neuf Kia Sportage",
+                "url": "https://www.largus.fr/prix-du-neuf/kia/sportage.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 5,5–6,0 l/100 km et CO2 124–135 g/km (Autotijd) ; valeurs les plus favorables retenues. Boîte : 7 rapports selon Autotijd, « BVA6 » selon L'Argus, nombre de rapports non retenu. Poids en ordre de marche. Prix France : finition Motion, prix catalogue (L'Argus, dernière version commercialisée 10/2026).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Sportage 1.6 T-GDi HEV",
+              "url": "https://autotijd.be/fr/fiches-techniques/kia/sportage/16-t-gdi-hev-5467",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Sportage 1.6 T-GDi HEV",
+              "url": "https://autotijd.be/fr/dimensions/kia/sportage/16-t-gdi-hev-5467",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'Argus – prix du neuf Kia Sportage",
+              "url": "https://www.largus.fr/prix-du-neuf/kia/sportage.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "kia-sportage-2025-1-6-t-gdi-phev-288-awd",
+          "name": "1.6 T-GDi PHEV 288 ch AWD",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l turbo essence + moteur électrique (hybride rechargeable)",
+            "displacementCc": 1598,
+            "electricMotors": 1
+          },
+          "powerHp": 288,
+          "powerKw": 212,
+          "torqueNm": 380,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 6 rapports",
+          "accel0100s": 7.8,
+          "topSpeedKmh": 206,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": 13.8,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1896,
+          "dimensions": {
+            "lengthMm": 4540,
+            "widthMm": 1865,
+            "heightMm": 1645,
+            "wheelbaseMm": 2680
+          },
+          "seats": 5,
+          "trunkL": 540,
+          "equipmentHighlights": [
+            "Batterie lithium-ion de 13,8 kWh",
+            "Chargeur AC 7,2 kW",
+            "Transmission intégrale"
+          ],
+          "prices": [],
+          "notes": "Consommation, CO2 et autonomie électrique non publiés sur la fiche consultée. Capacité de batterie brute (Autotijd). Vitesse maximale en électrique 140 km/h. Poids en ordre de marche. Aucun prix trouvé pour cette version de 288 ch (le barème belge d'octobre 2024 liste un PHEV de 245 ch).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Sportage 1.6 T-GDi PHEV AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/kia/sportage/16-t-gdi-phev-awd-5469",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Sportage 1.6 T-GDi PHEV AWD",
+              "url": "https://autotijd.be/fr/dimensions/kia/sportage/16-t-gdi-phev-awd-5469",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique Sportage 1.6 T-GDi HEV",
+          "url": "https://autotijd.be/fr/fiches-techniques/kia/sportage/16-t-gdi-hev-5467",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'Argus – prix du neuf Kia Sportage",
+          "url": "https://www.largus.fr/prix-du-neuf/kia/sportage.html",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "kia-niro-2022",
+      "modelId": "kia-niro",
+      "brandId": "kia",
+      "modelName": "Niro",
+      "name": "Kia Niro (SG2, 2e génération)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact électrifié (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Kia Niro (SG2) HEV IMG 8251.jpg",
+          "caption": "Kia Niro HEV",
+          "depicts": "Kia Niro HEV (SG2)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Kia Niro EV (SG2) 1X7A7189.jpg",
+          "caption": "Kia Niro EV",
+          "depicts": "Kia Niro EV (SG2)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Kia Niro de deuxième génération n'existe qu'en versions électrifiées : hybride, hybride rechargeable et 100 % électrique (EV).",
+        "positioning": "Crossover compact électrifié de Kia, entre l'EV3 et le Sportage.",
+        "technicalFacts": [
+          "Longueur de 4 420 mm, empattement de 2 720 mm (Autotijd).",
+          "Hybride 1.6 GDi de 129 ch, hybride rechargeable de 171 ch (batterie 11,1 kWh), électrique de 204 ch (batterie 64,8 kWh).",
+          "Niro EV : 460 km d'autonomie WLTP et 10–80 % en 45 min (Autotijd)."
+        ],
+        "pros": [
+          "Trois motorisations électrifiées sur la même carrosserie.",
+          "Hybride très sobre (4,4 l/100 km WLTP en valeur basse).",
+          "Empattement généreux pour l'espace arrière."
+        ],
+        "differentiators": [
+          "Pas de version thermique seule."
+        ],
+        "pricePositioning": "Gamme belge de 33 390 € (HEV Pure) à 54 090 € (EV Pace), barème de janvier 2024.",
+        "innovations": [],
+        "compromises": [
+          "Recharge DC du Niro EV limitée (45 min de 10 à 80 %).",
+          "Coffre réduit sur l'hybride rechargeable (348 l)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "kia-niro-2022-hev-129",
+          "name": "1.6 GDi HEV 129 ch",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l essence + moteur électrique (hybride non rechargeable)",
+            "displacementCc": 1580,
+            "electricMotors": 1
+          },
+          "powerHp": 129,
+          "powerKw": 95,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 6 rapports",
+          "accel0100s": 11.3,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 4.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 100,
+          "weightKg": 1399,
+          "dimensions": {
+            "lengthMm": 4420,
+            "widthMm": 1825,
+            "heightMm": 1555,
+            "wheelbaseMm": 2720
+          },
+          "seats": 5,
+          "trunkL": 451,
+          "equipmentHighlights": [
+            "Batterie lithium-ion de 1,32 kWh",
+            "Moteur électrique de 44 ch (32 kW)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 33390,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be – prix belges Kia Niro",
+                "url": "https://autotijd.be/fr/prix/kia/niro",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Couple système non identifiable sur la fiche (137 Nm correspondent au moteur thermique, 170 Nm au moteur électrique). Consommation WLTP 4,4–4,7 l/100 km et CO2 100–107 g/km ; valeurs les plus favorables retenues. Poids en ordre de marche. Prix : finition Pure, barème belge de janvier 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Niro 1.6 GDi HEV 129 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/kia/niro/16-gdi-hev-129-hp-4319",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Niro 1.6 GDi HEV 129 ch",
+              "url": "https://autotijd.be/fr/dimensions/kia/niro/16-gdi-hev-129-hp-4319",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Kia Niro",
+              "url": "https://autotijd.be/fr/prix/kia/niro",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "kia-niro-2022-phev-171",
+          "name": "1.6 GDi PHEV 171 ch",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l essence + moteur électrique (hybride rechargeable)",
+            "displacementCc": 1580,
+            "electricMotors": 1
+          },
+          "powerHp": 171,
+          "powerKw": 126,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 6 rapports",
+          "accel0100s": 9.6,
+          "topSpeedKmh": 168,
+          "consumption": {
+            "value": 0.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 65,
+          "batteryKwh": 11.1,
+          "charging": null,
+          "co2Gkm": 18,
+          "weightKg": 1519,
+          "dimensions": {
+            "lengthMm": 4420,
+            "widthMm": 1825,
+            "heightMm": 1555,
+            "wheelbaseMm": 2720
+          },
+          "seats": 5,
+          "trunkL": 348,
+          "equipmentHighlights": [
+            "Batterie lithium-ion de 11,1 kWh",
+            "Chargeur AC 3,3 kW",
+            "Moteur électrique de 84 ch (62 kW)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 40190,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be – prix belges Kia Niro",
+                "url": "https://autotijd.be/fr/prix/kia/niro",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Autonomie électrique 59–65 km, consommation pondérée 0,8–1,0 l/100 km, CO2 18–22 g/km (Autotijd) ; valeurs les plus favorables retenues. Couple système non identifiable. Batterie : capacité brute. Poids en ordre de marche. Prix : finition Pure, barème belge de janvier 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Niro 1.6 GDi PHEV 171 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/kia/niro/16-gdi-phev-171-hp-4320",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Niro 1.6 GDi PHEV 171 ch",
+              "url": "https://autotijd.be/fr/dimensions/kia/niro/16-gdi-phev-171-hp-4320",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Kia Niro",
+              "url": "https://autotijd.be/fr/prix/kia/niro",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "kia-niro-2022-ev-204",
+          "name": "Niro EV 64,8 kWh 204 ch",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 255,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 7.8,
+          "topSpeedKmh": 167,
+          "consumption": {
+            "value": 16.2,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 460,
+          "batteryKwh": 64.8,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": 45
+          },
+          "co2Gkm": 0,
+          "weightKg": 1685,
+          "dimensions": {
+            "lengthMm": 4420,
+            "widthMm": 1825,
+            "heightMm": 1570,
+            "wheelbaseMm": 2720
+          },
+          "seats": 5,
+          "trunkL": 475,
+          "equipmentHighlights": [
+            "Batterie lithium-ion de 64,8 kWh",
+            "Chargeur AC 11 kW",
+            "Coffre avant de 20 l"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 44690,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be – prix belges Kia Niro",
+                "url": "https://autotijd.be/fr/prix/kia/niro",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Batterie : capacité présentée comme brute par Autotijd. Poids en ordre de marche. Prix : finition Business, barème belge de janvier 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Niro EV",
+              "url": "https://autotijd.be/fr/fiches-techniques/kia/niro/ev-204-hp-3324",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Niro EV",
+              "url": "https://autotijd.be/fr/dimensions/kia/niro/ev-204-hp-3324",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Kia Niro",
+              "url": "https://autotijd.be/fr/prix/kia/niro",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique Niro 1.6 GDi HEV 129 ch",
+          "url": "https://autotijd.be/fr/fiches-techniques/kia/niro/16-gdi-hev-129-hp-4319",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Kia Niro",
+          "url": "https://autotijd.be/fr/prix/kia/niro",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "kia-picanto-2024",
+      "modelId": "kia-picanto",
+      "brandId": "kia",
+      "modelName": "Picanto",
+      "name": "Kia Picanto (JA restylée, 2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine (segment A)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2024 Kia Picanto (JA) IAA 2025 DSC 1271.jpg",
+          "caption": "Kia Picanto restylée à l'IAA 2025",
+          "depicts": "Kia Picanto (JA restylée, 2024)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 Kia Picanto (JA) Rutesheimer Autoschau 2025 DSC 9200.jpg",
+          "caption": "Kia Picanto restylée à la Rutesheimer Autoschau 2025",
+          "depicts": "Kia Picanto (JA restylée, 2024)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Kia Picanto restylée en 2024 est une mini-citadine essence de 3,61 m, avec un 1.0 de 63 ch ou un 1.2 de 79 ch.",
+        "positioning": "Plus petite Kia en Europe, concurrente directe de la Hyundai i10.",
+        "technicalFacts": [
+          "Longueur de 3 605 mm, empattement de 2 400 mm (Autotijd).",
+          "1.0 3 cylindres de 63 ch et 1.2 4 cylindres de 79 ch, en boîte manuelle ou automatisée 5 rapports.",
+          "Norme Euro 6e ; coffre de 255 l, 1 010 l banquette rabattue."
+        ],
+        "pros": [
+          "Prix d'entrée bas.",
+          "Gabarit très compact."
+        ],
+        "differentiators": [
+          "Une des dernières mini-citadines thermiques au catalogue en Europe."
+        ],
+        "pricePositioning": "Gamme belge de 16 290 € à 22 090 €, barème de juillet 2024.",
+        "innovations": [],
+        "compromises": [
+          "Performances modestes (15,4 s de 0 à 100 km/h avec le 63 ch).",
+          "Pas de motorisation électrifiée."
+        ]
+      },
+      "variants": [
+        {
+          "id": "kia-picanto-2024-1-0-63-bvm",
+          "name": "1.0 63 ch BVM",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,0 l essence atmosphérique",
+            "displacementCc": 998,
+            "electricMotors": null
+          },
+          "powerHp": 63,
+          "powerKw": 46,
+          "torqueNm": 93,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": 15.4,
+          "topSpeedKmh": 150,
+          "consumption": {
+            "value": 4.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 110,
+          "weightKg": 890,
+          "dimensions": {
+            "lengthMm": 3605,
+            "widthMm": 1595,
+            "heightMm": 1485,
+            "wheelbaseMm": 2400
+          },
+          "seats": 5,
+          "trunkL": 255,
+          "equipmentHighlights": [
+            "Boîte manuelle 5 rapports"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 16290,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-07",
+              "source": {
+                "label": "Autotijd.be – prix belges Kia Picanto",
+                "url": "https://autotijd.be/fr/prix/kia/picanto",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Fiche Autotijd intitulée « 1.0 DPi » ; le barème belge parle de « 1.0 MPI 63 ch ». Consommation WLTP 4,9–5,3 l/100 km et CO2 110–120 g/km ; valeurs les plus favorables retenues. Poids à vide 890 kg. Prix : finition Pure, barème belge de juillet 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Picanto 1.0 DPi BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/kia/picanto/10-dpi-63-manual-4269",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Picanto 1.0 DPi BVM",
+              "url": "https://autotijd.be/fr/dimensions/kia/picanto/10-dpi-63-manual-4269",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Kia Picanto",
+              "url": "https://autotijd.be/fr/prix/kia/picanto",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "kia-picanto-2024-1-2-79-bvm",
+          "name": "1.2 79 ch BVM",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,2 l essence atmosphérique",
+            "displacementCc": 1197,
+            "electricMotors": null
+          },
+          "powerHp": 79,
+          "powerKw": 58,
+          "torqueNm": 113,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 165,
+          "consumption": {
+            "value": 5.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 123,
+          "weightKg": 983,
+          "dimensions": {
+            "lengthMm": 3605,
+            "widthMm": 1595,
+            "heightMm": 1485,
+            "wheelbaseMm": 2400
+          },
+          "seats": 5,
+          "trunkL": 255,
+          "equipmentHighlights": [
+            "Boîte manuelle 5 rapports"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 19290,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-07",
+              "source": {
+                "label": "Autotijd.be – prix belges Kia Picanto",
+                "url": "https://autotijd.be/fr/prix/kia/picanto",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "0-100 km/h non publié. CO2 123–124 g/km ; valeur la plus favorable retenue. Poids en ordre de marche. Prix : finition Pace, barème belge de juillet 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Picanto 1.2 MPI BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/kia/picanto/12-mpi-79-manual-4313",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Picanto 1.2 MPI BVM",
+              "url": "https://autotijd.be/fr/dimensions/kia/picanto/12-mpi-79-manual-4313",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Kia Picanto",
+              "url": "https://autotijd.be/fr/prix/kia/picanto",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "kia-picanto-2024-1-2-79-auto-gt-line",
+          "name": "1.2 79 ch automatique GT Line",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,2 l essence atmosphérique",
+            "displacementCc": 1197,
+            "electricMotors": null
+          },
+          "powerHp": 79,
+          "powerKw": 58,
+          "torqueNm": 113,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 164,
+          "consumption": {
+            "value": 5.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 127,
+          "weightKg": 984,
+          "dimensions": {
+            "lengthMm": 3605,
+            "widthMm": 1595,
+            "heightMm": 1485,
+            "wheelbaseMm": 2400
+          },
+          "seats": 5,
+          "trunkL": 255,
+          "equipmentHighlights": [
+            "Boîte automatique 5 rapports",
+            "Finition GT Line"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 22090,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-07",
+              "source": {
+                "label": "Autotijd.be – prix belges Kia Picanto",
+                "url": "https://autotijd.be/fr/prix/kia/picanto",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "0-100 km/h non publié. Poids en ordre de marche. Fiche technique commune aux finitions ; prix de la finition GT Line automatique, haut de gamme, barème belge de juillet 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Picanto 1.2 MPI",
+              "url": "https://autotijd.be/fr/fiches-techniques/kia/picanto/12-mpi-79-4314",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Picanto 1.2 MPI",
+              "url": "https://autotijd.be/fr/dimensions/kia/picanto/12-mpi-79-4314",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Kia Picanto",
+              "url": "https://autotijd.be/fr/prix/kia/picanto",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique Picanto 1.0 DPi BVM",
+          "url": "https://autotijd.be/fr/fiches-techniques/kia/picanto/10-dpi-63-manual-4269",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Kia Picanto",
+          "url": "https://autotijd.be/fr/prix/kia/picanto",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "kia-ev3-2024",
+      "modelId": "kia-ev3",
+      "brandId": "kia",
+      "modelName": "EV3",
+      "name": "Kia EV3 (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact électrique (segment B/C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Kia EV3 DSC 7147.jpg",
+          "caption": "Kia EV3",
+          "depicts": "Kia EV3 (2024)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Kia EV3 GT-Line Automesse Ludwigsburg 2024 IMG 1674.jpg",
+          "caption": "Kia EV3 GT-Line à l'Automesse Ludwigsburg 2024",
+          "depicts": "Kia EV3 GT-Line (2024)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Kia EV3 est un SUV compact 100 % électrique de 4,30 m, proposé avec une batterie de 58,3 kWh ou 81,4 kWh. Il annonce jusqu'à 605 km d'autonomie WLTP.",
+        "positioning": "SUV compact électrique de Kia, plus court que le Niro EV (4,30 m contre 4,42 m).",
+        "technicalFacts": [
+          "Moteur avant de 204 ch (150 kW) et 283 Nm pour les deux batteries (Autotijd).",
+          "Autonomie WLTP de 436 km (58,3 kWh) et 605 km (81,4 kWh).",
+          "Recharge 10–80 % en 29 min (58,3 kWh) ou 31 min (81,4 kWh).",
+          "Fonction V2L, coffre de 460 l plus un coffre avant de 20 l."
+        ],
+        "pros": [
+          "Très grande autonomie avec la batterie de 81,4 kWh.",
+          "Coffre de 460 l pour 4,30 m de long."
+        ],
+        "differentiators": [
+          "Un des SUV compacts électriques offrant plus de 600 km WLTP dans sa taille."
+        ],
+        "pricePositioning": "Gamme belge de 36 890 € à 50 390 € (81 kWh GT Line), barème de décembre 2024.",
+        "innovations": [
+          "Prise V2L."
+        ],
+        "compromises": [
+          "Version 81,4 kWh plus lourde de 85 kg.",
+          "Une seule puissance de 204 ch dans les versions consultées."
+        ]
+      },
+      "variants": [
+        {
+          "id": "kia-ev3-2024-standard-58",
+          "name": "Standard 58,3 kWh 204 ch",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 283,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 7.5,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 14.9,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 436,
+          "batteryKwh": 58.3,
+          "charging": {
+            "dcMaxKw": null,
+            "dc10to80Min": 29
+          },
+          "co2Gkm": 0,
+          "weightKg": 1725,
+          "dimensions": {
+            "lengthMm": 4300,
+            "widthMm": 1850,
+            "heightMm": 1565,
+            "wheelbaseMm": 2680
+          },
+          "seats": 5,
+          "trunkL": 460,
+          "equipmentHighlights": [
+            "Batterie lithium-ion de 58,3 kWh",
+            "Chargeur AC 11 kW",
+            "V2L"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 36890,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Kia EV3",
+                "url": "https://autotijd.be/fr/prix/kia/ev3",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Autotijd indique une « puissance du chargeur DC » de 100 kW sans préciser s'il s'agit de la puissance maximale acceptée par la voiture : non retenue. Poids en ordre de marche. Prix : finition Business, barème belge de décembre 2024 (base de données tierce).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique EV3 Standard 58,3 kWh",
+              "url": "https://autotijd.be/fr/fiches-techniques/kia/ev3/standard-583-kwh-150-kw-4329",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions EV3 Standard 58,3 kWh",
+              "url": "https://autotijd.be/fr/dimensions/kia/ev3/standard-583-kwh-150-kw-4329",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Kia EV3",
+              "url": "https://autotijd.be/fr/prix/kia/ev3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "kia-ev3-2024-long-range-81",
+          "name": "Long Range 81,4 kWh 204 ch",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 283,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 7.7,
+          "topSpeedKmh": 170,
+          "consumption": null,
+          "electricRangeKm": 605,
+          "batteryKwh": 81.4,
+          "charging": {
+            "dcMaxKw": null,
+            "dc10to80Min": 31
+          },
+          "co2Gkm": 0,
+          "weightKg": 1810,
+          "dimensions": {
+            "lengthMm": 4300,
+            "widthMm": 1830,
+            "heightMm": 1560,
+            "wheelbaseMm": 2680
+          },
+          "seats": 5,
+          "trunkL": 460,
+          "equipmentHighlights": [
+            "Batterie lithium-ion de 81,4 kWh",
+            "Chargeur AC 11 kW",
+            "V2L"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 41190,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Kia EV3",
+                "url": "https://autotijd.be/fr/prix/kia/ev3",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation affichée « 14,9 l/100 km » par Autotijd (unité erronée) : non retenue. Puissance DC indiquée 120 kW sans précision : non retenue. Largeur et hauteur publiées différentes de la version 58,3 kWh (1 830 / 1 560 mm). Poids en ordre de marche. Prix : finition Business, barème belge de décembre 2024 (base de données tierce) ; GT Line à 50 390 €.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique EV3 Long Range 81,4 kWh",
+              "url": "https://autotijd.be/fr/fiches-techniques/kia/ev3/long-range-814-kwh-150-kw-4330",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions EV3 Long Range 81,4 kWh",
+              "url": "https://autotijd.be/fr/dimensions/kia/ev3/long-range-814-kwh-150-kw-4330",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Kia EV3",
+              "url": "https://autotijd.be/fr/prix/kia/ev3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique EV3 Standard 58,3 kWh",
+          "url": "https://autotijd.be/fr/fiches-techniques/kia/ev3/standard-583-kwh-150-kw-4329",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Kia EV3",
+          "url": "https://autotijd.be/fr/prix/kia/ev3",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}
