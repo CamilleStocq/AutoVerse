@@ -50,5 +50,5 @@ export const KEYS = {
   exploreView: 'autoverse.exploreView',
   alerts: 'autoverse.alerts',
   onboardingDraft: 'autoverse.onboardingDraft',
-  deckPosition: 'autoverse.deckPosition',
+  collection: 'autoverse.collection',
 } as const;

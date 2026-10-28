@@ -11,6 +11,7 @@ import { CarImage } from '../components/CarImage';
 import { CardGridSkeleton, EmptyState, ErrorState, Section } from '../components/States';
 import { NewsCard, NewsSkeleton } from '../components/NewsCard';
 import { DisciplineTag, EventCard, RaceStrip } from './sport/common';
+import { useCollection } from '../state/collection';
 import { priceLine } from '../components/PriceTag';
 
 function Hero({ car, brands }: { car: CarSummary | undefined; brands: string[] }) {
@@ -81,6 +82,7 @@ export function Home() {
   return (
     <div className="page-enter">
       <RaceStrip events={nextEvents} />
+      <CollectionBanner />
       <Hero car={discover.matches.find((c) => c.image)} brands={brandNames} />
 
       <Section title="À découvrir" subtitle="Sélectionné selon vos préférences, avec quelques ouvertures vers d’autres marques." to="/explorer" id="discover">
@@ -155,5 +157,24 @@ export function Home() {
         )}
       </Section>
     </div>
+  );
+}
+
+/** Rappel de la collection : boosters à ouvrir et progression. */
+function CollectionBanner() {
+  const { state, owned } = useCollection();
+  const count = Object.keys(owned).length;
+  return (
+    <Link to="/explorer?onglet=collection" className="collection-banner">
+      <span className="collection-banner-pack" aria-hidden="true">{state.boosters > 0 ? state.boosters : '✦'}</span>
+      <span className="stack" style={{ minWidth: 0 }}>
+        <strong>{state.boosters > 0 ? `${state.boosters} booster${state.boosters > 1 ? 's' : ''} à ouvrir` : 'Ma collection de cartes'}</strong>
+        <span className="muted" style={{ fontSize: 'var(--text-sm)' }}>
+          {count ? `${count} carte${count > 1 ? 's' : ''} collectionnée${count > 1 ? 's' : ''}` : 'Collectionnez les cartes de vos marques préférées'}
+          {state.boosters === 0 && ' · prochain booster demain'}
+        </span>
+      </span>
+      <ArrowRight size={18} aria-hidden="true" />
+    </Link>
   );
 }

@@ -9,6 +9,7 @@ import type { CarSummary } from '@shared/api';
 import { DEFAULT_PREFERENCES, type Preferences, type Profile, type WishlistEntry } from '@shared/profile';
 import { api, ApiError } from '../lib/api';
 import { KEYS, readLocal, requestPersistentStorage, writeLocal } from './storage';
+import { readCollection, setCollectionState, type CollectionState } from './collection';
 
 type PendingOp =
   | { kind: 'profile' }
@@ -27,6 +28,8 @@ export interface ExportedData {
   preferences: Preferences;
   onboardedAt: string | null;
   wishlist: WishlistEntry[];
+  /** Collection de cartes (absente des sauvegardes plus anciennes). */
+  collection?: CollectionState;
 }
 
 interface ProfileContextValue {
@@ -230,6 +233,7 @@ export function ProfileProvider({ children }: { children: ReactNode }) {
     preferences: { ...DEFAULT_PREFERENCES, ...profile.preferences },
     onboardedAt: profile.onboardedAt,
     wishlist,
+    collection: readCollection(),
   }), [profile, wishlist]);
 
   /** Restaure une sauvegarde : remplace préférences et wishlist. Renvoie le nombre de favoris importés. */
@@ -241,6 +245,7 @@ export function ProfileProvider({ children }: { children: ReactNode }) {
     const entries = d.wishlist.filter((w): w is WishlistEntry => !!w && typeof w.generationId === 'string' && !!w.snapshot);
     setProfile((p) => ({ ...p, preferences: { ...DEFAULT_PREFERENCES, ...d.preferences }, onboardedAt: d.onboardedAt ?? p.onboardedAt ?? new Date().toISOString(), updatedAt: new Date().toISOString() }));
     setWishlist(entries);
+    if (d.collection && typeof d.collection === 'object' && d.collection.cards) setCollectionState(d.collection);
     enqueue({ kind: 'profile' });
     entries.forEach((entry) => enqueue({ kind: 'wish-put', entry }));
     return entries.length;

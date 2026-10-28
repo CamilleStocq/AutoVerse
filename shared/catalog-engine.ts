@@ -4,7 +4,7 @@
  * pour garantir exactement les mêmes règles métier dans les deux modes.
  */
 import type { Brand, CategoryId, Generation, MarketCode, Powertrain, PriceRange } from './types.ts';
-import type { CarDetail, CarSummary, CatalogMeta, FacetCount, Paged, PriceView, ResolvedImage, SimilarCar } from './api.ts';
+import type { CardInfo, CarDetail, CarSummary, CatalogMeta, FacetCount, Paged, PriceView, Rarity, ResolvedImage, SimilarCar } from './api.ts';
 import type { Preferences } from './profile.ts';
 import { comparePartialDates } from './dates.ts';
 import { CATEGORY_LABELS, POWERTRAIN_LABELS } from './labels.ts';
@@ -79,6 +79,48 @@ function keyFact(g: Generation): CarSummary['keyFact'] {
   return null;
 }
 
+// ---------- Cartes à collectionner ----------
+
+/**
+ * Rareté de la carte, règle explicite et stable (jamais aléatoire) :
+ * Légendaire = icône de collection ou ≥ 900 ch ; Épique = supercar, luxe ou ≥ 600 ch ;
+ * Rare = premium, sportive, SUV sportif, GT ou ≥ 300 ch ; sinon Commune.
+ */
+export function rarityOf(g: Generation): Rarity {
+  const power = Math.max(0, ...g.variants.map((v) => v.powerHp ?? 0));
+  const has = (c: CategoryId) => g.categories.includes(c);
+  if (has('classic') || power >= 900) return 'legendary';
+  if (has('supercar') || g.priceRange === 'luxury' || power >= 600) return 'epic';
+  if (g.priceRange === 'premium' || has('sports') || has('sport-suv') || has('gt') || power >= 300) return 'rare';
+  return 'common';
+}
+
+/** Série d'une marque : ses fiches dans l'ordre chronologique, puis alphabétique. */
+export function brandSet(ctx: CatalogContext, brandId: string): Generation[] {
+  return [...ctx.generations.values()]
+    .filter((g) => g.brandId === brandId)
+    .sort((a, b) => (a.startYear ?? 9999) - (b.startYear ?? 9999) || a.modelName.localeCompare(b.modelName) || a.id.localeCompare(b.id));
+}
+
+function cardInfo(ctx: CatalogContext, g: Generation): CardInfo {
+  const set = brandSet(ctx, g.brandId);
+  // Version la plus puissante : toutes les stats affichées proviennent de cette seule version.
+  const top = g.variants.reduce<Generation['variants'][number] | null>((best, v) => (!best || (v.powerHp ?? 0) > (best.powerHp ?? 0) ? v : best), null);
+  const firstSentence = g.editorial.summary.match(/^.+?[.!?](\s|$)/)?.[0].trim() ?? (g.editorial.summary || null);
+  return {
+    rarity: rarityOf(g),
+    number: set.findIndex((x) => x.id === g.id) + 1,
+    setSize: set.length,
+    variantName: top?.name ?? null,
+    powerHp: top?.powerHp ?? null,
+    accel0100s: top?.accel0100s ?? null,
+    topSpeedKmh: top?.topSpeedKmh ?? null,
+    torqueNm: top?.torqueNm ?? null,
+    electricRangeKm: top?.electricRangeKm ?? null,
+    teaser: firstSentence,
+  };
+}
+
 export function summarize(ctx: CatalogContext, g: Generation, market: MarketCode): CarSummary {
   const brand = ctx.brands.get(g.brandId)!;
   const images = ctx.imagesFor(g);
@@ -112,6 +154,7 @@ export function summarize(ctx: CatalogContext, g: Generation, market: MarketCode
     releaseDateKind: releaseKey,
     isUpcoming: !!g.upcoming && g.status !== 'discontinued',
     variantCount: g.variants.length,
+    card: cardInfo(ctx, g),
     updatedAt: g.updatedAt,
   };
 }

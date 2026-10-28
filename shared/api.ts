@@ -60,7 +60,27 @@ export interface CarSummary {
   releaseDateKind: 'marketAvailability' | 'firstDeliveries' | 'ordersOpen' | 'presentation' | null;
   isUpcoming: boolean;
   variantCount: number;
+  /** Carte à collectionner : rareté (règle explicite), numéro dans la série de la marque, stats. */
+  card?: CardInfo;
   updatedAt: string;
+}
+
+export type Rarity = 'common' | 'rare' | 'epic' | 'legendary';
+
+export interface CardInfo {
+  rarity: Rarity;
+  /** Numéro dans la série de la marque (ordre chronologique) et taille de la série. */
+  number: number;
+  setSize: number;
+  /** Statistiques de la version la plus puissante (jamais mélangées entre versions). */
+  variantName: string | null;
+  powerHp: number | null;
+  accel0100s: number | null;
+  topSpeedKmh: number | null;
+  torqueNm: number | null;
+  electricRangeKm: number | null;
+  /** Première phrase de la présentation éditoriale. */
+  teaser: string | null;
 }
 
 export interface Paged<T> {

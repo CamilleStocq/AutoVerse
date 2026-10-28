@@ -33,10 +33,6 @@ textarea,
   font-size: 16px;
 }
 
-/* Le deck gère lui-même ses gestes (glisser une carte). */
-.deck-stage {
-  touch-action: none;
-}
 
 @media (max-width: 767px) {
   /* ---- Rangées de cartes → liste verticale de cartes compactes (toutes visibles) ---- */
@@ -371,10 +367,6 @@ textarea,
   }
 }
 
-/* Mode deck : la barre de recherche défile avec la page pour laisser tout l'écran à la pile. */
-.explore-sticky.is-static {
-  position: static;
-}
 
 /* Bandeau du comparateur sur mobile : docké au-dessus de la navigation, espace réservé. */
 @media (max-width: 1023px) {
@@ -401,8 +393,13 @@ textarea,
   }
 }
 
+
+/* Sur téléphone, la barre de recherche du catalogue défile avec la page : l'écran reste aux cartes. */
 @media (max-width: 767px) {
-  .has-tray .deck-stage {
-    height: calc(100dvh - var(--topbar-h) - var(--bottomnav-h) - 215px - 64px);
+  .explore-sticky {
+    position: static;
+    margin: 0;
+    padding: 0 0 var(--space-2);
+    border-bottom: 0;
   }
 }

@@ -5,6 +5,7 @@ import { useInstallState } from './InstallApp';
 import { useMyEvents } from '../state/alerts';
 import { useTableLabels } from '../hooks/useTableLabels';
 import { QuickSearch, useQuickSearchShortcut } from './QuickSearch';
+import { useCollection } from '../state/collection';
 import { useProfile } from '../state/ProfileProvider';
 import { useUi } from '../state/UiProvider';
 
@@ -60,6 +61,9 @@ function CompareTray() {
 
 export function AppShell() {
   const { wishlist } = useProfile();
+  // Badge d'Explorer : boosters de cartes prêts à ouvrir.
+  const { state: collection } = useCollection();
+  const boosters = collection.boosters;
   const { pathname } = useLocation();
   const [searchOpen, setSearchOpen] = useState(false);
   const install = useInstallState();
@@ -84,6 +88,7 @@ export function AppShell() {
                   <Icon size={20} strokeWidth={1.8} />
                   {label}
                   {to === '/wishlist' && wishlist.length > 0 && <span className="count num">{wishlist.length}</span>}
+                  {to === '/explorer' && boosters > 0 && <span className="count num unread" title="Boosters à ouvrir">{boosters}</span>}
                   {to === '/alertes' && unread > 0 && <span className="count num unread">{unread}</span>}
                 </NavLink>
               </li>
@@ -119,8 +124,8 @@ export function AppShell() {
           <NavLink key={to} to={to} end={end}>
             <span style={{ position: 'relative' }}>
               <Icon size={22} strokeWidth={1.8} />
-              {to === '/wishlist' && wishlist.length > 0 && (
-                <span className="num" style={{ position: 'absolute', top: -4, right: -10, fontSize: 10, fontWeight: 700, background: 'var(--accent)', color: 'var(--on-accent)', borderRadius: 8, padding: '0 4px', lineHeight: '14px' }}>{wishlist.length}</span>
+              {((to === '/wishlist' && wishlist.length > 0) || (to === '/explorer' && boosters > 0)) && (
+                <span className="num" style={{ position: 'absolute', top: -4, right: -10, fontSize: 10, fontWeight: 700, background: 'var(--accent)', color: 'var(--on-accent)', borderRadius: 8, padding: '0 4px', lineHeight: '14px' }} aria-label={to === '/explorer' ? boosters + ' boosters à ouvrir' : wishlist.length + ' favoris'}>{to === '/explorer' ? boosters : wishlist.length}</span>
               )}
             </span>
             {label === 'Sport auto' ? 'Sport' : label}

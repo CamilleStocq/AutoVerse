@@ -9,7 +9,7 @@ import './styles/base.css';
 import './styles/components.css';
 import './styles/pages.css';
 import './styles/search.css';
-import './styles/deck.css';
+import './styles/cards.css';
 import './styles/mobile.css';
 import { App } from './App';
 

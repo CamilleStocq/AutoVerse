@@ -79,8 +79,9 @@ export function Wishlist() {
       <header className="page-head">
         <span className="eyebrow">Wishlist</span>
         <h1>Mon garage de rêve</h1>
-        <p>{wishlist.length} voiture{wishlist.length > 1 ? 's' : ''} · {syncState === 'synced' ? 'synchronisée' : syncState === 'syncing' ? 'synchronisation…' : 'enregistrée sur cet appareil, synchronisation en attente'}</p>
+        <p>{wishlist.length} voiture{wishlist.length > 1 ? 's' : ''} · {syncState === 'synced' ? 'synchronisée' : syncState === 'syncing' ? 'synchronisation…' : syncState === 'local' ? 'enregistrée sur cet appareil' : 'enregistrée sur cet appareil, synchronisation en attente'}</p>
       </header>
+
 
       <div className="wish-toolbar">
         <div className="row gap-2 wrap" style={{ flex: 1 }}>

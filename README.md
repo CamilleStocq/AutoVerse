@@ -25,8 +25,27 @@ Fonctionnement de la version en ligne (GitHub Pages, sans serveur) :
   - puces et onglets qui passent à la ligne ;
   - tableaux en fiches, chaque valeur avec son intitulé ;
   - comparateur caractéristique par caractéristique.
-- **Explorer, mode deck (par défaut) :** le catalogue se parcourt comme un paquet de cartes. Glisser à droite ajoute à la wishlist, glisser à gauche passe à la suivante, toucher ouvre la fiche. Les vues Cartes et Liste restent disponibles.
-- **Sauvegarde sur l'appareil, écrite immédiatement :** préférences, favoris, sujets d'alertes, comparateur, thème, vue choisie, position dans le deck, questionnaire en cours. Une sauvegarde de secours est faite quand l'app passe en arrière-plan. Le navigateur est aussi prié de ne jamais effacer ces données.
+- **Sauvegarde sur l'appareil, écrite immédiatement :** préférences, favoris, collection de cartes, sujets d'alertes, comparateur, thème, vue choisie, questionnaire en cours. Une sauvegarde de secours est faite quand l'app passe en arrière-plan. Le navigateur est aussi prié de ne jamais effacer ces données.
+
+### Cartes à collectionner (Explorer)
+
+- **Catalogue :** chaque voiture est une carte à collectionner (format 63 × 88). Elle porte :
+  - la puissance en « PV » et la rareté ;
+  - les stats de la version la plus puissante : 0 à 100 km/h, vitesse maximale, couple ou autonomie, prix ;
+  - un texte d'ambiance tiré de la fiche ;
+  - un numéro dans la série de la marque (`shared/catalog-engine.ts` › `rarityOf`, `brandSet`).
+- **Rareté, règle explicite et stable :**
+  - Légendaire : icône de collection ou ≥ 900 ch ;
+  - Épique : supercar, luxe ou ≥ 600 ch ;
+  - Rare : premium, sportive, SUV sportif, GT ou ≥ 300 ch ;
+  - Commune : le reste.
+
+  Les cartes Épiques et Légendaires ont un reflet holographique.
+- **Ma collection :**
+  - **Boosters :** 3 boosters de bienvenue, puis 1 par jour (jusqu'à 3 en réserve). Chaque booster contient 5 cartes tirées parmi vos marques préférées, dont au moins une Rare, avec plus de chances de tomber sur une carte qu'on n'a pas encore.
+  - **Albums :** un album par marque, avec les emplacements vides des cartes manquantes.
+  - **Doubles :** 3 doubles s'échangent contre une carte manquante au choix (`web/src/state/collection.ts`).
+- La collection fait partie de la sauvegarde exportable (*Profil → Exporter mes données*).
 
 > Sur iPhone, Safari et l'application ajoutée à l'écran d'accueil ont des stockages séparés : utilisez toujours l'icône de l'écran d'accueil.
 
