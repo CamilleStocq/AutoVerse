@@ -1,0 +1,3560 @@
+{
+  "generations": [
+    {
+      "id": "toyota-gr010-hybrid",
+      "modelId": "toyota-gr010-hybrid",
+      "brandId": "toyota",
+      "modelName": "GR010 Hybrid",
+      "name": "Toyota GR010 Hybrid (TR010 Hybrid depuis 2026)",
+      "yearsLabel": "2021 –",
+      "startYear": 2021,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Prototype Hypercar (WEC / IMSA GTP)",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2023 6 Hours of Spa-Francorchamps Toyota Gazoo Racing Toyota GR010 Hybrid No.8 (DSC09391).jpg",
+          "caption": null,
+          "depicts": "Toyota GR010 Hybrid n°8, 6 Heures de Spa 2023",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2021 Toyota GR010 Le Mans Winner.jpg",
+          "caption": null,
+          "depicts": "Toyota GR010 Hybrid victorieuse des 24 Heures du Mans 2021",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Première Le Mans Hypercar de Toyota, la GR010 Hybrid a gagné dès sa première course à Spa en 2021. Rebaptisée TR010 Hybrid en 2026 après une évolution de carrosserie, elle reste l'une des références du WEC.",
+        "positioning": "Prototype LMH à quatre roues motrices hybride engagé en catégorie Hypercar du championnat du monde d'endurance FIA (WEC).",
+        "technicalFacts": [
+          "V6 biturbo 3,5 l central arrière associé à un moteur-générateur avant Aisin-Denso de 200 kW (système THS-R).",
+          "Boîte séquentielle 7 rapports et transmission intégrale.",
+          "Victoires aux 24 Heures du Mans 2021 et 2022 ; nouvelle victoire en 2026 selon Wikipedia.",
+          "Titres constructeurs WEC 2022, 2023, 2024 et 2026 (selon Wikipedia).",
+          "Renommée Toyota TR010 Hybrid pour la saison 2026, dévoilée le 7 janvier 2026."
+        ],
+        "pros": [
+          "Palmarès parmi les plus fournis de l'ère Hypercar.",
+          "Transmission intégrale hybride utile sous la pluie."
+        ],
+        "differentiators": [
+          "Hybride à moteur-générateur avant de 200 kW et transmission intégrale."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Performances fortement encadrées par la BoP, qui a parfois pénalisé son poids."
+        ]
+      },
+      "variants": [
+        {
+          "id": "toyota-gr010-hybrid-lmh",
+          "name": "GR010 Hybrid (LMH)",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V6 90° biturbo 3,5 l central arrière + moteur-générateur avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 680,
+          "powerKw": 500,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Séquentielle 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1040,
+          "dimensions": {
+            "lengthMm": 4900,
+            "widthMm": 2000,
+            "heightMm": 1150,
+            "wheelbaseMm": null
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Moteur-générateur avant Aisin-Denso de 200 kW",
+            "Batterie lithium-ion THS-R"
+          ],
+          "prices": [],
+          "notes": "Puissance thermique 500 kW (680 ch) ; moteur électrique avant 200 kW. Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe. Poids de 1 040 kg (Wikipedia), également ajusté par la BoP. Cylindrée exacte en cm³ non publiée dans la source (3,5 l). Empattement non publié.",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – Toyota GR010 Hybrid",
+              "url": "https://en.wikipedia.org/wiki/Toyota_GR010_Hybrid",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Toyota GR010 Hybrid",
+          "url": "https://en.wikipedia.org/wiki/Toyota_GR010_Hybrid",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ferrari-499p",
+      "modelId": "ferrari-499p",
+      "brandId": "ferrari",
+      "modelName": "499P",
+      "name": "Ferrari 499P (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Prototype Hypercar (WEC / IMSA GTP)",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Ferrari 499P No.50 - 24 Heures du Mans 2024 Winner - Chequered Flag (3).jpg",
+          "caption": null,
+          "depicts": "Ferrari 499P n°50, victorieuse des 24 Heures du Mans 2024",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 24 Hours of Le Mans (54093434907).jpg",
+          "caption": null,
+          "depicts": "Ferrari 499P aux 24 Heures du Mans 2024",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Ferrari 499P a marqué le retour de Ferrari en catégorie reine de l'endurance et a gagné les 24 Heures du Mans trois fois de suite (2023, 2024, 2025). Elle associe un V6 biturbo à un moteur électrique avant.",
+        "positioning": "Prototype LMH de Ferrari engagé en catégorie Hypercar du WEC par l'équipe officielle Ferrari AF Corse et l'équipe cliente AF Corse.",
+        "technicalFacts": [
+          "V6 120° biturbo de 2 992 cm³ (F163CG) monté en élément porteur.",
+          "Moteur électrique de 200 kW sur l'essieu avant ; transmission intégrale semi-permanente.",
+          "Boîte séquentielle Xtrac 7 rapports.",
+          "Débuts aux 1000 Miles de Sebring 2023 ; victoires au Mans en 2023, 2024 et 2025.",
+          "Titres pilotes, constructeurs et équipes du WEC en 2025."
+        ],
+        "pros": [
+          "Palmarès exceptionnel au Mans dès ses premières saisons.",
+          "Moteur dérivé de la famille V6 des Ferrari de route."
+        ],
+        "differentiators": [
+          "Vainqueur du Mans dès sa première participation, en 2023."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Performance pure plafonnée par la BoP comme toutes les Hypercars."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ferrari-499p-lmh",
+          "name": "499P (LMH)",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V6 120° biturbo central arrière + moteur électrique avant",
+            "displacementCc": 2992,
+            "electricMotors": 1
+          },
+          "powerHp": 680,
+          "powerKw": 500,
+          "torqueNm": 790,
+          "drivetrain": "awd",
+          "gearbox": "Séquentielle Xtrac 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1030,
+          "dimensions": null,
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Moteur électrique avant de 200 kW (373 Nm)"
+          ],
+          "prices": [],
+          "notes": "Puissance (500 kW / 680 ch) et couple (790 Nm) du seul moteur thermique selon Wikipedia ; moteur électrique 200 kW. Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe. Poids 1 030 kg (minimum réglementaire). Tension de batterie incohérente dans la source (800 V ou 900 V). Dimensions non publiées dans la source consultée.",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – Ferrari 499P",
+              "url": "https://en.wikipedia.org/wiki/Ferrari_499P",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Ferrari 499P",
+          "url": "https://en.wikipedia.org/wiki/Ferrari_499P",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "porsche-963",
+      "modelId": "porsche-963",
+      "brandId": "porsche",
+      "modelName": "963",
+      "name": "Porsche 963 (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Prototype Hypercar (WEC / IMSA GTP)",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2024 6 Hours of Spa-Francorchamps Porsche Penske Motorsport Porsche 963 No.5 (DSC02380).jpg",
+          "caption": null,
+          "depicts": "Porsche 963 n°5 de Porsche Penske Motorsport, 6 Heures de Spa 2024",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Porsche 963 LMDh.jpg",
+          "caption": null,
+          "depicts": "Porsche 963 LMDh",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Porsche 963 est le prototype LMDh de Porsche, engagé à la fois en WEC et en IMSA. Elle a notamment remporté les 24 Heures de Daytona 2024 et 2026 et les titres constructeurs IMSA 2024 et 2025.",
+        "positioning": "Prototype hybride LMDh de Porsche Penske Motorsport, également vendu à des équipes clientes (Jota, Proton, JDC-Miller…).",
+        "technicalFacts": [
+          "V8 biturbo de 4 593 cm³ (Porsche 9RD) monté longitudinalement en position centrale.",
+          "Système hybride standard LMDh : moteur-générateur arrière Bosch de 50 kW.",
+          "Boîte séquentielle Xtrac P1359 à 7 rapports.",
+          "Débuts aux 24 Heures de Daytona 2023 ; victoires à Daytona en 2024 et 2026.",
+          "Titres constructeurs et équipes IMSA 2024 et 2025."
+        ],
+        "pros": [
+          "Programme double WEC/IMSA très actif avec de nombreuses voitures clientes."
+        ],
+        "differentiators": [
+          "Engagée simultanément en WEC et en IMSA, en version usine et client."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Hybride standardisé de 50 kW, bien moins puissant que les moteurs avant de 200 kW de certaines LMH."
+        ]
+      },
+      "variants": [
+        {
+          "id": "porsche-963-lmdh",
+          "name": "963 (LMDh)",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V8 90° biturbo central arrière + moteur-générateur arrière Bosch 50 kW",
+            "displacementCc": 4593,
+            "electricMotors": 1
+          },
+          "powerHp": 680,
+          "powerKw": 500,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Séquentielle Xtrac P1359 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1030,
+          "dimensions": {
+            "lengthMm": 5100,
+            "widthMm": 2000,
+            "heightMm": 1060,
+            "wheelbaseMm": 3148
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance 500 kW (680 PS) selon Wikipedia. Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe. Poids 1 030 kg. Couple et type de transmission non précisés dans la source.",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – Porsche 963",
+              "url": "https://en.wikipedia.org/wiki/Porsche_963",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Porsche 963",
+          "url": "https://en.wikipedia.org/wiki/Porsche_963",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "cadillac-v-series-r",
+      "modelId": "cadillac-v-series-r",
+      "brandId": "cadillac",
+      "modelName": "V-Series.R",
+      "name": "Cadillac V-Series.R (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Prototype Hypercar (WEC / IMSA GTP)",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2026 6 Hours of Spa-Francorchamps Cadillac Hertz Team Jota Cadillac V-Series.R No.12 (DSC07675).jpg",
+          "caption": null,
+          "depicts": "Cadillac V-Series.R n°12 de Cadillac Hertz Team Jota, 6 Heures de Spa 2026",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Whelen Engineering Racing's Cadillac V-Series.R during the 2023 Petit Le Mans.jpg",
+          "caption": null,
+          "depicts": "Cadillac V-Series.R de Whelen Engineering Racing, Petit Le Mans 2023",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Cadillac V-Series.R est le prototype LMDh de Cadillac, reconnaissable à son gros V8 atmosphérique. Elle a gagné le titre IMSA 2023 et sa première course WEC à São Paulo en 2025.",
+        "positioning": "Prototype hybride LMDh sur base Dallara, engagé en IMSA GTP et en WEC Hypercar.",
+        "technicalFacts": [
+          "V8 atmosphérique de 5,5 l (LMC55R), l'un des plus gros moteurs de la catégorie.",
+          "Moteur-générateur arrière Bosch de 50 kW (hybride standard LMDh).",
+          "Monocoque carbone dérivée du LMP2 Dallara ; boîte séquentielle Xtrac P1359 à 7 rapports.",
+          "Titres pilotes, équipes et constructeurs IMSA 2023 ; 3e aux 24 Heures du Mans 2023.",
+          "Première victoire en WEC aux 6 Heures de São Paulo 2025 (doublé)."
+        ],
+        "pros": [
+          "Sonorité et caractère du V8 atmosphérique de grosse cylindrée."
+        ],
+        "differentiators": [
+          "V8 atmosphérique de 5,5 l, l'un des plus gros moteurs de la catégorie."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Hybride standardisé de 50 kW sur l'essieu arrière."
+        ]
+      },
+      "variants": [
+        {
+          "id": "cadillac-v-series-r-lmdh",
+          "name": "V-Series.R (LMDh)",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V8 90° atmosphérique 5,5 l + moteur-générateur arrière Bosch 50 kW",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 680,
+          "powerKw": 500,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Séquentielle Xtrac P1359 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1030,
+          "dimensions": null,
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance totale du système 500 kW (680 PS) selon Wikipedia. Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe. Poids 1 030 kg. Cylindrée exacte en cm³, couple, transmission et dimensions non précisés dans la source.",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – Cadillac V-Series.R",
+              "url": "https://en.wikipedia.org/wiki/Cadillac_V-Series.R",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Cadillac V-Series.R",
+          "url": "https://en.wikipedia.org/wiki/Cadillac_V-Series.R",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "bmw-m-hybrid-v8",
+      "modelId": "bmw-m-hybrid-v8",
+      "brandId": "bmw",
+      "modelName": "M Hybrid V8",
+      "name": "BMW M Hybrid V8 (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Prototype Hypercar (WEC / IMSA GTP)",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2026 6 Hours of Spa-Francorchamps BMW M Team WRT BMW M Hybrid V8 No.20 (DSC2744).jpg",
+          "caption": null,
+          "depicts": "BMW M Hybrid V8 n°20 du BMW M Team WRT, 6 Heures de Spa 2026",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:24H Le Mans 2025 Nr. 15.jpg",
+          "caption": null,
+          "depicts": "BMW M Hybrid V8 n°15 aux 24 Heures du Mans 2025",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La BMW M Hybrid V8 marque le retour de BMW en catégorie reine de l'endurance. Engagée en IMSA puis en WEC, elle a signé un doublé aux 6 Heures de Spa 2026, sa première victoire en WEC.",
+        "positioning": "Prototype hybride LMDh de BMW M Motorsport, châssis Dallara, engagé en WEC par l'équipe WRT.",
+        "technicalFacts": [
+          "V8 biturbo de 3 999 cm³ (P66/3) : 477 kW pour le seul moteur thermique.",
+          "Puissance combinée de 500 kW avec le moteur-générateur arrière Bosch de 50 kW.",
+          "Couple de 650 Nm ; boîte séquentielle Xtrac P1359 à 7 rapports.",
+          "Débuts aux 24 Heures de Daytona 2023 ; premier succès IMSA à Watkins Glen en 2023.",
+          "Doublé aux 6 Heures de Spa-Francorchamps 2026, première victoire en WEC."
+        ],
+        "pros": [
+          "V8 biturbo issu d'un moteur de course éprouvé par BMW."
+        ],
+        "differentiators": [
+          "Châssis LMP2 en fibre de carbone et V8 P66/3 développé par BMW M."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Premières saisons difficiles avant la victoire de Spa 2026."
+        ]
+      },
+      "variants": [
+        {
+          "id": "bmw-m-hybrid-v8-lmdh",
+          "name": "M Hybrid V8 (LMDh)",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V8 90° biturbo + moteur-générateur arrière Bosch 50 kW",
+            "displacementCc": 3999,
+            "electricMotors": 1
+          },
+          "powerHp": 680,
+          "powerKw": 500,
+          "torqueNm": 650,
+          "drivetrain": null,
+          "gearbox": "Séquentielle Xtrac P1359 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1030,
+          "dimensions": null,
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance combinée 500 kW (680 PS) ; moteur thermique seul 477 kW (649 PS), selon Wikipedia. Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe. Poids 1 030 kg. Dimensions et type de transmission non précisés.",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – BMW M Hybrid V8",
+              "url": "https://en.wikipedia.org/wiki/BMW_M_Hybrid_V8",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – BMW M Hybrid V8",
+          "url": "https://en.wikipedia.org/wiki/BMW_M_Hybrid_V8",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "alpine-a424",
+      "modelId": "alpine-a424",
+      "brandId": "alpine",
+      "modelName": "A424",
+      "name": "Alpine A424 (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Prototype Hypercar (WEC / IMSA GTP)",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2026 6 Hours of Spa-Francorchamps Alpine Endurance Team Alpine A424 No.36 (DSC01584).jpg",
+          "caption": null,
+          "depicts": "Alpine A424 n°36 de l'Alpine Endurance Team, 6 Heures de Spa 2026",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:AlpineA424bShowcar.jpg",
+          "caption": null,
+          "depicts": "Alpine A424 (voiture d'exposition)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "L'Alpine A424 est le prototype LMDh d'Alpine, engagé en WEC depuis 2024. Elle a remporté sa première victoire aux 6 Heures de Fuji 2025.",
+        "positioning": "Prototype hybride LMDh à châssis Oreca et moteur V6 turbo Alpine (Mecachrome), engagé en Hypercar du WEC.",
+        "technicalFacts": [
+          "V6 90° turbo de 3,4 l (Alpine V634, base Mecachrome).",
+          "Moteur-générateur arrière Bosch de 50 kW (hybride standard LMDh).",
+          "Boîte séquentielle Xtrac P1359 à 7 rapports.",
+          "Débuts aux 1812 km du Qatar 2024 ; première victoire aux 6 Heures de Fuji 2025."
+        ],
+        "pros": [
+          "Programme français engagé en catégorie reine du WEC."
+        ],
+        "differentiators": [
+          "V6 turbo de 3,4 l conçu sur une base Mecachrome."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Une seule victoire au compteur fin 2026 selon Wikipedia."
+        ]
+      },
+      "variants": [
+        {
+          "id": "alpine-a424-lmdh",
+          "name": "A424 (LMDh)",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V6 90° turbo 3,4 l + moteur-générateur arrière Bosch 50 kW",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 680,
+          "powerKw": 500,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Séquentielle Xtrac P1359 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1030,
+          "dimensions": {
+            "lengthMm": 5000,
+            "widthMm": 1998,
+            "heightMm": 1058,
+            "wheelbaseMm": 3148
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance 500 kW (680 PS) selon Wikipedia. Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe. Poids 1 030 kg. Cylindrée exacte en cm³, couple et transmission non précisés.",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – Alpine A424",
+              "url": "https://en.wikipedia.org/wiki/Alpine_A424",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Alpine A424",
+          "url": "https://en.wikipedia.org/wiki/Alpine_A424",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "peugeot-9x8",
+      "modelId": "peugeot-9x8",
+      "brandId": "peugeot",
+      "modelName": "9X8",
+      "name": "Peugeot 9X8 (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Prototype Hypercar (WEC / IMSA GTP)",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2026 6 Hours of Spa-Francorchamps Peugeot TotalEnergies Peugeot 9X8 No.93 (DSC07965).jpg",
+          "caption": null,
+          "depicts": "Peugeot 9X8 n°93 (version à aileron), 6 Heures de Spa 2026",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 6 Hours of Spa-Francorchamps Peugeot TotalEnergies Peugeot 9X8 No.93 (DSC05645).jpg",
+          "caption": null,
+          "depicts": "Peugeot 9X8 n°93 (version d'origine sans aileron), 6 Heures de Spa 2023",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Peugeot 9X8 s'est fait remarquer à ses débuts en 2022 par l'absence d'aileron arrière. Une évolution présentée en mars 2024 a ajouté un aileron, et la voiture a signé sa première pole en WEC à Spa en 2026.",
+        "positioning": "Prototype LMH hybride à quatre roues motrices de Peugeot Sport, engagé en Hypercar du WEC.",
+        "technicalFacts": [
+          "V6 90° biturbo de 2,6 l (X6H) entraînant les roues arrière.",
+          "Moteur-générateur avant de 200 kW entraînant les roues avant.",
+          "Boîte séquentielle Sadev à 7 rapports.",
+          "Débuts aux 6 Heures de Monza 2022 ; évolution avec aileron présentée le 25 mars 2024.",
+          "Première pole position en WEC aux 6 Heures de Spa 2026."
+        ],
+        "pros": [
+          "Design très original, signature visuelle forte de Peugeot.",
+          "Transmission intégrale hybride."
+        ],
+        "differentiators": [
+          "Seule Hypercar conçue au départ sans aileron arrière."
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Concept aérodynamique sans aileron arrière (version 2022-2023)."
+        ],
+        "compromises": [
+          "Résultats longtemps en retrait ; premier podium WEC seulement en 2023."
+        ]
+      },
+      "variants": [
+        {
+          "id": "peugeot-9x8-lmh",
+          "name": "9X8 (LMH)",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V6 90° biturbo 2,6 l central arrière + moteur-générateur avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 680,
+          "powerKw": 500,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Séquentielle Sadev 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 5000,
+            "widthMm": 2080,
+            "heightMm": 1180,
+            "wheelbaseMm": 3045
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Moteur-générateur avant de 200 kW avec réducteur à un rapport"
+          ],
+          "prices": [],
+          "notes": "Puissance du moteur thermique 500 kW (680 PS) ; moteur avant 200 kW (Wikipedia). Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe. Poids non précisé dans la source. Dimensions de la version d'origine (2022) selon Wikipedia.",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – Peugeot 9X8",
+              "url": "https://en.wikipedia.org/wiki/Peugeot_9X8",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Peugeot 9X8",
+          "url": "https://en.wikipedia.org/wiki/Peugeot_9X8",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "aston-martin-valkyrie-amr-lmh",
+      "modelId": "aston-martin-valkyrie-amr-lmh",
+      "brandId": "aston-martin",
+      "modelName": "Valkyrie AMR-LMH",
+      "name": "Aston Martin Valkyrie AMR-LMH (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Prototype Hypercar (WEC / IMSA GTP)",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2026 6 Hours of Spa-Francorchamps Aston Martin THOR Team Aston Martin Valkyrie No.009 (DSC5491).jpg",
+          "caption": null,
+          "depicts": "Aston Martin Valkyrie AMR-LMH n°009 de l'Aston Martin THOR Team, 6 Heures de Spa 2026",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:HOR Valkyrie WGI25 14 (cropped).jpg",
+          "caption": null,
+          "depicts": "Aston Martin Valkyrie AMR-LMH en IMSA, Watkins Glen 2025",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Dérivée de l'hypercar de route Valkyrie, l'AMR-LMH court en WEC et en IMSA depuis 2025 avec un V12 atmosphérique de 6,5 l et sans hybride. Son meilleur résultat est une 2e place au Petit Le Mans 2025.",
+        "positioning": "Le Mans Hypercar (LMH) dérivée d'une voiture de route, construite avec Multimatic et engagée par Aston Martin THOR Team et Heart of Racing.",
+        "technicalFacts": [
+          "V12 65° atmosphérique de 6 499 cm³ (Aston Martin-Cosworth RA), dérivé de la Valkyrie de route.",
+          "Pas de système hybride ; propulsion.",
+          "Boîte séquentielle Xtrac à 7 rapports.",
+          "Débuts aux 1812 km du Qatar 2025 ; 2e au Petit Le Mans 2025."
+        ],
+        "pros": [
+          "Sonorité d'un V12 atmosphérique haut perché, unique dans le plateau."
+        ],
+        "differentiators": [
+          "V12 atmosphérique sans hybridation, issu du moteur de la Valkyrie de route."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Pas encore de victoire fin 2026."
+        ]
+      },
+      "variants": [
+        {
+          "id": "aston-martin-valkyrie-amr-lmh-lmh",
+          "name": "Valkyrie AMR-LMH (LMH)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 65° atmosphérique central arrière",
+            "displacementCc": 6499,
+            "electricMotors": 0
+          },
+          "powerHp": 680,
+          "powerKw": 500,
+          "torqueNm": null,
+          "drivetrain": "rwd",
+          "gearbox": "Séquentielle Xtrac 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1030,
+          "dimensions": null,
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance 500 kW ±20 kW selon la fiche technique publiée par Endurance-Info (680 PS selon Wikipedia). Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe. Poids 1 030 kg = minimum autorisé sans pilote ni carburant. Couple et dimensions non publiés.",
+          "sources": [
+            {
+              "label": "Endurance-Info – WEC / IMSA : Aston Martin Valkyrie LMH, fiche technique",
+              "url": "https://en.endurance-info.com/auto/article/115315-wec-imsa-aston-martin-valkyrie-lmh-technical-specification",
+              "type": "press",
+              "publishedAt": "2026-02-05",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia (en) – Aston Martin Valkyrie AMR-LMH",
+              "url": "https://en.wikipedia.org/wiki/Aston_Martin_Valkyrie_AMR-LMH",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Aston Martin Valkyrie AMR-LMH",
+          "url": "https://en.wikipedia.org/wiki/Aston_Martin_Valkyrie_AMR-LMH",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Endurance-Info – WEC / IMSA : Aston Martin Valkyrie LMH, fiche technique",
+          "url": "https://en.endurance-info.com/auto/article/115315-wec-imsa-aston-martin-valkyrie-lmh-technical-specification",
+          "type": "press",
+          "publishedAt": "2026-02-05",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lamborghini-sc63",
+      "modelId": "lamborghini-sc63",
+      "brandId": "lamborghini",
+      "modelName": "SC63",
+      "name": "Lamborghini SC63 (2024)",
+      "yearsLabel": "2024 – 2025",
+      "startYear": 2024,
+      "endYear": 2025,
+      "status": "discontinued",
+      "segment": "Prototype Hypercar (WEC / IMSA GTP)",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Lambo GTP WGI25 01 (cropped).jpg",
+          "caption": null,
+          "depicts": "Lamborghini SC63 en IMSA GTP, Watkins Glen 2025",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 24 Hours of Le Mans (54094300036).jpg",
+          "caption": null,
+          "depicts": "Lamborghini SC63 aux 24 Heures du Mans 2024",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Lamborghini SC63 était le premier prototype de catégorie reine de Lamborghini, engagé en WEC en 2024 puis en IMSA jusqu'en 2025. Le programme a été mis en pause pour 2026.",
+        "positioning": "Prototype hybride LMDh à châssis Ligier, développé par Lamborghini Squadra Corse.",
+        "technicalFacts": [
+          "V8 biturbo de 3,8 l monté en position centrale arrière.",
+          "Moteur-générateur arrière Bosch de 50 kW (hybride standard LMDh).",
+          "Débuts aux 1812 km du Qatar 2024 ; meilleur résultat : 4e au Petit Le Mans 2025.",
+          "Pas de retour en WEC en 2025 ; pause du programme LMDh et retrait de l'IMSA annoncés le 4 août 2025."
+        ],
+        "pros": [
+          "Premier prototype d'endurance de catégorie reine de Lamborghini."
+        ],
+        "differentiators": [
+          "Programme court, ce qui en fait une rareté."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Aucune victoire ni podium en deux saisons."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lamborghini-sc63-lmdh",
+          "name": "SC63 (LMDh)",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V8 90° biturbo 3,8 l + moteur-générateur arrière Bosch 50 kW",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 680,
+          "powerKw": 500,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Séquentielle Xtrac P1359 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1030,
+          "dimensions": {
+            "lengthMm": 5100,
+            "widthMm": null,
+            "heightMm": 1170,
+            "wheelbaseMm": 3148
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance combinée 500 kW (680 PS) selon Wikipedia ; valeur réglementaire Hypercar, modulée par la BoP. Poids 1 030 kg. Cylindrée exacte en cm³, couple et largeur non précisés.",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – Lamborghini SC63",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_SC63",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Lamborghini SC63",
+          "url": "https://en.wikipedia.org/wiki/Lamborghini_SC63",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28",
+      "positioning": "Prototype hybride LMDh développé par Lamborghini Squadra Corse, engagé en WEC (2024) et en IMSA (2024-2025)."
+    },
+    {
+      "id": "genesis-gmr-001",
+      "modelId": "genesis-gmr-001",
+      "brandId": "genesis",
+      "modelName": "GMR-001",
+      "name": "Genesis GMR-001 Hypercar (2026)",
+      "yearsLabel": "2026 –",
+      "startYear": 2026,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Prototype Hypercar (WEC / IMSA GTP)",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:24 Heures du Mans 2026 Hypercar No. 17 Genesis GMR-001-Hypercar.jpg",
+          "caption": null,
+          "depicts": "Genesis GMR-001 n°17 aux 24 Heures du Mans 2026",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Genesis GMR-001 Hypercar - 04.jpg",
+          "caption": null,
+          "depicts": "Genesis GMR-001 Hypercar, vue arrière",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Genesis GMR-001 est le premier prototype d'endurance de la marque de luxe de Hyundai, dévoilée en décembre 2024. Elle a fait ses débuts en WEC aux 6 Heures d'Imola 2026 avec l'équipe Genesis Magma Racing.",
+        "positioning": "Prototype hybride LMDh à châssis Oreca et V8 biturbo Genesis, engagé en Hypercar du WEC.",
+        "technicalFacts": [
+          "V8 biturbo Genesis G8MR de 3 200 cm³, développé par Hyundai Motorsport en Allemagne à partir du 4 cylindres WRC.",
+          "680 hp et 637 Nm annoncés ; moteur-générateur Bosch de 50 kW sur l'essieu arrière.",
+          "Propulsion, boîte séquentielle 7 rapports à palettes.",
+          "Vitesse maximale annoncée de 345 km/h.",
+          "Dévoilée en décembre 2024 à Dubaï ; débuts aux 6 Heures d'Imola 2026."
+        ],
+        "pros": [
+          "Fiche technique complète publiée par le constructeur."
+        ],
+        "differentiators": [
+          "Premier programme d'endurance de catégorie reine pour le groupe Hyundai.",
+          "Phares « Two-Line » reprenant la signature des Genesis de route."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Première saison en cours : peu de recul sur la compétitivité."
+        ]
+      },
+      "variants": [
+        {
+          "id": "genesis-gmr-001-lmdh",
+          "name": "GMR-001 Hypercar (LMDh)",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V8 biturbo 3,2 l (G8MR) + moteur-générateur arrière Bosch 50 kW",
+            "displacementCc": 3200,
+            "electricMotors": 1
+          },
+          "powerHp": 680,
+          "powerKw": null,
+          "torqueNm": 637,
+          "drivetrain": "rwd",
+          "gearbox": "Séquentielle 7 rapports à palettes",
+          "accel0100s": null,
+          "topSpeedKmh": 345,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1030,
+          "dimensions": {
+            "lengthMm": 5000,
+            "widthMm": 2000,
+            "heightMm": null,
+            "wheelbaseMm": 3150
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Fiche Hyundai Motorsport : « 680hp », 637 Nm, 345 km/h, poids minimum 1 030 kg (1 112 kg avec pilote de 82 kg), longueur « environ 5 000 mm ». Puissance en kW non publiée par le constructeur. Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe.",
+          "sources": [
+            {
+              "label": "Hyundai Motorsport – Genesis Magma Racing, GMR-001 Hypercar technical specifications (2026)",
+              "url": "https://motorsport.hyundai.com/Corporate%20Site/Car%20Spec/GMR-001/2026_Genesis_CarSpec_2026.pdf",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia (en) – Genesis GMR-001",
+              "url": "https://en.wikipedia.org/wiki/Genesis_GMR-001",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Hyundai Motorsport – Genesis Magma Racing, GMR-001 Hypercar technical specifications (2026)",
+          "url": "https://motorsport.hyundai.com/Corporate%20Site/Car%20Spec/GMR-001/2026_Genesis_CarSpec_2026.pdf",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia (en) – Genesis GMR-001",
+          "url": "https://en.wikipedia.org/wiki/Genesis_GMR-001",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "porsche-911-gt3-r-992",
+      "modelId": "porsche-911-gt3-r",
+      "brandId": "porsche",
+      "modelName": "911 GT3 R",
+      "name": "Porsche 911 GT3 R (992)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de course GT3 / LMGT3",
+      "bodyStyles": [
+        "Coupé de course"
+      ],
+      "categories": [
+        "endurance",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2026 6 Hours of Spa-Francorchamps The Bend Manthey Porsche 911 GT3 R LMGT3 No.92 (DSC07734).jpg",
+          "caption": null,
+          "depicts": "Porsche 911 GT3 R LMGT3 n°92 de The Bend Manthey, 6 Heures de Spa 2026",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 6 Hours of Spa-Francorchamps Manthey EMA Porsche 911 GT3 R No.91 (DSC05943).jpg",
+          "caption": null,
+          "depicts": "Porsche 911 GT3 R n°91 de Manthey EMA, 6 Heures de Spa 2024",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La 911 GT3 R de génération 992 est la GT3 client de Porsche, dévoilée à Spa en juillet 2022 et livrée à partir de 2023. Son flat-six atmosphérique passe à 4,2 l pour jusqu'à 565 ch.",
+        "positioning": "Voiture de course GT3 vendue aux équipes clientes, engagée notamment en LMGT3 du WEC, en IMSA GTD et en GT World Challenge.",
+        "technicalFacts": [
+          "Flat-six atmosphérique de 4 194 cm³ (contre 3 997 cm³ pour la génération précédente).",
+          "Jusqu'à 416 kW (565 ch) selon Porsche.",
+          "Boîte séquentielle 6 rapports dérivée de la 911 GT3 Cup, commandée par palettes.",
+          "Empattement de 2 507 mm (+48 mm) ; freins avant de 390 mm à étriers 6 pistons.",
+          "Présentée le 30 juillet 2022 à Spa-Francorchamps ; prix de lancement de 511 000 € hors TVA."
+        ],
+        "pros": [
+          "Moteur atmosphérique proche de celui de la 911 de série.",
+          "Large réseau d'équipes clientes et de support."
+        ],
+        "differentiators": [
+          "Moteur placé à l'arrière, fidèle à l'architecture de la 911."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Prix élevé, hors taxes et options."
+        ]
+      },
+      "variants": [
+        {
+          "id": "porsche-911-gt3-r-992-gt3",
+          "name": "911 GT3 R (GT3)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "Flat-six atmosphérique placé à l'arrière",
+            "displacementCc": 4194,
+            "electricMotors": 0
+          },
+          "powerHp": 565,
+          "powerKw": 416,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Séquentielle 6 rapports à palettes",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": null,
+            "widthMm": null,
+            "heightMm": null,
+            "wheelbaseMm": 2507
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance « jusqu'à 565 ch (416 kW) » annoncée par Porsche ; Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe. Prix : 511 000 € net, hors TVA du pays et options (prix départ usine de lancement ; un prix de 523 000 € est cité ailleurs en 2023, non retenu). Poids et couple non publiés. Prix client publié hors TVA : 511000 EUR HT (2022-07, DailySportscar – Porsche confirms details of new 911 GT3 R) ; non affiché car l'app montre des prix TTC.",
+          "sources": [
+            {
+              "label": "DailySportscar – Porsche confirms details of new 911 GT3 R",
+              "url": "https://www.dailysportscar.com/2022/07/30/porsche-confirms-details-of-new-911-gt3-r.html",
+              "type": "press",
+              "publishedAt": "2022-07-30",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "DailySportscar – Porsche confirms details of new 911 GT3 R",
+          "url": "https://www.dailysportscar.com/2022/07/30/porsche-confirms-details-of-new-911-gt3-r.html",
+          "type": "press",
+          "publishedAt": "2022-07-30",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ferrari-296-gt3",
+      "modelId": "ferrari-296-gt3",
+      "brandId": "ferrari",
+      "modelName": "296 GT3",
+      "name": "Ferrari 296 GT3 (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de course GT3 / LMGT3",
+      "bodyStyles": [
+        "Coupé de course"
+      ],
+      "categories": [
+        "endurance",
+        "supercar"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2023 Ferrari 296 GT3 Daytona (cropped).jpg",
+          "caption": null,
+          "depicts": "Ferrari 296 GT3 aux 24 Heures de Daytona 2023",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 6 Hours of Spa-Francorchamps Vista AF Corse Ferrari 296 GT3 No.54 (DSC05257).jpg",
+          "caption": null,
+          "depicts": "Ferrari 296 GT3 n°54 de Vista AF Corse, 6 Heures de Spa 2024",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Ferrari 296 GT3 remplace la 488 GT3 depuis 2023, avec un V6 biturbo sans hybride. Elle a gagné les 24 Heures du Nürburgring 2023 et la catégorie GTD Pro des 24 Heures de Daytona 2024.",
+        "positioning": "Voiture de course GT3 client de Ferrari, dérivée de la 296 GTB, engagée en LMGT3, IMSA et GT World Challenge.",
+        "technicalFacts": [
+          "V6 120° biturbo de 3,0 l dérivé de la 296 GTB, sans système hybride.",
+          "Environ 600 ch (441 kW) et 710 Nm selon la presse.",
+          "Boîte séquentielle 6 rapports transversale à carter en magnésium.",
+          "Présentée fin juillet 2022 ; débuts aux 24 Heures de Daytona 2023.",
+          "Victoire aux 24 Heures du Nürburgring 2023 (record de distance) et en GTD Pro à Daytona 2024."
+        ],
+        "pros": [
+          "Palmarès rapide dès sa première saison."
+        ],
+        "differentiators": [
+          "V6 biturbo partagé avec la 296 GTB de route, sans hybridation."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Perd l'hybridation de la 296 de route, interdite en GT3."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ferrari-296-gt3-gt3",
+          "name": "296 GT3 (GT3)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 120° biturbo central arrière",
+            "displacementCc": 2992,
+            "electricMotors": 0
+          },
+          "powerHp": 600,
+          "powerKw": 441,
+          "torqueNm": 710,
+          "drivetrain": null,
+          "gearbox": "Séquentielle 6 rapports transversale",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance « environ 592 hp (441 kW / 600 PS) » et 710 Nm selon Carscoops ; Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe. Cylindrée de 2 992 cm³ du V6 F163 de la 296 (Wikipedia). Poids et dimensions non publiés dans les sources consultées.",
+          "sources": [
+            {
+              "label": "Carscoops – Ferrari 296 GT3 debuts with twin-turbo V6 developing around 592 hp",
+              "url": "https://www.carscoops.com/2022/07/ferrari-296-gt3-debuts-with-twin-turbo-v6-developing-around-592-hp/",
+              "type": "press",
+              "publishedAt": "2022-07-29",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia (en) – Ferrari 296 GT3",
+              "url": "https://en.wikipedia.org/wiki/Ferrari_296_GT3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Carscoops – Ferrari 296 GT3 debuts with twin-turbo V6 developing around 592 hp",
+          "url": "https://www.carscoops.com/2022/07/ferrari-296-gt3-debuts-with-twin-turbo-v6-developing-around-592-hp/",
+          "type": "press",
+          "publishedAt": "2022-07-29",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia (en) – Ferrari 296 GT3",
+          "url": "https://en.wikipedia.org/wiki/Ferrari_296_GT3",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "bmw-m4-gt3-evo",
+      "modelId": "bmw-m4-gt3",
+      "brandId": "bmw",
+      "modelName": "M4 GT3",
+      "name": "BMW M4 GT3 EVO (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de course GT3 / LMGT3",
+      "bodyStyles": [
+        "Coupé de course"
+      ],
+      "categories": [
+        "endurance",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2025-04-26 Motorsport, DTM, Oschersleben STP 3073.jpg",
+          "caption": null,
+          "depicts": "BMW M4 GT3 EVO en DTM, Oschersleben 2025",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Nick Yelloly BMW M4 GT3 GT World Challenge Hockenheim 2022.jpg",
+          "caption": null,
+          "depicts": "BMW M4 GT3 (version initiale, avant EVO), GT World Challenge Hockenheim 2022",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La BMW M4 GT3 EVO est l'évolution de la GT3 de BMW lancée en 2022, présentée au Nürburgring en mai 2024. Elle a gagné les 24 Heures de Dubaï 2025 dès sa première course.",
+        "positioning": "Voiture de course GT3 client de BMW M Motorsport, dérivée de la M4 Coupé (G82), engagée notamment en LMGT3 du WEC.",
+        "technicalFacts": [
+          "Six cylindres en ligne biturbo P58 de 2 993 cm³, jusqu'à 590 ch selon la réglementation.",
+          "Boîte Xtrac 6 rapports.",
+          "Longueur 5 020 mm (avec splitter et aileron), largeur 2 040 mm, empattement 2 917 mm.",
+          "Évolutions : rétroviseurs, phares, feux et prises d'air revus, nouvelles barres antiroulis, disques arrière plus grands.",
+          "Prix annoncé de 578 000 € hors TVA ; victoire aux 24 Heures de Dubaï 2025 pour ses débuts."
+        ],
+        "pros": [
+          "Évolution d'une GT3 déjà éprouvée et victorieuse."
+        ],
+        "differentiators": [
+          "Six cylindres en ligne biturbo P58 apparenté à celui de la M4 de série."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Gabarit imposant (plus de 5 m de long)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "bmw-m4-gt3-evo-gt3",
+          "name": "M4 GT3 EVO (GT3)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "Six cylindres en ligne biturbo (P58)",
+            "displacementCc": 2993,
+            "electricMotors": 0
+          },
+          "powerHp": 590,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Xtrac 6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 5020,
+            "widthMm": 2040,
+            "heightMm": 1310,
+            "wheelbaseMm": 2917
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "« Jusqu'à 590 hp » selon BMW, puissance adaptée selon le règlement de chaque série (BoP). Hauteur de 1 310 mm variable. Prix : 578 000 € net (hors TVA). Couple, poids et transmission non publiés dans le communiqué. Prix client publié hors TVA : 578000 EUR HT (2024-05, BMW Group PressClub – Presentation of the BMW M4 GT3 EVO at the Nürburgring) ; non affiché car l'app montre des prix TTC.",
+          "sources": [
+            {
+              "label": "BMW Group PressClub – Presentation of the BMW M4 GT3 EVO at the Nürburgring",
+              "url": "https://www.press.bmwgroup.com/global/article/detail/T0442652EN/presentation-of-the-bmw-m4-gt3-evo-at-the-nuerburgring:-bmw-m-motorsport-makes-the-successful-model-even-better",
+              "type": "manufacturer",
+              "publishedAt": "2024-05-29",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia (en) – BMW M4 GT3",
+              "url": "https://en.wikipedia.org/wiki/BMW_M4_GT3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "BMW Group PressClub – Presentation of the BMW M4 GT3 EVO at the Nürburgring",
+          "url": "https://www.press.bmwgroup.com/global/article/detail/T0442652EN/presentation-of-the-bmw-m4-gt3-evo-at-the-nuerburgring:-bmw-m-motorsport-makes-the-successful-model-even-better",
+          "type": "manufacturer",
+          "publishedAt": "2024-05-29",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia (en) – BMW M4 GT3",
+          "url": "https://en.wikipedia.org/wiki/BMW_M4_GT3",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "chevrolet-corvette-z06-gt3-r",
+      "modelId": "chevrolet-corvette-z06-gt3-r",
+      "brandId": "chevrolet",
+      "modelName": "Corvette Z06 GT3.R",
+      "name": "Chevrolet Corvette Z06 GT3.R (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de course GT3 / LMGT3",
+      "bodyStyles": [
+        "Coupé de course"
+      ],
+      "categories": [
+        "endurance",
+        "supercar"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2026 6 Hours of Spa-Francorchamps TF Sport Chevrolet Corvette Z06 LMGT3.R No.33 (DSC06746).jpg",
+          "caption": null,
+          "depicts": "Corvette Z06 LMGT3.R n°33 de TF Sport, 6 Heures de Spa 2026",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:24 Heures du Mans 2026 LMGT3 No. 33 Corvette Z06 LMGT3.R TF SPORT.jpg",
+          "caption": null,
+          "depicts": "Corvette Z06 LMGT3.R n°33 de TF Sport aux 24 Heures du Mans 2026",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Corvette Z06 GT3.R est la première Corvette de course entièrement conforme au règlement GT3 de la FIA. Dévoilée en janvier 2023, elle a gagné la catégorie LMGT3 des 24 Heures du Mans 2026 avec TF Sport.",
+        "positioning": "Voiture de course GT3 client de Chevrolet, développée avec Pratt Miller, dérivée de la Corvette Z06 (C8).",
+        "technicalFacts": [
+          "V8 atmosphérique de 5,5 l LT6.R à vilebrequin plat, dérivé du moteur de la Z06 de série.",
+          "Boîte séquentielle Xtrac P529 à 6 rapports ; monocoque aluminium.",
+          "Lancée le 27 janvier 2023 ; débuts aux 24 Heures de Daytona 2024.",
+          "Titres 2025 en IMSA GTD Pro et en ELMS LMGT3 ; victoire LMGT3 au Mans 2026."
+        ],
+        "pros": [
+          "V8 atmosphérique à vilebrequin plat très proche de la série."
+        ],
+        "differentiators": [
+          "Première Corvette de course entièrement conforme au règlement GT3 de la FIA."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Puissance très différente selon le championnat (BoP)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "chevrolet-corvette-z06-gt3-r-gt3",
+          "name": "Corvette Z06 GT3.R (GT3)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 90° atmosphérique 5,5 l à vilebrequin plat, central arrière",
+            "displacementCc": null,
+            "electricMotors": 0
+          },
+          "powerHp": 500,
+          "powerKw": 373,
+          "torqueNm": 620,
+          "drivetrain": null,
+          "gearbox": "Séquentielle Xtrac P529 6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1240,
+          "dimensions": {
+            "lengthMm": 4630,
+            "widthMm": 2050,
+            "heightMm": 1148,
+            "wheelbaseMm": 2723
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance en configuration WEC : 500 hp (373 kW) à 7 400 tr/min ; 600 hp (447 kW) en IMSA (Wikipedia). Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe. Poids indiqué : 1 239,67 kg. Cylindrée exacte en cm³ non précisée.",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – Chevrolet Corvette Z06 GT3.R",
+              "url": "https://en.wikipedia.org/wiki/Chevrolet_Corvette_Z06_GT3.R",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Chevrolet Corvette Z06 GT3.R",
+          "url": "https://en.wikipedia.org/wiki/Chevrolet_Corvette_Z06_GT3.R",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "aston-martin-vantage-amr-gt3-evo",
+      "modelId": "aston-martin-vantage-gt3",
+      "brandId": "aston-martin",
+      "modelName": "Vantage AMR GT3 Evo",
+      "name": "Aston Martin Vantage AMR GT3 Evo (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de course GT3 / LMGT3",
+      "bodyStyles": [
+        "Coupé de course"
+      ],
+      "categories": [
+        "endurance",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2025-04-26 Motorsport, DTM, Oschersleben STP 3062.jpg",
+          "caption": null,
+          "depicts": "Aston Martin Vantage GT3 en DTM, Oschersleben 2025",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Vantage AMR GT3 Evo est la GT3 d'Aston Martin basée sur la Vantage restylée de 2024. Elle reprend le V8 biturbo 4,0 l d'origine Mercedes-AMG de la voiture de série.",
+        "positioning": "Voiture de course GT3 client d'Aston Martin, engagée en LMGT3 du WEC, en IMSA et en GT World Challenge.",
+        "technicalFacts": [
+          "V8 biturbo 4,0 l d'origine Mercedes-AMG (M177), comme la Vantage de route.",
+          "542 PS (399 kW) et 700 Nm selon Wikipedia pour la GT3 basée sur la Vantage 2025.",
+          "Poids à sec de 1 245 kg selon la même source."
+        ],
+        "pros": [
+          "Moteur à fort couple issu de la voiture de série."
+        ],
+        "differentiators": [
+          "V8 biturbo monté en position centrale avant, propulsion."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Données techniques officielles peu détaillées publiquement."
+        ]
+      },
+      "variants": [
+        {
+          "id": "aston-martin-vantage-amr-gt3-evo-gt3",
+          "name": "Vantage AMR GT3 Evo (GT3)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l en position centrale avant",
+            "displacementCc": null,
+            "electricMotors": 0
+          },
+          "powerHp": 542,
+          "powerKw": 399,
+          "torqueNm": 700,
+          "drivetrain": null,
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1245,
+          "dimensions": null,
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs de Wikipedia pour la « GT3 (base 2025) » : 542 PS, 700 Nm, poids à sec 1 245 kg. Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe. Boîte, cylindrée exacte et dimensions non publiées dans la source.",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – Aston Martin Vantage AMR GT3 Evo",
+              "url": "https://en.wikipedia.org/wiki/Aston_Martin_Vantage_AMR_GT3_Evo",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Aston Martin Vantage AMR GT3 Evo",
+          "url": "https://en.wikipedia.org/wiki/Aston_Martin_Vantage_AMR_GT3_Evo",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mclaren-720s-gt3-evo",
+      "modelId": "mclaren-720s-gt3",
+      "brandId": "mclaren",
+      "modelName": "720S GT3 Evo",
+      "name": "McLaren 720S GT3 Evo (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de course GT3 / LMGT3",
+      "bodyStyles": [
+        "Coupé de course"
+      ],
+      "categories": [
+        "endurance",
+        "supercar"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2026 6 Hours of Spa-Francorchamps Garage 59 McLaren 720S LMGT3 Evo No.10 (DSC2702).jpg",
+          "caption": null,
+          "depicts": "McLaren 720S LMGT3 Evo n°10 de Garage 59, 6 Heures de Spa 2026",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La 720S GT3 Evo, présentée en 2023, est l'évolution de la GT3 de McLaren révélée en 2018. Elle améliore l'aérodynamique et les suspensions, sans changer le V8 biturbo de 4,0 l.",
+        "positioning": "Voiture de course GT3 client de McLaren, vendue neuve ou en kit d'évolution pour les 720S GT3 existantes.",
+        "technicalFacts": [
+          "V8 biturbo 4,0 l inchangé par rapport à la 720S GT3 ; puissance non communiquée par McLaren.",
+          "Nouveaux bouclier et splitter avant, capot revu pour le refroidissement, aileron plus facile à régler et plus efficace.",
+          "Amortisseurs Öhlins réglables et nouveaux triangles pour réduire l'usure des pneus.",
+          "Selon McLaren, 90 % de la 720S GT3 diffère de la 720S de route (Wikipedia)."
+        ],
+        "pros": [
+          "Kit d'évolution disponible pour les voitures existantes."
+        ],
+        "differentiators": [
+          "Version Evo proposée neuve ou en kit pour les 720S GT3 existantes."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Fiche technique officielle très peu détaillée."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mclaren-720s-gt3-evo-gt3",
+          "name": "720S GT3 Evo (GT3)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo 4,0 l central arrière",
+            "displacementCc": null,
+            "electricMotors": 0
+          },
+          "powerHp": null,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance non communiquée par McLaren (inférieure aux 720 ch de la 720S de route selon TopGear) ; puissance réelle fixée par la BoP. Poids, couple, boîte et dimensions non publiés dans les sources consultées. Prix de l'Evo non communiqué.",
+          "sources": [
+            {
+              "label": "TopGear Nederland – McLaren 720S GT3 Evo : betere aero, hetzelfde vermogen",
+              "url": "https://topgear.nl/autonieuws/mclaren-720s-gt3-evo-betere-aero-hetzelfde-vermogen/",
+              "type": "press",
+              "publishedAt": "2023-02-16",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia (en) – McLaren 720S GT3",
+              "url": "https://en.wikipedia.org/wiki/McLaren_720S_GT3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "TopGear Nederland – McLaren 720S GT3 Evo : betere aero, hetzelfde vermogen",
+          "url": "https://topgear.nl/autonieuws/mclaren-720s-gt3-evo-betere-aero-hetzelfde-vermogen/",
+          "type": "press",
+          "publishedAt": "2023-02-16",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia (en) – McLaren 720S GT3",
+          "url": "https://en.wikipedia.org/wiki/McLaren_720S_GT3",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mercedes-amg-gt3-evo",
+      "modelId": "mercedes-amg-gt3",
+      "brandId": "mercedes-benz",
+      "modelName": "Mercedes-AMG GT3 Evo",
+      "name": "Mercedes-AMG GT3 Evo (2020)",
+      "yearsLabel": "2020 –",
+      "startYear": 2020,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de course GT3 / LMGT3",
+      "bodyStyles": [
+        "Coupé de course"
+      ],
+      "categories": [
+        "endurance",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2025 24 Hours of Le Mans (54917291761).jpg",
+          "caption": null,
+          "depicts": "Mercedes-AMG GT3 Evo aux 24 Heures du Mans 2025",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes AMG GT - Normal und EVO.jpg",
+          "caption": null,
+          "depicts": "Mercedes-AMG GT3 et GT3 Evo côte à côte",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Mercedes-AMG GT3 Evo est l'évolution, présentée en 2019, de la GT3 lancée en 2015 sur base AMG GT. Elle a ramené Mercedes au Mans en 2025 en LMGT3, pour la première fois depuis 1999.",
+        "positioning": "Voiture de course GT3 client de Mercedes-AMG, l'une des plus répandues dans le monde ; une GT3 de nouvelle génération est annoncée pour 2027.",
+        "technicalFacts": [
+          "V8 atmosphérique M159 de 6 208 cm³ (commercialisé sous le nom « 6.3 »).",
+          "GT3 d'origine : 550 PS (404 kW) et 650 Nm, poids inférieur à 1 300 kg (Wikipedia).",
+          "Evo présentée aux 24 Heures du Nürburgring en juin 2019 pour la saison 2020 : nouveaux phares, calandre, splitter et aileron, nouveaux systèmes de freinage et d'antipatinage.",
+          "Éligible en LMGT3 du WEC depuis 2025."
+        ],
+        "pros": [
+          "V8 atmosphérique de grosse cylindrée, robuste et répandu."
+        ],
+        "differentiators": [
+          "Plus de 130 GT3 vendues à mi-2019 selon Wikipedia."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Base technique de 2015, remplacement annoncé pour 2027."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mercedes-amg-gt3-evo-gt3",
+          "name": "AMG GT3 Evo (GT3)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 atmosphérique (M159) en position centrale avant",
+            "displacementCc": 6208,
+            "electricMotors": 0
+          },
+          "powerHp": 550,
+          "powerKw": 404,
+          "torqueNm": 650,
+          "drivetrain": null,
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance et couple publiés par Wikipedia pour la GT3 d'origine (2015-2019) ; l'Evo conserve le même V8 6,2 l mais ses chiffres propres ne sont pas publiés. Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe. Poids, boîte et dimensions non précisés.",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – Mercedes-AMG GT3",
+              "url": "https://en.wikipedia.org/wiki/Mercedes-AMG_GT3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Mercedes-AMG GT3",
+          "url": "https://en.wikipedia.org/wiki/Mercedes-AMG_GT3",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ford-mustang-gt3",
+      "modelId": "ford-mustang-gt3",
+      "brandId": "ford",
+      "modelName": "Mustang GT3",
+      "name": "Ford Mustang GT3 (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de course GT3 / LMGT3",
+      "bodyStyles": [
+        "Coupé de course"
+      ],
+      "categories": [
+        "endurance",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2026 6 Hours of Spa-Francorchamps Proton Competition Ford Mustang LMGT3 No.77 (DSC5509).jpg",
+          "caption": null,
+          "depicts": "Ford Mustang LMGT3 n°77 de Proton Competition, 6 Heures de Spa 2026",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Pro Mustang 64 WGI25 03 (cropped).jpg",
+          "caption": null,
+          "depicts": "Ford Mustang GT3 n°64 en IMSA, Watkins Glen 2025",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Ford Mustang GT3, développée avec Multimatic et M-Sport, a été dévoilée au Mans en juin 2023. Elle a offert à Ford un podium LMGT3 au Mans dès 2024 et sa première victoire à Daytona en 2025.",
+        "positioning": "Voiture de course GT3 de Ford Performance, dérivée de la Mustang (S650), engagée en IMSA GTD, en LMGT3 du WEC et au Nürburgring.",
+        "technicalFacts": [
+          "V8 atmosphérique Coyote de 5,4 l à carter sec, développé avec M-Sport.",
+          "Boîte-pont séquentielle Xtrac à 6 rapports placée près de l'essieu arrière.",
+          "Dévoilée le 9 juin 2023, pour le centenaire des 24 Heures du Mans ; débuts aux 24 Heures de Daytona 2024.",
+          "Première victoire aux 24 Heures de Daytona 2025."
+        ],
+        "pros": [
+          "Retour officiel de Ford en GT3 avec un V8 atmosphérique emblématique."
+        ],
+        "differentiators": [
+          "GT3 dérivée de la Mustang, développée avec Multimatic et M-Sport."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Puissance et poids réels dépendants de la BoP de chaque championnat."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ford-mustang-gt3-gt3",
+          "name": "Mustang GT3 (GT3)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 atmosphérique 5,4 l (Coyote) à carter sec, en position avant",
+            "displacementCc": null,
+            "electricMotors": 0
+          },
+          "powerHp": 550,
+          "powerKw": 410,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Boîte-pont séquentielle Xtrac 6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1289,
+          "dimensions": null,
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance 550 hp (410 kW) et poids de 1 289 kg selon Wikipedia. Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe. Couple et dimensions non publiés dans la source.",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – Ford Mustang GT3",
+              "url": "https://en.wikipedia.org/wiki/Ford_Mustang_GT3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Ford Mustang GT3",
+          "url": "https://en.wikipedia.org/wiki/Ford_Mustang_GT3",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lamborghini-huracan-gt3-evo2",
+      "modelId": "lamborghini-huracan-gt3",
+      "brandId": "lamborghini",
+      "modelName": "Huracán GT3 EVO2",
+      "name": "Lamborghini Huracán GT3 EVO2 (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de course GT3 / LMGT3",
+      "bodyStyles": [
+        "Coupé de course"
+      ],
+      "categories": [
+        "endurance",
+        "supercar"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2024 24 Hours of Le Mans (54094554888).jpg",
+          "caption": null,
+          "depicts": "Lamborghini Huracán GT3 EVO2 aux 24 Heures du Mans 2024",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Huracán GT3 EVO2, présentée en mai 2022, est la troisième évolution de la GT3 de Lamborghini, inspirée de la Huracán STO. Elle a offert à la marque sa première victoire aux 24 Heures de Spa en 2025.",
+        "positioning": "Voiture de course GT3 client de Lamborghini Squadra Corse, vendue neuve ou en kit pour les Huracán GT3 EVO.",
+        "technicalFacts": [
+          "V10 90° atmosphérique de 5 204 cm³ à injection directe et carter sec.",
+          "Boîte séquentielle Xtrac 6 rapports à commande pneumatique ; propulsion.",
+          "Poids à sec de 1 230 kg ; longueur 4 551 mm, empattement 2 648 mm.",
+          "Prise d'air de toit alimentant un plénum supérieur, nouveaux splitter, bas de caisse, aileron et diffuseur.",
+          "Titre DTM 2024 (Mirko Bortolotti) et victoire aux 24 Heures de Spa 2025."
+        ],
+        "pros": [
+          "V10 atmosphérique à la sonorité marquante.",
+          "Disponible en kit pour les voitures existantes."
+        ],
+        "differentiators": [
+          "V10 atmosphérique de 5,2 l issu de la Huracán de série."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Puissance de course non publiée par Lamborghini."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lamborghini-huracan-gt3-evo2-gt3",
+          "name": "Huracán GT3 EVO2 (GT3)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V10 90° atmosphérique central arrière",
+            "displacementCc": 5204,
+            "electricMotors": 0
+          },
+          "powerHp": null,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "rwd",
+          "gearbox": "Séquentielle Xtrac 6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1230,
+          "dimensions": {
+            "lengthMm": 4551,
+            "widthMm": null,
+            "heightMm": null,
+            "wheelbaseMm": 2648
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Fiche technique Wayne Taylor Racing : 5 204 cm³, poids à sec 1 230 kg, longueur 4 551 mm, largeur 2 221 mm rétroviseurs compris (non retenue), empattement 2 648 mm. Puissance et couple non publiés (la presse cite des valeurs divergentes) ; Puissance plafonnée et ajustée par la Balance of Performance (BoP) selon l'épreuve ; chiffre annoncé, pas une valeur fixe.",
+          "sources": [
+            {
+              "label": "Wayne Taylor Racing – Lamborghini Huracán GT3 EVO2 : technical specifications",
+              "url": "https://waynetaylorracing.com/customer/carspecs/gtd",
+              "type": "community",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Motor Valley – Lamborghini Squadra Corse presents the new Huracán GT3 EVO2",
+              "url": "https://www.motorvalley.it/en/news/lamborghini-squadra-corse-presents-the-new-huracan-gt3-evo2",
+              "type": "press",
+              "publishedAt": "2022-05-06",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia (en) – Lamborghini Huracán GT3 (section GT3 Evo 2)",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_Huracán_GT3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Motor Valley – Lamborghini Squadra Corse presents the new Huracán GT3 EVO2",
+          "url": "https://www.motorvalley.it/en/news/lamborghini-squadra-corse-presents-the-new-huracan-gt3-evo2",
+          "type": "press",
+          "publishedAt": "2022-05-06",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wayne Taylor Racing – Lamborghini Huracán GT3 EVO2 : technical specifications",
+          "url": "https://waynetaylorracing.com/customer/carspecs/gtd",
+          "type": "community",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia (en) – Lamborghini Huracán GT3 (section GT3 Evo 2)",
+          "url": "https://en.wikipedia.org/wiki/Lamborghini_Huracán_GT3",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lexus-rc-f-gt3",
+      "modelId": "lexus-rc-f-gt3",
+      "brandId": "lexus",
+      "modelName": "RC F GT3",
+      "name": "Lexus RC F GT3 (2017)",
+      "yearsLabel": "2017 –",
+      "startYear": 2017,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de course GT3 / LMGT3",
+      "bodyStyles": [
+        "Coupé de course"
+      ],
+      "categories": [
+        "endurance",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2026 6 Hours of Spa-Francorchamps Akkodis ASP Team Lexus RC F LMGT3 No.87 (DSC08183).jpg",
+          "caption": null,
+          "depicts": "Lexus RC F LMGT3 n°87 d'Akkodis ASP Team, 6 Heures de Spa 2026",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Lexus RC F GT3 02.JPG",
+          "caption": null,
+          "depicts": "Lexus RC F GT3",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Lexus RC F GT3 court depuis les 24 Heures de Daytona 2017 et reste engagée en 2026, notamment en LMGT3 du WEC avec Akkodis ASP. Elle doit être remplacée par la Toyota GR GT3.",
+        "positioning": "Voiture de course GT3 dérivée du coupé RC F, engagée en IMSA, en WEC, en Super GT et en Super Taikyu.",
+        "technicalFacts": [
+          "Débuts aux 24 Heures de Daytona 2017 ; première victoire à Mid-Ohio en 2018.",
+          "Titre constructeurs IMSA GTD Pro 2023 avec Vasser Sullivan Racing.",
+          "Le concept RC F GT3 de 2014 annonçait plus de 540 hp (397 kW) et 1 250 kg (Lexus).",
+          "Remplacement annoncé par la Toyota GR GT3 (Wikipedia)."
+        ],
+        "pros": [
+          "Longévité et fiabilité démontrées depuis 2017."
+        ],
+        "differentiators": [
+          "Coupé GT3 dérivé de la Lexus RC F de route."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Base technique ancienne ; fiche technique officielle de la version course non publiée."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lexus-rc-f-gt3-gt3",
+          "name": "RC F GT3 (GT3)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 atmosphérique en position avant",
+            "displacementCc": null,
+            "electricMotors": 0
+          },
+          "powerHp": null,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Aucune fiche technique officielle de la version course actuelle trouvée. Le concept de 2014 (Lexus) annonçait « plus de 540 ch », 1 250 kg et 4 705 × 2 000 × 1 270 mm pour 2 730 mm d'empattement : valeurs de concept non reprises ici. Puissance réelle fixée par la BoP.",
+          "sources": [
+            {
+              "label": "Lexus Pressroom – Lexus RC F GT3 Racing Concept Rumbles the 2014 Geneva Motor Show With its Debut",
+              "url": "https://pressroom.lexus.com/lexus-2014-geneva-motor-show-rc-f-gt3-racing-concept/",
+              "type": "manufacturer",
+              "publishedAt": "2014-02-28",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia (en) – Lexus RC F GT3",
+              "url": "https://en.wikipedia.org/wiki/Lexus_RC_F_GT3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Lexus RC F GT3",
+          "url": "https://en.wikipedia.org/wiki/Lexus_RC_F_GT3",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Lexus Pressroom – Lexus RC F GT3 Racing Concept Rumbles the 2014 Geneva Motor Show With its Debut",
+          "url": "https://pressroom.lexus.com/lexus-2014-geneva-motor-show-rc-f-gt3-racing-concept/",
+          "type": "manufacturer",
+          "publishedAt": "2014-02-28",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "porsche-917",
+      "modelId": "porsche-917",
+      "brandId": "porsche",
+      "modelName": "917",
+      "name": "Porsche 917 K (1969-1971)",
+      "yearsLabel": "1969 – 1971",
+      "startYear": 1969,
+      "endYear": 1971,
+      "status": "discontinued",
+      "segment": "Prototype d'endurance historique",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "classic",
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Rennsport Reunion V (21280453644).jpg",
+          "caption": null,
+          "depicts": "Porsche 917 K 4,5 l, voiture victorieuse des 24 Heures du Mans 1970",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:1969 Porsche 917K Red.jpg",
+          "caption": null,
+          "depicts": "Porsche 917 K",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Porsche 917 a offert à Porsche sa première victoire au classement général des 24 Heures du Mans, le 14 juin 1970, avec la 917 KH n°23 de Porsche Salzburg. Une 917 KH a de nouveau gagné en 1971.",
+        "positioning": "Voiture de sport du Groupe 5 à moteur flat-12, symbole de la domination de Porsche en endurance au début des années 1970.",
+        "technicalFacts": [
+          "Flat-12 refroidi par air (type 912), 4 494 cm³ au lancement, porté ensuite à 4 999 cm³.",
+          "La 917 KH victorieuse en 1970 développait 580 ch selon Porsche.",
+          "Victoire au Mans 1970 (Hans Herrmann / Richard Attwood, 4 607,811 km en 343 tours) et 1971 (Helmut Marko / Gijs van Lennep).",
+          "La version Can-Am 917/30 biturbo dépassait 1 100 ch en course (Wikipedia)."
+        ],
+        "pros": [
+          "Icône absolue de l'endurance et de l'histoire Porsche."
+        ],
+        "differentiators": [
+          "Première victoire au général de Porsche au Mans."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Voiture réputée très difficile à piloter à ses débuts, avant la mise au point aérodynamique."
+        ]
+      },
+      "variants": [
+        {
+          "id": "porsche-917-kh-1970",
+          "name": "917 KH 4,5 l (1970)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "Flat-12 atmosphérique refroidi par air (type 912), central arrière",
+            "displacementCc": 4494,
+            "electricMotors": 0
+          },
+          "powerHp": 580,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Manuelle 4 ou 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4120,
+            "widthMm": 1980,
+            "heightMm": 940,
+            "wheelbaseMm": 2300
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance de 580 ch (valeur d'époque) pour la 917 KH victorieuse en 1970, selon Porsche. Cylindrée et dimensions de la 917 K selon Wikipedia. Poids : 820 kg selon Wikipedia, 800 kg (minimum réglementaire) cité par Porsche ; non retenu faute de valeur unique.",
+          "sources": [
+            {
+              "label": "Porsche – Press release « Porsche achieved the first overall victory at Le Mans 50 years ago »",
+              "url": "https://newsroom.porsche.com/dam/jcr:70f3cfee-371e-4f3e-a4fa-3102e422697f/PI20200603e_Porsche%20achieved%20te%20first%20overall%20victory%20at%20Le%20Mans%2050%20years%20ago.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2020-06-03",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia (en) – Porsche 917",
+              "url": "https://en.wikipedia.org/wiki/Porsche_917",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Porsche – Press release « Porsche achieved the first overall victory at Le Mans 50 years ago »",
+          "url": "https://newsroom.porsche.com/dam/jcr:70f3cfee-371e-4f3e-a4fa-3102e422697f/PI20200603e_Porsche%20achieved%20te%20first%20overall%20victory%20at%20Le%20Mans%2050%20years%20ago.pdf",
+          "type": "manufacturer",
+          "publishedAt": "2020-06-03",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia (en) – Porsche 917",
+          "url": "https://en.wikipedia.org/wiki/Porsche_917",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "porsche-956",
+      "modelId": "porsche-956",
+      "brandId": "porsche",
+      "modelName": "956",
+      "name": "Porsche 956 (1982)",
+      "yearsLabel": "1982 –",
+      "startYear": 1982,
+      "endYear": null,
+      "status": "discontinued",
+      "segment": "Prototype d'endurance historique",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "classic",
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Porsche 956 Rothmans.jpg",
+          "caption": null,
+          "depicts": "Porsche 956 en livrée Rothmans",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Porsche 956 at the Porsche Museum in Stuttgart, Germany.jpg",
+          "caption": null,
+          "depicts": "Porsche 956 au Porsche Museum de Stuttgart",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Porsche 956 a inauguré l'ère du Groupe C en signant un triplé dès ses débuts au Mans en 1982. Stefan Bellof y a signé en 1983 le record du tour de la Nordschleife : 6 min 11 s 13.",
+        "positioning": "Prototype Groupe C de Porsche, vendu aussi aux équipes clientes à partir de 1983.",
+        "technicalFacts": [
+          "Flat-six turbo de 2 649 cm³ : 456 kW (620 ch) selon Porsche.",
+          "Première monocoque en aluminium de Porsche et effet de sol.",
+          "Triplé aux 24 Heures du Mans 1982 pour ses débuts.",
+          "Record de la Nordschleife : 6:11.13 par Stefan Bellof aux qualifications des 1000 km 1983."
+        ],
+        "pros": [
+          "Palmarès et records hors normes."
+        ],
+        "differentiators": [
+          "Record du tour de la Nordschleife établi en 1983 (6:11.13)."
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Développement de l'injection/allumage électroniques et de la boîte à double embrayage PDK sur les 956 et 962 C (Porsche)."
+        ],
+        "compromises": [
+          "Sécurité passive limitée, typique de l'époque."
+        ]
+      },
+      "variants": [
+        {
+          "id": "porsche-956-1982",
+          "name": "956 (1982)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "Flat-six turbo (dérivé du type 935), central arrière",
+            "displacementCc": 2649,
+            "electricMotors": 0
+          },
+          "powerHp": 620,
+          "powerKw": 456,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 360,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance et vitesse maximale selon le kit presse du Porsche Museum (valeurs d'époque). Poids non publié par Porsche sur cette page ; Wikipedia indique le minimum Groupe C de 800 kg. La vitesse de 360 km/h diffère d'une autre fiche Porsche (352 km/h).",
+          "sources": [
+            {
+              "label": "Porsche Newsroom – Press kit Porsche Museum : Porsche 956",
+              "url": "https://newsroom.porsche.com/en/press-kits/Porsche-Museum/Porsche-956.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia (en) – Porsche 956",
+              "url": "https://en.wikipedia.org/wiki/Porsche_956",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Porsche Newsroom – Press kit Porsche Museum : Porsche 956",
+          "url": "https://newsroom.porsche.com/en/press-kits/Porsche-Museum/Porsche-956.html",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia (en) – Porsche 956",
+          "url": "https://en.wikipedia.org/wiki/Porsche_956",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Porsche – Press release « Porsche achieved the first overall victory at Le Mans 50 years ago »",
+          "url": "https://newsroom.porsche.com/dam/jcr:70f3cfee-371e-4f3e-a4fa-3102e422697f/PI20200603e_Porsche%20achieved%20te%20first%20overall%20victory%20at%20Le%20Mans%2050%20years%20ago.pdf",
+          "type": "manufacturer",
+          "publishedAt": "2020-06-03",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "porsche-962",
+      "modelId": "porsche-962",
+      "brandId": "porsche",
+      "modelName": "962",
+      "name": "Porsche 962 / 962 C (1984)",
+      "yearsLabel": "1984 –",
+      "startYear": 1984,
+      "endYear": null,
+      "status": "discontinued",
+      "segment": "Prototype d'endurance historique",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "classic",
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:1988 Porsche 962-010 HCC25.jpg",
+          "caption": null,
+          "depicts": "Porsche 962 (châssis 962-010)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:962 Porsche.jpg",
+          "caption": null,
+          "depicts": "Porsche 962",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Évolution de la 956 à empattement allongé, la Porsche 962 a débuté aux 24 Heures de Daytona 1984. En version 962 C, elle a gagné les 24 Heures du Mans en 1986 et 1987.",
+        "positioning": "Prototype Groupe C et IMSA GTP de Porsche, l'un des plus répandus chez les équipes privées.",
+        "technicalFacts": [
+          "Débuts aux 24 Heures de Daytona 1984 avec Mario et Michael Andretti.",
+          "962 C de 1987 : flat-six biturbo de 2 994 cm³, 515 kW (700 ch), 850 kg, 360 km/h selon Porsche.",
+          "Victoires au Mans en 1986 et 1987 (Derek Bell, Al Holbert, Hans-Joachim Stuck).",
+          "Victoire au Mans 1994 avec la dérivée Dauer 962 Le Mans (Porsche, Wikipedia)."
+        ],
+        "pros": [
+          "Longévité exceptionnelle en compétition."
+        ],
+        "differentiators": [
+          "Version allongée de la 956 adaptée au règlement IMSA."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Nombreuses variantes moteur qui compliquent les comparaisons."
+        ]
+      },
+      "variants": [
+        {
+          "id": "porsche-962-c-1987",
+          "name": "962 C (1987)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "Flat-six biturbo, central arrière",
+            "displacementCc": 2994,
+            "electricMotors": 0
+          },
+          "powerHp": 700,
+          "powerKw": 515,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": 360,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 850,
+          "dimensions": null,
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs de la fiche technique Porsche de la 962 C de 1987 (valeurs d'époque). Fiche de la voiture n°17 victorieuse au Mans 1987 (Stuck, Bell, Holbert). Boîte manuelle 5 rapports ou double embrayage selon les versions (Wikipedia).",
+          "sources": [
+            {
+              "label": "Porsche Newsroom – Porsche 962 C Coupé (fiche Porsche Museum, voiture victorieuse au Mans 1987)",
+              "url": "https://newsroom.porsche.com/dam/jcr:71417137-bfb7-40cb-9612-88d77a3bdb47/Porsche%20962%20C%20Coup%C3%A9_2114.pdf",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia (en) – Porsche 962",
+              "url": "https://en.wikipedia.org/wiki/Porsche_962",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Porsche 962",
+          "url": "https://en.wikipedia.org/wiki/Porsche_962",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Porsche Newsroom – Porsche 962 C Coupé (fiche Porsche Museum, voiture victorieuse au Mans 1987)",
+          "url": "https://newsroom.porsche.com/dam/jcr:71417137-bfb7-40cb-9612-88d77a3bdb47/Porsche%20962%20C%20Coup%C3%A9_2114.pdf",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mazda-787b",
+      "modelId": "mazda-787b",
+      "brandId": "mazda",
+      "modelName": "787B",
+      "name": "Mazda 787B (1991)",
+      "yearsLabel": "1991",
+      "startYear": 1991,
+      "endYear": 1991,
+      "status": "discontinued",
+      "segment": "Prototype d'endurance historique",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "classic",
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mazda-787B-No55-July2011.jpg",
+          "caption": null,
+          "depicts": "Mazda 787B n°55, voiture victorieuse au Mans en 1991",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mazda 787B at Le Mans 2011.jpg",
+          "caption": null,
+          "depicts": "Mazda 787B au Mans en 2011",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Mazda 787B est la première voiture japonaise à avoir gagné les 24 Heures du Mans, en 1991, avec un moteur rotatif. Son quadrirotor R26B de 700 ch reste célèbre pour sa sonorité.",
+        "positioning": "Prototype Groupe C de Mazdaspeed, évolution de la 787 de 1990.",
+        "technicalFacts": [
+          "Moteur rotatif Wankel à quatre rotors R26B, atmosphérique : 700 ch selon Mazda.",
+          "Couple de 608 Nm à 6 500 tr/min et boîte manuelle 5 rapports (Wikipedia).",
+          "Poids de 830 kg selon Mazda ; empattement de 2 662 mm.",
+          "Victoire au Mans 1991 (n°55, Johnny Herbert, Volker Weidler, Bertrand Gachot) : 362 tours et 4 932,2 km."
+        ],
+        "pros": [
+          "Sonorité unique du quadrirotor.",
+          "Victoire historique pour le Japon et le moteur rotatif."
+        ],
+        "differentiators": [
+          "Moteur rotatif à quatre rotors R26B, architecture rare en endurance."
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Admission variable linéaire, injection électronique et allumage à trois bougies par rotor (Mazda)."
+        ],
+        "compromises": [
+          "Carrière au plus haut niveau limitée à la saison 1991."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mazda-787b-1991",
+          "name": "787B (R26B)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "Moteur rotatif Wankel 4 rotors atmosphérique (R26B), central arrière",
+            "displacementCc": null,
+            "electricMotors": 0
+          },
+          "powerHp": 700,
+          "powerKw": null,
+          "torqueNm": 608,
+          "drivetrain": null,
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 830,
+          "dimensions": {
+            "lengthMm": null,
+            "widthMm": null,
+            "heightMm": null,
+            "wheelbaseMm": 2662
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance (700 ch) et poids (830 kg) selon Mazda ; régime de 9 000 tr/min et kW (515) seulement dans Wikipedia, non retenus. Couple à 6 500 tr/min selon Wikipedia. Cylindrée non retenue : Wikipedia indique 2 616 cm³ et 5 240 cm³ selon le mode de calcul du rotatif.",
+          "sources": [
+            {
+              "label": "Mazda – 30e anniversaire de la victoire au Mans (Mazda 787B)",
+              "url": "https://www.mazda.com/en/innovation/lemans30th/",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia (en) – Mazda 787B",
+              "url": "https://en.wikipedia.org/wiki/Mazda_787B",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Mazda – 30e anniversaire de la victoire au Mans (Mazda 787B)",
+          "url": "https://www.mazda.com/en/innovation/lemans30th/",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia (en) – Mazda 787B",
+          "url": "https://en.wikipedia.org/wiki/Mazda_787B",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "peugeot-905",
+      "modelId": "peugeot-905",
+      "brandId": "peugeot",
+      "modelName": "905",
+      "name": "Peugeot 905 (1990-1993)",
+      "yearsLabel": "1990 – 1993",
+      "startYear": 1990,
+      "endYear": 1993,
+      "status": "discontinued",
+      "segment": "Prototype d'endurance historique",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "classic",
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Peugeot 905.JPG",
+          "caption": null,
+          "depicts": "Peugeot 905",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Peugeot 905 1990 Mulhouse FRA 001.JPG",
+          "caption": null,
+          "depicts": "Peugeot 905 de 1990 exposée à Mulhouse",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Peugeot 905 a offert à Peugeot ses premières victoires aux 24 Heures du Mans, en 1992 puis en 1993 avec la 905B. Elle a aussi remporté les titres pilotes et constructeurs du championnat du monde des voitures de sport 1992.",
+        "positioning": "Prototype Groupe C à moteur V10 atmosphérique de 3,5 l, conçu pour le règlement « sport-prototype » du début des années 1990.",
+        "technicalFacts": [
+          "V10 80° atmosphérique de 3 499 cm³ (SA35-A1), 650 ch à 12 500 tr/min.",
+          "Boîte séquentielle 6 rapports, poids de 780 kg.",
+          "Victoires au Mans en 1992 (Warwick, Dalmas, Blundell) et 1993 (Brabham, Bouchut, Hélary).",
+          "Titres pilotes et constructeurs du championnat du monde des voitures de sport 1992."
+        ],
+        "pros": [
+          "Moteur V10 de 3,5 l proche de la technologie F1 de l'époque."
+        ],
+        "differentiators": [
+          "Moteur V10 atmosphérique de 3,5 l tournant à 12 500 tr/min."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Carrière courte, liée à la disparition du championnat du monde des voitures de sport."
+        ]
+      },
+      "variants": [
+        {
+          "id": "peugeot-905-v10",
+          "name": "905 (V10 3,5 l)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V10 80° atmosphérique (SA35-A1), central arrière",
+            "displacementCc": 3499,
+            "electricMotors": 0
+          },
+          "powerHp": 650,
+          "powerKw": 478,
+          "torqueNm": null,
+          "drivetrain": "rwd",
+          "gearbox": "Séquentielle 6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 780,
+          "dimensions": {
+            "lengthMm": 4800,
+            "widthMm": 1960,
+            "heightMm": 1040,
+            "wheelbaseMm": null
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs générales du tableau de Wikipedia (valeurs d'époque), sans distinction entre les évolutions ; la 905B atteindrait environ 715 ch selon la même source.",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – Peugeot 905",
+              "url": "https://en.wikipedia.org/wiki/Peugeot_905",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Peugeot 905",
+          "url": "https://en.wikipedia.org/wiki/Peugeot_905",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "audi-r18-e-tron-quattro",
+      "modelId": "audi-r18",
+      "brandId": "audi",
+      "modelName": "R18 e-tron quattro",
+      "name": "Audi R18 e-tron quattro (2012-2016)",
+      "yearsLabel": "2012 – 2016",
+      "startYear": 2012,
+      "endYear": 2016,
+      "status": "discontinued",
+      "segment": "Prototype d'endurance historique",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "classic",
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Audi R18 e-tron quattro at 2013 Le Mans.jpg",
+          "caption": null,
+          "depicts": "Audi R18 e-tron quattro aux 24 Heures du Mans 2013",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Audi R18 e-tron quattro.jpg",
+          "caption": null,
+          "depicts": "Audi R18 e-tron quattro",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "L'Audi R18 e-tron quattro a remporté les 24 Heures du Mans en 2012 (doublé) et en 2013. Elle associait un V6 TDI diesel à un moteur électrique avant alimenté par un volant d'inertie.",
+        "positioning": "Prototype LMP1 hybride diesel d'Audi Sport, engagé en championnat du monde d'endurance FIA.",
+        "technicalFacts": [
+          "V6 120° turbodiesel monoturbo : 3,7 l en 2012-2013, 4,0 l de 2014 à 2016.",
+          "Stockage d'énergie par volant d'inertie et moteur-générateur sur l'essieu avant.",
+          "Doublé au Mans 2012 et victoire au Mans 2013.",
+          "Titres pilotes et constructeurs du WEC en 2012 et 2013."
+        ],
+        "pros": [
+          "Pionnière de l'hybride victorieux au Mans."
+        ],
+        "differentiators": [
+          "Hybride diesel à volant d'inertie et moteur électrique avant."
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Récupération d'énergie au freinage stockée dans un volant d'inertie."
+        ],
+        "compromises": [
+          "Diesel aujourd'hui disparu de l'endurance de pointe."
+        ]
+      },
+      "variants": [
+        {
+          "id": "audi-r18-e-tron-quattro-2012",
+          "name": "R18 e-tron quattro 3,7 TDI (2012)",
+          "tier": "sport",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V6 120° turbodiesel 3,7 l + moteur-générateur avant (volant d'inertie)",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 540,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4650,
+            "widthMm": 2000,
+            "heightMm": 1030,
+            "wheelbaseMm": null
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Moteur-générateur avant de 150 kW",
+            "Volant d'inertie de 500 kJ"
+          ],
+          "prices": [],
+          "notes": "Puissance du V6 TDI de 540 hp selon le tableau de Wikipedia ; plus de 700 hp au total pendant la phase de déploiement hybride. Poids 2012 non isolé dans la source (875 kg pour l'e-tron dans le tableau, 915 kg en 2013 dans l'infobox). Transmission décrite de façon incohérente (intégrale partielle ou permanente).",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – Audi R18",
+              "url": "https://en.wikipedia.org/wiki/Audi_R18",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "audi-r18-e-tron-quattro-2015",
+          "name": "R18 e-tron quattro 4,0 TDI (2015)",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V6 120° turbodiesel 4,0 l + moteur-générateur avant (volant d'inertie)",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 558,
+          "powerKw": 416,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 870,
+          "dimensions": {
+            "lengthMm": 4650,
+            "widthMm": 1900,
+            "heightMm": 1050,
+            "wheelbaseMm": null
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Moteur-générateur avant de 203 kW",
+            "Volant d'inertie jusqu'à 700 kJ (classe 4 MJ)"
+          ],
+          "prices": [],
+          "notes": "Puissance du V6 TDI de 416 kW (558 bhp) et poids de 870 kg (à sec, lest compris) pour 2015 selon Wikipedia. Largeur et hauteur 2014-2015.",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – Audi R18",
+              "url": "https://en.wikipedia.org/wiki/Audi_R18",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Audi R18",
+          "url": "https://en.wikipedia.org/wiki/Audi_R18",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "toyota-ts050-hybrid",
+      "modelId": "toyota-ts050-hybrid",
+      "brandId": "toyota",
+      "modelName": "TS050 Hybrid",
+      "name": "Toyota TS050 Hybrid (2016-2020)",
+      "yearsLabel": "2016 – 2020",
+      "startYear": 2016,
+      "endYear": 2020,
+      "status": "discontinued",
+      "segment": "Prototype d'endurance historique",
+      "bodyStyles": [
+        "Prototype fermé"
+      ],
+      "categories": [
+        "classic",
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:No. 8 Toyota TS050 Hybrid - 2017 24 Hours of Le Mans.jpg",
+          "caption": null,
+          "depicts": "Toyota TS050 Hybrid n°8 aux 24 Heures du Mans 2017",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Toyota TS050 Hybrid - Toyota Gazoo Racing - 2019 6 Hours of Spa-Francorchamps.jpg",
+          "caption": null,
+          "depicts": "Toyota TS050 Hybrid aux 6 Heures de Spa 2019",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Toyota TS050 Hybrid a remporté les 24 Heures du Mans en 2018, 2019 et 2020. Ce prototype LMP1 hybride combinait un V6 biturbo de 2,4 l et des moteurs électriques pour 735 kW au total.",
+        "positioning": "Prototype LMP1 hybride de Toyota Gazoo Racing, engagé en WEC de 2016 à 2020.",
+        "technicalFacts": [
+          "V6 90° biturbo de 2,4 l à injection directe : 368 kW (500 ch).",
+          "Système hybride de 368 kW, soit 735 kW (986 hp) au total.",
+          "Victoires au Mans 2018, 2019 et 2020 ; titres pilotes et équipes WEC 2018-19 et 2019-20.",
+          "Débuts aux 6 Heures de Silverstone 2016 ; dernière course aux 8 Heures de Bahreïn 2020."
+        ],
+        "pros": [
+          "Puissance combinée très élevée de 735 kW."
+        ],
+        "differentiators": [
+          "Système hybride aussi puissant que le moteur thermique (368 kW chacun)."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Concept LMP1 hybride très coûteux, remplacé par la réglementation Hypercar."
+        ]
+      },
+      "variants": [
+        {
+          "id": "toyota-ts050-hybrid-lmp1",
+          "name": "TS050 Hybrid (LMP1-H)",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V6 90° biturbo 2,4 l central arrière + système hybride",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 986,
+          "powerKw": 735,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Séquentielle 6 rapports (7 en 2016)",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 875,
+          "dimensions": {
+            "lengthMm": 4650,
+            "widthMm": 1900,
+            "heightMm": 1050,
+            "wheelbaseMm": 2950
+          },
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance combinée 735 kW (986 hp) : moteur thermique 368 kW (500 PS) + système hybride 368 kW, selon Wikipedia. Poids de 875 kg (2016-2019, pilote et carburant compris selon la source), porté à 888 puis 895 kg en 2019-2020. Nombre de moteurs électriques et type de transmission non précisés de façon fiable.",
+          "sources": [
+            {
+              "label": "Wikipedia (en) – Toyota TS050 Hybrid",
+              "url": "https://en.wikipedia.org/wiki/Toyota_TS050_Hybrid",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Toyota TS050 Hybrid",
+          "url": "https://en.wikipedia.org/wiki/Toyota_TS050_Hybrid",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ford-gt40-mk-ii",
+      "modelId": "ford-gt40",
+      "brandId": "ford",
+      "modelName": "GT40 Mk II",
+      "name": "Ford GT40 Mk II (1966)",
+      "yearsLabel": "1966",
+      "startYear": 1966,
+      "endYear": 1966,
+      "status": "discontinued",
+      "segment": "Prototype d'endurance historique",
+      "bodyStyles": [
+        "Coupé de course"
+      ],
+      "categories": [
+        "classic",
+        "endurance"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Ford GT40 (rear).jpg",
+          "caption": null,
+          "depicts": "Ford GT40 Mk II, vue arrière",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Ford GT40 Mk II a signé un triplé aux 24 Heures du Mans 1966. La voiture victorieuse était pilotée par Bruce McLaren et Chris Amon.",
+        "positioning": "Voiture de sport d'endurance de Ford, évolution à moteur 7,0 l de la GT40 Mk I.",
+        "technicalFacts": [
+          "V8 « big block » Ford FE 427 (6 997 cm³), dérivé de la Galaxie.",
+          "Boîte manuelle 4 rapports Kar Kraft remplaçant la ZF 5 rapports de la Mk I.",
+          "Triplé au Mans 1966 ; voiture gagnante GT40P/1046 de Shelby-American (McLaren / Amon), 4 843,09 km à 201,80 km/h de moyenne."
+        ],
+        "pros": [
+          "Victoire historique de Ford face à Ferrari, devenue légende."
+        ],
+        "differentiators": [
+          "V8 de 7,0 l de grosse cylindrée emprunté à la gamme Ford de série."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Voiture lourde, de l'ordre de 300 lb de plus que la Mk IV (Wikipedia)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ford-gt40-mk-ii-427",
+          "name": "GT40 Mk II 7,0 l (1966)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 atmosphérique Ford FE 427 (7,0 l), central arrière",
+            "displacementCc": 6997,
+            "electricMotors": 0
+          },
+          "powerHp": 450,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Manuelle 4 rapports Kar Kraft",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 1,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance : le 427 « développait généralement 450 bhp » selon Sportscar Market (valeur d'époque, sans régime) ; d'autres sources citent jusqu'à environ 500 hp selon la préparation. Couple non publié dans les sources consultées. Huit Mk II construites et poids supérieur d'environ 700 lb à celui de la Mk I selon Sportscar Market ; poids exact et dimensions propres à la Mk II non publiés.",
+          "sources": [
+            {
+              "label": "Sportscar Market – 1966 Ford GT40 Mk II Coupe (profil)",
+              "url": "https://www.sportscarmarket.com/profile/1966-ford-gt40-mk-ii-coupe",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia (en) – Ford GT40",
+              "url": "https://en.wikipedia.org/wiki/Ford_GT40",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia (en) – Ford GT40",
+          "url": "https://en.wikipedia.org/wiki/Ford_GT40",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Sportscar Market – 1966 Ford GT40 Mk II Coupe (profil)",
+          "url": "https://www.sportscarmarket.com/profile/1966-ford-gt40-mk-ii-coupe",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}
