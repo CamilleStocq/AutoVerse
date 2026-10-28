@@ -116,6 +116,8 @@ export function Collection() {
   }, [all, owned, favorite]);
 
   const ownedCount = all.filter((c) => owned[cardKey(c)]).length;
+  // Collection complète : plus de booster ni de questionnaire bonus (il n'y a plus rien à gagner).
+  const complete = all.length > 0 && ownedCount === all.length && !state.pending;
   const brandNames = favorite.map((id) => meta.data?.brands.find((b) => b.id === id)?.name).filter(Boolean);
   const packLabel = brandNames.length ? brandNames.slice(0, 3).join(' · ') + (brandNames.length > 3 ? ' …' : '') : 'Toutes les marques';
   const nextIn = nextBoosterIn(state, now);
@@ -145,19 +147,25 @@ export function Collection() {
             Les cartes n’entrent dans votre deck qu’en sortant d’un booster, et jamais en double.
           </span>
         </div>
-        <button type="button" className="btn btn-primary booster-cta" onClick={state.pending ? () => showBooster(state.pending!) : open} disabled={!state.pending && (state.boosters < 1 || !pool.length)}>
-          <PackageOpen size={20} /> {state.pending ? 'Terminer l’ouverture' : 'Ouvrir un booster'}
-          {!state.pending && state.boosters > 0 && <span className="booster-count num">{state.boosters}</span>}
-        </button>
-        <p className="row gap-2 muted" style={{ fontSize: 'var(--text-sm)' }}>
-          <Clock size={14} aria-hidden="true" />
-          {nextIn == null
-            ? `Réserve pleine (${MAX_STORED_BOOSTERS} boosters) : ouvrez-en un pour relancer le compteur.`
-            : `Prochain booster gratuit dans ${duration(nextIn)} (1 toutes les ${BOOSTER_INTERVAL_HOURS} heures).`}
-        </p>
+        {complete ? (
+          <p className="collection-complete"><Trophy size={18} aria-hidden="true" /> Collection complète : vous avez toutes les cartes. Plus aucun booster n’est distribué.</p>
+        ) : (
+          <>
+            <button type="button" className="btn btn-primary booster-cta" onClick={state.pending ? () => showBooster(state.pending!) : open} disabled={!state.pending && (state.boosters < 1 || !pool.length)}>
+              <PackageOpen size={20} /> {state.pending ? 'Terminer l’ouverture' : 'Ouvrir un booster'}
+              {!state.pending && state.boosters > 0 && <span className="booster-count num">{state.boosters}</span>}
+            </button>
+            <p className="row gap-2 muted" style={{ fontSize: 'var(--text-sm)' }}>
+              <Clock size={14} aria-hidden="true" />
+              {nextIn == null
+                ? `Réserve pleine (${MAX_STORED_BOOSTERS} boosters) : ouvrez-en un pour relancer le compteur.`
+                : `Prochain booster gratuit dans ${duration(nextIn)} (1 toutes les ${BOOSTER_INTERVAL_HOURS} heures).`}
+            </p>
+          </>
+        )}
       </section>
 
-      <section className="panel quiz-panel">
+      {!complete && <section className="panel quiz-panel">
         <h3 className="row gap-2"><Trophy size={18} aria-hidden="true" /> Gagner un booster bonus</h3>
         <p className="muted" style={{ fontSize: 'var(--text-sm)' }}>
           Répondez sans faute à 5 questions sur la F1, le WEC ou le WRC. Jusqu’à {MAX_BONUS_PER_INTERVAL} boosters bonus par période de {BOOSTER_INTERVAL_HOURS} heures, {QUIZ_PER_HOUR} questionnaires par heure.
@@ -176,7 +184,7 @@ export function Collection() {
               ? `${QUIZ_PER_HOUR} questionnaires joués cette heure : prochain dans ${duration(allowance.waitMs)}.`
               : `${allowance.attemptsLeft} questionnaire${allowance.attemptsLeft > 1 ? 's' : ''} disponible${allowance.attemptsLeft > 1 ? 's' : ''} cette heure · ${allowance.bonusLeft} bonus encore possible${allowance.bonusLeft > 1 ? 's' : ''}.`}
         </p>
-      </section>
+      </section>}
 
       {cars.isLoading && <div className="skeleton" style={{ height: 300 }} />}
 

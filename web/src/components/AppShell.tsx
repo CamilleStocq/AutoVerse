@@ -65,13 +65,14 @@ export function AppShell() {
   const { wishlist } = useProfile();
   // Badge du Deck : boosters de cartes prêts à ouvrir.
   const { state: collection } = useCollection();
-  const boosters = collection.boosters;
   // Point sur la médaille : un badge obtenu n'a pas encore été vu sur la page Badges.
-  const { badges, unseen, rewardBadges } = useBadges();
+  const { badges, unseen, rewardBadges, complete } = useBadges();
+  // Collection complète : plus de boosters (ni récompense, ni compteur affiché).
+  const boosters = complete ? 0 : collection.boosters;
   const newBadges = unseen.length;
   // Chaque badge obtenu rapporte 1 à 3 boosters selon sa difficulté, une seule fois.
   const unlockedKey = badges.filter((b) => b.unlocked).map((b) => b.id).join(',');
-  useEffect(() => { if (unlockedKey) rewardBadges(badges.filter((b) => b.unlocked)); }, [unlockedKey]);
+  useEffect(() => { if (unlockedKey && !complete) rewardBadges(badges.filter((b) => b.unlocked)); }, [unlockedKey, complete]);
   const { pathname } = useLocation();
   const [searchOpen, setSearchOpen] = useState(false);
   const install = useInstallState();

@@ -12,6 +12,7 @@ import { CardGridSkeleton, EmptyState, ErrorState, Section } from '../components
 import { NewsCard, NewsSkeleton } from '../components/NewsCard';
 import { DisciplineTag, EventCard, RaceStrip } from './sport/common';
 import { BOOSTER_INTERVAL_HOURS, useCollection } from '../state/collection';
+import { useBadges } from '../lib/badges';
 import { priceLine } from '../components/PriceTag';
 
 function Hero({ car, brands }: { car: CarSummary | undefined; brands: string[] }) {
@@ -162,7 +163,10 @@ export function Home() {
 
 /** Rappel de la collection : boosters à ouvrir et progression. */
 function CollectionBanner() {
-  const { state, owned } = useCollection();
+  const { state: raw, owned } = useCollection();
+  const { complete } = useBadges();
+  // Collection complète : plus de boosters à proposer.
+  const state = complete ? { ...raw, boosters: 0 } : raw;
   const count = Object.keys(owned).length;
   return (
     <Link to="/deck" className="collection-banner">
@@ -171,7 +175,7 @@ function CollectionBanner() {
         <strong>{state.boosters > 0 ? `${state.boosters} booster${state.boosters > 1 ? 's' : ''} à ouvrir` : 'Mon deck de cartes'}</strong>
         <span className="muted" style={{ fontSize: 'var(--text-sm)' }}>
           {count ? `${count} carte${count > 1 ? 's' : ''} collectionnée${count > 1 ? 's' : ''}` : 'Collectionnez les cartes de vos marques préférées'}
-          {state.boosters === 0 && ` · 1 booster toutes les ${BOOSTER_INTERVAL_HOURS} heures`}
+          {complete ? ' · collection complète' : state.boosters === 0 && ` · 1 booster toutes les ${BOOSTER_INTERVAL_HOURS} heures`}
         </span>
       </span>
       <ArrowRight size={18} aria-hidden="true" />

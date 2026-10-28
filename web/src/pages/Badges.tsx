@@ -30,7 +30,7 @@ export function Badges() {
       <header className="page-head">
         <span className="eyebrow">Collection</span>
         <h1>Mes badges</h1>
-        <p>{loading ? 'Chargement…' : `${unlocked.length} badge${unlocked.length > 1 ? 's' : ''} obtenu${unlocked.length > 1 ? 's' : ''} sur ${badges.length}.`} Ils se débloquent en complétant votre deck et rapportent de 1 à 3 boosters selon leur difficulté.</p>
+        <p>{loading ? 'Chargement…' : `${unlocked.length} badge${unlocked.length > 1 ? 's' : ''} obtenu${unlocked.length > 1 ? 's' : ''} sur ${badges.length}.`} Ils se débloquent en complétant votre deck et rapportent de 1 à 3 boosters selon leur difficulté (plus aucun une fois la collection complète).</p>
       </header>
       {error ? <ErrorState message="Le catalogue ne répond pas." onRetry={retry} /> : loading ? (
         <div className="skeleton" style={{ height: 320 }} />
@@ -48,7 +48,7 @@ export function Badges() {
                     {unseenIds.includes(b.id) && <span className="badge plain accent">Nouveau</span>}
                   </div>
                   <span className="badge-desc">{b.description}</span>
-                  <span className="badge-reward"><Gift size={13} aria-hidden="true" /> {b.unlocked ? `${b.reward} booster${b.reward > 1 ? 's' : ''} reçu${b.reward > 1 ? 's' : ''}` : `Récompense : ${b.reward} booster${b.reward > 1 ? 's' : ''}`}</span>
+                  <span className="badge-reward"><Gift size={13} aria-hidden="true" /> {b.reward === 0 ? 'Badge d’honneur : plus de booster, la collection est terminée' : b.unlocked ? `${b.reward} booster${b.reward > 1 ? 's' : ''} reçu${b.reward > 1 ? 's' : ''}` : `Récompense : ${b.reward} booster${b.reward > 1 ? 's' : ''}`}</span>
                   <div className="badge-progress" role="progressbar" aria-valuemin={0} aria-valuemax={b.goal} aria-valuenow={b.have} aria-label={b.label}>
                     <i style={{ width: `${pct}%` }} />
                   </div>

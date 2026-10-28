@@ -47,3 +47,12 @@ describe.skipIf(!catalog)('équilibre des récompenses (vraies cartes)', () => {
     expect(Math.max(...runs.map((r) => r.opened))).toBe(WELCOME_BOOSTERS);
   });
 });
+
+describe.skipIf(!catalog)('collection complète', () => {
+  it('le badge « Collection complète » ne rapporte aucun booster', () => {
+    const owned = Object.fromEntries(cards.map((c) => [c.card?.id ?? c.id, { count: 1, firstAt: '' }]));
+    const done = computeBadges(cards, owned, 100).find((b) => b.id === 'cards-all')!;
+    expect(done.unlocked).toBe(true);
+    expect(done.reward).toBe(0);
+  });
+});

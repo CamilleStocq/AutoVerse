@@ -19,8 +19,9 @@ export interface Badge {
   goal: number;
   /** Ce qui est compté, au singulier puis au pluriel (« carte » / « cartes »). */
   unit: [string, string];
-  /** Boosters offerts à l'obtention : 1 (facile), 2 (moyen) ou 3 (difficile). */
-  reward: 1 | 2 | 3;
+  /** Boosters offerts à l'obtention : 1 (facile), 2 (moyen) ou 3 (difficile) ; 0 pour la collection
+   *  complète (plus rien à gagner). */
+  reward: 0 | 1 | 2 | 3;
   unlocked: boolean;
 }
 
@@ -63,7 +64,7 @@ export function computeBadges(all: CarSummary[], owned: Owned, opened: number): 
     count('cards-100', 'Centurion', 'Collectionner 100 cartes', 'cards', 1, total, 100),
     count('cards-250', 'Grand collectionneur', 'Collectionner 250 cartes', 'cards', 2, total, 250),
     count('cards-500', 'Musée privé', 'Collectionner 500 cartes', 'cards', 3, total, 500),
-    count('cards-all', 'Collection complète', `Obtenir les ${all.length} cartes`, 'trophy', 3, total, Math.max(all.length, 1)),
+    count('cards-all', 'Collection complète', `Obtenir les ${all.length} cartes`, 'trophy', 0, total, Math.max(all.length, 1)),
     count('legendary-10', 'Dix Légendaires', 'Obtenir 10 cartes Légendaires', 'crown', 1, ownedLegendary, 10),
     count('legendary-25', 'Vingt-cinq Légendaires', 'Obtenir 25 cartes Légendaires', 'crown', 2, ownedLegendary, 25),
     series('legendary-all', 'Panthéon', 'Toutes les cartes Légendaires', 'crown', 3, legendary, owned),
@@ -92,5 +93,7 @@ export function useBadges() {
   const all = cards.data ?? [];
   const badges = useMemo(() => computeBadges(all, owned, state.opened), [all, owned, state.opened]);
   const unseen = badges.filter((b) => b.unlocked && !state.badges.includes(b.id));
-  return { badges, unseen, rewarded: state.rewarded, loading: cards.isLoading, error: cards.isError, retry: () => cards.refetch(), markBadges, rewardBadges };
+  // Collection complète : plus aucun booster n'est donné (il n'y a plus rien à gagner).
+  const complete = all.length > 0 && all.every((c) => owned[key(c)]);
+  return { badges, unseen, complete, rewarded: state.rewarded, loading: cards.isLoading, error: cards.isError, retry: () => cards.refetch(), markBadges, rewardBadges };
 }
