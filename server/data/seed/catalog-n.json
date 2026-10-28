@@ -1,0 +1,1955 @@
+{
+  "generations": [
+    {
+      "id": "audi-a3-sportback-8y-2",
+      "modelId": "audi-a3",
+      "brandId": "audi",
+      "modelName": "A3 Sportback",
+      "name": "Audi A3 Sportback (8Y restylée, 2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte premium (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes (Sportback)"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Audi A3 Sportback (8Y, Facelift) – f 03102025.jpg",
+          "caption": "Audi A3 Sportback restylée blanche, vue avant",
+          "depicts": "Audi A3 Sportback (8Y restylée), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Audi A3 Sportback (8Y, Facelift) – h 03102025.jpg",
+          "caption": "Audi A3 Sportback restylée blanche, vue arrière",
+          "depicts": "Audi A3 Sportback (8Y restylée), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Compacte premium d'Audi, l'A3 Sportback de 4e génération (8Y) restylée se décline en essence, diesel, hybride rechargeable e-hybrid et en S3 de 333 ch. Elle reste l'une des compactes premium les plus diffusées en Europe.",
+        "positioning": "Compacte cinq portes d'entrée de gamme thermique d'Audi, sous l'A5 ; la RS 3 coiffe la famille.",
+        "technicalFacts": [
+          "Longueur de 4 352 à 4 354 mm et empattement de 2 618 à 2 630 mm selon la fiche technique Audi.",
+          "Coffre de 380 l (325 l pour la S3, 280 l pour l'e-hybrid) d'après les fiches Audi.",
+          "L'e-hybrid 200 kW associe un 1.5 TFSI de 177 ch à une batterie de 25,7 kWh brut / 19,7 kWh net.",
+          "La S3 utilise un 2.0 TFSI de 333 ch avec transmission quattro et torque splitter sur l'essieu arrière."
+        ],
+        "pros": [
+          "Gamme de motorisations très large, du 116 ch à la S3.",
+          "Autonomie électrique annoncée de plus de 120 km pour l'e-hybrid.",
+          "Présentation et finition de bon niveau pour la catégorie."
+        ],
+        "differentiators": [
+          "Rare compacte premium proposée à la fois en hybride rechargeable longue autonomie et en version sportive quattro."
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Torque splitter à l'essieu arrière sur la S3."
+        ],
+        "compromises": [
+          "Coffre réduit à 280 l sur l'e-hybrid à cause de la batterie.",
+          "Version d'entrée de 116 ch limitée à une boîte manuelle."
+        ]
+      },
+      "variants": [
+        {
+          "id": "audi-a3-sportback-8y-2-tfsi-85kw",
+          "name": "TFSI 85 kW (116 ch) manuelle",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo",
+            "displacementCc": 1498
+          },
+          "powerHp": 116,
+          "powerKw": 85,
+          "torqueNm": 220,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 9.7,
+          "topSpeedKmh": 205,
+          "consumption": {
+            "value": 5.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 124,
+          "weightKg": 1270,
+          "dimensions": {
+            "lengthMm": 4352,
+            "widthMm": 1816,
+            "heightMm": 1415,
+            "wheelbaseMm": 2618
+          },
+          "seats": 5,
+          "trunkL": 380,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Fiche technique Audi (programme Allemagne). Plages WLTP : valeur la plus favorable retenue. Poids à vide sans conducteur. Hauteur : valeur basse de la plage. Consommation 5,5–6,1 l/100 km, CO2 124–139 g/km.",
+          "sources": [
+            {
+              "label": "Audi MediaCenter – fiche technique A3 Sportback TFSI 85 kW",
+              "url": "https://uploads.audi.com/system/production/car_motorizations/748/file_en/a6ec802e283d3f8ae46af934b3ea82a4e6262f03/eTD-Audi-A3-Sportback-TFSI-85kW_261023.pdf?1793002939",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Audi MediaCenter – Audi A3 Sportback",
+              "url": "https://www.audi.com/en/audi-a3-sportback-15",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "audi-a3-sportback-8y-2-e-hybrid-200kw",
+          "name": "e-hybrid 200 kW (272 ch) S tronic",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo + moteur électrique",
+            "displacementCc": 1498
+          },
+          "powerHp": 272,
+          "powerKw": 200,
+          "torqueNm": 400,
+          "drivetrain": "fwd",
+          "gearbox": "S tronic 6 rapports",
+          "accel0100s": 6.3,
+          "topSpeedKmh": 237,
+          "consumption": {
+            "value": 1.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 136,
+          "batteryKwh": 19.7,
+          "charging": {
+            "dcMaxKw": 40,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 28,
+          "weightKg": 1600,
+          "dimensions": {
+            "lengthMm": 4352,
+            "widthMm": 1816,
+            "heightMm": 1415,
+            "wheelbaseMm": 2618
+          },
+          "seats": 5,
+          "trunkL": 280,
+          "equipmentHighlights": [
+            "Batterie 25,7 kWh brut / 19,7 kWh net",
+            "Recharge DC jusqu'à 40 kW"
+          ],
+          "prices": [],
+          "notes": "Fiche technique Audi (programme Allemagne). Plages WLTP : valeur la plus favorable retenue. Poids à vide sans conducteur. Hauteur : valeur basse de la plage. Puissance et couple système. Moteur thermique seul : 177 ch / 250 Nm. Consommation pondérée 1,2–1,4 l/100 km, électrique 12,5–13,1 kWh/100 km, autonomie électrique combinée 126–136 km, CO2 pondéré 28–32 g/km. Vitesse max en électrique 140 km/h.",
+          "sources": [
+            {
+              "label": "Audi MediaCenter – fiche technique A3 Sportback e-hybrid 200 kW",
+              "url": "https://uploads.audi.com/system/production/car_motorizations/1183/file_en/9c8d39ef4ae84402a0683333ddabb044fa2f2d6b/eTD-Audi-A3-Sportback-e-hybrid-200-kW-S-tronic_261023.pdf?1793001964",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Audi MediaCenter – Audi A3 Sportback e-hybrid",
+              "url": "https://www.audi.com/en/audi-a3-sportback-e-hybrid-13237",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "audi-a3-sportback-8y-2-s3",
+          "name": "S3 Sportback TFSI (333 ch)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo",
+            "displacementCc": 1984
+          },
+          "powerHp": 333,
+          "powerKw": 245,
+          "torqueNm": 420,
+          "drivetrain": "awd",
+          "gearbox": "S tronic 7 rapports",
+          "accel0100s": 4.7,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 8.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 188,
+          "weightKg": 1520,
+          "dimensions": {
+            "lengthMm": 4352,
+            "widthMm": 1816,
+            "heightMm": 1415,
+            "wheelbaseMm": 2618
+          },
+          "seats": 5,
+          "trunkL": 325,
+          "equipmentHighlights": [
+            "Transmission quattro avec torque splitter",
+            "Direction progressive"
+          ],
+          "prices": [],
+          "notes": "Fiche technique Audi (programme Allemagne). Plages WLTP : valeur la plus favorable retenue. Poids à vide sans conducteur. Hauteur : valeur basse de la plage. Vitesse maximale limitée électroniquement. Consommation 8,3–8,5 l/100 km, CO2 188–194 g/km.",
+          "sources": [
+            {
+              "label": "Audi MediaCenter – fiche technique S3 Sportback TFSI",
+              "url": "https://uploads.audi.com/system/production/car_motorizations/1380/file_en/e1d0cf6e340f19f870b1a87fb551d6882fc51db7/eTD-Audi-S3-Sportback-TFSI_260630.pdf?1782829176",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Audi MediaCenter – Audi S3 Sportback",
+              "url": "https://www.audi.com/en/audi-s3-sportback-21",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Audi MediaCenter – Audi A3 Sportback",
+          "url": "https://www.audi.com/en/audi-a3-sportback-15",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Audi MediaCenter – Audi A3 Sportback e-hybrid",
+          "url": "https://www.audi.com/en/audi-a3-sportback-e-hybrid-13237",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Audi MediaCenter – Audi S3 Sportback",
+          "url": "https://www.audi.com/en/audi-s3-sportback-21",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "audi-a5-b10",
+      "modelId": "audi-a5",
+      "brandId": "audi",
+      "modelName": "A5",
+      "name": "Audi A5 (B10, 2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Familiale premium (segment D)",
+      "bodyStyles": [
+        "Break (Avant)",
+        "Berline"
+      ],
+      "categories": [
+        "wagon",
+        "family-sedan"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "family",
+        "travel",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Audi A5 Avant B10 DSC 7040.jpg",
+          "caption": "Audi A5 Avant B10 noire à Stuttgart",
+          "depicts": "Audi A5 Avant (B10), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Remplaçante de l'A4, l'Audi A5 B10 est la familiale thermique et hybride d'Audi, en berline et en break Avant. Les fiches présentées ici concernent l'Avant, de la TFSI 150 ch à la S5 de 367 ch.",
+        "positioning": "Familiale de segment D d'Audi, sous l'A6 ; les versions électriques équivalentes forment la gamme A6 e-tron.",
+        "technicalFacts": [
+          "A5 Avant : 4 829 à 4 835 mm de long et 2 897 à 2 902 mm d'empattement selon Audi.",
+          "La S5 utilise un V6 3.0 TFSI de 367 ch avec technologie MHEV plus (jusqu'à 24 ch d'appoint).",
+          "L'e-hybrid quattro 270 kW combine un 2.0 TFSI de 252 ch et une batterie de 25,9 kWh brut / 20,7 kWh net."
+        ],
+        "pros": [
+          "Coffre de 476 l en TFSI 150 ch.",
+          "Autonomie électrique de 100 à 115 km pour l'e-hybrid.",
+          "S5 de 367 ch rapide (4,5 s sur 0-100 km/h)."
+        ],
+        "differentiators": [
+          "Gamme couvrant thermique, mild-hybrid, hybride rechargeable et sportive S sur une même carrosserie break."
+        ],
+        "pricePositioning": "En Belgique, l'A5 Avant TFSI 110 kW démarrait à 42 600 € (liste de novembre 2024 relevée par Autotijd).",
+        "innovations": [
+          "Technologie MHEV plus sur la S5."
+        ],
+        "compromises": [
+          "Coffre réduit à 361 l sur l'e-hybrid.",
+          "Poids élevé de l'e-hybrid (2 110 kg à vide).",
+          "Pas de recharge rapide DC mentionnée sur la fiche de l'e-hybrid."
+        ]
+      },
+      "variants": [
+        {
+          "id": "audi-a5-b10-avant-tfsi-110kw",
+          "name": "Avant TFSI 110 kW (150 ch) S tronic",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo",
+            "displacementCc": 1984
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 280,
+          "drivetrain": "fwd",
+          "gearbox": "S tronic 7 rapports",
+          "accel0100s": 9.8,
+          "topSpeedKmh": 214,
+          "consumption": {
+            "value": 6.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 153,
+          "weightKg": 1710,
+          "dimensions": {
+            "lengthMm": 4829,
+            "widthMm": 1860,
+            "heightMm": 1424,
+            "wheelbaseMm": 2897
+          },
+          "seats": 5,
+          "trunkL": 476,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 42600,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Audi A5 Avant",
+                "url": "https://autotijd.be/fr/prix/audi/a5-avant",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Fiche technique Audi (programme Allemagne). Plages WLTP : valeur la plus favorable retenue. Poids à vide sans conducteur. Hauteur : valeur basse de la plage. Consommation 6,7–7,7 l/100 km, CO2 153–176 g/km. Prix belge : finition Attraction, barème de novembre 2024 relevé sur Autotijd.",
+          "sources": [
+            {
+              "label": "Audi MediaCenter – fiche technique A5 Avant TFSI 110 kW S tronic",
+              "url": "https://uploads.audi.com/system/production/car_motorizations/1394/file_en/890b4af4391514f2eebfdfb8997e920129fdc0ba/eTD-Audi-A5-Avant-TFSI-110kW-S-tronic_261026.pdf?1793092085",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Audi MediaCenter – Audi A5 Avant",
+              "url": "https://www.audi.com/en/audi-a5-avant-16092",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Audi A5 Avant",
+              "url": "https://autotijd.be/fr/prix/audi/a5-avant",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "audi-a5-b10-avant-e-hybrid-270kw",
+          "name": "Avant e-hybrid quattro 270 kW (367 ch)",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo + moteur électrique",
+            "displacementCc": 1984
+          },
+          "powerHp": 367,
+          "powerKw": 270,
+          "torqueNm": 500,
+          "drivetrain": "awd",
+          "gearbox": "S tronic 7 rapports",
+          "accel0100s": 5.1,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 1.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 115,
+          "batteryKwh": 20.7,
+          "charging": null,
+          "co2Gkm": 43,
+          "weightKg": 2110,
+          "dimensions": {
+            "lengthMm": 4829,
+            "widthMm": 1860,
+            "heightMm": 1426,
+            "wheelbaseMm": 2896
+          },
+          "seats": 5,
+          "trunkL": 361,
+          "equipmentHighlights": [
+            "Batterie 25,9 kWh brut / 20,7 kWh net",
+            "Recharge AC 11 kW"
+          ],
+          "prices": [],
+          "notes": "Fiche technique Audi (programme Allemagne). Plages WLTP : valeur la plus favorable retenue. Poids à vide sans conducteur. Hauteur : valeur basse de la plage. Puissance et couple système ; moteur thermique seul 252 ch / 380 Nm. Consommation pondérée 1,9–2,4 l/100 km, électrique 15,3–16,5 kWh/100 km, autonomie électrique 100–115 km, CO2 pondéré 43–55 g/km. Aucune puissance de recharge DC sur la fiche consultée.",
+          "sources": [
+            {
+              "label": "Audi MediaCenter – fiche technique A5 Avant e-hybrid quattro 270 kW",
+              "url": "https://uploads.audi.com/system/production/car_motorizations/1712/file_en/c0ab91e1d76ae9812bc1fa54bb1dcaa547e7f700/eTD-Audi-A5-Avant-e-hybrid-quattro-270kW-S-tronic_261026.pdf?1793095483",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Audi MediaCenter – Audi A5 Avant e-hybrid quattro",
+              "url": "https://www.audi.com/en/audi-a5-avant-e-hybrid-quattro-16584",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "audi-a5-b10-s5-avant",
+          "name": "S5 Avant TFSI (367 ch)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 turbo avec MHEV plus",
+            "displacementCc": 2995
+          },
+          "powerHp": 367,
+          "powerKw": 270,
+          "torqueNm": 550,
+          "drivetrain": "awd",
+          "gearbox": "S tronic 7 rapports",
+          "accel0100s": 4.5,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 7.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 172,
+          "weightKg": 1965,
+          "dimensions": {
+            "lengthMm": 4829,
+            "widthMm": 1860,
+            "heightMm": 1424,
+            "wheelbaseMm": 2897
+          },
+          "seats": 5,
+          "trunkL": 448,
+          "equipmentHighlights": [
+            "Transmission quattro",
+            "MHEV plus : jusqu'à 18 kW (24 ch) d'appoint"
+          ],
+          "prices": [],
+          "notes": "Fiche technique Audi (programme Allemagne). Plages WLTP : valeur la plus favorable retenue. Poids à vide sans conducteur. Hauteur : valeur basse de la plage. Vitesse maximale limitée électroniquement. Consommation 7,6–8,1 l/100 km, CO2 172–184 g/km.",
+          "sources": [
+            {
+              "label": "Audi MediaCenter – fiche technique S5 Avant TFSI",
+              "url": "https://uploads.audi.com/system/production/car_motorizations/1399/file_en/101b27385f02d757ef94f1a9115713e7c977cc39/eTD-Audi-S5-Avant-TFSI_261026.pdf?1793103064",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Audi MediaCenter – Audi S5 Avant",
+              "url": "https://www.audi.com/en/audi-s5-avant-16094",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Audi MediaCenter – Audi A5 Avant",
+          "url": "https://www.audi.com/en/audi-a5-avant-16092",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Audi MediaCenter – Audi A5 Avant e-hybrid quattro",
+          "url": "https://www.audi.com/en/audi-a5-avant-e-hybrid-quattro-16584",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Audi MediaCenter – Audi S5 Avant",
+          "url": "https://www.audi.com/en/audi-s5-avant-16094",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "audi-q3-3",
+      "modelId": "audi-q3",
+      "brandId": "audi",
+      "modelName": "Q3",
+      "name": "Audi Q3 (3e génération, 2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact premium (segment C)",
+      "bodyStyles": [
+        "SUV",
+        "SUV coupé (Sportback)"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "family",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Audi Q3 FJ IMG 4232.jpg",
+          "caption": "Audi Q3 de troisième génération à Stuttgart",
+          "depicts": "Audi Q3 (3e génération), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Troisième génération du SUV compact le plus vendu d'Audi, le Q3 est proposé en SUV et en Sportback, en essence, diesel et hybride rechargeable e-hybrid. Les versions présentées vont de 150 à 272 ch.",
+        "positioning": "SUV compact premium d'Audi, entre le Q2 et le Q5 ; les Q4 e-tron couvrent l'offre électrique de taille voisine.",
+        "technicalFacts": [
+          "Q3 SUV : 4 531 mm de long, 1 859 mm de large et 2 678 à 2 681 mm d'empattement selon Audi.",
+          "Coffre de 488 l en TFSI, 375 l en e-hybrid (fiches Audi).",
+          "L'e-hybrid 200 kW reprend le 1.5 TFSI de 177 ch et une batterie de 25,7 kWh brut / 19,7 kWh net."
+        ],
+        "pros": [
+          "Coffre généreux de 488 l en version thermique.",
+          "Autonomie électrique combinée de 106 à 120 km pour l'e-hybrid.",
+          "Version quattro de 265 ch performante (5,7 s sur 0-100 km/h)."
+        ],
+        "differentiators": [
+          "Large choix de motorisations, dont un hybride rechargeable à grande autonomie."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "e-hybrid limitée à la traction avant et à 40 kW en recharge DC.",
+          "Consommation élevée de la TFSI quattro 195 kW (8,5–9,0 l/100 km)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "audi-q3-3-tfsi-110kw",
+          "name": "TFSI 110 kW (150 ch) S tronic",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo",
+            "displacementCc": 1498
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 250,
+          "drivetrain": "fwd",
+          "gearbox": "S tronic 7 rapports",
+          "accel0100s": 9.1,
+          "topSpeedKmh": 209,
+          "consumption": {
+            "value": 6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 138,
+          "weightKg": 1560,
+          "dimensions": {
+            "lengthMm": 4531,
+            "widthMm": 1859,
+            "heightMm": 1588,
+            "wheelbaseMm": 2678
+          },
+          "seats": 5,
+          "trunkL": 488,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Fiche technique Audi (programme Allemagne). Plages WLTP : valeur la plus favorable retenue. Poids à vide sans conducteur. Hauteur : valeur basse de la plage. Consommation 6,0–6,6 l/100 km, CO2 138–151 g/km.",
+          "sources": [
+            {
+              "label": "Audi MediaCenter – fiche technique Q3 SUV TFSI 110 kW S tronic",
+              "url": "https://uploads.audi.com/system/production/car_motorizations/1551/file_en/61ce1d412c7c0dcc4d612645bda9190777cefca8/eTD-Audi-Q3-SUV-TFSI-110-kW-S-tronic_260702.pdf?1783493337",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Audi MediaCenter – Audi Q3 SUV",
+              "url": "https://www.audi.com/en/audi-q3-suv-16689",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "audi-q3-3-e-hybrid-200kw",
+          "name": "e-hybrid 200 kW (272 ch) S tronic",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo + moteur électrique",
+            "displacementCc": 1498
+          },
+          "powerHp": 272,
+          "powerKw": 200,
+          "torqueNm": 400,
+          "drivetrain": "fwd",
+          "gearbox": "S tronic 6 rapports",
+          "accel0100s": 6.8,
+          "topSpeedKmh": 215,
+          "consumption": {
+            "value": 1.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 120,
+          "batteryKwh": 19.7,
+          "charging": {
+            "dcMaxKw": 40,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 39,
+          "weightKg": 1825,
+          "dimensions": {
+            "lengthMm": 4531,
+            "widthMm": 1859,
+            "heightMm": 1588,
+            "wheelbaseMm": 2678
+          },
+          "seats": 5,
+          "trunkL": 375,
+          "equipmentHighlights": [
+            "Batterie 25,7 kWh brut / 19,7 kWh net",
+            "Recharge DC jusqu'à 40 kW"
+          ],
+          "prices": [],
+          "notes": "Fiche technique Audi (programme Allemagne). Plages WLTP : valeur la plus favorable retenue. Poids à vide sans conducteur. Hauteur : valeur basse de la plage. Puissance et couple système ; moteur thermique seul 177 ch / 250 Nm. Consommation pondérée 1,7–2,1 l/100 km, électrique 13,9–14,9 kWh/100 km, autonomie électrique 106–120 km, CO2 pondéré 39–49 g/km.",
+          "sources": [
+            {
+              "label": "Audi MediaCenter – fiche technique Q3 SUV e-hybrid 200 kW",
+              "url": "https://uploads.audi.com/system/production/car_motorizations/1553/file_en/c8e9eee597d9bf16104038c940d1e3d60fe788ab/eTD-Audi-Q3-SUV-e-hybrid-200-kW-S-tronic_260702.pdf?1783499038",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Audi MediaCenter – Audi Q3 SUV e-hybrid",
+              "url": "https://www.audi.com/en/audi-q3-suv-e-hybrid-16690",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "audi-q3-3-tfsi-quattro-195kw",
+          "name": "TFSI quattro 195 kW (265 ch) S tronic",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo",
+            "displacementCc": 1984
+          },
+          "powerHp": 265,
+          "powerKw": 195,
+          "torqueNm": 400,
+          "drivetrain": "awd",
+          "gearbox": "S tronic 7 rapports",
+          "accel0100s": 5.7,
+          "topSpeedKmh": 240,
+          "consumption": {
+            "value": 8.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 193,
+          "weightKg": 1675,
+          "dimensions": {
+            "lengthMm": 4531,
+            "widthMm": 1859,
+            "heightMm": 1588,
+            "wheelbaseMm": 2678
+          },
+          "seats": 5,
+          "trunkL": 488,
+          "equipmentHighlights": [
+            "Transmission quattro"
+          ],
+          "prices": [],
+          "notes": "Fiche technique Audi (programme Allemagne). Plages WLTP : valeur la plus favorable retenue. Poids à vide sans conducteur. Hauteur : valeur basse de la plage. Vitesse maximale limitée électroniquement. Consommation 8,5–9,0 l/100 km, CO2 193–204 g/km.",
+          "sources": [
+            {
+              "label": "Audi MediaCenter – fiche technique Q3 SUV TFSI quattro 195 kW",
+              "url": "https://uploads.audi.com/system/production/car_motorizations/1552/file_en/230ed9b1bd4d218cef23cd788e1986ac245df1c8/eTD-Audi-Q3-SUV-TFSI-quattro-195-kW-S-tronic_260702.pdf?1783493336",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Audi MediaCenter – Audi Q3 SUV",
+              "url": "https://www.audi.com/en/audi-q3-suv-16689",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Audi MediaCenter – Audi Q3 SUV",
+          "url": "https://www.audi.com/en/audi-q3-suv-16689",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Audi MediaCenter – Audi Q3 SUV e-hybrid",
+          "url": "https://www.audi.com/en/audi-q3-suv-e-hybrid-16690",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "audi-q5-gu",
+      "modelId": "audi-q5",
+      "brandId": "audi",
+      "modelName": "Q5",
+      "name": "Audi Q5 (3e génération, 2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV familial premium (segment D)",
+      "bodyStyles": [
+        "SUV",
+        "SUV coupé (Sportback)"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "family",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Audi Q5 III Auto Zuerich 2024 DSC 6535.jpg",
+          "caption": "Audi Q5 de troisième génération à Auto Zurich 2024",
+          "depicts": "Audi Q5 (3e génération), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Q5 de troisième génération partage sa plateforme PPC avec l'A5 B10. Il est proposé en SUV et Sportback, du TFSI 204 ch à l'e-hybrid de 367 ch et au SQ5 V6.",
+        "positioning": "SUV familial de segment D d'Audi, entre Q3 et Q7 ; le Q6 e-tron en est l'alternative électrique.",
+        "technicalFacts": [
+          "Q5 SUV : 4 717 mm de long, 1 900 mm de large et 2 823 à 2 828 mm d'empattement selon Audi.",
+          "Coffre de 520 l en TFSI 150 kW, 368 l en e-hybrid (fiches Audi).",
+          "Le SQ5 utilise un V6 3.0 TFSI de 367 ch et 550 Nm."
+        ],
+        "pros": [
+          "Coffre de 520 l en version d'entrée.",
+          "e-hybrid de 367 ch avec 88 à 102 km d'autonomie électrique.",
+          "SQ5 à 4,5 s sur 0-100 km/h."
+        ],
+        "differentiators": [
+          "Trois technologies (mild-hybrid, hybride rechargeable, V6 sportif) sur la même base PPC."
+        ],
+        "pricePositioning": "En Belgique, le Q5 TFSI 204 ch démarrait à 49 850 € (liste de novembre 2024 relevée par Autotijd).",
+        "innovations": [
+          "Technologie MHEV plus sur le TFSI 150 kW (jusqu'à 18 kW d'appoint)."
+        ],
+        "compromises": [
+          "e-hybrid lourd (2 170 kg à vide) et coffre réduit à 368 l.",
+          "Consommation du SQ5 de 8,1 à 8,8 l/100 km."
+        ]
+      },
+      "variants": [
+        {
+          "id": "audi-q5-gu-tfsi-150kw",
+          "name": "TFSI 150 kW (204 ch) S tronic",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo avec MHEV plus",
+            "displacementCc": 1984
+          },
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 340,
+          "drivetrain": "fwd",
+          "gearbox": "S tronic 7 rapports",
+          "accel0100s": 8.6,
+          "topSpeedKmh": 226,
+          "consumption": {
+            "value": 6.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 148,
+          "weightKg": 1835,
+          "dimensions": {
+            "lengthMm": 4717,
+            "widthMm": 1900,
+            "heightMm": 1625,
+            "wheelbaseMm": 2823
+          },
+          "seats": 5,
+          "trunkL": 520,
+          "equipmentHighlights": [
+            "MHEV plus : jusqu'à 18 kW (24 ch) d'appoint"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 49850,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Audi Q5",
+                "url": "https://autotijd.be/fr/prix/audi/q5",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Fiche technique Audi (programme Allemagne). Plages WLTP : valeur la plus favorable retenue. Poids à vide sans conducteur. Hauteur : valeur basse de la plage. Consommation 6,5–7,3 l/100 km, CO2 148–165 g/km. Prix belge : finition Attraction, barème de novembre 2024 relevé sur Autotijd (TFSI 204 ch traction).",
+          "sources": [
+            {
+              "label": "Audi MediaCenter – fiche technique Q5 SUV TFSI 150 kW S tronic",
+              "url": "https://uploads.audi.com/system/production/car_motorizations/1389/file_en/705e400f1498028d0b82afa26c0faa0d3ece5b4f/eTD-Audi-Q5-SUV-TFSI-150kW-S-tronic_260812.pdf?1786634436",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Audi MediaCenter – Audi Q5 SUV",
+              "url": "https://www.audi.com/en/audi-q5-suv-12871",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Audi Q5",
+              "url": "https://autotijd.be/fr/prix/audi/q5",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "audi-q5-gu-e-hybrid-270kw",
+          "name": "e-hybrid quattro 270 kW (367 ch)",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo + moteur électrique",
+            "displacementCc": 1984
+          },
+          "powerHp": 367,
+          "powerKw": 270,
+          "torqueNm": 500,
+          "drivetrain": "awd",
+          "gearbox": "S tronic 7 rapports",
+          "accel0100s": 5.1,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 2.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 102,
+          "batteryKwh": 20.7,
+          "charging": null,
+          "co2Gkm": 55,
+          "weightKg": 2170,
+          "dimensions": {
+            "lengthMm": 4717,
+            "widthMm": 1900,
+            "heightMm": 1626,
+            "wheelbaseMm": 2823
+          },
+          "seats": 5,
+          "trunkL": 368,
+          "equipmentHighlights": [
+            "Batterie 25,9 kWh brut / 20,7 kWh net",
+            "Recharge AC 11 kW"
+          ],
+          "prices": [],
+          "notes": "Fiche technique Audi (programme Allemagne). Plages WLTP : valeur la plus favorable retenue. Poids à vide sans conducteur. Hauteur : valeur basse de la plage. Puissance et couple système ; moteur thermique seul 252 ch / 380 Nm. Consommation pondérée 2,4–3,1 l/100 km, électrique 16,1–17,2 kWh/100 km, autonomie électrique 88–102 km, CO2 pondéré 55–71 g/km. Aucune puissance de recharge DC sur la fiche consultée.",
+          "sources": [
+            {
+              "label": "Audi MediaCenter – fiche technique Q5 SUV e-hybrid quattro 270 kW",
+              "url": "https://uploads.audi.com/system/production/car_motorizations/1549/file_en/e1e17621438b5fef01965008385e3d79c65d1596/eTD-Audi-Q5-SUV-e-hybrid-quattro-270kW-S-tronic_260812.pdf?1786634022",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Audi MediaCenter – Audi Q5 SUV e-hybrid quattro",
+              "url": "https://www.audi.com/en/audi-q5-suv-e-hybrid-quattro-16677",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "audi-q5-gu-sq5",
+          "name": "SQ5 TFSI (367 ch)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 turbo",
+            "displacementCc": 2994
+          },
+          "powerHp": 367,
+          "powerKw": 270,
+          "torqueNm": 550,
+          "drivetrain": "awd",
+          "gearbox": "S tronic 7 rapports",
+          "accel0100s": 4.5,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 8.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 183,
+          "weightKg": 2040,
+          "dimensions": {
+            "lengthMm": 4717,
+            "widthMm": 1900,
+            "heightMm": 1625,
+            "wheelbaseMm": 2823
+          },
+          "seats": 5,
+          "trunkL": 475,
+          "equipmentHighlights": [
+            "Transmission quattro"
+          ],
+          "prices": [],
+          "notes": "Fiche technique Audi (programme Allemagne). Plages WLTP : valeur la plus favorable retenue. Poids à vide sans conducteur. Hauteur : valeur basse de la plage. Vitesse maximale limitée électroniquement. Consommation 8,1–8,8 l/100 km, CO2 183–199 g/km.",
+          "sources": [
+            {
+              "label": "Audi MediaCenter – fiche technique SQ5 SUV TFSI",
+              "url": "https://uploads.audi.com/system/production/car_motorizations/846/file_en/fac6947907fbd3989d9aeca6e44b307c0514d47c/eTD-Audi-SQ5-SUV-TFSI_260812.pdf?1786634975",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Audi MediaCenter – Audi SQ5 SUV",
+              "url": "https://www.audi.com/en/audi-sq5-suv-11326",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Audi MediaCenter – Audi Q5 SUV",
+          "url": "https://www.audi.com/en/audi-q5-suv-12871",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Audi MediaCenter – Audi Q5 SUV e-hybrid quattro",
+          "url": "https://www.audi.com/en/audi-q5-suv-e-hybrid-quattro-16677",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Audi MediaCenter – Audi SQ5 SUV",
+          "url": "https://www.audi.com/en/audi-sq5-suv-11326",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "seat-ibiza-6f-2",
+      "modelId": "seat-ibiza",
+      "brandId": "seat",
+      "modelName": "Ibiza",
+      "name": "SEAT Ibiza (6F, 2e restylage, 2026)",
+      "yearsLabel": "2026 –",
+      "startYear": 2026,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine polyvalente (segment B)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Seat Ibiza 6F FR Second Facelift Rutesheimer Autoschau 2026 IMG 6738.jpg",
+          "caption": "SEAT Ibiza FR restylée noire à la Rutesheimer Autoschau 2026",
+          "depicts": "SEAT Ibiza 6F FR (second restylage, 2026)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La SEAT Ibiza restylée, dévoilée en octobre 2025 pour les 75 ans de la marque, adopte une face avant entièrement redessinée et un intérieur revalorisé. Elle reste produite à Martorell avec des moteurs essence de 80 à 150 ch.",
+        "positioning": "Citadine d'entrée de gamme de SEAT, sœur de l'Arona ; une version mild-hybrid est annoncée pour 2027.",
+        "technicalFacts": [
+          "Longueur de 4 070 mm, largeur de 1 780 mm et empattement de 2 564 mm selon SEAT.",
+          "Coffre de 355 l (fiche technique SEAT).",
+          "Gamme essence : 1.0 MPI 80 ch, 1.0 TSI 95 et 115 ch, 1.5 TSI 150 ch DSG.",
+          "Lancement commercial annoncé en janvier 2026."
+        ],
+        "pros": [
+          "Prix d'appel contenu (20 495 € catalogue en Belgique pour la 1.0 MPI 80 ch).",
+          "Coffre de 355 l pour 4,07 m.",
+          "1.5 TSI 150 ch vif (8,1 s sur 0-100 km/h)."
+        ],
+        "differentiators": [
+          "Une des dernières citadines du groupe Volkswagen à rester exclusivement thermique."
+        ],
+        "pricePositioning": "Prix catalogue belge à partir de 20 495 € TVAC (Reference 1.0 MPI 80 ch, octobre 2026).",
+        "innovations": [],
+        "compromises": [
+          "Aucune motorisation électrifiée au lancement.",
+          "1.0 MPI de 80 ch lent (15,3 s sur 0-100 km/h)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "seat-ibiza-6f-2-10-mpi-80",
+          "name": "1.0 MPI 80 ch manuelle",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne atmosphérique",
+            "displacementCc": 999
+          },
+          "powerHp": 80,
+          "powerKw": 59,
+          "torqueNm": 93,
+          "drivetrain": null,
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": 15.3,
+          "topSpeedKmh": 175,
+          "consumption": {
+            "value": 5.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 119,
+          "weightKg": 1111,
+          "dimensions": {
+            "lengthMm": 4070,
+            "widthMm": 1780,
+            "heightMm": 1447,
+            "wheelbaseMm": 2564
+          },
+          "seats": 5,
+          "trunkL": 355,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 20495,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-10",
+              "source": {
+                "label": "SEAT Belgique – New Ibiza",
+                "url": "https://www.seat.be/fr/carworlds/new-ibiza",
+                "type": "manufacturer",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Fiche technique SEAT « New Ibiza ». Plages WLTP (offre globale) : valeur la plus favorable retenue. Poids en ordre de marche avec conducteur. Transmission non précisée sur la fiche consultée. Consommation 5,2–5,7 l/100 km, CO2 119–128 g/km. Prix : prix catalogue conseillé Reference, avant remises (offre 01/09–29/10/2026 sur seat.be).",
+          "sources": [
+            {
+              "label": "SEAT Media Center – Technical Specifications New Ibiza",
+              "url": "https://www.seat-cupra-mediacenter.com/content/dam/seat-media-center/models-all-brands/seat-models/seat-ibiza/technical-data/Technical_Data_New_SEAT_Ibiza.pdf",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "SEAT Belgique – New Ibiza",
+              "url": "https://www.seat.be/fr/carworlds/new-ibiza",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "seat-ibiza-6f-2-10-tsi-115-dsg",
+          "name": "1.0 TSI 115 ch DSG",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne turbo",
+            "displacementCc": 999
+          },
+          "powerHp": 115,
+          "powerKw": 85,
+          "torqueNm": 200,
+          "drivetrain": null,
+          "gearbox": "DSG 7 rapports",
+          "accel0100s": 9.9,
+          "topSpeedKmh": 200,
+          "consumption": {
+            "value": 5.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 117,
+          "weightKg": 1178,
+          "dimensions": {
+            "lengthMm": 4070,
+            "widthMm": 1780,
+            "heightMm": 1447,
+            "wheelbaseMm": 2564
+          },
+          "seats": 5,
+          "trunkL": 355,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Fiche technique SEAT « New Ibiza ». Plages WLTP (offre globale) : valeur la plus favorable retenue. Poids en ordre de marche avec conducteur. Transmission non précisée sur la fiche consultée. Consommation 5,2–5,8 l/100 km, CO2 117–131 g/km.",
+          "sources": [
+            {
+              "label": "SEAT Media Center – Technical Specifications New Ibiza",
+              "url": "https://www.seat-cupra-mediacenter.com/content/dam/seat-media-center/models-all-brands/seat-models/seat-ibiza/technical-data/Technical_Data_New_SEAT_Ibiza.pdf",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "seat-ibiza-6f-2-15-tsi-150-dsg",
+          "name": "1.5 TSI 150 ch DSG",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo",
+            "displacementCc": 1498
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 250,
+          "drivetrain": null,
+          "gearbox": "DSG 7 rapports",
+          "accel0100s": 8.1,
+          "topSpeedKmh": 220,
+          "consumption": {
+            "value": 5.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 125,
+          "weightKg": 1231,
+          "dimensions": {
+            "lengthMm": 4070,
+            "widthMm": 1780,
+            "heightMm": 1447,
+            "wheelbaseMm": 2564
+          },
+          "seats": 5,
+          "trunkL": 355,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Fiche technique SEAT « New Ibiza ». Plages WLTP (offre globale) : valeur la plus favorable retenue. Poids en ordre de marche avec conducteur. Transmission non précisée sur la fiche consultée. Consommation 5,5–6,0 l/100 km, CO2 125–134 g/km.",
+          "sources": [
+            {
+              "label": "SEAT Media Center – Technical Specifications New Ibiza",
+              "url": "https://www.seat-cupra-mediacenter.com/content/dam/seat-media-center/models-all-brands/seat-models/seat-ibiza/technical-data/Technical_Data_New_SEAT_Ibiza.pdf",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2025,
+            "month": 10,
+            "day": 29
+          },
+          "market": "WORLD",
+          "source": {
+            "label": "SEAT Media Center – SEAT unveils the new Ibiza and Arona",
+            "url": "https://www.seat-cupra-mediacenter.com/SEAT-Brand/seat-news/2025/seat-unveils-new-ibiza-arona-refreshed-design-upgraded-interiors-greater-value",
+            "type": "manufacturer",
+            "publishedAt": "2025-10-29",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "SEAT Media Center – Technical Specifications New Ibiza",
+          "url": "https://www.seat-cupra-mediacenter.com/content/dam/seat-media-center/models-all-brands/seat-models/seat-ibiza/technical-data/Technical_Data_New_SEAT_Ibiza.pdf",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "SEAT Media Center – SEAT unveils the new Ibiza and Arona",
+          "url": "https://www.seat-cupra-mediacenter.com/SEAT-Brand/seat-news/2025/seat-unveils-new-ibiza-arona-refreshed-design-upgraded-interiors-greater-value",
+          "type": "manufacturer",
+          "publishedAt": "2025-10-29",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "SEAT Belgique – New Ibiza",
+          "url": "https://www.seat.be/fr/carworlds/new-ibiza",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "cupra-formentor-km7-2",
+      "modelId": "cupra-formentor",
+      "brandId": "cupra",
+      "modelName": "Formentor",
+      "name": "CUPRA Formentor (restylé, 2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Crossover SUV compact (segment C)",
+      "bodyStyles": [
+        "SUV coupé"
+      ],
+      "categories": [
+        "suv",
+        "sport-suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "driving-pleasure",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Cupra Formentor Facelift IMG 0665.jpg",
+          "caption": "CUPRA Formentor restylé gris à Leinfelden-Echterdingen (août 2024)",
+          "depicts": "CUPRA Formentor restylé (2024), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Modèle phare de CUPRA, le Formentor restylé en 2024 adopte le nez « shark-nose » et les feux Matrix LED triangulaires. Sa gamme va du 1.5 TSI 150 ch au 2.0 TSI VZ de 333 ch, avec mild-hybrid et hybride rechargeable.",
+        "positioning": "Crossover sportif compact de CUPRA, au-dessus de la Leon et sous le Terramar.",
+        "technicalFacts": [
+          "Longueur de 4 451 mm et empattement de 2 679 mm selon le CUPRA Media Center.",
+          "Huit motorisations annoncées de 150 à 333 ch : TSI, eTSI, TDI et e-Hybrid.",
+          "L'e-Hybrid VZ de 272 ch annonce 108 à 119 km d'autonomie électrique WLTP et une recharge DC 50 kW.",
+          "Le 2.0 TSI 333 ch reçoit un torque splitter et un mode Drift exclusif."
+        ],
+        "pros": [
+          "Style distinctif et position de conduite basse pour un SUV.",
+          "VZ 333 ch très performant (4,8 s sur 0-100 km/h).",
+          "e-Hybrid avec plus de 100 km d'autonomie électrique."
+        ],
+        "differentiators": [
+          "Premier modèle conçu spécifiquement pour CUPRA, devenu le pilier commercial de la marque."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarrait à 34 875 € (liste de septembre 2024 relevée par Autotijd).",
+        "innovations": [
+          "Système audio Sennheiser à 12 haut-parleurs (option)."
+        ],
+        "compromises": [
+          "Consommation et CO2 du 333 ch non homologués dans le dossier de presse consulté.",
+          "Coffre de 420 l en version eTSI, dans la moyenne."
+        ]
+      },
+      "variants": [
+        {
+          "id": "cupra-formentor-km7-2-15-etsi-150",
+          "name": "1.5 eTSI 150 ch DSG",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo, mild-hybrid 48 V",
+            "displacementCc": 1498
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 250,
+          "drivetrain": "fwd",
+          "gearbox": "DSG 7 rapports",
+          "accel0100s": 9,
+          "topSpeedKmh": 205,
+          "consumption": {
+            "value": 5.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 131,
+          "weightKg": 1407,
+          "dimensions": {
+            "lengthMm": 4451,
+            "widthMm": 1839,
+            "heightMm": 1520,
+            "wheelbaseMm": 2679
+          },
+          "seats": 5,
+          "trunkL": 420,
+          "equipmentHighlights": [
+            "Mild-hybrid 48 V (alterno-démarreur et batterie lithium-ion 48 V)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 39255,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-09",
+              "source": {
+                "label": "Autotijd.be – prix belges Cupra Formentor",
+                "url": "https://autotijd.be/fr/prix/cupra/formentor",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : base Autotijd (aucune fiche constructeur détaillée trouvée pour cette version). Consommation 5,8–6,1 l/100 km, CO2 131–139 g/km ; poids à vide (1 482 kg en ordre de marche). Prix belge : finition Business, barème de septembre 2024 relevé sur Autotijd.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Cupra Formentor 1.5 eTSI",
+              "url": "https://autotijd.be/fr/fiches-techniques/cupra/formentor/15-etsi-150-4365",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Cupra Formentor 1.5 eTSI",
+              "url": "https://autotijd.be/fr/dimensions/cupra/formentor/15-etsi-150-4365",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "SEAT CUPRA Media Center – The new CUPRA Formentor ready to take on the road (PDF)",
+              "url": "https://www.seat-cupra-mediacenter.com/content/dam/seat-media-center/models-all-brands/cupra-models/cupra-formentor/press-kit/formentor-junio-2024/The-New-CUPRA-Formentor-ready-to-take-on-the-road.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2024-06",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Cupra Formentor",
+              "url": "https://autotijd.be/fr/prix/cupra/formentor",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "cupra-formentor-km7-2-e-hybrid-vz-272",
+          "name": "VZ 1.5 e-Hybrid 272 ch",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo + moteur électrique",
+            "displacementCc": null
+          },
+          "powerHp": 272,
+          "powerKw": 200,
+          "torqueNm": 400,
+          "drivetrain": null,
+          "gearbox": null,
+          "accel0100s": 7.2,
+          "topSpeedKmh": 220,
+          "consumption": {
+            "value": 18.2,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 119,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 50,
+            "dc10to80Min": 26
+          },
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4451,
+            "widthMm": 1839,
+            "heightMm": 1520,
+            "wheelbaseMm": 2679
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Recharge AC 11 kW (0-100 % en 2 h 30)",
+            "Recharge DC 50 kW (10-80 % en 26 min)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 51375,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-09",
+              "source": {
+                "label": "Autotijd.be – prix belges Cupra Formentor",
+                "url": "https://autotijd.be/fr/prix/cupra/formentor",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données du dossier de presse CUPRA (juin 2024). Consommation électrique 18,2–20,8 kWh/100 km, autonomie électrique 108–119 km WLTP. Dimensions communes à la gamme (CUPRA Media Center). Prix belge : finition VZ, barème de septembre 2024 relevé sur Autotijd.",
+          "sources": [
+            {
+              "label": "SEAT CUPRA Media Center – New CUPRA Formentor, technical data (press kit)",
+              "url": "https://www.seat-cupra-mediacenter.com/CUPRA-Brand/presskits/new-cupra-formentor/technical-data",
+              "type": "manufacturer",
+              "publishedAt": "2024-06-19",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "SEAT CUPRA Media Center – CUPRA Formentor",
+              "url": "https://www.seat-cupra-mediacenter.com/CUPRA-Brand/CUPRA-Models/cupra-formentor",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Cupra Formentor",
+              "url": "https://autotijd.be/fr/prix/cupra/formentor",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "cupra-formentor-km7-2-vz-20-tsi-333",
+          "name": "VZ 2.0 TSI 333 ch",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo",
+            "displacementCc": null
+          },
+          "powerHp": 333,
+          "powerKw": 245,
+          "torqueNm": 420,
+          "drivetrain": "awd",
+          "gearbox": "DSG 7 rapports",
+          "accel0100s": 4.8,
+          "topSpeedKmh": 250,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4451,
+            "widthMm": 1839,
+            "heightMm": 1520,
+            "wheelbaseMm": 2679
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Torque splitter",
+            "Mode CUPRA et mode Drift exclusifs",
+            "Freins Akebono et échappement Akrapovic en option"
+          ],
+          "prices": [],
+          "notes": "Données du dossier de presse CUPRA (juin 2024) ; consommation et CO2 « en attente d'homologation » à cette date. Transmission intégrale déduite du torque splitter mentionné par CUPRA et de la mention « transmission intégrale » sur cupra.be. Le site belge cite par ailleurs une version essence de 310 ch, non retenue ici.",
+          "sources": [
+            {
+              "label": "SEAT CUPRA Media Center – New CUPRA Formentor, technical data (press kit)",
+              "url": "https://www.seat-cupra-mediacenter.com/CUPRA-Brand/presskits/new-cupra-formentor/technical-data",
+              "type": "manufacturer",
+              "publishedAt": "2024-06-19",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "SEAT CUPRA Media Center – The new CUPRA Formentor ready to take on the road (PDF)",
+              "url": "https://www.seat-cupra-mediacenter.com/content/dam/seat-media-center/models-all-brands/cupra-models/cupra-formentor/press-kit/formentor-junio-2024/The-New-CUPRA-Formentor-ready-to-take-on-the-road.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2024-06",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "CUPRA Belgique – CUPRA Formentor",
+              "url": "https://www.cupra.be/fr/modeles/cupra-formentor",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "SEAT CUPRA Media Center – CUPRA Formentor",
+          "url": "https://www.seat-cupra-mediacenter.com/CUPRA-Brand/CUPRA-Models/cupra-formentor",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "SEAT CUPRA Media Center – New CUPRA Formentor, technical data (press kit)",
+          "url": "https://www.seat-cupra-mediacenter.com/CUPRA-Brand/presskits/new-cupra-formentor/technical-data",
+          "type": "manufacturer",
+          "publishedAt": "2024-06-19",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "SEAT CUPRA Media Center – The new CUPRA Formentor ready to take on the road (PDF)",
+          "url": "https://www.seat-cupra-mediacenter.com/content/dam/seat-media-center/models-all-brands/cupra-models/cupra-formentor/press-kit/formentor-junio-2024/The-New-CUPRA-Formentor-ready-to-take-on-the-road.pdf",
+          "type": "manufacturer",
+          "publishedAt": "2024-06",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "cupra-born-2",
+      "modelId": "cupra-born",
+      "brandId": "cupra",
+      "modelName": "Born",
+      "name": "CUPRA Born (restylée, 2026)",
+      "yearsLabel": "2026 –",
+      "startYear": 2026,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte électrique (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2026 Cupra Born IMG 7697.jpg",
+          "caption": "CUPRA Born restylée (2026) à Stuttgart",
+          "depicts": "CUPRA Born restylée (2026), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Compacte 100 % électrique de CUPRA sur plateforme MEB, la Born restylée se décline en Born 190 ch (58 kWh), Endurance 231 ch (79 kWh) et VZ 326 ch. Elle reste une propulsion à moteur arrière.",
+        "positioning": "Compacte électrique de CUPRA, sous le Tavascan ; la Raval arrive en dessous.",
+        "technicalFacts": [
+          "Longueur de 4 336 mm et empattement de 2 766 mm selon la fiche CUPRA.",
+          "Batterie LFP 58 kWh net sur la Born, NMC 79 kWh net sur l'Endurance et la VZ.",
+          "Recharge DC de 105 kW (Born) ou 183 kW (Endurance, VZ).",
+          "Coffre de 385 l."
+        ],
+        "pros": [
+          "Jusqu'à 631 km d'autonomie WLTP en VZ.",
+          "VZ de 326 ch à 5,6 s sur 0-100 km/h.",
+          "Propulsion, gage d'agilité."
+        ],
+        "differentiators": [
+          "Compacte électrique orientée vers le dynamisme dans le groupe Volkswagen."
+        ],
+        "pricePositioning": "Prix de départ affiché sur cupra.be : 45 410 € (octobre 2026).",
+        "innovations": [
+          "Batterie LFP sur la version d'entrée."
+        ],
+        "compromises": [
+          "Vitesse maximale limitée à 160 km/h hors VZ.",
+          "Freins arrière à tambour sur toute la gamme."
+        ]
+      },
+      "variants": [
+        {
+          "id": "cupra-born-2-140kw-58kwh",
+          "name": "Born 140 kW (190 ch) 58 kWh",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur synchrone à aimants permanents arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 190,
+          "powerKw": 140,
+          "torqueNm": 350,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 8,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 14.2,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 484,
+          "batteryKwh": 58,
+          "charging": {
+            "dcMaxKw": 105,
+            "dc10to80Min": 26
+          },
+          "co2Gkm": 0,
+          "weightKg": 1899,
+          "dimensions": {
+            "lengthMm": 4336,
+            "widthMm": 1809,
+            "heightMm": 1543,
+            "wheelbaseMm": 2766
+          },
+          "seats": 5,
+          "trunkL": 385,
+          "equipmentHighlights": [
+            "Batterie LFP 58 kWh net / 61 kWh brut",
+            "Recharge AC 11 kW (0-100 % en 6 h 30)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 45410,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-10",
+              "source": {
+                "label": "CUPRA Belgique – CUPRA Born",
+                "url": "https://www.cupra.be/fr/modeles/cupra-born",
+                "type": "manufacturer",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Fiche technique CUPRA « New CUPRA Born ». Autonomie : valeur haute de la plage WLTP ; consommation : valeur basse. Poids en ordre de marche avec conducteur. Propulsion (moteur sur l'essieu arrière) selon cupra.be. Autonomie 413–484 km, consommation 14,2–16,7 kWh/100 km. Prix : prix de départ du modèle affiché sur cupra.be, sans précision de version.",
+          "sources": [
+            {
+              "label": "SEAT CUPRA Media Center – Technical Specifications New CUPRA Born",
+              "url": "https://www.seat-cupra-mediacenter.com/content/dam/seat-media-center/models-all-brands/cupra-models/cupra-born/technical-data/New_CUPRA_Born_Technical_Data_26.pdf",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "CUPRA Belgique – CUPRA Born",
+              "url": "https://www.cupra.be/fr/modeles/cupra-born",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "cupra-born-2-endurance-170kw",
+          "name": "Endurance 170 kW (231 ch) 79 kWh",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur synchrone à aimants permanents arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 231,
+          "powerKw": 170,
+          "torqueNm": 350,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 7,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 14.4,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 627,
+          "batteryKwh": 79,
+          "charging": {
+            "dcMaxKw": 183,
+            "dc10to80Min": 29
+          },
+          "co2Gkm": 0,
+          "weightKg": 1964,
+          "dimensions": {
+            "lengthMm": 4336,
+            "widthMm": 1809,
+            "heightMm": 1543,
+            "wheelbaseMm": 2766
+          },
+          "seats": 5,
+          "trunkL": 385,
+          "equipmentHighlights": [
+            "Batterie NMC 79 kWh net / 84 kWh brut",
+            "Recharge AC 11 kW (0-100 % en 8 h 30)"
+          ],
+          "prices": [],
+          "notes": "Fiche technique CUPRA « New CUPRA Born ». Autonomie : valeur haute de la plage WLTP ; consommation : valeur basse. Poids en ordre de marche avec conducteur. Propulsion (moteur sur l'essieu arrière) selon cupra.be. Autonomie 538–627 km, consommation 14,4–16,8 kWh/100 km.",
+          "sources": [
+            {
+              "label": "SEAT CUPRA Media Center – Technical Specifications New CUPRA Born",
+              "url": "https://www.seat-cupra-mediacenter.com/content/dam/seat-media-center/models-all-brands/cupra-models/cupra-born/technical-data/New_CUPRA_Born_Technical_Data_26.pdf",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "CUPRA Belgique – CUPRA Born",
+              "url": "https://www.cupra.be/fr/modeles/cupra-born",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "cupra-born-2-vz-240kw",
+          "name": "VZ 240 kW (326 ch) 79 kWh",
+          "tier": "sport",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur synchrone à aimants permanents arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 326,
+          "powerKw": 240,
+          "torqueNm": 545,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 5.6,
+          "topSpeedKmh": 200,
+          "consumption": {
+            "value": 14.1,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 631,
+          "batteryKwh": 79,
+          "charging": {
+            "dcMaxKw": 183,
+            "dc10to80Min": 29
+          },
+          "co2Gkm": 0,
+          "weightKg": 2004,
+          "dimensions": {
+            "lengthMm": 4336,
+            "widthMm": 1809,
+            "heightMm": 1543,
+            "wheelbaseMm": 2766
+          },
+          "seats": 5,
+          "trunkL": 385,
+          "equipmentHighlights": [
+            "Batterie NMC 79 kWh net / 84 kWh brut",
+            "Châssis DCC Sport de série",
+            "Jantes 20 pouces"
+          ],
+          "prices": [],
+          "notes": "Fiche technique CUPRA « New CUPRA Born ». Autonomie : valeur haute de la plage WLTP ; consommation : valeur basse. Poids en ordre de marche avec conducteur. Propulsion (moteur sur l'essieu arrière) selon cupra.be. Autonomie 552–631 km, consommation 14,1–16,2 kWh/100 km.",
+          "sources": [
+            {
+              "label": "SEAT CUPRA Media Center – Technical Specifications New CUPRA Born",
+              "url": "https://www.seat-cupra-mediacenter.com/content/dam/seat-media-center/models-all-brands/cupra-models/cupra-born/technical-data/New_CUPRA_Born_Technical_Data_26.pdf",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "CUPRA Belgique – CUPRA Born",
+              "url": "https://www.cupra.be/fr/modeles/cupra-born",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "SEAT CUPRA Media Center – CUPRA Born",
+          "url": "https://www.seat-cupra-mediacenter.com/CUPRA-Brand/CUPRA-Models/cupra-born",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "SEAT CUPRA Media Center – Technical Specifications New CUPRA Born",
+          "url": "https://www.seat-cupra-mediacenter.com/content/dam/seat-media-center/models-all-brands/cupra-models/cupra-born/technical-data/New_CUPRA_Born_Technical_Data_26.pdf",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "CUPRA Belgique – CUPRA Born",
+          "url": "https://www.cupra.be/fr/modeles/cupra-born",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}
