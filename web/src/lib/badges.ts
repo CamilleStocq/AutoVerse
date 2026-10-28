@@ -56,16 +56,16 @@ export function computeBadges(all: CarSummary[], owned: Owned, opened: number): 
   for (const c of all) byBrand.set(c.brandId, [...(byBrand.get(c.brandId) ?? []), c]);
   const brandsDone = [...byBrand.values()].filter((cards) => cards.length >= 10 && cards.every((c) => owned[key(c)])).length;
 
-  // Paliers et récompenses choisis pour qu'aucun badge (sauf, avec de la chance, la première
-  // Légendaire) ne tombe avec les 3 boosters de bienvenue (21 cartes) : pas d'effet boule de neige.
+  // Paliers choisis pour qu'aucun badge ne soit atteint avec les 3 boosters de bienvenue (21 cartes) :
+  // pas d'effet boule de neige (vérifié par simulation dans test/badges.test.ts).
   const list: Array<Badge | null> = [
     count('cards-50', 'Collectionneur', 'Collectionner 50 cartes', 'cards', 1, total, 50),
     count('cards-100', 'Centurion', 'Collectionner 100 cartes', 'cards', 1, total, 100),
     count('cards-250', 'Grand collectionneur', 'Collectionner 250 cartes', 'cards', 2, total, 250),
     count('cards-500', 'Musée privé', 'Collectionner 500 cartes', 'cards', 3, total, 500),
     count('cards-all', 'Collection complète', `Obtenir les ${all.length} cartes`, 'trophy', 3, total, Math.max(all.length, 1)),
-    count('legendary-1', 'Première Légendaire', 'Obtenir une carte Légendaire', 'crown', 1, ownedLegendary, 1),
-    count('legendary-10', 'Dix Légendaires', 'Obtenir 10 cartes Légendaires', 'crown', 2, ownedLegendary, 10),
+    count('legendary-10', 'Dix Légendaires', 'Obtenir 10 cartes Légendaires', 'crown', 1, ownedLegendary, 10),
+    count('legendary-25', 'Vingt-cinq Légendaires', 'Obtenir 25 cartes Légendaires', 'crown', 2, ownedLegendary, 25),
     series('legendary-all', 'Panthéon', 'Toutes les cartes Légendaires', 'crown', 3, legendary, owned),
     series('series-endurance', 'Le Mans', 'Toutes les voitures d’endurance', 'clock', 3, inCategory(all, 'endurance'), owned),
     series('series-rally', 'Groupe B', 'Toutes les voitures de rallye', 'mountain', 3, inCategory(all, 'rally'), owned),

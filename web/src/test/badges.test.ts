@@ -41,10 +41,9 @@ function playWelcome(seed: number) {
 }
 
 describe.skipIf(!catalog)('équilibre des récompenses (vraies cartes)', () => {
-  it('les 3 boosters de bienvenue ne déclenchent pas d’effet boule de neige', () => {
-    const runs = Array.from({ length: 200 }, (_, i) => playWelcome(i + 1));
-    // Au mieux la première Légendaire (1 booster) : jamais plus de 1 booster bonus au départ.
-    expect(Math.max(...runs.map((r) => r.bonus))).toBeLessThanOrEqual(1);
-    expect(Math.max(...runs.map((r) => r.owned))).toBeLessThan(50);
+  it('aucun badge n’est atteint avec les 3 boosters de bienvenue', () => {
+    const runs = Array.from({ length: 1000 }, (_, i) => playWelcome(i + 1));
+    expect(Math.max(...runs.map((r) => r.bonus))).toBe(0);
+    expect(Math.max(...runs.map((r) => r.opened))).toBe(WELCOME_BOOSTERS);
   });
 });
