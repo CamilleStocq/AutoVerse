@@ -214,13 +214,13 @@ export function Onboarding({ editing }: { editing?: boolean }) {
       </main>
 
       <footer className="ob-foot">
-        <button type="button" className="btn btn-ghost" onClick={() => setStep(step - 1)} disabled={step === 0}><ArrowLeft size={18} /> Retour</button>
+        <button type="button" className="btn btn-ghost" onClick={() => setStep(step - 1)} disabled={step === 0} aria-label="Retour"><ArrowLeft size={18} /> <span className="ob-back-label">Retour</span></button>
         <div className="row gap-2">
           {step < STEPS.length - 1 && (
-            <button type="button" className="btn btn-ghost" onClick={next}>Passer cette étape</button>
+            <button type="button" className="btn btn-ghost" onClick={next}>Passer</button>
           )}
           <button type="button" className="btn btn-primary" onClick={next}>
-            {step === STEPS.length - 1 ? (editing ? 'Enregistrer mes préférences' : 'Découvrir mon univers') : 'Continuer'} <ArrowRight size={18} />
+            <span className="ob-next-label">{step === STEPS.length - 1 ? (editing ? 'Enregistrer' : 'Découvrir mon univers') : 'Continuer'}</span> <ArrowRight size={18} />
           </button>
         </div>
       </footer>

@@ -22,8 +22,18 @@
 .ob-intro { display: flex; flex-direction: column; gap: var(--space-3); margin-bottom: var(--space-6); max-width: 720px; }
 .ob-intro h1 { font-size: var(--text-4xl); line-height: 1.02; }
 .ob-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-3); margin-bottom: var(--space-5); }
-.ob-foot { position: sticky; bottom: 0; display: flex; justify-content: space-between; gap: var(--space-3); padding: var(--space-3) var(--space-4) calc(var(--space-3) + env(safe-area-inset-bottom)); background: var(--bg-raised); border-top: 1px solid var(--border); }
-@media (max-width: 520px) { .ob-foot .btn-ghost:not(:first-child) { display: none; } }
+.ob-foot { position: sticky; bottom: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); padding: var(--space-3) var(--space-4) calc(var(--space-3) + env(safe-area-inset-bottom)); background: var(--bg-raised); border-top: 1px solid var(--border); }
+/* Barre du bas de l'onboarding : tout reste visible sur un téléphone, le bouton principal prend la place restante. */
+.ob-foot > .row { flex: 1; min-width: 0; justify-content: flex-end; }
+.ob-foot .btn { min-height: 44px; flex-shrink: 0; }
+.ob-foot .btn-primary { flex-shrink: 1; min-width: 0; }
+.ob-next-label { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+@media (max-width: 520px) {
+  .ob-foot { gap: var(--space-2); padding-left: var(--space-3); padding-right: var(--space-3); }
+  .ob-foot .btn { padding-left: var(--space-3); padding-right: var(--space-3); font-size: var(--text-sm); }
+  .ob-foot .btn-primary { flex: 1; }
+  .ob-back-label { display: none; }
+}
 .ob-fieldset { border: 0; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--space-3); }
 
 .brand-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3); }

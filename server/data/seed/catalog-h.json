@@ -1,0 +1,3103 @@
+{
+  "generations": [
+    {
+      "id": "nissan-gt-r-r35",
+      "modelId": "nissan-gt-r",
+      "brandId": "nissan",
+      "modelName": "GT-R",
+      "name": "R35",
+      "yearsLabel": "2007 – 2025",
+      "startYear": 2007,
+      "endYear": 2025,
+      "status": "discontinued",
+      "segment": "Coupé GT sportif 2+2",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "sports",
+        "supercar",
+        "coupe",
+        "gt"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track",
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Nissan GT-R (R35, 2017 facelift) in Brunei.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Nissan GT-R R35 restylée (millésime 2017)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2022 Nissan GT-R Nismo SCD24.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Nissan GT-R NISMO R35 (2022)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Nissan GT-R R35 est le coupé 2+2 à moteur V6 3,8 litres biturbo et transmission intégrale produit par Nissan de 2007 à 2025. Elle n'est plus vendue en Europe depuis 2022 et sa production s'est arrêtée en août 2025 à l'usine de Tochigi.",
+        "positioning": "Vaisseau amiral sportif de Nissan, première GT-R vendue officiellement en Europe sans le nom Skyline.",
+        "technicalFacts": [
+          "V6 3,8 litres biturbo VR38DETT (3 799 cm³) associé à une boîte à double embrayage 6 rapports et à la transmission intégrale (ADAC).",
+          "Depuis le restylage de 2016, la version standard développe 419 kW (570 ch) et 637 Nm (ADAC).",
+          "La NISMO développe 441 kW (600 ch) selon Nissan Europe, avec 652 Nm selon la fiche Nissan Japon.",
+          "Environ 48 000 exemplaires produits ; le dernier, une Premium Edition T-Spec, est sorti de l'usine de Tochigi fin août 2025 (JustCars)."
+        ],
+        "pros": [
+          "Performances en accélération de premier plan pour sa catégorie de prix à son lancement",
+          "Transmission intégrale efficace par tous les temps",
+          "Quatre places homologuées et coffre de 315 litres"
+        ],
+        "differentiators": [
+          "Une des rares supercars japonaises à quatre places",
+          "Longévité exceptionnelle : près de 18 ans de production pour une même génération"
+        ],
+        "pricePositioning": "En Allemagne, la GT-R Prestige Edition était affichée 113 940 € en 2021, soit nettement moins que la plupart des supercars européennes de puissance comparable.",
+        "innovations": [],
+        "compromises": [
+          "Poids élevé (plus de 1,8 tonne pour la Prestige selon l'ADAC)",
+          "Consommation importante (13,9 l/100 km NEDC pour la Prestige)",
+          "Places arrière d'appoint"
+        ]
+      },
+      "variants": [
+        {
+          "id": "nissan-gt-r-r35-prestige-edition",
+          "name": "3.8 V6 570 ch Prestige Edition",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 3.8 biturbo (VR38DETT)",
+            "displacementCc": 3799,
+            "electricMotors": null
+          },
+          "powerHp": 570,
+          "powerKw": 419,
+          "torqueNm": 637,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage 6 rapports",
+          "accel0100s": 2.8,
+          "topSpeedKmh": 315,
+          "consumption": {
+            "value": 13.9,
+            "unit": "l/100km",
+            "cycle": "NEDC"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 316,
+          "weightKg": 1821,
+          "dimensions": {
+            "lengthMm": 4710,
+            "widthMm": 1895,
+            "heightMm": 1370,
+            "wheelbaseMm": 2780
+          },
+          "seats": 4,
+          "trunkL": 315,
+          "equipmentHighlights": [
+            "Sellerie cuir (finition Prestige)",
+            "Transmission intégrale",
+            "Boîte à double embrayage 6 rapports"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 113940,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2021-02",
+              "source": {
+                "label": "ADAC Autokatalog – Nissan GT-R Prestige Edition (02/21 - 03/22)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/gt-r/r35-facelift-2/319563/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC du millésime 02/21 - 03/22 ; consommation et CO2 en cycle NEDC (aucune valeur WLTP publiée par l'ADAC). Largeur hors rétroviseurs (2 020 mm avec rétroviseurs). La version de base GT-R était affichée 99 900 € en Allemagne en 08/16 (ADAC).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Nissan GT-R Prestige Edition (02/21 - 03/22)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/gt-r/r35-facelift-2/319563/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "ADAC Autokatalog – Nissan GT-R R35 (2. Facelift), 2016 - 2022",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/gt-r/r35-facelift-2/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "nissan-gt-r-r35-nismo",
+          "name": "3.8 V6 600 ch NISMO",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 3.8 biturbo (VR38DETT NISMO)",
+            "displacementCc": 3799,
+            "electricMotors": null
+          },
+          "powerHp": 600,
+          "powerKw": 441,
+          "torqueNm": 652,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage 6 rapports",
+          "accel0100s": 2.8,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1740,
+          "dimensions": {
+            "lengthMm": 4690,
+            "widthMm": 1895,
+            "heightMm": 1370,
+            "wheelbaseMm": 2780
+          },
+          "seats": 4,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Turbos de plus grand diamètre issus de la GT3 (Nissan)",
+            "Appendices aérodynamiques NISMO"
+          ],
+          "prices": [],
+          "notes": "Puissance 600 PS (441 kW) selon Nissan Europe ; couple 652 Nm, poids (1 740 kg) et dimensions selon la fiche Nissan Japon (modèle japonais). 0-100 km/h en 2,8 s selon Auto Bild pour la variante 10/2016-07/2022. Auto Bild cite 220 200 € pour cette variante en Allemagne, sans date de tarif : prix non retenu.",
+          "sources": [
+            {
+              "label": "Nissan Europe – Nismo story enters a new chapter as Nissan GT-R Nismo gets ready for European debut",
+              "url": "https://europe.nissannews.com/releases/release-114895",
+              "type": "manufacturer",
+              "publishedAt": "2014-02-07",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Nissan Japon – GT-R NISMO, fiche de spécifications (PDF)",
+              "url": "https://www3.nissan.co.jp/content/dam/Nissan/jp/vehicles/GT-R/pdf/gt-r_nismo_specification.pdf",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Auto Bild – Nissan GT-R Nismo, données et variantes",
+              "url": "https://www.autobild.de/marken-modelle/nissan/gtrnismo/1/",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Nissan GT-R R35 (2. Facelift), 2016 - 2022",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/gt-r/r35-facelift-2/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Nissan Europe – Nismo story enters a new chapter as Nissan GT-R Nismo gets ready for European debut",
+          "url": "https://europe.nissannews.com/releases/release-114895",
+          "type": "manufacturer",
+          "publishedAt": "2014-02-07",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "JustCars – Nissan builds last R35 GT-R",
+          "url": "https://www.justcars.com.au/news-and-reviews/nissan-builds-last-r35-gt-r/1061292",
+          "type": "press",
+          "publishedAt": "2025-09-19",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "nissan-z-rz34",
+      "modelId": "nissan-z",
+      "brandId": "nissan",
+      "modelName": "Z",
+      "name": "RZ34",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Coupé sportif deux places",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "sports",
+        "coupe"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2023 Nissan Z, NYIAS 2022.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Nissan Z RZ34 (millésime 2023) au salon de New York 2022",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Nissan Z NISMO, 2023, front.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Nissan Z NISMO RZ34",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Nissan Z RZ34 est le coupé deux places à V6 3.0 biturbo et propulsion qui succède à la 370Z. Présentée en août 2021, elle est vendue aux États-Unis et au Japon (sous le nom Fairlady Z), pas en Europe.",
+        "positioning": "Coupé sportif accessible de Nissan, positionné face à la Toyota GR Supra.",
+        "technicalFacts": [
+          "V6 3.0 biturbo VR30DDTT de 405 PS et 475 Nm (Paul Tan, lancement mondial).",
+          "Boîte manuelle 6 rapports ou automatique 9 rapports avec palettes (Paul Tan).",
+          "Empattement de 2 550 mm, inchangé par rapport à la 370Z (Paul Tan).",
+          "La NISMO reçoit un couple porté à 521 Nm et une boîte automatique 9 rapports (Autotijd)."
+        ],
+        "pros": [
+          "Boîte manuelle toujours proposée sur la version de base",
+          "Design rétro inspiré des Z historiques",
+          "Rapport puissance/prix favorable sur ses marchés"
+        ],
+        "differentiators": [
+          "Un des derniers coupés sportifs à moteur thermique et boîte manuelle du segment"
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Non commercialisée en Europe",
+          "Plateforme dérivée de la 370Z, plus ancienne que celle de ses rivales",
+          "Deux places seulement"
+        ]
+      },
+      "variants": [
+        {
+          "id": "nissan-z-rz34-3-0-v6-bvm6",
+          "name": "3.0 V6 biturbo BVM6",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 3.0 biturbo (VR30DDTT)",
+            "displacementCc": 2997,
+            "electricMotors": null
+          },
+          "powerHp": 405,
+          "powerKw": 298,
+          "torqueNm": 475,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1581,
+          "dimensions": {
+            "lengthMm": 4379,
+            "widthMm": 1844,
+            "heightMm": 1316,
+            "wheelbaseMm": 2550
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance 405 PS (400 hp) selon Paul Tan ; Autotijd indique « 406 ch / 298 kW / 400 hp » et le poids à vide de 1 581 kg. Paul Tan annonce une longueur de 4 830 mm, manifestement erronée : la longueur retenue (4 379 mm) est celle d'Autotijd. Pas de performances officielles publiées dans les sources consultées. Modèle non vendu en Europe : aucun prix européen.",
+          "sources": [
+            {
+              "label": "Paul Tan – 2023 Nissan Z makes its official global debut",
+              "url": "https://paultan.org/2021/08/18/2023-nissan-z-makes-its-official-global-debut/",
+              "type": "press",
+              "publishedAt": "2021-08-18",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Nissan Z 3.0L V6 manuelle, fiche technique",
+              "url": "https://autotijd.be/fr/fiches-techniques/nissan/z/30l-v6-manual-4956",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Nissan Z 3.0L V6 manuelle, dimensions",
+              "url": "https://autotijd.be/fr/dimensions/nissan/z/30l-v6-manual-4956",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "nissan-z-rz34-nismo",
+          "name": "NISMO 3.0 V6 biturbo BVA9",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 3.0 biturbo (VR30DDTT)",
+            "displacementCc": 2997,
+            "electricMotors": null
+          },
+          "powerHp": null,
+          "powerKw": null,
+          "torqueNm": 521,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 9 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1680,
+          "dimensions": {
+            "lengthMm": 4399,
+            "widthMm": 1869,
+            "heightMm": 1316,
+            "wheelbaseMm": 2550
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Kit aérodynamique NISMO"
+          ],
+          "prices": [],
+          "notes": "Autotijd indique « 426 ch / 298 kW / 420 hp » : les valeurs en ch et en kW sont incohérentes entre elles (298 kW = puissance de la version de base), donc non retenues ; seule la valeur américaine de 420 hp est mentionnée ici. Couple 521 Nm et poids 1 680 kg selon Autotijd. Modèle non vendu en Europe : aucun prix européen.",
+          "sources": [
+            {
+              "label": "Autotijd.be – Nissan Z NISMO, fiche technique",
+              "url": "https://autotijd.be/fr/fiches-techniques/nissan/z/nismo-4958",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Nissan Z NISMO, dimensions",
+              "url": "https://autotijd.be/fr/dimensions/nissan/z/nismo-4958",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Paul Tan – 2023 Nissan Z makes its official global debut",
+          "url": "https://paultan.org/2021/08/18/2023-nissan-z-makes-its-official-global-debut/",
+          "type": "press",
+          "publishedAt": "2021-08-18",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – Nissan Z 3.0L V6 manuelle, fiche technique",
+          "url": "https://autotijd.be/fr/fiches-techniques/nissan/z/30l-v6-manual-4956",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "toyota-gr-supra-a90",
+      "modelId": "toyota-supra",
+      "brandId": "toyota",
+      "modelName": "GR Supra",
+      "name": "A90 (5e génération)",
+      "yearsLabel": "2019 – 2025",
+      "startYear": 2019,
+      "endYear": 2025,
+      "status": "discontinued",
+      "segment": "Coupé sportif deux places",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "sports",
+        "coupe"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "driving-pleasure"
+      ],
+      "previousGenerationId": "toyota-supra-a80",
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Dülmen, Auto Bertels, Toyota GR Supra -- 2021 -- 9552-4.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Toyota GR Supra A90 (2021) chez un concessionnaire à Dülmen",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La GR Supra A90 est le coupé deux places à moteur avant et propulsion qui a fait revivre le nom Supra en 2019, développé en commun avec la BMW Z4. Elle a été proposée en Europe avec un quatre-cylindres 2.0 turbo et un six-cylindres en ligne 3.0 turbo, ce dernier aussi en boîte manuelle à partir de 2022.",
+        "positioning": "Coupé sportif de la gamme GR, au-dessus de la GR86.",
+        "technicalFacts": [
+          "Six-cylindres en ligne 3.0 turbo (2 998 cm³) de 340 ch et 500 Nm ; quatre-cylindres 2.0 turbo (1 998 cm³) de 258 ch et 400 Nm (Toyota UK).",
+          "Boîte automatique 8 rapports ZF 8HP51 ; boîte manuelle 6 rapports proposée sur la 3.0 à partir de juin 2022 (Toyota UK).",
+          "Version 2.0 ajoutée à la gamme britannique en janvier 2021 (Toyota UK).",
+          "Coffre de 290 litres (VDA) et empattement de 2 470 mm (Toyota UK)."
+        ],
+        "pros": [
+          "Six-cylindres en ligne souple et performant",
+          "Boîte manuelle disponible sur la 3.0",
+          "Châssis court et équilibré"
+        ],
+        "differentiators": [
+          "Base technique partagée avec la BMW Z4 (G29), moteurs d'origine BMW"
+        ],
+        "pricePositioning": "En Belgique, la gamme démarrait à 53 155 € (2.0) en juillet 2022, contre 69 185 € pour la 3.0 automatique.",
+        "innovations": [],
+        "compromises": [
+          "Deux places seulement",
+          "Visibilité arrière limitée",
+          "Forte parenté technique avec la BMW Z4, parfois reprochée par les puristes"
+        ]
+      },
+      "variants": [
+        {
+          "id": "toyota-gr-supra-a90-2-0-bva8",
+          "name": "2.0 Turbo 258 ch BVA8",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2.0 turbo",
+            "displacementCc": 1998,
+            "electricMotors": null
+          },
+          "powerHp": 258,
+          "powerKw": 190,
+          "torqueNm": 400,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 8 rapports (ZF 8HP51)",
+          "accel0100s": 5.2,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 167,
+          "weightKg": 1395,
+          "dimensions": {
+            "lengthMm": 4379,
+            "widthMm": 1854,
+            "heightMm": 1292,
+            "wheelbaseMm": 2470
+          },
+          "seats": 2,
+          "trunkL": 290,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 53155,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2022-07",
+              "source": {
+                "label": "Autotijd.be – prix belges Toyota Supra",
+                "url": "https://autotijd.be/fr/prix/toyota/supra",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "GB",
+              "amount": 50545,
+              "currency": "GBP",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Toyota UK Media – GR Supra, liste de prix (PDF)",
+                "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/240308-GR-Supra.pdf",
+                "type": "manufacturer",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Toyota UK : 254 bhp / 258 ch DIN / 190 kW, 400 Nm ; 0-62 mph (≈ 0-100 km/h) en 5,2 s ; vitesse limitée électroniquement à 155 mph (non convertie). CO2 WLTP 167 g/km ; consommation publiée uniquement en mpg (38,7). Poids à vide sans conducteur 1 395 kg (1 470 kg norme ECE). Prix belge : « 2.0 Turbo 258 ch Sport » (juillet 2022) ; prix britannique : 2.0 Pro, liste de prix de mars 2024.",
+          "sources": [
+            {
+              "label": "Toyota UK Media – GR Supra, caractéristiques techniques (PDF)",
+              "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/240429-GR-Supra-Tech-Specs.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2024-04-29",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Toyota UK Media – GR Supra, liste de prix (PDF)",
+              "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/240308-GR-Supra.pdf",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Toyota Supra",
+              "url": "https://autotijd.be/fr/prix/toyota/supra",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "toyota-gr-supra-a90-3-0-bva8",
+          "name": "3.0 Turbo 340 ch BVA8",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "6 cylindres en ligne 3.0 turbo",
+            "displacementCc": 2998,
+            "electricMotors": null
+          },
+          "powerHp": 340,
+          "powerKw": 250,
+          "torqueNm": 500,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 8 rapports (ZF 8HP51)",
+          "accel0100s": 4.3,
+          "topSpeedKmh": 250,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 188,
+          "weightKg": 1495,
+          "dimensions": {
+            "lengthMm": 4379,
+            "widthMm": 1854,
+            "heightMm": 1292,
+            "wheelbaseMm": 2470
+          },
+          "seats": 2,
+          "trunkL": 290,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 69185,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2022-07",
+              "source": {
+                "label": "Autotijd.be – prix belges Toyota Supra",
+                "url": "https://autotijd.be/fr/prix/toyota/supra",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "GB",
+              "amount": 58580,
+              "currency": "GBP",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Toyota UK Media – GR Supra, liste de prix (PDF)",
+                "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/240308-GR-Supra.pdf",
+                "type": "manufacturer",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Toyota UK : 335 bhp / 340 ch DIN / 250 kW, 500 Nm ; CO2 WLTP 188 g/km. 0-100 km/h 4,3 s et vitesse maximale 250 km/h selon Autotijd. Poids à vide sans conducteur 1 495 kg (Toyota UK). Prix belge : « 3.0 Turbo 340 ch Sport » (juillet 2022) ; prix britannique : 3.0 Pro automatique (mars 2024).",
+          "sources": [
+            {
+              "label": "Toyota UK Media – GR Supra, caractéristiques techniques (PDF)",
+              "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/240429-GR-Supra-Tech-Specs.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2024-04-29",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Toyota Supra 3.0 Turbo automatique, fiche technique",
+              "url": "https://autotijd.be/fr/fiches-techniques/toyota/supra/30-turbo-281",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Toyota Supra",
+              "url": "https://autotijd.be/fr/prix/toyota/supra",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Toyota UK Media – GR Supra, liste de prix (PDF)",
+              "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/240308-GR-Supra.pdf",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "toyota-gr-supra-a90-3-0-bvm6",
+          "name": "3.0 Turbo 340 ch BVM6",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "6 cylindres en ligne 3.0 turbo",
+            "displacementCc": 2998,
+            "electricMotors": null
+          },
+          "powerHp": 340,
+          "powerKw": 250,
+          "torqueNm": 500,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 4.6,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 8.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 198,
+          "weightKg": 1502,
+          "dimensions": {
+            "lengthMm": 4379,
+            "widthMm": 1854,
+            "heightMm": 1292,
+            "wheelbaseMm": 2470
+          },
+          "seats": 2,
+          "trunkL": 290,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 65360,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2022-07",
+              "source": {
+                "label": "Autotijd.be – prix belges Toyota Supra",
+                "url": "https://autotijd.be/fr/prix/toyota/supra",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "GB",
+              "amount": 54630,
+              "currency": "GBP",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Toyota UK Media – GR Supra, liste de prix (PDF)",
+                "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/240308-GR-Supra.pdf",
+                "type": "manufacturer",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "0-62 mph (≈ 0-100 km/h) en 4,6 s et poids sans conducteur 1 502 kg selon Toyota UK (1 577 kg norme ECE, valeur reprise par Autotijd). Consommation WLTP 8,8 l/100 km et CO2 198 g/km selon Autotijd (Toyota UK : 198,3 g/km). Prix belge : « 3.0 Turbo 340 ch Lightweight » manuelle (juillet 2022) ; prix britannique : GR Supra 3.0 manuelle (mars 2024).",
+          "sources": [
+            {
+              "label": "Toyota UK Media – GR Supra, caractéristiques techniques (PDF)",
+              "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/240429-GR-Supra-Tech-Specs.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2024-04-29",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Toyota Supra 3.0 Turbo manuelle, fiche technique",
+              "url": "https://autotijd.be/fr/fiches-techniques/toyota/supra/30-turbo-manual-3998",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Toyota Supra",
+              "url": "https://autotijd.be/fr/prix/toyota/supra",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Toyota UK Media – GR Supra, liste de prix (PDF)",
+              "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/240308-GR-Supra.pdf",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Toyota UK Media – GR Supra (1re génération, 2019–2025)",
+          "url": "https://media.toyota.co.uk/vehicles/gr-supra-archive-2019/",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Toyota UK Media – GR Supra, caractéristiques techniques (PDF)",
+          "url": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/240429-GR-Supra-Tech-Specs.pdf",
+          "type": "manufacturer",
+          "publishedAt": "2024-04-29",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Toyota Supra",
+          "url": "https://autotijd.be/fr/prix/toyota/supra",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "toyota-gr-corolla",
+      "modelId": "toyota-gr-corolla",
+      "brandId": "toyota",
+      "modelName": "GR Corolla",
+      "name": "GR Corolla (E210)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte sportive (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "sports",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "driving-pleasure",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2024 Toyota GR Corolla.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Toyota GR Corolla (2024)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2023-2025 Toyota GR Corolla RZ rear.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Toyota GR Corolla RZ, vue arrière",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La GR Corolla est la compacte sportive de Toyota Gazoo Racing, dotée du trois-cylindres 1.6 turbo et de la transmission intégrale GR-FOUR de la GR Yaris. Elle est vendue notamment au Japon et en Amérique du Nord, mais pas en Europe.",
+        "positioning": "Version la plus radicale de la Corolla à hayon, grande sœur de la GR Yaris.",
+        "technicalFacts": [
+          "Trois-cylindres 1.6 turbo (1 618 cm³) de 224 kW (304 PS) en spécification japonaise (Toyota).",
+          "Boîte manuelle 6 rapports iMT et transmission intégrale GR-FOUR (Toyota).",
+          "La Morizo Edition retire la banquette arrière (environ 30 kg de moins) et porte le couple à 400 Nm (Toyota).",
+          "Valeurs de développement annoncées lors de la présentation japonaise de juin 2022 (Toyota)."
+        ],
+        "pros": [
+          "Transmission intégrale à répartition réglable",
+          "Boîte manuelle de série",
+          "Cinq places et hayon sur la version RZ"
+        ],
+        "differentiators": [
+          "Une des rares compactes sportives à transmission intégrale et boîte exclusivement manuelle au lancement"
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Transmission intégrale GR-FOUR issue de la GR Yaris"
+        ],
+        "compromises": [
+          "Non commercialisée en Europe",
+          "Morizo Edition limitée à deux places et produite en petite série"
+        ]
+      },
+      "variants": [
+        {
+          "id": "toyota-gr-corolla-rz",
+          "name": "RZ 1.6 turbo 304 PS BVM6",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1.6 turbo",
+            "displacementCc": 1618,
+            "electricMotors": null
+          },
+          "powerHp": 304,
+          "powerKw": 224,
+          "torqueNm": 370,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 6 rapports (iMT)",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1470,
+          "dimensions": {
+            "lengthMm": 4410,
+            "widthMm": 1850,
+            "heightMm": 1455,
+            "wheelbaseMm": 2640
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Transmission intégrale GR-FOUR"
+          ],
+          "prices": [],
+          "notes": "Spécification japonaise, valeurs de développement (« development target values ») publiées par Toyota en juin 2022. Hauteur hors antenne (1 480 mm avec antenne). Les versions nord-américaines ont des puissances différentes. Pas de prix européen.",
+          "sources": [
+            {
+              "label": "Toyota Global Newsroom – GR Corolla RZ et GR Corolla Morizo Edition (spécifications Japon)",
+              "url": "https://global.toyota/en/newsroom/toyota/37344924.html",
+              "type": "manufacturer",
+              "publishedAt": "2022-06-01",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "toyota-gr-corolla-morizo-edition",
+          "name": "Morizo Edition 1.6 turbo 304 PS BVM6",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1.6 turbo",
+            "displacementCc": 1618,
+            "electricMotors": null
+          },
+          "powerHp": 304,
+          "powerKw": 224,
+          "torqueNm": 400,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 6 rapports à rapports rapprochés (iMT)",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1440,
+          "dimensions": {
+            "lengthMm": 4410,
+            "widthMm": 1850,
+            "heightMm": 1450,
+            "wheelbaseMm": 2640
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Deux places (banquette arrière supprimée)",
+            "Boîte à rapports rapprochés spécifique"
+          ],
+          "prices": [],
+          "notes": "Spécification japonaise, valeurs de développement publiées par Toyota en juin 2022 (prototype). Hauteur hors antenne (1 475 mm avec antenne). Série limitée distribuée via les GR Garage au Japon. Pas de prix européen.",
+          "sources": [
+            {
+              "label": "Toyota Global Newsroom – GR Corolla RZ et GR Corolla Morizo Edition (spécifications Japon)",
+              "url": "https://global.toyota/en/newsroom/toyota/37344924.html",
+              "type": "manufacturer",
+              "publishedAt": "2022-06-01",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Toyota Global Newsroom – GR Corolla RZ et GR Corolla Morizo Edition (spécifications Japon)",
+          "url": "https://global.toyota/en/newsroom/toyota/37344924.html",
+          "type": "manufacturer",
+          "publishedAt": "2022-06-01",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "honda-nsx-nc1",
+      "modelId": "honda-nsx",
+      "brandId": "honda",
+      "modelName": "NSX",
+      "name": "NC1 (2e génération)",
+      "yearsLabel": "2016 – 2022",
+      "startYear": 2016,
+      "endYear": 2022,
+      "status": "discontinued",
+      "segment": "Supercar hybride à moteur central",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "collection"
+      ],
+      "previousGenerationId": "honda-nsx-na",
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Honda NSX (NC1) front.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Honda NSX NC1, vue avant",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Honda NSX (NC1) rear.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Honda NSX NC1, vue arrière",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Honda NSX NC1 est une supercar hybride à moteur V6 biturbo central et transmission intégrale électrifiée, produite de 2016 à 2022. Sa dernière évolution, la Type S, a été limitée à 350 exemplaires.",
+        "positioning": "Supercar hybride vitrine technologique de Honda (vendue sous la marque Acura en Amérique du Nord).",
+        "technicalFacts": [
+          "Système hybride de 427 kW (581 ch) et 646 Nm, dont V6 3.5 biturbo de 373 kW (507 ch) et 550 Nm (ADAC).",
+          "Boîte à double embrayage 9 rapports et transmission intégrale (ADAC).",
+          "Fin de la série européenne en 08/2022 selon l'ADAC.",
+          "Type S : 350 exemplaires dans le monde, dont 30 pour le Japon (Openers) ; 300 réservés à Acura aux États-Unis (Goodwood)."
+        ],
+        "pros": [
+          "Accélérations fulgurantes grâce à l'assistance électrique (0-100 km/h en 2,9 s selon l'ADAC)",
+          "Transmission intégrale électrifiée",
+          "Utilisable au quotidien pour une supercar"
+        ],
+        "differentiators": [
+          "Architecture hybride associant un V6 biturbo central et une assistance électrique, rare dans le segment lors du lancement"
+        ],
+        "pricePositioning": "Affichée 185 000 € en Allemagne en 2020, au niveau des supercars européennes à moteur central.",
+        "innovations": [],
+        "compromises": [
+          "Poids élevé (1 847 kg à vide EU selon l'ADAC)",
+          "Coffre minuscule (110 litres)",
+          "Diffusion confidentielle en Europe"
+        ]
+      },
+      "variants": [
+        {
+          "id": "honda-nsx-nc1-nsx",
+          "name": "NSX 3.5 V6 biturbo hybride 581 ch",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V6 3.5 biturbo central + 3 moteurs électriques",
+            "displacementCc": 3493,
+            "electricMotors": null
+          },
+          "powerHp": 581,
+          "powerKw": 427,
+          "torqueNm": 646,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage 9 rapports",
+          "accel0100s": 2.9,
+          "topSpeedKmh": 308,
+          "consumption": {
+            "value": 10.0,
+            "unit": "l/100km",
+            "cycle": "NEDC"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 228,
+          "weightKg": 1847,
+          "dimensions": {
+            "lengthMm": 4487,
+            "widthMm": 1939,
+            "heightMm": 1204,
+            "wheelbaseMm": 2630
+          },
+          "seats": 2,
+          "trunkL": 110,
+          "equipmentHighlights": [
+            "Transmission intégrale hybride SH-AWD",
+            "Batterie lithium-ion"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 185000,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2020-01",
+              "source": {
+                "label": "ADAC Autokatalog – Honda NSX (01/20 - 08/22)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/nsx/2generation/309714/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC du millésime 01/20 - 08/22 : puissance et couple système ; consommation et CO2 en cycle NEDC. Poids à vide norme EU (avec conducteur). Nombre de moteurs électriques et capacité de batterie non publiés par l'ADAC.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Honda NSX (01/20 - 08/22)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/nsx/2generation/309714/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "honda-nsx-nc1-type-s",
+          "name": "NSX Type S",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V6 3.5 biturbo central + moteurs électriques",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 600,
+          "powerKw": 447,
+          "torqueNm": 667,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage 9 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Série limitée à 350 exemplaires"
+          ],
+          "prices": [],
+          "notes": "Puissance système 600 PS (447 kW) et 667 Nm selon Goodwood ; d'autres sources japonaises citent 610 PS. Goodwood indique un poids réduit de 26 kg, « autour de 1,7 tonne », sans valeur précise. Prix au Japon 27,94 millions de yens (Openers) ; pas de commercialisation européenne confirmée.",
+          "sources": [
+            {
+              "label": "Goodwood Road & Racing – The Type S is a 600PS NSX swansong",
+              "url": "https://goodwood.com/grr/road/news/the-type-s-is-a-600ps-nsx-swansong",
+              "type": "press",
+              "publishedAt": "2021-08-13",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Openers – Honda NSX Type S (lancement Japon)",
+              "url": "https://openers.jp/en/car/car_news/FtA0U",
+              "type": "press",
+              "publishedAt": "2021-08-31",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Honda NSX (01/20 - 08/22)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/honda/nsx/2generation/309714/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Goodwood Road & Racing – The Type S is a 600PS NSX swansong",
+          "url": "https://goodwood.com/grr/road/news/the-type-s-is-a-600ps-nsx-swansong",
+          "type": "press",
+          "publishedAt": "2021-08-13",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lexus-lc-z100",
+      "modelId": "lexus-lc",
+      "brandId": "lexus",
+      "modelName": "LC",
+      "name": "LC (Z100)",
+      "yearsLabel": "2017 –",
+      "startYear": 2017,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Grand tourisme 2+2 de luxe",
+      "bodyStyles": [
+        "Coupé",
+        "Cabriolet"
+      ],
+      "categories": [
+        "gt",
+        "coupe",
+        "convertible",
+        "luxury"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Lexus LC 500h, IAA 2017, Frankfurt (1Y7A3199).jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Lexus LC 500h coupé au salon de Francfort 2017",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Lexus LC 500 Convertible (5BA-URZ100-AKUBH) front.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Lexus LC 500 Convertible, vue avant",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Lexus LC est le grand coupé de luxe de la marque, décliné en V8 5.0 atmosphérique (LC 500), en hybride V6 Multi Stage (LC 500h) et en cabriolet à partir de 2020. Dérivée du concept LF-LC de 2012, elle est produite à l'usine de Motomachi.",
+        "positioning": "Coupé et cabriolet phares de Lexus, dans la lignée du concept LF-LC.",
+        "technicalFacts": [
+          "V8 5.0 atmosphérique 2UR-GSE de 464 ch DIN / 341 kW et 530 Nm, boîte automatique 10 rapports (Lexus UK).",
+          "LC 500h : V6 3.5 et système hybride Multi Stage, 359 ch DIN / 264 kW de puissance cumulée (Lexus UK).",
+          "Production pour l'Europe lancée en mai 2017 ; cabriolet présenté au Royaume-Uni en septembre 2020 (Lexus UK).",
+          "Fin des ventes du coupé au Royaume-Uni en janvier 2025 (Lexus UK)."
+        ],
+        "pros": [
+          "Ligne spectaculaire fidèle au concept",
+          "V8 atmosphérique au son travaillé",
+          "Finition et confort de grand tourisme"
+        ],
+        "differentiators": [
+          "Un des derniers grands coupés à V8 atmosphérique",
+          "Version hybride à boîte Multi Stage unique dans le segment"
+        ],
+        "pricePositioning": "En Belgique, LC 500 et LC 500h étaient affichées au même prix de 119 520 € en mai 2022.",
+        "innovations": [
+          "Système hybride Multi Stage associant un train épicycloïdal et une boîte 4 rapports"
+        ],
+        "compromises": [
+          "Poids élevé (près de 2 tonnes pour la LC 500h)",
+          "Coffre réduit (197 litres pour la LC 500, 149 litres pour le cabriolet)",
+          "Places arrière symboliques"
+        ]
+      },
+      "variants": [
+        {
+          "id": "lexus-lc-z100-lc-500",
+          "name": "LC 500 V8 464 ch",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 5.0 atmosphérique (2UR-GSE)",
+            "displacementCc": 4969,
+            "electricMotors": null
+          },
+          "powerHp": 464,
+          "powerKw": 341,
+          "torqueNm": 530,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 10 rapports",
+          "accel0100s": 4.7,
+          "topSpeedKmh": 270,
+          "consumption": {
+            "value": 11.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 262,
+          "weightKg": 1930,
+          "dimensions": {
+            "lengthMm": 4770,
+            "widthMm": 1920,
+            "heightMm": 1345,
+            "wheelbaseMm": 2870
+          },
+          "seats": null,
+          "trunkL": 197,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 119520,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2022-05",
+              "source": {
+                "label": "Autotijd.be – prix belges Lexus LC",
+                "url": "https://autotijd.be/fr/prix/lexus/lc",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Lexus UK (02/2022) : 457 bhp / 464 ch DIN / 341 kW à 7 100 tr/min, 530 Nm à 4 800 tr/min, 0-62 mph en 4,7 s, CO2 WLTP 262 g/km, poids 1 930–1 965 kg (valeur basse retenue). Vitesse maximale 270 km/h et consommation WLTP 11,6 l/100 km selon Autotijd. Nombre de places : Autotijd indique 2, la configuration 2+2 n'étant pas chiffrée dans les fiches Lexus consultées. Largeur hors rétroviseurs.",
+          "sources": [
+            {
+              "label": "Lexus UK Media – LC Coupé, caractéristiques techniques (PDF)",
+              "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/220201M-LC-Tech-Spec.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2022-02",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Lexus LC 500 464 ch, fiche technique",
+              "url": "https://autotijd.be/fr/fiches-techniques/lexus/lc/500-464-hp-4035",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Lexus LC",
+              "url": "https://autotijd.be/fr/prix/lexus/lc",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lexus-lc-z100-lc-500h",
+          "name": "LC 500h Multi Stage Hybrid 359 ch",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V6 3.5 (8GR-FXS) + moteur électrique, hybride Multi Stage",
+            "displacementCc": 3456,
+            "electricMotors": 1
+          },
+          "powerHp": 359,
+          "powerKw": 264,
+          "torqueNm": null,
+          "drivetrain": "rwd",
+          "gearbox": "Multi Stage Hybrid (train épicycloïdal + boîte 4 rapports)",
+          "accel0100s": 5.0,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 8.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 184,
+          "weightKg": 1980,
+          "dimensions": {
+            "lengthMm": 4770,
+            "widthMm": 1920,
+            "heightMm": 1345,
+            "wheelbaseMm": 2870
+          },
+          "seats": null,
+          "trunkL": 172,
+          "equipmentHighlights": [
+            "Batterie lithium-ion (84 cellules, 310,8 V)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 119520,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2022-05",
+              "source": {
+                "label": "Autotijd.be – prix belges Lexus LC",
+                "url": "https://autotijd.be/fr/prix/lexus/lc",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance cumulée 354 bhp / 359 ch DIN / 264 kW (Lexus UK). Couple système non publié : V6 seul 347 Nm (Lexus UK) ou 350 Nm (Autotijd), moteur électrique 300 Nm. 0-62 mph en 5,0 s, CO2 WLTP 184 g/km, poids 1 980–2 015 kg (Lexus UK). Vitesse maximale 250 km/h et consommation WLTP 8,1 l/100 km selon Autotijd.",
+          "sources": [
+            {
+              "label": "Lexus UK Media – LC Coupé, caractéristiques techniques (PDF)",
+              "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/220201M-LC-Tech-Spec.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2022-02",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Lexus LC 500h 359 ch, fiche technique",
+              "url": "https://autotijd.be/fr/fiches-techniques/lexus/lc/500h-359-hp-4034",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Lexus LC",
+              "url": "https://autotijd.be/fr/prix/lexus/lc",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lexus-lc-z100-lc-500-convertible",
+          "name": "LC 500 Convertible V8 464 ch",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 5.0 atmosphérique (2UR-GSE)",
+            "displacementCc": 4969,
+            "electricMotors": null
+          },
+          "powerHp": 464,
+          "powerKw": 341,
+          "torqueNm": 530,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 10 rapports",
+          "accel0100s": 5.0,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 275,
+          "weightKg": 2035,
+          "dimensions": {
+            "lengthMm": 4770,
+            "widthMm": 1920,
+            "heightMm": 1350,
+            "wheelbaseMm": 2870
+          },
+          "seats": null,
+          "trunkL": 149,
+          "equipmentHighlights": [
+            "Capote souple électrique"
+          ],
+          "prices": [],
+          "notes": "Lexus UK (02/2022) : 457 bhp / 464 ch DIN / 341 kW, 530 Nm ; 0-62 mph (≈ 0-100 km/h) en 5,0 s ; vitesse maximale 168 mph (non convertie) ; consommation publiée uniquement en mpg (24,1) ; CO2 WLTP 275 g/km ; poids 2 035–2 055 kg (valeur basse retenue). Aucun prix belge ou français vérifié pour le cabriolet.",
+          "sources": [
+            {
+              "label": "Lexus UK Media – LC 500 Convertible, caractéristiques techniques (PDF)",
+              "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/220201M-LC-C-Tech-Spec.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2022-02",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Lexus UK Media – LC, dossier de presse d'archive (PDF)",
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/250804DM3-Lexus-LC-archive-press-kit.pdf",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Lexus UK Media – chronologie LC Coupé et Cabriolet (PDF)",
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/LC-LC-Convertible-archive-timeline.pdf",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Lexus UK Media – LC Coupé, caractéristiques techniques (PDF)",
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/220201M-LC-Tech-Spec.pdf",
+          "type": "manufacturer",
+          "publishedAt": "2022-02",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Lexus UK Media – LC 500 Convertible, caractéristiques techniques (PDF)",
+          "url": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/220201M-LC-C-Tech-Spec.pdf",
+          "type": "manufacturer",
+          "publishedAt": "2022-02",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lexus-lfa",
+      "modelId": "lexus-lfa",
+      "brandId": "lexus",
+      "modelName": "LFA",
+      "name": "LFA (LFA10)",
+      "yearsLabel": "2010 – 2012",
+      "startYear": 2010,
+      "endYear": 2012,
+      "status": "discontinued",
+      "segment": "Supercar à moteur V10 avant",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe",
+        "classic"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2011 Lexus LFA White.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Lexus LFA (2011), blanche",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Lexus LFA est la supercar à V10 4.8 atmosphérique produite à la main à 500 exemplaires entre décembre 2010 et décembre 2012. Sa structure fait largement appel au plastique renforcé de fibre de carbone.",
+        "positioning": "Vitrine technologique de Lexus et de Toyota, aujourd'hui pièce de collection.",
+        "technicalFacts": [
+          "V10 4.8 atmosphérique (4 805 cm³) de 560 PS / 412 kW à 8 700 tr/min et 480 Nm à 6 800 tr/min (Auto Bild ; couple confirmé par Lexus UK).",
+          "Régime maximal de 9 000 tr/min et 0-62 mph en 3,7 s (Lexus UK).",
+          "500 exemplaires produits au rythme d'une voiture par jour à la LFA Works, de décembre 2010 au 14 décembre 2012 (Toyota).",
+          "Version Nürburgring Package produite à partir de janvier 2012, limitée à 50 exemplaires (Toyota, Lexus US)."
+        ],
+        "pros": [
+          "Sonorité du V10 très réputée",
+          "Montée en régime exceptionnelle",
+          "Rareté et statut de collection"
+        ],
+        "differentiators": [
+          "Structure en plastique renforcé de fibre de carbone développée en interne"
+        ],
+        "pricePositioning": "Prix catalogue de 375 000 € en Allemagne en 2010 selon Auto Bild, soit le niveau des hypercars de l'époque.",
+        "innovations": [
+          "Fabrication interne de la structure en fibre de carbone, savoir-faire réutilisé ensuite par Toyota"
+        ],
+        "compromises": [
+          "Boîte robotisée à simple embrayage jugée lente face aux doubles embrayages",
+          "Prix d'achat et cote de collection très élevés",
+          "Coffre et habitabilité anecdotiques"
+        ]
+      },
+      "variants": [
+        {
+          "id": "lexus-lfa-lfa",
+          "name": "LFA V10 4.8",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V10 4.8 atmosphérique",
+            "displacementCc": 4805,
+            "electricMotors": null
+          },
+          "powerHp": 560,
+          "powerKw": 412,
+          "torqueNm": 480,
+          "drivetrain": "rwd",
+          "gearbox": "Séquentielle robotisée 6 rapports",
+          "accel0100s": 3.7,
+          "topSpeedKmh": 325,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1480,
+          "dimensions": {
+            "lengthMm": 4505,
+            "widthMm": 1895,
+            "heightMm": 1220,
+            "wheelbaseMm": 2605
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance 560 PS / 412 kW, vitesse maximale 325 km/h et 0-100 km/h 3,7 s selon Auto Bild ; Lexus UK annonce 552 bhp, 0-62 mph en 3,7 s et 202 mph. Poids : Lexus UK donne 1 480 kg (fourchette 1 480–1 580 kg), Auto Bild 1 580 kg. Dimensions Lexus UK. Prix catalogue allemand de 375 000 € (« Listenpreis 2010 », Auto Bild) non saisi faute de mois de référence.",
+          "sources": [
+            {
+              "label": "Lexus UK Media – GAZOO Racing Lexus LFA",
+              "url": "https://media.lexus.co.uk/?p=59609",
+              "type": "manufacturer",
+              "publishedAt": "2012-06-20",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Auto Bild – Lexus LFA (2010) : V10, PS, Preis",
+              "url": "https://www.autobild.de/artikel/lexus-lfa-2010-v10-ps-preis-zehnzylinder-21515893.html",
+              "type": "press",
+              "publishedAt": "2022-07-02",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lexus-lfa-nurburgring-package",
+          "name": "LFA Nürburgring Package",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V10 4.8 atmosphérique",
+            "displacementCc": 4805,
+            "electricMotors": null
+          },
+          "powerHp": null,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "rwd",
+          "gearbox": "Séquentielle robotisée 6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Aileron arrière fixe et spoiler avant agrandi",
+            "Suspension sport et jantes spécifiques",
+            "Temps de passage des rapports réduit à 0,15 s"
+          ],
+          "prices": [],
+          "notes": "Lexus US annonce 562 hp, soit 10 hp de plus que la LFA standard (valeur américaine, non convertie), et une série limitée à 50 exemplaires sur les 500 LFA. Supplément de 70 000 $ aux États-Unis ; aucun prix européen trouvé.",
+          "sources": [
+            {
+              "label": "Lexus Pressroom (US) – Lexus Introduces 2012 LFA Nürburgring Package",
+              "url": "https://pressroom.lexus.com/?p=54719",
+              "type": "manufacturer",
+              "publishedAt": "2010-05-10",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Toyota Global – Lexus Completes 'LFA' 500-unit Production Run",
+              "url": "https://global.toyota/detail/95770",
+              "type": "manufacturer",
+              "publishedAt": "2012-12-17",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Toyota Global – Lexus Completes 'LFA' 500-unit Production Run",
+          "url": "https://global.toyota/detail/95770",
+          "type": "manufacturer",
+          "publishedAt": "2012-12-17",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Lexus UK Media – GAZOO Racing Lexus LFA",
+          "url": "https://media.lexus.co.uk/?p=59609",
+          "type": "manufacturer",
+          "publishedAt": "2012-06-20",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Auto Bild – Lexus LFA (2010) : V10, PS, Preis",
+          "url": "https://www.autobild.de/artikel/lexus-lfa-2010-v10-ps-preis-zehnzylinder-21515893.html",
+          "type": "press",
+          "publishedAt": "2022-07-02",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "chevrolet-corvette-c8",
+      "modelId": "chevrolet-corvette",
+      "brandId": "chevrolet",
+      "modelName": "Corvette",
+      "name": "C8 (8e génération)",
+      "yearsLabel": "2020 –",
+      "startYear": 2020,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Sportive à moteur central",
+      "bodyStyles": [
+        "Coupé",
+        "Cabriolet"
+      ],
+      "categories": [
+        "sports",
+        "supercar",
+        "coupe",
+        "convertible"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2023 Chevrolet Corvette C8 Stingray LC24.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Chevrolet Corvette C8 Stingray (2023)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Chevrolet Corvette C8 Z06.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Chevrolet Corvette C8 Z06 (2025)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Corvette C8 est la première Corvette de série à moteur central arrière, déclinée en Stingray, en hybride E-Ray à transmission intégrale, en Z06 à V8 5.5 atmosphérique et en ZR1 biturbo de plus de 1 000 ch. En Europe, la Stingray, l'E-Ray et la Z06 sont commercialisées, la ZR1 non.",
+        "positioning": "Sportive emblématique de Chevrolet, au rapport prix/performances très agressif face aux supercars européennes.",
+        "technicalFacts": [
+          "Stingray : V8 6.2 atmosphérique de 354 kW (482 ch) et 613 Nm, boîte à double embrayage 8 rapports (ADAC).",
+          "E-Ray : V8 6.2 et moteur électrique avant de 119 kW (161 ch), 473 kW (644 ch) cumulés, transmission intégrale et batterie de 1,9 kWh non rechargeable sur secteur (ADAC).",
+          "Z06 : V8 5.5 atmosphérique de 475 kW (646 ch) en version européenne (ADAC), régime maximal de 8 600 tr/min (Motor1).",
+          "ZR1 : V8 5.5 biturbo de 1 064 hp SAE, environ 1 085 ch DIN selon l'ADAC ; pas d'exportation prévue vers l'Allemagne (ADAC).",
+          "Commercialisation européenne actuelle à partir de 12/2024 selon l'ADAC."
+        ],
+        "pros": [
+          "Rapport prix/performances remarquable (Stingray à 106 900 € en Allemagne)",
+          "Deux coffres (avant et arrière) pour une sportive à moteur central",
+          "Gamme très étendue, du V8 atmosphérique à l'hybride intégrale"
+        ],
+        "differentiators": [
+          "Seule supercar américaine de grande série à moteur central",
+          "E-Ray : hybride à transmission intégrale sans recharge externe"
+        ],
+        "pricePositioning": "En Allemagne, la gamme va de 106 900 € (Stingray 2LT) à 209 900 € (Z06), l'E-Ray étant affichée 169 900 €.",
+        "innovations": [
+          "Mode électrique « Stealth » de l'E-Ray, limité à 72 km/h (alVolante)"
+        ],
+        "compromises": [
+          "Consommation élevée (16,5 l/100 km WLTP pour la Z06)",
+          "Gabarit large en version carrosserie élargie (plus de 2 m)",
+          "Prix européens nettement supérieurs aux tarifs américains"
+        ]
+      },
+      "variants": [
+        {
+          "id": "chevrolet-corvette-c8-stingray-coupe",
+          "name": "Stingray Coupé 6.2 V8 482 ch 2LT",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 6.2 atmosphérique",
+            "displacementCc": 6162,
+            "electricMotors": null
+          },
+          "powerHp": 482,
+          "powerKw": 354,
+          "torqueNm": 613,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 8 rapports",
+          "accel0100s": 3.5,
+          "topSpeedKmh": 296,
+          "consumption": {
+            "value": 12.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 293,
+          "weightKg": 1730,
+          "dimensions": {
+            "lengthMm": 4634,
+            "widthMm": 1934,
+            "heightMm": 1235,
+            "wheelbaseMm": 2722
+          },
+          "seats": 2,
+          "trunkL": 357,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 106900,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-12",
+              "source": {
+                "label": "ADAC Autokatalog – Corvette Stingray Coupé 6.2 V8 2LT Automatik (ab 12/24)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/chevrolet/corvette/c8/341292/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC (ab 12/24). Autotijd donne le même moteur avec 12,1 l/100 km et 277 g/km WLTP et un poids à vide de 1 655 kg (1 730 kg en ordre de marche) ; valeurs ADAC retenues.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Corvette Stingray Coupé 6.2 V8 2LT Automatik (ab 12/24)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/chevrolet/corvette/c8/341292/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Chevrolet Corvette 6.2L V8, fiche technique",
+              "url": "https://autotijd.be/fr/fiches-techniques/chevrolet/corvette/62l-v8-4590",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "chevrolet-corvette-c8-e-ray-coupe",
+          "name": "E-Ray Coupé 6.2 V8 hybride 644 ch 3LZ",
+          "tier": "sport",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V8 6.2 atmosphérique + moteur électrique avant",
+            "displacementCc": 6162,
+            "electricMotors": 1
+          },
+          "powerHp": 644,
+          "powerKw": 473,
+          "torqueNm": 806,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage 8 rapports",
+          "accel0100s": 2.9,
+          "topSpeedKmh": 296,
+          "consumption": {
+            "value": 12.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 1.9,
+          "charging": null,
+          "co2Gkm": 289,
+          "weightKg": 1907,
+          "dimensions": {
+            "lengthMm": 4734,
+            "widthMm": 2024,
+            "heightMm": 1237,
+            "wheelbaseMm": 2722
+          },
+          "seats": 2,
+          "trunkL": 355,
+          "equipmentHighlights": [
+            "Batterie de 1,9 kWh (brute), non rechargeable sur secteur",
+            "Mode électrique « Stealth »"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 169900,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-12",
+              "source": {
+                "label": "ADAC Autokatalog – Corvette E-Ray Coupé 6.2 V8 3LZ Automatik (ab 12/24)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/chevrolet/corvette/c8/341298/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "IT",
+              "amount": 174900,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-04",
+              "source": {
+                "label": "alVolante – Chevrolet Corvette E-Ray arriva in Italia",
+                "url": "https://www.alvolante.it/news/chevrolet-corvette-e-ray-arriva-in-italia-prezzo-403109",
+                "type": "press",
+                "publishedAt": "2025-04-02",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC (ab 12/24) : 473 kW (644 ch) et 806 Nm cumulés ; moteur électrique 119 kW (161 ch) / 193 Nm. L'ADAC attribue aussi 473 kW au seul V8, ce qui est incohérent avec la puissance cumulée : non repris. alVolante annonce 643 CV, 0-100 km/h en 2,5 s et un moteur électrique de 170 Nm ; valeurs ADAC retenues. Prix italien du coupé selon alVolante (TVA non précisée).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Corvette E-Ray Coupé 6.2 V8 3LZ Automatik (ab 12/24)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/chevrolet/corvette/c8/341298/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "alVolante – Chevrolet Corvette E-Ray arriva in Italia",
+              "url": "https://www.alvolante.it/news/chevrolet-corvette-e-ray-arriva-in-italia-prezzo-403109",
+              "type": "press",
+              "publishedAt": "2025-04-02",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "chevrolet-corvette-c8-z06-coupe",
+          "name": "Z06 Coupé 5.5 V8 646 ch 3LZ",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 5.5 atmosphérique",
+            "displacementCc": 5460,
+            "electricMotors": null
+          },
+          "powerHp": 646,
+          "powerKw": 475,
+          "torqueNm": 623,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 8 rapports",
+          "accel0100s": 2.7,
+          "topSpeedKmh": 304,
+          "consumption": {
+            "value": 16.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 377,
+          "weightKg": 1789,
+          "dimensions": {
+            "lengthMm": 4734,
+            "widthMm": 2025,
+            "heightMm": 1237,
+            "wheelbaseMm": 2722
+          },
+          "seats": 2,
+          "trunkL": 357,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 209900,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-12",
+              "source": {
+                "label": "ADAC Autokatalog – Corvette Z06 Coupé 5.5 V8 3LZ Automatik (ab 12/24)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/chevrolet/corvette/c8/341296/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC (ab 12/24) en version européenne (646 ch). L'ADAC indique aussi 595 Nm pour le moteur seul, sans explication ; 623 Nm retenu, valeur confirmée par Motor1 pour la version américaine de 680 PS.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Corvette Z06 Coupé 5.5 V8 3LZ Automatik (ab 12/24)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/chevrolet/corvette/c8/341296/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Motor1 Allemagne – Chevrolet Corvette Z06 (2022) : présentation",
+              "url": "https://de.motor1.com/news/543348/chevrolet-corvette-z06-2022-vorstellung/",
+              "type": "press",
+              "publishedAt": "2021-10-26",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "chevrolet-corvette-c8-zr1",
+          "name": "ZR1 Coupé 5.5 V8 biturbo",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 5.5 biturbo",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 1085,
+          "powerKw": null,
+          "torqueNm": 1123,
+          "drivetrain": null,
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": 375,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "L'ADAC indique 1 064 hp SAE, « umgerechnet 1085 DIN-PS », 1 123 Nm et 375 km/h ; Auto Bild cite 1 122 Nm et plus de 344 km/h. Le 0-100 km/h en 2,3 s cité par l'ADAC correspond au chiffre officiel 0-60 mph : non retenu. Modèle non exporté en Allemagne selon l'ADAC ; prix américain uniquement, aucun prix européen.",
+          "sources": [
+            {
+              "label": "ADAC – Chevrolet Corvette C8 ZR1 : So fühlen sich über 1000 PS an",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/chevrolet/chevrolet-corvette-c8-zr1/",
+              "type": "press",
+              "publishedAt": "2025-09-25",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Auto Bild – Chevrolet Corvette ZR1 : Mega-Supercar-Statement",
+              "url": "https://www.autobild.de/artikel/chevrolet-corvette-zr1-mega-supercar-statement-26318507.html",
+              "type": "press",
+              "publishedAt": "2024-07-30",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Chevrolet Corvette, générations",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/chevrolet/corvette/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – Corvette Stingray Coupé 6.2 V8 2LT Automatik (ab 12/24)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/chevrolet/corvette/c8/341292/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – Corvette E-Ray Coupé 6.2 V8 3LZ Automatik (ab 12/24)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/chevrolet/corvette/c8/341298/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – Corvette Z06 Coupé 5.5 V8 3LZ Automatik (ab 12/24)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/chevrolet/corvette/c8/341296/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ford-gt-2017",
+      "modelId": "ford-gt",
+      "brandId": "ford",
+      "modelName": "GT",
+      "name": "GT (3e génération)",
+      "yearsLabel": "2017 – 2022",
+      "startYear": 2017,
+      "endYear": 2022,
+      "status": "discontinued",
+      "segment": "Supercar à moteur central",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe",
+        "classic"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "track",
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2017 Ford GT front.JPG",
+          "url": null,
+          "caption": null,
+          "depicts": "Ford GT de 2017, vue avant",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2017 Ford GT rear.JPG",
+          "url": null,
+          "caption": null,
+          "depicts": "Ford GT de 2017, vue arrière",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Ford GT de troisième génération est une supercar à monocoque carbone et V6 3.5 EcoBoost biturbo, construite par Multimatic au Canada. Elle a été produite à 1 350 exemplaires jusqu'en décembre 2022.",
+        "positioning": "Supercar d'exception de Ford, construite en petite série.",
+        "technicalFacts": [
+          "Monocoque en fibre de carbone avec cage acier intégrée et sous-structures aluminium (Ford).",
+          "V6 3.5 EcoBoost biturbo (3 497 cm³) de 647 PS SAE et 745 Nm, valeurs américaines (Ford).",
+          "Boîte à double embrayage Getrag 7DCL750 à 7 rapports, propulsion (Ford).",
+          "Vitesse maximale 347 km/h, 0-100 km/h en moins de 3 secondes (Ford).",
+          "Production confiée à Multimatic ; 1 350 exemplaires prévus jusqu'à décembre 2022 (Motor1)."
+        ],
+        "pros": [
+          "Aérodynamique active issue de la compétition",
+          "Poids contenu (1 385 kg à vide selon Ford)",
+          "Rareté (1 350 exemplaires prévus)"
+        ],
+        "differentiators": [
+          "Suspension pushrod à amortisseurs DSSV réglables en hauteur",
+          "V6 biturbo au lieu du traditionnel V8 des supercars américaines"
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Aérodynamique active et mode de hauteur de caisse abaissée pour la piste"
+        ],
+        "compromises": [
+          "Coffre symbolique (11,3 litres)",
+          "Diffusion très limitée, sur dossier de candidature",
+          "Confort et praticité secondaires"
+        ]
+      },
+      "variants": [
+        {
+          "id": "ford-gt-2017-coupe",
+          "name": "GT 3.5 V6 EcoBoost",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 3.5 EcoBoost biturbo central",
+            "displacementCc": 3497,
+            "electricMotors": null
+          },
+          "powerHp": 647,
+          "powerKw": null,
+          "torqueNm": 745,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports (Getrag 7DCL750)",
+          "accel0100s": null,
+          "topSpeedKmh": 347,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1385,
+          "dimensions": {
+            "lengthMm": 4779,
+            "widthMm": 2003,
+            "heightMm": 1109,
+            "wheelbaseMm": 2710
+          },
+          "seats": 2,
+          "trunkL": 11.3,
+          "equipmentHighlights": [
+            "Freins carbone-céramique Brembo",
+            "Jantes forgées 20 pouces (carbone en option)",
+            "Aérodynamique active"
+          ],
+          "prices": [],
+          "notes": "Fiche Ford 05/2017 : 647 PS (SAE) à 6 250 tr/min et 745 Nm à 5 900 tr/min, « valeurs américaines, valeurs européennes à suivre ». 0-100 km/h annoncé « en moins de 3 secondes » (non chiffré précisément). Poids à vide (leer) 1 385 kg. Largeur de caisse 2 003 mm (2 114 mm hors rétroviseurs selon Ford) ; hauteur en mode normal (1 063 mm en mode sport). Aucun prix européen trouvé.",
+          "sources": [
+            {
+              "label": "Ford – Ford GT, technische Daten (PDF, 05/2017)",
+              "url": "https://cache.pressmailing.net/content/78c15160-ed2a-4a72-a2da-d1bd5a24e88f/gt_technical_specs_DE_3.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2017-05",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Ford – Ford GT, technische Daten (PDF, 05/2017)",
+          "url": "https://cache.pressmailing.net/content/78c15160-ed2a-4a72-a2da-d1bd5a24e88f/gt_technical_specs_DE_3.pdf",
+          "type": "manufacturer",
+          "publishedAt": "2017-05",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Motor1 Allemagne – Ford GT : Produktion endet im Dezember 2022",
+          "url": "https://de.motor1.com/news/567288/ford-gt-produktion-ende-2022/",
+          "type": "press",
+          "publishedAt": "2022-02-14",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "dodge-challenger-srt-hellcat",
+      "modelId": "dodge-challenger",
+      "brandId": "dodge",
+      "modelName": "Challenger",
+      "name": "SRT Hellcat (LC)",
+      "yearsLabel": "2015 – 2023",
+      "startYear": 2015,
+      "endYear": 2023,
+      "status": "discontinued",
+      "segment": "Muscle car",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "sports",
+        "coupe",
+        "classic"
+      ],
+      "priceRange": null,
+      "usage": [
+        "driving-pleasure",
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2015 Dodge Challenger SRT Hellcat (21607516352).jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Dodge Challenger SRT Hellcat de 2015",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2019 Dodge Challenger Hellcat Redeye, Cleveland Auto Show.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Dodge Challenger SRT Hellcat Redeye (2019) au salon de Cleveland",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Dodge Challenger SRT Hellcat est la muscle car à V8 6.2 compressé de la Challenger de troisième génération, déclinée en versions Redeye encore plus puissantes. La production de la Challenger s'est arrêtée le 22 décembre 2023 à l'usine de Brampton, au Canada.",
+        "positioning": "Sommet de la gamme Challenger avant la Demon, symbole de la fin des muscle cars V8 chez Dodge.",
+        "technicalFacts": [
+          "V8 6.2 compressé et boîte automatique 8 rapports, propulsion (carsales).",
+          "Hellcat Jailbreak 2023 : 534,7 kW et 889 Nm ; Hellcat Redeye Widebody : 594 kW et 959 Nm (carsales).",
+          "Dernière Challenger produite le 22 décembre 2023 à Brampton : une SRT Demon 170 (PowerNation)."
+        ],
+        "pros": [
+          "Puissance démesurée pour le prix américain",
+          "Sonorité du V8 compressé",
+          "Habitacle à cinq places et grand gabarit utilisable au quotidien"
+        ],
+        "differentiators": [
+          "Une des dernières muscle cars V8 compressées de grande série"
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Jamais commercialisée officiellement en Europe",
+          "Poids élevé (2 038 kg pour la Redeye Widebody selon carsales)",
+          "Consommation très importante"
+        ]
+      },
+      "variants": [
+        {
+          "id": "dodge-challenger-srt-hellcat-jailbreak",
+          "name": "SRT Hellcat Jailbreak 6.2 V8 compressé (2023)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 6.2 compressé",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": null,
+          "powerKw": 534.7,
+          "torqueNm": 889,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 5018,
+            "widthMm": 1923,
+            "heightMm": 1461,
+            "wheelbaseMm": 2951
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Caractéristiques de carsales.com.au (millésime 2023) : 534,7 kW à 6 000 tr/min, 889 Nm à 4 800 tr/min. Puissance en ch non publiée par la source (valeur américaine : 717 hp). Poids non publié. Modèle non vendu en Europe : aucun prix européen.",
+          "sources": [
+            {
+              "label": "carsales.com.au – Dodge Challenger SRT Hellcat Jailbreak (2023), caractéristiques",
+              "url": "https://www.carsales.com.au/research/dodge/challenger/2023/srt-hellcat-jailbreak/d09ff40a-6f84-4f5d-b10f-f4f684de3b3b/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "dodge-challenger-srt-hellcat-redeye-widebody",
+          "name": "SRT Hellcat Redeye Widebody 6.2 V8 compressé (2023)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 6.2 compressé",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": null,
+          "powerKw": 594,
+          "torqueNm": 959,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 2038,
+          "dimensions": {
+            "lengthMm": 5018,
+            "widthMm": 1990,
+            "heightMm": 1461,
+            "wheelbaseMm": 2951
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Carrosserie élargie Widebody"
+          ],
+          "prices": [],
+          "notes": "Caractéristiques de carsales.com.au (millésime 2023) : 594 kW à 6 300 tr/min, 959 Nm à 4 500 tr/min, poids à vide 2 038 kg. Puissance en ch non publiée par la source (valeur américaine : 797 hp). Modèle non vendu en Europe : aucun prix européen.",
+          "sources": [
+            {
+              "label": "carsales.com.au – Dodge Challenger SRT Hellcat Redeye Widebody (2023), caractéristiques",
+              "url": "https://www.carsales.com.au/research/dodge/challenger/2023/srt-hellcat-redeye-widebody/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "carsales.com.au – Dodge Challenger SRT Hellcat Jailbreak (2023), caractéristiques",
+          "url": "https://www.carsales.com.au/research/dodge/challenger/2023/srt-hellcat-jailbreak/d09ff40a-6f84-4f5d-b10f-f4f684de3b3b/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "carsales.com.au – Dodge Challenger SRT Hellcat Redeye Widebody (2023), caractéristiques",
+          "url": "https://www.carsales.com.au/research/dodge/challenger/2023/srt-hellcat-redeye-widebody/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "PowerNation – The Final V8 Dodge Challenger Has Left The Factory",
+          "url": "https://www.powernationtv.com/post/final-dodge-challenger-left-the-factory",
+          "type": "press",
+          "publishedAt": "2023-12-28",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "subaru-wrx-sti-va",
+      "modelId": "subaru-wrx-sti",
+      "brandId": "subaru",
+      "modelName": "WRX STI",
+      "name": "VA",
+      "yearsLabel": "2014 – 2017",
+      "startYear": 2014,
+      "endYear": 2017,
+      "status": "discontinued",
+      "segment": "Berline sportive compacte",
+      "bodyStyles": [
+        "Berline 4 portes"
+      ],
+      "categories": [
+        "sport-sedan",
+        "sports",
+        "classic"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "driving-pleasure",
+        "daily",
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2015 Subaru WRX STi Type UK Symetrica 2.5 Front.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Subaru WRX STI VA de 2015 (spécification britannique), vue avant",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2015 Subaru WRX STi Type UK Symetrica 2.5 Rear.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Subaru WRX STI VA de 2015 (spécification britannique), vue arrière",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Subaru WRX STI de génération VA est la dernière STI vendue en Europe, avec son quatre-cylindres boxer 2.5 turbo de 300 ch, sa boîte manuelle 6 rapports et sa transmission intégrale. Elle a été commercialisée en Allemagne de 06/2014 à 08/2017.",
+        "positioning": "Berline sportive héritière des Impreza de rallye, dernière STI européenne.",
+        "technicalFacts": [
+          "Boxer 4 cylindres 2.5 turbo (2 457 cm³) de 221 kW (300 ch) et 407 Nm (ADAC).",
+          "Boîte manuelle 6 rapports et transmission intégrale (ADAC).",
+          "0-100 km/h en 5,2 s et 255 km/h (ADAC).",
+          "Coffre de 460 litres et cinq places (ADAC)."
+        ],
+        "pros": [
+          "Motricité de la transmission intégrale",
+          "Boîte manuelle et caractère mécanique affirmé",
+          "Berline cinq places pratique au quotidien"
+        ],
+        "differentiators": [
+          "Moteur boxer turbo, signature de Subaru"
+        ],
+        "pricePositioning": "Affichée 41 550 € en Allemagne en finition Active (2014), au niveau des compactes sportives de 300 ch.",
+        "innovations": [],
+        "compromises": [
+          "Consommation élevée (10,4 l/100 km NEDC)",
+          "Conception plus ancienne que ses concurrentes",
+          "Pas de boîte automatique proposée"
+        ]
+      },
+      "variants": [
+        {
+          "id": "subaru-wrx-sti-va-2-5-active",
+          "name": "2.5 Turbo 300 ch BVM6 (Active)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres boxer 2.5 turbo",
+            "displacementCc": 2457,
+            "electricMotors": null
+          },
+          "powerHp": 300,
+          "powerKw": 221,
+          "torqueNm": 407,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 5.2,
+          "topSpeedKmh": 255,
+          "consumption": {
+            "value": 10.4,
+            "unit": "l/100km",
+            "cycle": "NEDC"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 242,
+          "weightKg": 1575,
+          "dimensions": {
+            "lengthMm": 4595,
+            "widthMm": 1795,
+            "heightMm": 1475,
+            "wheelbaseMm": 2650
+          },
+          "seats": 5,
+          "trunkL": 460,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 41550,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2014-06",
+              "source": {
+                "label": "ADAC Autokatalog – Subaru Impreza WRX STi 2.5 Active (06/14 - 08/17)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/subaru/impreza/iv/240699",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC (finition Active, 06/14 - 08/17) ; consommation et CO2 en cycle NEDC. Poids à vide norme EU.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Subaru Impreza WRX STi 2.5 Active (06/14 - 08/17)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/subaru/impreza/iv/240699",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Subaru Impreza WRX STi 2.5 Active (06/14 - 08/17)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/subaru/impreza/iv/240699",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mitsubishi-lancer-evolution-x",
+      "modelId": "mitsubishi-lancer-evolution",
+      "brandId": "mitsubishi",
+      "modelName": "Lancer Evolution",
+      "name": "Evolution X (CZ4A)",
+      "yearsLabel": "2008 – 2015",
+      "startYear": 2008,
+      "endYear": 2015,
+      "status": "discontinued",
+      "segment": "Berline sportive compacte",
+      "bodyStyles": [
+        "Berline 4 portes"
+      ],
+      "categories": [
+        "sport-sedan",
+        "sports",
+        "classic"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "driving-pleasure",
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mitsubishi Lancer Evolution X 01.JPG",
+          "url": null,
+          "caption": null,
+          "depicts": "Mitsubishi Lancer Evolution X",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mitsubishi LANCER GSR EVOLUTION X (CBA-CZ4A) front.JPG",
+          "url": null,
+          "caption": null,
+          "depicts": "Mitsubishi Lancer GSR Evolution X (CZ4A), spécification japonaise",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Lancer Evolution X est la dixième et dernière génération de la berline sportive de Mitsubishi, avec un quatre-cylindres 2.0 turbo de 295 ch et la transmission intégrale S-AWC. Arrivée en Allemagne à l'été 2008, elle a tiré sa révérence avec la Final Edition de 2015.",
+        "positioning": "Berline sportive issue du rallye, rivale historique de la Subaru Impreza WRX STI.",
+        "technicalFacts": [
+          "Nouveau quatre-cylindres 2.0 turbo tout aluminium de 295 ch (Auto Bild).",
+          "Transmission intégrale à gestion électronique S-AWC et boîte à double embrayage SST 6 rapports à son lancement européen (Auto Bild).",
+          "Version européenne : 217 kW (295 ch), 366 Nm, 242 km/h (angurten.de).",
+          "FQ-400 réservée au Royaume-Uni en 2009, environ 409 PS et 525 Nm (Motor1).",
+          "La Final Edition 2015 (1 600 exemplaires numérotés aux États-Unis) clôt la lignée : Mitsubishi annonce que la dixième génération sera la dernière (Consumer Guide)."
+        ],
+        "pros": [
+          "Transmission intégrale S-AWC très efficace",
+          "Moteur turbo réputé pour son potentiel",
+          "Berline quatre portes utilisable au quotidien"
+        ],
+        "differentiators": [
+          "Dernière Lancer Evolution, icône issue du championnat du monde des rallyes"
+        ],
+        "pricePositioning": "Affichée de 41 990 € à 49 950 € (MR) en Allemagne selon angurten.de (relevé de prix à partir de juin 2012).",
+        "innovations": [
+          "Contrôle de dynamique S-AWC (Super All Wheel Control)"
+        ],
+        "compromises": [
+          "Consommation élevée (10,4 à 10,5 l/100 km NEDC)",
+          "Finition intérieure jugée datée",
+          "Pas de successeur"
+        ]
+      },
+      "variants": [
+        {
+          "id": "mitsubishi-lancer-evolution-x-2-0-turbo-bvm5",
+          "name": "2.0 Turbo 295 ch BVM5",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2.0 turbo",
+            "displacementCc": 1998,
+            "electricMotors": null
+          },
+          "powerHp": 295,
+          "powerKw": 217,
+          "torqueNm": 366,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": 5.6,
+          "topSpeedKmh": 242,
+          "consumption": {
+            "value": 10.5,
+            "unit": "l/100km",
+            "cycle": "NEDC"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 243,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4505,
+            "widthMm": 1810,
+            "heightMm": 1480,
+            "wheelbaseMm": 2650
+          },
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Transmission intégrale S-AWC"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 41990,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2012-06",
+              "source": {
+                "label": "angurten.de – Mitsubishi Lancer Evolution, moteurs et prix",
+                "url": "https://www.angurten.de/is/motoren/1086-Lancer+Evolution/10480",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données angurten.de (relevé de prix à partir du 12/06/2012) ; consommation et CO2 en cycle NEDC. Poids à vide non publié par le constructeur selon angurten.de. Dimensions angurten.de (largeur hors rétroviseurs).",
+          "sources": [
+            {
+              "label": "angurten.de – Mitsubishi Lancer Evolution, moteurs et prix",
+              "url": "https://www.angurten.de/is/motoren/1086-Lancer+Evolution/10480",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "angurten.de – Mitsubishi Lancer Evolution, dimensions",
+              "url": "https://www.angurten.de/is/abmessungen/1086-Lancer+Evolution",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Auto Bild – Mitsubishi Lancer Evolution (2008)",
+              "url": "https://www.autobild.de/artikel/mitsubishi-lancer-evolution-2008--445573.html",
+              "type": "press",
+              "publishedAt": "2007-11-05",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mitsubishi-lancer-evolution-x-mr-tc-sst",
+          "name": "MR 2.0 Turbo 295 ch TC-SST",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2.0 turbo",
+            "displacementCc": 1998,
+            "electricMotors": null
+          },
+          "powerHp": 295,
+          "powerKw": 217,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage 6 rapports (TC-SST)",
+          "accel0100s": null,
+          "topSpeedKmh": 242,
+          "consumption": {
+            "value": 10.4,
+            "unit": "l/100km",
+            "cycle": "NEDC"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 240,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4505,
+            "widthMm": 1810,
+            "heightMm": 1480,
+            "wheelbaseMm": 2650
+          },
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Boîte à double embrayage SST 6 rapports",
+            "Transmission intégrale S-AWC"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 49950,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2012-06",
+              "source": {
+                "label": "angurten.de – Mitsubishi Lancer Evolution, moteurs et prix",
+                "url": "https://www.angurten.de/is/motoren/1086-Lancer+Evolution/10480",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données angurten.de (finition MR) : puissance, vitesse maximale, consommation et CO2 (NEDC) ; couple et accélération non détaillés pour cette variante. Boîte à double embrayage 6 rapports selon Auto Bild et angurten.de.",
+          "sources": [
+            {
+              "label": "angurten.de – Mitsubishi Lancer Evolution, moteurs et prix",
+              "url": "https://www.angurten.de/is/motoren/1086-Lancer+Evolution/10480",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Auto Bild – Mitsubishi Lancer Evolution (2008)",
+              "url": "https://www.autobild.de/artikel/mitsubishi-lancer-evolution-2008--445573.html",
+              "type": "press",
+              "publishedAt": "2007-11-05",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mitsubishi-lancer-evolution-x-fq-400",
+          "name": "FQ-400 (Royaume-Uni)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2.0 turbo",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": null,
+          "powerKw": null,
+          "torqueNm": 525,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 3.8,
+          "topSpeedKmh": 250,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Série réservée au marché britannique"
+          ],
+          "prices": [
+            {
+              "market": "GB",
+              "amount": 49999,
+              "currency": "GBP",
+              "type": "variant",
+              "asOf": "2009-05",
+              "source": {
+                "label": "Motor1 Allemagne – Mitsubishi Lancer Evolution FQ-400 : schneller als 911 und R8",
+                "url": "https://de.motor1.com/news/163813/mitsubishi-lancer-evolution-fq-400-schneller-als-911-und-r8/",
+                "type": "press",
+                "publishedAt": "2009-05-27",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Motor1 : « rund 409 PS » (valeur approchée, non retenue), 525 Nm, 0-100 km/h en 3,8 s, vitesse limitée électroniquement à 250 km/h ; commercialisation au Royaume-Uni uniquement à partir de juin 2009, pas d'introduction en Allemagne. La puissance britannique officielle est exprimée en bhp (403 bhp).",
+          "sources": [
+            {
+              "label": "Motor1 Allemagne – Mitsubishi Lancer Evolution FQ-400 : schneller als 911 und R8",
+              "url": "https://de.motor1.com/news/163813/mitsubishi-lancer-evolution-fq-400-schneller-als-911-und-r8/",
+              "type": "press",
+              "publishedAt": "2009-05-27",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Auto Bild – Mitsubishi Lancer Evolution (2008)",
+          "url": "https://www.autobild.de/artikel/mitsubishi-lancer-evolution-2008--445573.html",
+          "type": "press",
+          "publishedAt": "2007-11-05",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "angurten.de – Mitsubishi Lancer Evolution, moteurs et prix",
+          "url": "https://www.angurten.de/is/motoren/1086-Lancer+Evolution/10480",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Motor1 Allemagne – Mitsubishi Lancer Evolution FQ-400 : schneller als 911 und R8",
+          "url": "https://de.motor1.com/news/163813/mitsubishi-lancer-evolution-fq-400-schneller-als-911-und-r8/",
+          "type": "press",
+          "publishedAt": "2009-05-27",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Consumer Guide – Evolved to extinction: Mitsubishi rolls out Final Edition Evo",
+          "url": "https://blog.consumerguide.com/evolved-to-extinction-mitsubishi-rolls-out-final-edition-evo/",
+          "type": "press",
+          "publishedAt": "2015-10-06",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "hyundai-i30-n-pd-facelift",
+      "modelId": "hyundai-i30-n",
+      "brandId": "hyundai",
+      "modelName": "i30 N",
+      "name": "i30 N (PD, restylée)",
+      "yearsLabel": "2021 – 2024",
+      "startYear": 2021,
+      "endYear": 2024,
+      "status": "discontinued",
+      "segment": "Compacte sportive (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "sports",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "driving-pleasure",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2018 Hyundai i30 N Performance T-GDi 2.0.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Hyundai i30 N Performance (2018, avant restylage)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Hyundai i30 Fastback N FL Leonberg 2022 1X7A0523.jpg",
+          "url": null,
+          "caption": null,
+          "depicts": "Hyundai i30 Fastback N restylée (2022), carrosserie fastback",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Hyundai i30 N restylée est la compacte sportive de la division N, avec un quatre-cylindres 2.0 turbo de 280 ch et une boîte manuelle 6 rapports ou à double embrayage 8 rapports. Elle a été vendue en Allemagne de 05/2021 à 12/2024.",
+        "positioning": "Première compacte sportive de la division N de Hyundai, rivale des Volkswagen Golf GTI et Honda Civic Type R.",
+        "technicalFacts": [
+          "Quatre-cylindres 2.0 turbo (1 998 cm³) de 206 kW (280 ch) et 392 Nm, traction (ADAC).",
+          "Boîte manuelle 6 rapports ou double embrayage 8 rapports (ADAC).",
+          "0-100 km/h en 5,9 s (manuelle) ou 5,4 s (DCT), 250 km/h (ADAC).",
+          "Coffre de 395 litres et cinq places (ADAC)."
+        ],
+        "pros": [
+          "Châssis efficace et ludique",
+          "Boîte manuelle toujours proposée",
+          "Habitabilité et coffre d'une compacte familiale"
+        ],
+        "differentiators": [
+          "Première compacte sportive de la division N, développée en partie au Nürburgring"
+        ],
+        "pricePositioning": "Affichée 38 100 € en Allemagne en boîte manuelle (40 050 € en DCT), sous la plupart des compactes sportives allemandes de puissance comparable.",
+        "innovations": [],
+        "compromises": [
+          "Consommation élevée (8,0 à 8,4 l/100 km WLTP)",
+          "Retirée du marché européen fin 2024 sans successeur thermique direct",
+          "Suspension ferme au quotidien"
+        ]
+      },
+      "variants": [
+        {
+          "id": "hyundai-i30-n-pd-facelift-performance-bvm6",
+          "name": "N Performance 2.0 T-GDi 280 ch BVM6",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2.0 turbo",
+            "displacementCc": 1998,
+            "electricMotors": null
+          },
+          "powerHp": 280,
+          "powerKw": 206,
+          "torqueNm": 392,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 5.9,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 8.0,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 182,
+          "weightKg": 1494,
+          "dimensions": {
+            "lengthMm": 4340,
+            "widthMm": 1795,
+            "heightMm": 1445,
+            "wheelbaseMm": 2650
+          },
+          "seats": 5,
+          "trunkL": 395,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 38100,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2021-05",
+              "source": {
+                "label": "ADAC Autokatalog – Hyundai i30 N Performance (05/21 - 12/24)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/3generation-facelift-2/320848",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC (05/21 - 12/24). Poids à vide norme EU. Largeur hors rétroviseurs (2 050 mm avec rétroviseurs).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Hyundai i30 N Performance (05/21 - 12/24)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/3generation-facelift-2/320848",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "hyundai-i30-n-pd-facelift-performance-dct",
+          "name": "N Performance 2.0 T-GDi 280 ch DCT8",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2.0 turbo",
+            "displacementCc": 1998,
+            "electricMotors": null
+          },
+          "powerHp": 280,
+          "powerKw": 206,
+          "torqueNm": 392,
+          "drivetrain": "fwd",
+          "gearbox": "Double embrayage 8 rapports",
+          "accel0100s": 5.4,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 8.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 191,
+          "weightKg": 1530,
+          "dimensions": {
+            "lengthMm": 4340,
+            "widthMm": 1795,
+            "heightMm": 1445,
+            "wheelbaseMm": 2650
+          },
+          "seats": 5,
+          "trunkL": 395,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 40050,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2021-05",
+              "source": {
+                "label": "ADAC Autokatalog – Hyundai i30 N Performance DCT (05/21 - 12/24)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/3generation-facelift-2/320851/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC (05/21 - 12/24). Poids à vide norme EU.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Hyundai i30 N Performance DCT (05/21 - 12/24)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/3generation-facelift-2/320851/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Hyundai i30 N Performance (05/21 - 12/24)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/3generation-facelift-2/320848",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – Hyundai i30 N Performance DCT (05/21 - 12/24)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/hyundai/i30/3generation-facelift-2/320851/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}
