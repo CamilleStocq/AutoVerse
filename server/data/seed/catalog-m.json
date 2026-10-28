@@ -1,0 +1,4244 @@
+{
+  "generations": [
+    {
+      "id": "volkswagen-t-roc-2",
+      "modelId": "volkswagen-t-roc",
+      "brandId": "volkswagen",
+      "modelName": "T-Roc",
+      "name": "Volkswagen T-Roc II (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Volkswagen T-Roc II DSC 3760.jpg",
+          "caption": null,
+          "depicts": "Volkswagen T-Roc II (2025)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Volkswagen T-Roc II Auto Zuerich 2025 DSC 3265.jpg",
+          "caption": null,
+          "depicts": "Volkswagen T-Roc II (2025)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le T-Roc de deuxième génération grandit de 12 cm et passe à l'hybridation pour toutes ses motorisations. Il reste le SUV compact d'accès de Volkswagen, sous le Tiguan.",
+        "positioning": "SUV compact de Volkswagen, positionné entre le T-Cross/Taigo et le Tiguan.",
+        "technicalFacts": [
+          "Longueur de 4 373 mm, soit 12 cm de plus que la génération précédente (Volkswagen Belgique).",
+          "Moteur 1.5 eTSI micro-hybride 48 V de série au lancement, boîte DSG automatique de série.",
+          "Gamme complétée par deux hybrides complets 1.5 de 136 et 170 ch (traction) et un 2.0 eTSI 4MOTION de 204 ch (Volkswagen Newsroom).",
+          "Coffre de 475 litres avec le 1.5 eTSI (Volkswagen Belgique)."
+        ],
+        "pros": [
+          "Habitabilité arrière en progrès grâce à l'allongement de la carrosserie.",
+          "Gamme entièrement électrifiée, sans diesel.",
+          "Boîte automatique de série sur toutes les versions."
+        ],
+        "differentiators": [
+          "Premier T-Roc proposé en hybride complet (non rechargeable).",
+          "Logos VW illuminés à l'avant et à l'arrière et bandeau lumineux traversant."
+        ],
+        "pricePositioning": "Prix d'appel belge de 30 570 € annoncé par Volkswagen Belgique, au niveau des SUV compacts généralistes.",
+        "innovations": [
+          "Système micro-hybride 48 V généralisé."
+        ],
+        "compromises": [
+          "Plus de boîte manuelle ni de diesel.",
+          "Coffre nettement réduit sur l'hybride complet (340 litres selon Volkswagen Belgique).",
+          "La version 4MOTION est la plus gourmande de la gamme (7,2 à 7,5 l/100 km WLTP)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "volkswagen-t-roc-2-1-5-etsi-116",
+          "name": "1.5 eTSI 116 ch DSG",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres 1.5 TSI micro-hybride 48 V",
+            "displacementCc": 1498
+          },
+          "powerHp": 116,
+          "powerKw": 85,
+          "torqueNm": 220,
+          "drivetrain": "fwd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 10.6,
+          "topSpeedKmh": 196,
+          "consumption": {
+            "value": 5.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 125,
+          "weightKg": 1457,
+          "dimensions": {
+            "lengthMm": 4373,
+            "widthMm": 1828,
+            "heightMm": 1573,
+            "wheelbaseMm": 2629
+          },
+          "seats": 5,
+          "trunkL": 475,
+          "equipmentHighlights": [
+            "Système micro-hybride 48 V",
+            "Boîte DSG de série"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 30570,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-10",
+              "source": {
+                "label": "Volkswagen Belgique — T-Roc (page modèle)",
+                "url": "https://www.volkswagen.be/fr/modeles/t-roc.html",
+                "type": "manufacturer",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance thermique 85 kW et couple 220 Nm (Volkswagen Belgique) ; 116 ch et 7 rapports selon la fiche Autotijd. Consommation WLTP 5,5–6,0 l/100 km et CO2 125–136 g/km selon la finition : valeurs les plus favorables retenues. Poids = tare la plus faible publiée (Trend). Prix : « à partir de 30 570 € TVA incluse » pour le nouveau T-Roc selon Volkswagen Belgique, sans précision de version ; rattaché à la version d'entrée de gamme.",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques T-Roc",
+              "url": "https://www.volkswagen.be/fr/modeles/t-roc.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Volkswagen Belgique — T-Roc (page modèle)",
+              "url": "https://www.volkswagen.be/fr/modeles/t-roc.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — fiche technique T-Roc 1.5 eTSI 116 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/volkswagen/t-roc/15-etsi-85-kw-5443",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-t-roc-2-1-5-hybrid-170",
+          "name": "1.5 Hybrid 170 ch",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres 1.5 TSI + moteur électrique (hybride complet)",
+            "displacementCc": 1498
+          },
+          "powerHp": 170,
+          "powerKw": 125,
+          "torqueNm": 310,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 8.5,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 115,
+          "weightKg": 1589,
+          "dimensions": {
+            "lengthMm": 4373,
+            "widthMm": 1828,
+            "heightMm": 1573,
+            "wheelbaseMm": 2629
+          },
+          "seats": 5,
+          "trunkL": 340,
+          "equipmentHighlights": [
+            "Hybride complet non rechargeable"
+          ],
+          "prices": [],
+          "notes": "Puissance système 125 kW (170 ch), traction avant et boîte automatique selon le Volkswagen Newsroom ; couple système 310 Nm, performances, consommation (5,0–5,6 l/100 km), CO2 (115–127 g/km), tare et coffre selon Volkswagen Belgique. Valeurs WLTP les plus favorables retenues. Prix non trouvé.",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques T-Roc",
+              "url": "https://www.volkswagen.be/fr/modeles/t-roc.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Volkswagen Newsroom — The new T-Roc, drive systems",
+              "url": "https://www.volkswagen-newsroom.com/en/the-new-t-roc-international-media-drive-19983/drive-systems-19984",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-t-roc-2-2-0-etsi-4motion-204",
+          "name": "2.0 eTSI 4MOTION 204 ch",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres 2.0 TSI micro-hybride 48 V",
+            "displacementCc": 1984
+          },
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 320,
+          "drivetrain": "awd",
+          "gearbox": "Automatique",
+          "accel0100s": 6.8,
+          "topSpeedKmh": 226,
+          "consumption": {
+            "value": 7.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 165,
+          "weightKg": 1621,
+          "dimensions": {
+            "lengthMm": 4373,
+            "widthMm": 1828,
+            "heightMm": 1572,
+            "wheelbaseMm": 2631
+          },
+          "seats": 5,
+          "trunkL": 423,
+          "equipmentHighlights": [
+            "Transmission intégrale 4MOTION",
+            "Finition R-Line"
+          ],
+          "prices": [],
+          "notes": "150 kW (204 ch), 320 Nm, exclusivement en 4MOTION selon le Volkswagen Newsroom. Performances, consommation (7,2–7,5 l/100 km), CO2 (165–171 g/km), tare et coffre selon Volkswagen Belgique ; valeurs les plus favorables retenues. Proposé en finition R-Line en Belgique. Prix non trouvé.",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques T-Roc",
+              "url": "https://www.volkswagen.be/fr/modeles/t-roc.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Volkswagen Newsroom — The new T-Roc, drive systems",
+              "url": "https://www.volkswagen-newsroom.com/en/the-new-t-roc-international-media-drive-19983/drive-systems-19984",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Volkswagen Belgique — T-Roc (page modèle)",
+          "url": "https://www.volkswagen.be/fr/modeles/t-roc.html",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Volkswagen Belgique — caractéristiques techniques T-Roc",
+          "url": "https://www.volkswagen.be/fr/modeles/t-roc.html/__ui/technical-data.app",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Volkswagen Newsroom — The new T-Roc, drive systems",
+          "url": "https://www.volkswagen-newsroom.com/en/the-new-t-roc-international-media-drive-19983/drive-systems-19984",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "volkswagen-tiguan-3",
+      "modelId": "volkswagen-tiguan",
+      "brandId": "volkswagen",
+      "modelName": "Tiguan",
+      "name": "Volkswagen Tiguan III (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV familial compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "daily",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Volkswagen Tiguan III IMG 8388.jpg",
+          "caption": null,
+          "depicts": "Volkswagen Tiguan III (2024)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Volkswagen Tiguan III IAA 2023 1X7A0489.jpg",
+          "caption": null,
+          "depicts": "Volkswagen Tiguan III (2024)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Troisième génération du SUV le plus vendu de Volkswagen, sur plateforme MQB evo. Le Tiguan propose essence micro-hybride, diesel et hybride rechargeable.",
+        "positioning": "SUV familial 5 places de Volkswagen, sous le Tayron 7 places.",
+        "technicalFacts": [
+          "Longueur de 4 539 mm et empattement de 2 677 à 2 680 mm selon la version (Volkswagen Belgique).",
+          "Coffre de 652 litres (490 litres en hybride rechargeable).",
+          "Motorisations 1.5 eTSI, 2.0 eTSI, 2.0 TDI et 1.5 eHybrid de 204 ou 272 ch (Volkswagen Belgique).",
+          "Batterie de 19,6 kWh nets sur l'eHybrid, recharge DC jusqu'à 40 kW."
+        ],
+        "pros": [
+          "Gamme de motorisations très large, diesel compris.",
+          "Hybride rechargeable avec plus de 100 km d'autonomie électrique WLTP.",
+          "Grand coffre pour la catégorie en versions thermiques."
+        ],
+        "differentiators": [
+          "Recharge rapide en courant continu sur l'hybride rechargeable, rare dans le segment."
+        ],
+        "pricePositioning": "Positionné au cœur du marché des SUV compacts familiaux ; les versions hybrides rechargeables et 4MOTION dépassent nettement 55 000 € en Belgique.",
+        "innovations": [],
+        "compromises": [
+          "Coffre réduit de 162 litres sur l'eHybrid.",
+          "Prix belges élevés pour les versions les plus puissantes.",
+          "Les 2.0 eTSI 4MOTION consomment plus de 7,4 l/100 km WLTP."
+        ]
+      },
+      "variants": [
+        {
+          "id": "volkswagen-tiguan-3-1-5-etsi-130",
+          "name": "1.5 eTSI 130 ch DSG",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres 1.5 TSI micro-hybride 48 V",
+            "displacementCc": 1498
+          },
+          "powerHp": 130,
+          "powerKw": 96,
+          "torqueNm": 220,
+          "drivetrain": "fwd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 10.2,
+          "topSpeedKmh": 199,
+          "consumption": {
+            "value": 5.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 133,
+          "weightKg": 1598,
+          "dimensions": {
+            "lengthMm": 4539,
+            "widthMm": 1842,
+            "heightMm": 1658,
+            "wheelbaseMm": 2677
+          },
+          "seats": 5,
+          "trunkL": 652,
+          "equipmentHighlights": [
+            "Système micro-hybride 48 V"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 38790,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be — prix belges Volkswagen Tiguan (novembre 2024)",
+                "url": "https://autotijd.be/fr/prix/volkswagen/tiguan",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "96 kW (Volkswagen Belgique), 130 ch (Volkswagen Belgique, FAQ). Traction avant selon Autotijd. Consommation WLTP 5,8–6,5 l/100 km et CO2 133–148 g/km selon la finition : valeurs les plus favorables retenues. Poids = tare Life/Trend. Prix : version de base de la liste belge de novembre 2024 relevée par Autotijd ; la gamme a pu évoluer depuis.",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques Tiguan",
+              "url": "https://www.volkswagen.be/fr/modeles/tiguan.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Volkswagen Belgique — Tiguan (page modèle)",
+              "url": "https://www.volkswagen.be/fr/modeles/tiguan.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — fiche technique Tiguan 1.5 eTSI 130 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/volkswagen/tiguan/15l-etsi-130-hp-4079",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Volkswagen Tiguan (novembre 2024)",
+              "url": "https://autotijd.be/fr/prix/volkswagen/tiguan",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-tiguan-3-2-0-tdi-4motion-193",
+          "name": "2.0 TDI 4MOTION 193 ch",
+          "tier": "mid",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "4 cylindres 2.0 TDI",
+            "displacementCc": 1968
+          },
+          "powerHp": 193,
+          "powerKw": 142,
+          "torqueNm": 400,
+          "drivetrain": "awd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 7.6,
+          "topSpeedKmh": 222,
+          "consumption": {
+            "value": 6.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 167,
+          "weightKg": 1771,
+          "dimensions": {
+            "lengthMm": 4539,
+            "widthMm": 1859,
+            "heightMm": 1656,
+            "wheelbaseMm": 2680
+          },
+          "seats": 5,
+          "trunkL": 652,
+          "equipmentHighlights": [
+            "Transmission intégrale 4MOTION"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 59290,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be — prix belges Volkswagen Tiguan (novembre 2024)",
+                "url": "https://autotijd.be/fr/prix/volkswagen/tiguan",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "142 kW (Volkswagen Belgique), 193 ch (Volkswagen Belgique, FAQ). Consommation WLTP 6,3–6,7 l/100 km et CO2 167–175 g/km : valeurs les plus favorables retenues. Prix : finition R-Line, liste belge de novembre 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques Tiguan",
+              "url": "https://www.volkswagen.be/fr/modeles/tiguan.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Volkswagen Belgique — Tiguan (page modèle)",
+              "url": "https://www.volkswagen.be/fr/modeles/tiguan.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — fiche technique Tiguan 2.0 TDI 4Motion 193 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/volkswagen/tiguan/20l-tdi-4motion-193-hp-awd-4082",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Volkswagen Tiguan (novembre 2024)",
+              "url": "https://autotijd.be/fr/prix/volkswagen/tiguan",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-tiguan-3-ehybrid-272",
+          "name": "1.5 eHybrid 272 ch",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres 1.5 TSI + moteur électrique (hybride rechargeable)",
+            "displacementCc": 1498
+          },
+          "powerHp": 272,
+          "powerKw": 200,
+          "torqueNm": 400,
+          "drivetrain": null,
+          "gearbox": "DSG à double embrayage, 6 rapports",
+          "accel0100s": 7.1,
+          "topSpeedKmh": 215,
+          "consumption": {
+            "value": 1.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 117,
+          "batteryKwh": 19.6,
+          "charging": {
+            "dcMaxKw": 40,
+            "dc10to80Min": 26
+          },
+          "co2Gkm": 37,
+          "weightKg": 1909,
+          "dimensions": {
+            "lengthMm": 4539,
+            "widthMm": 1859,
+            "heightMm": 1658,
+            "wheelbaseMm": 2679
+          },
+          "seats": 5,
+          "trunkL": 490,
+          "equipmentHighlights": [
+            "Batterie de 19,6 kWh nets",
+            "Recharge AC 11 kW (0–100 % en 2 h 30) et DC 40 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 59470,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be — prix belges Volkswagen Tiguan (novembre 2024)",
+                "url": "https://autotijd.be/fr/prix/volkswagen/tiguan",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance combinée 200 kW / 272 ch (Autotijd ; 272 ch confirmé par Volkswagen Belgique). Couple système 400 Nm, performances, batterie et recharge selon Volkswagen Belgique. Autonomie électrique WLTP 108–117 km, consommation pondérée 1,6–1,8 l/100 km et CO2 37–42 g/km : valeurs les plus favorables retenues. Transmission : Autotijd indique la traction avant, la FAQ de Volkswagen Belgique cite le 4MOTION pour l'eHybrid 272 ch ; champ laissé vide. Prix : finition Elegance, liste belge de novembre 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques Tiguan",
+              "url": "https://www.volkswagen.be/fr/modeles/tiguan.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Volkswagen Belgique — Tiguan (page modèle)",
+              "url": "https://www.volkswagen.be/fr/modeles/tiguan.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — fiche technique Tiguan 1.5 TSI eHybrid 272 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/volkswagen/tiguan/15l-tsi-ehybrid-272-hp-4152",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Volkswagen Tiguan (novembre 2024)",
+              "url": "https://autotijd.be/fr/prix/volkswagen/tiguan",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Volkswagen Belgique — Tiguan (page modèle)",
+          "url": "https://www.volkswagen.be/fr/modeles/tiguan.html",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Volkswagen Belgique — caractéristiques techniques Tiguan",
+          "url": "https://www.volkswagen.be/fr/modeles/tiguan.html/__ui/technical-data.app",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — prix belges Volkswagen Tiguan (novembre 2024)",
+          "url": "https://autotijd.be/fr/prix/volkswagen/tiguan",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "volkswagen-polo-6",
+      "modelId": "volkswagen-polo",
+      "brandId": "volkswagen",
+      "modelName": "Polo",
+      "name": "Volkswagen Polo VI (restylée 2021)",
+      "yearsLabel": "2017 – (restylée 2021)",
+      "startYear": 2017,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine polyvalente (segment B)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:VW Polo MOVE (VI, Facelift) – f 18042025.jpg",
+          "caption": null,
+          "depicts": "Volkswagen Polo VI restylée",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:VW Polo MOVE (VI, Facelift) – h 18042025.jpg",
+          "caption": null,
+          "depicts": "Volkswagen Polo VI restylée",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Polo de sixième génération, restylée en 2021, reste la citadine thermique de Volkswagen. Elle est proposée avec des 3 cylindres 1.0 essence en Belgique.",
+        "positioning": "Citadine de Volkswagen, sous la Golf ; l'ID. Polo électrique est annoncée à côté.",
+        "technicalFacts": [
+          "Longueur de 4 074 mm et empattement de 2 552 mm (Volkswagen Belgique).",
+          "Coffre de 351 litres, 1 125 litres banquette rabattue.",
+          "Moteurs 1.0 MPI atmosphérique et 1.0 TSI turbo, boîte manuelle 5 rapports ou DSG 7 rapports."
+        ],
+        "pros": [
+          "Habitacle parmi les plus spacieux de la catégorie selon Volkswagen.",
+          "Moteurs TSI sobres (5,1 à 5,7 l/100 km WLTP).",
+          "Note de 5 étoiles Euro NCAP mise en avant par Volkswagen."
+        ],
+        "differentiators": [
+          "Série spéciale Edition 50 pour les 50 ans du modèle."
+        ],
+        "pricePositioning": "Prix d'entrée belge sous les 24 000 € en 2024 (Autotijd), au-dessus des citadines généralistes d'entrée de gamme.",
+        "innovations": [],
+        "compromises": [
+          "Version 1.0 MPI de 80 ch très lente (15,6 s de 0 à 100 km/h).",
+          "Pas de motorisation hybride.",
+          "Génération lancée en 2017."
+        ]
+      },
+      "variants": [
+        {
+          "id": "volkswagen-polo-6-1-0-mpi-80",
+          "name": "1.0 MPI 80 ch BVM5",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres 1.0 atmosphérique (MPI)",
+            "displacementCc": 999
+          },
+          "powerHp": 80,
+          "powerKw": 59,
+          "torqueNm": 93,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle, 5 rapports",
+          "accel0100s": 15.6,
+          "topSpeedKmh": 171,
+          "consumption": {
+            "value": 5.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 119,
+          "weightKg": 1143,
+          "dimensions": {
+            "lengthMm": 4074,
+            "widthMm": 1751,
+            "heightMm": 1451,
+            "wheelbaseMm": 2552
+          },
+          "seats": 5,
+          "trunkL": 351,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 23810,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be — prix belges Volkswagen Polo (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/volkswagen/polo",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "59 kW (Volkswagen Belgique), 80 ch (Autotijd). Consommation WLTP 5,2–5,5 l/100 km et CO2 119–126 g/km : valeurs les plus favorables retenues. Prix : version de base, liste belge de mars 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques Polo",
+              "url": "https://www.volkswagen.be/fr/modeles/polo.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — fiche technique Polo 1.0 MPI 80 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/volkswagen/polo/10-mpi-80-hp-manual-3092",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Volkswagen Polo (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/volkswagen/polo",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-polo-6-1-0-tsi-95",
+          "name": "1.0 TSI 95 ch BVM5",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres 1.0 turbo (TSI)",
+            "displacementCc": 999
+          },
+          "powerHp": 95,
+          "powerKw": 70,
+          "torqueNm": 175,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle, 5 rapports",
+          "accel0100s": 10.8,
+          "topSpeedKmh": 188,
+          "consumption": {
+            "value": 5.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 116,
+          "weightKg": 1173,
+          "dimensions": {
+            "lengthMm": 4074,
+            "widthMm": 1751,
+            "heightMm": 1451,
+            "wheelbaseMm": 2552
+          },
+          "seats": 5,
+          "trunkL": 351,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 25955,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be — prix belges Volkswagen Polo (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/volkswagen/polo",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "70 kW (Volkswagen Belgique), 95 ch (Autotijd). Consommation WLTP 5,1–5,5 l/100 km et CO2 116–124 g/km : valeurs les plus favorables retenues. Prix : finition Life, liste belge de mars 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques Polo",
+              "url": "https://www.volkswagen.be/fr/modeles/polo.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — fiche technique Polo 1.0 TSI 95 ch BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/volkswagen/polo/10-tsi-95-hp-manual-3093",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Volkswagen Polo (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/volkswagen/polo",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-polo-6-1-0-tsi-116-dsg",
+          "name": "1.0 TSI 116 ch DSG",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres 1.0 turbo (TSI)",
+            "displacementCc": 999
+          },
+          "powerHp": 116,
+          "powerKw": 85,
+          "torqueNm": 200,
+          "drivetrain": "fwd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 9.8,
+          "topSpeedKmh": 201,
+          "consumption": {
+            "value": 5.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 121,
+          "weightKg": 1213,
+          "dimensions": {
+            "lengthMm": 4074,
+            "widthMm": 1751,
+            "heightMm": 1451,
+            "wheelbaseMm": 2552
+          },
+          "seats": 5,
+          "trunkL": 351,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 29145,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be — prix belges Volkswagen Polo (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/volkswagen/polo",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "85 kW (Volkswagen Belgique), 116 ch (liste de prix belge, Autotijd). Consommation WLTP 5,3–5,7 l/100 km et CO2 121–129 g/km : valeurs les plus favorables retenues. Prix : finition Life, liste belge de mars 2024 (Autotijd). La Polo GTI de 207 ch figurait dans cette liste mais n'apparaît pas dans les caractéristiques techniques actuelles de Volkswagen Belgique.",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques Polo",
+              "url": "https://www.volkswagen.be/fr/modeles/polo.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Volkswagen Polo (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/volkswagen/polo",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Volkswagen Belgique — Polo (page modèle)",
+          "url": "https://www.volkswagen.be/fr/modeles/polo.html",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Volkswagen Belgique — caractéristiques techniques Polo",
+          "url": "https://www.volkswagen.be/fr/modeles/polo.html/__ui/technical-data.app",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — prix belges Volkswagen Polo (mars 2024)",
+          "url": "https://autotijd.be/fr/prix/volkswagen/polo",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "volkswagen-t-cross-restyle",
+      "modelId": "volkswagen-t-cross",
+      "brandId": "volkswagen",
+      "modelName": "T-Cross",
+      "name": "Volkswagen T-Cross (restylé 2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:VW T-Cross R-Line (Facelift) – f 11102025.jpg",
+          "caption": null,
+          "depicts": "Volkswagen T-Cross restylé",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:VW T-Cross Style (Facelift) – f 22022025.jpg",
+          "caption": null,
+          "depicts": "Volkswagen T-Cross restylé",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le T-Cross restylé est le plus petit SUV de Volkswagen, dérivé de la Polo. Sa banquette arrière coulissante sur 14 cm le rend très modulable.",
+        "positioning": "SUV urbain d'entrée de gamme de Volkswagen, sous le Taigo et le T-Roc.",
+        "technicalFacts": [
+          "Banquette arrière coulissante sur 14 cm ; coffre de 385 à 455 litres (Volkswagen Belgique).",
+          "Moteurs essence 1.0 TSI de 95 ou 116 ch et 1.5 TSI de 150 ch, traction avant uniquement.",
+          "Empattement de 2 551 mm."
+        ],
+        "pros": [
+          "Modularité de la banquette coulissante.",
+          "Gabarit compact pour la ville.",
+          "Consommations WLTP contenues (5,4 à 6,1 l/100 km)."
+        ],
+        "differentiators": [
+          "Banquette coulissante rare dans les SUV urbains."
+        ],
+        "pricePositioning": "Accessible à partir d'environ 26 000 € en Belgique en 2024 (Autotijd), au niveau des SUV urbains généralistes.",
+        "innovations": [],
+        "compromises": [
+          "Pas de version hybride ni de transmission intégrale.",
+          "Le 1.5 TSI de 150 ch est réservé à la finition R-Line.",
+          "Plus cher qu'une Polo à motorisation équivalente."
+        ]
+      },
+      "variants": [
+        {
+          "id": "volkswagen-t-cross-restyle-1-0-tsi-95",
+          "name": "1.0 TSI 95 ch BVM5",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres 1.0 turbo (TSI)",
+            "displacementCc": 999
+          },
+          "powerHp": 95,
+          "powerKw": 70,
+          "torqueNm": 175,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle, 5 rapports",
+          "accel0100s": 11.3,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 5.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 124,
+          "weightKg": 1261,
+          "dimensions": {
+            "lengthMm": 4135,
+            "widthMm": 1760,
+            "heightMm": 1573,
+            "wheelbaseMm": 2551
+          },
+          "seats": 5,
+          "trunkL": 455,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 26275,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be — prix belges Volkswagen T-Cross (janvier 2024)",
+                "url": "https://autotijd.be/fr/prix/volkswagen/t-cross",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "70 kW (Volkswagen Belgique), 95 ch (Volkswagen Belgique, FAQ). Consommation WLTP 5,4–5,8 l/100 km et CO2 124–131 g/km : valeurs les plus favorables retenues. Longueur 4 135 mm selon les caractéristiques techniques (4 127 mm dans la FAQ). Prix : version de base, liste belge de janvier 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques T-Cross",
+              "url": "https://www.volkswagen.be/fr/modeles/t-cross.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Volkswagen Belgique — T-Cross (page modèle)",
+              "url": "https://www.volkswagen.be/fr/modeles/t-cross.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Volkswagen T-Cross (janvier 2024)",
+              "url": "https://autotijd.be/fr/prix/volkswagen/t-cross",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-t-cross-restyle-1-0-tsi-116-dsg",
+          "name": "1.0 TSI 116 ch DSG",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres 1.0 turbo (TSI)",
+            "displacementCc": 999
+          },
+          "powerHp": 116,
+          "powerKw": 85,
+          "torqueNm": 200,
+          "drivetrain": "fwd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 10.3,
+          "topSpeedKmh": 192,
+          "consumption": {
+            "value": 5.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 129,
+          "weightKg": 1296,
+          "dimensions": {
+            "lengthMm": 4135,
+            "widthMm": 1760,
+            "heightMm": 1573,
+            "wheelbaseMm": 2551
+          },
+          "seats": 5,
+          "trunkL": 455,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 31050,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be — prix belges Volkswagen T-Cross (janvier 2024)",
+                "url": "https://autotijd.be/fr/prix/volkswagen/t-cross",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "85 kW (Volkswagen Belgique), 116 ch (Volkswagen Belgique, FAQ ; la liste Autotijd indique 115 ch). Consommation WLTP 5,7–5,9 l/100 km et CO2 129–135 g/km : valeurs les plus favorables retenues. Prix : finition Life DSG, liste belge de janvier 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques T-Cross",
+              "url": "https://www.volkswagen.be/fr/modeles/t-cross.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Volkswagen Belgique — T-Cross (page modèle)",
+              "url": "https://www.volkswagen.be/fr/modeles/t-cross.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Volkswagen T-Cross (janvier 2024)",
+              "url": "https://autotijd.be/fr/prix/volkswagen/t-cross",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-t-cross-restyle-1-5-tsi-150",
+          "name": "1.5 TSI 150 ch DSG",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres 1.5 turbo (TSI)",
+            "displacementCc": 1498
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 250,
+          "drivetrain": "fwd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 8.4,
+          "topSpeedKmh": 200,
+          "consumption": {
+            "value": 5.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 134,
+          "weightKg": 1327,
+          "dimensions": {
+            "lengthMm": 4135,
+            "widthMm": 1760,
+            "heightMm": 1573,
+            "wheelbaseMm": 2551
+          },
+          "seats": 5,
+          "trunkL": 455,
+          "equipmentHighlights": [
+            "Finition R-Line"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 35565,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be — prix belges Volkswagen T-Cross (janvier 2024)",
+                "url": "https://autotijd.be/fr/prix/volkswagen/t-cross",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "110 kW (Volkswagen Belgique), 150 ch (Volkswagen Belgique, FAQ). Consommation WLTP 5,9–6,1 l/100 km et CO2 134–138 g/km : valeurs les plus favorables retenues. Prix : finition R-Line, liste belge de janvier 2024 (Autotijd, qui libelle par erreur ce moteur « 1.0L TSI 150 ch »).",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques T-Cross",
+              "url": "https://www.volkswagen.be/fr/modeles/t-cross.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Volkswagen Belgique — T-Cross (page modèle)",
+              "url": "https://www.volkswagen.be/fr/modeles/t-cross.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Volkswagen T-Cross (janvier 2024)",
+              "url": "https://autotijd.be/fr/prix/volkswagen/t-cross",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Volkswagen Belgique — T-Cross (page modèle)",
+          "url": "https://www.volkswagen.be/fr/modeles/t-cross.html",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Volkswagen Belgique — caractéristiques techniques T-Cross",
+          "url": "https://www.volkswagen.be/fr/modeles/t-cross.html/__ui/technical-data.app",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — prix belges Volkswagen T-Cross (janvier 2024)",
+          "url": "https://autotijd.be/fr/prix/volkswagen/t-cross",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "volkswagen-taigo-1",
+      "modelId": "volkswagen-taigo",
+      "brandId": "volkswagen",
+      "modelName": "Taigo",
+      "name": "Volkswagen Taigo (2021)",
+      "yearsLabel": "2021 –",
+      "startYear": 2021,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV coupé urbain (segment B)",
+      "bodyStyles": [
+        "SUV coupé 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Volkswagen Taigo 1X7A0350.jpg",
+          "caption": null,
+          "depicts": "Volkswagen Taigo",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Volkswagen Taigo IMG 5772.jpg",
+          "caption": null,
+          "depicts": "Volkswagen Taigo",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Taigo est la version à toit fuyant du T-Cross, plus longue de 14 cm. C'est le seul SUV coupé du segment B chez Volkswagen.",
+        "positioning": "SUV coupé urbain, entre le T-Cross et le T-Roc.",
+        "technicalFacts": [
+          "Longueur de 4 271 mm et empattement de 2 554 mm (Volkswagen Belgique).",
+          "Coffre de 440 litres, 1 222 litres banquette rabattue.",
+          "Moteurs 1.0 TSI de 95 ou 116 ch et 1.5 TSI de 150 ch, traction avant."
+        ],
+        "pros": [
+          "Ligne coupé originale dans la catégorie.",
+          "Coffre généreux malgré le toit fuyant.",
+          "Consommations WLTP de 5,3 à 5,9 l/100 km."
+        ],
+        "differentiators": [
+          "Un des rares SUV coupés de moins de 4,30 m."
+        ],
+        "pricePositioning": "Prix belges proches de ceux du T-Cross en 2024 (Autotijd), à motorisation égale.",
+        "innovations": [],
+        "compromises": [
+          "Garde au toit arrière réduite par rapport au T-Cross.",
+          "Pas de banquette coulissante.",
+          "Pas d'hybride ni de transmission intégrale."
+        ]
+      },
+      "variants": [
+        {
+          "id": "volkswagen-taigo-1-1-0-tsi-95",
+          "name": "1.0 TSI 95 ch BVM5",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres 1.0 turbo (TSI)",
+            "displacementCc": 999
+          },
+          "powerHp": 95,
+          "powerKw": 70,
+          "torqueNm": 175,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle, 5 rapports",
+          "accel0100s": 11.1,
+          "topSpeedKmh": 184,
+          "consumption": {
+            "value": 5.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 120,
+          "weightKg": 1228,
+          "dimensions": {
+            "lengthMm": 4271,
+            "widthMm": 1757,
+            "heightMm": 1518,
+            "wheelbaseMm": 2554
+          },
+          "seats": 5,
+          "trunkL": 440,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 26240,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be — prix belges Volkswagen Taigo (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/volkswagen/taigo",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "70 kW (Volkswagen Belgique), 95 ch (Volkswagen Belgique, FAQ). Consommation WLTP 5,3–5,6 l/100 km et CO2 120–128 g/km : valeurs les plus favorables retenues. Prix : version de base, liste belge de mars 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques Taigo",
+              "url": "https://www.volkswagen.be/fr/modeles/taigo.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Volkswagen Belgique — Taigo (page modèle)",
+              "url": "https://www.volkswagen.be/fr/modeles/taigo.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Volkswagen Taigo (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/volkswagen/taigo",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-taigo-1-1-0-tsi-116-dsg",
+          "name": "1.0 TSI 116 ch DSG",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres 1.0 turbo (TSI)",
+            "displacementCc": 999
+          },
+          "powerHp": 116,
+          "powerKw": 85,
+          "torqueNm": 200,
+          "drivetrain": "fwd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 10.2,
+          "topSpeedKmh": 196,
+          "consumption": {
+            "value": 5.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 126,
+          "weightKg": 1262,
+          "dimensions": {
+            "lengthMm": 4271,
+            "widthMm": 1757,
+            "heightMm": 1518,
+            "wheelbaseMm": 2554
+          },
+          "seats": 5,
+          "trunkL": 440,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 30560,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be — prix belges Volkswagen Taigo (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/volkswagen/taigo",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "85 kW (Volkswagen Belgique), 116 ch (Volkswagen Belgique, FAQ). Consommation WLTP 5,5–5,8 l/100 km et CO2 126–132 g/km : valeurs les plus favorables retenues. Prix : finition Life DSG, liste belge de mars 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques Taigo",
+              "url": "https://www.volkswagen.be/fr/modeles/taigo.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Volkswagen Belgique — Taigo (page modèle)",
+              "url": "https://www.volkswagen.be/fr/modeles/taigo.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Volkswagen Taigo (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/volkswagen/taigo",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-taigo-1-1-5-tsi-150",
+          "name": "1.5 TSI 150 ch DSG",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres 1.5 turbo (TSI)",
+            "displacementCc": 1498
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 250,
+          "drivetrain": "fwd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 8.2,
+          "topSpeedKmh": 212,
+          "consumption": {
+            "value": 5.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 131,
+          "weightKg": 1296,
+          "dimensions": {
+            "lengthMm": 4271,
+            "widthMm": 1757,
+            "heightMm": 1518,
+            "wheelbaseMm": 2554
+          },
+          "seats": 5,
+          "trunkL": 440,
+          "equipmentHighlights": [
+            "Finition R-Line"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 35590,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be — prix belges Volkswagen Taigo (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/volkswagen/taigo",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "110 kW (Volkswagen Belgique), 150 ch (Volkswagen Belgique, FAQ). Consommation WLTP 5,8–5,9 l/100 km et CO2 131–135 g/km : valeurs les plus favorables retenues. Prix : finition R-Line, liste belge de mars 2024 (Autotijd, qui libelle par erreur ce moteur « 1.0L TSI 150 ch »).",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques Taigo",
+              "url": "https://www.volkswagen.be/fr/modeles/taigo.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Volkswagen Belgique — Taigo (page modèle)",
+              "url": "https://www.volkswagen.be/fr/modeles/taigo.html",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Volkswagen Taigo (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/volkswagen/taigo",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Volkswagen Belgique — Taigo (page modèle)",
+          "url": "https://www.volkswagen.be/fr/modeles/taigo.html",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Volkswagen Belgique — caractéristiques techniques Taigo",
+          "url": "https://www.volkswagen.be/fr/modeles/taigo.html/__ui/technical-data.app",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — prix belges Volkswagen Taigo (mars 2024)",
+          "url": "https://autotijd.be/fr/prix/volkswagen/taigo",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "volkswagen-passat-b9",
+      "modelId": "volkswagen-passat",
+      "brandId": "volkswagen",
+      "modelName": "Passat",
+      "name": "Volkswagen Passat B9 (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Break familial (segment D)",
+      "bodyStyles": [
+        "Break 5 portes"
+      ],
+      "categories": [
+        "wagon"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Volkswagen Passat Variant B9 IAA 2023 1X7A0654.jpg",
+          "caption": null,
+          "depicts": "Volkswagen Passat Variant B9",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Volkswagen Passat Variant B9 DSC 7141.jpg",
+          "caption": null,
+          "depicts": "Volkswagen Passat Variant B9",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Neuvième génération de la Passat, proposée uniquement en break Variant. Elle offre l'un des plus grands coffres de sa catégorie et des hybrides rechargeables à plus de 120 km d'autonomie électrique.",
+        "positioning": "Grand break familial de Volkswagen, à côté de l'ID.7 Tourer électrique.",
+        "technicalFacts": [
+          "Longueur de 4 917 mm et empattement de 2 837 à 2 839 mm (Volkswagen Belgique).",
+          "Coffre de 690 litres, 1 920 litres banquette rabattue (510 litres en eHybrid).",
+          "Batterie de 19,7 kWh nets sur l'eHybrid, recharge DC jusqu'à 40 kW.",
+          "Uniquement en carrosserie Variant (break)."
+        ],
+        "pros": [
+          "Coffre et espace arrière très généreux.",
+          "Autonomie électrique WLTP jusqu'à 133 km en eHybrid.",
+          "Diesel 2.0 TDI toujours proposé."
+        ],
+        "differentiators": [
+          "Hybride rechargeable avec recharge rapide en courant continu."
+        ],
+        "pricePositioning": "Break familial à partir d'environ 41 000 € en Belgique en 2024 (Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Plus de berline.",
+          "Coffre réduit de 180 litres en eHybrid.",
+          "Gabarit de près de 4,92 m, encombrant en ville."
+        ]
+      },
+      "variants": [
+        {
+          "id": "volkswagen-passat-b9-2-0-tdi-150",
+          "name": "2.0 TDI 150 ch",
+          "tier": "entry",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "4 cylindres 2.0 TDI",
+            "displacementCc": 1968
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 360,
+          "drivetrain": "fwd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 9.3,
+          "topSpeedKmh": 223,
+          "consumption": {
+            "value": 5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 130,
+          "weightKg": 1698,
+          "dimensions": {
+            "lengthMm": 4917,
+            "widthMm": 1849,
+            "heightMm": 1521,
+            "wheelbaseMm": 2837
+          },
+          "seats": 5,
+          "trunkL": 690,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 47015,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be — prix belges Volkswagen Passat Variant (janvier 2024)",
+                "url": "https://autotijd.be/fr/prix/volkswagen/passat-variant",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "110 kW, 360 Nm, performances, consommation (5,0–5,5 l/100 km), CO2 (130–144 g/km) et tare selon Volkswagen Belgique ; 150 ch, boîte 7 rapports et traction avant selon Autotijd. Valeurs WLTP les plus favorables retenues. Prix : finition Style, liste belge de janvier 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques Passat",
+              "url": "https://www.volkswagen.be/fr/modeles/passat.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — fiche technique Passat Variant 2.0 TDI 150 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/volkswagen/passat-variant/20-tdi-150-hp-4084",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Volkswagen Passat Variant (janvier 2024)",
+              "url": "https://autotijd.be/fr/prix/volkswagen/passat-variant",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-passat-b9-ehybrid-204",
+          "name": "1.5 eHybrid 204 ch",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres 1.5 TSI + moteur électrique (hybride rechargeable)",
+            "displacementCc": 1498
+          },
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 350,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (DSG)",
+          "accel0100s": 8.1,
+          "topSpeedKmh": 220,
+          "consumption": {
+            "value": 1.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 133,
+          "batteryKwh": 19.7,
+          "charging": {
+            "dcMaxKw": 40,
+            "dc10to80Min": 26
+          },
+          "co2Gkm": 29,
+          "weightKg": 1850,
+          "dimensions": {
+            "lengthMm": 4917,
+            "widthMm": 1849,
+            "heightMm": 1521,
+            "wheelbaseMm": 2839
+          },
+          "seats": 5,
+          "trunkL": 510,
+          "equipmentHighlights": [
+            "Batterie de 19,7 kWh nets",
+            "Recharge AC 11 kW (0–100 % en 2 h 30) et DC 40 kW"
+          ],
+          "prices": [],
+          "notes": "Puissance combinée 150 kW / 204 ch et couple système 350 Nm (Volkswagen Belgique). Autonomie électrique WLTP 119–133 km, consommation pondérée 1,3–1,6 l/100 km et CO2 29–36 g/km : valeurs les plus favorables retenues. Traction avant selon Autotijd. Nombre de rapports non retenu (non publié par Volkswagen Belgique). Prix belge non trouvé.",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques Passat",
+              "url": "https://www.volkswagen.be/fr/modeles/passat.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — fiche technique Passat Variant 1.5 TSI eHybrid 204 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/volkswagen/passat-variant/15l-tsi-ehybrid-204-hp-4285",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-passat-b9-ehybrid-272",
+          "name": "1.5 eHybrid 272 ch",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres 1.5 TSI + moteur électrique (hybride rechargeable)",
+            "displacementCc": 1498
+          },
+          "powerHp": 272,
+          "powerKw": 200,
+          "torqueNm": 400,
+          "drivetrain": null,
+          "gearbox": "Automatique (DSG)",
+          "accel0100s": 7.1,
+          "topSpeedKmh": 225,
+          "consumption": {
+            "value": 1.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 132,
+          "batteryKwh": 19.7,
+          "charging": {
+            "dcMaxKw": 40,
+            "dc10to80Min": 26
+          },
+          "co2Gkm": 30,
+          "weightKg": 1870,
+          "dimensions": {
+            "lengthMm": 4917,
+            "widthMm": 1849,
+            "heightMm": 1521,
+            "wheelbaseMm": 2839
+          },
+          "seats": 5,
+          "trunkL": 510,
+          "equipmentHighlights": [
+            "Batterie de 19,7 kWh nets",
+            "Finitions R-Line et Style"
+          ],
+          "prices": [],
+          "notes": "Puissance combinée 200 kW / 272 ch, couple système 400 Nm, performances et tare selon Volkswagen Belgique. Autonomie électrique WLTP 118–132 km, consommation pondérée 1,3–1,6 l/100 km et CO2 30–37 g/km : valeurs les plus favorables retenues. Transmission non précisée par les sources consultées. Prix belge non trouvé.",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques Passat",
+              "url": "https://www.volkswagen.be/fr/modeles/passat.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Volkswagen Belgique — Passat (page modèle)",
+          "url": "https://www.volkswagen.be/fr/modeles/passat.html",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Volkswagen Belgique — caractéristiques techniques Passat",
+          "url": "https://www.volkswagen.be/fr/modeles/passat.html/__ui/technical-data.app",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — prix belges Volkswagen Passat Variant (janvier 2024)",
+          "url": "https://autotijd.be/fr/prix/volkswagen/passat-variant",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "volkswagen-id-3-neo",
+      "modelId": "volkswagen-id-3",
+      "brandId": "volkswagen",
+      "modelName": "ID.3 Neo",
+      "name": "Volkswagen ID.3 Neo (2026)",
+      "yearsLabel": "2026 –",
+      "startYear": 2026,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte électrique (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Volkswagen ID.3 Neo IMG 7255.jpg",
+          "caption": null,
+          "depicts": "Volkswagen ID.3 Neo",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Volkswagen ID.3 Neo Leonberg 2026 IMG 8681.jpg",
+          "caption": null,
+          "depicts": "Volkswagen ID.3 Neo",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "L'ID.3 Neo est la profonde mise à jour de la compacte électrique de Volkswagen, avec un intérieur revu et jusqu'à 630 km d'autonomie WLTP. Trois batteries de 50, 58 et 79 kWh nets sont proposées.",
+        "positioning": "Compacte électrique de Volkswagen, pendant électrique de la Golf, au-dessus de l'ID. Polo.",
+        "technicalFacts": [
+          "Batteries de 50, 58 et 79 kWh nets pour 170, 190 et 231 ch (Volkswagen).",
+          "Recharge DC jusqu'à 183 kW avec la batterie de 79 kWh (Volkswagen Belgique).",
+          "Coffre de 383 litres, 1 336 litres banquette rabattue.",
+          "Première mondiale annoncée le 16 avril 2026."
+        ],
+        "pros": [
+          "Autonomie WLTP jusqu'à 628 km avec la grande batterie.",
+          "Intérieur entièrement revu selon Volkswagen.",
+          "Recharge rapide de 10 à 80 % en 24 à 29 minutes selon la batterie."
+        ],
+        "differentiators": [
+          "Gamme de batteries étendue, de 50 à 79 kWh nets."
+        ],
+        "pricePositioning": "Prix d'appel allemand de 33 995 € (electrive) ; tarif belge non trouvé.",
+        "innovations": [],
+        "compromises": [
+          "Vitesse maximale limitée à 160 km/h sur toutes les versions.",
+          "Coffre moyen pour la catégorie (383 litres).",
+          "Version d'entrée de gamme limitée à 100 kW en recharge DC."
+        ]
+      },
+      "variants": [
+        {
+          "id": "volkswagen-id-3-neo-50",
+          "name": "Trend 50 kWh 170 ch",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique",
+            "displacementCc": null
+          },
+          "powerHp": 170,
+          "powerKw": 125,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 8.6,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 14,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 416,
+          "batteryKwh": 50,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": 24
+          },
+          "co2Gkm": 0,
+          "weightKg": 1885,
+          "dimensions": {
+            "lengthMm": 4265,
+            "widthMm": 1809,
+            "heightMm": 1561,
+            "wheelbaseMm": 2769
+          },
+          "seats": 5,
+          "trunkL": 383,
+          "equipmentHighlights": [
+            "Batterie de 50 kWh nets"
+          ],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 33995,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-04",
+              "source": {
+                "label": "electrive — Germany: VW ID.3 Neo starts at 33,995 euros",
+                "url": "https://www.electrive.com/2026/04/17/germany-vw-id-3-neo-starts-at-33995-euros/",
+                "type": "press",
+                "publishedAt": "2026-04-17",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "125 kW / 170 ch (Volkswagen). Consommation WLTP 140,1–141,6 Wh/km et autonomie 412–416 km (finition Trend) selon Volkswagen Belgique : valeurs les plus favorables retenues. Recharge DC maximale de 100 kW selon Volkswagen Belgique, 105 kW selon le communiqué de lancement. Longueur 4 265 mm selon les caractéristiques techniques (4 287 mm dans la FAQ). Couple et transmission non publiés dans les sources consultées. Prix : prix catalogue allemand « à partir de » (electrive), version d'entrée de gamme Trend.",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques ID.3 Neo",
+              "url": "https://www.volkswagen.be/fr/modeles/id-3-neo.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "IAA Mobility Newsroom — Volkswagen celebrates world premiere of the ID.3 Neo",
+              "url": "https://www.iaa-mobility.com/en/newsroom/news/mobility/volkswagen-celebrates-world-premiere-of-the-id-3-neo",
+              "type": "press",
+              "publishedAt": "2026-04-16",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "electrive — Germany: VW ID.3 Neo starts at 33,995 euros",
+              "url": "https://www.electrive.com/2026/04/17/germany-vw-id-3-neo-starts-at-33995-euros/",
+              "type": "press",
+              "publishedAt": "2026-04-17",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-id-3-neo-58",
+          "name": "58 kWh 190 ch",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique",
+            "displacementCc": null
+          },
+          "powerHp": 190,
+          "powerKw": 140,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 8,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 13.9,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 492,
+          "batteryKwh": 58,
+          "charging": {
+            "dcMaxKw": 105,
+            "dc10to80Min": 26
+          },
+          "co2Gkm": 0,
+          "weightKg": 1888,
+          "dimensions": {
+            "lengthMm": 4265,
+            "widthMm": 1809,
+            "heightMm": 1561,
+            "wheelbaseMm": 2769
+          },
+          "seats": 5,
+          "trunkL": 383,
+          "equipmentHighlights": [
+            "Batterie de 58 kWh nets"
+          ],
+          "prices": [],
+          "notes": "140 kW / 190 ch (Volkswagen). Consommation WLTP 139,4–155,1 Wh/km et autonomie 446–492 km (finitions Life et Corporate) selon Volkswagen Belgique : valeurs les plus favorables retenues. Couple et transmission non publiés dans les sources consultées. Prix non trouvé.",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques ID.3 Neo",
+              "url": "https://www.volkswagen.be/fr/modeles/id-3-neo.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "IAA Mobility Newsroom — Volkswagen celebrates world premiere of the ID.3 Neo",
+              "url": "https://www.iaa-mobility.com/en/newsroom/news/mobility/volkswagen-celebrates-world-premiere-of-the-id-3-neo",
+              "type": "press",
+              "publishedAt": "2026-04-16",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "volkswagen-id-3-neo-79",
+          "name": "79 kWh 231 ch",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique",
+            "displacementCc": null
+          },
+          "powerHp": 231,
+          "powerKw": 170,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 7.1,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 14.4,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 628,
+          "batteryKwh": 79,
+          "charging": {
+            "dcMaxKw": 183,
+            "dc10to80Min": 29
+          },
+          "co2Gkm": 0,
+          "weightKg": 1966,
+          "dimensions": {
+            "lengthMm": 4265,
+            "widthMm": 1809,
+            "heightMm": 1561,
+            "wheelbaseMm": 2769
+          },
+          "seats": 5,
+          "trunkL": 383,
+          "equipmentHighlights": [
+            "Batterie de 79 kWh nets",
+            "Recharge DC jusqu'à 183 kW"
+          ],
+          "prices": [],
+          "notes": "170 kW / 231 ch (Volkswagen). Consommation WLTP 143,7–157,4 Wh/km et autonomie 577–628 km (finitions Life et Corporate) selon Volkswagen Belgique : valeurs les plus favorables retenues. Couple et transmission non publiés dans les sources consultées. Prix non trouvé.",
+          "sources": [
+            {
+              "label": "Volkswagen Belgique — caractéristiques techniques ID.3 Neo",
+              "url": "https://www.volkswagen.be/fr/modeles/id-3-neo.html/__ui/technical-data.app",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "IAA Mobility Newsroom — Volkswagen celebrates world premiere of the ID.3 Neo",
+              "url": "https://www.iaa-mobility.com/en/newsroom/news/mobility/volkswagen-celebrates-world-premiere-of-the-id-3-neo",
+              "type": "press",
+              "publishedAt": "2026-04-16",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Volkswagen Belgique — ID.3 Neo (page modèle)",
+          "url": "https://www.volkswagen.be/fr/modeles/id-3-neo.html",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Volkswagen Belgique — caractéristiques techniques ID.3 Neo",
+          "url": "https://www.volkswagen.be/fr/modeles/id-3-neo.html/__ui/technical-data.app",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "IAA Mobility Newsroom — Volkswagen celebrates world premiere of the ID.3 Neo",
+          "url": "https://www.iaa-mobility.com/en/newsroom/news/mobility/volkswagen-celebrates-world-premiere-of-the-id-3-neo",
+          "type": "press",
+          "publishedAt": "2026-04-16",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "skoda-fabia-4",
+      "modelId": "skoda-fabia",
+      "brandId": "skoda",
+      "modelName": "Fabia",
+      "name": "Škoda Fabia IV (2021)",
+      "yearsLabel": "2021 –",
+      "startYear": 2021,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine polyvalente (segment B)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Škoda Fabia IV 1X7A7108 (cropped).jpg",
+          "caption": null,
+          "depicts": "Škoda Fabia IV",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Skoda Fabia IV 1X7A7082.jpg",
+          "caption": null,
+          "depicts": "Škoda Fabia IV",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Quatrième génération de la citadine de Škoda. Elle se distingue par un coffre de 380 litres, grand pour la catégorie.",
+        "positioning": "Citadine d'entrée de gamme de Škoda.",
+        "technicalFacts": [
+          "Longueur de 4 108 mm et empattement de 2 564 mm (Autotijd).",
+          "Coffre de 380 litres.",
+          "Moteurs 1.0 MPI de 80 ch, 1.0 TSI de 95 et 116 ch, 1.5 TSI de 150 ch (liste belge 2024)."
+        ],
+        "pros": [
+          "Coffre parmi les plus grands des citadines.",
+          "Prix d'entrée bas en Belgique.",
+          "Version Monte Carlo 1.5 TSI de 150 ch à 225 km/h."
+        ],
+        "differentiators": [
+          "Moteur 1.5 TSI de 150 ch rare dans une citadine non sportive."
+        ],
+        "pricePositioning": "Une des citadines les moins chères du groupe Volkswagen en Belgique : 16 690 € en mars 2024 (Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Moteur MPI de 80 ch peu performant (15,1 s de 0 à 100 km/h).",
+          "Aucune motorisation électrifiée.",
+          "Finitions Corporate nettement plus chères."
+        ]
+      },
+      "variants": [
+        {
+          "id": "skoda-fabia-4-1-0-mpi-80",
+          "name": "1.0 MPI 80 ch BVM5",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres 1.0 atmosphérique (MPI)",
+            "displacementCc": 999
+          },
+          "powerHp": 80,
+          "powerKw": 59,
+          "torqueNm": 93,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle, 5 rapports",
+          "accel0100s": 15.1,
+          "topSpeedKmh": 179,
+          "consumption": {
+            "value": 5.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 116,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4108,
+            "widthMm": 1780,
+            "heightMm": 1459,
+            "wheelbaseMm": 2564
+          },
+          "seats": 5,
+          "trunkL": 380,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 16690,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be — prix belges Škoda Fabia (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/skoda/fabia",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "CO2 WLTP 116–131 g/km selon l'équipement : valeur la plus favorable retenue. Poids non publié dans la source. Prix : finition « Essence », liste belge de mars 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Fabia 1.0 MPI 80 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/fabia/10-mpi-80-hp-manual-3083",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Fabia 1.0 MPI",
+              "url": "https://autotijd.be/fr/dimensions/skoda/fabia/10-mpi-80-hp-manual-3083",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Škoda Fabia (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/skoda/fabia",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "skoda-fabia-4-1-0-tsi-95",
+          "name": "1.0 TSI 95 ch BVM5",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres 1.0 turbo (TSI)",
+            "displacementCc": 999
+          },
+          "powerHp": 95,
+          "powerKw": 70,
+          "torqueNm": 175,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle, 5 rapports",
+          "accel0100s": 10.6,
+          "topSpeedKmh": 195,
+          "consumption": {
+            "value": 5.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 113,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4108,
+            "widthMm": 1780,
+            "heightMm": 1459,
+            "wheelbaseMm": 2564
+          },
+          "seats": 5,
+          "trunkL": 380,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 17645,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be — prix belges Škoda Fabia (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/skoda/fabia",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "CO2 WLTP 113–128 g/km selon l'équipement : valeur la plus favorable retenue. Poids non publié dans la source. Prix : finition « Essence », liste belge de mars 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Fabia 1.0 TSI 95 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/fabia/10-tsi-95-hp-manual-3084",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Fabia 1.0 TSI 95 ch",
+              "url": "https://autotijd.be/fr/dimensions/skoda/fabia/10-tsi-95-hp-manual-3084",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Škoda Fabia (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/skoda/fabia",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "skoda-fabia-4-1-5-tsi-150",
+          "name": "1.5 TSI 150 ch DSG",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres 1.5 turbo (TSI)",
+            "displacementCc": 1498
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 250,
+          "drivetrain": "fwd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 7.9,
+          "topSpeedKmh": 225,
+          "consumption": {
+            "value": 5.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 128,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4108,
+            "widthMm": 1780,
+            "heightMm": 1459,
+            "wheelbaseMm": 2564
+          },
+          "seats": 5,
+          "trunkL": 380,
+          "equipmentHighlights": [
+            "Finition Monte Carlo"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 24800,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be — prix belges Škoda Fabia (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/skoda/fabia",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "CO2 WLTP 128–142 g/km selon l'équipement : valeur la plus favorable retenue. Poids non publié dans la source. Prix : finition Monte Carlo, liste belge de mars 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Fabia 1.5 TSI 150 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/fabia/15-tsi-150-hp-3087",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Fabia 1.5 TSI",
+              "url": "https://autotijd.be/fr/dimensions/skoda/fabia/15-tsi-150-hp-3087",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Škoda Fabia (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/skoda/fabia",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Škoda Belgique — Fabia (page modèle)",
+          "url": "https://fr.skoda.be/modeles/fabia/fabia",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — fiche technique Škoda Fabia",
+          "url": "https://autotijd.be/fr/fiches-techniques/skoda/fabia",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — prix belges Škoda Fabia (mars 2024)",
+          "url": "https://autotijd.be/fr/prix/skoda/fabia",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "skoda-kamiq-restyle",
+      "modelId": "skoda-kamiq",
+      "brandId": "skoda",
+      "modelName": "Kamiq",
+      "name": "Škoda Kamiq (restylé 2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Škoda Kamiq Facelift IMG 8638.jpg",
+          "caption": null,
+          "depicts": "Škoda Kamiq restylé",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Skoda Kamiq 1.0 TSI Essence (Facelift) – f 30032025.jpg",
+          "caption": null,
+          "depicts": "Škoda Kamiq restylé",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Kamiq restylé est le SUV urbain de Škoda, cousin du T-Cross. Il offre 400 litres de coffre et uniquement des moteurs essence TSI.",
+        "positioning": "Plus petit SUV de Škoda, sous le Karoq et l'Elroq.",
+        "technicalFacts": [
+          "Longueur de 4 241 mm et empattement de 2 651 mm (Autotijd).",
+          "Coffre de 400 litres, 1 395 litres banquette rabattue.",
+          "Moteurs 1.0 TSI de 95 ou 115 ch et 1.5 TSI de 150 ch."
+        ],
+        "pros": [
+          "Empattement plus long que celui du T-Cross (2 651 contre 2 551 mm).",
+          "Prix d'entrée bas en Belgique.",
+          "Version Monte Carlo au look sportif."
+        ],
+        "differentiators": [],
+        "pricePositioning": "Moins cher que ses cousins Volkswagen à motorisation égale selon les listes belges 2024 (Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Pas d'hybride ni de transmission intégrale.",
+          "Finitions Corporate très chères (plus de 33 000 €).",
+          "Banquette fixe, contrairement au T-Cross."
+        ]
+      },
+      "variants": [
+        {
+          "id": "skoda-kamiq-restyle-1-0-tsi-95",
+          "name": "1.0 TSI 95 ch BVM5",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres 1.0 turbo (TSI)",
+            "displacementCc": 999
+          },
+          "powerHp": 95,
+          "powerKw": 70,
+          "torqueNm": 175,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle, 5 rapports",
+          "accel0100s": 11,
+          "topSpeedKmh": 183,
+          "consumption": {
+            "value": 5.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 123,
+          "weightKg": 1223,
+          "dimensions": {
+            "lengthMm": 4241,
+            "widthMm": 1793,
+            "heightMm": 1531,
+            "wheelbaseMm": 2651
+          },
+          "seats": 5,
+          "trunkL": 400,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 18990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be — prix belges Škoda Kamiq (janvier 2024)",
+                "url": "https://autotijd.be/fr/prix/skoda/kamiq",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 5,4–5,8 l/100 km et CO2 123–132 g/km : valeurs les plus favorables retenues. Prix : finition « Essence », liste belge de janvier 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Kamiq 1.0 TSI 95 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/kamiq/10-tsi-95-hp-manual-4096",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Kamiq 1.0 TSI 95 ch",
+              "url": "https://autotijd.be/fr/dimensions/skoda/kamiq/10-tsi-95-hp-manual-4096",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Škoda Kamiq (janvier 2024)",
+              "url": "https://autotijd.be/fr/prix/skoda/kamiq",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "skoda-kamiq-restyle-1-0-tsi-115-dsg",
+          "name": "1.0 TSI 115 ch DSG",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres 1.0 turbo (TSI)",
+            "displacementCc": 999
+          },
+          "powerHp": 115,
+          "powerKw": 85,
+          "torqueNm": 200,
+          "drivetrain": "fwd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 10.2,
+          "topSpeedKmh": 195,
+          "consumption": {
+            "value": 5.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 126,
+          "weightKg": 1254,
+          "dimensions": {
+            "lengthMm": 4241,
+            "widthMm": 1793,
+            "heightMm": 1531,
+            "wheelbaseMm": 2651
+          },
+          "seats": 5,
+          "trunkL": 400,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 25255,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be — prix belges Škoda Kamiq (janvier 2024)",
+                "url": "https://autotijd.be/fr/prix/skoda/kamiq",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 5,6–6,0 l/100 km et CO2 126–135 g/km : valeurs les plus favorables retenues. Prix : finition Family DSG, liste belge de janvier 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Kamiq 1.0 TSI 115 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/kamiq/10-tsi-115-hp-4098",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Kamiq 1.0 TSI 115 ch",
+              "url": "https://autotijd.be/fr/dimensions/skoda/kamiq/10-tsi-115-hp-4098",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Škoda Kamiq (janvier 2024)",
+              "url": "https://autotijd.be/fr/prix/skoda/kamiq",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "skoda-kamiq-restyle-1-5-tsi-150",
+          "name": "1.5 TSI 150 ch DSG",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres 1.5 turbo (TSI)",
+            "displacementCc": 1498
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 250,
+          "drivetrain": "fwd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 8.3,
+          "topSpeedKmh": 213,
+          "consumption": {
+            "value": 5.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 128,
+          "weightKg": 1288,
+          "dimensions": {
+            "lengthMm": 4241,
+            "widthMm": 1793,
+            "heightMm": 1531,
+            "wheelbaseMm": 2651
+          },
+          "seats": 5,
+          "trunkL": 400,
+          "equipmentHighlights": [
+            "Finition Monte Carlo"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 30545,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be — prix belges Škoda Kamiq (janvier 2024)",
+                "url": "https://autotijd.be/fr/prix/skoda/kamiq",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 5,7–6,1 l/100 km et CO2 128–137 g/km : valeurs les plus favorables retenues. Prix : finition Monte Carlo, liste belge de janvier 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Kamiq 1.5 TSI 150 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/kamiq/15-tsi-150-hp-4100",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Kamiq 1.5 TSI 150 ch",
+              "url": "https://autotijd.be/fr/dimensions/skoda/kamiq/15-tsi-150-hp-4100",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Škoda Kamiq (janvier 2024)",
+              "url": "https://autotijd.be/fr/prix/skoda/kamiq",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Škoda Belgique — Kamiq (page modèle)",
+          "url": "https://fr.skoda.be/modeles/kamiq/kamiq",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — fiche technique Škoda Kamiq",
+          "url": "https://autotijd.be/fr/fiches-techniques/skoda/kamiq",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — prix belges Škoda Kamiq (janvier 2024)",
+          "url": "https://autotijd.be/fr/prix/skoda/kamiq",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "skoda-karoq-restyle",
+      "modelId": "skoda-karoq",
+      "brandId": "skoda",
+      "modelName": "Karoq",
+      "name": "Škoda Karoq (restylé 2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Skoda Karoq Facelift 1X7A0318.jpg",
+          "caption": null,
+          "depicts": "Škoda Karoq restylé",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Skoda Karoq Sportline (Facelift) – f 13102025.jpg",
+          "caption": null,
+          "depicts": "Škoda Karoq restylé",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Karoq restylé est le SUV compact thermique de Škoda, entre le Kamiq et le Kodiaq. Il reste proposé en essence et en diesel, avec transmission intégrale sur certaines versions.",
+        "positioning": "SUV compact familial de Škoda, à côté de l'Elroq électrique.",
+        "technicalFacts": [
+          "Longueur de 4 390 mm et empattement de 2 638 mm (Autotijd).",
+          "Moteurs essence 1.0 TSI 110 ch, 1.5 TSI 150 ch et 2.0 TSI 190 ch, diesel 2.0 TDI 116 et 150 ch (liste belge 2024).",
+          "Transmission intégrale réservée au 2.0 TDI 150 ch et au 2.0 TSI 190 ch (liste belge 2024)."
+        ],
+        "pros": [
+          "Gamme thermique complète, diesel et 4x4 compris.",
+          "Gabarit compact pour un SUV familial.",
+          "Version Sportline au look dynamique."
+        ],
+        "differentiators": [],
+        "pricePositioning": "Prix belges de 28 035 € (1.0 TSI) à 48 030 € (TDI 4x4 Sportline) en janvier 2024 (Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Pas de motorisation électrifiée.",
+          "Modèle seulement restylé, la conception de base est plus ancienne que celle de ses rivaux récents.",
+          "Finitions Corporate et Sportline chères."
+        ]
+      },
+      "variants": [
+        {
+          "id": "skoda-karoq-restyle-1-0-tsi-110",
+          "name": "1.0 TSI 110 ch BVM6",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres 1.0 turbo (TSI)",
+            "displacementCc": 999
+          },
+          "powerHp": 110,
+          "powerKw": 81,
+          "torqueNm": 200,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle, 6 rapports",
+          "accel0100s": 11.1,
+          "topSpeedKmh": 191,
+          "consumption": {
+            "value": 5.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 132,
+          "weightKg": 1365,
+          "dimensions": {
+            "lengthMm": 4390,
+            "widthMm": 1841,
+            "heightMm": 1603,
+            "wheelbaseMm": 2638
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 28035,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be — prix belges Škoda Karoq (janvier 2024)",
+                "url": "https://autotijd.be/fr/prix/skoda/karoq",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Volume de coffre non publié dans la source consultée. Prix : finition Family, liste belge de janvier 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Karoq 1.0 TSI 110 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/karoq/10-tsi-110-hp-manual-3309",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Karoq 1.0 TSI",
+              "url": "https://autotijd.be/fr/dimensions/skoda/karoq/10-tsi-110-hp-manual-3309",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Škoda Karoq (janvier 2024)",
+              "url": "https://autotijd.be/fr/prix/skoda/karoq",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "skoda-karoq-restyle-1-5-tsi-150",
+          "name": "1.5 TSI 150 ch DSG",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.5 TSI essence turbo",
+            "displacementCc": 1498
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 250,
+          "drivetrain": "fwd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 9,
+          "topSpeedKmh": 210,
+          "consumption": {
+            "value": 6.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 141,
+          "weightKg": 1405,
+          "dimensions": {
+            "lengthMm": 4390,
+            "widthMm": 1841,
+            "heightMm": 1603,
+            "wheelbaseMm": 2638
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 32520,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be — prix belges Škoda Karoq (janvier 2024)",
+                "url": "https://autotijd.be/fr/prix/skoda/karoq",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "La fiche Autotijd indique 3 cylindres pour ce 1.5 TSI, information non reprise. Volume de coffre non publié dans la source consultée. Prix : finition Family DSG, liste belge de janvier 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Karoq 1.5 TSI 150 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/karoq/15-tsi-150-hp-3311",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Karoq 1.5 TSI",
+              "url": "https://autotijd.be/fr/dimensions/skoda/karoq/15-tsi-150-hp-3311",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Škoda Karoq (janvier 2024)",
+              "url": "https://autotijd.be/fr/prix/skoda/karoq",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Škoda Belgique — Karoq (page modèle)",
+          "url": "https://fr.skoda.be/modeles/karoq/karoq",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — fiche technique Škoda Karoq",
+          "url": "https://autotijd.be/fr/fiches-techniques/skoda/karoq",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — prix belges Škoda Karoq (janvier 2024)",
+          "url": "https://autotijd.be/fr/prix/skoda/karoq",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "skoda-kodiaq-2",
+      "modelId": "skoda-kodiaq",
+      "brandId": "skoda",
+      "modelName": "Kodiaq",
+      "name": "Škoda Kodiaq II (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Grand SUV familial (segment D)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Škoda Kodiaq II IMG 9433.jpg",
+          "caption": null,
+          "depicts": "Škoda Kodiaq II",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Škoda Kodiaq II Auto Zuerich 2023 1X7A1349.jpg",
+          "caption": null,
+          "depicts": "Škoda Kodiaq II",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Deuxième génération du grand SUV de Škoda, jusqu'à 7 places. Il propose essence micro-hybride, diesel, hybride rechargeable et une version RS.",
+        "positioning": "Plus grand SUV thermique de Škoda, au-dessus du Karoq.",
+        "technicalFacts": [
+          "Longueur de 4 758 mm et empattement de 2 789 mm (Autotijd).",
+          "Coffre de 910 litres en 5 places (745 litres en hybride rechargeable).",
+          "Cinq motorisations : 2.0 TDI, 2.0 TSI 4x4, 1.5 TSI m-HEV et hybride rechargeable (Škoda Belgique).",
+          "Jusqu'à 7 places selon la version (Škoda Belgique)."
+        ],
+        "pros": [
+          "Coffre immense en version 5 places.",
+          "Diesel 4x4 de 193 ch pour le remorquage.",
+          "Hybride rechargeable disponible."
+        ],
+        "differentiators": [
+          "Un des rares grands SUV familiaux encore proposés en diesel 4x4 et en hybride rechargeable."
+        ],
+        "pricePositioning": "À partir de 37 990 € en Belgique selon Škoda Belgique (prix après remises commerciales).",
+        "innovations": [],
+        "compromises": [
+          "Coffre réduit de 165 litres en hybride rechargeable.",
+          "Gabarit de près de 4,76 m.",
+          "Versions diesel 4x4 au-delà de 52 000 € en 2024 (Autotijd)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "skoda-kodiaq-2-1-5-tsi-150",
+          "name": "1.5 TSI m-HEV 150 ch DSG",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres 1.5 TSI micro-hybride",
+            "displacementCc": 1498
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 250,
+          "drivetrain": "fwd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 9.7,
+          "topSpeedKmh": 207,
+          "consumption": {
+            "value": 6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 136,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4758,
+            "widthMm": 1864,
+            "heightMm": 1679,
+            "wheelbaseMm": 2789
+          },
+          "seats": 5,
+          "trunkL": 910,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 45695,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be — prix belges Škoda Kodiaq (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/skoda/kodiaq",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 6,0–6,6 l/100 km et CO2 136–150 g/km : valeurs les plus favorables retenues. Poids non publié dans la source. Prix : finition Family, liste belge de mars 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Kodiaq 1.5 TSI 150 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/kodiaq/15l-tsi-150-hp-4150",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Kodiaq 1.5 TSI",
+              "url": "https://autotijd.be/fr/dimensions/skoda/kodiaq/15l-tsi-150-hp-4150",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Škoda Kodiaq (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/skoda/kodiaq",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "skoda-kodiaq-2-phev-204",
+          "name": "1.5 TSI iV 204 ch",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres 1.5 TSI + moteur électrique (hybride rechargeable)",
+            "displacementCc": 1498
+          },
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 350,
+          "drivetrain": "fwd",
+          "gearbox": "DSG à double embrayage, 6 rapports",
+          "accel0100s": 8.4,
+          "topSpeedKmh": 210,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1913,
+          "dimensions": {
+            "lengthMm": 4758,
+            "widthMm": 1864,
+            "heightMm": 1656,
+            "wheelbaseMm": 2791
+          },
+          "seats": 5,
+          "trunkL": 745,
+          "equipmentHighlights": [
+            "Batterie de 25,7 kWh bruts"
+          ],
+          "prices": [],
+          "notes": "Batterie de 25,7 kWh bruts (capacité nette non publiée dans la source). Autonomie électrique, consommation et CO2 WLTP non publiés dans la source consultée. Prix : « Kodiaq iV, prix catalogue à partir de » selon Škoda Belgique, après déduction des remises commerciales et d'une éventuelle prime de reprise. Prix « à partir de » de skoda.be non retenu : il inclut remises commerciales et prime de reprise (43890 EUR, 2026-10).",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Kodiaq 1.5 TSI PHEV 204 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/kodiaq/15l-tsi-phev-204-hp-4284",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Kodiaq PHEV",
+              "url": "https://autotijd.be/fr/dimensions/skoda/kodiaq/15l-tsi-phev-204-hp-4284",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Škoda Belgique — Kodiaq (page modèle)",
+              "url": "https://fr.skoda.be/modeles/kodiaq/kodiaq",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "skoda-kodiaq-2-2-0-tdi-4x4-193",
+          "name": "2.0 TDI 4x4 193 ch",
+          "tier": "top",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "4 cylindres 2.0 TDI",
+            "displacementCc": 1968
+          },
+          "powerHp": 193,
+          "powerKw": 142,
+          "torqueNm": 400,
+          "drivetrain": "awd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 7.8,
+          "topSpeedKmh": 220,
+          "consumption": {
+            "value": 5.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 147,
+          "weightKg": 1792,
+          "dimensions": {
+            "lengthMm": 4758,
+            "widthMm": 1864,
+            "heightMm": 1679,
+            "wheelbaseMm": 2791
+          },
+          "seats": 5,
+          "trunkL": 910,
+          "equipmentHighlights": [
+            "Transmission intégrale 4x4"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 52395,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be — prix belges Škoda Kodiaq (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/skoda/kodiaq",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 5,6–7,3 l/100 km et CO2 147–195 g/km : valeurs les plus favorables retenues. Prix : finition Family, liste belge de mars 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Kodiaq 2.0 TDI 4x4 193 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/kodiaq/20-tdi-4x4-193-hp-awd-4116",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Kodiaq 2.0 TDI 4x4",
+              "url": "https://autotijd.be/fr/dimensions/skoda/kodiaq/20-tdi-4x4-193-hp-awd-4116",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Škoda Kodiaq (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/skoda/kodiaq",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Škoda Belgique — Kodiaq (page modèle)",
+          "url": "https://fr.skoda.be/modeles/kodiaq/kodiaq",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — fiche technique Škoda Kodiaq",
+          "url": "https://autotijd.be/fr/fiches-techniques/skoda/kodiaq",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — prix belges Škoda Kodiaq (mars 2024)",
+          "url": "https://autotijd.be/fr/prix/skoda/kodiaq",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "skoda-enyaq-restyle",
+      "modelId": "skoda-enyaq",
+      "brandId": "skoda",
+      "modelName": "Enyaq",
+      "name": "Škoda Enyaq (restylé 2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV électrique familial (segment C/D)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "travel",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2025 Skoda Enyaq sportline (facelift) - front.jpg",
+          "caption": null,
+          "depicts": "Škoda Enyaq restylé (2025), finition Sportline",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Skoda Enyaq sportline (facelift) - rear.jpg",
+          "caption": null,
+          "depicts": "Škoda Enyaq restylé (2025), finition Sportline",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "L'Enyaq restylé adopte le style « Modern Solid » de Škoda et jusqu'à 586 km d'autonomie WLTP. C'est le SUV électrique familial de la marque, sur plateforme MEB.",
+        "positioning": "SUV électrique de Škoda, au-dessus de l'Elroq.",
+        "technicalFacts": [
+          "Plateforme MEB du groupe Volkswagen, assemblage à Mladá Boleslav (Autotijd).",
+          "Coffre de 585 litres, 1 710 litres banquette rabattue.",
+          "Versions 60 (204 ch), 85 (286 ch) et 85x à transmission intégrale (286 ch)."
+        ],
+        "pros": [
+          "Grand coffre pour un SUV électrique.",
+          "Autonomie WLTP élevée avec la batterie de 77 kWh nets.",
+          "Version 85x à transmission intégrale."
+        ],
+        "differentiators": [
+          "Nouveau visage « Modern Solid » lors du restylage."
+        ],
+        "pricePositioning": "À partir de 41 705 € en Belgique selon Škoda Belgique (prix après remises commerciales).",
+        "innovations": [],
+        "compromises": [
+          "Vitesse maximale limitée à 160 ou 180 km/h.",
+          "Recharge DC de 135 kW seulement sur la 85 propulsion (Autotijd).",
+          "Masse supérieure à 1,9 tonne."
+        ]
+      },
+      "variants": [
+        {
+          "id": "skoda-enyaq-restyle-60",
+          "name": "Enyaq 60 (204 ch)",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 310,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 8.1,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 15.4,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 437,
+          "batteryKwh": 59,
+          "charging": {
+            "dcMaxKw": 165,
+            "dc10to80Min": 24
+          },
+          "co2Gkm": 0,
+          "weightKg": 1927,
+          "dimensions": {
+            "lengthMm": 4658,
+            "widthMm": 1879,
+            "heightMm": 1622,
+            "wheelbaseMm": 2766
+          },
+          "seats": 5,
+          "trunkL": 585,
+          "equipmentHighlights": [
+            "Batterie de 59 kWh nets (63 kWh bruts)"
+          ],
+          "prices": [],
+          "notes": "Prix : « à partir de » pour l'Enyaq selon Škoda Belgique, prix catalogue de la version d'entrée de gamme après déduction des remises commerciales et d'une éventuelle prime de reprise ; rattaché à la version 60, la moins puissante de la gamme consultée. Prix « à partir de » de skoda.be non retenu : il inclut remises commerciales et prime de reprise (41705 EUR, 2026-10).",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Enyaq 60",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/enyaq/60-5159",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Enyaq 60",
+              "url": "https://autotijd.be/fr/dimensions/skoda/enyaq/60-5159",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Škoda Belgique — Enyaq (page modèle)",
+              "url": "https://fr.skoda.be/modeles/enyaq/enyaq",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "skoda-enyaq-restyle-85",
+          "name": "Enyaq 85 (286 ch)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 286,
+          "powerKw": 210,
+          "torqueNm": 545,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 6.7,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 14.8,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 586,
+          "batteryKwh": 77,
+          "charging": {
+            "dcMaxKw": 135,
+            "dc10to80Min": 28
+          },
+          "co2Gkm": 0,
+          "weightKg": 2066,
+          "dimensions": {
+            "lengthMm": 4658,
+            "widthMm": 1879,
+            "heightMm": 1622,
+            "wheelbaseMm": 2766
+          },
+          "seats": 5,
+          "trunkL": 585,
+          "equipmentHighlights": [
+            "Batterie de 77 kWh nets (82 kWh bruts)"
+          ],
+          "prices": [],
+          "notes": "Prix belge par version non trouvé.",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Enyaq 85",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/enyaq/85-5160",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Enyaq 85",
+              "url": "https://autotijd.be/fr/dimensions/skoda/enyaq/85-5160",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "skoda-enyaq-restyle-85x",
+          "name": "Enyaq 85x (286 ch, 4x4)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteurs électriques avant et arrière",
+            "displacementCc": null
+          },
+          "powerHp": 286,
+          "powerKw": 210,
+          "torqueNm": 545,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 6.7,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 16,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 549,
+          "batteryKwh": 77,
+          "charging": {
+            "dcMaxKw": 175,
+            "dc10to80Min": 28
+          },
+          "co2Gkm": 0,
+          "weightKg": 2155,
+          "dimensions": {
+            "lengthMm": 4658,
+            "widthMm": 1879,
+            "heightMm": 1620,
+            "wheelbaseMm": 2766
+          },
+          "seats": 5,
+          "trunkL": 585,
+          "equipmentHighlights": [
+            "Transmission intégrale",
+            "Batterie de 77 kWh nets (82 kWh bruts)"
+          ],
+          "prices": [],
+          "notes": "Prix belge par version non trouvé.",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Enyaq 85x",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/enyaq/85x-awd-5161",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Enyaq 85x",
+              "url": "https://autotijd.be/fr/dimensions/skoda/enyaq/85x-awd-5161",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Škoda Belgique — Enyaq (page modèle)",
+          "url": "https://fr.skoda.be/modeles/enyaq/enyaq",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — fiche technique Škoda Enyaq",
+          "url": "https://autotijd.be/fr/fiches-techniques/skoda/enyaq",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "skoda-elroq",
+      "modelId": "skoda-elroq",
+      "brandId": "skoda",
+      "modelName": "Elroq",
+      "name": "Škoda Elroq (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV électrique compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Škoda Elroq DSC 9262.jpg",
+          "caption": null,
+          "depicts": "Škoda Elroq",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Skoda Elroq 85 – h 09022025.jpg",
+          "caption": null,
+          "depicts": "Škoda Elroq",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "L'Elroq est le premier SUV compact 100 % électrique de Škoda, au style « Modern Solid ». Il annonce jusqu'à 581 km d'autonomie WLTP en version 85.",
+        "positioning": "SUV électrique compact de Škoda, sous l'Enyaq.",
+        "technicalFacts": [
+          "Longueur de 4 488 mm et empattement de 2 765 mm (Autotijd).",
+          "Coffre de 470 litres.",
+          "Versions 50 (170 ch), 60 (204 ch) et 85 (286 ch) en propulsion ; finitions Clever, Corporate, Selection, Sportline et RS en Belgique (Škoda Belgique)."
+        ],
+        "pros": [
+          "Bon compromis entre gabarit et habitabilité.",
+          "Autonomie WLTP jusqu'à 581 km en version 85.",
+          "Recharge rapide de 10 à 80 % en 24 à 28 minutes selon la batterie (Autotijd)."
+        ],
+        "differentiators": [
+          "Premier SUV compact électrique de Škoda."
+        ],
+        "pricePositioning": "À partir de 38 155 € en Belgique selon Škoda Belgique (prix après remises commerciales) ; 33 990 € pour l'Elroq 50 dans la liste d'octobre 2024 (Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Vitesse maximale limitée à 160 km/h sur les versions 50 et 60.",
+          "Coffre plus petit que celui de l'Enyaq.",
+          "Données incomplètes publiées pour la version 60."
+        ]
+      },
+      "variants": [
+        {
+          "id": "skoda-elroq-50",
+          "name": "Elroq 50 (170 ch)",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 170,
+          "powerKw": 125,
+          "torqueNm": 310,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 9,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 15.8,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 375,
+          "batteryKwh": 52,
+          "charging": {
+            "dcMaxKw": 145,
+            "dc10to80Min": 25
+          },
+          "co2Gkm": 0,
+          "weightKg": 1874,
+          "dimensions": {
+            "lengthMm": 4488,
+            "widthMm": 1884,
+            "heightMm": 1625,
+            "wheelbaseMm": 2765
+          },
+          "seats": 5,
+          "trunkL": 470,
+          "equipmentHighlights": [
+            "Batterie de 52 kWh nets (55 kWh bruts)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 33990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be — prix belges Škoda Elroq (octobre 2024)",
+                "url": "https://autotijd.be/fr/prix/skoda/elroq",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Prix : version de base, liste belge d'octobre 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Elroq 50",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/elroq/50-4912",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Elroq 50",
+              "url": "https://autotijd.be/fr/dimensions/skoda/elroq/50-4912",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Škoda Elroq (octobre 2024)",
+              "url": "https://autotijd.be/fr/prix/skoda/elroq",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "skoda-elroq-60",
+          "name": "Elroq 60 (204 ch)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 310,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 8.5,
+          "topSpeedKmh": 160,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": 59,
+          "charging": {
+            "dcMaxKw": 165,
+            "dc10to80Min": 24
+          },
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4488,
+            "widthMm": 1884,
+            "heightMm": 1625,
+            "wheelbaseMm": 2765
+          },
+          "seats": 5,
+          "trunkL": 470,
+          "equipmentHighlights": [
+            "Batterie de 59 kWh nets (63 kWh bruts)"
+          ],
+          "prices": [],
+          "notes": "Consommation, autonomie WLTP et poids non publiés dans la source consultée. Prix non trouvé.",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Elroq 60",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/elroq/60-4914",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Elroq 60",
+              "url": "https://autotijd.be/fr/dimensions/skoda/elroq/60-4914",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "skoda-elroq-85",
+          "name": "Elroq 85 (286 ch)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 286,
+          "powerKw": 210,
+          "torqueNm": 545,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 6.6,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 15.2,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 581,
+          "batteryKwh": 77,
+          "charging": {
+            "dcMaxKw": 175,
+            "dc10to80Min": 28
+          },
+          "co2Gkm": 0,
+          "weightKg": 2044,
+          "dimensions": {
+            "lengthMm": 4488,
+            "widthMm": 1884,
+            "heightMm": 1625,
+            "wheelbaseMm": 2765
+          },
+          "seats": 5,
+          "trunkL": 470,
+          "equipmentHighlights": [
+            "Batterie de 77 kWh nets (82 kWh bruts)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 41690,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be — prix belges Škoda Elroq (octobre 2024)",
+                "url": "https://autotijd.be/fr/prix/skoda/elroq",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Recharge DC maximale 175 kW selon Autotijd ; Škoda Belgique annonce « jusqu'à 165 kW » pour les versions 85, 85x et RS. Prix : version de base, liste belge d'octobre 2024 (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Elroq 85",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/elroq/85-4913",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Elroq 85",
+              "url": "https://autotijd.be/fr/dimensions/skoda/elroq/85-4913",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Škoda Belgique — Elroq (page modèle)",
+              "url": "https://fr.skoda.be/modeles/elroq/elroq",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — prix belges Škoda Elroq (octobre 2024)",
+              "url": "https://autotijd.be/fr/prix/skoda/elroq",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Škoda Belgique — Elroq (page modèle)",
+          "url": "https://fr.skoda.be/modeles/elroq/elroq",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — fiche technique Škoda Elroq",
+          "url": "https://autotijd.be/fr/fiches-techniques/skoda/elroq",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — prix belges Škoda Elroq (octobre 2024)",
+          "url": "https://autotijd.be/fr/prix/skoda/elroq",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "skoda-superb-4",
+      "modelId": "skoda-superb",
+      "brandId": "skoda",
+      "modelName": "Superb",
+      "name": "Škoda Superb IV (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Grande berline (segment D)",
+      "bodyStyles": [
+        "Berline 5 portes (Limo)",
+        "Break (Combi)"
+      ],
+      "categories": [
+        "family-sedan"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Škoda Superb IV IMG 4524.jpg",
+          "caption": null,
+          "depicts": "Škoda Superb IV",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Škoda Superb IV Combi IMG 9431.jpg",
+          "caption": null,
+          "depicts": "Škoda Superb IV (break Combi)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Quatrième génération de la grande berline de Škoda, proposée en berline (Limo) et en break (Combi). Les données ci-dessous concernent la Limo.",
+        "positioning": "Vaisseau amiral de la gamme Škoda.",
+        "technicalFacts": [
+          "Longueur de 4 912 mm et empattement de 2 841 mm pour la Limo (Autotijd).",
+          "Coffre de 645 litres, 1 795 litres banquette rabattue (Limo).",
+          "Motorisations 1.5 TSI m-HEV, 2.0 TDI, 2.0 TSI 4x4 et hybride rechargeable iV (Škoda Belgique, Autotijd)."
+        ],
+        "pros": [
+          "Habitabilité et coffre exceptionnels.",
+          "Encore proposée en berline, contrairement à la Passat B9.",
+          "Version 2.0 TSI 4x4 de 265 ch performante (5,6 s de 0 à 100 km/h)."
+        ],
+        "differentiators": [
+          "Une des dernières grandes berlines généralistes à hayon en Europe."
+        ],
+        "pricePositioning": "À partir de 36 065 € en Belgique pour la Limo selon Škoda Belgique (prix après remises commerciales).",
+        "innovations": [],
+        "compromises": [
+          "Gabarit de plus de 4,9 m.",
+          "Version 2.0 TSI de 265 ch sans consommation publiée dans la source consultée.",
+          "Prix belges par version non trouvés."
+        ]
+      },
+      "variants": [
+        {
+          "id": "skoda-superb-4-1-5-tsi-150",
+          "name": "1.5 TSI m-HEV 150 ch DSG",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres 1.5 TSI micro-hybride",
+            "displacementCc": 1498
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 250,
+          "drivetrain": "fwd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 9.2,
+          "topSpeedKmh": 225,
+          "consumption": {
+            "value": 5.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 118,
+          "weightKg": 1559,
+          "dimensions": {
+            "lengthMm": 4912,
+            "widthMm": 1849,
+            "heightMm": 1481,
+            "wheelbaseMm": 2841
+          },
+          "seats": 5,
+          "trunkL": 645,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Consommation WLTP 5,2–5,8 l/100 km et CO2 118–132 g/km : valeurs les plus favorables retenues. Prix : « Superb Limo, à partir de » selon Škoda Belgique, prix catalogue de la version d'entrée de gamme après déduction des remises commerciales et d'une éventuelle prime de reprise ; rattaché à la version la moins puissante de la gamme consultée. Prix « à partir de » de skoda.be non retenu : il inclut remises commerciales et prime de reprise (36065 EUR, 2026-10).",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Superb 1.5 TSI 150 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/superb/15l-tsi-150-hp-4146",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Superb 1.5 TSI",
+              "url": "https://autotijd.be/fr/dimensions/skoda/superb/15l-tsi-150-hp-4146",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Škoda Belgique — Superb Limo (page modèle)",
+              "url": "https://fr.skoda.be/modeles/superb/superb",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "skoda-superb-4-2-0-tdi-4x4-193",
+          "name": "2.0 TDI 4x4 193 ch",
+          "tier": "mid",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "4 cylindres 2.0 TDI",
+            "displacementCc": 1968
+          },
+          "powerHp": 193,
+          "powerKw": 142,
+          "torqueNm": 400,
+          "drivetrain": "awd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 7.5,
+          "topSpeedKmh": 238,
+          "consumption": {
+            "value": 5.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 148,
+          "weightKg": 1734,
+          "dimensions": {
+            "lengthMm": 4912,
+            "widthMm": 1849,
+            "heightMm": 1481,
+            "wheelbaseMm": 2841
+          },
+          "seats": 5,
+          "trunkL": 645,
+          "equipmentHighlights": [
+            "Transmission intégrale 4x4"
+          ],
+          "prices": [],
+          "notes": "Consommation WLTP 5,6–6,1 l/100 km et CO2 148–161 g/km : valeurs les plus favorables retenues. Prix belge non trouvé pour la Limo.",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Superb 2.0 TDI 193 ch 4x4",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/superb/20l-tdi-193-hp-awd-4149",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Superb 2.0 TDI 4x4",
+              "url": "https://autotijd.be/fr/dimensions/skoda/superb/20l-tdi-193-hp-awd-4149",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "skoda-superb-4-2-0-tsi-4x4-265",
+          "name": "2.0 TSI 4x4 265 ch",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres 2.0 TSI",
+            "displacementCc": 1984
+          },
+          "powerHp": 265,
+          "powerKw": 195,
+          "torqueNm": 400,
+          "drivetrain": "awd",
+          "gearbox": "DSG à double embrayage, 7 rapports",
+          "accel0100s": 5.6,
+          "topSpeedKmh": 250,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1720,
+          "dimensions": {
+            "lengthMm": 4912,
+            "widthMm": 1849,
+            "heightMm": 1481,
+            "wheelbaseMm": 2841
+          },
+          "seats": 5,
+          "trunkL": 645,
+          "equipmentHighlights": [
+            "Transmission intégrale 4x4"
+          ],
+          "prices": [],
+          "notes": "Consommation et CO2 WLTP non publiés dans la source consultée. Prix belge non trouvé.",
+          "sources": [
+            {
+              "label": "Autotijd.be — fiche technique Superb 2.0 TSI 265 ch 4x4",
+              "url": "https://autotijd.be/fr/fiches-techniques/skoda/superb/20l-tsi-265-hp-awd-4147",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be — dimensions Superb 2.0 TSI 4x4",
+              "url": "https://autotijd.be/fr/dimensions/skoda/superb/20l-tsi-265-hp-awd-4147",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Škoda Belgique — Superb Limo (page modèle)",
+          "url": "https://fr.skoda.be/modeles/superb/superb",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be — fiche technique Škoda Superb",
+          "url": "https://autotijd.be/fr/fiches-techniques/skoda/superb",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}
