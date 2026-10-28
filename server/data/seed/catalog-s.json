@@ -3722,6 +3722,1643 @@
         }
       ],
       "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "byd-atto-3",
+      "modelId": "byd-atto-3",
+      "brandId": "byd",
+      "modelName": "Atto 3",
+      "name": "BYD Atto 3 (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact électrique (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:BYD Atto 3 1X7A6495.jpg",
+          "caption": "BYD Atto 3 à Stuttgart-Vaihingen (février 2023)",
+          "depicts": "BYD Atto 3 (2022), modèle de série européen",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 BYD Atto 3 Design 3.jpg",
+          "caption": "BYD Atto 3 (juin 2024)",
+          "depicts": "BYD Atto 3 (2022), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le BYD Atto 3 est un SUV compact 100 % électrique de 4,46 m, premier modèle lancé par BYD en Europe. Il repose sur l’e-Platform 3.0 et la batterie LFP « Blade » du constructeur chinois.",
+        "positioning": "SUV compact électrique de BYD, placé entre la compacte Dolphin et le SUV familial Seal U.",
+        "technicalFacts": [
+          "Moteur électrique avant de 150 kW (204 ch) et 310 Nm.",
+          "Batterie LFP Blade de 60,48 kWh (capacité brute) et 420 km d’autonomie WLTP selon Autotijd.",
+          "Longueur 4 455 mm, empattement 2 720 mm, coffre de 440 à 1 338 litres.",
+          "Recharge AC 11 kW ; BYD Europe annonce la recharge DC à 88 kW, 30 à 80 % en 29 minutes."
+        ],
+        "pros": [
+          "Équipement de série généreux dès la finition Comfort.",
+          "Accélérations vives pour un SUV familial (0 à 100 km/h en 7,3 s).",
+          "Batterie LFP réputée robuste face aux cycles de charge."
+        ],
+        "differentiators": [
+          "Intérieur au design original, inspiré du fitness, avec écran central rotatif.",
+          "Batterie « Blade » LFP de conception maison."
+        ],
+        "pricePositioning": "Prix belge à partir de 34 000 € en finition Comfort (barème d’octobre 2024), face aux Kia Niro EV, MG4 et Volkswagen ID.3.",
+        "innovations": [],
+        "compromises": [
+          "Puissance de recharge DC modeste pour la catégorie selon les chiffres constructeur.",
+          "Consommation un peu élevée pour un SUV compact (15,6 kWh/100 km WLTP).",
+          "Vitesse maximale limitée à 160 km/h."
+        ]
+      },
+      "variants": [
+        {
+          "id": "byd-atto-3-comfort",
+          "name": "Comfort 204 ch (60,48 kWh)",
+          "tier": "entry",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "co2Gkm": 0,
+          "seats": 5,
+          "powertrain": "ev",
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 310,
+          "accel0100s": 7.3,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 15.6,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 420,
+          "batteryKwh": 60.48,
+          "charging": {
+            "dcMaxKw": 88,
+            "dc10to80Min": null
+          },
+          "weightKg": 1750,
+          "dimensions": {
+            "lengthMm": 4455,
+            "widthMm": 1875,
+            "heightMm": 1615,
+            "wheelbaseMm": 2720
+          },
+          "trunkL": 440,
+          "equipmentHighlights": [
+            "Batterie LFP Blade de 60,48 kWh",
+            "Chargeur AC 11 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 34000,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – Prix belge BYD Atto 3 (octobre 2024)",
+                "url": "https://autotijd.be/fr/prix/byd/atto-3",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques Autotijd (fiche 60,48 kWh, millésime 2027) : batterie LFP Blade de 60,48 kWh (capacité brute), coffre 440 à 1 338 l. Puissance de charge DC : BYD Europe annonce « DC 88kW » (30 à 80 % en 29 min) alors qu’Autotijd indique 150 kW (10 à 80 % en 44 min) ; valeur constructeur retenue, temps 10-80 % laissé vide. Comfort et Design partagent la même motorisation : seules la finition et le prix diffèrent.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BYD Atto 3 60,48 kWh",
+              "url": "https://autotijd.be/fr/fiches-techniques/byd/atto-3/6048-kwh-204-hp-3768",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BYD Atto 3 60,48 kWh",
+              "url": "https://autotijd.be/fr/dimensions/byd/atto-3/6048-kwh-204-hp-3768",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "BYD Europe – BYD ATTO 3",
+              "url": "https://www.byd.com/eu/electric-cars/atto3",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge BYD Atto 3 (octobre 2024)",
+              "url": "https://autotijd.be/fr/prix/byd/atto-3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "byd-atto-3-design",
+          "name": "Design 204 ch (60,48 kWh)",
+          "tier": "top",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "co2Gkm": 0,
+          "seats": 5,
+          "powertrain": "ev",
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 310,
+          "accel0100s": 7.3,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 15.6,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 420,
+          "batteryKwh": 60.48,
+          "charging": {
+            "dcMaxKw": 88,
+            "dc10to80Min": null
+          },
+          "weightKg": 1750,
+          "dimensions": {
+            "lengthMm": 4455,
+            "widthMm": 1875,
+            "heightMm": 1615,
+            "wheelbaseMm": 2720
+          },
+          "trunkL": 440,
+          "equipmentHighlights": [
+            "Finition haut de gamme Design",
+            "Batterie LFP Blade de 60,48 kWh"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 39990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – Prix belge BYD Atto 3 (octobre 2024)",
+                "url": "https://autotijd.be/fr/prix/byd/atto-3",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques Autotijd (fiche 60,48 kWh, millésime 2027) : batterie LFP Blade de 60,48 kWh (capacité brute), coffre 440 à 1 338 l. Puissance de charge DC : BYD Europe annonce « DC 88kW » (30 à 80 % en 29 min) alors qu’Autotijd indique 150 kW (10 à 80 % en 44 min) ; valeur constructeur retenue, temps 10-80 % laissé vide. Comfort et Design partagent la même motorisation : seules la finition et le prix diffèrent.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BYD Atto 3 60,48 kWh",
+              "url": "https://autotijd.be/fr/fiches-techniques/byd/atto-3/6048-kwh-204-hp-3768",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BYD Atto 3 60,48 kWh",
+              "url": "https://autotijd.be/fr/dimensions/byd/atto-3/6048-kwh-204-hp-3768",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "BYD Europe – BYD ATTO 3",
+              "url": "https://www.byd.com/eu/electric-cars/atto3",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge BYD Atto 3 (octobre 2024)",
+              "url": "https://autotijd.be/fr/prix/byd/atto-3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "BYD Europe – BYD ATTO 3",
+          "url": "https://www.byd.com/eu/electric-cars/atto3",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – Prix belge BYD Atto 3 (octobre 2024)",
+          "url": "https://autotijd.be/fr/prix/byd/atto-3",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique BYD Atto 3 60,48 kWh",
+          "url": "https://autotijd.be/fr/fiches-techniques/byd/atto-3/6048-kwh-204-hp-3768",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "byd-dolphin",
+      "modelId": "byd-dolphin",
+      "brandId": "byd",
+      "modelName": "Dolphin",
+      "name": "BYD Dolphin (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte électrique (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:BYD Dolphin IAA 2023 1X7A0634.jpg",
+          "caption": "BYD Dolphin au salon IAA de Munich (septembre 2023)",
+          "depicts": "BYD Dolphin (version européenne, 2023)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:BYD Dolphin (Global version) IMG 9507.jpg",
+          "caption": "BYD Dolphin (version mondiale) à Ulm (avril 2024)",
+          "depicts": "BYD Dolphin (2023), version mondiale",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La BYD Dolphin est une compacte 100 % électrique de 4,29 m arrivée en Europe en 2023. Elle utilise l’e-Platform 3.0 et la batterie LFP « Blade » de BYD.",
+        "positioning": "Compacte électrique d’accès de BYD en Belgique, sous le SUV Atto 3.",
+        "technicalFacts": [
+          "Moteur avant de 150 kW (204 ch) et 290 Nm, traction avant.",
+          "Batterie LFP de 60 kWh et autonomie WLTP de 427 km.",
+          "Empattement de 2 700 mm pour 4 290 mm de long.",
+          "Annoncée en Europe en avril 2023, avec premières livraisons prévues au 4e trimestre 2023."
+        ],
+        "pros": [
+          "Empattement long et habitabilité arrière soignée pour la taille.",
+          "Puissance de 204 ch et 0 à 100 km/h en 7 s.",
+          "Prix d’entrée contenu pour une compacte électrique de 427 km d’autonomie."
+        ],
+        "differentiators": [
+          "Design intérieur inspiré du monde marin, écran central rotatif.",
+          "Plateforme e-Platform 3.0 avec batterie cell-to-pack."
+        ],
+        "pricePositioning": "Prix belge à partir de 29 000 € (Comfort, barème d’octobre 2024), face aux MG4, Volkswagen ID.3 et Renault Mégane E-Tech.",
+        "innovations": [],
+        "compromises": [
+          "Recharge DC limitée à 88 kW selon les données consultées.",
+          "Coffre de 345 litres, dans la moyenne basse de la catégorie.",
+          "Vitesse maximale de 160 km/h."
+        ]
+      },
+      "variants": [
+        {
+          "id": "byd-dolphin-comfort",
+          "name": "Comfort 204 ch (60 kWh)",
+          "tier": "entry",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "co2Gkm": 0,
+          "seats": 5,
+          "powertrain": "ev",
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 290,
+          "accel0100s": 7,
+          "topSpeedKmh": 160,
+          "consumption": null,
+          "electricRangeKm": 427,
+          "batteryKwh": 60,
+          "charging": {
+            "dcMaxKw": 88,
+            "dc10to80Min": null
+          },
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4290,
+            "widthMm": null,
+            "heightMm": 1570,
+            "wheelbaseMm": 2700
+          },
+          "trunkL": 345,
+          "equipmentHighlights": [
+            "Batterie LFP Blade de 60 kWh",
+            "Chargeur AC 11 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 29000,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – Prix belge BYD Dolphin (octobre 2024)",
+                "url": "https://autotijd.be/fr/prix/byd/dolphin",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données Autotijd (fiche 60 kWh, millésime 2027) : batterie LFP de 60 kWh brute (BYD España annonce 60,4 kWh), recharge AC 11 kW, DC 88 kW, 30 à 80 % en 29 min. Autonomie WLTP 427 km (BYD Europe). Largeur publiée uniquement rétroviseurs inclus (1 770 mm), donc non retenue. Coffre 345 à 1 310 l. BYD España annonce en 2025 une mise à jour (DC 110 kW, 30-80 % en 26 min, coffre 364 l) non confirmée pour la Belgique. Consommation, CO2 détaillé et poids non trouvés. Comfort et Design partagent la même motorisation.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BYD Dolphin 60 kWh",
+              "url": "https://autotijd.be/fr/fiches-techniques/byd/dolphin/60-kwh-204-hp-3887",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BYD Dolphin 60 kWh",
+              "url": "https://autotijd.be/fr/dimensions/byd/dolphin/60-kwh-204-hp-3887",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "BYD Europe – BYD Introduces Two New Full-electric Vehicles in Europe: BYD DOLPHIN and BYD SEAL",
+              "url": "https://www.byd.com/eu/news-list/BYD_Introduces_Two_New_Full-electric_Vehicles_in_Europe_BYD_DOLPHIN_and_BYD_SEAL.html",
+              "type": "manufacturer",
+              "publishedAt": "2023-04-14",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge BYD Dolphin (octobre 2024)",
+              "url": "https://autotijd.be/fr/prix/byd/dolphin",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "byd-dolphin-design",
+          "name": "Design 204 ch (60 kWh)",
+          "tier": "top",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "co2Gkm": 0,
+          "seats": 5,
+          "powertrain": "ev",
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 290,
+          "accel0100s": 7,
+          "topSpeedKmh": 160,
+          "consumption": null,
+          "electricRangeKm": 427,
+          "batteryKwh": 60,
+          "charging": {
+            "dcMaxKw": 88,
+            "dc10to80Min": null
+          },
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4290,
+            "widthMm": null,
+            "heightMm": 1570,
+            "wheelbaseMm": 2700
+          },
+          "trunkL": 345,
+          "equipmentHighlights": [
+            "Finition haut de gamme Design",
+            "Batterie LFP Blade de 60 kWh"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 35990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – Prix belge BYD Dolphin (octobre 2024)",
+                "url": "https://autotijd.be/fr/prix/byd/dolphin",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données Autotijd (fiche 60 kWh, millésime 2027) : batterie LFP de 60 kWh brute (BYD España annonce 60,4 kWh), recharge AC 11 kW, DC 88 kW, 30 à 80 % en 29 min. Autonomie WLTP 427 km (BYD Europe). Largeur publiée uniquement rétroviseurs inclus (1 770 mm), donc non retenue. Coffre 345 à 1 310 l. BYD España annonce en 2025 une mise à jour (DC 110 kW, 30-80 % en 26 min, coffre 364 l) non confirmée pour la Belgique. Consommation, CO2 détaillé et poids non trouvés. Comfort et Design partagent la même motorisation.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BYD Dolphin 60 kWh",
+              "url": "https://autotijd.be/fr/fiches-techniques/byd/dolphin/60-kwh-204-hp-3887",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BYD Dolphin 60 kWh",
+              "url": "https://autotijd.be/fr/dimensions/byd/dolphin/60-kwh-204-hp-3887",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "BYD Europe – BYD Introduces Two New Full-electric Vehicles in Europe: BYD DOLPHIN and BYD SEAL",
+              "url": "https://www.byd.com/eu/news-list/BYD_Introduces_Two_New_Full-electric_Vehicles_in_Europe_BYD_DOLPHIN_and_BYD_SEAL.html",
+              "type": "manufacturer",
+              "publishedAt": "2023-04-14",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge BYD Dolphin (octobre 2024)",
+              "url": "https://autotijd.be/fr/prix/byd/dolphin",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2023,
+            "month": 4,
+            "day": 14
+          },
+          "market": "EU",
+          "source": {
+            "label": "BYD Europe – BYD Introduces Two New Full-electric Vehicles in Europe: BYD DOLPHIN and BYD SEAL",
+            "url": "https://www.byd.com/eu/news-list/BYD_Introduces_Two_New_Full-electric_Vehicles_in_Europe_BYD_DOLPHIN_and_BYD_SEAL.html",
+            "type": "manufacturer",
+            "publishedAt": "2023-04-14",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "BYD Europe – BYD Introduces Two New Full-electric Vehicles in Europe: BYD DOLPHIN and BYD SEAL",
+          "url": "https://www.byd.com/eu/news-list/BYD_Introduces_Two_New_Full-electric_Vehicles_in_Europe_BYD_DOLPHIN_and_BYD_SEAL.html",
+          "type": "manufacturer",
+          "publishedAt": "2023-04-14",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "BYD España – BYD Dolphin sube el listón en el segmento eléctrico",
+          "url": "https://www.byd.com/es-es/news-list/byd-dolphin-sube-el-liston",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – Prix belge BYD Dolphin (octobre 2024)",
+          "url": "https://autotijd.be/fr/prix/byd/dolphin",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique BYD Dolphin 60 kWh",
+          "url": "https://autotijd.be/fr/fiches-techniques/byd/dolphin/60-kwh-204-hp-3887",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "byd-seal-u",
+      "modelId": "byd-seal-u",
+      "brandId": "byd",
+      "modelName": "Seal U",
+      "name": "BYD Seal U (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV familial (segment D)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:BYD Seal U IAA 2023 1X7A0045.jpg",
+          "caption": "BYD Seal U au salon IAA de Munich (septembre 2023)",
+          "depicts": "BYD Seal U électrique (2024)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:BYD Seal U DM-i GIMS 2024 1X7A2192.jpg",
+          "caption": "BYD Seal U DM-i au Salon de Genève (février 2024)",
+          "depicts": "BYD Seal U DM-i hybride rechargeable (2024)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le BYD Seal U est un SUV familial de 4,79 m proposé en Europe en version 100 % électrique depuis début 2024, puis en hybride rechargeable DM-i. La version DM-i est le premier hybride rechargeable de BYD vendu en Europe.",
+        "positioning": "SUV familial de BYD, au-dessus de l’Atto 3, disponible en électrique et en hybride rechargeable.",
+        "technicalFacts": [
+          "Version électrique Comfort : 160 kW, batterie LFP Blade de 71,8 kWh, 420 km WLTP (BYD).",
+          "Version DM-i : moteur 1,5 l associé à une batterie de 18,3 kWh, recharge AC 11 kW et DC 18 kW.",
+          "DM-i Design : deux moteurs électriques (150 kW avant, 120 kW arrière), 238 kW et 550 Nm cumulés.",
+          "Empattement de 2 765 mm."
+        ],
+        "pros": [
+          "Habitabilité et coffre (552 l en électrique) adaptés à la famille.",
+          "Grande autonomie totale en hybride rechargeable (1 080 km WLTP annoncés pour la Boost).",
+          "DM-i Design AWD rapide (0 à 100 km/h en 5,9 s)."
+        ],
+        "differentiators": [
+          "SUV familial proposé à la fois en électrique et en hybride rechargeable.",
+          "Batterie LFP Blade sur toutes les versions."
+        ],
+        "pricePositioning": "Prix belge à partir de 35 900 € en DM-i Boost et 39 000 € en électrique Comfort (barème d’octobre 2024), face aux Kia Sportage, Hyundai Tucson et Toyota RAV4.",
+        "innovations": [],
+        "compromises": [
+          "Version électrique lourde (2 020 kg) et énergivore (19,9 kWh/100 km WLTP).",
+          "Recharge DC de la DM-i limitée à 18 kW.",
+          "Coffre réduit à 425 l en DM-i selon BYD."
+        ]
+      },
+      "variants": [
+        {
+          "id": "byd-seal-u-comfort",
+          "name": "Comfort 218 ch (71,8 kWh)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique synchrone à aimants permanents avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 218,
+          "powerKw": 160,
+          "torqueNm": 310,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 9.3,
+          "topSpeedKmh": 175,
+          "consumption": {
+            "value": 19.9,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 420,
+          "batteryKwh": 71.8,
+          "charging": {
+            "dcMaxKw": 115,
+            "dc10to80Min": 42
+          },
+          "co2Gkm": 0,
+          "weightKg": 2020,
+          "dimensions": {
+            "lengthMm": 4785,
+            "widthMm": 1890,
+            "heightMm": 1668,
+            "wheelbaseMm": 2765
+          },
+          "seats": 5,
+          "trunkL": 552,
+          "equipmentHighlights": [
+            "Batterie LFP Blade de 71,8 kWh",
+            "Chargeur AC 11 kW triphasé, DC 115 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 39000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – Prix belge BYD Seal U (octobre 2024)",
+                "url": "https://autotijd.be/fr/prix/byd/seal-u",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Couple 310 Nm selon Autotijd (BYD parle de « up to 330 Nm » pour la gamme). Charge DC : 10 à 80 % en 42 min selon Autotijd, 30 à 80 % en 27 min selon BYD. Coffre 552 à 1 440 l. La version Design électrique (87 kWh) n’est pas reprise ici.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BYD Seal U Comfort",
+              "url": "https://autotijd.be/fr/fiches-techniques/byd/seal-u/comfort-4815",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BYD Seal U Comfort",
+              "url": "https://autotijd.be/fr/dimensions/byd/seal-u/comfort-4815",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "BYD Media – BYD expands European portfolio with new BYD SEAL U",
+              "url": "https://media.byd.com/byd-expands-european-portfolio-with-new-byd-seal-u-practical-spacious-comfortable-family-oriented-and-eco-conscious-electric-suv/?lang=eng",
+              "type": "manufacturer",
+              "publishedAt": "2024-01-29",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge BYD Seal U (octobre 2024)",
+              "url": "https://autotijd.be/fr/prix/byd/seal-u",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "byd-seal-u-dm-i-boost",
+          "name": "DM-i Boost 218 ch",
+          "tier": "entry",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,5 l + moteur électrique avant",
+            "displacementCc": 1498,
+            "electricMotors": 1
+          },
+          "powerHp": 218,
+          "powerKw": 160,
+          "torqueNm": 300,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (DM-i)",
+          "accel0100s": 8.9,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 0.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 80,
+          "batteryKwh": 18.3,
+          "charging": {
+            "dcMaxKw": 18,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 20.5,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4775,
+            "widthMm": 1890,
+            "heightMm": 1670,
+            "wheelbaseMm": 2765
+          },
+          "seats": 5,
+          "trunkL": 425,
+          "equipmentHighlights": [
+            "Batterie LFP Blade de 18,3 kWh",
+            "Recharge AC 11 kW et DC 18 kW",
+            "Autonomie totale WLTP de 1 080 km annoncée par BYD"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 35900,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – Prix belge BYD Seal U (octobre 2024)",
+                "url": "https://autotijd.be/fr/prix/byd/seal-u",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Moteur thermique 72 kW (BYD), moteur électrique 145 kW ; puissance et couple système 160 kW / 300 Nm. Dimensions et coffre (425 à 1 440 l) selon BYD Media ; Autotijd reprend pour la DM-i les cotes de la version électrique (4 785 x 1 668 mm, 552 l), non retenues. Charge DC 30 à 80 % en 35 min. Poids non trouvé.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BYD Seal U DM-i Boost",
+              "url": "https://autotijd.be/fr/fiches-techniques/byd/seal-u/dm-i-boost-4962",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "BYD Media – BYD presents SEAL U DM-i: ideal for eco-conscious mobility and long-range journeys",
+              "url": "https://media.byd.com/byd-presents-seal-u-dm-i-ideal-for-eco-conscious-mobility-and-long-range-journeys/?lang=eng",
+              "type": "manufacturer",
+              "publishedAt": "2024-05-13",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge BYD Seal U (octobre 2024)",
+              "url": "https://autotijd.be/fr/prix/byd/seal-u",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "byd-seal-u-dm-i-design-awd",
+          "name": "DM-i Design AWD 324 ch",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,5 l turbo + deux moteurs électriques (avant et arrière)",
+            "displacementCc": 1497,
+            "electricMotors": 2
+          },
+          "powerHp": 324,
+          "powerKw": 238,
+          "torqueNm": 550,
+          "drivetrain": "awd",
+          "gearbox": "Automatique (DM-i)",
+          "accel0100s": 5.9,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 1.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 70,
+          "batteryKwh": 18.3,
+          "charging": {
+            "dcMaxKw": 18,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 26,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4775,
+            "widthMm": 1890,
+            "heightMm": 1670,
+            "wheelbaseMm": 2765
+          },
+          "seats": 5,
+          "trunkL": 425,
+          "equipmentHighlights": [
+            "Transmission intégrale à moteur électrique arrière",
+            "Batterie LFP Blade de 18,3 kWh",
+            "Recharge AC 11 kW et DC 18 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 43500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – Prix belge BYD Seal U (octobre 2024)",
+                "url": "https://autotijd.be/fr/prix/byd/seal-u",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Moteur thermique turbo 96 kW (BYD) ; moteurs électriques 150 kW avant et 120 kW arrière selon BYD (Autotijd : 204 ch et 163 ch). Autonomie totale WLTP 870 km (BYD). Dimensions et coffre selon BYD Media (voir note de la Boost). Poids non trouvé.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BYD Seal U DM-i Design AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/byd/seal-u/dm-i-design-4963",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "BYD Media – BYD presents SEAL U DM-i: ideal for eco-conscious mobility and long-range journeys",
+              "url": "https://media.byd.com/byd-presents-seal-u-dm-i-ideal-for-eco-conscious-mobility-and-long-range-journeys/?lang=eng",
+              "type": "manufacturer",
+              "publishedAt": "2024-05-13",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge BYD Seal U (octobre 2024)",
+              "url": "https://autotijd.be/fr/prix/byd/seal-u",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "presentation": {
+          "date": {
+            "year": 2024,
+            "month": 1,
+            "day": 29
+          },
+          "market": "EU",
+          "source": {
+            "label": "BYD Media – BYD expands European portfolio with new BYD SEAL U",
+            "url": "https://media.byd.com/byd-expands-european-portfolio-with-new-byd-seal-u-practical-spacious-comfortable-family-oriented-and-eco-conscious-electric-suv/?lang=eng",
+            "type": "manufacturer",
+            "publishedAt": "2024-01-29",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "BYD Media – BYD expands European portfolio with new BYD SEAL U",
+          "url": "https://media.byd.com/byd-expands-european-portfolio-with-new-byd-seal-u-practical-spacious-comfortable-family-oriented-and-eco-conscious-electric-suv/?lang=eng",
+          "type": "manufacturer",
+          "publishedAt": "2024-01-29",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "BYD Media – BYD presents SEAL U DM-i: ideal for eco-conscious mobility and long-range journeys",
+          "url": "https://media.byd.com/byd-presents-seal-u-dm-i-ideal-for-eco-conscious-mobility-and-long-range-journeys/?lang=eng",
+          "type": "manufacturer",
+          "publishedAt": "2024-05-13",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – Prix belge BYD Seal U (octobre 2024)",
+          "url": "https://autotijd.be/fr/prix/byd/seal-u",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "suzuki-swift-2024",
+      "modelId": "suzuki-swift",
+      "brandId": "suzuki",
+      "modelName": "Swift",
+      "name": "Suzuki Swift (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine (segment B)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Suzuki Swift (2024) hybrid IMG 1873.jpg",
+          "caption": "Suzuki Swift hybrid à Stuttgart (septembre 2024)",
+          "depicts": "Suzuki Swift de quatrième génération (2024)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Suzuki Swift (2024) hybrid DSC 7922.jpg",
+          "caption": "Suzuki Swift hybrid à Ostfildern (mars 2025)",
+          "depicts": "Suzuki Swift de quatrième génération (2024)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Suzuki Swift de quatrième génération est une citadine de 3,86 m dévoilée fin 2023 et vendue en Europe depuis 2024. Elle reçoit un nouveau trois-cylindres 1,2 l Z12E à hybridation légère 12 V.",
+        "positioning": "Citadine polyvalente de Suzuki, proposée en Belgique en traction ou en transmission intégrale ALLGRIP.",
+        "technicalFacts": [
+          "Moteur 3 cylindres 1 197 cm³ Z12E de 83 ch et 112 Nm, avec alterno-démarreur (ISG) de 2,3 kW.",
+          "Boîte manuelle 5 rapports ou CVT ; transmission intégrale ALLGRIP AUTO avec la boîte manuelle.",
+          "Poids à vide sous la tonne (919 kg en 2 roues motrices manuelle).",
+          "Ventes au Japon dès le 13 décembre 2023 (CVT) et le 17 janvier 2024 (manuelle)."
+        ],
+        "pros": [
+          "Très faible poids et consommation sobre (4,4 l/100 km WLTP en manuelle).",
+          "Transmission intégrale disponible, rare dans le segment.",
+          "Prix d’entrée bas."
+        ],
+        "differentiators": [
+          "Une des dernières citadines à offrir quatre roues motrices.",
+          "Moteur trois-cylindres atmosphérique simple, sans turbo."
+        ],
+        "pricePositioning": "Prix belge à partir de 18 499 € (GL manuelle, barème d’avril 2024), face aux Toyota Yaris, Renault Clio et Dacia Sandero.",
+        "innovations": [],
+        "compromises": [
+          "Puissance modeste de 83 ch, accélérations lentes.",
+          "Coffre de 265 litres, petit pour la catégorie.",
+          "Électrification limitée à une hybridation légère 12 V."
+        ]
+      },
+      "variants": [
+        {
+          "id": "suzuki-swift-2024-12-dualjet-5mt",
+          "name": "1.2 Dualjet Mild Hybrid 83 ch BVM5",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,2 l Z12E, hybridation légère 12 V",
+            "displacementCc": 1197,
+            "electricMotors": 1
+          },
+          "powerHp": 83,
+          "powerKw": 61,
+          "torqueNm": 112,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": 12.5,
+          "topSpeedKmh": 165,
+          "consumption": {
+            "value": 4.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 98,
+          "weightKg": 919,
+          "dimensions": {
+            "lengthMm": 3860,
+            "widthMm": 1735,
+            "heightMm": 1495,
+            "wheelbaseMm": 2450
+          },
+          "seats": 5,
+          "trunkL": 265,
+          "equipmentHighlights": [
+            "Hybridation légère 12 V (ISG)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 18499,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – Prix belge Suzuki Swift (avril 2024)",
+                "url": "https://autotijd.be/fr/prix/suzuki/swift",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "CO2 WLTP 98 à 99 g/km selon équipement (valeur basse retenue). Poids à vide 919 à 949 kg selon le communiqué Suzuki (valeur basse). Coffre 265 à 980 l. Prix : finition GL.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Suzuki Swift 1.2L 83 ch BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/suzuki/swift/12l-83-hp-manual-4244",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Suzuki Swift 1.2L 83 ch BVM",
+              "url": "https://autotijd.be/fr/dimensions/suzuki/swift/12l-83-hp-manual-4244",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Suzuki Motor Corporation – communiqué de presse « Suzuki organise une présentation presse de la toute nouvelle Swift » (PDF)",
+              "url": "https://www.globalsuzuki.com/pan-europeantestdrive2403/swift/presskit/pdf/swift_pressrelease_fr.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2024-03-19",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge Suzuki Swift (avril 2024)",
+              "url": "https://autotijd.be/fr/prix/suzuki/swift",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "suzuki-swift-2024-12-dualjet-cvt",
+          "name": "1.2 Dualjet Mild Hybrid 83 ch CVT",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,2 l Z12E, hybridation légère 12 V",
+            "displacementCc": 1197,
+            "electricMotors": 1
+          },
+          "powerHp": 83,
+          "powerKw": 61,
+          "torqueNm": 112,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique à variation continue (CVT)",
+          "accel0100s": 11.9,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 4.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 106,
+          "weightKg": 957,
+          "dimensions": {
+            "lengthMm": 3860,
+            "widthMm": 1735,
+            "heightMm": 1495,
+            "wheelbaseMm": 2450
+          },
+          "seats": 5,
+          "trunkL": 265,
+          "equipmentHighlights": [
+            "Boîte CVT",
+            "Hybridation légère 12 V (ISG)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 24999,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – Prix belge Suzuki Swift (avril 2024)",
+                "url": "https://autotijd.be/fr/prix/suzuki/swift",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "CO2 WLTP 106 à 107 g/km selon le communiqué Suzuki (Autotijd : 105 à 107 g/km) ; valeur basse Suzuki retenue. Poids à vide 957 à 984 kg (valeur basse). Prix : finition GL Plus, ligne « 1.2L 83 ch » sans mention BVM de la liste Autotijd, attribuée à la CVT.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Suzuki Swift 1.2L 83 ch (automatique)",
+              "url": "https://autotijd.be/fr/fiches-techniques/suzuki/swift/12l-83-hp-4245",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Suzuki Swift 1.2L 83 ch",
+              "url": "https://autotijd.be/fr/dimensions/suzuki/swift/12l-83-hp-4245",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Suzuki Motor Corporation – communiqué de presse « Suzuki organise une présentation presse de la toute nouvelle Swift » (PDF)",
+              "url": "https://www.globalsuzuki.com/pan-europeantestdrive2403/swift/presskit/pdf/swift_pressrelease_fr.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2024-03-19",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge Suzuki Swift (avril 2024)",
+              "url": "https://autotijd.be/fr/prix/suzuki/swift",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "suzuki-swift-2024-12-dualjet-allgrip",
+          "name": "1.2 Dualjet Mild Hybrid 83 ch ALLGRIP AUTO BVM5",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,2 l Z12E, hybridation légère 12 V",
+            "displacementCc": 1197,
+            "electricMotors": 1
+          },
+          "powerHp": 83,
+          "powerKw": 61,
+          "torqueNm": 112,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": 13.6,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 4.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 110,
+          "weightKg": 995,
+          "dimensions": {
+            "lengthMm": 3860,
+            "widthMm": 1735,
+            "heightMm": 1520,
+            "wheelbaseMm": 2450
+          },
+          "seats": 5,
+          "trunkL": 265,
+          "equipmentHighlights": [
+            "Transmission intégrale ALLGRIP AUTO",
+            "Hybridation légère 12 V (ISG)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 24999,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – Prix belge Suzuki Swift (avril 2024)",
+                "url": "https://autotijd.be/fr/prix/suzuki/swift",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "CO2 WLTP 110 à 111 g/km (valeur basse). Poids à vide 995 à 1 037 kg selon Suzuki (valeur basse). Hauteur 1 520 mm (Autotijd). Coffre : Autotijd indique 265 l comme pour la 2 roues motrices. Prix : finition GL Plus.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Suzuki Swift 1.2L 83 ch BVM AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/suzuki/swift/12l-83-hp-manual-awd-4246",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Suzuki Swift 1.2L 83 ch BVM AWD",
+              "url": "https://autotijd.be/fr/dimensions/suzuki/swift/12l-83-hp-manual-awd-4246",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Suzuki Motor Corporation – communiqué de presse « Suzuki organise une présentation presse de la toute nouvelle Swift » (PDF)",
+              "url": "https://www.globalsuzuki.com/pan-europeantestdrive2403/swift/presskit/pdf/swift_pressrelease_fr.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2024-03-19",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge Suzuki Swift (avril 2024)",
+              "url": "https://autotijd.be/fr/prix/suzuki/swift",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": {
+        "marketAvailability": {
+          "date": {
+            "year": 2023,
+            "month": 12,
+            "day": 13
+          },
+          "market": "JP",
+          "source": {
+            "label": "Suzuki Motor Corporation – Suzuki Introduces the All-New Swift",
+            "url": "https://www.globalsuzuki.com/globalnews/2023/1206.html",
+            "type": "manufacturer",
+            "publishedAt": "2023-12-06",
+            "retrievedAt": "2026-10-28"
+          }
+        }
+      },
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Suzuki Motor Corporation – Suzuki Introduces the All-New Swift",
+          "url": "https://www.globalsuzuki.com/globalnews/2023/1206.html",
+          "type": "manufacturer",
+          "publishedAt": "2023-12-06",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Suzuki Motor Corporation – communiqué de presse « Suzuki organise une présentation presse de la toute nouvelle Swift » (PDF)",
+          "url": "https://www.globalsuzuki.com/pan-europeantestdrive2403/swift/presskit/pdf/swift_pressrelease_fr.pdf",
+          "type": "manufacturer",
+          "publishedAt": "2024-03-19",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – Prix belge Suzuki Swift (avril 2024)",
+          "url": "https://autotijd.be/fr/prix/suzuki/swift",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "suzuki-vitara-2015",
+      "modelId": "suzuki-vitara",
+      "brandId": "suzuki",
+      "modelName": "Vitara",
+      "name": "Suzuki Vitara (2015)",
+      "yearsLabel": "2015 –",
+      "startYear": 2015,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2024 Suzuki Vitara (4th generation) DSC 6083.jpg",
+          "caption": "Suzuki Vitara restylé à Stuttgart (novembre 2024)",
+          "depicts": "Suzuki Vitara (génération LY), restylage 2024",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Suzuki Vitara 1.5 Dualjet Hybrid Allgrip (2024) (54712268104).jpg",
+          "caption": "Suzuki Vitara 1.5 Hybrid Allgrip (2024)",
+          "depicts": "Suzuki Vitara (génération LY), restylage 2024, version hybride 1.5 Allgrip",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Suzuki Vitara (génération LY) est un SUV urbain de 4,18 m lancé en 2015 et restylé en 2024. Il est proposé en hybride léger 1.4 Boosterjet ou en hybride 1.5, avec traction ou transmission intégrale.",
+        "positioning": "SUV urbain de Suzuki, entre le S-Cross et l’e Vitara électrique.",
+        "technicalFacts": [
+          "1.4 Boosterjet Smart Hybrid : 1 373 cm³ turbo, 129 ch et 235 Nm, boîte manuelle 6 rapports.",
+          "1.5 Hybrid : 1 462 cm³ de 102 ch associé à un moteur électrique de 33 ch, 115 ch au total, boîte automatique 6 rapports.",
+          "Transmission intégrale disponible sur les deux motorisations.",
+          "Longueur 4 175 mm, empattement 2 500 mm."
+        ],
+        "pros": [
+          "Transmission intégrale disponible à prix contenu.",
+          "Poids raisonnable (1 155 kg en 1.4 traction).",
+          "Moteur 1.4 Boosterjet vif (0 à 100 km/h en 9,5 s)."
+        ],
+        "differentiators": [
+          "Un des derniers SUV urbains à proposer une transmission intégrale.",
+          "Deux niveaux d’électrification : hybride léger et hybride complet."
+        ],
+        "pricePositioning": "Prix belge à partir de 22 249 € (1.4 Boosterjet GL Plus, barème de juillet 2024), face aux Dacia Duster, Renault Captur et Toyota Yaris Cross.",
+        "innovations": [],
+        "compromises": [
+          "Génération ancienne (2015) malgré les restylages.",
+          "Coffre réduit à 289 l sur la version 1.5 Hybrid.",
+          "Hybride 1.5 moins performant que le 1.4 Boosterjet (12,7 s de 0 à 100 km/h)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "suzuki-vitara-2015-14-boosterjet",
+          "name": "1.4 Boosterjet Smart Hybrid 129 ch BVM6",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,4 l turbo Boosterjet, hybridation légère",
+            "displacementCc": 1373,
+            "electricMotors": 1
+          },
+          "powerHp": 129,
+          "powerKw": 95,
+          "torqueNm": 235,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 9.5,
+          "topSpeedKmh": 190,
+          "consumption": {
+            "value": 5.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 0.35,
+          "charging": null,
+          "co2Gkm": 119,
+          "weightKg": 1155,
+          "dimensions": {
+            "lengthMm": 4175,
+            "widthMm": 1775,
+            "heightMm": 1610,
+            "wheelbaseMm": 2500
+          },
+          "seats": 5,
+          "trunkL": 362,
+          "equipmentHighlights": [
+            "Hybridation légère, moteur électrique de 14 ch et 53 Nm"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 22249,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-07",
+              "source": {
+                "label": "Autotijd.be – Prix belge Suzuki Vitara juillet 2024",
+                "url": "https://autotijd.be/fr/prix/suzuki/vitara/vitara-liste-de-prix-juillet-2024",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "CO2 WLTP 119 à 120 g/km (valeur basse). Batterie 0,35 kWh brute. Coffre 362 à 1 119 l. Prix : finition GL Plus. Données Autotijd (millésime 2027).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Suzuki Vitara 1.4 Boosterjet Smart Hybrid BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/suzuki/vitara/14-boosterjet-smart-hybrid-manual-4521",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Suzuki Vitara 1.4 Boosterjet Smart Hybrid BVM",
+              "url": "https://autotijd.be/fr/dimensions/suzuki/vitara/14-boosterjet-smart-hybrid-manual-4521",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge Suzuki Vitara juillet 2024",
+              "url": "https://autotijd.be/fr/prix/suzuki/vitara/vitara-liste-de-prix-juillet-2024",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "suzuki-vitara-2015-15-hybrid",
+          "name": "1.5 Hybrid 115 ch",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,5 l atmosphérique + moteur électrique (hybride complet)",
+            "displacementCc": 1462,
+            "electricMotors": 1
+          },
+          "powerHp": 115,
+          "powerKw": 85,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 6 rapports",
+          "accel0100s": 12.7,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 0.84,
+          "charging": null,
+          "co2Gkm": 113,
+          "weightKg": 1235,
+          "dimensions": {
+            "lengthMm": 4175,
+            "widthMm": 1775,
+            "heightMm": 1610,
+            "wheelbaseMm": 2500
+          },
+          "seats": 5,
+          "trunkL": 289,
+          "equipmentHighlights": [
+            "Moteur électrique de 33 ch et 60 Nm",
+            "Batterie de 0,84 kWh"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 27799,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-07",
+              "source": {
+                "label": "Autotijd.be – Prix belge Suzuki Vitara juillet 2024",
+                "url": "https://autotijd.be/fr/prix/suzuki/vitara/vitara-liste-de-prix-juillet-2024",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Moteur thermique 102 ch / 138 Nm ; couple système non publié par Autotijd. Boîte « automatique 6 rapports » selon Autotijd (boîte robotisée AGS chez Suzuki, non vérifiée sur une page consultée). CO2 WLTP 113 à 114 g/km (valeur basse). Coffre 289 à 1 046 l. Prix : finition GL Plus.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Suzuki Vitara 1.5 Hybrid",
+              "url": "https://autotijd.be/fr/fiches-techniques/suzuki/vitara/15-hybrid-4519",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Suzuki Vitara 1.5 Hybrid",
+              "url": "https://autotijd.be/fr/dimensions/suzuki/vitara/15-hybrid-4519",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge Suzuki Vitara juillet 2024",
+              "url": "https://autotijd.be/fr/prix/suzuki/vitara/vitara-liste-de-prix-juillet-2024",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "suzuki-vitara-2015-14-boosterjet-allgrip",
+          "name": "1.4 Boosterjet Smart Hybrid 129 ch ALLGRIP BVM6",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,4 l turbo Boosterjet, hybridation légère",
+            "displacementCc": 1373,
+            "electricMotors": 1
+          },
+          "powerHp": 129,
+          "powerKw": 95,
+          "torqueNm": 235,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 10.2,
+          "topSpeedKmh": 190,
+          "consumption": {
+            "value": 5.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 0.35,
+          "charging": null,
+          "co2Gkm": 128,
+          "weightKg": 1235,
+          "dimensions": {
+            "lengthMm": 4175,
+            "widthMm": 1775,
+            "heightMm": 1610,
+            "wheelbaseMm": 2500
+          },
+          "seats": 5,
+          "trunkL": 362,
+          "equipmentHighlights": [
+            "Transmission intégrale",
+            "Hybridation légère, moteur électrique de 14 ch"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 25199,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-07",
+              "source": {
+                "label": "Autotijd.be – Prix belge Suzuki Vitara juillet 2024",
+                "url": "https://autotijd.be/fr/prix/suzuki/vitara/vitara-liste-de-prix-juillet-2024",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "CO2 WLTP 128 à 129 g/km (valeur basse). Coffre 362 à 1 119 l. Prix : finition GL Plus traction intégrale. Le nom commercial ALLGRIP n’apparaît pas sur les pages Autotijd consultées (« traction intégrale »).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Suzuki Vitara 1.4 Boosterjet Smart Hybrid BVM AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/suzuki/vitara/14-boosterjet-smart-hybrid-manual-awd-4520",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Suzuki Vitara 1.4 Boosterjet Smart Hybrid BVM AWD",
+              "url": "https://autotijd.be/fr/dimensions/suzuki/vitara/14-boosterjet-smart-hybrid-manual-awd-4520",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge Suzuki Vitara juillet 2024",
+              "url": "https://autotijd.be/fr/prix/suzuki/vitara/vitara-liste-de-prix-juillet-2024",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiches techniques Suzuki Vitara",
+          "url": "https://autotijd.be/fr/fiches-techniques/suzuki/vitara",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – Prix belge Suzuki Vitara juillet 2024",
+          "url": "https://autotijd.be/fr/prix/suzuki/vitara/vitara-liste-de-prix-juillet-2024",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
     }
   ]
 }
