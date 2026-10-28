@@ -1,0 +1,3727 @@
+{
+  "generations": [
+    {
+      "id": "volvo-xc40",
+      "modelId": "volvo-xc40",
+      "brandId": "volvo",
+      "modelName": "XC40",
+      "name": "Volvo XC40 (2017)",
+      "yearsLabel": "2017 –",
+      "startYear": 2017,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact premium (segment C-SUV)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "compact"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2024 Volvo XC40 B4 facelift front.jpg",
+          "caption": "Volvo XC40 B4 restylé (2024), vue avant, Harris Park (Australie)",
+          "depicts": "Volvo XC40 restylé, version B4",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 Volvo XC40 B4 facelift rear.jpg",
+          "caption": "Volvo XC40 B4 restylé (2024), vue arrière, Harris Park (Australie)",
+          "depicts": "Volvo XC40 restylé, version B4",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Volvo XC40 est le SUV compact de Volvo, lancé en 2017 sur la plateforme CMA et restylé depuis. En Belgique, il est proposé en essence micro-hybride B3 et B4.",
+        "positioning": "SUV thermique d'entrée de gamme de Volvo, sous le XC60 ; sa déclinaison électrique est commercialisée sous le nom EX40.",
+        "technicalFacts": [
+          "Plateforme CMA (Compact Modular Architecture).",
+          "Moteur 4 cylindres essence de 1 969 cm³ avec assistance électrique légère (14 ch et 40 Nm sur le B4) et boîte automatique 7 rapports, selon Autotijd.",
+          "Longueur de 4 440 mm, empattement de 2 702 mm et coffre de 443 à 1 319 litres (Autotijd)."
+        ],
+        "pros": [
+          "Gabarit compact, facile à vivre en ville.",
+          "Design soigné et intérieur typiquement Volvo.",
+          "Coffre de 443 litres correct pour la catégorie."
+        ],
+        "differentiators": [
+          "Proposé en thermique sur la même carrosserie que sa jumelle 100 % électrique, l'EX40."
+        ],
+        "pricePositioning": "À partir d'environ 40 000 € en Belgique (barème de février 2024), face aux Audi Q3, BMW X1 et Mercedes GLA.",
+        "innovations": [],
+        "compromises": [
+          "Consommations WLTP élevées pour des micro-hybrides (6,6 à 7,3 l/100 km).",
+          "Vitesse maximale limitée à 180 km/h.",
+          "Plateforme ancienne face aux concurrents plus récents."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "4 cylindres en ligne essence, micro-hybride",
+            "displacementCc": 1969
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "equipmentHighlights": [
+            "Hybridation légère avec batterie lithium-ion"
+          ],
+          "notes": "Consommation WLTP 6,6–7,3 l/100 km et CO2 150–166 g/km selon Autotijd ; valeurs les plus favorables retenues. Fiche Autotijd millésime 2027. Classé essence : micro-hybridation, pas de mode électrique. Prix belge : finition Essential, barème « à partir de février 2024 » relevé sur une base de données tierce ; le site belge de Volvo n'a pas pu être consulté (accès refusé).",
+          "id": "volvo-xc40-b3",
+          "name": "B3 163 ch",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "powerHp": 163,
+          "powerKw": 120,
+          "torqueNm": 265,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 8.6,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 6.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "co2Gkm": 150,
+          "weightKg": 1617,
+          "dimensions": {
+            "lengthMm": 4440,
+            "widthMm": 1863,
+            "heightMm": 1652,
+            "wheelbaseMm": 2702
+          },
+          "seats": 5,
+          "trunkL": 443,
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 39950,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-02",
+              "source": {
+                "label": "Autotijd.be – prix belges Volvo XC40",
+                "url": "https://autotijd.be/fr/prix/volvo/xc40",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique XC40 B3 163 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/volvo/xc40/b3-163-hp-3688",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions XC40 B3",
+              "url": "https://autotijd.be/fr/dimensions/volvo/xc40/b3-163-hp-3688",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Volvo XC40",
+              "url": "https://autotijd.be/fr/prix/volvo/xc40",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "engine": {
+            "architecture": "4 cylindres en ligne essence, micro-hybride",
+            "displacementCc": 1969,
+            "electricMotors": 1
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "equipmentHighlights": [
+            "Moteur électrique d'assistance de 14 ch et 40 Nm"
+          ],
+          "notes": "Consommation WLTP 6,7–7,3 l/100 km et CO2 151–166 g/km selon Autotijd ; valeurs les plus favorables retenues. Fiche Autotijd millésime 2027. Classé essence : micro-hybridation, pas de mode électrique. Poids à vide 1 617 kg selon Autotijd, identique au B3. Prix belge : finition Plus Dark (plus bas prix listé pour le B4), barème « à partir de février 2024 ».",
+          "id": "volvo-xc40-b4",
+          "name": "B4 197 ch",
+          "tier": "top",
+          "powertrain": "petrol",
+          "powerHp": 197,
+          "powerKw": 145,
+          "torqueNm": 300,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 7.6,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 6.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "co2Gkm": 151,
+          "weightKg": 1617,
+          "dimensions": {
+            "lengthMm": 4440,
+            "widthMm": 1863,
+            "heightMm": 1652,
+            "wheelbaseMm": 2702
+          },
+          "seats": 5,
+          "trunkL": 443,
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 49850,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-02",
+              "source": {
+                "label": "Autotijd.be – prix belges Volvo XC40",
+                "url": "https://autotijd.be/fr/prix/volvo/xc40",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique XC40 B4 197 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/volvo/xc40/b4-197-hp-3689",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions XC40 B4",
+              "url": "https://autotijd.be/fr/dimensions/volvo/xc40/b4-197-hp-3689",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Volvo XC40",
+              "url": "https://autotijd.be/fr/prix/volvo/xc40",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Volvo XC40",
+          "url": "https://autotijd.be/fr/prix/volvo/xc40",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiches techniques Volvo XC40",
+          "url": "https://autotijd.be/fr/fiches-techniques/volvo/xc40",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "volvo-ex40",
+      "modelId": "volvo-ex40",
+      "brandId": "volvo",
+      "modelName": "EX40",
+      "name": "Volvo EX40",
+      "yearsLabel": "En vente",
+      "startYear": null,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact premium électrique (segment C-SUV)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "compact"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Volvo XC40 Recharge Facelift IMG 8127.jpg",
+          "caption": "Volvo XC40 Recharge restylé à Esslingen (juillet 2023), avant son changement de nom en EX40",
+          "depicts": "Volvo XC40 Recharge restylé (EX40), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Volvo XC40 Recharge Twin Ultra CMA FL Onyx Black (8).jpg",
+          "caption": "Volvo XC40 Recharge Twin Ultra restylé noir Onyx (février 2024)",
+          "depicts": "Volvo XC40 Recharge Twin restylé (EX40 Twin Motor)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Volvo EX40 est la version 100 % électrique du XC40, vendue auparavant sous le nom XC40 Recharge. Il existe en propulsion Single Motor et en transmission intégrale Twin Motor Performance de 442 ch.",
+        "positioning": "SUV compact électrique de Volvo, au-dessus de l'EX30 et sous l'EX90.",
+        "technicalFacts": [
+          "Batteries de 70 kWh (Single Motor) ou 82 kWh (Twin Motor Performance), capacités brutes selon Autotijd.",
+          "Charge DC jusqu'à 180 kW (Single Motor) ou 205 kW (Extended Range et Twin Motor Performance), selon Autotijd.",
+          "Les versions Single Motor sont des propulsions ; la Twin Motor Performance est à transmission intégrale (Autotijd).",
+          "Coffre avant (frunk) de 31 litres (Autotijd)."
+        ],
+        "pros": [
+          "Autonomie WLTP jusqu'à 576 km en Extended Range (Autotijd).",
+          "Performances très vives en Twin Motor Performance (0-100 km/h en 4,6 s).",
+          "Recharge rapide 10-80 % en moins d'une demi-heure."
+        ],
+        "differentiators": [
+          "Même carrosserie que le XC40 thermique, avec un frunk de 31 litres en plus."
+        ],
+        "pricePositioning": "À partir d'environ 51 000 € en Belgique (barème de mars 2024), face aux Audi Q4 e-tron, BMW iX1 et Mercedes EQA.",
+        "innovations": [],
+        "compromises": [
+          "Poids élevé (1 940 à 2 084 kg selon Autotijd).",
+          "Coffre arrière plus petit que celui du XC40 thermique (410 l contre 443 l).",
+          "Vitesse maximale limitée à 180 km/h."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "electricRangeKm": 479,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 180,
+            "dc10to80Min": 26
+          },
+          "equipmentHighlights": [
+            "Batterie de 70 kWh (capacité brute ; capacité nette non publiée dans la source)",
+            "Chargeur AC 11 kW, charge rapide DC 180 kW"
+          ],
+          "notes": "Autonomie WLTP 435–479 km et consommation 17,1–18,7 kWh/100 km selon Autotijd ; valeurs les plus favorables retenues. Coffre : 410 l, valeur basse de la fourchette 410–1 286 l (banquette en place, par déduction de la FAQ Autotijd), plus frunk de 31 l. Fiche Autotijd millésime 2027. Prix belge : finition Essential, barème « à partir de mars 2024 ».",
+          "id": "volvo-ex40-single-motor",
+          "name": "Single Motor 238 ch",
+          "tier": "entry",
+          "powertrain": "ev",
+          "powerHp": 238,
+          "powerKw": 175,
+          "torqueNm": 420,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 7.3,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 17.1,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "co2Gkm": 0,
+          "weightKg": 1940,
+          "dimensions": {
+            "lengthMm": 4425,
+            "widthMm": 1873,
+            "heightMm": 1652,
+            "wheelbaseMm": 2702
+          },
+          "seats": 5,
+          "trunkL": 410,
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 51100,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Volvo EX40",
+                "url": "https://autotijd.be/fr/prix/volvo/ex40",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique EX40 Single Motor 238 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/volvo/ex40/single-motor-238-hp-4126",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions EX40 Single Motor",
+              "url": "https://autotijd.be/fr/dimensions/volvo/ex40/single-motor-238-hp-4126",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Volvo EX40",
+              "url": "https://autotijd.be/fr/prix/volvo/ex40",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "electricRangeKm": 576,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 205,
+            "dc10to80Min": 28
+          },
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW, charge rapide DC 205 kW"
+          ],
+          "notes": "Autonomie WLTP 520–576 km et consommation 16,6–18,4 kWh/100 km selon Autotijd ; valeurs les plus favorables retenues. Autotijd indique une capacité brute de 70 kWh, identique à la Single Motor, malgré une autonomie nettement supérieure : donnée douteuse, non reprise. Accélération 0-100 km/h 7,3 s selon Autotijd, identique à la Single Motor. Coffre 410 l + frunk 31 l. Prix belge : finition Core, barème « à partir de mars 2024 ».",
+          "id": "volvo-ex40-single-motor-extended-range",
+          "name": "Single Motor Extended Range 252 ch",
+          "tier": "mid",
+          "powertrain": "ev",
+          "powerHp": 252,
+          "powerKw": 185,
+          "torqueNm": 420,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 7.3,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 16.6,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "co2Gkm": 0,
+          "weightKg": 1975,
+          "dimensions": {
+            "lengthMm": 4425,
+            "widthMm": 1873,
+            "heightMm": 1652,
+            "wheelbaseMm": 2702
+          },
+          "seats": 5,
+          "trunkL": 410,
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 55550,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Volvo EX40",
+                "url": "https://autotijd.be/fr/prix/volvo/ex40",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique EX40 Single Motor Extended Range 252 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/volvo/ex40/single-motor-extended-range-252-hp-4127",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions EX40 Single Motor Extended Range",
+              "url": "https://autotijd.be/fr/dimensions/volvo/ex40/single-motor-extended-range-252-hp-4127",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Volvo EX40",
+              "url": "https://autotijd.be/fr/prix/volvo/ex40",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "engine": {
+            "architecture": "Deux moteurs électriques (un par essieu)",
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "electricRangeKm": 537,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 205,
+            "dc10to80Min": 28
+          },
+          "equipmentHighlights": [
+            "Batterie de 82 kWh (capacité brute selon Autotijd)",
+            "Transmission intégrale, chargeur AC 11 kW, DC 205 kW"
+          ],
+          "notes": "Autonomie WLTP 485–537 km et consommation 17,6–19,4 kWh/100 km selon Autotijd ; valeurs les plus favorables retenues. Coffre 410 l + frunk 31 l. Prix belge : finition Plus, barème « à partir de mars 2024 ».",
+          "id": "volvo-ex40-twin-motor-performance",
+          "name": "Twin Motor Performance 442 ch",
+          "tier": "sport",
+          "powertrain": "ev",
+          "powerHp": 442,
+          "powerKw": 325,
+          "torqueNm": 670,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 4.6,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 17.6,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "co2Gkm": 0,
+          "weightKg": 2084,
+          "dimensions": {
+            "lengthMm": 4425,
+            "widthMm": 1873,
+            "heightMm": 1652,
+            "wheelbaseMm": 2702
+          },
+          "seats": 5,
+          "trunkL": 410,
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 62500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Volvo EX40",
+                "url": "https://autotijd.be/fr/prix/volvo/ex40",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique EX40 Twin Motor Performance 442 ch AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/volvo/ex40/twin-motor-performance-442-hp-awd-4128",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions EX40 Twin Motor Performance",
+              "url": "https://autotijd.be/fr/dimensions/volvo/ex40/twin-motor-performance-442-hp-awd-4128",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Volvo EX40",
+              "url": "https://autotijd.be/fr/prix/volvo/ex40",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Volvo EX40",
+          "url": "https://autotijd.be/fr/prix/volvo/ex40",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiches techniques Volvo EX40",
+          "url": "https://autotijd.be/fr/fiches-techniques/volvo/ex40",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "volvo-xc60-mk2",
+      "modelId": "volvo-xc60",
+      "brandId": "volvo",
+      "modelName": "XC60",
+      "name": "Volvo XC60 II (2017)",
+      "yearsLabel": "2017 –",
+      "startYear": 2017,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV familial premium (segment D-SUV)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "family",
+        "travel",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Volvo XC60 II 2025 facelift 001.jpg",
+          "caption": "Volvo XC60 II restylé 2025",
+          "depicts": "Volvo XC60 II, restylage 2025",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2026 Volvo XC60 (SPA) DSC 2676.jpg",
+          "caption": "Volvo XC60 millésime 2026 à Stuttgart-Vaihingen (septembre 2025)",
+          "depicts": "Volvo XC60 II, restylage 2025",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Volvo XC60 de deuxième génération, lancé en 2017 sur la plateforme SPA et restylé en 2025, est le SUV familial intermédiaire de Volvo. Les fiches techniques belges actuelles recensent des hybrides rechargeables T6 et T8.",
+        "positioning": "SUV intermédiaire de Volvo, entre le XC40 et le XC90.",
+        "technicalFacts": [
+          "Plateforme SPA (Scalable Product Architecture).",
+          "Hybrides rechargeables T6 (350 ch) et T8 (455 ch) associant un 4 cylindres de 1 969 cm³ à un moteur électrique de 145 ch et à une boîte automatique 8 rapports (Autotijd).",
+          "Batterie de 18,8 kWh brute et autonomie électrique WLTP jusqu'à 82 km (Autotijd).",
+          "Longueur de 4 708 mm, empattement de 2 865 mm, coffre de 468 à 1 528 litres (Autotijd)."
+        ],
+        "pros": [
+          "Autonomie électrique d'environ 80 km, suffisante pour les trajets quotidiens.",
+          "Performances élevées des versions T8 (0-100 km/h en 4,9 s).",
+          "Coffre de 468 litres et habitabilité familiale."
+        ],
+        "differentiators": [
+          "Déclinaison Polestar Engineered à la mise au point spécifique."
+        ],
+        "pricePositioning": "À partir d'environ 52 000 € en Belgique en essence et 60 000 € en hybride rechargeable (barème de février 2024, antérieur au restylage 2025), face aux Audi Q5, BMW X3 et Mercedes GLC.",
+        "innovations": [],
+        "compromises": [
+          "Poids à vide de 2 050 kg pour les hybrides rechargeables (Autotijd).",
+          "Charge AC limitée à 6,4 kW et pas de charge rapide DC.",
+          "Vitesse maximale limitée à 180 km/h."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "4 cylindres en ligne essence + moteur électrique",
+            "displacementCc": 1969,
+            "electricMotors": 1
+          },
+          "electricRangeKm": 82,
+          "batteryKwh": null,
+          "charging": null,
+          "equipmentHighlights": [
+            "Batterie de 18,8 kWh (capacité brute)",
+            "Moteur électrique de 145 ch, chargeur AC 6,4 kW (charge en 3 h)"
+          ],
+          "notes": "Puissance système 350 ch ; moteur thermique 253 ch / 350 Nm et moteur électrique 145 ch / 309 Nm (Autotijd), couple combiné non publié. Consommation WLTP 0,9–1,1 l/100 km, CO2 22–26 g/km, autonomie électrique 77–82 km (Autotijd) ; valeurs les plus favorables retenues. Fiche Autotijd millésime 2027. Prix belge : finition Plus Black Edition (plus bas prix listé pour le T6), barème « à partir de février 2024 », antérieur au restylage 2025.",
+          "id": "volvo-xc60-mk2-t6",
+          "name": "T6 AWD Plug-in Hybrid 350 ch",
+          "tier": "entry",
+          "powertrain": "phev",
+          "powerHp": 350,
+          "powerKw": 257,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 5.7,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 0.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "co2Gkm": 22,
+          "weightKg": 2050,
+          "dimensions": {
+            "lengthMm": 4708,
+            "widthMm": 1902,
+            "heightMm": 1656,
+            "wheelbaseMm": 2865
+          },
+          "seats": 5,
+          "trunkL": 468,
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 59900,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-02",
+              "source": {
+                "label": "Autotijd.be – prix belges Volvo XC60",
+                "url": "https://autotijd.be/fr/prix/volvo/xc60",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique XC60 T6 350 ch AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/volvo/xc60/t6-awd-5289",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions XC60 T6 AWD",
+              "url": "https://autotijd.be/fr/dimensions/volvo/xc60/t6-awd-5289",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Volvo XC60",
+              "url": "https://autotijd.be/fr/prix/volvo/xc60",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "engine": {
+            "architecture": "4 cylindres en ligne essence + moteur électrique",
+            "displacementCc": 1969,
+            "electricMotors": 1
+          },
+          "electricRangeKm": 81,
+          "batteryKwh": null,
+          "charging": null,
+          "equipmentHighlights": [
+            "Batterie de 18,8 kWh (capacité brute)",
+            "Moteur électrique de 145 ch, chargeur AC 6,4 kW (charge en 3 h)"
+          ],
+          "notes": "Puissance système 455 ch ; moteur thermique 310 ch / 400 Nm et moteur électrique 145 ch / 309 Nm (Autotijd), couple combiné non publié. Consommation WLTP 1,0–1,1 l/100 km, CO2 22–26 g/km, autonomie électrique 77–81 km (Autotijd) ; valeurs les plus favorables retenues. Poids à vide 2 050 kg selon Autotijd, identique au T6. Fiche Autotijd millésime 2027. Prix belge : finition Plus Black Edition (plus bas prix listé pour le T8), barème « à partir de février 2024 », antérieur au restylage 2025.",
+          "id": "volvo-xc60-mk2-t8",
+          "name": "T8 AWD Plug-in Hybrid 455 ch",
+          "tier": "mid",
+          "powertrain": "phev",
+          "powerHp": 455,
+          "powerKw": 335,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 4.9,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "co2Gkm": 22,
+          "weightKg": 2050,
+          "dimensions": {
+            "lengthMm": 4708,
+            "widthMm": 1902,
+            "heightMm": 1656,
+            "wheelbaseMm": 2865
+          },
+          "seats": 5,
+          "trunkL": 468,
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 65101,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-02",
+              "source": {
+                "label": "Autotijd.be – prix belges Volvo XC60",
+                "url": "https://autotijd.be/fr/prix/volvo/xc60",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique XC60 T8 455 ch AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/volvo/xc60/t8-awd-5290",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions XC60 T8 AWD",
+              "url": "https://autotijd.be/fr/dimensions/volvo/xc60/t8-awd-5290",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Volvo XC60",
+              "url": "https://autotijd.be/fr/prix/volvo/xc60",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "engine": {
+            "architecture": "4 cylindres en ligne essence + moteur électrique",
+            "displacementCc": 1969,
+            "electricMotors": 1
+          },
+          "electricRangeKm": 81,
+          "batteryKwh": null,
+          "charging": null,
+          "equipmentHighlights": [
+            "Mise au point Polestar Engineered",
+            "Batterie de 18,8 kWh (capacité brute), chargeur AC 6,4 kW"
+          ],
+          "notes": "Puissance système 455 ch ; moteur thermique 310 ch / 400 Nm et moteur électrique 145 ch / 309 Nm (Autotijd), couple combiné non publié. Consommation WLTP 1,2 l/100 km, CO2 27–28 g/km, autonomie électrique 77–81 km (Autotijd) ; valeurs les plus favorables retenues. Prix belge : finition Ultra Polestar Engineered, barème « à partir de février 2024 », antérieur au restylage 2025.",
+          "id": "volvo-xc60-mk2-t8-polestar-engineered",
+          "name": "T8 AWD Polestar Engineered 455 ch",
+          "tier": "sport",
+          "powertrain": "phev",
+          "powerHp": 455,
+          "powerKw": 335,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 4.9,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 1.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "co2Gkm": 27,
+          "weightKg": 2050,
+          "dimensions": {
+            "lengthMm": 4708,
+            "widthMm": 1902,
+            "heightMm": 1656,
+            "wheelbaseMm": 2865
+          },
+          "seats": 5,
+          "trunkL": 468,
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 87120,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-02",
+              "source": {
+                "label": "Autotijd.be – prix belges Volvo XC60",
+                "url": "https://autotijd.be/fr/prix/volvo/xc60",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique XC60 T8 Polestar Engineered 455 ch AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/volvo/xc60/t8-polestar-engineered-awd-5291",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions XC60 T8 Polestar Engineered AWD",
+              "url": "https://autotijd.be/fr/dimensions/volvo/xc60/t8-polestar-engineered-awd-5291",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Volvo XC60",
+              "url": "https://autotijd.be/fr/prix/volvo/xc60",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Volvo XC60",
+          "url": "https://autotijd.be/fr/prix/volvo/xc60",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiches techniques Volvo XC60",
+          "url": "https://autotijd.be/fr/fiches-techniques/volvo/xc60",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "volvo-xc90-mk2",
+      "modelId": "volvo-xc90",
+      "brandId": "volvo",
+      "modelName": "XC90",
+      "name": "Volvo XC90 II (2014)",
+      "yearsLabel": "2014 –",
+      "startYear": 2014,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Grand SUV premium (segment E-SUV)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "luxury"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "family",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2025 Volvo XC90 B5 Dark AWD front.jpg",
+          "caption": "Volvo XC90 B5 Dark AWD millésime 2025, Rose Bay (Australie)",
+          "depicts": "Volvo XC90 II, restylage 2024, version B5",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Volvo XC90 II DSC 7420.jpg",
+          "caption": "Volvo XC90 II millésime 2025 à Stuttgart-Vaihingen",
+          "depicts": "Volvo XC90 II, restylage 2024",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Volvo XC90 de deuxième génération, présenté en 2014 et restylé en 2024, est le grand SUV de Volvo. Il est proposé en essence micro-hybride B5 et B6 et en hybride rechargeable T8 de 455 ch.",
+        "positioning": "Grand SUV familial haut de gamme de Volvo, vendu en parallèle de l'EX90 électrique.",
+        "technicalFacts": [
+          "Premier modèle de la plateforme SPA (Scalable Product Architecture).",
+          "Toutes les versions utilisent un 4 cylindres de 1 969 cm³, une boîte automatique 8 rapports et la transmission intégrale (Autotijd).",
+          "Le T8 associe ce moteur à un moteur électrique de 145 ch et à une batterie de 18,8 kWh brute (14,7 kWh utile), pour 63 à 71 km d'autonomie électrique WLTP (Autotijd).",
+          "Longueur de 4 953 mm et empattement de 2 984 mm (Autotijd)."
+        ],
+        "pros": [
+          "Grand volume intérieur, coffre jusqu'à 1 874 litres banquette rabattue (Autotijd).",
+          "Hybride rechargeable T8 puissant, avec 709 Nm de couple.",
+          "Confort et présentation intérieure haut de gamme."
+        ],
+        "differentiators": [
+          "Grand SUV premium motorisé exclusivement par des 4 cylindres."
+        ],
+        "pricePositioning": "À partir d'environ 82 000 € en Belgique (barème de septembre 2024), face aux Audi Q7, BMW X5 et Mercedes GLE.",
+        "innovations": [],
+        "compromises": [
+          "Consommation WLTP élevée des micro-hybrides (8,5 à 9,8 l/100 km selon Autotijd).",
+          "Base technique qui date de 2014 malgré les restylages.",
+          "Vitesse maximale limitée à 180 km/h."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "4 cylindres en ligne essence, micro-hybride",
+            "displacementCc": 1969,
+            "electricMotors": 1
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "equipmentHighlights": [
+            "Moteur électrique d'assistance de 14 ch"
+          ],
+          "notes": "Consommation WLTP 8,5–9,2 l/100 km et CO2 191–208 g/km selon Autotijd ; valeurs les plus favorables retenues. Classé essence : micro-hybridation, pas de mode électrique. Places : Autotijd indique 5, ce qui ne correspond pas à la configuration habituelle à 7 places du XC90 ; champ laissé vide faute de confirmation. Coffre 356 l (1 874 l banquette rabattue) selon Autotijd, configuration de sièges non précisée. Fiche Autotijd millésime 2027. Prix belge : finition Core Bright, barème « à partir de septembre 2024 ».",
+          "id": "volvo-xc90-mk2-b5",
+          "name": "B5 AWD 250 ch",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "powerHp": 250,
+          "powerKw": 184,
+          "torqueNm": 360,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 7.7,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 8.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "co2Gkm": 191,
+          "weightKg": 2015,
+          "dimensions": {
+            "lengthMm": 4953,
+            "widthMm": 1923,
+            "heightMm": 1767,
+            "wheelbaseMm": 2984
+          },
+          "seats": null,
+          "trunkL": 356,
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 81990,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-09",
+              "source": {
+                "label": "Autotijd.be – prix belges Volvo XC90",
+                "url": "https://autotijd.be/fr/prix/volvo/xc90",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique XC90 B5 250 ch AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/volvo/xc90/b5-awd-4880",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions XC90 B5 AWD",
+              "url": "https://autotijd.be/fr/dimensions/volvo/xc90/b5-awd-4880",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Volvo XC90",
+              "url": "https://autotijd.be/fr/prix/volvo/xc90",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "engine": {
+            "architecture": "4 cylindres en ligne essence, micro-hybride",
+            "displacementCc": 1969,
+            "electricMotors": 1
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "equipmentHighlights": [
+            "Moteur électrique d'assistance de 14 ch et 40 Nm"
+          ],
+          "notes": "Consommation WLTP 8,9–9,8 l/100 km et CO2 201–223 g/km selon Autotijd ; valeurs les plus favorables retenues. Classé essence : micro-hybridation. Places : Autotijd indique 5, valeur non retenue (voir B5). Version absente du barème belge Autotijd de septembre 2024 : aucun prix belge sourcé.",
+          "id": "volvo-xc90-mk2-b6",
+          "name": "B6 AWD 300 ch",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "powerHp": 300,
+          "powerKw": 220,
+          "torqueNm": 420,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 6.7,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 8.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "co2Gkm": 201,
+          "weightKg": 2015,
+          "dimensions": {
+            "lengthMm": 4953,
+            "widthMm": 1923,
+            "heightMm": 1767,
+            "wheelbaseMm": 2984
+          },
+          "seats": null,
+          "trunkL": 356,
+          "prices": [],
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique XC90 B6 300 ch AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/volvo/xc90/b6-awd-4881",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions XC90 B6 AWD",
+              "url": "https://autotijd.be/fr/dimensions/volvo/xc90/b6-awd-4881",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "engine": {
+            "architecture": "4 cylindres en ligne essence + moteur électrique",
+            "displacementCc": 1969,
+            "electricMotors": 1
+          },
+          "electricRangeKm": 71,
+          "batteryKwh": 14.7,
+          "charging": null,
+          "equipmentHighlights": [
+            "Batterie de 18,8 kWh brute / 14,7 kWh utile",
+            "Moteur électrique de 145 ch, charge AC complète en 3 h"
+          ],
+          "notes": "Moteur thermique 310 ch et moteur électrique 145 ch (Autotijd). Consommation WLTP 1,2–1,7 l/100 km, CO2 30–36 g/km, autonomie électrique 63–71 km (Autotijd) ; valeurs les plus favorables retenues. batteryKwh = capacité utile. Poids à vide 2 015 kg selon Autotijd, identique aux B5/B6 : donnée à vérifier. Places : Autotijd indique 5, valeur non retenue. Coffre 316 l (1 816 l banquette rabattue). Prix belge : finition Core Bright, barème « à partir de septembre 2024 ».",
+          "id": "volvo-xc90-mk2-t8",
+          "name": "T8 AWD Plug-in Hybrid 455 ch",
+          "tier": "top",
+          "powertrain": "phev",
+          "powerHp": 455,
+          "powerKw": 335,
+          "torqueNm": 709,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 5.4,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 1.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "co2Gkm": 30,
+          "weightKg": 2015,
+          "dimensions": {
+            "lengthMm": 4953,
+            "widthMm": 1923,
+            "heightMm": 1767,
+            "wheelbaseMm": 2984
+          },
+          "seats": null,
+          "trunkL": 316,
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 93990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-09",
+              "source": {
+                "label": "Autotijd.be – prix belges Volvo XC90",
+                "url": "https://autotijd.be/fr/prix/volvo/xc90",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique XC90 T8 455 ch AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/volvo/xc90/t8-awd-4882",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions XC90 T8 AWD",
+              "url": "https://autotijd.be/fr/dimensions/volvo/xc90/t8-awd-4882",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Volvo XC90",
+              "url": "https://autotijd.be/fr/prix/volvo/xc90",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Volvo XC90",
+          "url": "https://autotijd.be/fr/prix/volvo/xc90",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiches techniques Volvo XC90",
+          "url": "https://autotijd.be/fr/fiches-techniques/volvo/xc90",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "volvo-ex90",
+      "modelId": "volvo-ex90",
+      "brandId": "volvo",
+      "modelName": "EX90",
+      "name": "Volvo EX90 (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Grand SUV premium électrique 7 places (segment E-SUV)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "luxury"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "family",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Volvo EX90 DSC 7810.jpg",
+          "caption": "Volvo EX90 à Stuttgart-Vaihingen (mars 2025)",
+          "depicts": "Volvo EX90, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Volvo EX90 Auto Zuerich 2024 DSC 6147.jpg",
+          "caption": "Volvo EX90 au salon Auto Zürich (novembre 2024)",
+          "depicts": "Volvo EX90, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Volvo EX90 est le grand SUV électrique à 7 places de Volvo. En Belgique, il est proposé en Single Motor, Twin Motor de 408 ch et Twin Motor Performance de 517 ch.",
+        "positioning": "Vaisseau amiral électrique de Volvo, au-dessus de l'EX40, vendu en parallèle du XC90 thermique et hybride.",
+        "technicalFacts": [
+          "Batterie de 107 kWh brute sur les versions Twin Motor (Autotijd).",
+          "Charge DC jusqu'à 250 kW, 0-80 % en 30 min selon Autotijd ; chargeur AC de 11 kW.",
+          "Longueur de 5 037 mm et empattement de 2 985 mm (Autotijd).",
+          "7 places selon Autotijd."
+        ],
+        "pros": [
+          "Très spacieux, avec 7 places et jusqu'à 1 915 litres de coffre (Autotijd).",
+          "Couple très élevé : 770 Nm (Twin Motor) et 910 Nm (Twin Motor Performance).",
+          "Charge rapide jusqu'à 250 kW."
+        ],
+        "differentiators": [
+          "Grand SUV électrique à 7 places, une catégorie où l'offre premium reste restreinte."
+        ],
+        "pricePositioning": "À partir d'environ 86 000 € en Belgique (barème d'octobre 2024), face aux BMW iX, Mercedes EQS SUV et Audi Q8 e-tron.",
+        "innovations": [],
+        "compromises": [
+          "Poids à vide de 2 818 kg selon Autotijd.",
+          "Coffre de 310 litres seulement en bas de fourchette (Autotijd).",
+          "Vitesse maximale limitée à 180 km/h."
+        ]
+      },
+      "variants": [
+        {
+          "engine": {
+            "architecture": "Deux moteurs électriques (un par essieu)",
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 250,
+            "dc10to80Min": null
+          },
+          "equipmentHighlights": [
+            "Batterie de 107 kWh (capacité brute selon Autotijd)",
+            "Chargeur AC 11 kW, charge rapide DC 250 kW"
+          ],
+          "notes": "Autonomie et consommation WLTP absentes de la fiche Autotijd ; les valeurs trouvées ailleurs divergent selon les marchés et millésimes, champs laissés vides. Temps de charge DC donné en 0–80 % (30 min) par Autotijd, non reporté en 10–80 %. Coffre : 310 l, valeur basse de la fourchette 310–1 915 l (configuration non précisée). Le site Volvo n'a pas pu être consulté (accès refusé). Prix belge : finition Core, barème « à partir d'octobre 2024 ».",
+          "id": "volvo-ex90-twin-motor",
+          "name": "Twin Motor 408 ch",
+          "tier": "mid",
+          "powertrain": "ev",
+          "powerHp": 408,
+          "powerKw": 300,
+          "torqueNm": 770,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 5.9,
+          "topSpeedKmh": 180,
+          "consumption": null,
+          "co2Gkm": 0,
+          "weightKg": 2818,
+          "dimensions": {
+            "lengthMm": 5037,
+            "widthMm": 1964,
+            "heightMm": 1744,
+            "wheelbaseMm": 2985
+          },
+          "seats": 7,
+          "trunkL": 310,
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 93020,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – prix belges Volvo EX90",
+                "url": "https://autotijd.be/fr/prix/volvo/ex90",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique EX90 Twin Motor 408 ch AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/volvo/ex90/twin-motor-408-hp-awd-3651",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions EX90 Twin Motor",
+              "url": "https://autotijd.be/fr/dimensions/volvo/ex90/twin-motor-408-hp-awd-3651",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Volvo EX90",
+              "url": "https://autotijd.be/fr/prix/volvo/ex90",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "engine": {
+            "architecture": "Deux moteurs électriques (un par essieu)",
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 250,
+            "dc10to80Min": null
+          },
+          "equipmentHighlights": [
+            "Batterie de 107 kWh (capacité brute selon Autotijd)",
+            "Chargeur AC 11 kW, charge rapide DC 250 kW"
+          ],
+          "notes": "Autonomie et consommation WLTP absentes de la fiche Autotijd ; valeurs divergentes ailleurs, champs laissés vides. Poids à vide 2 818 kg selon Autotijd, identique au Twin Motor. Charge DC 0–80 % en 30 min (Autotijd). Prix belge : finition Plus, barème « à partir d'octobre 2024 ».",
+          "id": "volvo-ex90-twin-motor-performance",
+          "name": "Twin Motor Performance 517 ch",
+          "tier": "top",
+          "powertrain": "ev",
+          "powerHp": 517,
+          "powerKw": 380,
+          "torqueNm": 910,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 4.9,
+          "topSpeedKmh": 180,
+          "consumption": null,
+          "co2Gkm": 0,
+          "weightKg": 2818,
+          "dimensions": {
+            "lengthMm": 5037,
+            "widthMm": 1964,
+            "heightMm": 1744,
+            "wheelbaseMm": 2985
+          },
+          "seats": 7,
+          "trunkL": 310,
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 102620,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – prix belges Volvo EX90",
+                "url": "https://autotijd.be/fr/prix/volvo/ex90",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique EX90 Twin Motor Performance 517 ch AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/volvo/ex90/twin-motor-performance-517-hp-awd-3650",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions EX90 Twin Motor Performance",
+              "url": "https://autotijd.be/fr/dimensions/volvo/ex90/twin-motor-performance-517-hp-awd-3650",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Volvo EX90",
+              "url": "https://autotijd.be/fr/prix/volvo/ex90",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Volvo EX90",
+          "url": "https://autotijd.be/fr/prix/volvo/ex90",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiches techniques Volvo EX90",
+          "url": "https://autotijd.be/fr/fiches-techniques/volvo/ex90",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mg-mg4",
+      "modelId": "mg-mg4",
+      "brandId": "mg",
+      "modelName": "MG4 Electric",
+      "name": "MG4 Electric (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte électrique (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:MG4 EV Automesse Ludwigsburg 2022 1X7A5920.jpg",
+          "caption": "MG4 Electric à l'Automesse de Ludwigsburg (2022)",
+          "depicts": "MG4 Electric (2022), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:MG4 EV XPower GIMS 2024 1X7A2361.jpg",
+          "caption": "MG4 XPOWER au Salon de Genève 2024",
+          "depicts": "MG4 Electric XPOWER (2022), version à deux moteurs",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La MG4 Electric est une compacte 100 % électrique à propulsion lancée en 2022 sur la plateforme MSP du groupe SAIC. Elle est proposée avec des batteries de 51, 64 ou 77 kWh et en version XPOWER à deux moteurs de 435 ch.",
+        "positioning": "Compacte électrique de MG, vendue sous les SUV de la marque ; en Belgique, MG la commercialise désormais aux côtés de la MG4 EV Urban, modèle distinct.",
+        "technicalFacts": [
+          "Architecture à propulsion (moteur arrière) sur les versions à un moteur ; transmission intégrale à deux moteurs sur la XPOWER.",
+          "Longueur de 4 287 mm et empattement de 2 705 mm (Autotijd).",
+          "Coffre de 363 à 1 177 litres selon Autotijd.",
+          "Barème belge d'avril 2024 : de 32 285 € (Standard 51 kWh) à 42 285 € (XPOWER) selon Autotijd."
+        ],
+        "pros": [
+          "Propulsion et bon niveau de performances pour le prix.",
+          "Gamme large, de la version d'entrée à la XPOWER très puissante.",
+          "Gabarit compact avec un empattement généreux."
+        ],
+        "differentiators": [
+          "Une des rares compactes électriques à propulsion dans sa gamme de prix.",
+          "Version XPOWER de 435 ch annoncée à 3,8 s sur le 0 à 100 km/h."
+        ],
+        "pricePositioning": "Placée sous la plupart des compactes électriques européennes en Belgique, avec une entrée de gamme à 32 285 € au barème d'avril 2024 (Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Coffre moyen pour la catégorie.",
+          "Charge AC limitée à 6,6 kW sur la version Standard 51 kWh (Autotijd).",
+          "Autonomie de la XPOWER inférieure à celle des versions à un moteur."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mg-mg4-standard-51",
+          "name": "Standard 170 ch (51 kWh)",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 170,
+          "powerKw": 125,
+          "torqueNm": 250,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 7.7,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 17,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 350,
+          "batteryKwh": 51,
+          "charging": {
+            "dcMaxKw": 117,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1655,
+          "dimensions": {
+            "lengthMm": 4287,
+            "widthMm": null,
+            "heightMm": 1504,
+            "wheelbaseMm": 2705
+          },
+          "seats": 5,
+          "trunkL": 363,
+          "equipmentHighlights": [
+            "Batterie de 51 kWh (capacité brute)",
+            "Chargeur AC 6,6 kW, charge rapide DC 117 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 32285,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – prix belges MG MG4",
+                "url": "https://autotijd.be/fr/prix/mg/mg4",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Fiche Autotijd intitulée « MG4 Standard (2027) » (millésime de la base). Recharge DC 5–80 % en 40 min selon Autotijd (pas de valeur 10–80 %). Largeur publiée uniquement rétroviseurs inclus (2 060 mm). Coffre 363 l (1 177 l banquette rabattue). Prix belge : finition Standard, barème « à partir d'avril 2024 » relevé sur une base de données tierce. Cette version ne figure plus dans le tableau de consommation MG Belgique en vigueur au 01/05/2026.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique MG4 Standard 170 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/mg/mg4/standard-170-hp-3611",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions MG4 Standard 170 ch",
+              "url": "https://autotijd.be/fr/dimensions/mg/mg4/standard-170-hp-3611",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges MG MG4",
+              "url": "https://autotijd.be/fr/prix/mg/mg4",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mg-mg4-comfort-64",
+          "name": "Comfort 204 ch (64 kWh)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 250,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 7.9,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 16,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 450,
+          "batteryKwh": 64,
+          "charging": {
+            "dcMaxKw": 135,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1685,
+          "dimensions": {
+            "lengthMm": 4287,
+            "widthMm": null,
+            "heightMm": 1504,
+            "wheelbaseMm": 2705
+          },
+          "seats": 5,
+          "trunkL": 363,
+          "equipmentHighlights": [
+            "Batterie de 64 kWh (capacité brute)",
+            "Chargeur AC 11 kW, charge rapide DC 135 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 35785,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – prix belges MG MG4",
+                "url": "https://autotijd.be/fr/prix/mg/mg4",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Valeurs de la fiche Autotijd « MG4 Comfort (2027) ». Recharge DC 5–80 % en 35 min selon Autotijd (pas de valeur 10–80 %). Le tableau de consommation MG Belgique du 01/05/2026 indique 17,6 kWh/100 km pour la « New MG4 EV » 64 kWh Premium (150 kW / 204 ch), valeur non retenue car liée à une autre finition/millésime. Largeur publiée uniquement rétroviseurs inclus (2 060 mm). Prix belge : finition Comfort, barème « à partir d'avril 2024 » (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique MG4 Comfort 204 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/mg/mg4/comfort-204-hp-3612",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions MG4 Comfort 204 ch",
+              "url": "https://autotijd.be/fr/dimensions/mg/mg4/comfort-204-hp-3612",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges MG MG4",
+              "url": "https://autotijd.be/fr/prix/mg/mg4",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "MG Motor BELUX – Tableau de consommation WLTP (en vigueur le 01/05/2026)",
+              "url": "https://cdn.mgmotor.eu/files/MG_260039_Poster_mai_2026_V1_Web-FINAL.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2026-05-01",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mg-mg4-xpower",
+          "name": "XPOWER 435 ch (64 kWh, AWD)",
+          "tier": "sport",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Deux moteurs électriques (avant et arrière)",
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "powerHp": 435,
+          "powerKw": 320,
+          "torqueNm": 600,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 3.8,
+          "topSpeedKmh": 200,
+          "consumption": {
+            "value": 18.7,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 385,
+          "batteryKwh": 64,
+          "charging": {
+            "dcMaxKw": 140,
+            "dc10to80Min": 35
+          },
+          "co2Gkm": 0,
+          "weightKg": 1800,
+          "dimensions": {
+            "lengthMm": 4287,
+            "widthMm": 1836,
+            "heightMm": 1504,
+            "wheelbaseMm": 2705
+          },
+          "seats": null,
+          "trunkL": 350,
+          "equipmentHighlights": [
+            "Transmission intégrale à deux moteurs",
+            "Batterie de 64 kWh (61,7 kWh utiles selon Fiches-auto)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 42285,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – prix belges MG MG4",
+                "url": "https://autotijd.be/fr/prix/mg/mg4",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Caractéristiques de la fiche Fiches-auto « MG MG4 XPower (2023) » ; puissance en kW (320 kW / 435 ch) selon le tableau MG Belgique du 01/05/2026. Pour la XPOWER restylée (MY26), MG Belgique indique 19,0 kWh/100 km WLTP et MeilleurÉlectrique 405 km WLTP, 1 810 kg et 1 516 mm de haut : valeurs non mélangées avec celles retenues. Prix belge : finition Xpower, barème « à partir d'avril 2024 » (Autotijd).",
+          "sources": [
+            {
+              "label": "Fiches-auto.fr – fiche technique MG MG4 XPower 435 ch 64 kWh",
+              "url": "https://www.fiches-auto.fr/fiches-techniques/electriques/f-266-mg-mg4-xpower-435-ch-64-kwh.php",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "MG Motor BELUX – Tableau de consommation WLTP (en vigueur le 01/05/2026)",
+              "url": "https://cdn.mgmotor.eu/files/MG_260039_Poster_mai_2026_V1_Web-FINAL.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2026-05-01",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "MeilleurÉlectrique.fr – MG4 XPOWER MY26",
+              "url": "https://meilleurelectrique.fr/vehicule/mg/mg4/xpower-my26-1231",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges MG MG4",
+              "url": "https://autotijd.be/fr/prix/mg/mg4",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "MG Motor Belgique – MG4 EV",
+          "url": "https://www.mgmotor.be/fr/model/mg4",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "MG Motor BELUX – Tableau de consommation WLTP (en vigueur le 01/05/2026)",
+          "url": "https://cdn.mgmotor.eu/files/MG_260039_Poster_mai_2026_V1_Web-FINAL.pdf",
+          "type": "manufacturer",
+          "publishedAt": "2026-05-01",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges MG MG4",
+          "url": "https://autotijd.be/fr/prix/mg/mg4",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mg-zs-mk2",
+      "modelId": "mg-zs",
+      "brandId": "mg",
+      "modelName": "ZS",
+      "name": "MG ZS (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:MG ZS Hybrid+ Luxury (II) – f 01012025.jpg",
+          "caption": "MG ZS Hybrid+ Luxury de deuxième génération, vue avant (janvier 2025)",
+          "depicts": "MG ZS (2024, 2e génération), version Hybrid+",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 MG ZS Hybrid+ (France) rear view.jpg",
+          "caption": "MG ZS Hybrid+ 2024 en France, vue arrière",
+          "depicts": "MG ZS (2024, 2e génération), version Hybrid+",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La deuxième génération du MG ZS est un petit SUV proposé en Belgique en essence 1.5 et en hybride Hybrid+. Elle mesure 4,43 m et revendique un coffre de 443 litres.",
+        "positioning": "SUV d'entrée de gamme de MG, sous le HS ; il n'existe plus en version électrique dans cette génération sur le marché belge (la MG4 et la MGS5 EV couvrent l'électrique).",
+        "technicalFacts": [
+          "Motorisation Hybrid+ associant un 1.5 essence de 1 498 cm³ et un moteur électrique, 143 kW / 195 ch selon MG Belgique.",
+          "Boîte automatique à 3 rapports sur l'Hybrid+ (MG Belgique, Autotijd).",
+          "Longueur de 4 430 mm et empattement de 2 610 mm selon Autotijd.",
+          "Coffre de 443 à 1 457 litres selon Autotijd."
+        ],
+        "pros": [
+          "Prix d'accès bas pour un SUV hybride en Belgique.",
+          "Coffre spacieux pour la catégorie.",
+          "Consommation WLTP contenue de l'Hybrid+ (5,0 à 5,1 l/100 km)."
+        ],
+        "differentiators": [
+          "Un des SUV hybrides les moins chers du segment en Belgique (25 285 € en finition Standard au barème d'octobre 2024, Autotijd)."
+        ],
+        "pricePositioning": "Positionné en bas du segment des SUV urbains, face aux Dacia Duster, Renault Captur ou Toyota Yaris Cross.",
+        "innovations": [],
+        "compromises": [
+          "Version essence 1.5 nettement moins performante (0 à 100 km/h en 12,5 s selon Ultimatespecs).",
+          "Boîte automatique à 3 rapports seulement sur l'hybride."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mg-zs-mk2-15-essence",
+          "name": "1.5 essence 116 ch (BVM5)",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne atmosphérique",
+            "displacementCc": 1495,
+            "electricMotors": null
+          },
+          "powerHp": 116,
+          "powerKw": 85,
+          "torqueNm": 148,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": 12.5,
+          "topSpeedKmh": 179,
+          "consumption": {
+            "value": 6.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 145,
+          "weightKg": 1330,
+          "dimensions": {
+            "lengthMm": 4430,
+            "widthMm": 1818,
+            "heightMm": 1635,
+            "wheelbaseMm": 2606
+          },
+          "seats": 5,
+          "trunkL": 443,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Toutes les valeurs proviennent d'Ultimatespecs (fiche « ZS (ZS32) – 2025 New Model 1.5 », puissance 116 PS / 85 kW) ; aucune fiche constructeur détaillée n'a pu être ouverte. Empattement 2 606 mm selon cette source (Autotijd indique 2 610 mm pour l'Hybrid+). Puissance en ch : valeur PS de la source. Prix : MG Belgique ne publie qu'un « prix comptant » de 19 999 € dans un exemple de crédit promotionnel (01/09–30/11/2026) pour la ZS Essence, non retenu comme prix catalogue ; la version ne figure pas au barème Autotijd.",
+          "sources": [
+            {
+              "label": "Ultimatespecs – MG ZS (ZS32) 2025 1.5",
+              "url": "https://www.ultimatespecs.com/fr/car-specs/MG/146995/MG-ZS-2025-15-.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "MG Motor Belgique – MG ZS",
+              "url": "https://www.mgmotor.be/fr/model/zs",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mg-zs-mk2-hybrid-plus",
+          "name": "Hybrid+ 195 ch",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.5 essence 4 cylindres + moteur électrique (hybride non rechargeable)",
+            "displacementCc": 1498,
+            "electricMotors": 1
+          },
+          "powerHp": 195,
+          "powerKw": 143,
+          "torqueNm": 465,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 3 rapports",
+          "accel0100s": 8.7,
+          "topSpeedKmh": 168,
+          "consumption": {
+            "value": 5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 1.83,
+          "charging": null,
+          "co2Gkm": 113,
+          "weightKg": 1380,
+          "dimensions": {
+            "lengthMm": 4430,
+            "widthMm": 1818,
+            "heightMm": 1635,
+            "wheelbaseMm": 2610
+          },
+          "seats": 5,
+          "trunkL": 443,
+          "equipmentHighlights": [
+            "Batterie de 1,83 kWh (capacité brute, Autotijd)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 25285,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – prix belges MG ZS",
+                "url": "https://autotijd.be/fr/prix/mg/zs",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance, cylindrée, consommation et CO2 selon le tableau MG Belgique du 01/05/2026 (finition Standard : 5,0 l/100 km et 113 g/km ; Comfort et Luxury : 5,1 l/100 km et 115 g/km). Autotijd annonce 197 ch / 145 kW. Couple système, 0-100, vitesse max., batterie et poids à vide (1 380 kg, 1 455 kg en ordre de marche) selon Autotijd. Coffre 443 l (1 457 l banquette rabattue). Prix belge : finition Standard, barème « à partir d'octobre 2024 » (Autotijd).",
+          "sources": [
+            {
+              "label": "MG Motor BELUX – Tableau de consommation WLTP (en vigueur le 01/05/2026)",
+              "url": "https://cdn.mgmotor.eu/files/MG_260039_Poster_mai_2026_V1_Web-FINAL.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2026-05-01",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – fiche technique MG ZS Hybrid 197 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/mg/zs/hybrid-4938",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions MG ZS Hybrid",
+              "url": "https://autotijd.be/fr/dimensions/mg/zs/hybrid-4938",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges MG ZS",
+              "url": "https://autotijd.be/fr/prix/mg/zs",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "MG Motor Belgique – MG ZS",
+          "url": "https://www.mgmotor.be/fr/model/zs",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "MG Motor BELUX – Tableau de consommation WLTP (en vigueur le 01/05/2026)",
+          "url": "https://cdn.mgmotor.eu/files/MG_260039_Poster_mai_2026_V1_Web-FINAL.pdf",
+          "type": "manufacturer",
+          "publishedAt": "2026-05-01",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges MG ZS",
+          "url": "https://autotijd.be/fr/prix/mg/zs",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mg-hs-mk2",
+      "modelId": "mg-hs",
+      "brandId": "mg",
+      "modelName": "HS",
+      "name": "MG HS (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV familial (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily",
+        "family",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:MG HS (second generation) DSC 7234.jpg",
+          "caption": "MG HS de deuxième génération",
+          "depicts": "MG HS (2024, 2e génération)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:MG HS PHEV (second generation) Auto Zuerich 2024 DSC 6110.jpg",
+          "caption": "MG HS PHEV de deuxième génération à l'Auto Zürich 2024",
+          "depicts": "MG HS (2024, 2e génération), version hybride rechargeable",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La deuxième génération du MG HS est un SUV familial de 4,66 m proposé en essence 1.5 T-GDI, en hybride Hybrid+ et en hybride rechargeable. La version rechargeable annonce 103 km d'autonomie électrique WLTP.",
+        "positioning": "SUV familial de MG, au-dessus du ZS ; son équivalent rechargeable est vendu sous le nom d'EHS en France.",
+        "technicalFacts": [
+          "Moteur 1.5 T-GDI de 1 496 cm³ commun aux trois motorisations (MG Belgique).",
+          "Essence : 125 kW / 169 ch et boîte à double embrayage 7 rapports (MG Belgique).",
+          "Hybride rechargeable : 205 kW / 279 ch selon MG Belgique, batterie de 21,4 kWh.",
+          "Longueur de 4 655 mm et empattement de 2 765 mm selon Autotijd (version essence)."
+        ],
+        "pros": [
+          "Habitabilité et coffre (507 litres en essence selon Autotijd) généreux pour le prix.",
+          "Hybride rechargeable performante (6,8 s sur le 0 à 100 km/h selon Automobile-Propre et Touring) avec plus de 100 km d'autonomie électrique WLTP.",
+          "Trois motorisations pour couvrir des usages différents."
+        ],
+        "differentiators": [
+          "Un des SUV hybrides rechargeables les moins chers du segment C en Belgique."
+        ],
+        "pricePositioning": "Placé sous les SUV compacts européens et japonais, de 29 785 € (essence Comfort) à 42 785 € (PHEV Luxury) au barème belge d'octobre 2024 (Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Version essence gourmande : 7,6 l/100 km et 173 g/km WLTP (MG Belgique).",
+          "Pas de charge rapide DC sur l'hybride rechargeable selon Automobile-Propre."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mg-hs-mk2-15t-gdi",
+          "name": "1.5 T-GDI 169 ch DCT7",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo",
+            "displacementCc": 1496,
+            "electricMotors": null
+          },
+          "powerHp": 169,
+          "powerKw": 125,
+          "torqueNm": 275,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique à double embrayage 7 rapports",
+          "accel0100s": 9.6,
+          "topSpeedKmh": 195,
+          "consumption": {
+            "value": 7.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 173,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4655,
+            "widthMm": 1890,
+            "heightMm": 1664,
+            "wheelbaseMm": 2765
+          },
+          "seats": 5,
+          "trunkL": 507,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 29785,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – prix belges MG HS",
+                "url": "https://autotijd.be/fr/prix/mg/hs",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Cylindrée, puissance, boîte (7DCT), consommation et CO2 selon le tableau MG Belgique du 01/05/2026 ; couple, 0-100, vitesse max. et dimensions selon Autotijd (fiche « HS GS6 1.5T 169 ch »). Poids non publié sur la fiche consultée. Coffre 507 l (1 484 l banquette rabattue). Prix belge : finition Comfort, barème « à partir d'octobre 2024 » (Autotijd).",
+          "sources": [
+            {
+              "label": "MG Motor BELUX – Tableau de consommation WLTP (en vigueur le 01/05/2026)",
+              "url": "https://cdn.mgmotor.eu/files/MG_260039_Poster_mai_2026_V1_Web-FINAL.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2026-05-01",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – fiche technique MG HS GS6 1.5T 169 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/mg/hs/gs6-15t-4523",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions MG HS GS6 1.5T",
+              "url": "https://autotijd.be/fr/dimensions/mg/hs/gs6-15t-4523",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges MG HS",
+              "url": "https://autotijd.be/fr/prix/mg/hs",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mg-hs-mk2-hybrid-plus",
+          "name": "Hybrid+ 224 ch",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.5 T-GDI essence + moteur électrique (hybride non rechargeable)",
+            "displacementCc": 1496,
+            "electricMotors": 1
+          },
+          "powerHp": 224,
+          "powerKw": 165,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Automatique 2 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": {
+            "value": 5.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 126,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": 507,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Cylindrée, puissance (165 kW / 224 ch), boîte (2AT), consommation et CO2 selon le tableau MG Belgique du 01/05/2026. Coffre 507 à 1 484 l selon Motor1 (mai 2025), qui cite aussi 142 ch pour le moteur thermique, 198 ch pour le moteur électrique et 340 Nm de couple système (non retenu faute de confirmation constructeur). Performances, poids et dimensions non trouvés sur une page consultée. Prix : version absente du barème Autotijd ; MG Belgique ne publie qu'un « prix comptant » de 32 285 € dans un exemple de crédit promotionnel (01/09–30/11/2026), non retenu.",
+          "sources": [
+            {
+              "label": "MG Motor BELUX – Tableau de consommation WLTP (en vigueur le 01/05/2026)",
+              "url": "https://cdn.mgmotor.eu/files/MG_260039_Poster_mai_2026_V1_Web-FINAL.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2026-05-01",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Motor1 France – MG HS Hybrid+",
+              "url": "https://fr.motor1.com/news/761248/mg-hs-suv-hybride/",
+              "type": "press",
+              "publishedAt": "2025-05-30",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "MG Motor Belgique – MG HS Hybrid+",
+              "url": "https://www.mgmotor.be/fr/model/hs-hev",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mg-hs-mk2-phev",
+          "name": "Plug-in Hybrid 279 ch (21,4 kWh)",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "1.5 T-GDI essence + moteur électrique (hybride rechargeable)",
+            "displacementCc": 1496,
+            "electricMotors": 1
+          },
+          "powerHp": 279,
+          "powerKw": 205,
+          "torqueNm": null,
+          "drivetrain": null,
+          "gearbox": "Automatique 2 rapports",
+          "accel0100s": 6.8,
+          "topSpeedKmh": null,
+          "consumption": {
+            "value": 0.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 103,
+          "batteryKwh": 21.4,
+          "charging": {
+            "dcMaxKw": null,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 14,
+          "weightKg": 1830,
+          "dimensions": {
+            "lengthMm": 4670,
+            "widthMm": 1890,
+            "heightMm": 1663,
+            "wheelbaseMm": 2765
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Batterie de 21,4 kWh (capacité brute)",
+            "Charge AC 7 kW monophasée, pas de charge DC (Automobile-Propre)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 40285,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – prix belges MG HS",
+                "url": "https://autotijd.be/fr/prix/mg/hs",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance (205 kW / 279 ch), cylindrée, boîte (2AT), consommation (0,5 l/100 km) et CO2 selon le tableau MG Belgique du 01/05/2026 ; Automobile-Propre (fiche « nouveau MG EHS », nom français du modèle) annonce 272 ch / 200 kW. 0-100 (6,8 s), batterie 21,4 kWh brute, autonomie électrique WLTP 103 km, poids à vide 1 830 kg et dimensions selon Automobile-Propre, confirmés par Touring (sauf largeur/hauteur inversées dans l'encadré). Vitesse max. divergente (190 km/h chez Automobile-Propre, 200 km/h chez Touring) et coffre divergent (441 l chez Automobile-Propre, 507 l chez Touring) : laissés vides. Couple cumulé non retenu (350 Nm selon Automobile-Propre ; 230 Nm thermique et 340 Nm électrique). Prix belge : finition Comfort, barème « à partir d'octobre 2024 » (Autotijd).",
+          "sources": [
+            {
+              "label": "MG Motor BELUX – Tableau de consommation WLTP (en vigueur le 01/05/2026)",
+              "url": "https://cdn.mgmotor.eu/files/MG_260039_Poster_mai_2026_V1_Web-FINAL.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2026-05-01",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Automobile-Propre – nouveau MG EHS hybride rechargeable, fiche technique",
+              "url": "https://www.automobile-propre.com/voitures/mg-ehs-nouveau/fiche-technique/",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Touring – Test MG HS Plug-in Hybrid 2025",
+              "url": "https://www.touring.be/fr/articles/test-mg-hs-plug-in-hybrid-2025",
+              "type": "press",
+              "publishedAt": "2025-04-07",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges MG HS",
+              "url": "https://autotijd.be/fr/prix/mg/hs",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "MG Motor Belgique – MG HS Plug-in Hybrid",
+          "url": "https://www.mgmotor.be/fr/model/hs-phev",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "MG Motor BELUX – Tableau de consommation WLTP (en vigueur le 01/05/2026)",
+          "url": "https://cdn.mgmotor.eu/files/MG_260039_Poster_mai_2026_V1_Web-FINAL.pdf",
+          "type": "manufacturer",
+          "publishedAt": "2026-05-01",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges MG HS",
+          "url": "https://autotijd.be/fr/prix/mg/hs",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ford-puma-2019",
+      "modelId": "ford-puma",
+      "brandId": "ford",
+      "modelName": "Puma",
+      "name": "Ford Puma (2019)",
+      "yearsLabel": "2019 –",
+      "startYear": 2019,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Ford Puma Gen-E IMG 3836.jpg",
+          "caption": "Ford Puma Gen-E à Böblingen (août 2025)",
+          "depicts": "Ford Puma Gen-E (version électrique du Puma restylé)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Ford Puma ST 1X7A0331.jpg",
+          "caption": "Ford Puma ST à Sindelfingen (mai 2022)",
+          "depicts": "Ford Puma ST (2019), avant restylage",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Ford Puma est un SUV urbain lancé en 2019, décliné en essence micro-hybride, en version sportive ST et, depuis le restylage, en version 100 % électrique Gen-E. Il reprend le nom d'un coupé Ford des années 1990.",
+        "positioning": "SUV compact d'entrée de gamme de Ford en Europe, sous le Kuga ; le Gen-E en est la déclinaison électrique.",
+        "technicalFacts": [
+          "Moteur 1.0 EcoBoost trois cylindres de 999 cm³ associé à un système micro-hybride (Autotijd).",
+          "Empattement de 2 588 mm pour toutes les versions (Autotijd).",
+          "Puma Gen-E : moteur électrique avant de 168 ch et 290 Nm, batterie de 43 kWh (Autotijd).",
+          "Puma Gen-E : recharge 10-80 % en environ 23 minutes sur borne rapide selon Ford."
+        ],
+        "pros": [
+          "Gamme large, de la version essence de base à l'électrique et à la sportive ST.",
+          "Coffre généreux pour la catégorie, avec un bac de rangement sous le plancher.",
+          "Châssis réputé pour son agrément de conduite."
+        ],
+        "differentiators": [
+          "Un des rares SUV urbains proposés à la fois en version sportive (ST) et 100 % électrique."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarre à 29 050 € (1.0 EcoBoost 125 ch boîte manuelle, barème de décembre 2024 relevé par Autotijd) ; le Gen-E démarre à 35 490 €.",
+        "innovations": [],
+        "compromises": [
+          "Gen-E limité à 160 km/h et autonomie WLTP sous les 400 km.",
+          "Places arrière comptées, conséquence du gabarit urbain."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ford-puma-2019-ecoboost-125-mhev",
+          "name": "1.0 EcoBoost mHEV 125 ch BVM6",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres en ligne turbo micro-hybride",
+            "displacementCc": 999,
+            "electricMotors": 1
+          },
+          "powerHp": 125,
+          "powerKw": 92,
+          "torqueNm": 170,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 9.8,
+          "topSpeedKmh": 191,
+          "consumption": {
+            "value": 5.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 119,
+          "weightKg": 1316,
+          "dimensions": {
+            "lengthMm": 4186,
+            "widthMm": 1805,
+            "heightMm": 1550,
+            "wheelbaseMm": 2588
+          },
+          "seats": 5,
+          "trunkL": 456,
+          "equipmentHighlights": [
+            "Système micro-hybride : moteur électrique d'appoint de 16 ch (Autotijd)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 29050,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Ford Puma",
+                "url": "https://autotijd.be/fr/prix/ford/puma",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 5,3–6,0 l/100 km et CO2 119–135 g/km selon équipement (Autotijd) ; valeurs les plus favorables retenues. Coffre 456 l (1 216 l banquette rabattue). Prix belge : finition Titanium BVM, barème « à partir de décembre 2024 » relevé sur une base de données tierce. Puma assemblé à Craiova (Roumanie) selon Autotijd.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Puma 1.0L EcoBoost 125 ch BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/ford/puma/10l-ecoboost-125-hp-manual-4194",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Puma 1.0L EcoBoost 125 ch BVM",
+              "url": "https://autotijd.be/fr/dimensions/ford/puma/10l-ecoboost-125-hp-manual-4194",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Ford Puma",
+              "url": "https://autotijd.be/fr/prix/ford/puma",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ford-puma-2019-st-170",
+          "name": "ST 1.0 EcoBoost mHEV 170 ch",
+          "tier": "sport",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres en ligne turbo micro-hybride",
+            "displacementCc": 999,
+            "electricMotors": 1
+          },
+          "powerHp": 170,
+          "powerKw": 114,
+          "torqueNm": 248,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 7.4,
+          "topSpeedKmh": 210,
+          "consumption": {
+            "value": 6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 135,
+          "weightKg": 1390,
+          "dimensions": {
+            "lengthMm": 4226,
+            "widthMm": 1805,
+            "heightMm": 1533,
+            "wheelbaseMm": 2588
+          },
+          "seats": 5,
+          "trunkL": 456,
+          "equipmentHighlights": [
+            "Finition ST spécifique (boucliers, suspensions)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 39600,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Ford Puma",
+                "url": "https://autotijd.be/fr/prix/ford/puma",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Couple : 248 Nm selon Ford UK (page Puma ST), alors qu'Autotijd indique 200 Nm ; valeur constructeur retenue. Performances, consommation (6,0–6,5 l/100 km), CO2 (135–146 g/km), poids et dimensions issus de la fiche Autotijd « 1.0L EcoBoost 170 ch » (boîte automatique 7 rapports), identifiée comme le ST par sa puissance et sa longueur spécifique (4 226 mm) ; Autotijd ne la nomme pas « ST ». Ford UK annonce 0-62 mph en 7,4 s. Le barème Autotijd liste la finition ST à 39 600 € sous l'intitulé « 160 ch », incohérent avec les 170 ch annoncés par Ford : prix à prendre avec réserve.",
+          "sources": [
+            {
+              "label": "Ford UK – Puma ST",
+              "url": "https://www.ford.co.uk/cars/puma-st",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – fiche technique Puma 1.0L EcoBoost 170 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/ford/puma/10l-ecoboost-170-hp-4197",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Puma 1.0L EcoBoost 170 ch",
+              "url": "https://autotijd.be/fr/dimensions/ford/puma/10l-ecoboost-170-hp-4197",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Ford Puma",
+              "url": "https://autotijd.be/fr/prix/ford/puma",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ford-puma-2019-gen-e",
+          "name": "Gen-E 168 ch (43 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 168,
+          "powerKw": 124,
+          "torqueNm": 290,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 8,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 13.1,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 376,
+          "batteryKwh": 43,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": 23
+          },
+          "co2Gkm": 0,
+          "weightKg": 1563,
+          "dimensions": {
+            "lengthMm": 4214,
+            "widthMm": 1805,
+            "heightMm": 1555,
+            "wheelbaseMm": 2588
+          },
+          "seats": 5,
+          "trunkL": 574,
+          "equipmentHighlights": [
+            "Batterie de 43 kWh (capacité nette selon Autotijd)",
+            "Charge rapide DC 100 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 35490,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Ford Puma",
+                "url": "https://autotijd.be/fr/prix/ford/puma",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Autonomie WLTP 347–376 km selon équipement (Autotijd ; Ford annonce « jusqu'à 376 km ») ; valeur la plus favorable retenue. Temps de recharge 10-80 % « environ 23 minutes » sur borne rapide selon Ford (Autotijd l'affiche sous la rubrique recharge AC, vraisemblablement par erreur). Coffre de 574 l selon Autotijd, volume total incluant le bac sous plancher. Prix belge : version de base, barème « à partir de décembre 2024 » (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Puma Gen-E",
+              "url": "https://autotijd.be/fr/fiches-techniques/ford/puma/gen-e-5084",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Puma Gen-E",
+              "url": "https://autotijd.be/fr/dimensions/ford/puma/gen-e-5084",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Ford – All you need to know about the all-electric Puma Gen-E",
+              "url": "https://www.at.ford.com/us/en/home/news-media/news/2024/12/all-you-need-to-know-about-the-all-electric-puma-gen-e-.html",
+              "type": "manufacturer",
+              "publishedAt": "2024-12-03",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Ford Puma",
+              "url": "https://autotijd.be/fr/prix/ford/puma",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Ford – All you need to know about the all-electric Puma Gen-E",
+          "url": "https://www.at.ford.com/us/en/home/news-media/news/2024/12/all-you-need-to-know-about-the-all-electric-puma-gen-e-.html",
+          "type": "manufacturer",
+          "publishedAt": "2024-12-03",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Ford UK – Puma ST",
+          "url": "https://www.ford.co.uk/cars/puma-st",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Ford Puma",
+          "url": "https://autotijd.be/fr/prix/ford/puma",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiches techniques Ford Puma",
+          "url": "https://autotijd.be/fr/fiches-techniques/ford/puma",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ford-kuga-mk3",
+      "modelId": "ford-kuga",
+      "brandId": "ford",
+      "modelName": "Kuga",
+      "name": "Ford Kuga III (2019)",
+      "yearsLabel": "2019 –",
+      "startYear": 2019,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "daily",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Ford Kuga 2.5 Duratec FHEV AWD Active (III, Facelift) – f 01012025.jpg",
+          "caption": "Ford Kuga III restylé, 2.5 FHEV AWD Active (janvier 2025)",
+          "depicts": "Ford Kuga III restylé (2024), version hybride Active",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Ford Kuga 2.5 Duratec Plug-in-Hybrid ST-Line (III) – f 27062021.jpg",
+          "caption": "Ford Kuga III 2.5 Plug-in-Hybrid ST-Line (juin 2021)",
+          "depicts": "Ford Kuga III (2019) hybride rechargeable, avant restylage",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Ford Kuga de troisième génération est un SUV compact familial proposé en essence, en hybride et en hybride rechargeable. Restylé en 2024, il mise sur l'électrification avec un 2.5 hybride décliné en deux et quatre roues motrices.",
+        "positioning": "SUV familial de Ford en Europe, au-dessus du Puma et sous l'Explorer électrique en prix.",
+        "technicalFacts": [
+          "Moteur 2.5 quatre cylindres de 2 488 cm³ pour les versions hybride et hybride rechargeable (Autotijd).",
+          "Batterie de 14,4 kWh (capacité brute) pour l'hybride rechargeable de 243 ch (Autotijd).",
+          "Longueur de 4 604 mm et empattement de 2 711 mm (Autotijd).",
+          "Capacité de remorquage jusqu'à 2 100 kg pour les versions hybrides à transmission intégrale selon Ford UK."
+        ],
+        "pros": [
+          "Offre électrifiée complète : hybride, hybride AWD et hybride rechargeable.",
+          "Banquette arrière coulissante qui module l'espace aux jambes et le coffre.",
+          "Consommation contenue de l'hybride au regard du gabarit."
+        ],
+        "differentiators": [
+          "Hybride rechargeable de 243 ch à prix proche de l'hybride classique en Belgique.",
+          "Version hybride à transmission intégrale (183 ch) au catalogue."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarre à 38 705 € (1.5 EcoBoost 150 ch Titanium, barème d'août 2024 relevé par Autotijd) ; l'hybride rechargeable démarre à 45 375 €.",
+        "innovations": [],
+        "compromises": [
+          "Hybride rechargeable traction uniquement.",
+          "Prix d'entrée élevé pour une version essence à boîte manuelle."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ford-kuga-mk3-ecoboost-150",
+          "name": "1.5 EcoBoost 150 ch BVM6",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne turbo",
+            "displacementCc": 1497
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 240,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 9.5,
+          "topSpeedKmh": 195,
+          "consumption": {
+            "value": 6.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 144,
+          "weightKg": 1526,
+          "dimensions": {
+            "lengthMm": 4604,
+            "widthMm": 1882,
+            "heightMm": 1679,
+            "wheelbaseMm": 2711
+          },
+          "seats": 5,
+          "trunkL": 412,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 38705,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-08",
+              "source": {
+                "label": "Autotijd.be – prix belges Ford Kuga",
+                "url": "https://autotijd.be/fr/prix/ford/kuga",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 6,3–7,2 l/100 km et CO2 144–163 g/km selon équipement (Autotijd) ; valeurs les plus favorables retenues. Coffre 412 l (1 534 l banquette rabattue) selon Autotijd ; Ford UK annonce jusqu'à 536 l avec la banquette avancée. Prix belge : finition Titanium, barème « à partir d'août 2024 » (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Kuga 1.5 EcoBoost 150 ch BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/ford/kuga/15-ecoboost-150-hp-manual-4085",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Kuga 1.5 EcoBoost 150 ch BVM",
+              "url": "https://autotijd.be/fr/dimensions/ford/kuga/15-ecoboost-150-hp-manual-4085",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Ford Kuga",
+              "url": "https://autotijd.be/fr/prix/ford/kuga",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ford-kuga-mk3-fhev-180",
+          "name": "2.5 Full Hybrid 180 ch",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres en ligne atmosphérique + moteur électrique",
+            "displacementCc": 2488
+          },
+          "powerHp": 180,
+          "powerKw": 132,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9.1,
+          "topSpeedKmh": 196,
+          "consumption": {
+            "value": 5.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 121,
+          "weightKg": 1689,
+          "dimensions": {
+            "lengthMm": 4604,
+            "widthMm": 1882,
+            "heightMm": 1679,
+            "wheelbaseMm": 2711
+          },
+          "seats": 5,
+          "trunkL": 412,
+          "equipmentHighlights": [
+            "Batterie de 1,1 kWh (capacité brute, Autotijd)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 42830,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-08",
+              "source": {
+                "label": "Autotijd.be – prix belges Ford Kuga",
+                "url": "https://autotijd.be/fr/prix/ford/kuga",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance cumulée. Couple non publié par la source consultée. Consommation WLTP 5,3–6,2 l/100 km et CO2 121–143 g/km selon équipement (Autotijd) ; valeurs les plus favorables retenues. Existe aussi en 183 ch AWD (à partir de 44 580 € en Titanium). Prix belge : finition Titanium, barème « à partir d'août 2024 » (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Kuga 2.5 Hybrid 180 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/ford/kuga/25-hybrid-180-hp-4086",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Kuga 2.5 Hybrid 180 ch",
+              "url": "https://autotijd.be/fr/dimensions/ford/kuga/25-hybrid-180-hp-4086",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Ford Kuga",
+              "url": "https://autotijd.be/fr/prix/ford/kuga",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ford-kuga-mk3-phev-243",
+          "name": "2.5 Plug-in Hybrid 243 ch",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne atmosphérique + moteur électrique",
+            "displacementCc": 2488
+          },
+          "powerHp": 243,
+          "powerKw": 179,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 7.3,
+          "topSpeedKmh": 200,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1859,
+          "dimensions": {
+            "lengthMm": 4604,
+            "widthMm": 1882,
+            "heightMm": 1679,
+            "wheelbaseMm": 2711
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Batterie de 14,4 kWh (capacité brute, Autotijd)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 45375,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-08",
+              "source": {
+                "label": "Autotijd.be – prix belges Ford Kuga",
+                "url": "https://autotijd.be/fr/prix/ford/kuga",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance cumulée. 0-100 km/h et vitesse maximale issus de Cars-data.com (Autotijd ne les publie pas). Consommation, CO2 et autonomie électrique WLTP non trouvés sur une source consultée (Cars-data annonce 69 km sans préciser le cycle). Poids à vide 1 859 kg selon Autotijd (Cars-data : 1 759 kg). Coffre laissé vide : Autotijd reprend 412 l comme les autres versions, Cars-data indique 395 l. Prix belge : finition Titanium, barème « à partir d'août 2024 » (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Kuga 2.5 Plug-in hybrid 243 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/ford/kuga/25-plug-in-hybrid-243-hp-4088",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Kuga 2.5 Plug-in hybrid 243 ch",
+              "url": "https://autotijd.be/fr/dimensions/ford/kuga/25-plug-in-hybrid-243-hp-4088",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Cars-data.com – Ford Kuga 2.5 PHEV Titanium (2024)",
+              "url": "https://cars-data.com/en/ford/kuga/2024/2-5-phev-titanium--108302/specs",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Ford Kuga",
+              "url": "https://autotijd.be/fr/prix/ford/kuga",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Ford UK – Kuga",
+          "url": "https://www.ford.co.uk/cars/kuga",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Ford Kuga",
+          "url": "https://autotijd.be/fr/prix/ford/kuga",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiches techniques Ford Kuga",
+          "url": "https://autotijd.be/fr/fiches-techniques/ford/kuga",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ford-focus-mk4",
+      "modelId": "ford-focus",
+      "brandId": "ford",
+      "modelName": "Focus",
+      "name": "Ford Focus IV (2018)",
+      "yearsLabel": "2018 – 2025",
+      "startYear": 2018,
+      "endYear": 2025,
+      "status": "discontinued",
+      "segment": "Compacte (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes",
+        "Break"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Ford Focus 1.0 EcoBoost Hybrid ST-Line (IV, Facelift) – f 04092025.jpg",
+          "caption": "Ford Focus IV restylée, 1.0 EcoBoost Hybrid ST-Line (septembre 2025)",
+          "depicts": "Ford Focus IV restylée, berline 5 portes ST-Line",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Ford Focus Mk IV Facelift 1X7A5729.jpg",
+          "caption": "Ford Focus IV restylée à Böblingen (septembre 2022)",
+          "depicts": "Ford Focus IV restylée",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Ford Focus de quatrième génération est la dernière Focus : sa production a pris fin à Sarrelouis (Allemagne) en novembre 2025, sans successeur direct. Elle était proposée en essence micro-hybride, en diesel et en version sportive ST de 280 ch.",
+        "positioning": "Compacte de Ford en Europe, entre la Fiesta (arrêtée) et la Mondeo ; dernière génération d'un modèle lancé en 1998.",
+        "technicalFacts": [
+          "Production arrêtée le 17 novembre 2025 à l'usine de Sarrelouis selon Auto123.",
+          "Moteur 1.0 EcoBoost Hybrid trois cylindres de 999 cm³ en 125 ou 155 ch (Autotijd).",
+          "Focus ST : 2.3 EcoBoost quatre cylindres de 2 261 cm³, 280 ch et 420 Nm (Autotijd).",
+          "Empattement de 2 700 mm (Autotijd)."
+        ],
+        "pros": [
+          "Châssis réputé pour son équilibre et son agrément de conduite.",
+          "Version ST performante disponible en boîte manuelle.",
+          "Gamme large avec carrosseries berline et break."
+        ],
+        "differentiators": [
+          "Une des dernières compactes généralistes européennes à offrir une sportive de 280 ch en boîte manuelle."
+        ],
+        "pricePositioning": "Au barème belge de mars 2024 relevé par Autotijd, la gamme allait de 33 550 € (1.0 EcoBoost 125 ch BVM) à 51 300 € (ST Edition).",
+        "innovations": [],
+        "compromises": [
+          "Plus produite : disponibilité limitée aux stocks et à l'occasion.",
+          "Pas de version hybride rechargeable ni électrique."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ford-focus-mk4-ecoboost-hybrid-125",
+          "name": "1.0 EcoBoost Hybrid 125 ch BVM6",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres en ligne turbo micro-hybride",
+            "displacementCc": 999,
+            "electricMotors": 1
+          },
+          "powerHp": 125,
+          "powerKw": 92,
+          "torqueNm": 170,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 10.2,
+          "topSpeedKmh": 200,
+          "consumption": {
+            "value": 5.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 116,
+          "weightKg": 1349,
+          "dimensions": {
+            "lengthMm": 4382,
+            "widthMm": 1825,
+            "heightMm": 1471,
+            "wheelbaseMm": 2700
+          },
+          "seats": 5,
+          "trunkL": 392,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs de la berline 5 portes (« hayon »). Consommation WLTP 5,1–6,1 l/100 km et CO2 116–138 g/km selon équipement (Autotijd) ; valeurs les plus favorables retenues. Coffre 392 l (1 354 l banquette rabattue). Prix non renseigné : le barème belge de mars 2024 cite un « 1.0L EcoBoost 125 ch BVM » à 33 550 € sans préciser s'il s'agit de la version micro-hybride, Autotijd listant aussi une version non hybride.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Focus 1.0L EcoBoost Hybrid 125 ch BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/ford/focus/10l-ecoboost-hybrid-125-hp-manual-3211",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Focus 1.0L EcoBoost Hybrid 125 ch BVM",
+              "url": "https://autotijd.be/fr/dimensions/ford/focus/10l-ecoboost-hybrid-125-hp-manual-3211",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ford-focus-mk4-ecoboost-hybrid-155",
+          "name": "1.0 EcoBoost Hybrid 155 ch automatique",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres en ligne turbo micro-hybride",
+            "displacementCc": 999,
+            "electricMotors": 1
+          },
+          "powerHp": 155,
+          "powerKw": 114,
+          "torqueNm": 190,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 8.4,
+          "topSpeedKmh": 208,
+          "consumption": {
+            "value": 5.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 117,
+          "weightKg": 1387,
+          "dimensions": {
+            "lengthMm": 4382,
+            "widthMm": 1825,
+            "heightMm": 1471,
+            "wheelbaseMm": 2700
+          },
+          "seats": 5,
+          "trunkL": 392,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 38250,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Ford Focus",
+                "url": "https://autotijd.be/fr/prix/ford/focus",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Valeurs de la berline 5 portes (« hayon »). Consommation WLTP 5,2–6,3 l/100 km et CO2 117–143 g/km selon équipement (Autotijd) ; valeurs les plus favorables retenues. Prix belge : finitions Active X / ST-Line X / Titanium X, barème « à partir de mars 2024 » (Autotijd), intitulé « 1.0L EcoBoost 155 ch » sans mention de boîte ; prix neuf d'époque, modèle désormais arrêté.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Focus 1.0L EcoBoost Hybrid 155 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/ford/focus/10l-ecoboost-hybrid-155-hp-3214",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Focus 1.0L EcoBoost Hybrid 155 ch",
+              "url": "https://autotijd.be/fr/dimensions/ford/focus/10l-ecoboost-hybrid-155-hp-3214",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Ford Focus",
+              "url": "https://autotijd.be/fr/prix/ford/focus",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ford-focus-mk4-st-280",
+          "name": "ST 2.3 EcoBoost 280 ch BVM6",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne turbo",
+            "displacementCc": 2261
+          },
+          "powerHp": 280,
+          "powerKw": 206,
+          "torqueNm": 420,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 5.7,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 7.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 180,
+          "weightKg": 1512,
+          "dimensions": {
+            "lengthMm": 4393,
+            "widthMm": 1825,
+            "heightMm": 1454,
+            "wheelbaseMm": 2700
+          },
+          "seats": 5,
+          "trunkL": 358,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 45000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Ford Focus",
+                "url": "https://autotijd.be/fr/prix/ford/focus",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Valeurs de la berline 5 portes (« hayon »). Consommation WLTP 7,8–8,3 l/100 km et CO2 180–189 g/km selon équipement (Autotijd) ; valeurs les plus favorables retenues. Coffre 358 l (1 320 l banquette rabattue). Prix belge : finition ST boîte manuelle, barème « à partir de mars 2024 » (Autotijd) ; prix neuf d'époque, modèle désormais arrêté.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Focus ST 280 ch BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/ford/focus/st-280-hp-manual-3229",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Focus ST 280 ch BVM",
+              "url": "https://autotijd.be/fr/dimensions/ford/focus/st-280-hp-manual-3229",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Ford Focus",
+              "url": "https://autotijd.be/fr/prix/ford/focus",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Auto123 – End of production for the Ford Focus in Europe",
+          "url": "https://www.auto123.com/en/news/end-production-ford-focus-europe/73425/",
+          "type": "press",
+          "publishedAt": "2025-11-24",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Ford Focus",
+          "url": "https://autotijd.be/fr/prix/ford/focus",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiches techniques Ford Focus",
+          "url": "https://autotijd.be/fr/fiches-techniques/ford/focus",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ford-explorer-ev",
+      "modelId": "ford-explorer",
+      "brandId": "ford",
+      "modelName": "Explorer électrique",
+      "name": "Ford Explorer électrique (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact électrique (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "daily",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Ford Explorer EV DSC 9249.jpg",
+          "caption": "Ford Explorer électrique à Rutesheim (mai 2025)",
+          "depicts": "Ford Explorer électrique (2024), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Ford Explorer EV Auto Zuerich 2024 DSC 6360.jpg",
+          "caption": "Ford Explorer électrique au salon Auto Zürich (novembre 2024)",
+          "depicts": "Ford Explorer électrique (2024)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Ford Explorer électrique est un SUV compact 100 % électrique destiné à l'Europe, sans lien technique avec l'Explorer américain. Il repose sur la plateforme MEB du groupe Volkswagen et propose propulsion ou transmission intégrale.",
+        "positioning": "SUV électrique familial de Ford en Europe, au-dessus du Puma Gen-E.",
+        "technicalFacts": [
+          "Version Extended Range AWD : 340 ch, 545 Nm et 0-100 km/h en 5,3 s (Autotijd).",
+          "Version Extended Range RWD : autonomie WLTP de 602 km (Autotijd, EV Database).",
+          "Recharge rapide DC de 135 kW (RWD) à 185 kW (AWD) selon Autotijd.",
+          "Empattement de 2 767 mm (Autotijd, EV Database)."
+        ],
+        "pros": [
+          "Autonomie WLTP supérieure à 600 km en version Extended Range RWD.",
+          "Version AWD performante (5,3 s de 0 à 100 km/h).",
+          "Coffre de 536 litres."
+        ],
+        "differentiators": [
+          "Base technique MEB partagée avec les Volkswagen ID.4 et Skoda Enyaq, dans une carrosserie et un habitacle propres à Ford."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarre à 44 950 € (Standard Range 170 ch, barème de juillet 2024 relevé par Autotijd) et culmine à 64 650 € (Extended Range AWD Premium).",
+        "innovations": [],
+        "compromises": [
+          "Vitesse maximale limitée à 160 km/h (Standard Range) ou 180 km/h.",
+          "Version Standard Range à l'autonomie nettement plus courte (380 km WLTP)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ford-explorer-ev-standard-range-rwd",
+          "name": "Standard Range RWD 170 ch (52 kWh)",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 170,
+          "powerKw": 125,
+          "torqueNm": 310,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 8.7,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 15.5,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 380,
+          "batteryKwh": 52,
+          "charging": {
+            "dcMaxKw": 145,
+            "dc10to80Min": 27
+          },
+          "co2Gkm": 0,
+          "weightKg": 1908,
+          "dimensions": {
+            "lengthMm": 4468,
+            "widthMm": 1872,
+            "heightMm": 1630,
+            "wheelbaseMm": 2767
+          },
+          "seats": 5,
+          "trunkL": 536,
+          "equipmentHighlights": [
+            "Batterie de 52 kWh utiles (55 kWh nominaux) selon EV Database"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 44950,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-07",
+              "source": {
+                "label": "Autotijd.be – prix belges Ford Explorer",
+                "url": "https://autotijd.be/fr/prix/ford/explorer",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données issues d'EV Database (millésime MY24-25), faute de fiche constructeur ou Autotijd pour cette version. Autonomie WLTP 380 km (TEL) à 353 km (TEH) ; consommation WLTP « 155 Wh/km » exprimée ici en kWh/100 km. Poids « unladen EU » (avec conducteur). Temps 10-80 % de 27 min donné pour une borne CCS de 150 kW. EV Database signale un millésime MY26 remplaçant cette version, non pris en compte. Prix belge : version de base, barème « à partir de juillet 2024 » (Autotijd).",
+          "sources": [
+            {
+              "label": "EV Database – Ford Explorer Standard Range RWD (MY24-25)",
+              "url": "https://ev-database.org/car/2167/Ford-Explorer-Standard-Range-RWD",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Ford Explorer",
+              "url": "https://autotijd.be/fr/prix/ford/explorer",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ford-explorer-ev-extended-range-rwd",
+          "name": "Extended Range RWD 286 ch (77 kWh)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 286,
+          "powerKw": 210,
+          "torqueNm": 545,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 6.4,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 13.9,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 602,
+          "batteryKwh": 77,
+          "charging": {
+            "dcMaxKw": 135,
+            "dc10to80Min": 28
+          },
+          "co2Gkm": 0,
+          "weightKg": 2090,
+          "dimensions": {
+            "lengthMm": 4468,
+            "widthMm": 1872,
+            "heightMm": 1630,
+            "wheelbaseMm": 2767
+          },
+          "seats": 5,
+          "trunkL": 536,
+          "equipmentHighlights": [
+            "Batterie de 77 kWh utiles (82 kWh nominaux) selon EV Database"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 48950,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-07",
+              "source": {
+                "label": "Autotijd.be – prix belges Ford Explorer",
+                "url": "https://autotijd.be/fr/prix/ford/explorer",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Performances, consommation, autonomie, recharge et poids d'Autotijd, confirmés par EV Database (MY24-25). Autotijd qualifie les 77 kWh de capacité brute alors qu'EV Database les donne comme capacité utile (82 kWh nominaux). Dimensions d'EV Database : Autotijd indique 4 568 mm de long et 1 871 mm de large, longueur jugée douteuse. Coffre 536 l (1 422 l banquette rabattue). Prix belge : version de base, barème « à partir de juillet 2024 » (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Explorer Extended Range 77 kWh 286 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/ford/explorer/extended-range-77-kwh-286-hp-4213",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Explorer Extended Range 77 kWh 286 ch",
+              "url": "https://autotijd.be/fr/dimensions/ford/explorer/extended-range-77-kwh-286-hp-4213",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "EV Database – Ford Explorer Extended Range RWD (MY24-25)",
+              "url": "https://ev-database.org/car/2168/Ford-Explorer-Extended-Range-RWD",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Ford Explorer",
+              "url": "https://autotijd.be/fr/prix/ford/explorer",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ford-explorer-ev-extended-range-awd",
+          "name": "Extended Range AWD 340 ch (79 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Deux moteurs électriques (avant et arrière)",
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "powerHp": 340,
+          "powerKw": 250,
+          "torqueNm": 545,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 5.3,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 15.7,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 566,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 185,
+            "dc10to80Min": 26
+          },
+          "co2Gkm": 0,
+          "weightKg": 2167,
+          "dimensions": {
+            "lengthMm": null,
+            "widthMm": 1871,
+            "heightMm": 1639,
+            "wheelbaseMm": 2767
+          },
+          "seats": 5,
+          "trunkL": 536,
+          "equipmentHighlights": [
+            "Batterie de 79 kWh (capacité brute selon Autotijd)",
+            "Transmission intégrale bimoteur"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 60950,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-07",
+              "source": {
+                "label": "Autotijd.be – prix belges Ford Explorer",
+                "url": "https://autotijd.be/fr/prix/ford/explorer",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données Autotijd. Capacité de batterie laissée vide : Autotijd indique 79 kWh bruts, capacité utile non confirmée sur une source consultée. Longueur laissée vide : Autotijd indique 4 568 mm, en contradiction avec les 4 468 mm d'EV Database pour les versions propulsion. Coffre 536 l (1 422 l banquette rabattue). Nombre de moteurs déduit de la transmission intégrale. Prix belge : version de base, barème « à partir de juillet 2024 » (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Explorer Extended Range 79 kWh 340 ch AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/ford/explorer/extended-range-79-kwh-340-hp-awd-4211",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Explorer Extended Range 79 kWh 340 ch AWD",
+              "url": "https://autotijd.be/fr/dimensions/ford/explorer/extended-range-79-kwh-340-hp-awd-4211",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Ford Explorer",
+              "url": "https://autotijd.be/fr/prix/ford/explorer",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Ford Explorer",
+          "url": "https://autotijd.be/fr/prix/ford/explorer",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiches techniques Ford Explorer",
+          "url": "https://autotijd.be/fr/fiches-techniques/ford/explorer",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "EV Database – Ford Explorer Extended Range RWD (MY24-25)",
+          "url": "https://ev-database.org/car/2168/Ford-Explorer-Extended-Range-RWD",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "EV Database – Ford Explorer Standard Range RWD (MY24-25)",
+          "url": "https://ev-database.org/car/2167/Ford-Explorer-Standard-Range-RWD",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}
