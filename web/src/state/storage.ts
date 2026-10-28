@@ -16,6 +16,29 @@ export function writeLocal(key: string, value: unknown): void {
   }
 }
 
+export function removeLocal(key: string): void {
+  try {
+    localStorage.removeItem(key);
+  } catch {
+    // Rien à faire : la valeur sera simplement ignorée.
+  }
+}
+
+let persistRequested = false;
+
+/**
+ * Demande au navigateur de ne jamais effacer automatiquement les données de l'application
+ * (sinon purgeables en cas de manque d'espace, ou après 7 jours d'inactivité sur Safari).
+ * Appelé quand l'utilisateur enregistre quelque chose (préférences, favori).
+ */
+export function requestPersistentStorage(): void {
+  if (persistRequested || typeof navigator === 'undefined' || !navigator.storage?.persist) return;
+  persistRequested = true;
+  navigator.storage.persisted()
+    .then((already) => (already ? true : navigator.storage.persist()))
+    .catch(() => undefined);
+}
+
 export const KEYS = {
   profileId: 'autoverse.profileId',
   profile: 'autoverse.profile',
@@ -26,4 +49,6 @@ export const KEYS = {
   history: 'autoverse.history',
   exploreView: 'autoverse.exploreView',
   alerts: 'autoverse.alerts',
+  onboardingDraft: 'autoverse.onboardingDraft',
+  deckPosition: 'autoverse.deckPosition',
 } as const;

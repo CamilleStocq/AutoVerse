@@ -1,0 +1,408 @@
+/*
+ * Application mobile : écran figé et adapté à l'appareil.
+ * - Aucun zoom (pincement, double-tap, zoom automatique des champs sur iPhone).
+ * - Aucun déplacement latéral : seul le défilement vertical est possible.
+ * - Rien n'est masqué sur mobile : ce qui défilait horizontalement (rangées de cartes, puces,
+ *   tableaux larges) est réorganisé pour tenir dans la largeur de l'écran.
+ * Chargé en dernier : ces règles priment sur les styles de composants.
+ */
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+  overscroll-behavior-x: none;
+  /* Défilement vertical uniquement : désactive le pincement, le double-tap et le glissement latéral. */
+  touch-action: pan-y;
+}
+
+#root {
+  max-width: 100vw;
+  overflow-x: clip;
+}
+
+/* iPhone zoome automatiquement sur les champs dont le texte fait moins de 16 px. */
+input,
+select,
+textarea,
+.input,
+.select,
+.qs-field input,
+.compare-add .search .input {
+  font-size: 16px;
+}
+
+/* Le deck gère lui-même ses gestes (glisser une carte). */
+.deck-stage {
+  touch-action: none;
+}
+
+@media (max-width: 767px) {
+  /* ---- Rangées de cartes → liste verticale de cartes compactes (toutes visibles) ---- */
+  .rail {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    scroll-snap-type: none;
+  }
+
+  .rail > .car-card {
+    flex-direction: row;
+    min-height: 128px;
+  }
+
+  .rail > .car-card .car-media {
+    flex: none;
+    width: 42%;
+    aspect-ratio: auto;
+  }
+
+  .rail > .car-card .car-media-top {
+    inset: var(--space-2) var(--space-2) auto var(--space-2);
+  }
+
+  /* Statut et actions restent visibles, en plus compact. */
+  .rail > .car-card .car-media-actions .icon-btn.on-image {
+    width: 34px;
+    height: 34px;
+  }
+
+  .rail > .car-card .car-media-top .badge {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .rail > .car-card .car-body {
+    padding: var(--space-3);
+    gap: 2px;
+    min-width: 0;
+  }
+
+  .rail > .car-card .car-title {
+    font-size: var(--text-lg);
+  }
+
+  .rail > .car-card .car-gen {
+    font-size: var(--text-xs);
+  }
+
+  .rail > .car-card .car-foot {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-1);
+    padding-top: var(--space-2);
+  }
+
+  .rail > .car-card .kv.right {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  /* ---- Puces, onglets, frises : retour à la ligne au lieu du défilement ---- */
+  .chip-scroll {
+    flex-wrap: wrap;
+    overflow: visible;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .race-strip {
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+    margin: 0 0 var(--space-5);
+    padding: 0;
+    overflow: visible;
+  }
+
+  .gallery-thumbs {
+    flex-wrap: wrap;
+    overflow: visible;
+  }
+
+  .gallery-thumbs button {
+    width: calc((100% - 3 * var(--space-2)) / 4);
+  }
+
+  .tabs {
+    overflow: visible;
+  }
+
+  .tabs a,
+  .tabs button {
+    flex: 1 1 0;
+    justify-content: center;
+    padding: 0 var(--space-1);
+    font-size: var(--text-xs);
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  /* Sommaire de la fiche : puces qui passent à la ligne (non collant pour libérer l'écran). */
+  .detail-nav {
+    position: static;
+    flex-wrap: wrap;
+    overflow: visible;
+    margin: var(--space-5) 0 0;
+    padding: var(--space-2) 0;
+  }
+
+  .detail-nav a {
+    min-height: 36px;
+    padding: 0 var(--space-3);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-size: var(--text-xs);
+  }
+
+  .round-strip {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    overflow: visible;
+    padding-bottom: 0;
+  }
+
+  .round-pill {
+    min-width: 0;
+    padding: var(--space-2);
+  }
+
+  .round-pill > span {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  .segmented {
+    flex-wrap: wrap;
+  }
+
+  /* Barres de recherche : champ sur toute la largeur, puis tri / filtres / affichage. */
+  .explore-bar .search {
+    flex: 1 1 100% !important;
+  }
+
+  .explore-bar > label:not(.search),
+  .explore-bar > .btn {
+    flex: 1 1 calc(50% - var(--space-2));
+    min-width: 0;
+  }
+
+  .explore-bar > .segmented {
+    flex: 1 1 100%;
+  }
+
+  .explore-bar > .segmented button {
+    flex: 1 1 0;
+    justify-content: center;
+  }
+
+  .explore-bar .select {
+    width: 100%;
+  }
+
+  .page-head {
+    margin-bottom: var(--space-4);
+  }
+
+  /* ---- Tableaux → une fiche par ligne, chaque valeur avec son intitulé ----
+   * Les intitulés sont recopiés dans data-label par AppShell (useTableLabels). */
+  .table-scroll {
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+  }
+
+  .data-table,
+  .data-table tbody {
+    display: block;
+    width: 100%;
+  }
+
+  .data-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+  }
+
+  /* Une ligne = un titre (1re colonne) puis les autres valeurs « intitulé valeur » à la suite. */
+  .data-table tr {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 2px var(--space-4);
+    padding: var(--space-3) 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .data-table td {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+    width: auto;
+    border: 0;
+    padding: 0;
+    text-align: left !important;
+    min-width: 0;
+    overflow-wrap: anywhere;
+    font-size: var(--text-sm);
+  }
+
+  .data-table td[data-label]::before {
+    content: attr(data-label);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-subtle);
+    white-space: nowrap;
+  }
+
+  .data-table td:first-child {
+    flex: 1 1 100%;
+    display: block;
+    font-weight: 700;
+    font-size: var(--text-md);
+  }
+
+  .data-table td:first-child::before {
+    display: none;
+  }
+
+  /* Classements : grande position à gauche, nom en titre, valeurs alignées dessous. */
+  .data-table tr:has(> td.num:first-child) {
+    padding-left: 44px;
+    min-height: 56px;
+  }
+
+  .data-table td.num:first-child {
+    position: absolute;
+    left: 0;
+    top: var(--space-3);
+    width: 36px;
+    font-size: var(--text-xl);
+    font-weight: 900;
+    line-height: 1.1;
+  }
+
+  .data-table td.num:first-child + td {
+    flex: 1 1 100%;
+    display: block;
+    font-weight: 700;
+  }
+
+  .data-table td.num:first-child + td::before {
+    display: none;
+  }
+
+  /* Wishlist compacte : case « comparer », voiture, puis les valeurs. */
+  .wish-table td:first-child {
+    flex: 0 0 auto;
+  }
+
+  .wish-table td:nth-child(2) {
+    flex: 1 1 calc(100% - 40px);
+    display: block;
+  }
+
+  .wish-table td:nth-child(2)::before {
+    display: none;
+  }
+
+  /* ---- Comparateur : chaque caractéristique sur une ligne, voitures côte à côte ---- */
+  .compare-scroll {
+    overflow: visible;
+    margin: var(--space-4) 0 0;
+    padding: 0;
+  }
+
+  .compare-table {
+    display: block;
+    min-width: 0;
+  }
+
+  .compare-table thead,
+  .compare-table tbody {
+    display: block;
+  }
+
+  .compare-table tr {
+    display: grid;
+    grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+    column-gap: var(--space-2);
+  }
+
+  .compare-table th,
+  .compare-table td {
+    border-bottom: 0;
+    padding: var(--space-1) 0;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .compare-table tbody tr {
+    border-bottom: 1px solid var(--border);
+    padding: var(--space-2) 0;
+  }
+
+  .compare-table tbody th[scope='row'],
+  .compare-corner,
+  .compare-group th {
+    grid-column: 1 / -1;
+    position: static;
+    width: auto;
+    background: none;
+  }
+
+  .compare-table tbody th[scope='row'] {
+    font-size: var(--text-xs);
+    padding-bottom: 0;
+  }
+
+  .compare-head {
+    min-width: 0;
+  }
+}
+
+/* Mode deck : la barre de recherche défile avec la page pour laisser tout l'écran à la pile. */
+.explore-sticky.is-static {
+  position: static;
+}
+
+/* Bandeau du comparateur sur mobile : docké au-dessus de la navigation, espace réservé. */
+@media (max-width: 1023px) {
+  .compare-tray {
+    left: 0;
+    right: 0;
+    transform: none;
+    width: auto;
+    max-width: none;
+    bottom: calc(var(--bottomnav-h) + env(safe-area-inset-bottom));
+    border-radius: 0;
+    border-width: 1px 0 0;
+    border-left: 3px solid var(--accent);
+    padding: var(--space-1) var(--space-2) var(--space-1) var(--space-3);
+    animation: none;
+  }
+
+  .compare-tray .btn {
+    flex: 1;
+  }
+
+  .has-tray .main {
+    padding-bottom: calc(var(--bottomnav-h) + 64px + var(--space-6));
+  }
+}
+
+@media (max-width: 767px) {
+  .has-tray .deck-stage {
+    height: calc(100dvh - var(--topbar-h) - var(--bottomnav-h) - 215px - 64px);
+  }
+}

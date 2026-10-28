@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type CSSProperties } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useState, type CSSProperties } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Check, Search } from 'lucide-react';
 import type { CategoryId, Powertrain, PriceRange } from '@shared/types';
@@ -9,6 +9,7 @@ import {
 import { useMeta, useCars } from '../hooks/queries';
 import { useProfile } from '../state/ProfileProvider';
 import { Logo } from '../components/AppShell';
+import { KEYS, readLocal, removeLocal, writeLocal } from '../state/storage';
 import { CarImage } from '../components/CarImage';
 
 const STEPS = ['Marques', 'Catégories', 'Préférences', 'Région'] as const;
@@ -48,10 +49,15 @@ function ChipGroup<T extends string>({ label, options, value, onChange, noneLabe
 export function Onboarding({ editing }: { editing?: boolean }) {
   const { preferences, savePreferences } = useProfile();
   const navigate = useNavigate();
-  const [step, setStep] = useState(0);
-  const [draft, setDraft] = useState<Preferences>(preferences);
+  // Questionnaire en cours conservé si l'application est fermée avant la fin (première ouverture).
+  const saved = editing ? null : readLocal<{ step: number; draft: Preferences } | null>(KEYS.onboardingDraft, null);
+  const [step, setStep] = useState(saved?.step ?? 0);
+  const [draft, setDraft] = useState<Preferences>(saved?.draft ?? preferences);
   const [query, setQuery] = useState('');
   useEffect(() => { window.scrollTo({ top: 0 }); }, [step]);
+  useLayoutEffect(() => {
+    if (!editing) writeLocal(KEYS.onboardingDraft, { step, draft });
+  }, [editing, step, draft]);
   const meta = useMeta();
   // Une vraie photo du catalogue illustre chaque catégorie (aucune image générique).
   const sample = useCars({ pageSize: 100, personalize: false, sort: 'newest' });
@@ -77,6 +83,7 @@ export function Onboarding({ editing }: { editing?: boolean }) {
 
   const finish = () => {
     savePreferences(draft, { completeOnboarding: true });
+    removeLocal(KEYS.onboardingDraft);
     navigate(editing ? '/profil' : '/', { replace: true });
   };
   const next = () => (step < STEPS.length - 1 ? setStep(step + 1) : finish());

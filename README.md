@@ -17,6 +17,19 @@ Fonctionnement de la version en ligne (GitHub Pages, sans serveur) :
 
 **Activation, une seule fois :** dans le dépôt GitHub, *Settings → Pages → Build and deployment → Source* : choisir **GitHub Actions**.
 
+### Application mobile
+
+- **Écran figé :** pas de zoom (pincement, double-tap, zoom automatique des champs sur iPhone) et aucun glissement latéral : seul le défilement vertical est possible.
+- **Rien n'est masqué sur mobile, tout est réorganisé :**
+  - rangées de cartes en liste verticale de cartes compactes ;
+  - puces et onglets qui passent à la ligne ;
+  - tableaux en fiches, chaque valeur avec son intitulé ;
+  - comparateur caractéristique par caractéristique.
+- **Explorer, mode deck (par défaut) :** le catalogue se parcourt comme un paquet de cartes. Glisser à droite ajoute à la wishlist, glisser à gauche passe à la suivante, toucher ouvre la fiche. Les vues Cartes et Liste restent disponibles.
+- **Sauvegarde sur l'appareil, écrite immédiatement :** préférences, favoris, sujets d'alertes, comparateur, thème, vue choisie, position dans le deck, questionnaire en cours. Une sauvegarde de secours est faite quand l'app passe en arrière-plan. Le navigateur est aussi prié de ne jamais effacer ces données.
+
+> Sur iPhone, Safari et l'application ajoutée à l'écran d'accueil ont des stockages séparés : utilisez toujours l'icône de l'écran d'accueil.
+
 ### Alertes et notifications
 
 À chaque mise à jour, l'export compare les nouvelles données à la version en ligne (`server/src/events.ts`). Il en tire des alertes :

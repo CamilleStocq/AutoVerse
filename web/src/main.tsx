@@ -9,6 +9,8 @@ import './styles/base.css';
 import './styles/components.css';
 import './styles/pages.css';
 import './styles/search.css';
+import './styles/deck.css';
+import './styles/mobile.css';
 import { App } from './App';
 
 // Thème appliqué avant le premier rendu pour éviter un flash.
@@ -18,6 +20,14 @@ try {
 } catch {
   document.documentElement.dataset.theme = 'dark';
 }
+
+// Écran figé comme une application : Safari iOS ignore « user-scalable=no », on bloque donc
+// ses gestes de zoom ; sur ordinateur, le pincement du pavé tactile arrive en Ctrl+molette.
+for (const type of ['gesturestart', 'gesturechange', 'gestureend']) {
+  document.addEventListener(type, (e) => e.preventDefault(), { passive: false });
+}
+document.addEventListener('wheel', (e) => { if (e.ctrlKey) e.preventDefault(); }, { passive: false });
+document.addEventListener('touchmove', (e) => { if (e.touches.length > 1) e.preventDefault(); }, { passive: false });
 
 // Application installable et hors ligne (version publiée uniquement).
 if (import.meta.env.PROD && 'serviceWorker' in navigator) {

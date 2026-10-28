@@ -3,6 +3,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { Bell, CalendarClock, Compass, Download, Flag, Heart, Home, Newspaper, Search, Settings, X } from 'lucide-react';
 import { useInstallState } from './InstallApp';
 import { useMyEvents } from '../state/alerts';
+import { useTableLabels } from '../hooks/useTableLabels';
 import { QuickSearch, useQuickSearchShortcut } from './QuickSearch';
 import { useProfile } from '../state/ProfileProvider';
 import { useUi } from '../state/UiProvider';
@@ -36,7 +37,13 @@ function CompareTray() {
   const { compare, clearCompare } = useUi();
   const navigate = useNavigate();
   const { pathname } = useLocation();
-  if (!compare.length || pathname.startsWith('/comparer')) return null;
+  const visible = compare.length > 0 && !pathname.startsWith('/comparer');
+  // Signale la présence du bandeau à la mise en page (mobile : l'espace lui est réservé, rien n'est recouvert).
+  useEffect(() => {
+    document.body.classList.toggle('has-tray', visible);
+    return () => document.body.classList.remove('has-tray');
+  }, [visible]);
+  if (!visible) return null;
   return (
     <div className="compare-tray" role="region" aria-label="Sélection du comparateur">
       <div className="thumbs" aria-hidden="true">
@@ -57,6 +64,7 @@ export function AppShell() {
   const [searchOpen, setSearchOpen] = useState(false);
   const install = useInstallState();
   const { unread } = useMyEvents();
+  useTableLabels();
   const openSearch = useCallback(() => setSearchOpen(true), []);
   useQuickSearchShortcut(openSearch);
   useEffect(() => { window.scrollTo({ top: 0 }); }, [pathname]);

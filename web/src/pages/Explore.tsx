@@ -1,14 +1,17 @@
-import { useDeferredValue, useEffect, useMemo, useState } from 'react';
+import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { LayoutGrid, Rows3, SlidersHorizontal, Search, X } from 'lucide-react';
+import { Layers, LayoutGrid, Rows3, SlidersHorizontal, Search, X } from 'lucide-react';
 import type { CategoryId, Powertrain, PriceRange } from '@shared/types';
 import { CATEGORY_LABELS, POWERTRAIN_LABELS, PRICE_RANGE_LABELS } from '@shared/labels';
 import { useInfiniteCars, useMeta, type CarFilters } from '../hooks/queries';
 import { useProfile } from '../state/ProfileProvider';
 import { CarCard, CarRow } from '../components/CarCard';
+import { CarDeck } from '../components/CarDeck';
 import { KEYS, readLocal, writeLocal } from '../state/storage';
 import { CardGridSkeleton, EmptyState, ErrorState } from '../components/States';
 import { Sheet } from '../components/Sheet';
+
+type ExploreView = 'deck' | 'grid' | 'list';
 
 const SORTS = [
   { id: 'relevance', label: 'Pour vous' },
@@ -43,8 +46,9 @@ export function Explore() {
   const deferredQ = useDeferredValue(q);
   const [sheet, setSheet] = useState(false);
   // Choix d'affichage mémorisé sur l'appareil.
-  const [view, setViewState] = useState<'grid' | 'list'>(() => readLocal(KEYS.exploreView, 'grid'));
-  const setView = (v: 'grid' | 'list') => { setViewState(v); writeLocal(KEYS.exploreView, v); };
+  // Le deck est la vue par défaut ; le choix est mémorisé sur l'appareil.
+  const [view, setViewState] = useState<ExploreView>(() => readLocal<ExploreView>(KEYS.exploreView, 'deck'));
+  const setView = (v: ExploreView) => { setViewState(v); writeLocal(KEYS.exploreView, v); };
 
   // Recherche instantanée, reflétée dans l'URL (partageable, retour arrière fonctionnel).
   useEffect(() => {
@@ -69,6 +73,10 @@ export function Explore() {
     pageSize: 18,
   };
   const cars = useInfiniteCars(filters);
+  // Une position de deck par sélection (filtres + tri) : on reprend là où on s'était arrêté.
+  const deckKey = JSON.stringify({ ...filters, pageSize: undefined });
+  const { fetchNextPage } = cars;
+  const loadMore = useCallback(() => { fetchNextPage(); }, [fetchNextPage]);
   const items = cars.data?.pages.flatMap((p) => p.items) ?? [];
   const total = cars.data?.pages[0]?.total ?? 0;
 
@@ -92,6 +100,29 @@ export function Explore() {
     setSp(next);
   };
 
+  const quickChips = (
+    <>
+      {(myBrands.length > 0 || preferences.categories.length > 0) && (
+        <button type="button" className="chip" onClick={applyMine}>Mes marques et catégories</button>
+      )}
+      {(['sports', 'sport-suv', 'ev', 'supercar', 'wagon', 'city', 'classic'] as CategoryId[]).map((c) => (
+        <button key={c} type="button" className="chip" aria-pressed={list(sp.get('categories')).includes(c)} onClick={() => setSp(toggleIn(sp, 'categories', c))}>{CATEGORY_LABELS[c]}</button>
+      ))}
+    </>
+  );
+
+  // Mobile, mode deck : à l'ouverture, l'écran se cale sur la pile (recherche et filtres juste au-dessus).
+  const countRef = useRef<HTMLParagraphElement>(null);
+  const deckReady = view === 'deck' && items.length > 0;
+  useEffect(() => {
+    if (!deckReady || !window.matchMedia('(max-width: 767px)').matches) return;
+    const t = setTimeout(() => {
+      const el = countRef.current;
+      if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 64 });
+    }, 50);
+    return () => clearTimeout(t);
+  }, [deckReady]);
+
   return (
     <div className="page-enter">
       <header className="page-head">
@@ -100,7 +131,7 @@ export function Explore() {
         <p>Toutes les marques restent accessibles : vos préférences orientent l’ordre d’affichage (« Pour vous »), sans rien masquer.</p>
       </header>
 
-      <div className="explore-sticky">
+      <div className={view === 'deck' ? 'explore-sticky is-static' : 'explore-sticky'}>
       <div className="explore-bar">
         <label className="search" style={{ flex: 1 }}>
           <span className="sr-only">Rechercher un modèle ou une marque</span>
@@ -117,20 +148,15 @@ export function Explore() {
           <SlidersHorizontal size={18} /> Filtres{activeCount ? ` (${activeCount})` : ''}
         </button>
         <div className="segmented" role="group" aria-label="Affichage">
+          <button type="button" aria-pressed={view === 'deck'} onClick={() => setView('deck')} aria-label="Deck (une carte à la fois)" data-tip="Deck"><Layers size={16} /></button>
           <button type="button" aria-pressed={view === 'grid'} onClick={() => setView('grid')} aria-label="Cartes" data-tip="Cartes"><LayoutGrid size={16} /></button>
           <button type="button" aria-pressed={view === 'list'} onClick={() => setView('list')} aria-label="Liste compacte" data-tip="Liste compacte"><Rows3 size={16} /></button>
         </div>
       </div>
       </div>
 
-      <div className="chip-scroll" style={{ margin: 'var(--space-4) 0' }}>
-        {(myBrands.length > 0 || preferences.categories.length > 0) && (
-          <button type="button" className="chip" onClick={applyMine}>Mes marques et catégories</button>
-        )}
-        {(['sports', 'sport-suv', 'ev', 'supercar', 'wagon', 'city', 'classic'] as CategoryId[]).map((c) => (
-          <button key={c} type="button" className="chip" aria-pressed={list(sp.get('categories')).includes(c)} onClick={() => setSp(toggleIn(sp, 'categories', c))}>{CATEGORY_LABELS[c]}</button>
-        ))}
-      </div>
+      {/* En mode deck, ces raccourcis sont regroupés dans le panneau Filtres pour laisser l'écran à la pile. */}
+      {view !== 'deck' && <div className="chip-scroll" style={{ margin: 'var(--space-4) 0' }}>{quickChips}</div>}
 
       {activeChips.length > 0 && (
         <div className="row gap-2 wrap" style={{ marginBottom: 'var(--space-4)' }}>
@@ -143,12 +169,14 @@ export function Explore() {
         </div>
       )}
 
-      <p className="muted num" aria-live="polite" style={{ fontSize: 'var(--text-sm)', marginBottom: 'var(--space-4)' }}>
+      <p ref={countRef} className="muted num" aria-live="polite" style={{ fontSize: 'var(--text-sm)', margin: 'var(--space-3) 0' }}>
         {cars.isLoading ? 'Chargement…' : `${total} voiture${total > 1 ? 's' : ''}`}
       </p>
 
       {cars.isLoading ? <CardGridSkeleton count={6} /> : cars.isError ? (
         <ErrorState message="Le catalogue ne répond pas. Vos favoris restent accessibles hors ligne." onRetry={() => cars.refetch()} />
+      ) : items.length && view === 'deck' ? (
+        <CarDeck cars={items} total={total} deckKey={deckKey} hasMore={!!cars.hasNextPage && !cars.isFetchingNextPage} loadMore={loadMore} />
       ) : items.length ? (
         <>
           <div className={view === 'grid' ? 'card-grid' : 'car-list'} style={{ opacity: cars.isPlaceholderData ? 0.6 : 1, transition: 'opacity var(--dur-base)' }}>
@@ -175,6 +203,12 @@ export function Explore() {
           <button type="button" className="btn btn-primary" onClick={() => setSheet(false)}>Voir {total} résultat{total > 1 ? 's' : ''}</button>
         </>}
       >
+        {view === 'deck' && (
+          <div className="sheet-group">
+            <span className="label">Raccourcis</span>
+            <div className="chip-row">{quickChips}</div>
+          </div>
+        )}
         <div className="sheet-group">
           <span className="label">Statut</span>
           <div className="chip-row">{STATUSES.map((s) => <button key={s.id} type="button" className="chip" aria-pressed={list(sp.get('status')).includes(s.id)} onClick={() => setSp(toggleIn(sp, 'status', s.id))}>{s.label}</button>)}</div>

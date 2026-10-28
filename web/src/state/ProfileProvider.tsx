@@ -4,11 +4,11 @@
  * - Synchronisation serveur (SQLite) ; en cas d'échec, l'opération est mise en file
  *   et rejouée au retour de la connexion. Rien n'est perdu à la fermeture de l'application.
  */
-import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
+import { createContext, useCallback, useContext, useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import type { CarSummary } from '@shared/api';
 import { DEFAULT_PREFERENCES, type Preferences, type Profile, type WishlistEntry } from '@shared/profile';
 import { api, ApiError } from '../lib/api';
-import { KEYS, readLocal, writeLocal } from './storage';
+import { KEYS, readLocal, requestPersistentStorage, writeLocal } from './storage';
 
 type PendingOp =
   | { kind: 'profile' }
@@ -79,10 +79,29 @@ export function ProfileProvider({ children }: { children: ReactNode }) {
   const [backoffUntil, setBackoffUntil] = useState(0);
   const profileRef = useRef(profile);
   profileRef.current = profile;
+  const wishlistRef = useRef(wishlist);
+  wishlistRef.current = wishlist;
 
-  useEffect(() => writeLocal(KEYS.profile, profile), [profile]);
-  useEffect(() => writeLocal(KEYS.wishlist, wishlist), [wishlist]);
-  useEffect(() => writeLocal(KEYS.pending, pending), [pending]);
+  // Écriture synchrone dès que l'état change (avant même l'affichage), pour qu'une fermeture
+  // immédiate de l'application ne perde jamais la dernière action.
+  useLayoutEffect(() => writeLocal(KEYS.profile, profile), [profile]);
+  useLayoutEffect(() => writeLocal(KEYS.wishlist, wishlist), [wishlist]);
+  useLayoutEffect(() => writeLocal(KEYS.pending, pending), [pending]);
+
+  // Filet de sécurité : sauvegarde au moment où l'application passe en arrière-plan ou se ferme.
+  useEffect(() => {
+    const flush = () => {
+      writeLocal(KEYS.profile, profileRef.current);
+      writeLocal(KEYS.wishlist, wishlistRef.current);
+    };
+    const onVisibility = () => { if (document.visibilityState === 'hidden') flush(); };
+    window.addEventListener('pagehide', flush);
+    document.addEventListener('visibilitychange', onVisibility);
+    return () => {
+      window.removeEventListener('pagehide', flush);
+      document.removeEventListener('visibilitychange', onVisibility);
+    };
+  }, []);
 
   const enqueue = useCallback((op: PendingOp) => {
     if (!SERVER_SYNC) return;
@@ -170,6 +189,7 @@ export function ProfileProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const savePreferences = useCallback((prefs: Preferences, opts?: { completeOnboarding?: boolean }) => {
+    requestPersistentStorage();
     setProfile((p) => ({
       ...p,
       preferences: prefs,
@@ -196,6 +216,7 @@ export function ProfileProvider({ children }: { children: ReactNode }) {
       removeWish(car.id);
       return false;
     }
+    requestPersistentStorage();
     const entry: WishlistEntry = { generationId: car.id, addedAt: new Date().toISOString(), snapshot: car };
     setWishlist((list) => [entry, ...list.filter((w) => w.generationId !== car.id)]);
     enqueue({ kind: 'wish-put', entry });
