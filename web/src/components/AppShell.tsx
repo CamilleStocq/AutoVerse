@@ -109,7 +109,6 @@ export function AppShell() {
             {install.canPrompt && !install.installed && (
               <button type="button" className="icon-btn" onClick={install.prompt} aria-label="Installer l’application" data-tip="Installer"><Download size={20} /></button>
             )}
-            <button type="button" className="icon-btn" onClick={openSearch} aria-label="Rechercher" data-tip="Rechercher"><Search size={20} /></button>
             <NavLink to="/alertes" className="icon-btn" aria-label={unread ? `Alertes (${unread} non lues)` : 'Alertes'} data-tip="Alertes"><Bell size={20} />{unread > 0 && <span className="dot num">{unread > 9 ? '9+' : unread}</span>}</NavLink>
             <NavLink to="/actualite" className="icon-btn" aria-label="Actualité" data-tip="Actualité"><Newspaper size={20} /></NavLink>
             <NavLink to="/profil" className="icon-btn" aria-label="Profil et paramètres" data-tip="Profil"><Settings size={20} /></NavLink>
