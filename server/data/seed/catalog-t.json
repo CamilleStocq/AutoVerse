@@ -1,0 +1,4284 @@
+{
+  "generations": [
+    {
+      "id": "mazda-cx-5-kg",
+      "modelId": "mazda-cx-5",
+      "brandId": "mazda",
+      "modelName": "CX-5",
+      "name": "Mazda CX-5 (3e génération, 2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "Troisième génération du SUV best-seller de Mazda, le CX-5 grandit (4,69 m) et adopte un unique 2.5 e-Skyactiv G micro-hybride de 141 ch.",
+        "positioning": "SUV compact familial de Mazda, placé entre le CX-30 et le CX-60.",
+        "technicalFacts": [
+          "Moteur 4 cylindres 2,5 litres (2 488 cm³) micro-hybride de 141 ch et 238 Nm, boîte automatique 6 rapports (Autotijd).",
+          "Longueur 4 690 mm, empattement 2 815 mm, coffre 583 litres et 2 019 litres banquette rabattue (Autotijd).",
+          "Disponible en traction ou en transmission intégrale."
+        ],
+        "pros": [
+          "Coffre de 583 litres, en net progrès pour la catégorie.",
+          "Habitabilité arrière généreuse (1 012 mm d'espace aux jambes selon Autotijd)."
+        ],
+        "differentiators": [
+          "Reste fidèle à un moteur essence atmosphérique de grosse cylindrée là où la concurrence passe au turbo et à l'hybride."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Performances modestes : 10,5 s de 0 à 100 km/h en traction.",
+          "Consommation WLTP de 7,0 l/100 km, élevée face aux SUV hybrides concurrents."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mazda-cx-5-kg-25-fwd",
+          "name": "2.5 e-Skyactiv G 141 ch",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne atmosphérique, micro-hybride",
+            "displacementCc": 2488,
+            "electricMotors": null
+          },
+          "powerHp": 141,
+          "powerKw": 104,
+          "torqueNm": 238,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 6 rapports",
+          "accel0100s": 10.5,
+          "topSpeedKmh": 187,
+          "consumption": {
+            "value": 7.0,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 157,
+          "weightKg": 1629,
+          "dimensions": {
+            "lengthMm": 4690,
+            "widthMm": 1860,
+            "heightMm": 1695,
+            "wheelbaseMm": 2815
+          },
+          "seats": 5,
+          "trunkL": 583,
+          "equipmentHighlights": [
+            "Micro-hybridation (Mhev) selon Autotijd"
+          ],
+          "prices": [],
+          "notes": "CO2 WLTP 157–159 g/km selon Autotijd (valeur basse retenue). Aucun prix belge de cette nouvelle génération trouvé : la page de prix Autotijd liste encore la génération précédente.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mazda CX-5 2.5 e-Skyactiv G",
+              "url": "https://autotijd.be/fr/fiches-techniques/mazda/cx-5/25-e-skyactiv-g-5426",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mazda CX-5 2.5 e-Skyactiv G",
+              "url": "https://autotijd.be/fr/dimensions/mazda/cx-5/25-e-skyactiv-g-5426",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mazda-cx-5-kg-25-awd",
+          "name": "2.5 e-Skyactiv G 141 ch AWD",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne atmosphérique, micro-hybride",
+            "displacementCc": 2488,
+            "electricMotors": null
+          },
+          "powerHp": 141,
+          "powerKw": 104,
+          "torqueNm": 238,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 6 rapports",
+          "accel0100s": 10.9,
+          "topSpeedKmh": 185,
+          "consumption": {
+            "value": 7.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 168,
+          "weightKg": 1671,
+          "dimensions": {
+            "lengthMm": 4690,
+            "widthMm": 1860,
+            "heightMm": 1695,
+            "wheelbaseMm": 2815
+          },
+          "seats": 5,
+          "trunkL": 583,
+          "equipmentHighlights": [
+            "Transmission intégrale"
+          ],
+          "prices": [],
+          "notes": "Consommation WLTP 7,4–7,5 l/100 km et CO2 168–169 g/km selon Autotijd (valeurs basses retenues). Prix belge non trouvé.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mazda CX-5 2.5 e-Skyactiv G AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/mazda/cx-5/25-e-skyactiv-g-awd-5427",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mazda CX-5 2.5 e-Skyactiv G AWD",
+              "url": "https://autotijd.be/fr/dimensions/mazda/cx-5/25-e-skyactiv-g-awd-5427",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique Mazda CX-5 2.5 e-Skyactiv G",
+          "url": "https://autotijd.be/fr/fiches-techniques/mazda/cx-5/25-e-skyactiv-g-5426",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Mazda CX-5 2.5 e-Skyactiv G",
+          "url": "https://autotijd.be/fr/dimensions/mazda/cx-5/25-e-skyactiv-g-5426",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mazda-cx-30-dm",
+      "modelId": "mazda-cx-30",
+      "brandId": "mazda",
+      "modelName": "CX-30",
+      "name": "Mazda CX-30 (2019)",
+      "yearsLabel": "2019 –",
+      "startYear": 2019,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mazda CX-30 Washington DC Metro Area, USA.jpg",
+          "caption": "Mazda CX-30 photographiée dans la région de Washington (États-Unis)",
+          "depicts": "Mazda CX-30 (DM), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mazda CX-30 XD AWD rear.jpg",
+          "caption": "Mazda CX-30 XD AWD, vue arrière",
+          "depicts": "Mazda CX-30 (DM), vue arrière",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le CX-30 est le SUV compact de Mazda dérivé de la Mazda3, proposé uniquement avec des moteurs essence 2,0 litres micro-hybrides.",
+        "positioning": "Intercalé entre le CX-3 et le CX-5 dans la gamme Mazda.",
+        "technicalFacts": [
+          "Moteurs essence 2,0 litres (1 998 cm³) e-Skyactiv G et e-Skyactiv X, micro-hybrides (Autotijd).",
+          "Le Skyactiv-X utilise un taux de compression de 16,3:1 (Autotijd).",
+          "Longueur 4 395 mm, coffre 430 litres (Autotijd)."
+        ],
+        "pros": [
+          "Boîte manuelle 6 rapports encore disponible.",
+          "Gabarit compact et facile à vivre en ville."
+        ],
+        "differentiators": [
+          "Moteur Skyactiv-X à allumage par compression contrôlée par bougie (SPCCI), rare sur le marché."
+        ],
+        "pricePositioning": "Gamme belge de 28 990 € à 38 290 € (janvier 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Places arrière et coffre moyens pour un SUV.",
+          "Moteurs atmosphériques peu vigoureux à bas régime."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mazda-cx-30-dm-g122-bvm",
+          "name": "e-Skyactiv G 122 ch BVM",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne atmosphérique, micro-hybride",
+            "displacementCc": 1998,
+            "electricMotors": null
+          },
+          "powerHp": 122,
+          "powerKw": 90,
+          "torqueNm": 210,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 10.6,
+          "topSpeedKmh": 186,
+          "consumption": {
+            "value": 6.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 141,
+          "weightKg": 1320,
+          "dimensions": {
+            "lengthMm": 4395,
+            "widthMm": 1795,
+            "heightMm": 1540,
+            "wheelbaseMm": 2655
+          },
+          "seats": 5,
+          "trunkL": 430,
+          "equipmentHighlights": [
+            "Boîte manuelle 6 rapports"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 28990,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be – prix belges Mazda CX-30",
+                "url": "https://autotijd.be/fr/prix/mazda/cx-30",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Prix : finition Prime-Line, barème belge de janvier 2024 relevé sur Autotijd.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mazda CX-30 Skyactiv-G BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/mazda/cx-30/skyactiv-g-122-hp-manual-2607",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mazda CX-30 Skyactiv-G BVM",
+              "url": "https://autotijd.be/fr/dimensions/mazda/cx-30/skyactiv-g-122-hp-manual-2607",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Mazda CX-30",
+              "url": "https://autotijd.be/fr/prix/mazda/cx-30",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mazda-cx-30-dm-x180-awd",
+          "name": "Skyactiv-X 180 ch AWD",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne SPCCI, micro-hybride",
+            "displacementCc": 1998,
+            "electricMotors": null
+          },
+          "powerHp": 180,
+          "powerKw": 132,
+          "torqueNm": 224,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 6 rapports",
+          "accel0100s": 9.2,
+          "topSpeedKmh": 204,
+          "consumption": {
+            "value": 7.0,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 160,
+          "weightKg": 1471,
+          "dimensions": {
+            "lengthMm": 4395,
+            "widthMm": 1795,
+            "heightMm": 1540,
+            "wheelbaseMm": 2655
+          },
+          "seats": 5,
+          "trunkL": 430,
+          "equipmentHighlights": [
+            "Transmission intégrale i-Activ AWD"
+          ],
+          "prices": [],
+          "notes": "Fiche technique Autotijd pour la version 180 ch ; la liste de prix belge de janvier 2024 mentionne un e-Skyactiv X de 186 ch, donc aucun prix n'est associé à cette version 180 ch.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mazda CX-30 Skyactiv-X AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/mazda/cx-30/skyactiv-x-180-hp-awd-2614",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mazda CX-30 Skyactiv-X AWD",
+              "url": "https://autotijd.be/fr/dimensions/mazda/cx-30/skyactiv-x-180-hp-awd-2614",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Mazda CX-30",
+          "url": "https://autotijd.be/fr/prix/mazda/cx-30",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Mazda CX-30 Skyactiv-G BVM",
+          "url": "https://autotijd.be/fr/fiches-techniques/mazda/cx-30/skyactiv-g-122-hp-manual-2607",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mazda-cx-60-kh",
+      "modelId": "mazda-cx-60",
+      "brandId": "mazda",
+      "modelName": "CX-60",
+      "name": "Mazda CX-60 (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV familial premium (segment D)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "family",
+        "travel",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mazda CX-60 PHEV Automesse Ludwigsburg 2022 1X7A5890.jpg",
+          "caption": "Mazda CX-60 PHEV à l'Automesse de Ludwigsburg (2022)",
+          "depicts": "Mazda CX-60 PHEV, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mazda CX-60 PHEV 1X7A0369.jpg",
+          "caption": "Mazda CX-60 PHEV",
+          "depicts": "Mazda CX-60 PHEV, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le CX-60 inaugure la plateforme à moteur longitudinal et propulsion de Mazda, avec un 6 cylindres diesel 3,3 litres et un hybride rechargeable de 327 ch.",
+        "positioning": "Premier SUV du segment D de Mazda en Europe, positionné face aux SUV premium allemands.",
+        "technicalFacts": [
+          "Diesel 6 cylindres en ligne de 3 283 cm³, micro-hybride, 200 ch (propulsion) ou 254 ch (intégrale) (Autotijd).",
+          "Hybride rechargeable : 4 cylindres 2,5 litres de 192 ch et moteur électrique de 136 ch, 327 ch cumulés, batterie de 17,8 kWh (Autotijd).",
+          "Boîte automatique 8 rapports sur toutes les versions (Autotijd).",
+          "Coffre 570 litres, 1 726 litres banquette rabattue (Autotijd)."
+        ],
+        "pros": [
+          "Diesel 6 cylindres sobre (4,7 l/100 km WLTP en 200 ch).",
+          "Capacité de remorquage de 2 500 kg."
+        ],
+        "differentiators": [
+          "Un des rares SUV de sa catégorie à proposer un nouveau 6 cylindres diesel."
+        ],
+        "pricePositioning": "De 50 090 € à 62 490 € en Belgique (janvier 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Autonomie électrique limitée à 63 km pour l'hybride rechargeable.",
+          "Poids proche de 2 tonnes en PHEV."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mazda-cx-60-kh-d200",
+          "name": "e-Skyactiv D 200 ch",
+          "tier": "entry",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "6 cylindres en ligne diesel, micro-hybride",
+            "displacementCc": 3283,
+            "electricMotors": null
+          },
+          "powerHp": 200,
+          "powerKw": 147,
+          "torqueNm": 450,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 8.4,
+          "topSpeedKmh": 212,
+          "consumption": {
+            "value": 4.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 127,
+          "weightKg": 1815,
+          "dimensions": {
+            "lengthMm": 4740,
+            "widthMm": 1949,
+            "heightMm": 1680,
+            "wheelbaseMm": 2870
+          },
+          "seats": 5,
+          "trunkL": 570,
+          "equipmentHighlights": [
+            "Propulsion"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 50090,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be – prix belges Mazda CX-60",
+                "url": "https://autotijd.be/fr/prix/mazda/cx-60",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "CO2 127–128 g/km selon Autotijd (valeur basse retenue). Prix : finition Prime-Line.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mazda CX-60 e-Skyactiv D",
+              "url": "https://autotijd.be/fr/fiches-techniques/mazda/cx-60/e-skyactiv-d-200-hp-3620",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mazda CX-60 e-Skyactiv D",
+              "url": "https://autotijd.be/fr/dimensions/mazda/cx-60/e-skyactiv-d-200-hp-3620",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Mazda CX-60",
+              "url": "https://autotijd.be/fr/prix/mazda/cx-60",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mazda-cx-60-kh-d254-awd",
+          "name": "e-Skyactiv D 254 ch AWD",
+          "tier": "mid",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "6 cylindres en ligne diesel, micro-hybride",
+            "displacementCc": 3283,
+            "electricMotors": null
+          },
+          "powerHp": 254,
+          "powerKw": 187,
+          "torqueNm": 550,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 7.4,
+          "topSpeedKmh": 219,
+          "consumption": {
+            "value": 4.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 136,
+          "weightKg": 1860,
+          "dimensions": {
+            "lengthMm": 4740,
+            "widthMm": 1949,
+            "heightMm": 1680,
+            "wheelbaseMm": 2870
+          },
+          "seats": 5,
+          "trunkL": 570,
+          "equipmentHighlights": [
+            "Transmission intégrale"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 55090,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be – prix belges Mazda CX-60",
+                "url": "https://autotijd.be/fr/prix/mazda/cx-60",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Prix : finition Exclusive-Line.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mazda CX-60 e-Skyactiv D AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/mazda/cx-60/e-skyactiv-d-254-hp-awd-3621",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mazda CX-60 e-Skyactiv D AWD",
+              "url": "https://autotijd.be/fr/dimensions/mazda/cx-60/e-skyactiv-d-254-hp-awd-3621",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Mazda CX-60",
+              "url": "https://autotijd.be/fr/prix/mazda/cx-60",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mazda-cx-60-kh-phev-327",
+          "name": "2.5 e-Skyactiv PHEV 327 ch AWD",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2,5 l + moteur électrique",
+            "displacementCc": 2488,
+            "electricMotors": 1
+          },
+          "powerHp": 327,
+          "powerKw": 241,
+          "torqueNm": 500,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 5.8,
+          "topSpeedKmh": 200,
+          "consumption": {
+            "value": 1.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 63,
+          "batteryKwh": 17.8,
+          "charging": null,
+          "co2Gkm": 33,
+          "weightKg": 1980,
+          "dimensions": {
+            "lengthMm": 4740,
+            "widthMm": 1949,
+            "heightMm": 1680,
+            "wheelbaseMm": 2870
+          },
+          "seats": 5,
+          "trunkL": 570,
+          "equipmentHighlights": [
+            "Batterie 17,8 kWh (brute)",
+            "Charge AC 7,2 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 53690,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be – prix belges Mazda CX-60",
+                "url": "https://autotijd.be/fr/prix/mazda/cx-60",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation électrique 17,1 kWh/100 km (Autotijd). Prix : finition Prime-Line.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mazda CX-60 2.5 e-Skyactiv AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/mazda/cx-60/25-e-skyactiv-327-hp-awd-3338",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mazda CX-60 2.5 e-Skyactiv AWD",
+              "url": "https://autotijd.be/fr/dimensions/mazda/cx-60/25-e-skyactiv-327-hp-awd-3338",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Mazda CX-60",
+              "url": "https://autotijd.be/fr/prix/mazda/cx-60",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Mazda CX-60",
+          "url": "https://autotijd.be/fr/prix/mazda/cx-60",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Mazda CX-60 2.5 e-Skyactiv AWD",
+          "url": "https://autotijd.be/fr/fiches-techniques/mazda/cx-60/25-e-skyactiv-327-hp-awd-3338",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mazda-3-bp",
+      "modelId": "mazda-3",
+      "brandId": "mazda",
+      "modelName": "Mazda3",
+      "name": "Mazda3 Hatchback (4e génération, 2019)",
+      "yearsLabel": "2019 –",
+      "startYear": 2019,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mazda3 (BP) 1X7A7264.jpg",
+          "caption": "Mazda3 de quatrième génération (BP)",
+          "depicts": "Mazda3 (BP), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mazda3 (BP) X e-Skyactiv-X IMG 9020.jpg",
+          "caption": "Mazda3 (BP) e-Skyactiv-X",
+          "depicts": "Mazda3 (BP) e-Skyactiv-X",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Quatrième génération de la compacte Mazda, la Mazda3 se distingue par son design épuré et ses moteurs essence 2,0 litres atmosphériques.",
+        "positioning": "Compacte de Mazda, base technique du CX-30.",
+        "technicalFacts": [
+          "Moteurs essence 2,0 litres (1 998 cm³) Skyactiv-G et Skyactiv-X (Autotijd).",
+          "Longueur 4 460 mm, empattement 2 725 mm, coffre 351 litres (Autotijd)."
+        ],
+        "pros": [
+          "Design très soigné.",
+          "Boîte manuelle 6 rapports toujours au catalogue."
+        ],
+        "differentiators": [
+          "Moteur Skyactiv-X à combustion SPCCI (taux de compression 16,3:1)."
+        ],
+        "pricePositioning": "De 25 990 € à 35 900 € en Belgique (avril 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Coffre de 351 litres seulement.",
+          "Visibilité arrière réduite par le large montant C."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mazda-3-bp-g122-bvm",
+          "name": "Skyactiv-G 2.0 122 ch BVM",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne atmosphérique, micro-hybride",
+            "displacementCc": 1998,
+            "electricMotors": null
+          },
+          "powerHp": 122,
+          "powerKw": 90,
+          "torqueNm": 213,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 10.4,
+          "topSpeedKmh": 197,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1274,
+          "dimensions": {
+            "lengthMm": 4460,
+            "widthMm": 1795,
+            "heightMm": 1435,
+            "wheelbaseMm": 2725
+          },
+          "seats": 5,
+          "trunkL": 351,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 25990,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – prix belges Mazda3 Hatchback",
+                "url": "https://autotijd.be/fr/prix/mazda/mazda3-hatchback",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation et CO2 non publiés sur la fiche Autotijd consultée. Prix : finition Prime-Line (barème d'avril 2024).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mazda3 Hatchback Skyactiv-G 2.0 BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/mazda/mazda3-hatchback/skyactiv-g-20-122-hp-manual-1050",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mazda3 Hatchback Skyactiv-G 2.0 BVM",
+              "url": "https://autotijd.be/fr/dimensions/mazda/mazda3-hatchback/skyactiv-g-20-122-hp-manual-1050",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Mazda3 Hatchback",
+              "url": "https://autotijd.be/fr/prix/mazda/mazda3-hatchback",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mazda-3-bp-x180-at",
+          "name": "Skyactiv-X 2.0 180 ch automatique",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne SPCCI, micro-hybride",
+            "displacementCc": 1998,
+            "electricMotors": null
+          },
+          "powerHp": 180,
+          "powerKw": 132,
+          "torqueNm": 224,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": {
+            "value": 6.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 140,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4460,
+            "widthMm": 1795,
+            "heightMm": 1435,
+            "wheelbaseMm": 2725
+          },
+          "seats": 5,
+          "trunkL": 351,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Consommation 6,2–6,3 l/100 km et CO2 140–142 g/km (Autotijd, valeurs basses retenues). 0-100 km/h, vitesse max et poids non publiés sur la fiche consultée. La liste de prix belge 2024 mentionne un e-Skyactiv X de 186 ch : aucun prix associé à cette version 180 ch.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mazda3 Hatchback Skyactiv-X 2.0",
+              "url": "https://autotijd.be/fr/fiches-techniques/mazda/mazda3-hatchback/skyactiv-x-20-180-hp-1776",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mazda3 Hatchback Skyactiv-X 2.0",
+              "url": "https://autotijd.be/fr/dimensions/mazda/mazda3-hatchback/skyactiv-x-20-180-hp-1776",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Mazda3 Hatchback",
+          "url": "https://autotijd.be/fr/prix/mazda/mazda3-hatchback",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Mazda3 Hatchback Skyactiv-G 2.0 BVM",
+          "url": "https://autotijd.be/fr/fiches-techniques/mazda/mazda3-hatchback/skyactiv-g-20-122-hp-manual-1050",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mazda-6e",
+      "modelId": "mazda-6e",
+      "brandId": "mazda",
+      "modelName": "6e",
+      "name": "Mazda 6e (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Berline électrique familiale (segment D)",
+      "bodyStyles": [
+        "Berline 5 portes (hayon)"
+      ],
+      "categories": [
+        "family-sedan"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "travel",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mazda 6e Fastback (GIIAS 2026).jpg",
+          "caption": "Mazda 6e au salon GIIAS 2026",
+          "depicts": "Mazda 6e, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Mazda 6e est une grande berline 100 % électrique à propulsion de 4,92 m, proposée avec une batterie LFP de 68,8 kWh ou NCM de 80 kWh.",
+        "positioning": "Berline électrique de Mazda, qui succède de fait à la Mazda6 thermique en Europe.",
+        "technicalFacts": [
+          "Longueur 4 921 mm, empattement 2 895 mm (Autotijd).",
+          "Batterie LFP 68,8 kWh (charge DC 200 kW) ou NCM 80 kWh (charge DC 95 kW) (Autotijd).",
+          "Coffre 330 litres plus coffre avant de 70 litres (Autotijd)."
+        ],
+        "pros": [
+          "Charge rapide en 22 min (10–80 %) avec la batterie de 68,8 kWh.",
+          "Autonomie WLTP jusqu'à 552 km en Long Range."
+        ],
+        "differentiators": [
+          "Propulsion sur toutes les versions."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Coffre arrière de 330 litres, petit pour une berline de près de 4,9 m.",
+          "Charge DC limitée à 95 kW sur la Long Range."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mazda-6e-69",
+          "name": "68,8 kWh 258 ch",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 258,
+          "powerKw": 190,
+          "torqueNm": 320,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 7.6,
+          "topSpeedKmh": 175,
+          "consumption": {
+            "value": 16.6,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 479,
+          "batteryKwh": 68.8,
+          "charging": {
+            "dcMaxKw": 200,
+            "dc10to80Min": 22
+          },
+          "co2Gkm": 0,
+          "weightKg": 1952,
+          "dimensions": {
+            "lengthMm": 4921,
+            "widthMm": 1890,
+            "heightMm": 1491,
+            "wheelbaseMm": 2895
+          },
+          "seats": 5,
+          "trunkL": 330,
+          "equipmentHighlights": [
+            "Batterie LFP 68,8 kWh (brute)",
+            "Chargeur AC 11 kW"
+          ],
+          "prices": [],
+          "notes": "Prix belge non trouvé.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mazda 6e 69 kWh",
+              "url": "https://autotijd.be/fr/fiches-techniques/mazda/mazda6e/69-kwh-5212",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mazda 6e 69 kWh",
+              "url": "https://autotijd.be/fr/dimensions/mazda/mazda6e/69-kwh-5212",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mazda-6e-long-range",
+          "name": "Long Range 80 kWh 245 ch",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 245,
+          "powerKw": 180,
+          "torqueNm": 320,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 7.8,
+          "topSpeedKmh": 175,
+          "consumption": {
+            "value": 16.5,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 552,
+          "batteryKwh": 80,
+          "charging": {
+            "dcMaxKw": 95,
+            "dc10to80Min": 45
+          },
+          "co2Gkm": 0,
+          "weightKg": 1953,
+          "dimensions": {
+            "lengthMm": 4921,
+            "widthMm": 1890,
+            "heightMm": 1491,
+            "wheelbaseMm": 2895
+          },
+          "seats": 5,
+          "trunkL": 330,
+          "equipmentHighlights": [
+            "Batterie NCM 80 kWh (brute)",
+            "Chargeur AC 11 kW"
+          ],
+          "prices": [],
+          "notes": "Prix belge non trouvé.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mazda 6e Long Range",
+              "url": "https://autotijd.be/fr/fiches-techniques/mazda/mazda6e/long-range-80-kwh-5213",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mazda 6e Long Range",
+              "url": "https://autotijd.be/fr/dimensions/mazda/mazda6e/long-range-80-kwh-5213",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique Mazda 6e 69 kWh",
+          "url": "https://autotijd.be/fr/fiches-techniques/mazda/mazda6e/69-kwh-5212",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Mazda 6e Long Range",
+          "url": "https://autotijd.be/fr/fiches-techniques/mazda/mazda6e/long-range-80-kwh-5213",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mazda-mx-30",
+      "modelId": "mazda-mx-30",
+      "brandId": "mazda",
+      "modelName": "MX-30",
+      "name": "Mazda MX-30 (2020)",
+      "yearsLabel": "2020 –",
+      "startYear": 2020,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain électrifié (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes à portes arrière antagonistes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mazda MX-30 EV 1X7A0376.jpg",
+          "caption": "Mazda MX-30 électrique",
+          "depicts": "Mazda MX-30 e-Skyactiv EV",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mazda MX-30 e-Skyactiv R 1X7A1654.jpg",
+          "caption": "Mazda MX-30 e-Skyactiv R-EV",
+          "depicts": "Mazda MX-30 e-Skyactiv R-EV",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le MX-30 est le premier modèle électrique de Mazda, proposé en 100 % électrique ou en hybride rechargeable R-EV à prolongateur d'autonomie.",
+        "positioning": "SUV urbain à part dans la gamme Mazda, sur la même longueur que le CX-30 (4 395 mm).",
+        "technicalFacts": [
+          "Version électrique : batterie de 35,5 kWh, 200 km d'autonomie WLTP (Autotijd).",
+          "Version R-EV : batterie de 17,8 kWh, 85 km d'autonomie électrique (Autotijd).",
+          "Coffre 332 litres (Autotijd)."
+        ],
+        "pros": [
+          "Portes arrière antagonistes originales.",
+          "Version R-EV qui lève la contrainte d'autonomie."
+        ],
+        "differentiators": [
+          "Version R-EV hybride rechargeable de série (Autotijd : 170 ch, 85 km en électrique)."
+        ],
+        "pricePositioning": "À partir de 37 070 € en Belgique (mars 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Autonomie de 200 km seulement en version électrique.",
+          "Vitesse limitée à 140 km/h."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mazda-mx-30-bev",
+          "name": "e-Skyactiv EV 145 ch",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 145,
+          "powerKw": 107,
+          "torqueNm": 271,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 9.7,
+          "topSpeedKmh": 140,
+          "consumption": {
+            "value": 17.9,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 200,
+          "batteryKwh": 35.5,
+          "charging": {
+            "dcMaxKw": 50,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1645,
+          "dimensions": {
+            "lengthMm": 4395,
+            "widthMm": 1848,
+            "heightMm": 1555,
+            "wheelbaseMm": 2655
+          },
+          "seats": 5,
+          "trunkL": 332,
+          "equipmentHighlights": [
+            "Batterie 35,5 kWh (brute)",
+            "Chargeur AC 6,6 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 37070,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Mazda MX-30",
+                "url": "https://autotijd.be/fr/prix/mazda/mx-30",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Charge DC 20–80 % en 25 min selon Autotijd (pas de valeur 10–80 %). Prix : finition Prime-Line.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mazda MX-30 e-Skyactiv BEV",
+              "url": "https://autotijd.be/fr/fiches-techniques/mazda/mx-30/e-skyactiv-bev-145-hp-3772",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mazda MX-30 e-Skyactiv BEV",
+              "url": "https://autotijd.be/fr/dimensions/mazda/mx-30/e-skyactiv-bev-145-hp-3772",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Mazda MX-30",
+              "url": "https://autotijd.be/fr/prix/mazda/mx-30",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mazda-mx-30-r-ev",
+          "name": "e-Skyactiv R-EV 170 ch",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "Moteur électrique avant + moteur thermique (R-EV)",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 170,
+          "powerKw": 125,
+          "torqueNm": 260,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 9.1,
+          "topSpeedKmh": 140,
+          "consumption": {
+            "value": 1.0,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 85,
+          "batteryKwh": 17.8,
+          "charging": {
+            "dcMaxKw": 36,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 21,
+          "weightKg": 1778,
+          "dimensions": {
+            "lengthMm": 4395,
+            "widthMm": 1848,
+            "heightMm": 1560,
+            "wheelbaseMm": 2655
+          },
+          "seats": 5,
+          "trunkL": 332,
+          "equipmentHighlights": [
+            "Batterie 17,8 kWh (brute)",
+            "Consommation électrique 17,5 kWh/100 km"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 37070,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Mazda MX-30",
+                "url": "https://autotijd.be/fr/prix/mazda/mx-30",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Cylindrée du moteur thermique non indiquée sur la fiche consultée. Prix : finition Prime-Line.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mazda MX-30 e-Skyactiv R-EV",
+              "url": "https://autotijd.be/fr/fiches-techniques/mazda/mx-30/e-skyactiv-r-ev-170-hp-3771",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mazda MX-30 e-Skyactiv R-EV",
+              "url": "https://autotijd.be/fr/dimensions/mazda/mx-30/e-skyactiv-r-ev-170-hp-3771",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Mazda MX-30",
+              "url": "https://autotijd.be/fr/prix/mazda/mx-30",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Mazda MX-30",
+          "url": "https://autotijd.be/fr/prix/mazda/mx-30",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Mazda MX-30 e-Skyactiv BEV",
+          "url": "https://autotijd.be/fr/fiches-techniques/mazda/mx-30/e-skyactiv-bev-145-hp-3772",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "honda-hr-v-rv",
+      "modelId": "honda-hr-v",
+      "brandId": "honda",
+      "modelName": "HR-V",
+      "name": "Honda HR-V e:HEV (3e génération, 2021)",
+      "yearsLabel": "2021 –",
+      "startYear": 2021,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain hybride (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2025 Honda HR-V Hybrid DSC 7908.jpg",
+          "caption": "Honda HR-V Hybrid 2025",
+          "depicts": "Honda HR-V e:HEV (RV) restylé",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Honda HR-V Hybrid 1X7A1882.jpg",
+          "caption": "Honda HR-V Hybrid",
+          "depicts": "Honda HR-V e:HEV (RV)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le HR-V de troisième génération est un SUV urbain hybride e:HEV de 131 ch, restylé pour 2025 et vendu en une seule motorisation.",
+        "positioning": "SUV urbain de Honda, sous le ZR-V et le CR-V.",
+        "technicalFacts": [
+          "Code modèle RV, plate-forme Honda Global Small Car (Autotijd).",
+          "Hybride e:HEV : 4 cylindres 1 498 cm³ de 107 ch et 131 ch au total, 253 Nm (Autotijd).",
+          "Longueur 4 355 mm, coffre 319 litres (Autotijd)."
+        ],
+        "pros": [
+          "Consommation contenue (5,4 l/100 km WLTP).",
+          "Garde au sol de 188 mm."
+        ],
+        "differentiators": [
+          "Hybride autorechargeable sans boîte de vitesses classique."
+        ],
+        "pricePositioning": "De 33 395 € à 40 580 € en Belgique (novembre 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Coffre de 319 litres seulement.",
+          "Performances modestes (10,6 s de 0 à 100 km/h)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "honda-hr-v-rv-elegance",
+          "name": "e:HEV 131 ch Elegance",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres 1,5 l + moteur électrique de traction (e:HEV)",
+            "displacementCc": 1498,
+            "electricMotors": null
+          },
+          "powerHp": 131,
+          "powerKw": 96,
+          "torqueNm": 253,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (transmission e:HEV à rapport fixe)",
+          "accel0100s": 10.6,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 5.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 122,
+          "weightKg": 1380,
+          "dimensions": {
+            "lengthMm": 4355,
+            "widthMm": 1790,
+            "heightMm": 1582,
+            "wheelbaseMm": 2610
+          },
+          "seats": 5,
+          "trunkL": 319,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 33395,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Honda HR-V",
+                "url": "https://autotijd.be/fr/prix/honda/hr-v",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Mêmes caractéristiques techniques pour toutes les finitions selon la fiche Autotijd ; la finition ne change que l'équipement. Barème belge à partir de novembre 2024.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Honda HR-V e:HEV 1.5",
+              "url": "https://autotijd.be/fr/fiches-techniques/honda/hr-v/ehev-15-5098",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Honda HR-V e:HEV 1.5",
+              "url": "https://autotijd.be/fr/dimensions/honda/hr-v/ehev-15-5098",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Honda HR-V",
+              "url": "https://autotijd.be/fr/prix/honda/hr-v",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "honda-hr-v-rv-advance-style-plus",
+          "name": "e:HEV 131 ch Advance Style Plus",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres 1,5 l + moteur électrique de traction (e:HEV)",
+            "displacementCc": 1498,
+            "electricMotors": null
+          },
+          "powerHp": 131,
+          "powerKw": 96,
+          "torqueNm": 253,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (transmission e:HEV à rapport fixe)",
+          "accel0100s": 10.6,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 5.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 122,
+          "weightKg": 1380,
+          "dimensions": {
+            "lengthMm": 4355,
+            "widthMm": 1790,
+            "heightMm": 1582,
+            "wheelbaseMm": 2610
+          },
+          "seats": 5,
+          "trunkL": 319,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 40580,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Honda HR-V",
+                "url": "https://autotijd.be/fr/prix/honda/hr-v",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Fiche technique unique Autotijd pour l'e:HEV 1.5 ; les valeurs (poids, consommation) peuvent varier légèrement selon la monte pneumatique de cette finition haut de gamme.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Honda HR-V e:HEV 1.5",
+              "url": "https://autotijd.be/fr/fiches-techniques/honda/hr-v/ehev-15-5098",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Honda HR-V e:HEV 1.5",
+              "url": "https://autotijd.be/fr/dimensions/honda/hr-v/ehev-15-5098",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Honda HR-V",
+              "url": "https://autotijd.be/fr/prix/honda/hr-v",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Honda HR-V",
+          "url": "https://autotijd.be/fr/prix/honda/hr-v",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Honda HR-V e:HEV 1.5",
+          "url": "https://autotijd.be/fr/fiches-techniques/honda/hr-v/ehev-15-5098",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "honda-cr-v-6",
+      "modelId": "honda-cr-v",
+      "brandId": "honda",
+      "modelName": "CR-V",
+      "name": "Honda CR-V (6e génération, 2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV familial (segment D)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "family",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Honda CR-V (6th generation) hybrid 1X7A0866.jpg",
+          "caption": "Honda CR-V de sixième génération, hybride",
+          "depicts": "Honda CR-V (6e génération) e:HEV",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Honda CR-V (6th generation) e-PHEV Auto Zuerich 2023 1X7A1066.jpg",
+          "caption": "Honda CR-V e:PHEV à l'Auto Zürich 2023",
+          "depicts": "Honda CR-V (6e génération) e:PHEV",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le CR-V de sixième génération est le grand SUV de Honda, proposé en hybride e:HEV de 184 ch (traction ou intégrale) et en hybride rechargeable e:PHEV.",
+        "positioning": "SUV familial haut de gamme de Honda en Europe, au-dessus du ZR-V.",
+        "technicalFacts": [
+          "Moteur 2,0 litres (1 993 cm³) de 148 ch associé à un moteur électrique de 184 ch et 335 Nm (Autotijd).",
+          "e:PHEV : batterie de 17,7 kWh et 81 km d'autonomie électrique WLTP (Autotijd).",
+          "Longueur 4 706 mm, coffre 587 litres (617 litres en e:PHEV) (Autotijd)."
+        ],
+        "pros": [
+          "Coffre très volumineux.",
+          "Hybride rechargeable avec 81 km d'autonomie électrique."
+        ],
+        "differentiators": [
+          "Hybridation série-parallèle e:HEV sans boîte de vitesses classique."
+        ],
+        "pricePositioning": "De 48 150 € à 63 400 € en Belgique (janvier 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Capacité de remorquage limitée à 750 kg en e:HEV.",
+          "Prix élevé de la version e:PHEV."
+        ]
+      },
+      "variants": [
+        {
+          "id": "honda-cr-v-6-ehev-2wd",
+          "name": "e:HEV 184 ch 2WD",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres 2,0 l + moteur électrique de traction (e:HEV)",
+            "displacementCc": 1993,
+            "electricMotors": null
+          },
+          "powerHp": 184,
+          "powerKw": 135,
+          "torqueNm": 335,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (transmission e:HEV à rapport fixe)",
+          "accel0100s": 9.0,
+          "topSpeedKmh": 194,
+          "consumption": {
+            "value": 5.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 134,
+          "weightKg": 1754,
+          "dimensions": {
+            "lengthMm": 4706,
+            "widthMm": 1866,
+            "heightMm": 1674,
+            "wheelbaseMm": 2701
+          },
+          "seats": 5,
+          "trunkL": 587,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 48150,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be – prix belges Honda CR-V",
+                "url": "https://autotijd.be/fr/prix/honda/cr-v",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Couple : valeur du moteur électrique de traction (Autotijd). Prix : finition Elegance.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Honda CR-V e:HEV",
+              "url": "https://autotijd.be/fr/fiches-techniques/honda/cr-v/ehev-184-hp-4101",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Honda CR-V e:HEV",
+              "url": "https://autotijd.be/fr/dimensions/honda/cr-v/ehev-184-hp-4101",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Honda CR-V",
+              "url": "https://autotijd.be/fr/prix/honda/cr-v",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "honda-cr-v-6-ehev-awd",
+          "name": "e:HEV 184 ch AWD",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres 2,0 l + moteur électrique de traction (e:HEV)",
+            "displacementCc": 1993,
+            "electricMotors": null
+          },
+          "powerHp": 184,
+          "powerKw": 135,
+          "torqueNm": 335,
+          "drivetrain": "awd",
+          "gearbox": "Automatique (transmission e:HEV à rapport fixe)",
+          "accel0100s": 9.4,
+          "topSpeedKmh": 187,
+          "consumption": {
+            "value": 6.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 151,
+          "weightKg": 1810,
+          "dimensions": {
+            "lengthMm": 4706,
+            "widthMm": 1866,
+            "heightMm": 1684,
+            "wheelbaseMm": 2700
+          },
+          "seats": 5,
+          "trunkL": 587,
+          "equipmentHighlights": [
+            "Transmission intégrale"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 50200,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be – prix belges Honda CR-V",
+                "url": "https://autotijd.be/fr/prix/honda/cr-v",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Couple : valeur du moteur électrique de traction (Autotijd). Prix : finition Elegance AWD.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Honda CR-V e:HEV AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/honda/cr-v/ehev-184-hp-awd-4102",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Honda CR-V e:HEV AWD",
+              "url": "https://autotijd.be/fr/dimensions/honda/cr-v/ehev-184-hp-awd-4102",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Honda CR-V",
+              "url": "https://autotijd.be/fr/prix/honda/cr-v",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "honda-cr-v-6-ephev",
+          "name": "e:PHEV 184 ch",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres 2,0 l + moteur électrique de traction",
+            "displacementCc": 1993,
+            "electricMotors": null
+          },
+          "powerHp": 184,
+          "powerKw": 135,
+          "torqueNm": 335,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (transmission e:HEV à rapport fixe)",
+          "accel0100s": 9.4,
+          "topSpeedKmh": 195,
+          "consumption": {
+            "value": 0.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 81,
+          "batteryKwh": 17.7,
+          "charging": null,
+          "co2Gkm": 18,
+          "weightKg": 1920,
+          "dimensions": {
+            "lengthMm": 4706,
+            "widthMm": 1866,
+            "heightMm": 1673,
+            "wheelbaseMm": 2701
+          },
+          "seats": 5,
+          "trunkL": 617,
+          "equipmentHighlights": [
+            "Batterie 17,7 kWh (brute)",
+            "Consommation électrique 15,6 kWh/100 km"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 63400,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be – prix belges Honda CR-V",
+                "url": "https://autotijd.be/fr/prix/honda/cr-v",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "La fiche Autotijd indique une traction avant, tandis que la liste de prix Autotijd mentionne « traction intégrale » pour cette version : la valeur de la fiche technique est retenue. Prix : finition Advance Tech.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Honda CR-V e:PHEV",
+              "url": "https://autotijd.be/fr/fiches-techniques/honda/cr-v/ephev-184-hp-4103",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Honda CR-V e:PHEV",
+              "url": "https://autotijd.be/fr/dimensions/honda/cr-v/ephev-184-hp-4103",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Honda CR-V",
+              "url": "https://autotijd.be/fr/prix/honda/cr-v",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Honda CR-V",
+          "url": "https://autotijd.be/fr/prix/honda/cr-v",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Honda CR-V e:HEV",
+          "url": "https://autotijd.be/fr/fiches-techniques/honda/cr-v/ehev-184-hp-4101",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "honda-zr-v",
+      "modelId": "honda-zr-v",
+      "brandId": "honda",
+      "modelName": "ZR-V",
+      "name": "Honda ZR-V (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Honda ZR-V e-HEV IAA 2023 1X7A0542.jpg",
+          "caption": "Honda ZR-V e:HEV à l'IAA 2023",
+          "depicts": "Honda ZR-V e:HEV, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Honda ZR-V e-HEV 1X7A1679.jpg",
+          "caption": "Honda ZR-V e:HEV",
+          "depicts": "Honda ZR-V e:HEV, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le ZR-V est un SUV compact hybride e:HEV de 184 ch, intercalé entre le HR-V et le CR-V.",
+        "positioning": "SUV compact de Honda, techniquement proche de la Civic e:HEV.",
+        "technicalFacts": [
+          "Hybride e:HEV : 2,0 litres (1 993 cm³) de 143 ch et moteur électrique de 184 ch / 315 Nm (Autotijd).",
+          "Longueur 4 568 mm, coffre 380 litres (Autotijd)."
+        ],
+        "pros": [
+          "Accélérations vives pour un hybride (7,8 s de 0 à 100 km/h).",
+          "Consommation mesurée (5,7 l/100 km WLTP)."
+        ],
+        "differentiators": [],
+        "pricePositioning": "De 42 600 € à 47 250 € en Belgique (janvier 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Coffre de 380 litres, juste pour la catégorie.",
+          "Vitesse maximale limitée à 173 km/h."
+        ]
+      },
+      "variants": [
+        {
+          "id": "honda-zr-v-elegance",
+          "name": "e:HEV 184 ch Elegance",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres 2,0 l + moteur électrique de traction (e:HEV)",
+            "displacementCc": 1993,
+            "electricMotors": null
+          },
+          "powerHp": 184,
+          "powerKw": 135,
+          "torqueNm": 315,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (transmission e:HEV à rapport fixe)",
+          "accel0100s": 7.8,
+          "topSpeedKmh": 173,
+          "consumption": {
+            "value": 5.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 130,
+          "weightKg": 1589,
+          "dimensions": {
+            "lengthMm": 4568,
+            "widthMm": 1840,
+            "heightMm": 1620,
+            "wheelbaseMm": 2657
+          },
+          "seats": 5,
+          "trunkL": 380,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 42600,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be – prix belges Honda ZR-V",
+                "url": "https://autotijd.be/fr/prix/honda/zr-v",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation 5,7–5,8 l/100 km et CO2 130–132 g/km (Autotijd, valeurs basses). Même fiche technique pour toutes les finitions.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Honda ZR-V e:HEV",
+              "url": "https://autotijd.be/fr/fiches-techniques/honda/zr-v/ehev-184-hp-4104",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Honda ZR-V e:HEV",
+              "url": "https://autotijd.be/fr/dimensions/honda/zr-v/ehev-184-hp-4104",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Honda ZR-V",
+              "url": "https://autotijd.be/fr/prix/honda/zr-v",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "honda-zr-v-advance",
+          "name": "e:HEV 184 ch Advance",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres 2,0 l + moteur électrique de traction (e:HEV)",
+            "displacementCc": 1993,
+            "electricMotors": null
+          },
+          "powerHp": 184,
+          "powerKw": 135,
+          "torqueNm": 315,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (transmission e:HEV à rapport fixe)",
+          "accel0100s": 7.8,
+          "topSpeedKmh": 173,
+          "consumption": {
+            "value": 5.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 130,
+          "weightKg": 1589,
+          "dimensions": {
+            "lengthMm": 4568,
+            "widthMm": 1840,
+            "heightMm": 1620,
+            "wheelbaseMm": 2657
+          },
+          "seats": 5,
+          "trunkL": 380,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 47250,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be – prix belges Honda ZR-V",
+                "url": "https://autotijd.be/fr/prix/honda/zr-v",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Fiche technique Autotijd commune aux finitions ; consommation et CO2 donnés en fourchette 5,7–5,8 l/100 km et 130–132 g/km (valeur basse retenue).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Honda ZR-V e:HEV",
+              "url": "https://autotijd.be/fr/fiches-techniques/honda/zr-v/ehev-184-hp-4104",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Honda ZR-V e:HEV",
+              "url": "https://autotijd.be/fr/dimensions/honda/zr-v/ehev-184-hp-4104",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Honda ZR-V",
+              "url": "https://autotijd.be/fr/prix/honda/zr-v",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Honda ZR-V",
+          "url": "https://autotijd.be/fr/prix/honda/zr-v",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Honda ZR-V e:HEV",
+          "url": "https://autotijd.be/fr/fiches-techniques/honda/zr-v/ehev-184-hp-4104",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "honda-civic-11-e-hev",
+      "modelId": "honda-civic",
+      "brandId": "honda",
+      "modelName": "Civic e:HEV",
+      "name": "Honda Civic e:HEV (11e génération, 2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes (hayon)"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Honda Civic e-HEV '22 (1).jpg",
+          "caption": "Honda Civic e:HEV 2022",
+          "depicts": "Honda Civic e:HEV (11e génération)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Honda Civic e-HEV '22 (2).jpg",
+          "caption": "Honda Civic e:HEV 2022",
+          "depicts": "Honda Civic e:HEV (11e génération)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "En Belgique, la Civic de onzième génération est vendue uniquement en hybride e:HEV de 184 ch, aux côtés de la Type R.",
+        "positioning": "Compacte de Honda, base de la Civic Type R (fiche distincte).",
+        "technicalFacts": [
+          "Hybride e:HEV : 2,0 litres (1 993 cm³) de 143 ch et moteur électrique de 184 ch / 315 Nm (Autotijd).",
+          "Longueur 4 551 mm, coffre 410 litres (Autotijd)."
+        ],
+        "pros": [
+          "Consommation basse (4,7 l/100 km WLTP).",
+          "Accélération 0-100 km/h en 7,8 s."
+        ],
+        "differentiators": [],
+        "pricePositioning": "De 32 740 € à 37 380 € en Belgique (décembre 2022, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Garde au sol basse (128 mm).",
+          "Pas de version thermique ou de boîte manuelle hors Type R."
+        ]
+      },
+      "variants": [
+        {
+          "id": "honda-civic-11-e-hev-elegance",
+          "name": "e:HEV 184 ch Elegance",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres 2,0 l + moteur électrique de traction (e:HEV)",
+            "displacementCc": 1993,
+            "electricMotors": null
+          },
+          "powerHp": 184,
+          "powerKw": 135,
+          "torqueNm": 315,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (transmission e:HEV à rapport fixe)",
+          "accel0100s": 7.8,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 4.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 108,
+          "weightKg": 1517,
+          "dimensions": {
+            "lengthMm": 4551,
+            "widthMm": 1802,
+            "heightMm": 1408,
+            "wheelbaseMm": 2734
+          },
+          "seats": 5,
+          "trunkL": 410,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 32740,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2022-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Honda Civic",
+                "url": "https://autotijd.be/fr/prix/honda/civic",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation 4,7–5,0 l/100 km et CO2 108–114 g/km selon jantes (Autotijd, valeurs basses). Barème belge de décembre 2022, le plus récent trouvé.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Honda Civic e:HEV",
+              "url": "https://autotijd.be/fr/fiches-techniques/honda/civic/ehev-184-hp-3469",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Honda Civic e:HEV",
+              "url": "https://autotijd.be/fr/dimensions/honda/civic/ehev-184-hp-3469",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Honda Civic",
+              "url": "https://autotijd.be/fr/prix/honda/civic",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "honda-civic-11-e-hev-advance",
+          "name": "e:HEV 184 ch Advance",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres 2,0 l + moteur électrique de traction (e:HEV)",
+            "displacementCc": 1993,
+            "electricMotors": null
+          },
+          "powerHp": 184,
+          "powerKw": 135,
+          "torqueNm": 315,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (transmission e:HEV à rapport fixe)",
+          "accel0100s": 7.8,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 4.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 108,
+          "weightKg": 1517,
+          "dimensions": {
+            "lengthMm": 4551,
+            "widthMm": 1802,
+            "heightMm": 1408,
+            "wheelbaseMm": 2734
+          },
+          "seats": 5,
+          "trunkL": 410,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 37380,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2022-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Honda Civic",
+                "url": "https://autotijd.be/fr/prix/honda/civic",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Fiche technique commune aux finitions (Autotijd) ; consommation 4,7–5,0 l/100 km et CO2 108–114 g/km selon jantes, valeur basse retenue.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Honda Civic e:HEV",
+              "url": "https://autotijd.be/fr/fiches-techniques/honda/civic/ehev-184-hp-3469",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Honda Civic e:HEV",
+              "url": "https://autotijd.be/fr/dimensions/honda/civic/ehev-184-hp-3469",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Honda Civic",
+              "url": "https://autotijd.be/fr/prix/honda/civic",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Honda Civic",
+          "url": "https://autotijd.be/fr/prix/honda/civic",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Honda Civic e:HEV",
+          "url": "https://autotijd.be/fr/fiches-techniques/honda/civic/ehev-184-hp-3469",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "land-rover-range-rover-evoque-l551",
+      "modelId": "land-rover-range-rover-evoque",
+      "brandId": "land-rover",
+      "modelName": "Range Rover Evoque",
+      "name": "Range Rover Evoque (2e génération, 2019)",
+      "yearsLabel": "2019 –",
+      "startYear": 2019,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact premium (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "luxury"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2023 Range Rover Evoque (L551) IMG 3588.jpg",
+          "caption": "Range Rover Evoque (L551), millésime 2023",
+          "depicts": "Range Rover Evoque (L551) restylé",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Range Rover Evoque (L551) IMG 2660.jpg",
+          "caption": "Range Rover Evoque (L551)",
+          "depicts": "Range Rover Evoque (L551)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Deuxième génération du petit Range Rover, l'Evoque est proposé en essence et diesel micro-hybrides ainsi qu'en hybride rechargeable P300e de 309 ch.",
+        "positioning": "Plus petit modèle de la gamme Range Rover.",
+        "technicalFacts": [
+          "Longueur 4 371 mm, empattement 2 681 mm, coffre 472 litres (Autotijd).",
+          "Profondeur de gué de 600 mm (Autotijd).",
+          "P300e : 3 cylindres 1,5 litre et moteur électrique, 309 ch, batterie de 15 kWh (Autotijd)."
+        ],
+        "pros": [
+          "Style très reconnaissable.",
+          "Hybride rechargeable avec une soixantaine de km d'autonomie électrique."
+        ],
+        "differentiators": [
+          "Capacités de franchissement (600 mm de gué) rares dans la catégorie."
+        ],
+        "pricePositioning": "De 48 730 € à 82 870 € en Belgique (mars 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Poids élevé (1 792 kg dès la P160).",
+          "Consommation élevée de la P160 (7,9 l/100 km WLTP)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "land-rover-range-rover-evoque-l551-p160",
+          "name": "P160 160 ch",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne turbo 1,5 l, micro-hybride",
+            "displacementCc": 1498,
+            "electricMotors": null
+          },
+          "powerHp": 160,
+          "powerKw": 118,
+          "torqueNm": 260,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 10.3,
+          "topSpeedKmh": 199,
+          "consumption": {
+            "value": 7.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 179,
+          "weightKg": 1792,
+          "dimensions": {
+            "lengthMm": 4371,
+            "widthMm": 1996,
+            "heightMm": 1649,
+            "wheelbaseMm": 2681
+          },
+          "seats": 5,
+          "trunkL": 472,
+          "equipmentHighlights": [
+            "Traction avant"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 49550,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Range Rover Evoque",
+                "url": "https://autotijd.be/fr/prix/land-rover/range-rover-evoque",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation 7,9–8,2 l/100 km et CO2 179–186 g/km (Autotijd, valeurs basses). Prix : finition S.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Range Rover Evoque P160",
+              "url": "https://autotijd.be/fr/fiches-techniques/land-rover/range-rover-evoque/p160-160-hp-3571",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Range Rover Evoque P160",
+              "url": "https://autotijd.be/fr/dimensions/land-rover/range-rover-evoque/p160-160-hp-3571",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Range Rover Evoque",
+              "url": "https://autotijd.be/fr/prix/land-rover/range-rover-evoque",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "land-rover-range-rover-evoque-l551-d200",
+          "name": "D200 204 ch AWD",
+          "tier": "mid",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "4 cylindres en ligne diesel 2,0 l, micro-hybride",
+            "displacementCc": 1997,
+            "electricMotors": null
+          },
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 430,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 8.5,
+          "topSpeedKmh": 213,
+          "consumption": {
+            "value": 6.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 169,
+          "weightKg": 1909,
+          "dimensions": {
+            "lengthMm": 4371,
+            "widthMm": 1996,
+            "heightMm": 1649,
+            "wheelbaseMm": 2681
+          },
+          "seats": 5,
+          "trunkL": 472,
+          "equipmentHighlights": [
+            "Transmission intégrale"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 65220,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Range Rover Evoque",
+                "url": "https://autotijd.be/fr/prix/land-rover/range-rover-evoque",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation 6,5–7,0 l/100 km et CO2 169–184 g/km (Autotijd, valeurs basses). Prix : finition Dynamic SE.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Range Rover Evoque D200 AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/land-rover/range-rover-evoque/d200-204-hp-awd-3570",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Range Rover Evoque D200 AWD",
+              "url": "https://autotijd.be/fr/dimensions/land-rover/range-rover-evoque/d200-204-hp-awd-3570",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Range Rover Evoque",
+              "url": "https://autotijd.be/fr/prix/land-rover/range-rover-evoque",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "land-rover-range-rover-evoque-l551-p300e",
+          "name": "P300e 309 ch AWD",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "3 cylindres en ligne turbo 1,5 l + moteur électrique",
+            "displacementCc": 1498,
+            "electricMotors": null
+          },
+          "powerHp": 309,
+          "powerKw": 227,
+          "torqueNm": 540,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 6.4,
+          "topSpeedKmh": 213,
+          "consumption": {
+            "value": 1.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 62,
+          "batteryKwh": 15,
+          "charging": null,
+          "co2Gkm": 32,
+          "weightKg": 2157,
+          "dimensions": {
+            "lengthMm": 4371,
+            "widthMm": 1996,
+            "heightMm": 1649,
+            "wheelbaseMm": 2681
+          },
+          "seats": 5,
+          "trunkL": 472,
+          "equipmentHighlights": [
+            "Batterie 15 kWh (brute)",
+            "Consommation électrique 18,9–19,7 kWh/100 km"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 61740,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Range Rover Evoque",
+                "url": "https://autotijd.be/fr/prix/land-rover/range-rover-evoque",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Autonomie électrique 59–62 km, consommation 1,4–1,6 l/100 km, CO2 32–35 g/km (Autotijd, valeurs les plus favorables). Prix : finition S.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Range Rover Evoque P300e",
+              "url": "https://autotijd.be/fr/fiches-techniques/land-rover/range-rover-evoque/p300e-309-hp-awd-3574",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Range Rover Evoque P300e",
+              "url": "https://autotijd.be/fr/dimensions/land-rover/range-rover-evoque/p300e-309-hp-awd-3574",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Range Rover Evoque",
+              "url": "https://autotijd.be/fr/prix/land-rover/range-rover-evoque",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Range Rover Evoque",
+          "url": "https://autotijd.be/fr/prix/land-rover/range-rover-evoque",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Range Rover Evoque P300e",
+          "url": "https://autotijd.be/fr/fiches-techniques/land-rover/range-rover-evoque/p300e-309-hp-awd-3574",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "land-rover-defender-l663",
+      "modelId": "land-rover-defender",
+      "brandId": "land-rover",
+      "modelName": "Defender",
+      "name": "Land Rover Defender (L663, 2020)",
+      "yearsLabel": "2020 –",
+      "startYear": 2020,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Tout-terrain (segment E)",
+      "bodyStyles": [
+        "SUV 3 portes (90)",
+        "SUV 5 portes (110)"
+      ],
+      "categories": [
+        "suv",
+        "offroad"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "travel",
+        "family",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Land Rover Defender 110 (L663) 1X7A1919.jpg",
+          "caption": "Land Rover Defender 110 (L663)",
+          "depicts": "Land Rover Defender 110 (L663)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 Land Rover Defender OCTA.jpg",
+          "caption": "Land Rover Defender OCTA (2024)",
+          "depicts": "Land Rover Defender OCTA (L663)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Defender L663 réinvente le mythique 4x4 en carrosseries 90 et 110, jusqu'à l'OCTA de 635 ch.",
+        "positioning": "Tout-terrain de Land Rover, décliné en 90 (court), 110 et 130 (long), avec l'OCTA en haut de gamme.",
+        "technicalFacts": [
+          "Defender 90 : longueur 4 583 mm, empattement 2 587 mm ; Defender 110 : 5 018 mm et 3 022 mm (Autotijd).",
+          "Profondeur de gué de 850 à 900 mm selon la version (Autotijd).",
+          "OCTA : V8 4,4 litres biturbo d'origine BMW, 635 ch et 750 Nm (L'argus)."
+        ],
+        "pros": [
+          "Capacités en tout-terrain de premier ordre.",
+          "Remorquage jusqu'à 3 500 kg en diesel (Autotijd)."
+        ],
+        "differentiators": [
+          "Héritier direct d'une icône, avec une gamme allant du 90 trois portes à l'OCTA."
+        ],
+        "pricePositioning": "De 63 730 € (90 D200) à plus de 140 000 € (V8) en Belgique (mars 2024, Autotijd) ; OCTA à partir de 183 100 € en France.",
+        "innovations": [],
+        "compromises": [
+          "Poids supérieur à 2,3 tonnes.",
+          "Consommation élevée en essence et en diesel (8,5 l/100 km au mieux en D250 90)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "land-rover-defender-l663-90-d250",
+          "name": "Defender 90 D250 249 ch",
+          "tier": "entry",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "6 cylindres en ligne diesel 3,0 l, micro-hybride",
+            "displacementCc": 2997,
+            "electricMotors": null
+          },
+          "powerHp": 249,
+          "powerKw": 183,
+          "torqueNm": 570,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 8.0,
+          "topSpeedKmh": 188,
+          "consumption": {
+            "value": 8.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 223,
+          "weightKg": 2303,
+          "dimensions": {
+            "lengthMm": 4583,
+            "widthMm": 2008,
+            "heightMm": 1974,
+            "wheelbaseMm": 2587
+          },
+          "seats": null,
+          "trunkL": 297,
+          "equipmentHighlights": [
+            "Carrosserie courte 3 portes"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 69000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Defender 90",
+                "url": "https://autotijd.be/fr/prix/land-rover/defender-90",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation 8,5–9,1 l/100 km et CO2 223–239 g/km (Autotijd, valeurs basses). La fiche Autotijd indique « 5 portes / 5 places » pour le 90, nombre de places non retenu. Prix : finition S.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Defender 90 D250",
+              "url": "https://autotijd.be/fr/fiches-techniques/land-rover/defender-90/d250-249-hp-awd-3552",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Defender 90 D250",
+              "url": "https://autotijd.be/fr/dimensions/land-rover/defender-90/d250-249-hp-awd-3552",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Defender 90",
+              "url": "https://autotijd.be/fr/prix/land-rover/defender-90",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "land-rover-defender-l663-110-p400e",
+          "name": "Defender 110 P400e 404 ch",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2,0 l turbo + moteur électrique",
+            "displacementCc": 1997,
+            "electricMotors": null
+          },
+          "powerHp": 404,
+          "powerKw": 297,
+          "torqueNm": 640,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 5.6,
+          "topSpeedKmh": 191,
+          "consumption": {
+            "value": 2.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 51,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 57,
+          "weightKg": 2613,
+          "dimensions": {
+            "lengthMm": 5018,
+            "widthMm": 2008,
+            "heightMm": 1967,
+            "wheelbaseMm": 3022
+          },
+          "seats": 5,
+          "trunkL": 786,
+          "equipmentHighlights": [
+            "Consommation électrique 24,2–26,1 kWh/100 km"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 89270,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Defender 110",
+                "url": "https://autotijd.be/fr/prix/land-rover/defender-110",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Autonomie électrique 44–51 km, consommation 2,5–3,1 l/100 km, CO2 57–71 g/km (Autotijd, valeurs les plus favorables). Capacité de batterie non indiquée. Prix : finition SE.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Defender 110 P400e",
+              "url": "https://autotijd.be/fr/fiches-techniques/land-rover/defender-110/p400e-404-hp-awd-3560",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Defender 110 P400e",
+              "url": "https://autotijd.be/fr/dimensions/land-rover/defender-110/p400e-404-hp-awd-3560",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Defender 110",
+              "url": "https://autotijd.be/fr/prix/land-rover/defender-110",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "land-rover-defender-l663-octa",
+          "name": "Defender OCTA 635 ch",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 4,4 l biturbo, micro-hybride",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 635,
+          "powerKw": null,
+          "torqueNm": 750,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 4.0,
+          "topSpeedKmh": 250,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": null,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Couple porté à 800 Nm au démarrage selon L'argus",
+            "Largeur augmentée de 68 mm et garde au sol relevée de 28 mm",
+            "Profondeur de gué d'un mètre"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 183100,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-07",
+              "source": {
+                "label": "L'argus – Defender Octa (2024) : 635 ch pour la version bodybuildée du tout-terrain",
+                "url": "https://www.largus.fr/actualite-automobile/defender-octa-2024-635-ch-pour-la-version-bodybuildee-du-tout-terrain-30034810.html",
+                "type": "press",
+                "publishedAt": "2024-07-03",
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Chiffres constructeur rapportés par L'argus (0-100 km/h en 4 s, 250 km/h). Puissance en kW, poids, dimensions et consommation non donnés par la source consultée. Prix France hors malus ; Edition One à 201 700 €.",
+          "sources": [
+            {
+              "label": "L'argus – Defender Octa (2024) : 635 ch pour la version bodybuildée du tout-terrain",
+              "url": "https://www.largus.fr/actualite-automobile/defender-octa-2024-635-ch-pour-la-version-bodybuildee-du-tout-terrain-30034810.html",
+              "type": "press",
+              "publishedAt": "2024-07-03",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Defender 110",
+          "url": "https://autotijd.be/fr/prix/land-rover/defender-110",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Defender 90",
+          "url": "https://autotijd.be/fr/prix/land-rover/defender-90",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – Defender Octa (2024) : 635 ch pour la version bodybuildée du tout-terrain",
+          "url": "https://www.largus.fr/actualite-automobile/defender-octa-2024-635-ch-pour-la-version-bodybuildee-du-tout-terrain-30034810.html",
+          "type": "press",
+          "publishedAt": "2024-07-03",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "land-rover-range-rover-sport-l461",
+      "modelId": "land-rover-range-rover-sport",
+      "brandId": "land-rover",
+      "modelName": "Range Rover Sport",
+      "name": "Range Rover Sport (3e génération, 2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV de luxe (segment E)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "sport-suv",
+        "luxury"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "travel",
+        "family",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Land Rover Range Rover Sport L461 Varesine Blue (10).jpg",
+          "caption": "Range Rover Sport (L461) Varesine Blue",
+          "depicts": "Range Rover Sport (L461)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Land Rover Range Rover Sport L461 Carpathian Grey (1).jpg",
+          "caption": "Range Rover Sport (L461) Carpathian Grey",
+          "depicts": "Range Rover Sport (L461)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Troisième génération du Range Rover Sport, proposée en 6 cylindres diesel et essence micro-hybrides, en hybride rechargeable et en version SV.",
+        "positioning": "SUV de luxe sportif de Land Rover, sous le Range Rover.",
+        "technicalFacts": [
+          "Longueur 4 946 mm, empattement 2 997 mm, coffre 657 litres (Autotijd).",
+          "Profondeur de gué de 900 mm (Autotijd).",
+          "Hybride rechargeable P510e : batterie de 38,2 kWh, 114 km d'autonomie électrique, charge DC 50 kW (Autotijd)."
+        ],
+        "pros": [
+          "Hybride rechargeable avec plus de 100 km d'autonomie électrique.",
+          "Remorquage jusqu'à 3 500 kg (diesel et essence)."
+        ],
+        "differentiators": [],
+        "pricePositioning": "De 89 290 € à 230 941 € en Belgique (mars 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Poids élevé (2,8 t en hybride rechargeable).",
+          "Consommation importante des versions thermiques."
+        ]
+      },
+      "variants": [
+        {
+          "id": "land-rover-range-rover-sport-l461-d300",
+          "name": "D300 300 ch",
+          "tier": "entry",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "6 cylindres en ligne diesel 3,0 l, micro-hybride",
+            "displacementCc": 2997,
+            "electricMotors": null
+          },
+          "powerHp": 300,
+          "powerKw": 221,
+          "torqueNm": 650,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 6.6,
+          "topSpeedKmh": 218,
+          "consumption": {
+            "value": 7.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 194,
+          "weightKg": 2390,
+          "dimensions": {
+            "lengthMm": 4946,
+            "widthMm": null,
+            "heightMm": 1820,
+            "wheelbaseMm": 2997
+          },
+          "seats": 5,
+          "trunkL": 657,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 103300,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Range Rover Sport",
+                "url": "https://autotijd.be/fr/prix/land-rover/range-rover-sport",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation 7,4–8,1 l/100 km et CO2 194–211 g/km (Autotijd, valeurs basses). Largeur hors rétroviseurs non publiée (2 209 mm rétroviseurs inclus). Prix : finition Dynamic SE.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Range Rover Sport D300",
+              "url": "https://autotijd.be/fr/fiches-techniques/land-rover/range-rover-sport/d300-300-hp-awd-3378",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Range Rover Sport D300",
+              "url": "https://autotijd.be/fr/dimensions/land-rover/range-rover-sport/d300-300-hp-awd-3378",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Range Rover Sport",
+              "url": "https://autotijd.be/fr/prix/land-rover/range-rover-sport",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "land-rover-range-rover-sport-l461-p400",
+          "name": "P400 400 ch",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "6 cylindres en ligne essence 3,0 l, micro-hybride",
+            "displacementCc": 2996,
+            "electricMotors": null
+          },
+          "powerHp": 400,
+          "powerKw": 294,
+          "torqueNm": 550,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 5.7,
+          "topSpeedKmh": 242,
+          "consumption": {
+            "value": 9.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 212,
+          "weightKg": 2385,
+          "dimensions": {
+            "lengthMm": 4946,
+            "widthMm": null,
+            "heightMm": 1820,
+            "wheelbaseMm": 2997
+          },
+          "seats": 5,
+          "trunkL": 657,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 117510,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Range Rover Sport",
+                "url": "https://autotijd.be/fr/prix/land-rover/range-rover-sport",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation 9,4–10,0 l/100 km et CO2 212–226 g/km (Autotijd, valeurs basses). Prix : finition Dynamic HSE.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Range Rover Sport P400",
+              "url": "https://autotijd.be/fr/fiches-techniques/land-rover/range-rover-sport/p400-400-hp-awd-3381",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Range Rover Sport P400",
+              "url": "https://autotijd.be/fr/dimensions/land-rover/range-rover-sport/p400-400-hp-awd-3381",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Range Rover Sport",
+              "url": "https://autotijd.be/fr/prix/land-rover/range-rover-sport",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "land-rover-range-rover-sport-l461-p510e",
+          "name": "P510e 510 ch",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "6 cylindres en ligne 3,0 l + moteur électrique",
+            "displacementCc": 2996,
+            "electricMotors": null
+          },
+          "powerHp": 510,
+          "powerKw": 375,
+          "torqueNm": 560,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 5.4,
+          "topSpeedKmh": 242,
+          "consumption": {
+            "value": 0.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 114,
+          "batteryKwh": 38.2,
+          "charging": {
+            "dcMaxKw": 50,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 18,
+          "weightKg": 2810,
+          "dimensions": {
+            "lengthMm": 4946,
+            "widthMm": null,
+            "heightMm": 1820,
+            "wheelbaseMm": 2997
+          },
+          "seats": 5,
+          "trunkL": 657,
+          "equipmentHighlights": [
+            "Batterie 38,2 kWh (brute)",
+            "Vitesse maximale en électrique 140 km/h"
+          ],
+          "prices": [],
+          "notes": "Consommation 0,8–0,9 l/100 km, CO2 18–20 g/km (Autotijd). Charge DC 0–80 % en 40 min selon Autotijd. Aucun prix : la liste belge de mars 2024 ne propose plus de P510e mais une P550e, non retenue ici.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Range Rover Sport P510e",
+              "url": "https://autotijd.be/fr/fiches-techniques/land-rover/range-rover-sport/p510e-510-hp-awd-3383",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Range Rover Sport P510e",
+              "url": "https://autotijd.be/fr/dimensions/land-rover/range-rover-sport/p510e-510-hp-awd-3383",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Range Rover Sport",
+          "url": "https://autotijd.be/fr/prix/land-rover/range-rover-sport",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Range Rover Sport P510e",
+          "url": "https://autotijd.be/fr/fiches-techniques/land-rover/range-rover-sport/p510e-510-hp-awd-3383",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lexus-nx-az20",
+      "modelId": "lexus-nx",
+      "brandId": "lexus",
+      "modelName": "NX",
+      "name": "Lexus NX (2e génération, 2021)",
+      "yearsLabel": "2021 –",
+      "startYear": 2021,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV premium (segment D)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "luxury"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "family",
+        "daily",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Lexus NX 350h AWD Premium AAZH20 Black (1).jpg",
+          "caption": "Lexus NX 350h AWD (AAZH20)",
+          "depicts": "Lexus NX 350h (AZ20)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:0 Lexus NX 350h 1.jpg",
+          "caption": "Lexus NX 350h",
+          "depicts": "Lexus NX 350h (AZ20)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le NX de deuxième génération (AZ20) est le SUV intermédiaire de Lexus, proposé en hybride 350h de 244 ch et en hybride rechargeable 450h+ de 309 ch.",
+        "positioning": "SUV premium de Lexus, entre l'UX et le RX.",
+        "technicalFacts": [
+          "Code modèle AZ20, plate-forme TNGA GA-K (Autotijd).",
+          "Moteur 4 cylindres 2,5 litres (2 487 cm³) sur toutes les versions (Autotijd).",
+          "450h+ : batterie de 18,1 kWh et jusqu'à 76 km d'autonomie électrique WLTP (Autotijd).",
+          "Longueur 4 660 mm, coffre 549 litres (Autotijd)."
+        ],
+        "pros": [
+          "Hybride rechargeable avec plus de 70 km d'autonomie électrique.",
+          "Consommation contenue de la 350h (5,7 l/100 km WLTP en traction)."
+        ],
+        "differentiators": [],
+        "pricePositioning": "De 55 850 € à 80 850 € en Belgique (mars 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Remorquage limité à 1 500 kg.",
+          "Charge AC limitée à 6,6 kW sur la 450h+."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lexus-nx-az20-350h-fwd",
+          "name": "350h 244 ch",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres 2,5 l + moteur électrique",
+            "displacementCc": 2487,
+            "electricMotors": 1
+          },
+          "powerHp": 244,
+          "powerKw": 179,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (transmission à variation continue électrique)",
+          "accel0100s": 8.7,
+          "topSpeedKmh": 200,
+          "consumption": {
+            "value": 5.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 129,
+          "weightKg": 1730,
+          "dimensions": {
+            "lengthMm": 4660,
+            "widthMm": 1865,
+            "heightMm": 1670,
+            "wheelbaseMm": 2690
+          },
+          "seats": 5,
+          "trunkL": 549,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 55850,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Lexus NX",
+                "url": "https://autotijd.be/fr/prix/lexus/nx",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Couple système non publié sur la fiche Autotijd. Prix : finition Base.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Lexus NX 350h",
+              "url": "https://autotijd.be/fr/fiches-techniques/lexus/nx/350h-244-hp-3368",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Lexus NX 350h",
+              "url": "https://autotijd.be/fr/dimensions/lexus/nx/350h-244-hp-3368",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Lexus NX",
+              "url": "https://autotijd.be/fr/prix/lexus/nx",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lexus-nx-az20-350h-awd",
+          "name": "350h 244 ch AWD",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres 2,5 l + moteurs électriques",
+            "displacementCc": 2487,
+            "electricMotors": null
+          },
+          "powerHp": 244,
+          "powerKw": 179,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Automatique (transmission à variation continue électrique)",
+          "accel0100s": 7.7,
+          "topSpeedKmh": 200,
+          "consumption": {
+            "value": 6.0,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 136,
+          "weightKg": 1790,
+          "dimensions": {
+            "lengthMm": 4660,
+            "widthMm": 1865,
+            "heightMm": 1670,
+            "wheelbaseMm": 2690
+          },
+          "seats": 5,
+          "trunkL": 549,
+          "equipmentHighlights": [
+            "Transmission intégrale E-Four"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 63450,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Lexus NX",
+                "url": "https://autotijd.be/fr/prix/lexus/nx",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation 6,0–6,4 l/100 km et CO2 136–145 g/km (Autotijd, valeurs basses). Couple système non publié. Prix : finition Business Line AWD.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Lexus NX 350h AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/lexus/nx/350h-244-hp-awd-3369",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Lexus NX 350h AWD",
+              "url": "https://autotijd.be/fr/dimensions/lexus/nx/350h-244-hp-awd-3369",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Lexus NX",
+              "url": "https://autotijd.be/fr/prix/lexus/nx",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lexus-nx-az20-450h-plus",
+          "name": "450h+ 309 ch AWD",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres 2,5 l + 2 moteurs électriques",
+            "displacementCc": 2487,
+            "electricMotors": 2
+          },
+          "powerHp": 309,
+          "powerKw": 227,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Automatique (transmission à variation continue électrique)",
+          "accel0100s": 6.3,
+          "topSpeedKmh": 200,
+          "consumption": {
+            "value": 1.0,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 76,
+          "batteryKwh": 18.1,
+          "charging": null,
+          "co2Gkm": 22,
+          "weightKg": 1990,
+          "dimensions": {
+            "lengthMm": 4660,
+            "widthMm": 1865,
+            "heightMm": 1670,
+            "wheelbaseMm": 2690
+          },
+          "seats": 5,
+          "trunkL": 549,
+          "equipmentHighlights": [
+            "Batterie 18,1 kWh (brute)",
+            "Charge AC 6,6 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 74650,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Lexus NX",
+                "url": "https://autotijd.be/fr/prix/lexus/nx",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Autonomie électrique 69–76 km, consommation 1,0–1,1 l/100 km, CO2 22–25 g/km (Autotijd, valeurs les plus favorables). Coffre : valeur Autotijd commune à la gamme. Prix : finition Executive Line.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Lexus NX 450h+",
+              "url": "https://autotijd.be/fr/fiches-techniques/lexus/nx/450h-309-hp-awd-3370",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Lexus NX 450h+",
+              "url": "https://autotijd.be/fr/dimensions/lexus/nx/450h-309-hp-awd-3370",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Lexus NX",
+              "url": "https://autotijd.be/fr/prix/lexus/nx",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Lexus NX",
+          "url": "https://autotijd.be/fr/prix/lexus/nx",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Lexus NX 350h",
+          "url": "https://autotijd.be/fr/fiches-techniques/lexus/nx/350h-244-hp-3368",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lexus-ux-250h-2023",
+      "modelId": "lexus-ux",
+      "brandId": "lexus",
+      "modelName": "UX",
+      "name": "Lexus UX 250h (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact premium (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "compact"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Lexus UX 250h 1X7A0837.jpg",
+          "caption": "Lexus UX 250h",
+          "depicts": "Lexus UX 250h",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Lexus UX 250h 2023.jpg",
+          "caption": "Lexus UX 250h 2023",
+          "depicts": "Lexus UX 250h (2023)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le plus petit SUV de Lexus reçoit en 2023 l'hybride UX 250h de 184 ch, en traction ou en transmission intégrale.",
+        "positioning": "SUV compact premium, porte d'entrée de la gamme SUV de Lexus au-dessus du LBX.",
+        "technicalFacts": [
+          "Moteur 4 cylindres 2,0 litres (1 987 cm³) de 152 ch, puissance cumulée 184 ch (Autotijd).",
+          "Batterie nickel-hydrure métallique (Autotijd).",
+          "Longueur 4 495 mm, coffre 320 litres en traction et 283 litres en AWD (Autotijd)."
+        ],
+        "pros": [
+          "Consommation basse (5,3 l/100 km WLTP en traction).",
+          "Rayon de braquage court de 10,4 m."
+        ],
+        "differentiators": [],
+        "pricePositioning": "De 42 590 € à 60 380 € en Belgique (mars 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Coffre réduit, surtout en AWD (283 litres).",
+          "Remorquage limité à 750 kg."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lexus-ux-250h-2023-fwd",
+          "name": "UX 250h 184 ch",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres 2,0 l + moteur électrique",
+            "displacementCc": 1987,
+            "electricMotors": null
+          },
+          "powerHp": 184,
+          "powerKw": 135,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (transmission à variation continue électrique)",
+          "accel0100s": 8.5,
+          "topSpeedKmh": 177,
+          "consumption": {
+            "value": 5.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 120,
+          "weightKg": 1540,
+          "dimensions": {
+            "lengthMm": 4495,
+            "widthMm": 1840,
+            "heightMm": 1540,
+            "wheelbaseMm": 2640
+          },
+          "seats": 5,
+          "trunkL": 320,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 42590,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Lexus UX",
+                "url": "https://autotijd.be/fr/prix/lexus/ux",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation 5,3–5,6 l/100 km et CO2 120–128 g/km (Autotijd, valeurs basses). Couple système non publié. Prix : finition Base.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Lexus UX 250h",
+              "url": "https://autotijd.be/fr/fiches-techniques/lexus/ux/250h-184-hp-3788",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Lexus UX 250h",
+              "url": "https://autotijd.be/fr/dimensions/lexus/ux/250h-184-hp-3788",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Lexus UX",
+              "url": "https://autotijd.be/fr/prix/lexus/ux",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lexus-ux-250h-2023-awd",
+          "name": "UX 250h 184 ch AWD",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres 2,0 l + moteurs électriques",
+            "displacementCc": 1987,
+            "electricMotors": null
+          },
+          "powerHp": 184,
+          "powerKw": 135,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Automatique (transmission à variation continue électrique)",
+          "accel0100s": 8.7,
+          "topSpeedKmh": 177,
+          "consumption": {
+            "value": 5.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 131,
+          "weightKg": 1600,
+          "dimensions": {
+            "lengthMm": 4495,
+            "widthMm": 1840,
+            "heightMm": 1540,
+            "wheelbaseMm": 2640
+          },
+          "seats": 5,
+          "trunkL": 283,
+          "equipmentHighlights": [
+            "Transmission intégrale E-Four"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 53610,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Lexus UX",
+                "url": "https://autotijd.be/fr/prix/lexus/ux",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation 5,8–6,0 l/100 km et CO2 131–137 g/km (Autotijd, valeurs basses). Couple système non publié. Prix : finition Executive Line AWD.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Lexus UX 250h AWD",
+              "url": "https://autotijd.be/fr/fiches-techniques/lexus/ux/250h-184-hp-awd-3789",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Lexus UX 250h AWD",
+              "url": "https://autotijd.be/fr/dimensions/lexus/ux/250h-184-hp-awd-3789",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Lexus UX",
+              "url": "https://autotijd.be/fr/prix/lexus/ux",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Lexus UX",
+          "url": "https://autotijd.be/fr/prix/lexus/ux",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Lexus UX 250h",
+          "url": "https://autotijd.be/fr/fiches-techniques/lexus/ux/250h-184-hp-3788",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "polestar-2-2023",
+      "modelId": "polestar-2",
+      "brandId": "polestar",
+      "modelName": "2",
+      "name": "Polestar 2 (restylée, 2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Berline électrique (segment D)",
+      "bodyStyles": [
+        "Berline 5 portes (hayon)"
+      ],
+      "categories": [
+        "family-sedan"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "family",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Polestar 2 (Facelift) IAA 2023 1X7A0508.jpg",
+          "caption": "Polestar 2 restylée à l'IAA 2023",
+          "depicts": "Polestar 2 restylée",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Polestar 2 facelift 003.jpg",
+          "caption": "Polestar 2 restylée",
+          "depicts": "Polestar 2 restylée",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Polestar 2 restylée est proposée en propulsion mono-moteur ou en transmission intégrale bi-moteur, et atteint jusqu'à 659 km d'autonomie WLTP en Long Range Single Motor.",
+        "positioning": "Berline électrique de Polestar, sous les SUV Polestar 3 et 4.",
+        "technicalFacts": [
+          "Versions mono-moteur à propulsion de 272 et 299 ch, bi-moteur de 421 et 476 ch (Autotijd).",
+          "Batteries de 70 kWh nets (Standard Range) et 82 kWh (Long Range) (nextpit).",
+          "Longueur 4 606 mm, coffre 405 litres et coffre avant de 35 litres (Autotijd)."
+        ],
+        "pros": [
+          "Autonomie WLTP de 659 km en Long Range Single Motor.",
+          "Performance Pack à 4,2 s de 0 à 100 km/h."
+        ],
+        "differentiators": [],
+        "pricePositioning": "De 47 690 € à 63 690 € en Belgique (août 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Coffre de 405 litres moyen pour la taille.",
+          "Vitesse maximale limitée à 205 km/h sur toutes les versions."
+        ]
+      },
+      "variants": [
+        {
+          "id": "polestar-2-2023-standard-range-sm",
+          "name": "Standard Range Single Motor 272 ch",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 272,
+          "powerKw": 200,
+          "torqueNm": 490,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 6.4,
+          "topSpeedKmh": 205,
+          "consumption": {
+            "value": 15.8,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 554,
+          "batteryKwh": 70,
+          "charging": null,
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4606,
+            "widthMm": 1859,
+            "heightMm": 1479,
+            "wheelbaseMm": 2735
+          },
+          "seats": 5,
+          "trunkL": 405,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 47690,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-08",
+              "source": {
+                "label": "Autotijd.be – prix belges Polestar 2",
+                "url": "https://autotijd.be/fr/prix/polestar/2",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Batterie : 70 kWh nets selon nextpit (Autotijd : 69 kWh bruts). Charge DC maximale divergente selon les sources (135 kW Autotijd, 180 kW nextpit) et poids divergent (1 940 kg Autotijd, 2 042 kg nextpit) : laissés vides. Consommation 15,8 kWh/100 km = valeur haute de la fourchette nextpit (14,9–15,8).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Polestar 2 Standard range Single motor",
+              "url": "https://autotijd.be/fr/fiches-techniques/polestar/2/standard-range-single-motor-272-hp-3802",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Polestar 2 Standard range Single motor",
+              "url": "https://autotijd.be/fr/dimensions/polestar/2/standard-range-single-motor-272-hp-3802",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "nextpit – Polestar 2 (2025) Standard Range Single Motor",
+              "url": "https://www.nextpit.de/e-autos/polestar-2-2025-standard-range-single-motor",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Polestar 2",
+              "url": "https://autotijd.be/fr/prix/polestar/2",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "polestar-2-2023-long-range-sm",
+          "name": "Long Range Single Motor 299 ch",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique arrière",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 299,
+          "powerKw": 220,
+          "torqueNm": 490,
+          "drivetrain": "rwd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 6.2,
+          "topSpeedKmh": 205,
+          "consumption": {
+            "value": 15.8,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 659,
+          "batteryKwh": 82,
+          "charging": {
+            "dcMaxKw": 205,
+            "dc10to80Min": 28
+          },
+          "co2Gkm": 0,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4606,
+            "widthMm": 1859,
+            "heightMm": 1479,
+            "wheelbaseMm": 2735
+          },
+          "seats": 5,
+          "trunkL": 405,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 52690,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-08",
+              "source": {
+                "label": "Autotijd.be – prix belges Polestar 2",
+                "url": "https://autotijd.be/fr/prix/polestar/2",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Batterie 82 kWh (Autotijd brute ; nextpit l'indique en net). Charge 10–80 % en 28 min selon Autotijd. Poids divergent (1 940 kg Autotijd, 2 009 kg nextpit) : laissé vide. Consommation 15,8 kWh/100 km = valeur haute de la fourchette nextpit (14,8–15,8).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Polestar 2 Long range Single motor",
+              "url": "https://autotijd.be/fr/fiches-techniques/polestar/2/long-range-single-motor-299-hp-3803",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Polestar 2 Long range Single motor",
+              "url": "https://autotijd.be/fr/dimensions/polestar/2/long-range-single-motor-299-hp-3803",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "nextpit – Polestar 2 (2025) Long Range Single Motor",
+              "url": "https://www.nextpit.de/e-autos/polestar-2-2025-long-range-single-motor",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Polestar 2",
+              "url": "https://autotijd.be/fr/prix/polestar/2",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "polestar-2-2023-long-range-dm-performance",
+          "name": "Long Range Dual Motor Performance 476 ch",
+          "tier": "sport",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Deux moteurs électriques (avant et arrière)",
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "powerHp": 476,
+          "powerKw": 350,
+          "torqueNm": 740,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur à rapport unique",
+          "accel0100s": 4.2,
+          "topSpeedKmh": 205,
+          "consumption": {
+            "value": 17.2,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 568,
+          "batteryKwh": 82,
+          "charging": {
+            "dcMaxKw": 205,
+            "dc10to80Min": 28
+          },
+          "co2Gkm": 0,
+          "weightKg": 2105,
+          "dimensions": {
+            "lengthMm": 4606,
+            "widthMm": 1859,
+            "heightMm": 1479,
+            "wheelbaseMm": 2735
+          },
+          "seats": 5,
+          "trunkL": 405,
+          "equipmentHighlights": [
+            "Performance Pack",
+            "Jantes 20 pouces (Autotijd)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 63690,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-08",
+              "source": {
+                "label": "Autotijd.be – prix belges Polestar 2",
+                "url": "https://autotijd.be/fr/prix/polestar/2",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation 16,8–17,2 kWh/100 km selon nextpit (valeur du tableau retenue). Poids : nextpit uniquement. Charge 10–80 % en 28 min selon Autotijd.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Polestar 2 Long range Dual motor Performance",
+              "url": "https://autotijd.be/fr/fiches-techniques/polestar/2/long-range-dual-motor-performance-pack-476-hp-awd-3805",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Polestar 2 Long range Dual motor Performance",
+              "url": "https://autotijd.be/fr/dimensions/polestar/2/long-range-dual-motor-performance-pack-476-hp-awd-3805",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "nextpit – Polestar 2 (2025) Long Range Dual Motor Performance",
+              "url": "https://www.nextpit.de/e-autos/polestar-2-2025-long-range-dual-motor-performance",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – prix belges Polestar 2",
+              "url": "https://autotijd.be/fr/prix/polestar/2",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Polestar 2",
+          "url": "https://autotijd.be/fr/prix/polestar/2",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – fiche technique Polestar 2 Long range Single motor",
+          "url": "https://autotijd.be/fr/fiches-techniques/polestar/2/long-range-single-motor-299-hp-3803",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "nextpit – Polestar 2 (2025) Long Range Single Motor",
+          "url": "https://www.nextpit.de/e-autos/polestar-2-2025-long-range-single-motor",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}
