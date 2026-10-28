@@ -1,0 +1,5227 @@
+{
+  "generations": [
+    {
+      "id": "peugeot-208-2",
+      "modelId": "peugeot-208",
+      "brandId": "peugeot",
+      "modelName": "208",
+      "name": "Peugeot 208 (2e génération)",
+      "yearsLabel": "2019 –",
+      "startYear": 2019,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine polyvalente (segment B)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": "peugeot-208-gen3",
+      "images": [
+        {
+          "commonsFile": "File:Peugeot 208 PureTech 130 EAT8 Allure GT-Line (II) – f 17102021.jpg",
+          "caption": "Peugeot 208 PureTech 130 GT-Line (octobre 2021)",
+          "depicts": "Peugeot 208 de 2e génération, avant le restylage de 2023",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Peugeot 208 de deuxième génération est une citadine proposée en essence, en hybride 48 V et en 100 % électrique (e-208). Elle compte parmi les voitures les plus vendues en Europe ces dernières années.",
+        "positioning": "Citadine d'entrée de gamme Peugeot, sous la 2008 et la 308 ; cousine technique de l'Opel Corsa.",
+        "technicalFacts": [
+          "Longueur de 4,055 m et empattement de 2,54 m (Autotijd).",
+          "Trois familles de motorisations : 1.2 essence, Hybrid 48 V (100 ou 136 ch) et électrique (136 ou 156 ch), d’après le barème belge.",
+          "La version électrique 156 ch annonce jusqu'à 410 km WLTP et une charge DC jusqu'à 100 kW (Autotijd)."
+        ],
+        "pros": [
+          "Choix complet de motorisations dans une même carrosserie.",
+          "Présentation intérieure soignée pour la catégorie.",
+          "Consommation contenue de la version Hybrid."
+        ],
+        "differentiators": [
+          "i-Cockpit Peugeot avec petit volant et instrumentation placée au-dessus."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarrait à 22 365 € (barème de novembre 2024) ; la version électrique dépassait 35 000 €.",
+        "innovations": [],
+        "compromises": [
+          "Places arrière et coffre moyens pour la catégorie.",
+          "L'e-208 est limitée à 150 km/h.",
+          "La position de conduite i-Cockpit ne convient pas à toutes les morphologies."
+        ]
+      },
+      "variants": [
+        {
+          "id": "peugeot-208-2-puretech-100",
+          "name": "1.2 PureTech 100 BVM",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,2 l turbo essence",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 100,
+          "powerKw": 74,
+          "torqueNm": 205,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle",
+          "accel0100s": 10.1,
+          "topSpeedKmh": 194,
+          "consumption": {
+            "value": 5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 113,
+          "weightKg": 1090,
+          "dimensions": {
+            "lengthMm": 4055,
+            "widthMm": 1765,
+            "heightMm": 1430,
+            "wheelbaseMm": 2540
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 22365,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Peugeot 208",
+                "url": "https://autotijd.be/fr/prix/peugeot/208",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Plage WLTP selon finition : valeur la plus favorable retenue. Consommation 5,0–5,2 l/100 km et CO2 113–117 g/km (Autotijd). Coffre : 309–352 l selon la version d'après Autotijd, sans répartition par motorisation. Prix : finition Style.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Peugeot 208 1.2 PureTech 100 BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/peugeot/208/12-puretech-100-hp-manual-4065",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Peugeot 208",
+              "url": "https://autotijd.be/fr/dimensions/peugeot/208",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "peugeot-208-2-hybrid-136",
+          "name": "Hybrid 136",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 136,
+          "powerKw": 100,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 8.1,
+          "topSpeedKmh": 214,
+          "consumption": {
+            "value": 4.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 104,
+          "weightKg": 1228,
+          "dimensions": {
+            "lengthMm": 4055,
+            "widthMm": 1765,
+            "heightMm": 1430,
+            "wheelbaseMm": 2540
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Batterie 48 V de 0,89 kWh (brute)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 27865,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Peugeot 208",
+                "url": "https://autotijd.be/fr/prix/peugeot/208",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Plage WLTP selon finition : valeur la plus favorable retenue. Consommation 4,6–4,7 l/100 km et CO2 104–105 g/km (Autotijd). Prix : finition Allure.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Peugeot 208 Hybrid 136",
+              "url": "https://autotijd.be/fr/fiches-techniques/peugeot/208/hybrid-136-hp-4067",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Peugeot 208",
+              "url": "https://autotijd.be/fr/dimensions/peugeot/208",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "peugeot-208-2-e-208-156",
+          "name": "E-208 156 ch",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 156,
+          "powerKw": 115,
+          "torqueNm": 260,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 8.2,
+          "topSpeedKmh": 150,
+          "consumption": {
+            "value": 14,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 410,
+          "batteryKwh": 50,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1455,
+          "dimensions": {
+            "lengthMm": 4055,
+            "widthMm": 1765,
+            "heightMm": 1430,
+            "wheelbaseMm": 2540
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW",
+            "Charge rapide DC 100 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 38315,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Peugeot 208",
+                "url": "https://autotijd.be/fr/prix/peugeot/208",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Batterie : capacité brute 50 kWh. Charge DC 0–80 % en 27 min selon Autotijd (pas de valeur 10–80 % publiée). Prix : finition Allure.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Peugeot 208 Electric 115 kW",
+              "url": "https://autotijd.be/fr/fiches-techniques/peugeot/208/electric-115-kw-156-hp-4063",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Peugeot 208",
+              "url": "https://autotijd.be/fr/dimensions/peugeot/208",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Peugeot 208",
+          "url": "https://autotijd.be/fr/prix/peugeot/208",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Peugeot 208",
+          "url": "https://autotijd.be/fr/dimensions/peugeot/208",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "peugeot-2008-2",
+      "modelId": "peugeot-2008",
+      "brandId": "peugeot",
+      "modelName": "2008",
+      "name": "Peugeot 2008 (2e génération)",
+      "yearsLabel": "2019 –",
+      "startYear": 2019,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Peugeot 2008 B Facelift 1X7A0860.jpg",
+          "caption": "Peugeot 2008 restylé",
+          "depicts": "Peugeot 2008 de 2e génération, version restylée (2023)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Peugeot e-2008 Facelift Auto Zuerich 2023 1X7A1206.jpg",
+          "caption": "Peugeot e-2008 restylé au salon Auto Zürich 2023",
+          "depicts": "Peugeot e-2008 de 2e génération, version restylée",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Peugeot 2008 de deuxième génération est le petit SUV de Peugeot, décliné en essence, en hybride 48 V et en électrique (e-2008). Il a été restylé en 2023.",
+        "positioning": "SUV urbain dérivé de la 208, sous le 3008.",
+        "technicalFacts": [
+          "Longueur de 4,304 m et empattement de 2,605 m (Autotijd).",
+          "La version électrique 156 ch utilise une batterie de 54 kWh brute et annonce 406 km WLTP (Autotijd).",
+          "Hybrid 136 : 1.2 trois cylindres associé à une boîte automatique et une hybridation 48 V (Autotijd)."
+        ],
+        "pros": [
+          "Gabarit compact avec une position de conduite surélevée.",
+          "Gamme complète essence, hybride et électrique.",
+          "Coffre plus grand que celui de la 208."
+        ],
+        "differentiators": [
+          "Face avant restylée en 2023 avec le nouveau logo Peugeot."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarrait à 26 650 € (barème de novembre 2024) ; l’e-2008 commençait à 39 500 €.",
+        "innovations": [],
+        "compromises": [
+          "L'e-2008 est limité à 150 km/h.",
+          "Écart de prix important entre les versions thermiques et électriques.",
+          "Habitabilité arrière correcte sans plus."
+        ]
+      },
+      "variants": [
+        {
+          "id": "peugeot-2008-2-puretech-100",
+          "name": "1.2 PureTech 100 BVM",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,2 l turbo essence",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 100,
+          "powerKw": 75,
+          "torqueNm": 205,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle",
+          "accel0100s": 11,
+          "topSpeedKmh": 183,
+          "consumption": {
+            "value": 5.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 126,
+          "weightKg": 1324,
+          "dimensions": {
+            "lengthMm": 4304,
+            "widthMm": 1770,
+            "heightMm": 1550,
+            "wheelbaseMm": 2605
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 26650,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Peugeot 2008",
+                "url": "https://autotijd.be/fr/prix/peugeot/2008",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance : Autotijd indique 75 kW pour ce moteur. Coffre : 405–434 l selon la version d'après Autotijd, sans répartition par motorisation. Prix : finition Style.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Peugeot 2008 1.2 PureTech 100 BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/peugeot/2008/12-puretech-100-hp-manual-3911",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Peugeot 2008",
+              "url": "https://autotijd.be/fr/dimensions/peugeot/2008",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "peugeot-2008-2-hybrid-136",
+          "name": "Hybrid 136",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 136,
+          "powerKw": 100,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9.2,
+          "topSpeedKmh": 206,
+          "consumption": {
+            "value": 4.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 110,
+          "weightKg": 1372,
+          "dimensions": {
+            "lengthMm": 4304,
+            "widthMm": 1770,
+            "heightMm": 1550,
+            "wheelbaseMm": 2605
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 33650,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Peugeot 2008",
+                "url": "https://autotijd.be/fr/prix/peugeot/2008",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "CO2 110–111 g/km selon Autotijd. Coffre : 405–434 l selon la version d'après Autotijd, sans répartition par motorisation. Prix : finition Allure.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Peugeot 2008 Hybrid 136",
+              "url": "https://autotijd.be/fr/fiches-techniques/peugeot/2008/hybrid-136-hp-4243",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Peugeot 2008",
+              "url": "https://autotijd.be/fr/dimensions/peugeot/2008",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "peugeot-2008-2-e-2008-156",
+          "name": "E-2008 156 ch",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 156,
+          "powerKw": 115,
+          "torqueNm": 260,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9.1,
+          "topSpeedKmh": 150,
+          "consumption": {
+            "value": 15.3,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 406,
+          "batteryKwh": 54,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1663,
+          "dimensions": {
+            "lengthMm": 4304,
+            "widthMm": 1770,
+            "heightMm": 1550,
+            "wheelbaseMm": 2605
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW",
+            "Charge rapide DC 100 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 42750,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Peugeot 2008",
+                "url": "https://autotijd.be/fr/prix/peugeot/2008",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Batterie : capacité brute 54 kWh. Consommation 15,3–15,4 kWh/100 km. Charge DC 20–80 % en 30 min selon Autotijd. Coffre : 405–434 l selon la version d'après Autotijd, sans répartition par motorisation. Prix : finition Allure.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Peugeot E-2008 156 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/peugeot/2008/e-156-hp-3910",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Peugeot 2008",
+              "url": "https://autotijd.be/fr/dimensions/peugeot/2008",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Peugeot 2008",
+          "url": "https://autotijd.be/fr/prix/peugeot/2008",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Peugeot 2008",
+          "url": "https://autotijd.be/fr/dimensions/peugeot/2008",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "peugeot-5008-3",
+      "modelId": "peugeot-5008",
+      "brandId": "peugeot",
+      "modelName": "5008",
+      "name": "Peugeot 5008 (3e génération)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Grand SUV familial (segment D)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "travel",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Peugeot 5008 C Leonberg 2024 IMG 0827.jpg",
+          "caption": "Peugeot 5008 à Leonberg (2024)",
+          "depicts": "Peugeot 5008 de 3e génération",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Peugeot 5008 C Automesse Ludwigsburg 2024 IMG 1452.jpg",
+          "caption": "Peugeot 5008 à l'Automesse de Ludwigsburg (2024)",
+          "depicts": "Peugeot 5008 de 3e génération",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Peugeot 5008 de troisième génération est un SUV familial à sept places sur plateforme STLA Medium, proposé en hybride 48 V, en hybride rechargeable et en électrique. C'est la version longue du 3008 de même génération.",
+        "positioning": "Grand SUV familial de Peugeot, au-dessus du 3008.",
+        "technicalFacts": [
+          "Plateforme STLA Medium, code modèle P67 (Autotijd).",
+          "Longueur de 4,791 m et empattement de 2,901 m (Autotijd).",
+          "Version électrique de 210 ch avec batterie de 73 kWh brute et charge DC jusqu’à 160 kW (Autotijd)."
+        ],
+        "pros": [
+          "Sept places dans un gabarit inférieur à 4,80 m.",
+          "Grand coffre annoncé (748 l selon L’argus).",
+          "Choix entre hybride, hybride rechargeable et électrique."
+        ],
+        "differentiators": [
+          "Panoramic i-Cockpit avec grand écran incurvé, commun au 3008."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarrait à 41 800 € (Hybrid 136, barème de novembre 2024).",
+        "innovations": [],
+        "compromises": [
+          "Poids élevé de la version électrique (plus de 2,2 t).",
+          "Version électrique limitée à 170 km/h.",
+          "Performances modestes de la version Hybrid 136 pour un véhicule de ce poids."
+        ]
+      },
+      "variants": [
+        {
+          "id": "peugeot-5008-3-hybrid-136",
+          "name": "Hybrid 136",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 136,
+          "powerKw": 100,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (double embrayage e-DCS6)",
+          "accel0100s": 11.3,
+          "topSpeedKmh": 200,
+          "consumption": {
+            "value": 5.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 131,
+          "weightKg": 1705,
+          "dimensions": {
+            "lengthMm": 4791,
+            "widthMm": 1895,
+            "heightMm": 1694,
+            "wheelbaseMm": 2901
+          },
+          "seats": 7,
+          "trunkL": 748,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 41800,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Peugeot 5008",
+                "url": "https://autotijd.be/fr/prix/peugeot/5008",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Places : 7 selon L'argus (Autotijd indique 5). Coffre de 748 l selon L'argus. Prix : finition Allure.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Peugeot 5008 Hybrid 136",
+              "url": "https://autotijd.be/fr/fiches-techniques/peugeot/5008/hybrid-136-hp-4174",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – fiche technique Peugeot 5008 Hybrid 136ch Allure e-DCS6",
+              "url": "https://www.largus.fr/fiche-technique/Peugeot/5008/III/2025/SUV+5+Portes/Hybrid+136ch+Allure+e-DCS6-2868571.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Peugeot 5008",
+              "url": "https://autotijd.be/fr/dimensions/peugeot/5008",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "peugeot-5008-3-plug-in-hybrid-195",
+          "name": "Plug-in Hybrid 195",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres 1,6 l turbo essence + moteur électrique",
+            "displacementCc": 1598,
+            "electricMotors": 1
+          },
+          "powerHp": 195,
+          "powerKw": 144,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (double embrayage e-DCS7)",
+          "accel0100s": 8.3,
+          "topSpeedKmh": 215,
+          "consumption": {
+            "value": 2.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 17.9,
+          "charging": {
+            "dcMaxKw": null,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 61,
+          "weightKg": 2048,
+          "dimensions": {
+            "lengthMm": 4791,
+            "widthMm": 1895,
+            "heightMm": 1694,
+            "wheelbaseMm": 2901
+          },
+          "seats": 7,
+          "trunkL": 748,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 48300,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Peugeot 5008",
+                "url": "https://autotijd.be/fr/prix/peugeot/5008",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance cumulée 195 ch / 144 kW, accélération, vitesse maximale (215 km/h) et poids : Autotijd. L'argus indique 220 km/h et 2 068 kg. Couple cumulé non publié dans les sources consultées. Batterie 17,9 kWh brute. Consommation et CO2 : L'argus. Autonomie électrique non trouvée. Prix : finition Allure.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Peugeot 5008 Plug-in Hybrid 195",
+              "url": "https://autotijd.be/fr/fiches-techniques/peugeot/5008/plug-in-hybrid-195-hp-4175",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – fiche technique Peugeot 5008 Plug-in 195ch Allure",
+              "url": "https://www.largus.fr/fiche-technique/Peugeot/5008/III/2025/SUV+5+Portes/Hybride+Rechargeable+Plug-in+195ch+Allure+e-DCS7-2868583.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Peugeot 5008",
+              "url": "https://autotijd.be/fr/dimensions/peugeot/5008",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "peugeot-5008-3-e-5008-210",
+          "name": "E-5008 210 ch (73 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 210,
+          "powerKw": 157,
+          "torqueNm": 345,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9.7,
+          "topSpeedKmh": 170,
+          "consumption": null,
+          "electricRangeKm": 477,
+          "batteryKwh": 73,
+          "charging": {
+            "dcMaxKw": 160,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 2218,
+          "dimensions": {
+            "lengthMm": 4791,
+            "widthMm": 1895,
+            "heightMm": 1694,
+            "wheelbaseMm": 2901
+          },
+          "seats": 7,
+          "trunkL": 748,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW",
+            "Charge rapide DC 160 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 51500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Peugeot 5008",
+                "url": "https://autotijd.be/fr/prix/peugeot/5008",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance, couple, 0–100, vitesse maximale et poids : Autotijd (L'argus indique 213 ch et 2 293 kg). Autonomie WLTP 477 km selon L'argus. Charge DC 20–80 % en 30 min selon Autotijd. Prix : finition Allure.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Peugeot E-5008 210 ch",
+              "url": "https://autotijd.be/fr/fiches-techniques/peugeot/5008/electric-210-hp-4171",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – fiche technique Peugeot 5008 Électrique 210ch 73 kWh Allure",
+              "url": "https://www.largus.fr/fiche-technique/Peugeot/5008/III/2025/SUV+5+Portes/Electrique+210ch+Batterie+73+kWh+Allure-2868585.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Peugeot 5008",
+              "url": "https://autotijd.be/fr/dimensions/peugeot/5008",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Peugeot 5008",
+          "url": "https://autotijd.be/fr/prix/peugeot/5008",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Peugeot 5008",
+          "url": "https://autotijd.be/fr/dimensions/peugeot/5008",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – fiches techniques Peugeot 5008 (2025)",
+          "url": "https://www.largus.fr/fiche-technique/Peugeot/5008/2025.html",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "peugeot-408-1",
+      "modelId": "peugeot-408",
+      "brandId": "peugeot",
+      "modelName": "408",
+      "name": "Peugeot 408 (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Berline surélevée / fastback (segment C)",
+      "bodyStyles": [
+        "Berline fastback 5 portes"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Peugeot 408 (crossover) 1X7A7195.jpg",
+          "caption": "Peugeot 408",
+          "depicts": "Peugeot 408 fastback (2022)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Peugeot 408 (crossover) DSC 7159.jpg",
+          "caption": "Peugeot 408",
+          "depicts": "Peugeot 408 fastback (2022)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Peugeot 408 est une berline fastback surélevée lancée en 2022, à mi-chemin entre la berline et le SUV. Elle est proposée en hybride 48 V, en hybride rechargeable et en électrique (E-408).",
+        "positioning": "Modèle de segment C au style de crossover coupé, aux côtés de la 308 et du 3008.",
+        "technicalFacts": [
+          "Plateforme EMP2, code modèle P54, assemblée à Mulhouse (Autotijd).",
+          "Longueur de 4,687 m et empattement de 2,787 m (Autotijd).",
+          "L'E-408 utilise une batterie de 58 kWh et annonce 445 km WLTP (L'argus)."
+        ],
+        "pros": [
+          "Ligne fastback originale.",
+          "Grand coffre pour une berline de cette longueur (536 l en Hybrid selon L’argus).",
+          "Empattement long favorable aux places arrière."
+        ],
+        "differentiators": [
+          "Silhouette entre berline et SUV, rare dans la gamme Peugeot."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarrait à 35 850 € (Hybrid 136, barème de novembre 2024).",
+        "innovations": [],
+        "compromises": [
+          "Visibilité arrière réduite par la ligne de toit.",
+          "E-408 limitée à 160 km/h.",
+          "Coffre réduit sur les versions électrifiées."
+        ]
+      },
+      "variants": [
+        {
+          "id": "peugeot-408-1-hybrid-136",
+          "name": "Hybrid 136",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 136,
+          "powerKw": 100,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (double embrayage e-DCS6)",
+          "accel0100s": null,
+          "topSpeedKmh": 205,
+          "consumption": {
+            "value": 5.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 114,
+          "weightKg": 1544,
+          "dimensions": {
+            "lengthMm": 4687,
+            "widthMm": 1859,
+            "heightMm": 1478,
+            "wheelbaseMm": 2787
+          },
+          "seats": 5,
+          "trunkL": 536,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 35850,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Peugeot 408",
+                "url": "https://autotijd.be/fr/prix/peugeot/408",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Caractéristiques : L'argus (finition Allure). 0–100 km/h non publié dans les sources consultées. Prix : finition Allure.",
+          "sources": [
+            {
+              "label": "L'argus – fiche technique Peugeot 408 Hybrid 136ch Allure e-DCS6",
+              "url": "https://www.largus.fr/fiche-technique/Peugeot/408/I/2025/Berline+5+Portes/Hybrid+136ch+Allure+e-DCS6-2843173.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Peugeot 408",
+              "url": "https://autotijd.be/fr/dimensions/peugeot/408",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "peugeot-408-1-plug-in-hybrid-225",
+          "name": "Plug-in Hybrid 225",
+          "tier": "sport",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres 1,6 l turbo essence (180 ch) + moteur électrique (125 ch)",
+            "displacementCc": 1598,
+            "electricMotors": 1
+          },
+          "powerHp": 225,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (double embrayage e-DCS7)",
+          "accel0100s": null,
+          "topSpeedKmh": 233,
+          "consumption": {
+            "value": 2.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 80,
+          "batteryKwh": 14,
+          "charging": {
+            "dcMaxKw": null,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 57,
+          "weightKg": 1782,
+          "dimensions": {
+            "lengthMm": 4687,
+            "widthMm": 1859,
+            "heightMm": 1478,
+            "wheelbaseMm": 2787
+          },
+          "seats": 5,
+          "trunkL": 415,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 43900,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-05",
+              "source": {
+                "label": "L'argus – fiche technique Peugeot 408 Plug-in Hybrid 225ch Allure e-DCS7",
+                "url": "https://www.largus.fr/fiche-technique/Peugeot/408/I/2025/Berline+5+Portes/Plug-in+Hybrid+225ch+Allure+e-DCS7-2947777.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance cumulée de 225 ch d'après la désignation commerciale ; L'argus détaille 180 ch / 132 kW pour le moteur thermique et 125 ch / 92 kW pour le moteur électrique. Couple cumulé non publié. Batterie 14 kWh selon L'argus (brute ou nette non précisé). Prix France (L'argus, 20/05/2025), finition Allure ; le barème belge relevé date d'avant le passage à la boîte e-DCS7.",
+          "sources": [
+            {
+              "label": "L'argus – fiche technique Peugeot 408 Plug-in Hybrid 225ch Allure e-DCS7",
+              "url": "https://www.largus.fr/fiche-technique/Peugeot/408/I/2025/Berline+5+Portes/Plug-in+Hybrid+225ch+Allure+e-DCS7-2947777.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Peugeot 408",
+              "url": "https://autotijd.be/fr/dimensions/peugeot/408",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "peugeot-408-1-e-408-210",
+          "name": "E-408 210 ch (58 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 210,
+          "powerKw": 157,
+          "torqueNm": 343,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": null,
+          "topSpeedKmh": 160,
+          "consumption": null,
+          "electricRangeKm": 445,
+          "batteryKwh": 58,
+          "charging": {
+            "dcMaxKw": null,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1879,
+          "dimensions": {
+            "lengthMm": 4687,
+            "widthMm": 1859,
+            "heightMm": 1478,
+            "wheelbaseMm": 2787
+          },
+          "seats": 5,
+          "trunkL": 468,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 46200,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Peugeot 408",
+                "url": "https://autotijd.be/fr/prix/peugeot/408",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Caractéristiques : L'argus (finition Allure). 0–100 km/h, consommation et puissance de charge DC non relevés dans les sources consultées. Prix : finition Allure.",
+          "sources": [
+            {
+              "label": "L'argus – fiche technique Peugeot 408 Électrique 210ch Allure (58 kWh)",
+              "url": "https://www.largus.fr/fiche-technique/Peugeot/408/I/2025/Berline+5+Portes/Electrique+210ch+Allure+(58kWh)-2892946.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Peugeot 408",
+              "url": "https://autotijd.be/fr/dimensions/peugeot/408",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Peugeot 408",
+          "url": "https://autotijd.be/fr/prix/peugeot/408",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Peugeot 408",
+          "url": "https://autotijd.be/fr/dimensions/peugeot/408",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – fiches techniques Peugeot 408 (2025)",
+          "url": "https://www.largus.fr/fiche-technique/Peugeot/408/2025.html",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "citroen-c4-3",
+      "modelId": "citroen-c4",
+      "brandId": "citroen",
+      "modelName": "C4",
+      "name": "Citroën C4 (3e génération)",
+      "yearsLabel": "2020 –",
+      "startYear": 2020,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte surélevée (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2025 Citroën C4 DSC 9296.jpg",
+          "caption": "Citroën C4 restylée (2025)",
+          "depicts": "Citroën C4 de 3e génération, version restylée",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Citroën C4 IMG 2669.jpg",
+          "caption": "Citroën C4 restylée (2025)",
+          "depicts": "Citroën C4 de 3e génération, version restylée",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Citroën C4 de troisième génération est une compacte au style de crossover, restylée en 2024 et proposée en hybride 48 V et en électrique (ë-C4). Elle est produite à Villaverde (Madrid).",
+        "positioning": "Compacte de Citroën, entre la C3 et la C5 X.",
+        "technicalFacts": [
+          "Version restylée (code C41 facelift) assemblée à Villaverde (Autotijd).",
+          "Longueur de 4,36 m, empattement de 2,67 m et coffre de 380 l (Autotijd).",
+          "L'ë-C4 54 kWh annonce 418 km WLTP (Autotijd)."
+        ],
+        "pros": [
+          "Confort de suspension mis en avant par Citroën.",
+          "Hybride 48 V sobre (moins de 5 l/100 km WLTP).",
+          "Prix contenus pour une compacte."
+        ],
+        "differentiators": [
+          "Silhouette de compacte surélevée, entre berline et SUV."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarrait à 26 640 € (Hybrid 100, barème d’octobre 2024).",
+        "innovations": [],
+        "compromises": [
+          "Visibilité arrière limitée.",
+          "ë-C4 limitée à 150 km/h.",
+          "Performances modestes en Hybrid 100."
+        ]
+      },
+      "variants": [
+        {
+          "id": "citroen-c4-3-hybrid-100",
+          "name": "Hybrid 100",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 100,
+          "powerKw": 74,
+          "torqueNm": 205,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 10.7,
+          "topSpeedKmh": 191,
+          "consumption": {
+            "value": 4.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 108,
+          "weightKg": 1303,
+          "dimensions": {
+            "lengthMm": 4360,
+            "widthMm": 1800,
+            "heightMm": null,
+            "wheelbaseMm": 2670
+          },
+          "seats": 5,
+          "trunkL": 380,
+          "equipmentHighlights": [
+            "Batterie 48 V de 0,89 kWh brute (0,432 kWh nette)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 26640,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – prix belges Citroën C4",
+                "url": "https://autotijd.be/fr/prix/citroen/c4",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Hauteur 1 520–1 525 mm selon Autotijd. Prix : finition You.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Citroën C4 Hybrid 100",
+              "url": "https://autotijd.be/fr/fiches-techniques/citroen/c4/hybrid-100-4992",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Citroën C4",
+              "url": "https://autotijd.be/fr/dimensions/citroen/c4",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "citroen-c4-3-hybrid-136",
+          "name": "Hybrid 136",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 136,
+          "powerKw": 100,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 8,
+          "topSpeedKmh": 210,
+          "consumption": {
+            "value": 4.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 106,
+          "weightKg": 1303,
+          "dimensions": {
+            "lengthMm": 4360,
+            "widthMm": 1800,
+            "heightMm": null,
+            "wheelbaseMm": 2670
+          },
+          "seats": 5,
+          "trunkL": 380,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 28690,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – prix belges Citroën C4",
+                "url": "https://autotijd.be/fr/prix/citroen/c4",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Hauteur 1 520–1 525 mm selon Autotijd. Prix : finition Plus.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Citroën C4 Hybrid 136",
+              "url": "https://autotijd.be/fr/fiches-techniques/citroen/c4/hybrid-136-4993",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Citroën C4",
+              "url": "https://autotijd.be/fr/dimensions/citroen/c4",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "citroen-c4-3-e-c4-54",
+          "name": "ë-C4 156 ch (54 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 156,
+          "powerKw": 115,
+          "torqueNm": 260,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9.1,
+          "topSpeedKmh": 150,
+          "consumption": {
+            "value": 14.8,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 418,
+          "batteryKwh": 54,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1536,
+          "dimensions": {
+            "lengthMm": 4360,
+            "widthMm": 1800,
+            "heightMm": null,
+            "wheelbaseMm": 2670
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW",
+            "Charge rapide DC 100 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 36490,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – prix belges Citroën C4",
+                "url": "https://autotijd.be/fr/prix/citroen/c4",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Batterie 54 kWh brute. Consommation 14,8–14,9 kWh/100 km. Charge DC 0–80 % en 30 min selon Autotijd. Coffre de la version électrique non précisé. Hauteur 1 520–1 525 mm selon Autotijd. Prix : finition Plus.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Citroën ë-C4 54 kWh",
+              "url": "https://autotijd.be/fr/fiches-techniques/citroen/c4/ev-54-kwh-4996",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Citroën C4",
+              "url": "https://autotijd.be/fr/dimensions/citroen/c4",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Citroën C4",
+          "url": "https://autotijd.be/fr/prix/citroen/c4",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Citroën C4",
+          "url": "https://autotijd.be/fr/dimensions/citroen/c4",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "citroen-c3-aircross-2",
+      "modelId": "citroen-c3-aircross",
+      "brandId": "citroen",
+      "modelName": "C3 Aircross",
+      "name": "Citroën C3 Aircross (2e génération)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "family",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Citroën C3 Aircross (2024) DSC 9300.jpg",
+          "caption": "Citroën C3 Aircross (2024)",
+          "depicts": "Citroën C3 Aircross de 2e génération (modèle européen)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Citroën C3 Aircross (2024) DSC 0591.jpg",
+          "caption": "Citroën C3 Aircross (2024)",
+          "depicts": "Citroën C3 Aircross de 2e génération (modèle européen)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Citroën C3 Aircross de deuxième génération est un SUV compact à bas prix sur plateforme STLA Smart Car, produit à Trnava. Il existe en essence, en hybride 48 V et en électrique (ë-C3 Aircross).",
+        "positioning": "SUV familial abordable de Citroën, au-dessus de la C3.",
+        "technicalFacts": [
+          "Plateforme STLA Smart Car, code modèle CC24, assemblé à Trnava (Autotijd).",
+          "Longueur de 4,395 m et empattement de 2,67 m (Autotijd).",
+          "Version électrique à batterie LFP de 44 kWh et 113 ch (Autotijd)."
+        ],
+        "pros": [
+          "Prix d’entrée très bas pour un SUV de 4,40 m.",
+          "Habitabilité généreuse.",
+          "Version électrique sous les 27 000 € en Belgique (barème de décembre 2024)."
+        ],
+        "differentiators": [
+          "Partage sa plateforme STLA Smart Car avec l’Opel Frontera et la Fiat Grande Panda."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarrait à 18 990 € (1.2 Turbo 100 BVM, barème de décembre 2024).",
+        "innovations": [],
+        "compromises": [
+          "Version électrique lente (12,9 s de 0 à 100 km/h) et limitée à 143 km/h.",
+          "Autonomie électrique d’environ 300 km.",
+          "Finitions de base dépouillées."
+        ]
+      },
+      "variants": [
+        {
+          "id": "citroen-c3-aircross-2-turbo-100",
+          "name": "1.2 Turbo 100 BVM",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,2 l turbo essence",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 100,
+          "powerKw": 74,
+          "torqueNm": 205,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle",
+          "accel0100s": 11.7,
+          "topSpeedKmh": null,
+          "consumption": {
+            "value": 6.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 141,
+          "weightKg": 1298,
+          "dimensions": {
+            "lengthMm": 4395,
+            "widthMm": 1850,
+            "heightMm": 1660,
+            "wheelbaseMm": 2670
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 18990,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Citroën C3 Aircross",
+                "url": "https://autotijd.be/fr/prix/citroen/c3-aircross",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Vitesse maximale laissée vide : Autotijd indique 143 km/h, valeur identique à la version électrique et jugée douteuse. Coffre : la valeur publiée par Autotijd (« 40–460 litres ») est incohérente. Prix : finition You.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Citroën C3 Aircross 1.2 PureTech 100 BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/citroen/c3-aircross/12-puretech-100-hp-4457",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Citroën C3 Aircross",
+              "url": "https://autotijd.be/fr/dimensions/citroen/c3-aircross",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "citroen-c3-aircross-2-hybrid-136",
+          "name": "Hybrid 136",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 136,
+          "powerKw": 100,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 8.8,
+          "topSpeedKmh": 192,
+          "consumption": {
+            "value": 5.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 126,
+          "weightKg": 1389,
+          "dimensions": {
+            "lengthMm": 4395,
+            "widthMm": 1850,
+            "heightMm": 1660,
+            "wheelbaseMm": 2670
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 24790,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Citroën C3 Aircross",
+                "url": "https://autotijd.be/fr/prix/citroen/c3-aircross",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Prix : finition You pack Plus.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Citroën C3 Aircross Hybrid 136",
+              "url": "https://autotijd.be/fr/fiches-techniques/citroen/c3-aircross/hybrid-136-hp-4458",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Citroën C3 Aircross",
+              "url": "https://autotijd.be/fr/dimensions/citroen/c3-aircross",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "citroen-c3-aircross-2-e-c3-aircross",
+          "name": "ë-C3 Aircross 113 ch (44 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 113,
+          "powerKw": 83,
+          "torqueNm": 125,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 12.9,
+          "topSpeedKmh": 143,
+          "consumption": {
+            "value": 18.2,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 303,
+          "batteryKwh": 44,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1504,
+          "dimensions": {
+            "lengthMm": 4395,
+            "widthMm": 1850,
+            "heightMm": 1660,
+            "wheelbaseMm": 2670
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Batterie LFP",
+            "Chargeur AC 11 kW",
+            "Charge rapide DC 100 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 26690,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-12",
+              "source": {
+                "label": "Autotijd.be – prix belges Citroën C3 Aircross",
+                "url": "https://autotijd.be/fr/prix/citroen/c3-aircross",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Plage WLTP selon finition : valeur la plus favorable retenue. Autonomie 300–303 km et consommation 18,2–18,4 kWh/100 km (Autotijd). Batterie 44 kWh brute. Charge DC 20–80 % en 26 min. Prix : finition You.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Citroën ë-C3 Aircross 44 kWh",
+              "url": "https://autotijd.be/fr/fiches-techniques/citroen/c3-aircross/44-kwh-113-hp-4456",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Citroën C3 Aircross",
+              "url": "https://autotijd.be/fr/dimensions/citroen/c3-aircross",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Citroën C3 Aircross",
+          "url": "https://autotijd.be/fr/prix/citroen/c3-aircross",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Citroën C3 Aircross",
+          "url": "https://autotijd.be/fr/dimensions/citroen/c3-aircross",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "citroen-c5-aircross-2",
+      "modelId": "citroen-c5-aircross",
+      "brandId": "citroen",
+      "modelName": "C5 Aircross",
+      "name": "Citroën C5 Aircross (2e génération)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "travel",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2025 Citroën C5 Aircross Plug-in-Hybrid Auto Zuerich 2025 DSC 3296.jpg",
+          "caption": "Citroën C5 Aircross Plug-in Hybrid au salon Auto Zürich 2025",
+          "depicts": "Citroën C5 Aircross de 2e génération, hybride rechargeable",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Citroën ë-C5 Aircross Auto Zuerich 2025 DSC 3094.jpg",
+          "caption": "Citroën ë-C5 Aircross au salon Auto Zürich 2025",
+          "depicts": "Citroën ë-C5 Aircross de 2e génération, électrique",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Citroën C5 Aircross de deuxième génération, dévoilé en 2025, grandit et gagne une version 100 % électrique. Il est aussi proposé en hybride 48 V et en hybride rechargeable.",
+        "positioning": "SUV familial de Citroën, au-dessus du C3 Aircross.",
+        "technicalFacts": [
+          "Longueur d'environ 4,65 m (+150 mm) et empattement de 2,78 m (+60 mm) par rapport au modèle précédent (Motor1).",
+          "Hybride rechargeable de 195 ch avec batterie de 21 kWh (Motor1).",
+          "Version électrique de 73 kWh, charge AC 11 kW et DC jusqu’à 160 kW (Motor1).",
+          "Le moteur diesel disparaît de la gamme (Motor1)."
+        ],
+        "pros": [
+          "Gabarit et espace intérieur en hausse.",
+          "Autonomie électrique annoncée de 520 km.",
+          "Prix de la version électrique proche de celui de l’hybride en France."
+        ],
+        "differentiators": [
+          "Le confort de suspension est mis en avant par Citroën."
+        ],
+        "pricePositioning": "En France, l'électrique démarrait à 40 990 € et l'hybride 145 en finition Plus à 38 990 € (L'argus, juillet 2025).",
+        "innovations": [],
+        "compromises": [
+          "Version électrique lourde (près de 2,2 t).",
+          "Électrique limitée à 170 km/h.",
+          "Pas de version diesel."
+        ]
+      },
+      "variants": [
+        {
+          "id": "citroen-c5-aircross-2-hybrid-145",
+          "name": "Hybrid 145",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 145,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (double embrayage 6 rapports)",
+          "accel0100s": null,
+          "topSpeedKmh": 201,
+          "consumption": {
+            "value": 5.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 121,
+          "weightKg": 1629,
+          "dimensions": {
+            "lengthMm": 4650,
+            "widthMm": 1900,
+            "heightMm": 1660,
+            "wheelbaseMm": 2780
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 38990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-07",
+              "source": {
+                "label": "L'argus – fiche technique Citroën C5 Aircross 1.2 Hybride 145ch PLUS",
+                "url": "https://www.largus.fr/fiche-technique/Citroen/C5+Aircross/II/2025/SUV+5+Portes/12+Hybride+145ch+PLUS+boite+automatique-2962022.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance cumulée de 145 ch (Motor1) ; L'argus indique 136 ch / 100 kW et 230 Nm pour le moteur thermique. Coffre : L'argus indique 565 l, Motor1 au moins 650 l ; valeur laissée vide. Dimensions : Motor1 (valeurs arrondies, 29/04/2025). Prix France, finition Plus.",
+          "sources": [
+            {
+              "label": "L'argus – fiche technique Citroën C5 Aircross 1.2 Hybride 145ch PLUS",
+              "url": "https://www.largus.fr/fiche-technique/Citroen/C5+Aircross/II/2025/SUV+5+Portes/12+Hybride+145ch+PLUS+boite+automatique-2962022.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Motor1 France – Nouvelle Citroën C5 Aircross, plus grande, plus technologique et électrique",
+              "url": "https://fr.motor1.com/news/758029/nouvelle-citroen-c5-aircross-electrique/",
+              "type": "press",
+              "publishedAt": "2025-04-29",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "citroen-c5-aircross-2-plug-in-hybrid-195",
+          "name": "Plug-in Hybrid 195",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres 1,6 l turbo essence + moteur électrique",
+            "displacementCc": 1598,
+            "electricMotors": 1
+          },
+          "powerHp": 195,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": null,
+          "topSpeedKmh": 220,
+          "consumption": {
+            "value": 2.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 21,
+          "charging": {
+            "dcMaxKw": null,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 55,
+          "weightKg": 1949,
+          "dimensions": {
+            "lengthMm": 4650,
+            "widthMm": 1900,
+            "heightMm": 1660,
+            "wheelbaseMm": 2780
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 42490,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-07",
+              "source": {
+                "label": "L'argus – fiche technique Citroën C5 Aircross 1.6 Hybride rechargeable 195ch PLUS",
+                "url": "https://www.largus.fr/fiche-technique/Citroen/C5+Aircross/II/2025/SUV+5+Portes/16+Hybride+rechargeable+195ch+PLUS+boite+automatique-2962025.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance cumulée 195 ch et batterie de 21 kWh : Motor1 ; L'argus indique 150 ch / 110 kW et 300 Nm pour le moteur thermique. Autonomie électrique « près de 90 km » (Motor1), sans valeur WLTP précise. Coffre laissé vide (sources divergentes). Dimensions : Motor1 (valeurs arrondies, 29/04/2025). Prix France, finition Plus.",
+          "sources": [
+            {
+              "label": "L'argus – fiche technique Citroën C5 Aircross 1.6 Hybride rechargeable 195ch PLUS",
+              "url": "https://www.largus.fr/fiche-technique/Citroen/C5+Aircross/II/2025/SUV+5+Portes/16+Hybride+rechargeable+195ch+PLUS+boite+automatique-2962025.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Motor1 France – Nouvelle Citroën C5 Aircross, plus grande, plus technologique et électrique",
+              "url": "https://fr.motor1.com/news/758029/nouvelle-citroen-c5-aircross-electrique/",
+              "type": "press",
+              "publishedAt": "2025-04-29",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "citroen-c5-aircross-2-e-c5-aircross-73",
+          "name": "ë-C5 Aircross 210 ch (73 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 213,
+          "powerKw": 157,
+          "torqueNm": 345,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": null,
+          "topSpeedKmh": 170,
+          "consumption": null,
+          "electricRangeKm": 520,
+          "batteryKwh": 73,
+          "charging": {
+            "dcMaxKw": 160,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 2184,
+          "dimensions": {
+            "lengthMm": 4650,
+            "widthMm": 1900,
+            "heightMm": 1660,
+            "wheelbaseMm": 2780
+          },
+          "seats": 5,
+          "trunkL": 565,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW",
+            "Charge rapide DC 160 kW"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 40990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-07",
+              "source": {
+                "label": "L'argus – fiche technique Citroën C5 Aircross Électrique 210ch YOU",
+                "url": "https://www.largus.fr/fiche-technique/Citroen/C5+Aircross/II/2025/SUV+5+Portes/Electrique+210ch+78kWh+autonomie+confort+YOU-2962028.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Appellation commerciale 210 ch ; L'argus indique 213 ch / 157 kW. Autonomie WLTP 520 km (L'argus ; « environ 520 km » selon Motor1). Dimensions : Motor1 (valeurs arrondies, 29/04/2025). Prix France, finition You.",
+          "sources": [
+            {
+              "label": "L'argus – fiche technique Citroën C5 Aircross Électrique 210ch YOU",
+              "url": "https://www.largus.fr/fiche-technique/Citroen/C5+Aircross/II/2025/SUV+5+Portes/Electrique+210ch+78kWh+autonomie+confort+YOU-2962028.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Motor1 France – Nouvelle Citroën C5 Aircross, plus grande, plus technologique et électrique",
+              "url": "https://fr.motor1.com/news/758029/nouvelle-citroen-c5-aircross-electrique/",
+              "type": "press",
+              "publishedAt": "2025-04-29",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Motor1 France – Nouvelle Citroën C5 Aircross, plus grande, plus technologique et électrique",
+          "url": "https://fr.motor1.com/news/758029/nouvelle-citroen-c5-aircross-electrique/",
+          "type": "press",
+          "publishedAt": "2025-04-29",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – fiches techniques Citroën C5 Aircross (2025)",
+          "url": "https://www.largus.fr/fiche-technique/Citroen/C5-Aircross/2025.html",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "opel-corsa-f",
+      "modelId": "opel-corsa",
+      "brandId": "opel",
+      "modelName": "Corsa",
+      "name": "Opel Corsa F",
+      "yearsLabel": "2019 –",
+      "startYear": 2019,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine polyvalente (segment B)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Opel Corsa Electric Edition (F, Facelift) – f 05072025.jpg",
+          "caption": "Opel Corsa Electric Edition restylée (juillet 2025)",
+          "depicts": "Opel Corsa F restylée, version électrique",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 Opel Corsa F Auto Zuerich 2023 1X7A1113.jpg",
+          "caption": "Opel Corsa F au salon Auto Zürich 2023",
+          "depicts": "Opel Corsa F restylée",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "L'Opel Corsa F est la sixième génération de la citadine d'Opel, lancée en 2019 sur la base technique de la Peugeot 208. Elle est proposée en essence, en hybride 48 V et en électrique.",
+        "positioning": "Citadine d'Opel, sous l'Astra ; cousine de la Peugeot 208.",
+        "technicalFacts": [
+          "Longueur de 4,06 m (Autotijd).",
+          "Corsa Electric 156 ch : batterie de 51 kWh brute et 405 km WLTP (Autotijd).",
+          "Moteurs 1.2 trois cylindres de 75, 100 et 130 ch en essence (barème belge Autotijd)."
+        ],
+        "pros": [
+          "Large choix de motorisations.",
+          "Version 130 ch vive (8,7 s de 0 à 100 km/h).",
+          "Électrique efficiente (14,2 kWh/100 km WLTP)."
+        ],
+        "differentiators": [
+          "Face avant « Vizor » adoptée lors du restylage."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarrait à 20 900 € (1.2 75 ch, barème de mars 2024).",
+        "innovations": [],
+        "compromises": [
+          "Places arrière étroites.",
+          "Électrique limitée à 150 km/h.",
+          "Coffre moyen pour la catégorie."
+        ]
+      },
+      "variants": [
+        {
+          "id": "opel-corsa-f-turbo-100",
+          "name": "1.2 Turbo 100 BVM",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,2 l turbo essence",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 100,
+          "powerKw": 74,
+          "torqueNm": 205,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle",
+          "accel0100s": 9.9,
+          "topSpeedKmh": 194,
+          "consumption": {
+            "value": 5.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 114,
+          "weightKg": 1175,
+          "dimensions": {
+            "lengthMm": 4060,
+            "widthMm": 1765,
+            "heightMm": 1435,
+            "wheelbaseMm": null
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 22100,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Opel Corsa",
+                "url": "https://autotijd.be/fr/prix/opel/corsa",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Plage WLTP selon finition : valeur la plus favorable retenue. Consommation 5,1–5,4 l/100 km et CO2 114–116 g/km (Autotijd). Empattement 2 538–2 545 mm selon Autotijd. Prix : version de base.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Opel Corsa 1.2 Turbo 100 BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/opel/corsa/12-turbo-100-hp-manual-4055",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Opel Corsa",
+              "url": "https://autotijd.be/fr/dimensions/opel/corsa",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "opel-corsa-f-turbo-130",
+          "name": "1.2 Turbo 130 automatique",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,2 l turbo essence",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 130,
+          "powerKw": 96,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 8.7,
+          "topSpeedKmh": 208,
+          "consumption": {
+            "value": 5.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 121,
+          "weightKg": 1233,
+          "dimensions": {
+            "lengthMm": 4060,
+            "widthMm": 1765,
+            "heightMm": 1435,
+            "wheelbaseMm": null
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 27150,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Opel Corsa",
+                "url": "https://autotijd.be/fr/prix/opel/corsa",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "CO2 121–122 g/km (Autotijd). Empattement 2 538–2 545 mm selon Autotijd. Prix : finition GS.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Opel Corsa 1.2 Turbo 130",
+              "url": "https://autotijd.be/fr/fiches-techniques/opel/corsa/12-turbo-130-hp-4057",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Opel Corsa",
+              "url": "https://autotijd.be/fr/dimensions/opel/corsa",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "opel-corsa-f-electric-156",
+          "name": "Corsa Electric 156 ch",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 156,
+          "powerKw": 115,
+          "torqueNm": 260,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 8.1,
+          "topSpeedKmh": 150,
+          "consumption": {
+            "value": 14.2,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 405,
+          "batteryKwh": 51,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1544,
+          "dimensions": {
+            "lengthMm": 4060,
+            "widthMm": 1765,
+            "heightMm": 1435,
+            "wheelbaseMm": null
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW",
+            "Charge rapide DC 100 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 38850,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Opel Corsa",
+                "url": "https://autotijd.be/fr/prix/opel/corsa",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Batterie 51 kWh brute. Consommation 14,2–14,6 kWh/100 km. Charge DC 0–80 % en 27 min selon Autotijd. Empattement 2 538–2 545 mm selon Autotijd. Prix : finition GS.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Opel Corsa Electric 115 kW",
+              "url": "https://autotijd.be/fr/fiches-techniques/opel/corsa/electric-115-kw-156-hp-4053",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Opel Corsa",
+              "url": "https://autotijd.be/fr/dimensions/opel/corsa",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Opel Corsa",
+          "url": "https://autotijd.be/fr/prix/opel/corsa",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Opel Corsa",
+          "url": "https://autotijd.be/fr/dimensions/opel/corsa",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "opel-mokka-b",
+      "modelId": "opel-mokka",
+      "brandId": "opel",
+      "modelName": "Mokka",
+      "name": "Opel Mokka (2e génération)",
+      "yearsLabel": "2020 –",
+      "startYear": 2020,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Opel Mokka Electric Edition (B, Facelift) – f 12102025.jpg",
+          "caption": "Opel Mokka Electric Edition restylé (octobre 2025)",
+          "depicts": "Opel Mokka B restylé, version électrique",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "L'Opel Mokka de deuxième génération est un petit SUV au style anguleux sur plateforme CMP, produit à Poissy dans sa version restylée. Il est proposé en essence, en hybride 48 V et en électrique.",
+        "positioning": "Petit SUV d'Opel, entre le Frontera et le Grandland.",
+        "technicalFacts": [
+          "Plateforme Stellantis CMP, assemblage à Poissy pour la version restylée (Autotijd).",
+          "Longueur de 4,15 m (Autotijd).",
+          "Mokka Electric : batterie de 54 kWh brute (51,5 kWh nette) et 156 ch (Autotijd)."
+        ],
+        "pros": [
+          "Style distinctif.",
+          "Moteurs essence de 136 ch vifs.",
+          "Gabarit compact facile en ville."
+        ],
+        "differentiators": [
+          "Face avant « Vizor » et instrumentation « Pure Panel »."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarrait à 25 800 € (1.2T 136 ch BVM, barème de novembre 2024).",
+        "innovations": [],
+        "compromises": [
+          "Places arrière et coffre limités.",
+          "Électrique limitée à 150 km/h.",
+          "Visibilité arrière réduite."
+        ]
+      },
+      "variants": [
+        {
+          "id": "opel-mokka-b-turbo-136",
+          "name": "1.2 Turbo 136 BVM",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,2 l turbo essence",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 136,
+          "powerKw": 100,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle",
+          "accel0100s": 8.9,
+          "topSpeedKmh": 208,
+          "consumption": {
+            "value": 5.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 127,
+          "weightKg": 1294,
+          "dimensions": {
+            "lengthMm": 4150,
+            "widthMm": 1787,
+            "heightMm": null,
+            "wheelbaseMm": null
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 25800,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Opel Mokka",
+                "url": "https://autotijd.be/fr/prix/opel/mokka",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Plage WLTP selon finition : valeur la plus favorable retenue. Consommation 5,6–5,7 l/100 km et CO2 127–129 g/km (Autotijd). Hauteur 1 515–1 535 mm, empattement 2 557–2 561 mm et coffre 310–350 l selon Autotijd. Prix : finition Edition.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Opel Mokka 1.2T 100 kW BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/opel/mokka/12t-100-kw-manual-4982",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Opel Mokka",
+              "url": "https://autotijd.be/fr/dimensions/opel/mokka",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "opel-mokka-b-hybrid-136",
+          "name": "Hybrid 136",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 136,
+          "powerKw": 100,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 8.2,
+          "topSpeedKmh": 209,
+          "consumption": {
+            "value": 4.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 108,
+          "weightKg": 1362,
+          "dimensions": {
+            "lengthMm": 4150,
+            "widthMm": 1787,
+            "heightMm": null,
+            "wheelbaseMm": null
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Batterie 48 V de 0,898 kWh brute (0,43 kWh nette)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 29400,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Opel Mokka",
+                "url": "https://autotijd.be/fr/prix/opel/mokka",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Plage WLTP selon finition : valeur la plus favorable retenue. Consommation 4,8–4,9 l/100 km et CO2 108–110 g/km (Autotijd). Hauteur 1 515–1 535 mm, empattement 2 557–2 561 mm et coffre 310–350 l selon Autotijd. Prix : finition Edition.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Opel Mokka 1.2T 100 kW Hybrid",
+              "url": "https://autotijd.be/fr/fiches-techniques/opel/mokka/12t-100-kw-hybrid-4984",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Opel Mokka",
+              "url": "https://autotijd.be/fr/dimensions/opel/mokka",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "opel-mokka-b-electric-156",
+          "name": "Mokka Electric 156 ch",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 156,
+          "powerKw": 115,
+          "torqueNm": 260,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9,
+          "topSpeedKmh": 150,
+          "consumption": {
+            "value": 15.4,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 403,
+          "batteryKwh": 54,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1615,
+          "dimensions": {
+            "lengthMm": 4150,
+            "widthMm": 1787,
+            "heightMm": null,
+            "wheelbaseMm": null
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW",
+            "Charge rapide DC 100 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 36490,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges Opel Mokka",
+                "url": "https://autotijd.be/fr/prix/opel/mokka",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Plage WLTP selon finition : valeur la plus favorable retenue. Autonomie 396–403 km et consommation 15,4–15,6 kWh/100 km (Autotijd). Batterie 54 kWh brute, 51,5 kWh nette. Charge DC 0–80 % en 27 min. Hauteur 1 515–1 535 mm, empattement 2 557–2 561 mm et coffre 310–350 l selon Autotijd. Prix : finition Edition.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Opel Mokka Electric 115 kW",
+              "url": "https://autotijd.be/fr/fiches-techniques/opel/mokka/electric-115-kw-4985",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Opel Mokka",
+              "url": "https://autotijd.be/fr/dimensions/opel/mokka",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Opel Mokka",
+          "url": "https://autotijd.be/fr/prix/opel/mokka",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Opel Mokka",
+          "url": "https://autotijd.be/fr/dimensions/opel/mokka",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "opel-astra-l",
+      "modelId": "opel-astra",
+      "brandId": "opel",
+      "modelName": "Astra",
+      "name": "Opel Astra L",
+      "yearsLabel": "2021 –",
+      "startYear": 2021,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes",
+        "Break (Sports Tourer)"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Opel Astra L 1X7A6738.jpg",
+          "caption": "Opel Astra L",
+          "depicts": "Opel Astra L berline 5 portes",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Opel Astra L PHEV 1X7A1590.jpg",
+          "caption": "Opel Astra L hybride rechargeable",
+          "depicts": "Opel Astra L Plug-in Hybrid",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "L'Opel Astra L est la compacte d'Opel lancée en 2021, sur une base technique partagée avec la Peugeot 308. Elle est proposée en essence, diesel, hybride rechargeable et électrique.",
+        "positioning": "Compacte d'Opel, au-dessus de la Corsa ; cousine de la Peugeot 308.",
+        "technicalFacts": [
+          "Longueur de 4,374 m et empattement de 2,675 m (Autotijd).",
+          "Hybride rechargeable 180 ch : batterie de 12,4 kWh brute et 66 à 73 km d’autonomie électrique WLTP (Autotijd).",
+          "Un diesel 1.5 de 130 ch figure au barème belge de mars 2024 (Autotijd)."
+        ],
+        "pros": [
+          "Gamme encore très large (essence, diesel, hybride rechargeable, électrique).",
+          "Diesel sobre (4,3 l/100 km WLTP).",
+          "Hybride rechargeable performant (7,6 s de 0 à 100 km/h)."
+        ],
+        "differentiators": [
+          "Face avant « Vizor » et planche de bord « Pure Panel »."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarrait à 27 400 € (1.2 Turbo 110 BVM, barème de mars 2024).",
+        "innovations": [],
+        "compromises": [
+          "Coffre et places arrière dans la moyenne.",
+          "Prix des versions électrifiées élevés.",
+          "Petite autonomie électrique de l’hybride rechargeable face aux concurrentes récentes."
+        ]
+      },
+      "variants": [
+        {
+          "id": "opel-astra-l-turbo-130",
+          "name": "1.2 Turbo 130 BVM",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,2 l turbo essence",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 130,
+          "powerKw": 96,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle",
+          "accel0100s": 9.7,
+          "topSpeedKmh": 210,
+          "consumption": {
+            "value": 5.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 123,
+          "weightKg": 1332,
+          "dimensions": {
+            "lengthMm": 4374,
+            "widthMm": 1860,
+            "heightMm": 1441,
+            "wheelbaseMm": 2675
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 32400,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Opel Astra",
+                "url": "https://autotijd.be/fr/prix/opel/astra",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Plage WLTP selon finition : valeur la plus favorable retenue. Consommation 5,4–5,7 l/100 km et CO2 123–129 g/km (Autotijd). Prix : finition GS.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Opel Astra 1.2T 130 BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/opel/astra/12t-130-hp-manual-3206",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Opel Astra",
+              "url": "https://autotijd.be/fr/dimensions/opel/astra",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "opel-astra-l-diesel-130",
+          "name": "1.5 Turbo D 130 BVM",
+          "tier": "mid",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,5 l turbo diesel",
+            "displacementCc": 1498,
+            "electricMotors": null
+          },
+          "powerHp": 130,
+          "powerKw": 96,
+          "torqueNm": 300,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle",
+          "accel0100s": 10.6,
+          "topSpeedKmh": 209,
+          "consumption": {
+            "value": 4.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 113,
+          "weightKg": 1332,
+          "dimensions": {
+            "lengthMm": 4374,
+            "widthMm": 1860,
+            "heightMm": 1441,
+            "wheelbaseMm": 2675
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 32800,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Opel Astra",
+                "url": "https://autotijd.be/fr/prix/opel/astra",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Plage WLTP selon finition : valeur la plus favorable retenue. Consommation 4,3–4,5 l/100 km et CO2 113–119 g/km (Autotijd). Prix : finition Edition.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Opel Astra 1.5T D 130 BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/opel/astra/15t-d-130-hp-manual-3208",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Opel Astra",
+              "url": "https://autotijd.be/fr/dimensions/opel/astra",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "opel-astra-l-plug-in-hybrid-180",
+          "name": "Plug-in Hybrid 180",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres 1,6 l turbo essence (150 ch) + moteur électrique (110 ch)",
+            "displacementCc": 1598,
+            "electricMotors": 1
+          },
+          "powerHp": 180,
+          "powerKw": 132,
+          "torqueNm": 360,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 7.6,
+          "topSpeedKmh": 225,
+          "consumption": {
+            "value": 1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 73,
+          "batteryKwh": 12.4,
+          "charging": {
+            "dcMaxKw": null,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 22,
+          "weightKg": 1678,
+          "dimensions": {
+            "lengthMm": 4374,
+            "widthMm": 1860,
+            "heightMm": 1441,
+            "wheelbaseMm": 2675
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 44100,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Opel Astra",
+                "url": "https://autotijd.be/fr/prix/opel/astra",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Plage WLTP selon finition : valeur la plus favorable retenue. Autonomie électrique 66–73 km, consommation 1,0–1,1 l/100 km et CO2 22–26 g/km (Autotijd). Batterie 12,4 kWh brute. Puissance de charge DC sans objet ou non publiée. Prix : finition GS.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Opel Astra 1.6T Hybrid 180",
+              "url": "https://autotijd.be/fr/fiches-techniques/opel/astra/16t-hybrid-180-hp-3210",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Opel Astra",
+              "url": "https://autotijd.be/fr/dimensions/opel/astra",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Opel Astra",
+          "url": "https://autotijd.be/fr/prix/opel/astra",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Opel Astra",
+          "url": "https://autotijd.be/fr/dimensions/opel/astra",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "opel-frontera-2024",
+      "modelId": "opel-frontera",
+      "brandId": "opel",
+      "modelName": "Frontera",
+      "name": "Opel Frontera (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "family",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Opel Frontera C Electric Auto Zuerich 2024 DSC 6234.jpg",
+          "caption": "Opel Frontera Electric au salon Auto Zürich 2024",
+          "depicts": "Opel Frontera (2024), version électrique",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "L'Opel Frontera de 2024 reprend un nom historique d'Opel pour un SUV familial abordable sur plateforme STLA Smart Car, produit à Trnava. Il est proposé en hybride 48 V et en électrique.",
+        "positioning": "SUV d'entrée de gamme d'Opel, cousin du Citroën C3 Aircross.",
+        "technicalFacts": [
+          "Plateforme STLA Smart Car, code modèle OV24, assemblé à Trnava (Autotijd).",
+          "Longueur de 4,385 m et empattement de 2,67 m (Autotijd).",
+          "Version électrique à batterie LFP de 44 kWh et 113 ch, 305 km WLTP (Autotijd)."
+        ],
+        "pros": [
+          "Électrique sous 29 000 € en Belgique (barème de juillet 2024).",
+          "Habitacle spacieux pour le prix.",
+          "Prix proches entre hybride et électrique."
+        ],
+        "differentiators": [
+          "Pas de version thermique sans hybridation dans le barème belge relevé."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarrait à 24 250 € (Hybrid 100, barème de juillet 2024).",
+        "innovations": [],
+        "compromises": [
+          "Électrique lente (12,1 s de 0 à 100 km/h) et limitée à 140 km/h.",
+          "Autonomie électrique d’environ 300 km.",
+          "Équipement simple en finition Edition."
+        ]
+      },
+      "variants": [
+        {
+          "id": "opel-frontera-2024-hybrid-100",
+          "name": "Hybrid 100",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 100,
+          "powerKw": 74,
+          "torqueNm": 205,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 11,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 5.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 122,
+          "weightKg": 1269,
+          "dimensions": {
+            "lengthMm": 4385,
+            "widthMm": 1795,
+            "heightMm": 1655,
+            "wheelbaseMm": 2670
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 24250,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-07",
+              "source": {
+                "label": "Autotijd.be – prix belges Opel Frontera",
+                "url": "https://autotijd.be/fr/prix/opel/frontera",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "CO2 122–123 g/km (Autotijd). Coffre : la valeur publiée par Autotijd (« 40–460 litres ») est incohérente. Prix : finition Edition.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Opel Frontera Hybrid 74 kW",
+              "url": "https://autotijd.be/fr/fiches-techniques/opel/frontera/hybrid-100-4489",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Opel Frontera",
+              "url": "https://autotijd.be/fr/dimensions/opel/frontera",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "opel-frontera-2024-hybrid-136",
+          "name": "Hybrid 136",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 136,
+          "powerKw": 100,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9,
+          "topSpeedKmh": 190,
+          "consumption": {
+            "value": 5.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 122,
+          "weightKg": 1269,
+          "dimensions": {
+            "lengthMm": 4385,
+            "widthMm": 1795,
+            "heightMm": 1655,
+            "wheelbaseMm": 2670
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 26050,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-07",
+              "source": {
+                "label": "Autotijd.be – prix belges Opel Frontera",
+                "url": "https://autotijd.be/fr/prix/opel/frontera",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "CO2 122–126 g/km (Autotijd). Prix : finition Edition.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Opel Frontera Hybrid 100 kW",
+              "url": "https://autotijd.be/fr/fiches-techniques/opel/frontera/hybrid-136-4466",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Opel Frontera",
+              "url": "https://autotijd.be/fr/dimensions/opel/frontera",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "opel-frontera-2024-electric-113",
+          "name": "Frontera Electric 113 ch (44 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 113,
+          "powerKw": 83,
+          "torqueNm": 125,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 12.1,
+          "topSpeedKmh": 140,
+          "consumption": {
+            "value": 18.2,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 305,
+          "batteryKwh": 44,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1439,
+          "dimensions": {
+            "lengthMm": 4385,
+            "widthMm": 1795,
+            "heightMm": 1655,
+            "wheelbaseMm": 2670
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Batterie LFP",
+            "Chargeur AC 11 kW",
+            "Charge rapide DC 100 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 28990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-07",
+              "source": {
+                "label": "Autotijd.be – prix belges Opel Frontera",
+                "url": "https://autotijd.be/fr/prix/opel/frontera",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation 18,2–18,5 kWh/100 km (Autotijd). Batterie 44 kWh brute. Charge DC 20–80 % en 26 min. Prix : finition Edition.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Opel Frontera 44 kWh",
+              "url": "https://autotijd.be/fr/fiches-techniques/opel/frontera/44-kwh-113-4464",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Opel Frontera",
+              "url": "https://autotijd.be/fr/dimensions/opel/frontera",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Opel Frontera",
+          "url": "https://autotijd.be/fr/prix/opel/frontera",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Opel Frontera",
+          "url": "https://autotijd.be/fr/dimensions/opel/frontera",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "fiat-500-2020",
+      "modelId": "fiat-500",
+      "brandId": "fiat",
+      "modelName": "500",
+      "name": "Fiat 500 (2020)",
+      "yearsLabel": "2020 –",
+      "startYear": 2020,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Mini-citadine (segment A)",
+      "bodyStyles": [
+        "Berline 3 portes",
+        "Cabriolet",
+        "3+1"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Fiat 500e (2020) Auto Zuerich 2021 IMG 0604.jpg",
+          "caption": "Fiat 500e au salon Auto Zürich 2021",
+          "depicts": "Fiat 500e (2020), berline",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Fiat 500e Cabrio (2020) IMG 0011.jpg",
+          "caption": "Fiat 500e Cabrio",
+          "depicts": "Fiat 500e (2020), cabriolet",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Fiat 500 de 2020 (code 332) est la citadine néo-rétro de Fiat, lancée en électrique (500e) puis complétée par une version 500 Hybrid essence. Elle existe en berline, cabriolet et 3+1.",
+        "positioning": "Mini-citadine de style de Fiat, sous la Grande Panda et la 600.",
+        "technicalFacts": [
+          "Code modèle 332 (Autotijd).",
+          "Longueur de 3,632 m, empattement de 2,322 m et coffre de 185 l (Autotijd, 500e).",
+          "Batteries de 23,8 kWh (95 ch) ou 42 kWh (118 ch) pour la 500e (Autotijd).",
+          "La 500 Hybrid utilise un 1.0 FireFly de 65 ch associé à une boîte manuelle (L'argus)."
+        ],
+        "pros": [
+          "Style iconique et format très urbain.",
+          "Version Hybrid nettement moins chère que l’électrique.",
+          "Électrique 42 kWh à plus de 300 km WLTP."
+        ],
+        "differentiators": [
+          "Rare citadine proposée en cabriolet à toile."
+        ],
+        "pricePositioning": "En Belgique, la 500e démarrait à 29 390 € (barème d'août 2024) ; en France, la 500 Hybrid démarrait à 19 400 € (L'argus, novembre 2025).",
+        "innovations": [],
+        "compromises": [
+          "Quatre places seulement et coffre minuscule.",
+          "Autonomie limitée à 190 km avec la petite batterie.",
+          "Version Hybrid peu puissante (65 ch)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "fiat-500-2020-hybrid-65",
+          "name": "500 Hybrid 1.0 FireFly 65 ch",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,0 l FireFly essence, micro-hybride",
+            "displacementCc": 999,
+            "electricMotors": null
+          },
+          "powerHp": 65,
+          "powerKw": 48,
+          "torqueNm": 92,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle",
+          "accel0100s": null,
+          "topSpeedKmh": 155,
+          "consumption": {
+            "value": 5.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 118,
+          "weightKg": 1055,
+          "dimensions": null,
+          "seats": 4,
+          "trunkL": 183,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 19400,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2025-11",
+              "source": {
+                "label": "L'argus – fiche technique Fiat 500 1.0 FireFly 65ch hybrid Pop",
+                "url": "https://www.largus.fr/fiche-technique/Fiat/500/II/2026/Berline+3+Portes/10+FireFly+65ch+hybrid+Pop-2992722.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Caractéristiques et prix : L'argus (finition Pop, prix France au 21/11/2025). Dimensions non reprises : L'argus ne donne que des valeurs arrondies (3,63 m de long, 1,68 m de large). 0–100 km/h non publié dans la source consultée.",
+          "sources": [
+            {
+              "label": "L'argus – fiche technique Fiat 500 1.0 FireFly 65ch hybrid Pop",
+              "url": "https://www.largus.fr/fiche-technique/Fiat/500/II/2026/Berline+3+Portes/10+FireFly+65ch+hybrid+Pop-2992722.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "fiat-500-2020-500e-95",
+          "name": "500e 95 ch (23,8 kWh)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 95,
+          "powerKw": 70,
+          "torqueNm": 220,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9.5,
+          "topSpeedKmh": 135,
+          "consumption": {
+            "value": 13,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 190,
+          "batteryKwh": 23.8,
+          "charging": {
+            "dcMaxKw": 50,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1180,
+          "dimensions": {
+            "lengthMm": 3632,
+            "widthMm": 1683,
+            "heightMm": 1527,
+            "wheelbaseMm": 2322
+          },
+          "seats": 4,
+          "trunkL": 185,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW",
+            "Charge rapide DC 50 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 29390,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-08",
+              "source": {
+                "label": "Autotijd.be – prix belges Fiat 500e",
+                "url": "https://autotijd.be/fr/prix/fiat/500e",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Vitesse maximale 135 km/h selon Autotijd ; L'argus indique 150 km/h pour la version 2026. Charge DC 0–80 % en 30 min. Prix : version de base, berline.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Fiat 500e 23,8 kWh",
+              "url": "https://autotijd.be/fr/fiches-techniques/fiat/500e/238-kwh-95-hp-3526",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Fiat 500e",
+              "url": "https://autotijd.be/fr/dimensions/fiat/500e",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "fiat-500-2020-500e-118",
+          "name": "500e 118 ch (42 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 118,
+          "powerKw": 87,
+          "torqueNm": 220,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9,
+          "topSpeedKmh": 150,
+          "consumption": {
+            "value": 13.9,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 322,
+          "batteryKwh": 42,
+          "charging": {
+            "dcMaxKw": 85,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1290,
+          "dimensions": {
+            "lengthMm": 3632,
+            "widthMm": 1683,
+            "heightMm": 1527,
+            "wheelbaseMm": 2322
+          },
+          "seats": 4,
+          "trunkL": 185,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW",
+            "Charge rapide DC 85 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 33790,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-08",
+              "source": {
+                "label": "Autotijd.be – prix belges Fiat 500e",
+                "url": "https://autotijd.be/fr/prix/fiat/500e",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Plage WLTP selon finition : valeur la plus favorable retenue. Autonomie 311–322 km et consommation 13,9–14,4 kWh/100 km (Autotijd). Charge DC 0–80 % en 35 min. Prix : version de base, berline.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Fiat 500e 42 kWh",
+              "url": "https://autotijd.be/fr/fiches-techniques/fiat/500e/42-kwh-118-hp-4454",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Fiat 500e",
+              "url": "https://autotijd.be/fr/dimensions/fiat/500e",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Fiat 500e",
+          "url": "https://autotijd.be/fr/prix/fiat/500e",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Fiat 500e",
+          "url": "https://autotijd.be/fr/dimensions/fiat/500e",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – fiche technique Fiat 500 1.0 FireFly 65ch hybrid Pop",
+          "url": "https://www.largus.fr/fiche-technique/Fiat/500/II/2026/Berline+3+Portes/10+FireFly+65ch+hybrid+Pop-2992722.html",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "fiat-grande-panda",
+      "modelId": "fiat-grande-panda",
+      "brandId": "fiat",
+      "modelName": "Grande Panda",
+      "name": "Fiat Grande Panda (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine polyvalente (segment B)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Fiat Grande Panda E DSC 8694.jpg",
+          "caption": "Fiat Grande Panda électrique",
+          "depicts": "Fiat Grande Panda (2024), version électrique",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Fiat Grande Panda Hybrid IMG 8156.jpg",
+          "caption": "Fiat Grande Panda Hybrid",
+          "depicts": "Fiat Grande Panda (2024), version hybride",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Fiat Grande Panda est une citadine de 4 m sur plateforme STLA Smart Car, produite à Kragujevac (Serbie). Elle est proposée en essence, en hybride 48 V et en électrique.",
+        "positioning": "Citadine polyvalente de Fiat, au-dessus de la 500 et sous la 600.",
+        "technicalFacts": [
+          "Plateforme STLA Smart Car, assemblage à Kragujevac (Autotijd).",
+          "Longueur de 3,999 m et empattement de 2,54 m (Autotijd).",
+          "Version électrique à batterie LFP de 44 kWh brute (43,8 kWh nette) et 320 km WLTP (Autotijd)."
+        ],
+        "pros": [
+          "Prix très bas en essence (16 900 € en France).",
+          "Coffre de 412 l pour les versions thermiques (L’argus).",
+          "Style original inspiré de la Panda d’origine."
+        ],
+        "differentiators": [
+          "Partage sa plateforme avec les Citroën C3 Aircross et Opel Frontera, dans un format plus court."
+        ],
+        "pricePositioning": "En France, la gamme démarrait à 16 900 € en 1.2 Turbo 100 Pop (L'argus, octobre 2025) ; l'électrique Pop était affichée à 23 900 €.",
+        "innovations": [],
+        "compromises": [
+          "Vitesse maximale limitée (160 km/h en thermique, 132 km/h en électrique).",
+          "Électrique lourde pour la catégorie (plus de 1,5 t).",
+          "Pas de barème belge trouvé."
+        ]
+      },
+      "variants": [
+        {
+          "id": "fiat-grande-panda-turbo-100",
+          "name": "1.2 Turbo 100 BVM",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,2 l turbo essence",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 100,
+          "powerKw": 74,
+          "torqueNm": 205,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle",
+          "accel0100s": null,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 5.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 131,
+          "weightKg": 1225,
+          "dimensions": {
+            "lengthMm": 3999,
+            "widthMm": 1760,
+            "heightMm": null,
+            "wheelbaseMm": 2540
+          },
+          "seats": 5,
+          "trunkL": 412,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 16900,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2025-10",
+              "source": {
+                "label": "L'argus – fiche technique Fiat Grande Panda 1.2 Turbo 100ch Pop",
+                "url": "https://www.largus.fr/fiche-technique/Fiat/Grande+Panda/I/2025/SUV+5+Portes/12+Turbo+100ch+Pop-2981074.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance 100 ch / 74 kW (Autotijd ; L'argus indique 101 ch). Consommation, CO2, poids et coffre : L'argus. Longueur, largeur et empattement : Autotijd. Hauteur laissée vide : Autotijd indique 1 570 mm sans distinction, L'argus 1,59 m pour les versions thermiques. Prix France, finition Pop (08/10/2025).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Fiat Grande Panda 1.2 PureTech 100 BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/fiat/grande-panda/12-puretech-100-hp-manual-4420",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – fiche technique Fiat Grande Panda 1.2 Turbo 100ch Pop",
+              "url": "https://www.largus.fr/fiche-technique/Fiat/Grande+Panda/I/2025/SUV+5+Portes/12+Turbo+100ch+Pop-2981074.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Fiat Grande Panda",
+              "url": "https://autotijd.be/fr/dimensions/fiat/grande-panda",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "fiat-grande-panda-hybrid-110",
+          "name": "Hybrid 110 eDCT6",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 110,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (double embrayage eDCT 6 rapports)",
+          "accel0100s": null,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 115,
+          "weightKg": 1327,
+          "dimensions": {
+            "lengthMm": 3999,
+            "widthMm": 1760,
+            "heightMm": null,
+            "wheelbaseMm": 2540
+          },
+          "seats": 5,
+          "trunkL": 412,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 19400,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-04",
+              "source": {
+                "label": "L'argus – fiche technique Fiat Grande Panda 1.2 Hybrid Turbo 110ch Pop eDCT6",
+                "url": "https://www.largus.fr/fiche-technique/Fiat/Grande+Panda/I/2025/SUV+5+Portes/12+Hybrid+Turbo+110ch+Pop+eDCT6-2942235.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance commerciale de 110 ch ; L'argus indique 101 ch / 74 kW et 205 Nm pour le moteur thermique. Longueur, largeur et empattement : Autotijd. Hauteur laissée vide : Autotijd indique 1 570 mm sans distinction, L'argus 1,59 m pour les versions thermiques. Prix France, finition Pop (01/04/2025).",
+          "sources": [
+            {
+              "label": "L'argus – fiche technique Fiat Grande Panda 1.2 Hybrid Turbo 110ch Pop eDCT6",
+              "url": "https://www.largus.fr/fiche-technique/Fiat/Grande+Panda/I/2025/SUV+5+Portes/12+Hybrid+Turbo+110ch+Pop+eDCT6-2942235.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Fiat Grande Panda",
+              "url": "https://autotijd.be/fr/dimensions/fiat/grande-panda",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "fiat-grande-panda-electrique-113",
+          "name": "Grande Panda électrique 113 ch (44 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 113,
+          "powerKw": 83,
+          "torqueNm": 122,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 11,
+          "topSpeedKmh": 132,
+          "consumption": null,
+          "electricRangeKm": 320,
+          "batteryKwh": 44,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1511,
+          "dimensions": {
+            "lengthMm": 3999,
+            "widthMm": 1760,
+            "heightMm": 1570,
+            "wheelbaseMm": 2540
+          },
+          "seats": 5,
+          "trunkL": 361,
+          "equipmentHighlights": [
+            "Batterie LFP",
+            "Chargeur AC 11 kW",
+            "Charge rapide DC 100 kW"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 23900,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-10",
+              "source": {
+                "label": "L'argus – fiche technique Fiat Grande Panda Électrique 113ch Pop",
+                "url": "https://www.largus.fr/fiche-technique/Fiat/Grande+Panda/I/2025/SUV+5+Portes/Electrique+113ch+Pop-2981188.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation laissée vide : Autotijd affiche « 17,4 l/100 km », unité erronée. Batterie 44 kWh brute, 43,8 kWh nette. Charge DC 20–80 % en 33 min. L'argus indique 1 515 kg en finition Pop. Prix France, finition Pop (21/10/2025).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Fiat Grande Panda 44 kWh",
+              "url": "https://autotijd.be/fr/fiches-techniques/fiat/grande-panda/44-kwh-113-hp-4419",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – fiche technique Fiat Grande Panda Électrique 113ch Pop",
+              "url": "https://www.largus.fr/fiche-technique/Fiat/Grande+Panda/I/2025/SUV+5+Portes/Electrique+113ch+Pop-2981188.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Fiat Grande Panda",
+              "url": "https://autotijd.be/fr/dimensions/fiat/grande-panda",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "L'argus – fiches techniques Fiat Grande Panda (2025)",
+          "url": "https://www.largus.fr/fiche-technique/Fiat/Grande-Panda/2025.html",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Fiat Grande Panda",
+          "url": "https://autotijd.be/fr/dimensions/fiat/grande-panda",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "fiat-600",
+      "modelId": "fiat-600",
+      "brandId": "fiat",
+      "modelName": "600",
+      "name": "Fiat 600 (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Fiat 600 (2023) Automesse Ludwigsburg 2024 IMG 1584.jpg",
+          "caption": "Fiat 600 à l'Automesse de Ludwigsburg (2024)",
+          "depicts": "Fiat 600 (2023)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Fiat 600 La Prima MHEV Auto.jpg",
+          "caption": "Fiat 600 La Prima hybride (2025)",
+          "depicts": "Fiat 600 (2023), version hybride 48 V",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Fiat 600 est un petit SUV au style inspiré de la 500, lancé en 2023 en électrique (600e) puis en hybride 48 V. Elle partage sa base technique avec la Jeep Avenger.",
+        "positioning": "SUV urbain de Fiat, au-dessus de la Grande Panda.",
+        "technicalFacts": [
+          "Longueur de 4,171 m (Autotijd).",
+          "600e : batterie de 54 kWh brute (51 kWh nette) et jusqu’à 409 km WLTP (Autotijd).",
+          "Hybride 48 V proposé en 100 ch (barème belge Autotijd) puis en 145 ch (L’argus)."
+        ],
+        "pros": [
+          "Style rétro réussi.",
+          "Électrique à plus de 400 km WLTP.",
+          "Hybride sobre (4,8 l/100 km WLTP)."
+        ],
+        "differentiators": [
+          "Style dérivé de la 500 sur une base de SUV cinq portes."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarrait à 24 730 € (Hybrid 100, barème d'août 2024).",
+        "innovations": [],
+        "compromises": [
+          "Places arrière justes.",
+          "Électrique limitée à 150 km/h.",
+          "Prix de la version électrique élevé par rapport à l’hybride."
+        ]
+      },
+      "variants": [
+        {
+          "id": "fiat-600-hybrid-100",
+          "name": "Hybrid 100",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 100,
+          "powerKw": 74,
+          "torqueNm": 205,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 10.9,
+          "topSpeedKmh": 184,
+          "consumption": {
+            "value": 4.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 109,
+          "weightKg": 1275,
+          "dimensions": {
+            "lengthMm": 4171,
+            "widthMm": 1781,
+            "heightMm": null,
+            "wheelbaseMm": null
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 24730,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-08",
+              "source": {
+                "label": "Autotijd.be – prix belges Fiat 600",
+                "url": "https://autotijd.be/fr/prix/fiat/600",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Batterie 48 V de 0,89 kWh brute. Hauteur 1 523–1 536 mm et empattement 2 557–2 562 mm selon Autotijd. Prix : version de base.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Fiat 600 1.2L Hybrid 100",
+              "url": "https://autotijd.be/fr/fiches-techniques/fiat/600/12l-hybrid-100-hp-4242",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Fiat 600",
+              "url": "https://autotijd.be/fr/dimensions/fiat/600",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "fiat-600-hybrid-145",
+          "name": "Hybrid 145",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 145,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (double embrayage eDCT 6 rapports)",
+          "accel0100s": null,
+          "topSpeedKmh": 200,
+          "consumption": {
+            "value": 4.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 109,
+          "weightKg": 1355,
+          "dimensions": {
+            "lengthMm": 4171,
+            "widthMm": 1781,
+            "heightMm": null,
+            "wheelbaseMm": null
+          },
+          "seats": 5,
+          "trunkL": 385,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 27300,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-11",
+              "source": {
+                "label": "L'argus – fiche technique Fiat 600 1.2 Hybrid Turbo 145ch Pop eDCT6",
+                "url": "https://www.largus.fr/fiche-technique/Fiat/600/I/2025/SUV+5+Portes/12+Hybrid+Turbo+145ch+Pop+eDCT6-2991412.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance commerciale de 145 ch ; L'argus indique 136 ch / 100 kW pour le moteur thermique. Couple non retenu (L'argus indique 205 Nm, valeur non confirmée). Caractéristiques et prix : L'argus (France, finition Pop, 18/11/2025). Hauteur 1 523–1 536 mm et empattement 2 557–2 562 mm selon Autotijd.",
+          "sources": [
+            {
+              "label": "L'argus – fiche technique Fiat 600 1.2 Hybrid Turbo 145ch Pop eDCT6",
+              "url": "https://www.largus.fr/fiche-technique/Fiat/600/I/2025/SUV+5+Portes/12+Hybrid+Turbo+145ch+Pop+eDCT6-2991412.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Fiat 600",
+              "url": "https://autotijd.be/fr/dimensions/fiat/600",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "fiat-600-600e-156",
+          "name": "600e 156 ch (54 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 156,
+          "powerKw": 115,
+          "torqueNm": 260,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9,
+          "topSpeedKmh": 150,
+          "consumption": {
+            "value": 15.1,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 409,
+          "batteryKwh": 54,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1520,
+          "dimensions": {
+            "lengthMm": 4171,
+            "widthMm": 1781,
+            "heightMm": null,
+            "wheelbaseMm": null
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW",
+            "Charge rapide DC 100 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 36240,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-08",
+              "source": {
+                "label": "Autotijd.be – prix belges Fiat 600",
+                "url": "https://autotijd.be/fr/prix/fiat/600",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Plage WLTP selon finition : valeur la plus favorable retenue. Autonomie 406–409 km et consommation 15,1–15,2 kWh/100 km (Autotijd). Batterie 54 kWh brute, 51 kWh nette. Charge DC 20–80 % en 27 min. Hauteur 1 523–1 536 mm et empattement 2 557–2 562 mm selon Autotijd. Prix : finition Red.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Fiat 600e 54 kWh",
+              "url": "https://autotijd.be/fr/fiches-techniques/fiat/600/e-54-kwh-156-hp-4028",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Fiat 600",
+              "url": "https://autotijd.be/fr/dimensions/fiat/600",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Fiat 600",
+          "url": "https://autotijd.be/fr/prix/fiat/600",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Fiat 600",
+          "url": "https://autotijd.be/fr/dimensions/fiat/600",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "jeep-avenger",
+      "modelId": "jeep-avenger",
+      "brandId": "jeep",
+      "modelName": "Avenger",
+      "name": "Jeep Avenger (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Jeep Avenger 1X7A0818.jpg",
+          "caption": "Jeep Avenger",
+          "depicts": "Jeep Avenger (2022)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Jeep Avenger Auto Zuerich 2023 1X7A1154.jpg",
+          "caption": "Jeep Avenger au salon Auto Zürich 2023",
+          "depicts": "Jeep Avenger (2022)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Jeep Avenger est le plus petit SUV de Jeep, conçu pour l'Europe et proposé en électrique, en essence et en hybride 48 V. Une version 4xe à transmission intégrale complète la gamme.",
+        "positioning": "SUV urbain de Jeep, sous le Compass ; cousin de la Fiat 600.",
+        "technicalFacts": [
+          "Longueur de 4,084 m (Autotijd).",
+          "Version électrique de 156 ch avec batterie de 54 kWh et 400 km WLTP (Autotijd).",
+          "La version 4xe hybride 48 V dispose d'une transmission intégrale (L'argus)."
+        ],
+        "pros": [
+          "Gabarit compact et style Jeep affirmé.",
+          "Choix d’une transmission intégrale en hybride (4xe).",
+          "Électrique à 400 km WLTP."
+        ],
+        "differentiators": [
+          "Seul SUV de cette taille de la gamme Jeep, avec une version 4xe à vocation tout-terrain légère."
+        ],
+        "pricePositioning": "En Belgique, la gamme démarrait à 24 000 € (1.2 100 ch BVM, barème de mars 2024).",
+        "innovations": [],
+        "compromises": [
+          "Coffre limité (325 l en 4xe selon L’argus).",
+          "Électrique limitée à 150 km/h.",
+          "Places arrière justes."
+        ]
+      },
+      "variants": [
+        {
+          "id": "jeep-avenger-turbo-100",
+          "name": "1.2 GSE T3 100 BVM",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,2 l turbo essence",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 100,
+          "powerKw": 74,
+          "torqueNm": 205,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle",
+          "accel0100s": 10.6,
+          "topSpeedKmh": 184,
+          "consumption": {
+            "value": 5.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 126,
+          "weightKg": 1255,
+          "dimensions": {
+            "lengthMm": 4084,
+            "widthMm": 1776,
+            "heightMm": null,
+            "wheelbaseMm": null
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 24000,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Jeep Avenger",
+                "url": "https://autotijd.be/fr/prix/jeep/avenger",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Hauteur 1 528–1 534 mm et empattement 2 557–2 562 mm selon Autotijd. Prix : finition Longitude.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Jeep Avenger 1.2L GSE T3 100 BVM",
+              "url": "https://autotijd.be/fr/fiches-techniques/jeep/avenger/12l-gse-t3-100-hp-manual-4024",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Jeep Avenger",
+              "url": "https://autotijd.be/fr/dimensions/jeep/avenger",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "jeep-avenger-4xe-145",
+          "name": "4xe Hybrid 145",
+          "tier": "sport",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 145,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Automatique (6 rapports)",
+          "accel0100s": null,
+          "topSpeedKmh": 194,
+          "consumption": {
+            "value": 5.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 122,
+          "weightKg": 1530,
+          "dimensions": {
+            "lengthMm": 4084,
+            "widthMm": 1776,
+            "heightMm": null,
+            "wheelbaseMm": null
+          },
+          "seats": 5,
+          "trunkL": 325,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 35400,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-03",
+              "source": {
+                "label": "L'argus – fiche technique Jeep Avenger 1.2 Turbo T3 145ch MHEV Overland 4xe",
+                "url": "https://www.largus.fr/fiche-technique/Jeep/Avenger/I/2025/SUV+5+Portes/12+Turbo+T3+145ch+MHEV+Overland+BVR6+4xe-2936799.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance commerciale de 145 ch ; L'argus indique 136 ch / 100 kW et 230 Nm pour le moteur thermique. Nombre de moteurs électriques non précisé dans la source consultée. Caractéristiques et prix : L'argus (France, finition Overland, 11/03/2025). Hauteur 1 528–1 534 mm et empattement 2 557–2 562 mm selon Autotijd.",
+          "sources": [
+            {
+              "label": "L'argus – fiche technique Jeep Avenger 1.2 Turbo T3 145ch MHEV Overland 4xe",
+              "url": "https://www.largus.fr/fiche-technique/Jeep/Avenger/I/2025/SUV+5+Portes/12+Turbo+T3+145ch+MHEV+Overland+BVR6+4xe-2936799.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Jeep Avenger",
+              "url": "https://autotijd.be/fr/dimensions/jeep/avenger",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "jeep-avenger-electrique-156",
+          "name": "Avenger électrique 156 ch (54 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 156,
+          "powerKw": 115,
+          "torqueNm": 260,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 9,
+          "topSpeedKmh": 150,
+          "consumption": {
+            "value": 15.4,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 400,
+          "batteryKwh": 54,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1595,
+          "dimensions": {
+            "lengthMm": 4084,
+            "widthMm": 1776,
+            "heightMm": null,
+            "wheelbaseMm": null
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW",
+            "Charge rapide DC 100 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 37500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges Jeep Avenger",
+                "url": "https://autotijd.be/fr/prix/jeep/avenger",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation 15,4–15,7 kWh/100 km (Autotijd). Batterie 54 kWh brute. Charge DC 20–80 % en 24 min. Hauteur 1 528–1 534 mm et empattement 2 557–2 562 mm selon Autotijd. Prix : finition Longitude.",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Jeep Avenger 54 kWh",
+              "url": "https://autotijd.be/fr/fiches-techniques/jeep/avenger/54-kwh-156-hp-3639",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Jeep Avenger",
+              "url": "https://autotijd.be/fr/dimensions/jeep/avenger",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – prix belges Jeep Avenger",
+          "url": "https://autotijd.be/fr/prix/jeep/avenger",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Jeep Avenger",
+          "url": "https://autotijd.be/fr/dimensions/jeep/avenger",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "jeep-compass-3",
+      "modelId": "jeep-compass",
+      "brandId": "jeep",
+      "modelName": "Compass",
+      "name": "Jeep Compass (3e génération)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "travel",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2025 Jeep Compass au SIAM 2025.jpg",
+          "caption": "Jeep Compass au salon SIAM 2025",
+          "depicts": "Jeep Compass de 3e génération (2025)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Jeep Compass de troisième génération, lancé en 2025, adopte la plateforme STLA Medium et est produit à Melfi. Il est proposé en hybride 48 V, en hybride rechargeable et en électrique.",
+        "positioning": "SUV compact de Jeep, au-dessus de l'Avenger.",
+        "technicalFacts": [
+          "Plateforme STLA Medium, assemblage à Melfi (Autotijd).",
+          "Longueur de 4,55 m, empattement de 2,80 m et coffre de 550 l (Autotijd).",
+          "Version électrique de 213 ch avec batterie de 74 kWh et charge DC jusqu’à 160 kW (Autotijd)."
+        ],
+        "pros": [
+          "Grand coffre (550 l).",
+          "Gamme électrifiée complète.",
+          "Version électrique à plus de 450 km WLTP."
+        ],
+        "differentiators": [
+          "Première génération du Compass dotée d’une version 100 % électrique."
+        ],
+        "pricePositioning": "En France, la gamme démarrait à 39 190 € en e-Hybrid Altitude ; l'électrique Altitude était à 43 990 € (L'argus, septembre 2025).",
+        "innovations": [],
+        "compromises": [
+          "Électrique lourde (2 185 kg selon L’argus).",
+          "Pas de barème belge trouvé pour cette génération.",
+          "Données de performances incomplètes à ce jour."
+        ]
+      },
+      "variants": [
+        {
+          "id": "jeep-compass-3-e-hybrid-145",
+          "name": "e-Hybrid 145",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 145,
+          "powerKw": 107,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (6 rapports)",
+          "accel0100s": null,
+          "topSpeedKmh": 195,
+          "consumption": {
+            "value": 5.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 127,
+          "weightKg": 1635,
+          "dimensions": {
+            "lengthMm": 4550,
+            "widthMm": null,
+            "heightMm": 1700,
+            "wheelbaseMm": 2800
+          },
+          "seats": 5,
+          "trunkL": 550,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 39190,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2025-09",
+              "source": {
+                "label": "L'argus – fiche technique Jeep Compass 1.2 Turbo T3 145ch e-Hybrid Altitude",
+                "url": "https://www.largus.fr/fiche-technique/Jeep/Compass/III/2025/SUV+5+Portes/12+Turbo+T3+145ch+e-Hybrid+Altitude+BVR6-2973905.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance cumulée 145 ch / 107 kW et couple : Autotijd. Consommation, CO2, poids et vitesse maximale : L'argus (finition Altitude) ; Autotijd indique 5,9 l/100 km et 133 g/km. Longueur, hauteur et empattement : Autotijd ; largeur non publiée par Autotijd (L'argus : 1,90 m arrondi). Prix France, finition Altitude (23/09/2025).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Jeep Compass e-Hybrid",
+              "url": "https://autotijd.be/fr/fiches-techniques/jeep/compass/e-hybrid-5344",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – fiche technique Jeep Compass 1.2 Turbo T3 145ch e-Hybrid Altitude",
+              "url": "https://www.largus.fr/fiche-technique/Jeep/Compass/III/2025/SUV+5+Portes/12+Turbo+T3+145ch+e-Hybrid+Altitude+BVR6-2973905.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Jeep Compass",
+              "url": "https://autotijd.be/fr/dimensions/jeep/compass",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "jeep-compass-3-plug-in-hybrid-225",
+          "name": "e-Hybrid Plug-in 225",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres 1,6 l turbo essence + moteur électrique",
+            "displacementCc": 1596,
+            "electricMotors": 1
+          },
+          "powerHp": 225,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (7 rapports)",
+          "accel0100s": null,
+          "topSpeedKmh": 216,
+          "consumption": {
+            "value": 2.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 90,
+          "batteryKwh": 18,
+          "charging": {
+            "dcMaxKw": null,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 61,
+          "weightKg": 1965,
+          "dimensions": {
+            "lengthMm": 4550,
+            "widthMm": null,
+            "heightMm": 1700,
+            "wheelbaseMm": 2800
+          },
+          "seats": 5,
+          "trunkL": 550,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 42990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-12",
+              "source": {
+                "label": "L'argus – fiche technique Jeep Compass 1.6 Turbo T4 225ch e-Hybrid Plug-in Altitude",
+                "url": "https://www.largus.fr/fiche-technique/Jeep/Compass/III/2025/SUV+5+Portes/16+Turbo+T4+225ch+e-Hybrid+Plug-in+Altitude+BVR7-2999148.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance cumulée de 225 ch d'après la désignation commerciale ; L'argus indique 150 ch / 110 kW et 300 Nm pour le moteur thermique. Batterie 18 kWh selon L'argus (brute ou nette non précisé). Longueur, hauteur et empattement : Autotijd ; largeur non publiée par Autotijd (L'argus : 1,90 m arrondi). Prix France, finition Altitude (16/12/2025).",
+          "sources": [
+            {
+              "label": "L'argus – fiche technique Jeep Compass 1.6 Turbo T4 225ch e-Hybrid Plug-in Altitude",
+              "url": "https://www.largus.fr/fiche-technique/Jeep/Compass/III/2025/SUV+5+Portes/16+Turbo+T4+225ch+e-Hybrid+Plug-in+Altitude+BVR7-2999148.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Jeep Compass",
+              "url": "https://autotijd.be/fr/dimensions/jeep/compass",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "jeep-compass-3-electrique-213",
+          "name": "Compass électrique 213 ch (74 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 213,
+          "powerKw": 157,
+          "torqueNm": 345,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": null,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 17.5,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 467,
+          "batteryKwh": 74,
+          "charging": {
+            "dcMaxKw": 160,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 2185,
+          "dimensions": {
+            "lengthMm": 4550,
+            "widthMm": null,
+            "heightMm": 1700,
+            "wheelbaseMm": 2800
+          },
+          "seats": 5,
+          "trunkL": 550,
+          "equipmentHighlights": [
+            "Charge rapide DC 160 kW"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 43990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-09",
+              "source": {
+                "label": "L'argus – fiche technique Jeep Compass Électrique 213ch 74 kWh Altitude",
+                "url": "https://www.largus.fr/fiche-technique/Jeep/Compass/III/2025/SUV+5+Portes/Electrique+213ch+74kWh+Altitude-2973906.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance, couple, autonomie (467 km), poids et vitesse maximale : L'argus (finition Altitude) ; Autotijd annonce 500 km. Consommation et charge DC (20–80 % en 35 min) : Autotijd. Longueur, hauteur et empattement : Autotijd ; largeur non publiée par Autotijd (L'argus : 1,90 m arrondi). Prix France, finition Altitude (23/09/2025).",
+          "sources": [
+            {
+              "label": "L'argus – fiche technique Jeep Compass Électrique 213ch 74 kWh Altitude",
+              "url": "https://www.largus.fr/fiche-technique/Jeep/Compass/III/2025/SUV+5+Portes/Electrique+213ch+74kWh+Altitude-2973906.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – fiche technique Jeep Compass BEV",
+              "url": "https://autotijd.be/fr/fiches-techniques/jeep/compass/bev-5345",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Jeep Compass",
+              "url": "https://autotijd.be/fr/dimensions/jeep/compass",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "L'argus – fiches techniques Jeep Compass (2025)",
+          "url": "https://www.largus.fr/fiche-technique/Jeep/Compass/2025.html",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions Jeep Compass",
+          "url": "https://autotijd.be/fr/dimensions/jeep/compass",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ds-n4",
+      "modelId": "ds-n4",
+      "brandId": "ds",
+      "modelName": "N°4",
+      "name": "DS N°4 (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte premium (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:DS N°4 Etoile Hybrid '26 (1).jpg",
+          "caption": "DS N°4 Etoile Hybrid",
+          "depicts": "DS N°4 (2025), version hybride",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:DS N°4 Etoile Hybrid '26 (2).jpg",
+          "caption": "DS N°4 Etoile Hybrid",
+          "depicts": "DS N°4 (2025), version hybride",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La DS N°4 est la compacte premium de DS Automobiles, issue en 2025 de la DS 4 et rebaptisée selon la nouvelle nomenclature de la marque. Elle est proposée en hybride 48 V, en hybride rechargeable et en électrique (E-Tense).",
+        "positioning": "Compacte premium française, face aux Audi A3 et Mercedes Classe A.",
+        "technicalFacts": [
+          "Longueur de 4,40 m et empattement de 2,675 m (Autotijd).",
+          "Trois motorisations présentées par DS au salon de Bruxelles 2026 : Hybrid 145 ch, Plug-in Hybrid 225 ch (jusqu’à 81 km en électrique) et E-Tense 213 ch (450 km).",
+          "L'E-Tense est la version 100 % électrique de la gamme (L'argus, Autotijd)."
+        ],
+        "pros": [
+          "Présentation intérieure soignée.",
+          "Hybride rechargeable performant (7,4 s de 0 à 100 km/h).",
+          "Autonomie électrique de 450 km pour l’E-Tense."
+        ],
+        "differentiators": [
+          "Positionnement premium français, rare dans le segment des compactes."
+        ],
+        "pricePositioning": "En France, la Hybrid 145 Pallas était à 39 800 € et l'E-Tense Pallas à 46 990 € (L'argus, juin 2025).",
+        "innovations": [],
+        "compromises": [
+          "Coffre réduit sur les versions électrifiées (360 à 390 l selon L’argus).",
+          "E-Tense limitée à 160 km/h.",
+          "Pas de barème belge trouvé."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ds-n4-hybrid-145",
+          "name": "Hybrid 145",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "3 cylindres 1,2 l turbo essence + moteur électrique 21 kW (hybridation 48 V)",
+            "displacementCc": 1199,
+            "electricMotors": 1
+          },
+          "powerHp": 145,
+          "powerKw": 107,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique (double embrayage 6 rapports)",
+          "accel0100s": 9.4,
+          "topSpeedKmh": 203,
+          "consumption": {
+            "value": 5.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 117,
+          "weightKg": 1454,
+          "dimensions": {
+            "lengthMm": 4400,
+            "widthMm": 1866,
+            "heightMm": 1470,
+            "wheelbaseMm": 2675
+          },
+          "seats": 5,
+          "trunkL": 430,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 39800,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-06",
+              "source": {
+                "label": "L'argus – fiche technique DS N°4 Hybride 145ch Pallas BVRD6",
+                "url": "https://www.largus.fr/fiche-technique/Ds/N4/II/2025/Berline+5+Portes/Hybride+145ch+Pallas+BVRD6-2950444.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance cumulée 145 ch / 107 kW, 0–100, vitesse maximale et poids : Autotijd ; le moteur thermique développe 136 ch et 230 Nm (couple cumulé non publié). L'argus indique 202 km/h et 1 529 kg. Coffre : L'argus. Prix France, finition Pallas (01/06/2025).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique DS 4 Hybrid",
+              "url": "https://autotijd.be/fr/fiches-techniques/ds/4/hybrid-5483",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – fiche technique DS N°4 Hybride 145ch Pallas BVRD6",
+              "url": "https://www.largus.fr/fiche-technique/Ds/N4/II/2025/Berline+5+Portes/Hybride+145ch+Pallas+BVRD6-2950444.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions DS 4 / N°4",
+              "url": "https://autotijd.be/fr/dimensions/ds/4",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ds-n4-plug-in-hybrid-225",
+          "name": "Plug-in Hybrid 225",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres 1,6 l turbo essence (180 ch) + moteur électrique (125 ch)",
+            "displacementCc": 1598,
+            "electricMotors": 1
+          },
+          "powerHp": 225,
+          "powerKw": 165,
+          "torqueNm": 360,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 7.4,
+          "topSpeedKmh": 233,
+          "consumption": {
+            "value": 3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 81,
+          "batteryKwh": 17.2,
+          "charging": {
+            "dcMaxKw": null,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 60,
+          "weightKg": 1693,
+          "dimensions": {
+            "lengthMm": 4400,
+            "widthMm": 1866,
+            "heightMm": 1470,
+            "wheelbaseMm": 2675
+          },
+          "seats": 5,
+          "trunkL": 360,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 48200,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-06",
+              "source": {
+                "label": "L'argus – fiche technique DS N°4 Plug-in Hybrid 225ch Pallas",
+                "url": "https://www.largus.fr/fiche-technique/Ds/N4/II/2025/Berline+5+Portes/PLUG-IN+HYBRID+225ch+Pallas-2951053.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Caractéristiques : Autotijd (batterie 17,2 kWh brute, autonomie électrique 80–81 km, consommation 3,0–3,1 l/100 km, CO2 60–61 g/km). L'argus indique une batterie de 12 kWh et 82 km : valeurs non retenues. Coffre : L'argus. Prix France, finition Pallas (01/06/2025).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique DS 4 Plug-in Hybrid",
+              "url": "https://autotijd.be/fr/fiches-techniques/ds/4/plug-in-hybrid-5484",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – fiche technique DS N°4 Plug-in Hybrid 225ch Pallas",
+              "url": "https://www.largus.fr/fiche-technique/Ds/N4/II/2025/Berline+5+Portes/PLUG-IN+HYBRID+225ch+Pallas-2951053.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions DS 4 / N°4",
+              "url": "https://autotijd.be/fr/dimensions/ds/4",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ds-n4-e-tense-213",
+          "name": "E-Tense 213 ch",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 213,
+          "powerKw": 157,
+          "torqueNm": 343,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique",
+          "accel0100s": 7.1,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 15,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 450,
+          "batteryKwh": 60,
+          "charging": {
+            "dcMaxKw": 120,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1792,
+          "dimensions": {
+            "lengthMm": 4400,
+            "widthMm": 1866,
+            "heightMm": 1470,
+            "wheelbaseMm": 2675
+          },
+          "seats": 5,
+          "trunkL": 390,
+          "equipmentHighlights": [
+            "Chargeur AC 11 kW",
+            "Charge rapide DC 120 kW"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 46990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-06",
+              "source": {
+                "label": "L'argus – fiche technique DS N°4 E-Tense 213ch Pallas",
+                "url": "https://www.largus.fr/fiche-technique/Ds/N4/II/2025/Berline+5+Portes/E-TENSE+213ch+61kWh+Pallas-2951054.html",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Caractéristiques : Autotijd (batterie 60 kWh brute ; L'argus indique 58 kWh, 440 km et 1 942 kg). Consommation 15,0–15,1 kWh/100 km. Charge DC 20–80 % en 31 min. Coffre : L'argus. Prix France, finition Pallas (01/06/2025).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique DS 4 E-Tense",
+              "url": "https://autotijd.be/fr/fiches-techniques/ds/4/e-tense-5485",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – fiche technique DS N°4 E-Tense 213ch Pallas",
+              "url": "https://www.largus.fr/fiche-technique/Ds/N4/II/2025/Berline+5+Portes/E-TENSE+213ch+61kWh+Pallas-2951054.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions DS 4 / N°4",
+              "url": "https://autotijd.be/fr/dimensions/ds/4",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "L'argus – fiches techniques DS N°4 (2025)",
+          "url": "https://www.largus.fr/fiche-technique/Ds/N4/2025.html",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – dimensions DS 4 / N°4",
+          "url": "https://autotijd.be/fr/dimensions/ds/4",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "DS Automobiles at the Brussels Motor Show 2026 (communiqué repris par GermanCarForum)",
+          "url": "https://www.germancarforum.com/threads/ds-automobiles-at-the-brussels-motor-show-2026.290322",
+          "type": "community",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}
