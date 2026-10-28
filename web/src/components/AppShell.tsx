@@ -69,9 +69,9 @@ export function AppShell() {
   // Point sur la médaille : un badge obtenu n'a pas encore été vu sur la page Badges.
   const { badges, unseen, rewardBadges } = useBadges();
   const newBadges = unseen.length;
-  // Chaque badge obtenu rapporte 3 boosters, une seule fois.
+  // Chaque badge obtenu rapporte 1 à 3 boosters selon sa difficulté, une seule fois.
   const unlockedKey = badges.filter((b) => b.unlocked).map((b) => b.id).join(',');
-  useEffect(() => { if (unlockedKey) rewardBadges(unlockedKey.split(',')); }, [unlockedKey]);
+  useEffect(() => { if (unlockedKey) rewardBadges(badges.filter((b) => b.unlocked)); }, [unlockedKey]);
   const { pathname } = useLocation();
   const [searchOpen, setSearchOpen] = useState(false);
   const install = useInstallState();

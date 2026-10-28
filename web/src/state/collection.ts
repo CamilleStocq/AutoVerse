@@ -2,7 +2,7 @@
  * Deck de cartes (esprit cartes Pokémon). Une carte n'entre dans le deck que si elle sort d'un booster.
  * - Boosters de 7 cartes : 3 de bienvenue, puis 1 toutes les 2 heures (jusqu'à 3 en réserve).
  * - Jamais de double : un booster ne contient que des cartes pas encore possédées.
- * - Chaque badge obtenu rapporte 3 boosters, une seule fois.
+ * - Chaque badge obtenu rapporte 1 à 3 boosters selon sa difficulté, une seule fois.
  * - Boosters bonus : questionnaire F1 / WEC / WRC parfait (5/5) ; au plus 2 bonus par période
  *   de 2 heures, et au plus 3 questionnaires par heure.
  * - Un booster ouvert reste « en attente » jusqu'au bouton « Ajouter au deck » : fermer l'app
@@ -28,7 +28,7 @@ export interface CollectionState {
   bonuses: string[];
   /** Badges déjà vus sur la page Badges (point sur la médaille tant qu'ils ne le sont pas). */
   badges: string[];
-  /** Badges dont la récompense (3 boosters) a déjà été donnée. */
+  /** Badges dont la récompense (boosters) a déjà été donnée. */
   rewarded: string[];
 }
 
@@ -40,8 +40,6 @@ export const BOOSTER_INTERVAL_MS = 2 * 3600 * 1000;
 export const BOOSTER_INTERVAL_HOURS = BOOSTER_INTERVAL_MS / 3600_000;
 export const QUIZ_PER_HOUR = 3;
 export const MAX_BONUS_PER_INTERVAL = 2;
-/** Boosters offerts pour chaque badge obtenu. */
-export const BOOSTERS_PER_BADGE = 3;
 const HOUR = 3600 * 1000;
 
 const EMPTY: CollectionState = { cards: {}, boosters: 0, lastGrantAt: null, welcomeGiven: false, opened: 0, pending: null, quizzes: [], bonuses: [], badges: [], rewarded: [] };
@@ -239,11 +237,14 @@ export function useCollection() {
     return true;
   }, []);
 
-  /** Donne 3 boosters par badge obtenu pas encore récompensé (une seule fois par badge). */
-  const rewardBadges = useCallback((ids: string[]) => {
+  /** Donne la récompense (1 à 3 boosters) de chaque badge obtenu pas encore récompensé, une seule fois. */
+  const rewardBadges = useCallback((earned: Array<{ id: string; reward: number }>) => {
     const current = load();
-    const fresh = ids.filter((id) => !current.rewarded.includes(id));
-    if (fresh.length) save({ ...current, boosters: current.boosters + fresh.length * BOOSTERS_PER_BADGE, rewarded: [...current.rewarded, ...fresh] });
+    const fresh = earned.filter((b) => !current.rewarded.includes(b.id));
+    if (fresh.length) {
+      const boosters = fresh.reduce((n, b) => n + b.reward, 0);
+      save({ ...current, boosters: current.boosters + boosters, rewarded: [...current.rewarded, ...fresh.map((b) => b.id)] });
+    }
     return fresh;
   }, []);
 
