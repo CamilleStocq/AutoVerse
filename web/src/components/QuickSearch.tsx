@@ -10,7 +10,7 @@ import { CarImage } from './CarImage';
 
 const PAGES = [
   { label: 'Accueil', to: '/', keywords: 'accueil home univers' },
-  { label: 'Explorer le catalogue', to: '/explorer', keywords: 'explorer catalogue voitures filtres' },
+  { label: 'Rechercher un modèle', to: '/explorer', keywords: 'explorer recherche catalogue voitures' },
   { label: 'Nouveautés et sorties à venir', to: '/nouveautes', keywords: 'nouveautes sorties futures prochaines calendrier' },
   { label: 'Ma wishlist', to: '/wishlist', keywords: 'wishlist favoris garage coeur' },
   { label: 'Comparateur', to: '/comparer', keywords: 'comparer comparateur face' },

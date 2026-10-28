@@ -1,6 +1,6 @@
 /**
  * Carte à collectionner (format 63 × 88, esprit cartes Pokémon) :
- * puissance en « PV », stats de la version la plus puissante, rareté, numéro dans la série de la marque.
+ * puissance en « PV », stats d'une seule version (la carte de cette version), rareté, numéro dans la série de la marque.
  */
 import type { CSSProperties, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
@@ -62,7 +62,7 @@ export function TradingCard({ car, locked, count, badge, static: isStatic, onCli
         <span className="tcard-name">{car.modelName}</span>
         <span className="tcard-hp">{card?.powerHp != null ? <>{card.powerHp}<small>ch</small></> : <small>— ch</small>}</span>
       </header>
-      <span className="tcard-sub">{car.brandName} · {car.generationName}</span>
+      <span className="tcard-sub">{card?.variantName ? `${card.variantName} · ${car.generationName}` : `${car.brandName} · ${car.generationName}`}</span>
       <div className="tcard-art">
         <CarImage image={car.image} alt={`${car.brandName} ${car.modelName}`} placeholderLabel="" />
       </div>

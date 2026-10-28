@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import type { CarSummary, Rarity } from '@shared/api';
 import {
   addCards, BOOSTER_INTERVAL_MS, BOOSTER_SIZE, doublesCount, drawBooster, grantBoosters, MAX_BONUS_PER_INTERVAL,
-  MAX_STORED_BOOSTERS, nextBoosterIn, quizAllowance, QUIZ_PER_HOUR, WELCOME_BOOSTERS, type CollectionState,
+  MAX_STORED_BOOSTERS, migrateCardIds, nextBoosterIn, quizAllowance, QUIZ_PER_HOUR, WELCOME_BOOSTERS, type CollectionState,
 } from '../state/collection';
 
 const empty: CollectionState = { cards: {}, boosters: 0, lastGrantAt: null, welcomeGiven: false, opened: 0, pending: null, quizzes: [], bonuses: [] };
@@ -75,5 +75,16 @@ describe('tirage', () => {
     const s = addCards(empty, ['a', 'a', 'a', 'b']);
     expect(s.cards.a.count).toBe(3);
     expect(doublesCount(s)).toBe(2);
+  });
+});
+
+describe('cartes par version', () => {
+  it("convertit l'ancien deck (une carte par fiche) sans rien perdre", () => {
+    const old: CollectionState = { ...empty, cards: { '911-992': { count: 2, firstAt: '2026-01-02' }, 'gt3-rs': { count: 1, firstAt: '2026-01-01' }, 'sans-version': { count: 1, firstAt: '2026-01-03' } }, pending: ['911-992'] };
+    const s = migrateCardIds(old, { '911-992': 'gt3-rs', 'sans-version': 'sans-version' });
+    expect(s.cards).toEqual({ 'gt3-rs': { count: 3, firstAt: '2026-01-01' }, 'sans-version': { count: 1, firstAt: '2026-01-03' } });
+    expect(s.pending).toEqual(['gt3-rs']);
+    // Déjà converti : rien ne change.
+    expect(migrateCardIds(s, { '911-992': 'gt3-rs' })).toBe(s);
   });
 });

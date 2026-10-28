@@ -68,11 +68,16 @@ export interface CarSummary {
 export type Rarity = 'common' | 'rare' | 'epic' | 'legendary';
 
 export interface CardInfo {
+  /** Identifiant de la carte dans la collection : une carte par version (variante) ; la fiche si aucune version n'est publiée. */
+  id: string;
+  variantId: string | null;
+  /** Carte « vitrine » de la fiche (sa version la plus puissante), celle montrée dans le catalogue. */
+  featured: boolean;
   rarity: Rarity;
   /** Numéro dans la série de la marque (ordre chronologique) et taille de la série. */
   number: number;
   setSize: number;
-  /** Statistiques de la version la plus puissante (jamais mélangées entre versions). */
+  /** Statistiques d'une seule version (jamais mélangées entre versions). */
   variantName: string | null;
   powerHp: number | null;
   accel0100s: number | null;
@@ -115,6 +120,8 @@ export interface CatalogMeta {
   powertrains: FacetCount[];
   years: { min: number; max: number } | null;
   totalCars: number;
+  /** Nombre de cartes à collectionner (une par version). */
+  totalCards: number;
   dataUpdatedAt: string | null;
 }
 

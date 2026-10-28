@@ -45,6 +45,16 @@ function carParams(f: CarFilters, prefs: Preferences) {
   };
 }
 
+/** Toutes les cartes à collectionner (une par version), pour les boosters et le deck. */
+export function useCards() {
+  const { preferences } = useProfile();
+  return useQuery({
+    queryKey: ['cards', preferences.market],
+    queryFn: () => api.get<{ items: CarSummary[] }>('/cards', { market: preferences.market }).then((r) => r.items),
+    staleTime: 10 * 60_000,
+  });
+}
+
 export function useCars(filters: CarFilters, enabled = true) {
   const { preferences } = useProfile();
   const params = carParams(filters, preferences);

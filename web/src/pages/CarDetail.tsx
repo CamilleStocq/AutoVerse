@@ -298,7 +298,7 @@ export function CarDetailPage() {
           <p className="detail-summary">{g.editorial.summary}</p>
           {g.editorial.positioning && <p className="muted"><strong style={{ color: 'var(--text)' }}>Dans la gamme : </strong>{g.editorial.positioning}</p>}
           <div className="row gap-1 wrap">
-            {g.categories.map((c) => <Link key={c} to={`/explorer?categories=${c}`} className="chip" style={{ minHeight: 30, fontSize: 12 }}>{CATEGORY_LABELS[c]}</Link>)}
+            {g.categories.map((c) => <span key={c} className="chip" style={{ minHeight: 30, fontSize: 12 }}>{CATEGORY_LABELS[c]}</span>)}
           </div>
           <div className="detail-actions">
             <HeartButton car={s} size={22} />

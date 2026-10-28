@@ -5,22 +5,22 @@
 import { useEffect, useMemo, useState, type CSSProperties } from 'react';
 import { ChevronDown, Clock, PackageOpen, Trophy } from 'lucide-react';
 import type { CarSummary } from '@shared/api';
-import { useCars, useMeta } from '../hooks/queries';
+import { useCards, useMeta } from '../hooks/queries';
 import { useProfile } from '../state/ProfileProvider';
 import { useUi } from '../state/UiProvider';
-import { MAX_BONUS_PER_INTERVAL, MAX_STORED_BOOSTERS, QUIZ_PER_HOUR, nextBoosterIn, quizAllowance, useCollection } from '../state/collection';
+import { MAX_BONUS_PER_INTERVAL, MAX_STORED_BOOSTERS, QUIZ_PER_HOUR, applyCardMigration, cardKey, nextBoosterIn, quizAllowance, useCollection } from '../state/collection';
 import type { QuizDiscipline } from '../lib/quiz';
 import { TradingCard } from './TradingCard';
 import { BoosterOpening } from './BoosterOpening';
 import { Quiz } from './Quiz';
 import { ErrorState } from './States';
 
-/** Paquet des boosters : les marques préférées (ou tout le catalogue si aucune n'est choisie). */
+/** Paquet des boosters : les cartes (une par version) des marques préférées, ou toutes si aucune n'est choisie. */
 export function useBoosterPool() {
   const { preferences } = useProfile();
-  const cars = useCars({ pageSize: 100, personalize: false });
+  const cars = useCards();
   const favorite = Array.isArray(preferences.brands) ? preferences.brands : [];
-  const all = cars.data?.items ?? [];
+  const all = cars.data ?? [];
   const pool = favorite.length ? all.filter((c) => favorite.includes(c.brandId)) : all;
   return { cars, all, pool: pool.length ? pool : all, favorite };
 }
@@ -66,17 +66,22 @@ export function Collection() {
   const [opening, setOpening] = useState<{ cards: CarSummary[]; isNew: boolean[] } | null>(null);
   const [quiz, setQuiz] = useState<QuizDiscipline | null>(null);
 
-  const byId = useMemo(() => new Map(all.map((c) => [c.id, c])), [all]);
+  const byId = useMemo(() => new Map(all.map((c) => [cardKey(c), c])), [all]);
 
   const showBooster = (ids: string[]) => {
     const cards = ids.map((id) => byId.get(id)).filter((c): c is CarSummary => !!c);
     if (!cards.length) return;
     // « Nouvelle » = pas encore dans le deck, et première occurrence dans ce booster.
-    const isNew = cards.map((c, i) => !owned[c.id] && cards.findIndex((d) => d.id === c.id) === i);
+    const isNew = cards.map((c, i) => !owned[cardKey(c)] && cards.findIndex((d) => cardKey(d) === cardKey(c)) === i);
     setOpening({ cards, isNew });
   };
 
   // Booster ouvert puis interrompu (application fermée) : l'ouverture reprend automatiquement.
+  // Ancien deck (une carte par fiche) : converti une fois vers les cartes par version.
+  useEffect(() => {
+    if (all.length) applyCardMigration(Object.fromEntries(all.filter((c) => c.card?.featured).map((c) => [c.id, cardKey(c)])));
+  }, [all]);
+
   const pendingKey = state.pending?.join(',') ?? '';
   useEffect(() => {
     if (pendingKey && !opening && byId.size) showBooster(pendingKey.split(','));
@@ -98,14 +103,14 @@ export function Collection() {
       name: cards[0].brandName,
       accent: cards[0].brandAccent,
       cards: [...cards].sort((a, b) => (a.card?.number ?? 0) - (b.card?.number ?? 0)),
-      owned: cards.filter((c) => owned[c.id]).length,
+      owned: cards.filter((c) => owned[cardKey(c)]).length,
       favorite: favorite.includes(brandId),
     }));
     // Mes marques d'abord, puis les albums les plus avancés.
     return list.sort((a, b) => Number(b.favorite) - Number(a.favorite) || b.owned - a.owned || a.name.localeCompare(b.name));
   }, [all, owned, favorite]);
 
-  const ownedCount = all.filter((c) => owned[c.id]).length;
+  const ownedCount = all.filter((c) => owned[cardKey(c)]).length;
   const brandNames = favorite.map((id) => meta.data?.brands.find((b) => b.id === id)?.name).filter(Boolean);
   const packLabel = brandNames.length ? brandNames.slice(0, 3).join(' · ') + (brandNames.length > 3 ? ' …' : '') : 'Toutes les marques';
   const nextIn = nextBoosterIn(state, now);
@@ -173,7 +178,7 @@ export function Collection() {
         <h2 className="folders-title">Mes dossiers</h2>
         {albums.map((a) => {
           const isOpen = openFolders.has(a.brandId);
-          const ownedCards = a.cards.filter((c) => owned[c.id]);
+          const ownedCards = a.cards.filter((c) => owned[cardKey(c)]);
           const logo = meta.data?.brands.find((b) => b.id === a.brandId)?.logo ?? null;
           return (
             <section key={a.brandId} className={`folder${isOpen ? ' open' : ''}`} style={{ '--brand-accent': a.accent } as CSSProperties}>
@@ -189,7 +194,7 @@ export function Collection() {
                 <div id={`dossier-${a.brandId}`} className="folder-body">
                   {ownedCards.length ? (
                     <div className="tcard-grid">
-                      {ownedCards.map((c) => <TradingCard key={c.id} car={c} count={owned[c.id].count} />)}
+                      {ownedCards.map((c) => <TradingCard key={cardKey(c)} car={c} count={owned[cardKey(c)].count} />)}
                     </div>
                   ) : (
                     <p className="muted" style={{ fontSize: 'var(--text-sm)' }}>Aucune carte {a.name} pour l’instant : elles arriveront en ouvrant des boosters.</p>

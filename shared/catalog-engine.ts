@@ -3,7 +3,7 @@
  * Code pur (sans accès disque ni réseau) partagé par l'API Node et par l'application statique,
  * pour garantir exactement les mêmes règles métier dans les deux modes.
  */
-import type { Brand, CategoryId, Generation, MarketCode, Powertrain, PriceRange } from './types.ts';
+import type { Brand, CategoryId, Generation, MarketCode, Powertrain, PriceRange, Variant } from './types.ts';
 import type { CardInfo, CarDetail, CarSummary, CatalogMeta, FacetCount, Paged, PriceView, Rarity, ResolvedImage, SimilarCar } from './api.ts';
 import type { Preferences } from './profile.ts';
 import { comparePartialDates } from './dates.ts';
@@ -86,8 +86,8 @@ function keyFact(g: Generation): CarSummary['keyFact'] {
  * Légendaire = icône de collection ou ≥ 900 ch ; Épique = supercar, luxe ou ≥ 600 ch ;
  * Rare = premium, sportive, SUV sportif, GT ou ≥ 300 ch ; sinon Commune.
  */
-export function rarityOf(g: Generation): Rarity {
-  const power = Math.max(0, ...g.variants.map((v) => v.powerHp ?? 0));
+export function rarityOf(g: Generation, variant?: Variant | null): Rarity {
+  const power = variant ? (variant.powerHp ?? 0) : Math.max(0, ...g.variants.map((v) => v.powerHp ?? 0));
   const has = (c: CategoryId) => g.categories.includes(c);
   if (has('classic') || power >= 900) return 'legendary';
   if (has('supercar') || g.priceRange === 'luxury' || power >= 600) return 'epic';
@@ -102,14 +102,36 @@ export function brandSet(ctx: CatalogContext, brandId: string): Generation[] {
     .sort((a, b) => (a.startYear ?? 9999) - (b.startYear ?? 9999) || a.modelName.localeCompare(b.modelName) || a.id.localeCompare(b.id));
 }
 
-function cardInfo(ctx: CatalogContext, g: Generation): CardInfo {
-  const set = brandSet(ctx, g.brandId);
-  // Version la plus puissante : toutes les stats affichées proviennent de cette seule version.
-  const top = g.variants.reduce<Generation['variants'][number] | null>((best, v) => (!best || (v.powerHp ?? 0) > (best.powerHp ?? 0) ? v : best), null);
+/** Version la plus puissante d'une fiche : c'est la carte « vitrine » montrée dans le catalogue. */
+export function topVariant(g: Generation): Variant | null {
+  return g.variants.reduce<Variant | null>((best, v) => (!best || (v.powerHp ?? 0) > (best.powerHp ?? 0) ? v : best), null);
+}
+
+const TIER_ORDER: Record<Variant['tier'], number> = { entry: 0, mid: 1, sport: 2, top: 3 };
+
+/** Versions d'une fiche dans l'ordre de la gamme (entrée → haut de gamme, puis puissance). */
+function orderedVariants(g: Generation): Variant[] {
+  return [...g.variants].sort((a, b) => TIER_ORDER[a.tier] - TIER_ORDER[b.tier] || (a.powerHp ?? 0) - (b.powerHp ?? 0) || a.name.localeCompare(b.name));
+}
+
+/** Identifiants des cartes d'une fiche : une par version, ou la fiche elle-même sans version publiée. */
+function cardIdsOf(g: Generation): string[] {
+  return g.variants.length ? orderedVariants(g).map((v) => v.id) : [g.id];
+}
+
+function cardInfo(ctx: CatalogContext, g: Generation, variant: Variant | null = topVariant(g)): CardInfo {
+  // Série complète de la marque, en cartes (numérotation #001/0xx).
+  const set = brandSet(ctx, g.brandId).flatMap(cardIdsOf);
+  const id = variant?.id ?? g.id;
+  // Toutes les stats affichées proviennent de cette seule version.
+  const top = variant;
   const firstSentence = g.editorial.summary.match(/^.+?[.!?](\s|$)/)?.[0].trim() ?? (g.editorial.summary || null);
   return {
-    rarity: rarityOf(g),
-    number: set.findIndex((x) => x.id === g.id) + 1,
+    id,
+    variantId: variant?.id ?? null,
+    featured: (variant?.id ?? null) === (topVariant(g)?.id ?? null),
+    rarity: rarityOf(g, variant),
+    number: set.indexOf(id) + 1,
     setSize: set.length,
     variantName: top?.name ?? null,
     powerHp: top?.powerHp ?? null,
@@ -157,6 +179,31 @@ export function summarize(ctx: CatalogContext, g: Generation, market: MarketCode
     card: cardInfo(ctx, g),
     updatedAt: g.updatedAt,
   };
+}
+
+/**
+ * Toutes les cartes à collectionner : une par version de chaque fiche (prix et stats de cette version
+ * uniquement), ou une carte pour la fiche si aucune version n'est encore publiée.
+ */
+export function collectibleCards(ctx: CatalogContext, market: MarketCode): CarSummary[] {
+  return [...ctx.brands.keys()].flatMap((brandId) => brandSet(ctx, brandId).flatMap((g) => {
+    const base = summarize(ctx, g, market);
+    if (!g.variants.length) return [base];
+    return orderedVariants(g).map((v) => {
+      const only: Generation = { ...g, variants: [v] };
+      const local = startingPrice(only, market);
+      return {
+        ...base,
+        maxPowerHp: v.powerHp,
+        powertrains: [v.powertrain],
+        keyFact: keyFact(only),
+        startingPrice: local,
+        otherMarketPrice: local ? null : (MARKET_FALLBACK.filter((m) => m !== market).map((m) => startingPrice(only, m)).find((p) => !!p) ?? null),
+        estimatedPrice: startingPrice(only, market, true),
+        card: cardInfo(ctx, g, v),
+      };
+    });
+  }));
 }
 
 // ---------- Recherche et personnalisation ----------
@@ -342,6 +389,7 @@ export function catalogMeta(ctx: CatalogContext): CatalogMeta {
     powertrains: count(Object.keys(POWERTRAIN_LABELS) as Powertrain[], powertrainsOf, POWERTRAIN_LABELS),
     years: years.length ? { min: Math.min(...years), max: Math.max(...years) } : null,
     totalCars: gens.length,
+    totalCards: gens.reduce((n, g) => n + Math.max(1, g.variants.length), 0),
     dataUpdatedAt: updated,
   };
 }

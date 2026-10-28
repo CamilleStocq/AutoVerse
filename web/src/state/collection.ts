@@ -107,7 +107,7 @@ export function drawBooster(pool: CarSummary[], owned: CollectionState['cards'],
     const rarity = pickRarity(rng, slot === BOOSTER_SIZE - 1 ? 'rare' : 'common');
     const candidates = nearest(rarity).filter((c) => !drawn.includes(c) || pool.length <= BOOSTER_SIZE);
     const list = candidates.length ? candidates : nearest(rarity);
-    const weights = list.map((c) => (owned[c.id] ? 1 : 2));
+    const weights = list.map((c) => (owned[cardKey(c)] ? 1 : 2));
     let x = rng() * weights.reduce((a, b) => a + b, 0);
     let pick = list[list.length - 1];
     for (let i = 0; i < list.length; i++) {
@@ -123,6 +123,34 @@ export function addCards(s: CollectionState, ids: string[], now = new Date().toI
   const cards = { ...s.cards };
   for (const id of ids) cards[id] = { count: (cards[id]?.count ?? 0) + 1, firstAt: cards[id]?.firstAt ?? now };
   return { ...s, cards };
+}
+
+/** Identifiant de collection d'une carte : sa version (ou la fiche quand aucune version n'est publiée). */
+export const cardKey = (c: CarSummary) => c.card?.id ?? c.id;
+
+/**
+ * Ancien format (une carte par fiche) : chaque carte devient celle de la version « vitrine »
+ * de sa fiche, la plus puissante. Rien n'est perdu (doubles compris).
+ */
+export function migrateCardIds(s: CollectionState, legacy: Record<string, string>): CollectionState {
+  const move = (id: string) => legacy[id] ?? id;
+  const ids = Object.keys(s.cards);
+  if (!ids.some((id) => legacy[id] && legacy[id] !== id) && !s.pending?.some((id) => legacy[id] && legacy[id] !== id)) return s;
+  const cards: CollectionState['cards'] = {};
+  for (const id of ids) {
+    const to = move(id);
+    const prev = cards[to];
+    const cur = s.cards[id];
+    cards[to] = prev ? { count: prev.count + cur.count, firstAt: prev.firstAt < cur.firstAt ? prev.firstAt : cur.firstAt } : cur;
+  }
+  return { ...s, cards, pending: s.pending?.map(move) ?? null };
+}
+
+/** Applique la migration ci-dessus sur la collection enregistrée (une seule fois, sans effet ensuite). */
+export function applyCardMigration(legacy: Record<string, string>): void {
+  const current = load();
+  const next = migrateCardIds(current, legacy);
+  if (next !== current) save(next);
 }
 
 export const doublesCount = (s: CollectionState) => Object.values(s.cards).reduce((n, c) => n + Math.max(0, c.count - 1), 0);
@@ -173,7 +201,7 @@ export function useCollection() {
     const current = load();
     if (current.pending) return current.pending;
     if (current.boosters < 1 || !pool.length) return null;
-    const ids = drawBooster(pool, current.cards).map((c) => c.id);
+    const ids = drawBooster(pool, current.cards).map(cardKey);
     requestPersistentStorage();
     save({ ...current, boosters: current.boosters - 1, opened: current.opened + 1, pending: ids });
     return ids;

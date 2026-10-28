@@ -29,6 +29,9 @@ Fonctionnement de la version en ligne (GitHub Pages, sans serveur) :
 
 ### Cartes à collectionner (Explorer et Deck)
 
+- **Une carte par version** (ex. 911 Carrera, 911 Carrera GTS) : stats et prix de cette seule version ; une fiche sans version publiée donne une seule carte. Les decks enregistrés avec l'ancien format (une carte par fiche) sont convertis automatiquement, doubles compris.
+- **Explorer = recherche uniquement :** aucune carte n'est affichée tant qu'on ne cherche rien ; un modèle recherché montre sa carte et sa fiche.
+
 - **Catalogue :** chaque voiture est une carte à collectionner (format 63 × 88). Elle porte :
   - la puissance en « PV » et la rareté ;
   - les stats de la version la plus puissante : 0 à 100 km/h, vitesse maximale, couple ou autonomie, prix ;

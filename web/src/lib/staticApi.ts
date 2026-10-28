@@ -5,7 +5,7 @@
  */
 import type { NewsItem, ResolvedImage } from '@shared/api';
 import type { Brand, Generation } from '@shared/types';
-import { carDetail, catalogMeta, queryCars, type CatalogContext } from '@shared/catalog-engine';
+import { carDetail, catalogMeta, collectibleCards, queryCars, type CatalogContext } from '@shared/catalog-engine';
 import { carQueryFromParams, filterNews, marketOf, newsScopeOf } from '@shared/query-params';
 import { ApiError } from './api';
 
@@ -51,6 +51,7 @@ export async function staticGet(pathWithQuery: string): Promise<unknown> {
   const parts = url.pathname.split('/').filter(Boolean);
 
   if (url.pathname === '/meta') return catalogMeta(await context());
+  if (url.pathname === '/cards') return { items: collectibleCards(await context(), marketOf(q.market)) };
   if (url.pathname === '/cars') return queryCars(await context(), carQueryFromParams(q));
   if (parts[0] === 'cars' && parts[1]) {
     const detail = carDetail(await context(), decodeURIComponent(parts[1]), marketOf(q.market));
