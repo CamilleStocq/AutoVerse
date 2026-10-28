@@ -1,0 +1,4032 @@
+{
+  "generations": [
+    {
+      "id": "dacia-sandero-3-restylage",
+      "modelId": "dacia-sandero",
+      "brandId": "dacia",
+      "modelName": "Sandero",
+      "name": "Dacia Sandero III restylée (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine polyvalente (segment B)",
+      "bodyStyles": [
+        "Berline 5 portes",
+        "Crossover 5 portes (Stepway)"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Dacia Sandero Stepway (III, Facelift) – f 11102025.jpg",
+          "caption": null,
+          "depicts": "Dacia Sandero Stepway III restylée, vue avant",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Dacia Sandero Stepway (III, Facelift) – h 11102025.jpg",
+          "caption": null,
+          "depicts": "Dacia Sandero Stepway III restylée, vue arrière",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Sandero restylée reste l'une des citadines les moins chères du marché, en version classique ou Stepway surélevée. Elle propose un TCe 100 essence, une bicarburation essence/GPL Eco-G 120 et, depuis 2026, un full hybrid 155.",
+        "positioning": "Citadine polyvalente à bas prix, déclinée en Stepway aux allures de crossover.",
+        "technicalFacts": [
+          "Longueur 4 102 mm, largeur 1 853 mm, empattement 2 604 mm (ADAC, Sandero).",
+          "TCe 100 : 3 cylindres 999 cm³ turbo, 74 kW / 200 Nm, boîte manuelle 6 rapports (ADAC).",
+          "Eco-G 120 : 1.2 turbo bicarburation, 90 kW (122 ch) au GPL, 84 kW (114 ch) à l’essence (ADAC).",
+          "Hybrid 155 : 1.8 essence de 109 ch associé à un moteur électrique, batterie de 1,4 kWh (Moniteur Automobile)."
+        ],
+        "pros": [
+          "Prix d’attaque très bas pour une citadine de 4,10 m.",
+          "Choix rare entre essence, GPL et full hybrid.",
+          "Coffre de 372 L en version TCe 100."
+        ],
+        "differentiators": [
+          "Bicarburation GPL d’usine, rare dans le segment."
+        ],
+        "pricePositioning": "En France (L’argus, octobre 2026) : 13 990 € en TCe 100 Essential, 16 150 € en Eco-G 120 Expression ; en Belgique, la Stepway Hybrid 155 Expression est annoncée à 21 290 € (Moniteur Automobile, juillet 2026).",
+        "innovations": [],
+        "compromises": [
+          "Coffre réduit à 328 L sur les versions GPL.",
+          "Performances modestes en TCe 100 (0 à 100 km/h en 9,7 s)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "dacia-sandero-3-restylage-tce-100",
+          "name": "TCe 100 BVM6",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.0 3 cylindres en ligne turbo",
+            "displacementCc": 999,
+            "electricMotors": null
+          },
+          "powerHp": 100,
+          "powerKw": 74,
+          "torqueNm": 200,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 9.7,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 5.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 121,
+          "weightKg": 1134,
+          "dimensions": {
+            "lengthMm": 4102,
+            "widthMm": 1853,
+            "heightMm": 1496,
+            "wheelbaseMm": 2604
+          },
+          "seats": 5,
+          "trunkL": 372,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 13990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Dacia Sandero",
+                "url": "https://www.largus.fr/prix-du-neuf/dacia/sandero.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 13590,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Dacia Sandero TCe 100 Essential (dès 12/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/sandero/3generation-facelift/347804/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Prix français et allemand en finition Essential.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Dacia Sandero TCe 100 Essential (dès 12/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/sandero/3generation-facelift/347804/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Dacia Sandero",
+              "url": "https://www.largus.fr/prix-du-neuf/dacia/sandero.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "dacia-sandero-3-restylage-eco-g-120",
+          "name": "Eco-G 120 BVM6 (essence/GPL)",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.2 3 cylindres turbo bicarburation essence/GPL",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 122,
+          "powerKw": 90,
+          "torqueNm": 197,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 10.1,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 6.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 111,
+          "weightKg": 1234,
+          "dimensions": {
+            "lengthMm": 4102,
+            "widthMm": 1853,
+            "heightMm": 1496,
+            "wheelbaseMm": 2604
+          },
+          "seats": 5,
+          "trunkL": 328,
+          "equipmentHighlights": [
+            "Bicarburation essence/GPL d’usine"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 16150,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Dacia Sandero",
+                "url": "https://www.largus.fr/prix-du-neuf/dacia/sandero.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 14790,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Dacia Sandero Eco-G 120 Expression, mode GPL (dès 12/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/sandero/3generation-facelift/347807/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Valeurs en fonctionnement GPL (122 ch, 197 Nm ; consommation exprimée en litres de GPL). À l’essence : 84 kW (114 ch), 190 Nm, 0 à 100 km/h en 11,1 s, 5,4 l/100 km et 123 g/km. Prix en finition Expression.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Dacia Sandero Eco-G 120 Expression, mode GPL (dès 12/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/sandero/3generation-facelift/347807/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "ADAC Autokatalog – Dacia Sandero Eco-G 120 Expression, mode essence (dès 12/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/sandero/3generation-facelift/347808/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Dacia Sandero",
+              "url": "https://www.largus.fr/prix-du-neuf/dacia/sandero.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "dacia-sandero-3-restylage-stepway-hybrid-155",
+          "name": "Stepway Hybrid 155",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.8 4 cylindres essence + moteur électrique",
+            "displacementCc": 1789,
+            "electricMotors": null
+          },
+          "powerHp": 158,
+          "powerKw": 116,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Boîte automatique multimode",
+          "accel0100s": 8.3,
+          "topSpeedKmh": null,
+          "consumption": {
+            "value": 4.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 100,
+          "weightKg": 1341,
+          "dimensions": null,
+          "seats": 5,
+          "trunkL": 372,
+          "equipmentHighlights": [
+            "Batterie de 1,4 kWh",
+            "Moteur électrique de 36 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 21290,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-07",
+              "source": {
+                "label": "Moniteur Automobile – Dacia Sandero Hybrid : prix belges",
+                "url": "https://www.moniteurautomobile.be/actu-auto/nouveaute/dacia-sandero-hybrid.html",
+                "type": "press",
+                "publishedAt": "2026-07-07",
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "FR",
+              "amount": 21400,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Dacia Sandero",
+                "url": "https://www.largus.fr/prix-du-neuf/dacia/sandero.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 20790,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-07",
+              "source": {
+                "label": "Motor1 (DE) – Dacia Sandero Stepway Hybrid 155 (2026) : prix et données",
+                "url": "https://de.motor1.com/news/801752/dacia-sandero-stepway-hybrid-preis/",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Commercialisée en 2026 (commandes belges à partir de septembre 2026 selon Moniteur Automobile). Puissance système 116 kW (158 PS) selon Motor1 ; Dacia la nomme « Hybrid 155 ». CO2 de 100 g/km selon Motor1 (Moniteur Automobile indique 101 g/km). Poids et coffre (372 L) selon Motor1. Couple, vitesse maximale et dimensions de la Stepway non trouvés. Prix en finition Expression.",
+          "sources": [
+            {
+              "label": "Motor1 (DE) – Dacia Sandero Stepway Hybrid 155 (2026) : prix et données",
+              "url": "https://de.motor1.com/news/801752/dacia-sandero-stepway-hybrid-preis/",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Moniteur Automobile – Dacia Sandero Hybrid : prix belges",
+              "url": "https://www.moniteurautomobile.be/actu-auto/nouveaute/dacia-sandero-hybrid.html",
+              "type": "press",
+              "publishedAt": "2026-07-07",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Dacia Sandero",
+              "url": "https://www.largus.fr/prix-du-neuf/dacia/sandero.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Dacia Sandero (3e génération restylée), versions et prix",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/sandero/3generation-facelift/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – prix du neuf Dacia Sandero",
+          "url": "https://www.largus.fr/prix-du-neuf/dacia/sandero.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Moniteur Automobile – Dacia Sandero Hybrid : prix belges",
+          "url": "https://www.moniteurautomobile.be/actu-auto/nouveaute/dacia-sandero-hybrid.html",
+          "type": "press",
+          "publishedAt": "2026-07-07",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "dacia-jogger-1-restylage",
+      "modelId": "dacia-jogger",
+      "brandId": "dacia",
+      "modelName": "Jogger",
+      "name": "Dacia Jogger restylé (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Break / monospace compact (segment C)",
+      "bodyStyles": [
+        "Break 5 portes"
+      ],
+      "categories": [
+        "wagon"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "family",
+        "travel",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2024 Dacia Jogger Hybrid GIMS 2024 1X7A2413.jpg",
+          "caption": null,
+          "depicts": "Dacia Jogger Hybrid au salon de Genève 2024 (avant restylage)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Jogger est un familial 5 ou 7 places à bas prix, à mi-chemin entre break et monospace. Le restylage apporte les moteurs TCe 110, Eco-G 120 au GPL et Hybrid 155.",
+        "positioning": "Familial 5 ou 7 places de Dacia, au-dessus de la Sandero.",
+        "technicalFacts": [
+          "Longueur 4 550 mm, empattement 2 898 mm (ADAC).",
+          "Coffre de 160 L en configuration 7 places (ADAC).",
+          "Hybrid 155 : 1.8 essence de 80 kW et moteur électrique de 36 kW / 205 Nm, batterie de 1,2 kWh brute (ADAC)."
+        ],
+        "pros": [
+          "Sept places à prix de citadine.",
+          "Trois énergies au choix, dont le GPL.",
+          "Hybride sobre (4,6 l/100 km WLTP en 7 places)."
+        ],
+        "differentiators": [
+          "Un des rares 7 places hybrides sous 30 000 €."
+        ],
+        "pricePositioning": "En France (L’argus, octobre 2026), en 7 places Expression : 21 600 € en TCe 110 comme en Eco-G 120, 26 500 € en Hybrid 155.",
+        "innovations": [],
+        "compromises": [
+          "Coffre limité à 160 L avec la troisième rangée en place.",
+          "Performances modestes en TCe 110 (0 à 100 km/h en 11,2 s)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "dacia-jogger-1-restylage-tce-110",
+          "name": "TCe 110 BVM6 7 places",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.0 3 cylindres en ligne turbo",
+            "displacementCc": 999,
+            "electricMotors": null
+          },
+          "powerHp": 110,
+          "powerKw": 81,
+          "torqueNm": 200,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 11.2,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 136,
+          "weightKg": 1296,
+          "dimensions": {
+            "lengthMm": 4550,
+            "widthMm": 1784,
+            "heightMm": 1684,
+            "wheelbaseMm": 2898
+          },
+          "seats": 7,
+          "trunkL": 160,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 21600,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Dacia Jogger",
+                "url": "https://www.largus.fr/prix-du-neuf/dacia/jogger.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 20490,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Dacia Jogger TCe 110 Expression 7 places (dès 12/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/jogger/1generation-facelift/347770/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Prix en finition Expression 7 places.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Dacia Jogger TCe 110 Expression 7 places (dès 12/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/jogger/1generation-facelift/347770/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Dacia Jogger",
+              "url": "https://www.largus.fr/prix-du-neuf/dacia/jogger.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "dacia-jogger-1-restylage-eco-g-120",
+          "name": "Eco-G 120 BVM6 7 places (essence/GPL)",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.2 3 cylindres turbo bicarburation essence/GPL",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 122,
+          "powerKw": 90,
+          "torqueNm": 197,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 11,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 7.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 121,
+          "weightKg": 1396,
+          "dimensions": {
+            "lengthMm": 4550,
+            "widthMm": 1784,
+            "heightMm": 1684,
+            "wheelbaseMm": 2898
+          },
+          "seats": 7,
+          "trunkL": 160,
+          "equipmentHighlights": [
+            "Bicarburation essence/GPL d’usine"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 21600,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Dacia Jogger",
+                "url": "https://www.largus.fr/prix-du-neuf/dacia/jogger.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 20190,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Dacia Jogger ECO-G 120 Expression 7 places, mode GPL (dès 12/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/jogger/1generation-facelift/347783/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Valeurs en fonctionnement GPL (consommation en litres de GPL). À l’essence : 84 kW (114 ch), 190 Nm, 0 à 100 km/h en 12,0 s, 5,9 l/100 km et 135 g/km. Prix en finition Expression 7 places.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Dacia Jogger ECO-G 120 Expression 7 places, mode GPL (dès 12/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/jogger/1generation-facelift/347783/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "ADAC Autokatalog – Dacia Jogger ECO-G 120 Expression 7 places, mode essence (dès 12/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/jogger/1generation-facelift/347784/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Dacia Jogger",
+              "url": "https://www.largus.fr/prix-du-neuf/dacia/jogger.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "dacia-jogger-1-restylage-hybrid-155",
+          "name": "Hybrid 155 7 places",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.8 4 cylindres essence + moteur électrique",
+            "displacementCc": 1789,
+            "electricMotors": null
+          },
+          "powerHp": 158,
+          "powerKw": 116,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Boîte automatique multimode",
+          "accel0100s": 9,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 4.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 1.2,
+          "charging": null,
+          "co2Gkm": 104,
+          "weightKg": 1463,
+          "dimensions": {
+            "lengthMm": 4550,
+            "widthMm": 1784,
+            "heightMm": 1684,
+            "wheelbaseMm": 2898
+          },
+          "seats": 7,
+          "trunkL": 160,
+          "equipmentHighlights": [
+            "Moteur électrique de 36 kW / 205 Nm",
+            "Batterie de 1,2 kWh brute (0,6 kWh nette)"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 26500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Dacia Jogger",
+                "url": "https://www.largus.fr/prix-du-neuf/dacia/jogger.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 24990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Dacia Jogger hybrid 155 Expression 7 places (dès 12/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/jogger/1generation-facelift/347774/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Puissance système 116 kW (158 PS) ; couple système non publié. Prix en finition Expression 7 places.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Dacia Jogger hybrid 155 Expression 7 places (dès 12/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/jogger/1generation-facelift/347774/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Dacia Jogger",
+              "url": "https://www.largus.fr/prix-du-neuf/dacia/jogger.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Dacia Jogger (restylé), versions et prix",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/jogger/1generation-facelift/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – prix du neuf Dacia Jogger",
+          "url": "https://www.largus.fr/prix-du-neuf/dacia/jogger.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "dacia-spring-2024",
+      "modelId": "dacia-spring",
+      "brandId": "dacia",
+      "modelName": "Spring",
+      "name": "Dacia Spring (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine électrique (segment A)",
+      "bodyStyles": [
+        "Citadine 5 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La Spring est une petite citadine électrique de 3,70 m à quatre places, parmi les moins chères du marché. Depuis fin 2025, elle propose 70 ou 100 ch et la recharge rapide à 40 kW.",
+        "positioning": "Citadine électrique d’entrée de gamme, sous la Sandero.",
+        "technicalFacts": [
+          "Longueur 3 701 mm, empattement 2 423 mm, quatre places (ADAC).",
+          "Batterie de 24,3 kWh nette, recharge DC jusqu’à 40 kW (ADAC).",
+          "Autonomie WLTP de 221 km (Electric 70) et 225 km (Electric 100) (ADAC)."
+        ],
+        "pros": [
+          "Prix très bas pour une électrique.",
+          "Faible consommation (12,4 à 12,7 kWh/100 km WLTP).",
+          "Coffre de 308 L pour 3,70 m."
+        ],
+        "differentiators": [
+          "Électrique la plus abordable du catalogue Dacia."
+        ],
+        "pricePositioning": "En France (L’argus, octobre 2026) : 18 900 € en Electric 70 Expression, 19 700 € en Electric 100 Extreme.",
+        "innovations": [],
+        "compromises": [
+          "Autonomie limitée (environ 220 km WLTP).",
+          "Vitesse maximale de 125 km/h.",
+          "Quatre places seulement."
+        ]
+      },
+      "variants": [
+        {
+          "id": "dacia-spring-2024-electric-70",
+          "name": "Electric 70",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur synchrone à aimants permanents, avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 70,
+          "powerKw": 52,
+          "torqueNm": 137,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur",
+          "accel0100s": 12.3,
+          "topSpeedKmh": 125,
+          "consumption": {
+            "value": 12.7,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 221,
+          "batteryKwh": 24.3,
+          "charging": {
+            "dcMaxKw": 40,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1070,
+          "dimensions": {
+            "lengthMm": 3701,
+            "widthMm": 1583,
+            "heightMm": 1489,
+            "wheelbaseMm": 2423
+          },
+          "seats": 4,
+          "trunkL": 308,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 18900,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Dacia Spring",
+                "url": "https://www.largus.fr/prix-du-neuf/dacia/spring.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 18700,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Dacia Spring electric 70 Expression (12/25 – 09/26)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/spring/1generation-facelift/348049/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Batterie nette 24,3 kWh. L’ADAC indique cette version commercialisée en Allemagne de 12/25 à 09/26 ; L’argus la liste encore en France. Prix en finition Expression.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Dacia Spring electric 70 Expression (12/25 – 09/26)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/spring/1generation-facelift/348049/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Dacia Spring",
+              "url": "https://www.largus.fr/prix-du-neuf/dacia/spring.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "dacia-spring-2024-electric-100",
+          "name": "Electric 100",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur synchrone à aimants permanents, avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 102,
+          "powerKw": 75,
+          "torqueNm": 137,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur",
+          "accel0100s": 9.6,
+          "topSpeedKmh": 125,
+          "consumption": {
+            "value": 12.4,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 225,
+          "batteryKwh": 24.3,
+          "charging": {
+            "dcMaxKw": 40,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1070,
+          "dimensions": {
+            "lengthMm": 3701,
+            "widthMm": 1583,
+            "heightMm": 1489,
+            "wheelbaseMm": 2423
+          },
+          "seats": 4,
+          "trunkL": 308,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 19700,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Dacia Spring",
+                "url": "https://www.largus.fr/prix-du-neuf/dacia/spring.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 19700,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Dacia Spring electric 100 Extreme (12/25 – 09/26)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/spring/1generation-facelift/348050/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). 75 kW (102 PS) selon l’ADAC, vendue sous le nom « Electric 100 ». L’ADAC indique cette version commercialisée en Allemagne de 12/25 à 09/26 ; L’argus la liste encore en France. Prix en finition Extreme.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Dacia Spring electric 100 Extreme (12/25 – 09/26)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/spring/1generation-facelift/348050/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Dacia Spring",
+              "url": "https://www.largus.fr/prix-du-neuf/dacia/spring.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Dacia Spring (2024), versions et prix",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/spring/1generation-facelift/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – prix du neuf Dacia Spring",
+          "url": "https://www.largus.fr/prix-du-neuf/dacia/spring.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "dacia-bigster-1",
+      "modelId": "dacia-bigster",
+      "brandId": "dacia",
+      "modelName": "Bigster",
+      "name": "Dacia Bigster (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV familial (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "budget",
+      "usage": [
+        "family",
+        "travel",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Dacia Bigster DSC 8686.jpg",
+          "caption": null,
+          "depicts": "Dacia Bigster (2025)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Dacia Bigster 01.jpg",
+          "caption": null,
+          "depicts": "Dacia Bigster (2025)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Bigster est le plus grand SUV de Dacia, un 4,57 m vendu au prix d’un SUV compact. Il propose micro-hybride, full hybrid 155 et une version 4x4 « tribrid » essence/GPL.",
+        "positioning": "SUV familial au-dessus du Duster, haut de gamme de Dacia.",
+        "technicalFacts": [
+          "Longueur 4 570 mm, largeur 1 813 mm, empattement 2 702 mm (ADAC).",
+          "Coffre de 667 L en mild hybrid 140, 546 L en hybrid 155, 444 L en 4x4 (ADAC).",
+          "Tribrid 150 4x4 : 1.2 turbo bicarburation de 103 kW et moteur électrique de 10 kW, boîte double embrayage 6 rapports (ADAC)."
+        ],
+        "pros": [
+          "Très grand coffre (667 L) en deux roues motrices.",
+          "Transmission intégrale disponible.",
+          "Prix inférieurs à ceux de la plupart des SUV familiaux."
+        ],
+        "differentiators": [
+          "Version 4x4 à bicarburation GPL, rare dans la catégorie."
+        ],
+        "pricePositioning": "En Belgique (Autotijd, janvier 2025) : 25 990 € en TCe 140 Expression et 28 990 € en Hybrid 155 Expression ; en France (L’argus, octobre 2026), 31 200 € en tribrid 150 4x4 Expression.",
+        "innovations": [],
+        "compromises": [
+          "Coffre réduit sur l’hybride et la 4x4.",
+          "Version 4x4 la plus lourde et la plus gourmande (5,9 l/100 km)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "dacia-bigster-1-mild-hybrid-140",
+          "name": "Mild hybrid 140 BVM6",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.2 3 cylindres en ligne turbo, micro-hybride",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 140,
+          "powerKw": 103,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 9.8,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 5.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 124,
+          "weightKg": 1425,
+          "dimensions": {
+            "lengthMm": 4570,
+            "widthMm": 1813,
+            "heightMm": 1712,
+            "wheelbaseMm": 2702
+          },
+          "seats": 5,
+          "trunkL": 667,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 25990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-01",
+              "source": {
+                "label": "Autotijd – prix belges Dacia Bigster (janvier 2025)",
+                "url": "https://autotijd.be/fr/prix/dacia/bigster",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 25690,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Dacia Bigster mild hybrid 140 Expression (dès 05/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/bigster/1generation/338067/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Micro-hybride classé essence. Prix belge (liste « TCE 140 BVM » de janvier 2025) et allemand en finition Expression ; la version française « mild hybrid-G 140 » est bicarburation GPL, prix non repris.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Dacia Bigster mild hybrid 140 Expression (dès 05/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/bigster/1generation/338067/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd – prix belges Dacia Bigster (janvier 2025)",
+              "url": "https://autotijd.be/fr/prix/dacia/bigster",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "dacia-bigster-1-hybrid-155",
+          "name": "Hybrid 155",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.8 4 cylindres essence + moteur électrique",
+            "displacementCc": 1789,
+            "electricMotors": null
+          },
+          "powerHp": 158,
+          "powerKw": 116,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Boîte automatique multimode",
+          "accel0100s": 9.7,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 4.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 1.4,
+          "charging": null,
+          "co2Gkm": 106,
+          "weightKg": 1494,
+          "dimensions": {
+            "lengthMm": 4570,
+            "widthMm": 1813,
+            "heightMm": 1712,
+            "wheelbaseMm": 2702
+          },
+          "seats": 5,
+          "trunkL": 546,
+          "equipmentHighlights": [
+            "Moteur électrique de 36 kW / 205 Nm",
+            "Batterie de 1,4 kWh brute"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 28990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-01",
+              "source": {
+                "label": "Autotijd – prix belges Dacia Bigster (janvier 2025)",
+                "url": "https://autotijd.be/fr/prix/dacia/bigster",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "FR",
+              "amount": 29990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Dacia Bigster",
+                "url": "https://www.largus.fr/prix-du-neuf/dacia/bigster.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 28890,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Dacia Bigster hybrid 155 Expression (dès 05/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/bigster/1generation/338063/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Puissance système 116 kW (158 PS) ; couple système non publié. Prix en finition Expression.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Dacia Bigster hybrid 155 Expression (dès 05/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/bigster/1generation/338063/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd – prix belges Dacia Bigster (janvier 2025)",
+              "url": "https://autotijd.be/fr/prix/dacia/bigster",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Dacia Bigster",
+              "url": "https://www.largus.fr/prix-du-neuf/dacia/bigster.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "dacia-bigster-1-tribrid-150-4x4",
+          "name": "Tribrid 150 4x4 EDC (essence/GPL)",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.2 3 cylindres turbo bicarburation essence/GPL + moteur électrique 10 kW",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 154,
+          "powerKw": 113,
+          "torqueNm": 230,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage EDC 6 rapports",
+          "accel0100s": 10.5,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 5.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 1.2,
+          "charging": null,
+          "co2Gkm": 134,
+          "weightKg": 1611,
+          "dimensions": {
+            "lengthMm": 4570,
+            "widthMm": 1813,
+            "heightMm": 1706,
+            "wheelbaseMm": 2702
+          },
+          "seats": 5,
+          "trunkL": 444,
+          "equipmentHighlights": [
+            "Transmission intégrale 4x4",
+            "Bicarburation essence/GPL"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 31200,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Dacia Bigster",
+                "url": "https://www.largus.fr/prix-du-neuf/dacia/bigster.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 30690,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Dacia Bigster tribrid 150 Expression 4x4 EDC (dès 11/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/bigster/1generation/346727/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Valeurs en fonctionnement essence. Puissance système 113 kW (154 PS). Batterie 1,2 kWh brute (0,6 kWh nette). Prix en finition Expression.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Dacia Bigster tribrid 150 Expression 4x4 EDC (dès 11/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/bigster/1generation/346727/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Dacia Bigster",
+              "url": "https://www.largus.fr/prix-du-neuf/dacia/bigster.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Dacia Bigster, versions et prix",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/dacia/bigster/1generation/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – prix du neuf Dacia Bigster",
+          "url": "https://www.largus.fr/prix-du-neuf/dacia/bigster.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd – prix belges Dacia Bigster (janvier 2025)",
+          "url": "https://autotijd.be/fr/prix/dacia/bigster",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "renault-captur-2-restylage",
+      "modelId": "renault-captur",
+      "brandId": "renault",
+      "modelName": "Captur",
+      "name": "Renault Captur II restylé (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2024 Renault Captur II IMG 9974.jpg",
+          "caption": null,
+          "depicts": "Renault Captur II restylé (2024)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 Renault Captur II Automesse Ludwigsburg 2024 IMG 1382.jpg",
+          "caption": null,
+          "depicts": "Renault Captur II restylé au salon de Ludwigsburg 2024",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Captur restylé est le SUV urbain de Renault, l’un des plus vendus d’Europe. Sa gamme va du TCe 115 essence au full hybrid E-Tech 160, en passant par un mild hybrid 140.",
+        "positioning": "SUV urbain de Renault, entre la Clio et le Symbioz.",
+        "technicalFacts": [
+          "Longueur 4 239 mm, empattement 2 639 mm (ADAC).",
+          "E-Tech full hybrid 160 : 1.8 essence de 80 kW et moteur électrique de 36 kW, batterie de 1,4 kWh brute (ADAC).",
+          "Coffre de 422 L en TCe 115 et mild hybrid, 326 L en E-Tech full hybrid (ADAC)."
+        ],
+        "pros": [
+          "Gamme de motorisations large.",
+          "Full hybrid sobre (4,4 l/100 km WLTP).",
+          "Coffre généreux en version thermique."
+        ],
+        "differentiators": [],
+        "pricePositioning": "En France (L’argus, octobre 2026) : 27 300 € en TCe 115 Evolution, 30 500 € en E-Tech full hybrid 160 Evolution.",
+        "innovations": [],
+        "compromises": [
+          "TCe 115 peu vif (0 à 100 km/h en 12,3 s).",
+          "Coffre réduit à 326 L sur l’hybride."
+        ]
+      },
+      "variants": [
+        {
+          "id": "renault-captur-2-restylage-tce-115",
+          "name": "TCe 115 BVM6",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.2 3 cylindres en ligne turbo",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 115,
+          "powerKw": 84,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 12.3,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 5.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 130,
+          "weightKg": 1323,
+          "dimensions": {
+            "lengthMm": 4239,
+            "widthMm": 1797,
+            "heightMm": 1575,
+            "wheelbaseMm": 2639
+          },
+          "seats": 5,
+          "trunkL": 422,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 27300,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Renault Captur",
+                "url": "https://www.largus.fr/prix-du-neuf/renault/captur.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 24950,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Renault Captur TCe 115 Evolution (dès 09/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/captur/ii-facelift/345030/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Couple laissé vide : l’ADAC indique à la fois 160 Nm (système) et 190 Nm (moteur). Prix en finition Evolution.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Renault Captur TCe 115 Evolution (dès 09/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/captur/ii-facelift/345030/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Renault Captur",
+              "url": "https://www.largus.fr/prix-du-neuf/renault/captur.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "renault-captur-2-restylage-mild-hybrid-140",
+          "name": "Mild Hybrid 140 EDC",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.3 4 cylindres turbo, micro-hybride",
+            "displacementCc": 1332,
+            "electricMotors": null
+          },
+          "powerHp": 140,
+          "powerKw": 103,
+          "torqueNm": 260,
+          "drivetrain": "fwd",
+          "gearbox": "Double embrayage EDC 7 rapports",
+          "accel0100s": 9.3,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 137,
+          "weightKg": 1362,
+          "dimensions": {
+            "lengthMm": 4239,
+            "widthMm": 1797,
+            "heightMm": 1575,
+            "wheelbaseMm": 2639
+          },
+          "seats": 5,
+          "trunkL": 422,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 27450,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Renault Captur Mild Hybrid 140 Evolution EDC (dès 09/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/captur/ii-facelift/345032/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Micro-hybride classé essence. Couple système 260 Nm (240 Nm pour le moteur thermique seul). Version absente des tarifs belges et français consultés : prix allemand, finition Evolution.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Renault Captur Mild Hybrid 140 Evolution EDC (dès 09/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/captur/ii-facelift/345032/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "ADAC Autokatalog – Renault Captur (2e génération restylée), versions et prix",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/captur/ii-facelift/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "renault-captur-2-restylage-e-tech-160",
+          "name": "E-Tech full hybrid 160",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.8 4 cylindres essence + moteur électrique",
+            "displacementCc": 1789,
+            "electricMotors": null
+          },
+          "powerHp": 158,
+          "powerKw": 116,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Boîte automatique multimode",
+          "accel0100s": 8.9,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 4.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 1.4,
+          "charging": null,
+          "co2Gkm": 100,
+          "weightKg": 1441,
+          "dimensions": {
+            "lengthMm": 4239,
+            "widthMm": 1797,
+            "heightMm": 1575,
+            "wheelbaseMm": 2639
+          },
+          "seats": 5,
+          "trunkL": 326,
+          "equipmentHighlights": [
+            "Moteur électrique de 36 kW / 205 Nm",
+            "Batterie de 1,4 kWh brute"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 30500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Renault Captur",
+                "url": "https://www.largus.fr/prix-du-neuf/renault/captur.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 28550,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Renault Captur Full Hybrid E-Tech 160 Evolution (dès 05/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/captur/ii-facelift/340278/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Puissance système 116 kW (158 PS). Couple système non retenu (valeur ADAC identique à celle du moteur thermique, douteuse). Prix en finition Evolution.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Renault Captur Full Hybrid E-Tech 160 Evolution (dès 05/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/captur/ii-facelift/340278/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Renault Captur",
+              "url": "https://www.largus.fr/prix-du-neuf/renault/captur.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Renault Captur (2e génération restylée), versions et prix",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/captur/ii-facelift/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – prix du neuf Renault Captur",
+          "url": "https://www.largus.fr/prix-du-neuf/renault/captur.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "renault-austral-1-restylage",
+      "modelId": "renault-austral",
+      "brandId": "renault",
+      "modelName": "Austral",
+      "name": "Renault Austral restylé (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "daily",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2023 Renault Austral 1.2 E-Tech Hybrid techno at Renault Manchester 03.jpg",
+          "caption": null,
+          "depicts": "Renault Austral E-Tech hybrid de 2023 (avant restylage)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "L’Austral restylé est le SUV compact de Renault, proposé en mild hybrid 150 ou en full hybrid E-Tech 200. Le full hybrid associe un trois cylindres 1.2 turbo à un moteur électrique de 51 kW.",
+        "positioning": "SUV compact entre le Symbioz et le Rafale.",
+        "technicalFacts": [
+          "Longueur 4 533 mm, largeur 1 825 mm, empattement 2 667 mm (ADAC).",
+          "E-Tech full hybrid 200 : 1.2 turbo de 96 kW et moteur électrique de 51 kW, batterie de 1,7 kWh brute (ADAC).",
+          "Mild hybrid 150 : 1.3 turbo de 109 kW et 270 Nm avec boîte CVT (ADAC)."
+        ],
+        "pros": [
+          "Full hybrid à la fois puissant (200 ch) et sobre (4,8 l/100 km).",
+          "Coffre de 527 à 555 L."
+        ],
+        "differentiators": [],
+        "pricePositioning": "En France (L’argus, octobre 2026) : 41 900 € en E-Tech full hybrid 200 Evolution ; en Allemagne (ADAC), 34 900 € en Mild Hybrid 150 Evolution.",
+        "innovations": [],
+        "compromises": [
+          "Mild hybrid 150 nettement plus gourmand (6,4 l/100 km).",
+          "Version mild hybrid absente des tarifs français consultés."
+        ]
+      },
+      "variants": [
+        {
+          "id": "renault-austral-1-restylage-mild-hybrid-150",
+          "name": "Mild Hybrid 150 CVT",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.3 4 cylindres turbo, micro-hybride",
+            "displacementCc": 1332,
+            "electricMotors": null
+          },
+          "powerHp": 148,
+          "powerKw": 109,
+          "torqueNm": 270,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique à variation continue (CVT)",
+          "accel0100s": 9.9,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 6.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 145,
+          "weightKg": 1548,
+          "dimensions": {
+            "lengthMm": 4533,
+            "widthMm": 1825,
+            "heightMm": 1645,
+            "wheelbaseMm": 2667
+          },
+          "seats": 5,
+          "trunkL": 555,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 34900,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Renault Austral Mild Hybrid 150 Evolution (dès 11/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/austral/1generation-facelift/349926/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Micro-hybride classé essence ; 109 kW (148 PS) selon l’ADAC. Prix allemand, finition Evolution.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Renault Austral Mild Hybrid 150 Evolution (dès 11/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/austral/1generation-facelift/349926/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "ADAC Autokatalog – Renault Austral (restylé), versions et prix",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/austral/1generation-facelift/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "renault-austral-1-restylage-e-tech-200",
+          "name": "E-Tech full hybrid 200",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.2 3 cylindres turbo + moteur électrique",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 200,
+          "powerKw": 147,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Boîte automatique multimode",
+          "accel0100s": 8.4,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 4.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 1.7,
+          "charging": null,
+          "co2Gkm": 109,
+          "weightKg": 1685,
+          "dimensions": {
+            "lengthMm": 4533,
+            "widthMm": 1825,
+            "heightMm": 1645,
+            "wheelbaseMm": 2667
+          },
+          "seats": 5,
+          "trunkL": 527,
+          "equipmentHighlights": [
+            "Moteur électrique de 51 kW / 205 Nm",
+            "Batterie de 1,7 kWh brute"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 41900,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Renault Austral",
+                "url": "https://www.largus.fr/prix-du-neuf/renault/austral.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 39450,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Renault Austral Full Hybrid E-Tech 200 Evolution (dès 04/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/austral/1generation-facelift/339887/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Puissance système 147 kW (200 PS) ; couple système non publié. Prix en finition Evolution.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Renault Austral Full Hybrid E-Tech 200 Evolution (dès 04/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/austral/1generation-facelift/339887/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Renault Austral",
+              "url": "https://www.largus.fr/prix-du-neuf/renault/austral.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Renault Austral (restylé), versions et prix",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/austral/1generation-facelift/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – prix du neuf Renault Austral",
+          "url": "https://www.largus.fr/prix-du-neuf/renault/austral.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "renault-symbioz-1",
+      "modelId": "renault-symbioz",
+      "brandId": "renault",
+      "modelName": "Symbioz",
+      "name": "Renault Symbioz (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Renault Symbioz IMG 0676.jpg",
+          "caption": null,
+          "depicts": "Renault Symbioz (2024)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Renault Symbioz DSC 2932.jpg",
+          "caption": null,
+          "depicts": "Renault Symbioz (2024)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Symbioz est un SUV compact de 4,41 m, plus long que le Captur dont il partage l’empattement, avec un grand coffre. Il est proposé en mild hybrid 140 et en full hybrid E-Tech 160.",
+        "positioning": "SUV compact entre le Captur et l’Austral.",
+        "technicalFacts": [
+          "Longueur 4 413 mm, empattement 2 638 mm (ADAC).",
+          "Coffre de 576 L en mild hybrid 140, 492 L en E-Tech full hybrid (ADAC).",
+          "E-Tech full hybrid 160 : 1.8 essence de 80 kW et moteur électrique de 36 kW, batterie de 1,4 kWh brute (ADAC)."
+        ],
+        "pros": [
+          "Grand coffre pour sa longueur.",
+          "Full hybrid sobre (4,5 l/100 km WLTP)."
+        ],
+        "differentiators": [],
+        "pricePositioning": "En France (L’argus, octobre 2026) : 36 400 € en E-Tech full hybrid 160 Techno ; en Allemagne (ADAC), 30 500 € en Mild Hybrid 140 EDC Evolution.",
+        "innovations": [],
+        "compromises": [
+          "Positionnement proche du Captur.",
+          "Version mild hybrid absente des tarifs français consultés."
+        ]
+      },
+      "variants": [
+        {
+          "id": "renault-symbioz-1-mild-hybrid-140",
+          "name": "Mild Hybrid 140 EDC",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.3 4 cylindres turbo, micro-hybride",
+            "displacementCc": 1332,
+            "electricMotors": null
+          },
+          "powerHp": 140,
+          "powerKw": 103,
+          "torqueNm": 250,
+          "drivetrain": "fwd",
+          "gearbox": "Double embrayage EDC 7 rapports",
+          "accel0100s": 9.4,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 136,
+          "weightKg": 1381,
+          "dimensions": {
+            "lengthMm": 4413,
+            "widthMm": 1797,
+            "heightMm": 1575,
+            "wheelbaseMm": 2638
+          },
+          "seats": 5,
+          "trunkL": 576,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 30500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Renault Symbioz Mild Hybrid 140 Evolution EDC (dès 09/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/symbioz/1generation/345036/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Micro-hybride classé essence. Couple système 250 Nm selon l’ADAC (240 Nm pour le moteur thermique seul). Prix allemand, finition Evolution.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Renault Symbioz Mild Hybrid 140 Evolution EDC (dès 09/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/symbioz/1generation/345036/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "ADAC Autokatalog – Renault Symbioz, versions et prix",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/symbioz/1generation/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "renault-symbioz-1-e-tech-160",
+          "name": "E-Tech full hybrid 160",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.8 4 cylindres essence + moteur électrique",
+            "displacementCc": 1789,
+            "electricMotors": null
+          },
+          "powerHp": 158,
+          "powerKw": 116,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Boîte automatique multimode",
+          "accel0100s": 9.1,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 4.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 1.4,
+          "charging": null,
+          "co2Gkm": 102,
+          "weightKg": 1465,
+          "dimensions": {
+            "lengthMm": 4413,
+            "widthMm": 1797,
+            "heightMm": 1575,
+            "wheelbaseMm": 2638
+          },
+          "seats": 5,
+          "trunkL": 492,
+          "equipmentHighlights": [
+            "Moteur électrique de 36 kW / 205 Nm",
+            "Batterie de 1,4 kWh brute"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 36400,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Renault Symbioz",
+                "url": "https://www.largus.fr/prix-du-neuf/renault/symbioz.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 33400,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Renault Symbioz Full Hybrid E-Tech 160 Techno (dès 05/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/symbioz/1generation/340277/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Puissance système 116 kW (158 PS). Couple système non retenu (valeur ADAC identique à celle du moteur thermique, douteuse). Prix en finition Techno.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Renault Symbioz Full Hybrid E-Tech 160 Techno (dès 05/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/symbioz/1generation/340277/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Renault Symbioz",
+              "url": "https://www.largus.fr/prix-du-neuf/renault/symbioz.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Renault Symbioz, versions et prix",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/symbioz/1generation/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – prix du neuf Renault Symbioz",
+          "url": "https://www.largus.fr/prix-du-neuf/renault/symbioz.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "renault-scenic-e-tech-5",
+      "modelId": "renault-scenic",
+      "brandId": "renault",
+      "modelName": "Scénic E-Tech",
+      "name": "Renault Scénic E-Tech electric (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV familial électrique (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "travel",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Renault Scénic E-Tech Electric 220 Long Range Techno – f 30062024.jpg",
+          "caption": null,
+          "depicts": "Renault Scénic E-Tech electric 220 Long Range Techno, vue avant",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Renault Scénic E-Tech Electric 220 Long Range Techno – h 30062024.jpg",
+          "caption": null,
+          "depicts": "Renault Scénic E-Tech electric 220 Long Range Techno, vue arrière",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Scénic E-Tech electric est le SUV familial 100 % électrique de Renault. Depuis la gamme 2026, il propose 218 ch avec une batterie de 67 ou 89 kWh, jusqu’à 621 km d’autonomie WLTP.",
+        "positioning": "SUV familial électrique de Renault, au-dessus de la Mégane E-Tech.",
+        "technicalFacts": [
+          "Longueur 4 470 mm, empattement 2 785 mm, coffre de 545 L (ADAC).",
+          "Moteur électrique de 160 kW / 300 Nm (ADAC).",
+          "Autonomie WLTP de 459 km (67 kWh) et 621 km (89 kWh) (ADAC)."
+        ],
+        "pros": [
+          "Grande autonomie en batterie 89 kWh (621 km WLTP).",
+          "Coffre de 545 L.",
+          "Recharge AC jusqu’à 22 kW selon l’ADAC."
+        ],
+        "differentiators": [],
+        "pricePositioning": "En France (L’argus, octobre 2026) : 46 990 € en 89 kWh Techno ; en Allemagne (ADAC), 37 590 € en 67 kWh Techno.",
+        "innovations": [],
+        "compromises": [
+          "Poids supérieur à 1,9 t.",
+          "Vitesse maximale limitée à 170 km/h."
+        ]
+      },
+      "variants": [
+        {
+          "id": "renault-scenic-e-tech-5-220-comfort-range",
+          "name": "220 ch Comfort Range (67 kWh)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 218,
+          "powerKw": 160,
+          "torqueNm": 300,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur",
+          "accel0100s": 7.9,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 17.3,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 459,
+          "batteryKwh": 67,
+          "charging": {
+            "dcMaxKw": 165,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1916,
+          "dimensions": {
+            "lengthMm": 4470,
+            "widthMm": 1864,
+            "heightMm": 1571,
+            "wheelbaseMm": 2785
+          },
+          "seats": 5,
+          "trunkL": 545,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 37590,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Renault Scénic E-Tech Electric 220 Comfort Range (67 kWh) Techno (dès 09/26)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/scenic/v/352843/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Batterie 67 kWh brute selon l’ADAC. Version de la gamme 2026, absente des tarifs français consultés : prix allemand, finition Techno.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Renault Scénic E-Tech Electric 220 Comfort Range (67 kWh) Techno (dès 09/26)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/scenic/v/352843/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "ADAC Autokatalog – Renault Scénic E-Tech Electric, versions et prix",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/scenic/v/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "renault-scenic-e-tech-5-220-long-range",
+          "name": "220 ch Long Range (89 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 218,
+          "powerKw": 160,
+          "torqueNm": 300,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur",
+          "accel0100s": 7.9,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 17,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 621,
+          "batteryKwh": 89,
+          "charging": {
+            "dcMaxKw": 150,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1923,
+          "dimensions": {
+            "lengthMm": 4470,
+            "widthMm": 1864,
+            "heightMm": 1571,
+            "wheelbaseMm": 2785
+          },
+          "seats": 5,
+          "trunkL": 545,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 46990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Renault Scénic E-Tech",
+                "url": "https://www.largus.fr/prix-du-neuf/renault/scenic.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 42590,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Renault Scénic E-Tech Electric 220 Long Range (89 kWh) Techno (dès 09/26)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/scenic/v/352844/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Batterie 89 kWh brute selon l’ADAC. Prix en finition Techno.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Renault Scénic E-Tech Electric 220 Long Range (89 kWh) Techno (dès 09/26)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/scenic/v/352844/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Renault Scénic E-Tech",
+              "url": "https://www.largus.fr/prix-du-neuf/renault/scenic.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Renault Scénic E-Tech Electric, versions et prix",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/scenic/v/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – prix du neuf Renault Scénic E-Tech",
+          "url": "https://www.largus.fr/prix-du-neuf/renault/scenic.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "renault-megane-e-tech-restylage",
+      "modelId": "renault-megane",
+      "brandId": "renault",
+      "modelName": "Mégane E-Tech",
+      "name": "Renault Mégane E-Tech electric restylée (2026)",
+      "yearsLabel": "2026 –",
+      "startYear": 2026,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte électrique (segment C)",
+      "bodyStyles": [
+        "Berline compacte 5 portes"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Renault Mégane E-Tech GIMS 2024 1X7A2161.jpg",
+          "caption": null,
+          "depicts": "Renault Mégane E-Tech electric au salon de Genève 2024 (avant restylage)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Mégane E-Tech electric restylée est la compacte 100 % électrique de Renault. La gamme 2026 se résume à un moteur de 218 ch et une batterie de 67 kWh, pour 481 km d’autonomie WLTP.",
+        "positioning": "Compacte électrique sous le Scénic E-Tech.",
+        "technicalFacts": [
+          "Longueur 4 200 mm, empattement 2 685 mm, coffre de 389 L (ADAC).",
+          "Moteur électrique de 160 kW / 300 Nm, batterie de 67 kWh brute (ADAC).",
+          "Recharge DC jusqu’à 165 kW, AC jusqu’à 22 kW (ADAC)."
+        ],
+        "pros": [
+          "Autonomie de 481 km WLTP.",
+          "Accélérations vives (0 à 100 km/h en 7,6 s)."
+        ],
+        "differentiators": [],
+        "pricePositioning": "En France (L’argus, octobre 2026) : 37 500 € en Techno ; en Allemagne (ADAC), 34 990 €.",
+        "innovations": [],
+        "compromises": [
+          "Vitesse maximale de 160 km/h.",
+          "Coffre moyen (389 L)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "renault-megane-e-tech-restylage-220-comfort-range",
+          "name": "220 ch Comfort Range (67 kWh)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 218,
+          "powerKw": 160,
+          "torqueNm": 300,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur",
+          "accel0100s": 7.6,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 16.5,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 481,
+          "batteryKwh": 67,
+          "charging": {
+            "dcMaxKw": 165,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1772,
+          "dimensions": {
+            "lengthMm": 4200,
+            "widthMm": 1782,
+            "heightMm": 1522,
+            "wheelbaseMm": 2685
+          },
+          "seats": 5,
+          "trunkL": 389,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 37500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Renault Mégane E-Tech",
+                "url": "https://www.largus.fr/prix-du-neuf/renault/megane.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 34990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Renault Mégane E-Tech Electric 220 Comfort Range Techno (dès 09/26)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/megane/v-facelift/352886/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Batterie 67 kWh brute selon l’ADAC. Une seule motorisation au catalogue 2026. Prix en finition Techno.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Renault Mégane E-Tech Electric 220 Comfort Range Techno (dès 09/26)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/megane/v-facelift/352886/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Renault Mégane E-Tech",
+              "url": "https://www.largus.fr/prix-du-neuf/renault/megane.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Renault Mégane E-Tech Electric (restylée), versions et prix",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/megane/v-facelift/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – prix du neuf Renault Mégane E-Tech",
+          "url": "https://www.largus.fr/prix-du-neuf/renault/megane.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "renault-rafale-1",
+      "modelId": "renault-rafale",
+      "brandId": "renault",
+      "modelName": "Rafale",
+      "name": "Renault Rafale (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV coupé (segment D)",
+      "bodyStyles": [
+        "SUV coupé 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "family",
+        "travel",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2024 Renault Rafale front.jpg",
+          "caption": null,
+          "depicts": "Renault Rafale (2024), vue avant",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Renault Rafale IMG 8986.jpg",
+          "caption": null,
+          "depicts": "Renault Rafale (2024)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Rafale est le SUV coupé haut de gamme de Renault, long de 4,71 m. Il existe en full hybrid E-Tech 200 et en hybride rechargeable 4x4 de 300 ch.",
+        "positioning": "Haut de gamme des SUV Renault, au-dessus de l’Austral.",
+        "technicalFacts": [
+          "Longueur 4 710 mm, largeur 1 886 mm, empattement 2 738 mm (ADAC).",
+          "E-Tech 4x4 300 : 1.2 turbo de 110 kW, moteur électrique avant de 51 kW et arrière de 100 kW, batterie de 22 kWh brute (ADAC).",
+          "Autonomie électrique WLTP de 97 km en hybride rechargeable (ADAC)."
+        ],
+        "pros": [
+          "Hybride rechargeable performant (0 à 100 km/h en 6,4 s).",
+          "Grand coffre (627 L en full hybrid).",
+          "Full hybrid sobre pour la taille (5,0 l/100 km)."
+        ],
+        "differentiators": [],
+        "pricePositioning": "En Belgique (Autotijd, octobre 2024) : 44 000 € en E-Tech 200 Techno, 52 400 € en E-Tech 4x4 300 Esprit Alpine ; en France (L’argus, octobre 2026) : 46 750 € et 55 750 €.",
+        "innovations": [],
+        "compromises": [
+          "Hybride rechargeable lourd (2 009 kg).",
+          "Prix élevés pour la marque."
+        ]
+      },
+      "variants": [
+        {
+          "id": "renault-rafale-1-e-tech-200",
+          "name": "E-Tech full hybrid 200",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.2 3 cylindres turbo + moteur électrique",
+            "displacementCc": 1199,
+            "electricMotors": null
+          },
+          "powerHp": 200,
+          "powerKw": 147,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Boîte automatique multimode",
+          "accel0100s": 8.9,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 2,
+          "charging": null,
+          "co2Gkm": 108,
+          "weightKg": 1734,
+          "dimensions": {
+            "lengthMm": 4710,
+            "widthMm": 1886,
+            "heightMm": 1613,
+            "wheelbaseMm": 2738
+          },
+          "seats": 5,
+          "trunkL": 627,
+          "equipmentHighlights": [
+            "Moteur électrique de 51 kW / 205 Nm",
+            "Batterie de 2,0 kWh brute"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 44000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd – prix belges Renault Rafale (octobre 2024)",
+                "url": "https://autotijd.be/fr/prix/renault/rafale",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "FR",
+              "amount": 46750,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Renault Rafale",
+                "url": "https://www.largus.fr/prix-du-neuf/renault/rafale.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 44000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Renault Rafale Full Hybrid E-Tech 200 Techno (dès 07/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/rafale/1generation/341194/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Puissance système 147 kW (200 PS) ; couple système non publié. Prix en finition Techno (liste belge d’octobre 2024).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Renault Rafale Full Hybrid E-Tech 200 Techno (dès 07/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/rafale/1generation/341194/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd – prix belges Renault Rafale (octobre 2024)",
+              "url": "https://autotijd.be/fr/prix/renault/rafale",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Renault Rafale",
+              "url": "https://www.largus.fr/prix-du-neuf/renault/rafale.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "renault-rafale-1-e-tech-4x4-300",
+          "name": "E-Tech 4x4 300 (hybride rechargeable)",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "1.2 3 cylindres turbo + 2 moteurs électriques",
+            "displacementCc": 1199,
+            "electricMotors": 2
+          },
+          "powerHp": 300,
+          "powerKw": 221,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Boîte automatique multimode",
+          "accel0100s": 6.4,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 97,
+          "batteryKwh": 22,
+          "charging": null,
+          "co2Gkm": 43,
+          "weightKg": 2009,
+          "dimensions": {
+            "lengthMm": 4710,
+            "widthMm": 1886,
+            "heightMm": 1613,
+            "wheelbaseMm": 2738
+          },
+          "seats": 5,
+          "trunkL": 539,
+          "equipmentHighlights": [
+            "Transmission intégrale électrique (moteur arrière de 100 kW)",
+            "Recharge AC jusqu’à 7,4 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 52400,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd – prix belges Renault Rafale (octobre 2024)",
+                "url": "https://autotijd.be/fr/prix/renault/rafale",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "FR",
+              "amount": 55750,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Renault Rafale",
+                "url": "https://www.largus.fr/prix-du-neuf/renault/rafale.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 53500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Renault Rafale E-Tech Plug-in Hybrid 300 Esprit Alpine 4x4 (dès 11/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/rafale/1generation/347718/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Puissance système 221 kW (300 PS). Consommation pondérée WLTP ; batterie vide : 5,9 l/100 km et 133 g/km. Batterie 22 kWh brute. Prix en finition Esprit Alpine.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Renault Rafale E-Tech Plug-in Hybrid 300 Esprit Alpine 4x4 (dès 11/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/rafale/1generation/347718/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd – prix belges Renault Rafale (octobre 2024)",
+              "url": "https://autotijd.be/fr/prix/renault/rafale",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Renault Rafale",
+              "url": "https://www.largus.fr/prix-du-neuf/renault/rafale.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Renault Rafale, versions et prix",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/rafale/1generation/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – prix du neuf Renault Rafale",
+          "url": "https://www.largus.fr/prix-du-neuf/renault/rafale.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd – prix belges Renault Rafale (octobre 2024)",
+          "url": "https://autotijd.be/fr/prix/renault/rafale",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "renault-4-e-tech",
+      "modelId": "renault-4",
+      "brandId": "renault",
+      "modelName": "4 E-Tech",
+      "name": "Renault 4 E-Tech electric (2025)",
+      "yearsLabel": "2025 –",
+      "startYear": 2025,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain électrique (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "city"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Renault 4 E-Tech Electric IMG 3537.jpg",
+          "caption": null,
+          "depicts": "Renault 4 E-Tech electric (2025)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Renault 4 E-Tech Electric DSC 2688.jpg",
+          "caption": null,
+          "depicts": "Renault 4 E-Tech electric (2025)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Renault 4 E-Tech electric réinterprète la 4L en petit SUV électrique. Elle propose 120 ch avec 40 kWh ou 150 ch avec 52 kWh, pour 312 à 403 km d’autonomie WLTP.",
+        "positioning": "Petit SUV électrique, plus logeable que la Renault 5 E-Tech.",
+        "technicalFacts": [
+          "Longueur 4 144 mm, empattement 2 624 mm, coffre de 420 L (ADAC).",
+          "Autonomie WLTP de 312 km (40 kWh) et 403 km (52 kWh) (ADAC).",
+          "Recharge DC jusqu’à 80 kW (40 kWh) ou 100 kW (52 kWh) (ADAC)."
+        ],
+        "pros": [
+          "Coffre de 420 L pour 4,14 m.",
+          "Consommation contenue (environ 14,7 kWh/100 km)."
+        ],
+        "differentiators": [
+          "Style inspiré de la Renault 4 historique."
+        ],
+        "pricePositioning": "En France (L’argus, octobre 2026) : 29 990 € en 120 ch 40 kWh Evolution, 33 490 € en 150 ch 52 kWh Evolution.",
+        "innovations": [],
+        "compromises": [
+          "Vitesse maximale de 150 km/h.",
+          "Autonomie limitée en batterie 40 kWh."
+        ]
+      },
+      "variants": [
+        {
+          "id": "renault-4-e-tech-120-urban-range",
+          "name": "120 ch Urban Range (40 kWh)",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 122,
+          "powerKw": 90,
+          "torqueNm": 225,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur",
+          "accel0100s": 9.2,
+          "topSpeedKmh": 150,
+          "consumption": {
+            "value": 14.7,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 312,
+          "batteryKwh": 40,
+          "charging": {
+            "dcMaxKw": 80,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1485,
+          "dimensions": {
+            "lengthMm": 4144,
+            "widthMm": 1808,
+            "heightMm": 1552,
+            "wheelbaseMm": 2624
+          },
+          "seats": 5,
+          "trunkL": 420,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 29990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Renault 4 E-Tech",
+                "url": "https://www.largus.fr/prix-du-neuf/renault/4.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 27690,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Renault R4 E-Tech Electric 120 Urban Range (40 kWh) Evolution (dès 05/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/r4/2generation/337173/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Batterie 40 kWh nette. 90 kW (122 PS) selon l’ADAC. Prix en finition Evolution.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Renault R4 E-Tech Electric 120 Urban Range (40 kWh) Evolution (dès 05/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/r4/2generation/337173/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Renault 4 E-Tech",
+              "url": "https://www.largus.fr/prix-du-neuf/renault/4.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "renault-4-e-tech-150-comfort-range",
+          "name": "150 ch Comfort Range (52 kWh)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 245,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur",
+          "accel0100s": 8.2,
+          "topSpeedKmh": 150,
+          "consumption": {
+            "value": 14.8,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 403,
+          "batteryKwh": 52,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 1537,
+          "dimensions": {
+            "lengthMm": 4144,
+            "widthMm": 1808,
+            "heightMm": 1552,
+            "wheelbaseMm": 2624
+          },
+          "seats": 5,
+          "trunkL": 420,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 33490,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Renault 4 E-Tech",
+                "url": "https://www.largus.fr/prix-du-neuf/renault/4.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 30690,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Renault R4 E-Tech Electric 150 Comfort Range (52 kWh) Evolution (dès 05/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/r4/2generation/337172/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Batterie 52 kWh nette. Prix en finition Evolution.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Renault R4 E-Tech Electric 150 Comfort Range (52 kWh) Evolution (dès 05/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/r4/2generation/337172/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Renault 4 E-Tech",
+              "url": "https://www.largus.fr/prix-du-neuf/renault/4.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Renault 4 E-Tech Electric, versions et prix",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/renault/r4/2generation/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – prix du neuf Renault 4 E-Tech",
+          "url": "https://www.largus.fr/prix-du-neuf/renault/4.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "nissan-qashqai-j12-restylage",
+      "modelId": "nissan-qashqai",
+      "brandId": "nissan",
+      "modelName": "Qashqai",
+      "name": "Nissan Qashqai III restylé (J12, 2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2024 Nissan Qashqai e-Power IMG 1150.jpg",
+          "caption": null,
+          "depicts": "Nissan Qashqai e-Power (J12), photo de 2024",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Nissan Qashqai (III) – f 25042024.jpg",
+          "caption": null,
+          "depicts": "Nissan Qashqai III (J12), photo d’avril 2024",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Qashqai restylé est le SUV compact de Nissan, un best-seller européen. Il est proposé en 1.3 mild hybrid 158 ch, aussi en 4x4, et en e-Power 205 ch, un hybride série où seul le moteur électrique entraîne les roues.",
+        "positioning": "SUV compact de Nissan, entre le Juke et le X-Trail.",
+        "technicalFacts": [
+          "Longueur 4 425 mm, empattement 2 665 mm (ADAC).",
+          "e-Power : moteur électrique de 151 kW / 330 Nm alimenté par un 1.5 essence de 1 498 cm³, batterie de 2,1 kWh brute (ADAC).",
+          "Mild hybrid 158 : 1.3 turbo de 116 kW / 270 Nm, boîte CVT Xtronic (ADAC)."
+        ],
+        "pros": [
+          "e-Power sobre (4,3 l/100 km) et vif (0 à 100 km/h en 7,6 s).",
+          "Transmission intégrale disponible en mild hybrid."
+        ],
+        "differentiators": [
+          "Hybride série e-Power : conduite de type électrique sans recharge."
+        ],
+        "pricePositioning": "En France (L’argus, octobre 2026) : 36 000 € en Mild Hybrid 158 Acenta Xtronic, 37 800 € en e-POWER 205 Acenta. En Belgique (Autotijd, novembre 2024) : 39 390 € en DIG-T 158 Acenta automatique.",
+        "innovations": [],
+        "compromises": [
+          "Mild hybrid 4x4 gourmand (6,8 l/100 km).",
+          "Vitesse maximale limitée à 170 km/h en e-Power."
+        ]
+      },
+      "variants": [
+        {
+          "id": "nissan-qashqai-j12-restylage-mhev-158",
+          "name": "1.3 DIG-T Mild Hybrid 158 Xtronic",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.3 4 cylindres turbo, micro-hybride",
+            "displacementCc": 1332,
+            "electricMotors": null
+          },
+          "powerHp": 158,
+          "powerKw": 116,
+          "torqueNm": 270,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique à variation continue Xtronic",
+          "accel0100s": 9.2,
+          "topSpeedKmh": 199,
+          "consumption": {
+            "value": 6.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 140,
+          "weightKg": 1465,
+          "dimensions": {
+            "lengthMm": 4425,
+            "widthMm": 1835,
+            "heightMm": 1625,
+            "wheelbaseMm": 2665
+          },
+          "seats": 5,
+          "trunkL": 504,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 39390,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd – prix belges Nissan Qashqai (novembre 2024)",
+                "url": "https://autotijd.be/fr/prix/nissan/qashqai",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "FR",
+              "amount": 36000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Nissan Qashqai",
+                "url": "https://www.largus.fr/prix-du-neuf/nissan/qashqai.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 37680,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Nissan Qashqai 1.3 DIG-T MHEV Acenta Xtronic (dès 10/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/j12-facelift/345295/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Micro-hybride classé essence. Prix en finition Acenta (liste belge de novembre 2024, version française « 2026.5 »).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Nissan Qashqai 1.3 DIG-T MHEV Acenta Xtronic (dès 10/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/j12-facelift/345295/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd – prix belges Nissan Qashqai (novembre 2024)",
+              "url": "https://autotijd.be/fr/prix/nissan/qashqai",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Nissan Qashqai",
+              "url": "https://www.largus.fr/prix-du-neuf/nissan/qashqai.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "nissan-qashqai-j12-restylage-mhev-158-4x4",
+          "name": "1.3 DIG-T Mild Hybrid 158 4x4 Xtronic",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.3 4 cylindres turbo, micro-hybride",
+            "displacementCc": 1332,
+            "electricMotors": null
+          },
+          "powerHp": 158,
+          "powerKw": 116,
+          "torqueNm": 270,
+          "drivetrain": "awd",
+          "gearbox": "Automatique à variation continue Xtronic",
+          "accel0100s": 9.9,
+          "topSpeedKmh": 190,
+          "consumption": {
+            "value": 6.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 152,
+          "weightKg": 1574,
+          "dimensions": {
+            "lengthMm": 4425,
+            "widthMm": 1835,
+            "heightMm": 1625,
+            "wheelbaseMm": 2665
+          },
+          "seats": 5,
+          "trunkL": 479,
+          "equipmentHighlights": [
+            "Transmission intégrale"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 43890,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd – prix belges Nissan Qashqai (novembre 2024)",
+                "url": "https://autotijd.be/fr/prix/nissan/qashqai",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 42550,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Nissan Qashqai 1.3 DIG-T MHEV N-CONNECTA 4x4 Xtronic (dès 10/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/j12-facelift/345298/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Micro-hybride classé essence. Prix en finition N-Connecta (liste belge de novembre 2024).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Nissan Qashqai 1.3 DIG-T MHEV N-CONNECTA 4x4 Xtronic (dès 10/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/j12-facelift/345298/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd – prix belges Nissan Qashqai (novembre 2024)",
+              "url": "https://autotijd.be/fr/prix/nissan/qashqai",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "nissan-qashqai-j12-restylage-e-power",
+          "name": "e-POWER 205",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.5 essence (générateur) + moteur électrique de traction",
+            "displacementCc": 1498,
+            "electricMotors": 1
+          },
+          "powerHp": 205,
+          "powerKw": 151,
+          "torqueNm": 330,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur",
+          "accel0100s": 7.6,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 4.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 2.1,
+          "charging": null,
+          "co2Gkm": 98,
+          "weightKg": 1624,
+          "dimensions": {
+            "lengthMm": 4425,
+            "widthMm": 1835,
+            "heightMm": 1625,
+            "wheelbaseMm": 2665
+          },
+          "seats": 5,
+          "trunkL": 504,
+          "equipmentHighlights": [
+            "Hybride série : le moteur thermique sert de générateur"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 37800,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Nissan Qashqai (page 2)",
+                "url": "https://www.largus.fr/prix-du-neuf/nissan/qashqai.html?page=2",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 40180,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Nissan Qashqai 1.5 e-POWER Acenta (dès 10/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/j12-facelift/345143/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Le moteur thermique (116 kW / 237 Nm) sert de générateur. Batterie 2,1 kWh brute. Le prix belge de novembre 2024 portait sur l’ancien e-Power de 190 ch : non repris. Prix en finition Acenta (version française « 2026.5 »).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Nissan Qashqai 1.5 e-POWER Acenta (dès 10/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/j12-facelift/345143/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Nissan Qashqai (page 2)",
+              "url": "https://www.largus.fr/prix-du-neuf/nissan/qashqai.html?page=2",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Nissan Qashqai (J12 restylé), versions et prix",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/qashqai/j12-facelift/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – prix du neuf Nissan Qashqai",
+          "url": "https://www.largus.fr/prix-du-neuf/nissan/qashqai.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd – prix belges Nissan Qashqai (novembre 2024)",
+          "url": "https://autotijd.be/fr/prix/nissan/qashqai",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "nissan-juke-f16-restylage",
+      "modelId": "nissan-juke",
+      "brandId": "nissan",
+      "modelName": "Juke",
+      "name": "Nissan Juke II restylé (F16, 2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV urbain (segment B)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2024 Nissan Juke (F16) IMG 2166.jpg",
+          "caption": null,
+          "depicts": "Nissan Juke II (F16), modèle 2024",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Juke restylé est le SUV urbain au style marqué de Nissan. Il est proposé en 1.0 DIG-T 114 essence et en Hybrid 143, un full hybrid à boîte multimode.",
+        "positioning": "SUV urbain de Nissan, sous le Qashqai.",
+        "technicalFacts": [
+          "Longueur 4 210 mm, empattement 2 636 mm (ADAC).",
+          "Hybrid 143 : 1.6 essence de 69 kW et moteur électrique de 36 kW / 205 Nm, boîte automatique 4 rapports (ADAC).",
+          "Coffre de 422 L en DIG-T 114, 354 L en Hybrid (ADAC)."
+        ],
+        "pros": [
+          "Style distinctif.",
+          "Hybride sobre (4,6 l/100 km WLTP)."
+        ],
+        "differentiators": [],
+        "pricePositioning": "En France (L’argus, octobre 2026) : 25 750 € en DIG-T 114 Acenta, 33 550 € en Hybrid 143 N-Connecta ; en Belgique (Autotijd, novembre 2024) : 26 850 € et 33 350 €.",
+        "innovations": [],
+        "compromises": [
+          "Coffre réduit sur l’hybride.",
+          "Performances modestes (0 à 100 km/h en 10,1 à 10,7 s)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "nissan-juke-f16-restylage-dig-t-114",
+          "name": "1.0 DIG-T 114 BVM6",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "1.0 3 cylindres en ligne turbo",
+            "displacementCc": 999,
+            "electricMotors": null
+          },
+          "powerHp": 114,
+          "powerKw": 84,
+          "torqueNm": 200,
+          "drivetrain": "fwd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": 10.7,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 5.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 131,
+          "weightKg": 1274,
+          "dimensions": {
+            "lengthMm": 4210,
+            "widthMm": 1800,
+            "heightMm": 1593,
+            "wheelbaseMm": 2636
+          },
+          "seats": 5,
+          "trunkL": 422,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 26850,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd – prix belges Nissan Juke (novembre 2024)",
+                "url": "https://autotijd.be/fr/prix/nissan/juke",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "FR",
+              "amount": 25750,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Nissan Juke",
+                "url": "https://www.largus.fr/prix-du-neuf/nissan/juke.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 25990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Nissan Juke 1.0 DIG-T 114 Acenta (dès 07/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/juke/f16-facelift/347840/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Prix en finition Acenta, boîte manuelle (liste belge de novembre 2024).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Nissan Juke 1.0 DIG-T 114 Acenta (dès 07/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/juke/f16-facelift/347840/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd – prix belges Nissan Juke (novembre 2024)",
+              "url": "https://autotijd.be/fr/prix/nissan/juke",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Nissan Juke",
+              "url": "https://www.largus.fr/prix-du-neuf/nissan/juke.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "nissan-juke-f16-restylage-hybrid-143",
+          "name": "Hybrid 143",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.6 4 cylindres essence + moteur électrique",
+            "displacementCc": 1598,
+            "electricMotors": null
+          },
+          "powerHp": 143,
+          "powerKw": 105,
+          "torqueNm": null,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique multimode 4AMT",
+          "accel0100s": 10.1,
+          "topSpeedKmh": 166,
+          "consumption": {
+            "value": 4.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": 1.2,
+          "charging": null,
+          "co2Gkm": 105,
+          "weightKg": 1405,
+          "dimensions": {
+            "lengthMm": 4210,
+            "widthMm": 1800,
+            "heightMm": 1593,
+            "wheelbaseMm": 2636
+          },
+          "seats": 5,
+          "trunkL": 354,
+          "equipmentHighlights": [
+            "Moteur électrique de 36 kW / 205 Nm",
+            "Batterie de 1,2 kWh brute (0,6 kWh nette)"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 33350,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd – prix belges Nissan Juke (novembre 2024)",
+                "url": "https://autotijd.be/fr/prix/nissan/juke",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "FR",
+              "amount": 33550,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Nissan Juke (page 2)",
+                "url": "https://www.largus.fr/prix-du-neuf/nissan/juke.html?page=2",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 33000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Nissan Juke 1.6 Hybrid N-CONNECTA 4AMT (dès 07/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/juke/f16-facelift/347851/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Puissance système 105 kW (143 PS) ; couple système non publié. Prix en finition N-Connecta (liste belge de novembre 2024).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Nissan Juke 1.6 Hybrid N-CONNECTA 4AMT (dès 07/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/juke/f16-facelift/347851/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd – prix belges Nissan Juke (novembre 2024)",
+              "url": "https://autotijd.be/fr/prix/nissan/juke",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Nissan Juke (page 2)",
+              "url": "https://www.largus.fr/prix-du-neuf/nissan/juke.html?page=2",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Nissan Juke (F16 restylé), versions et prix",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/juke/f16-facelift/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – prix du neuf Nissan Juke",
+          "url": "https://www.largus.fr/prix-du-neuf/nissan/juke.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd – prix belges Nissan Juke (novembre 2024)",
+          "url": "https://autotijd.be/fr/prix/nissan/juke",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "nissan-x-trail-t33-restylage",
+      "modelId": "nissan-x-trail",
+      "brandId": "nissan",
+      "modelName": "X-Trail",
+      "name": "Nissan X-Trail IV restylé (T33, 2026)",
+      "yearsLabel": "2026 –",
+      "startYear": 2026,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV familial (segment D)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "family",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Nissan X-Trail e-Power IMG 9869.jpg",
+          "caption": null,
+          "depicts": "Nissan X-Trail e-Power (T33, avant restylage)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le X-Trail restylé est le grand SUV familial de Nissan, en 5 ou 7 places. En Allemagne, sa gamme se limite à l’hybride série e-Power, en traction ou en 4x4 électrique e-4ORCE.",
+        "positioning": "SUV familial au-dessus du Qashqai.",
+        "technicalFacts": [
+          "Longueur 4 690 mm, empattement 2 705 mm (ADAC).",
+          "e-Power : 1.5 VC-T de 116 kW servant de générateur et moteur électrique avant de 150 kW / 330 Nm (ADAC).",
+          "e-4ORCE : second moteur électrique arrière de 100 kW / 195 Nm (ADAC)."
+        ],
+        "pros": [
+          "Sept places disponibles.",
+          "e-4ORCE vif pour sa taille (0 à 100 km/h en 7,2 s)."
+        ],
+        "differentiators": [
+          "Transmission intégrale électrique e-4ORCE."
+        ],
+        "pricePositioning": "En France (L’argus, octobre 2026) : 44 000 € en e-Power Acenta, 47 200 € en e-4ORCE Acenta 7 places.",
+        "innovations": [],
+        "compromises": [
+          "Consommation élevée pour un hybride (5,7 à 6,1 l/100 km).",
+          "Poids de 1,8 à 1,9 t."
+        ]
+      },
+      "variants": [
+        {
+          "id": "nissan-x-trail-t33-restylage-e-power",
+          "name": "e-POWER 204",
+          "tier": "mid",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.5 VC-T turbo essence (générateur) + moteur électrique de traction",
+            "displacementCc": 1497,
+            "electricMotors": 1
+          },
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 330,
+          "drivetrain": "fwd",
+          "gearbox": "Réducteur",
+          "accel0100s": 8,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 5.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 131,
+          "weightKg": 1782,
+          "dimensions": {
+            "lengthMm": 4690,
+            "widthMm": 1840,
+            "heightMm": 1725,
+            "wheelbaseMm": 2705
+          },
+          "seats": 5,
+          "trunkL": 575,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 44000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Nissan X-Trail",
+                "url": "https://www.largus.fr/prix-du-neuf/nissan/x-trail.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 42890,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Nissan X-Trail 1.5 VC-T e-POWER Acenta (dès 09/26)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/x-trail/t33-facelift/351681/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Hybride série. Prix en finition Acenta (version française « D.1 »).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Nissan X-Trail 1.5 VC-T e-POWER Acenta (dès 09/26)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/x-trail/t33-facelift/351681/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Nissan X-Trail",
+              "url": "https://www.largus.fr/prix-du-neuf/nissan/x-trail.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "nissan-x-trail-t33-restylage-e-4orce",
+          "name": "e-POWER e-4ORCE 213 7 places",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "1.5 VC-T turbo essence (générateur) + 2 moteurs électriques",
+            "displacementCc": 1497,
+            "electricMotors": 2
+          },
+          "powerHp": 213,
+          "powerKw": 157,
+          "torqueNm": 525,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur",
+          "accel0100s": 7.2,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 6.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 143,
+          "weightKg": 1935,
+          "dimensions": {
+            "lengthMm": 4690,
+            "widthMm": 1840,
+            "heightMm": 1725,
+            "wheelbaseMm": 2705
+          },
+          "seats": 7,
+          "trunkL": 485,
+          "equipmentHighlights": [
+            "Transmission intégrale électrique e-4ORCE",
+            "Troisième rangée de sièges"
+          ],
+          "prices": [
+            {
+              "market": "FR",
+              "amount": 47200,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "L'argus – prix du neuf Nissan X-Trail",
+                "url": "https://www.largus.fr/prix-du-neuf/nissan/x-trail.html",
+                "type": "press",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            },
+            {
+              "market": "DE",
+              "amount": 47190,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Nissan X-Trail 1.5 VC-T e-POWER Acenta e-4ORCE 7 places (dès 09/26)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/x-trail/t33-facelift/351686/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données techniques : catalogue ADAC (homologation allemande, poids à vide norme UE avec conducteur). Hybride série à deux moteurs électriques. Couple système de 525 Nm selon l’ADAC. Prix en finition Acenta 7 places (version française « D.1 »).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Nissan X-Trail 1.5 VC-T e-POWER Acenta e-4ORCE 7 places (dès 09/26)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/x-trail/t33-facelift/351686/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "L'argus – prix du neuf Nissan X-Trail",
+              "url": "https://www.largus.fr/prix-du-neuf/nissan/x-trail.html",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Nissan X-Trail (T33 restylé), versions et prix",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/nissan/x-trail/t33-facelift/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "L'argus – prix du neuf Nissan X-Trail",
+          "url": "https://www.largus.fr/prix-du-neuf/nissan/x-trail.html",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}
