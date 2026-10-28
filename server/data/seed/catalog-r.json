@@ -1,0 +1,4106 @@
+{
+  "generations": [
+    {
+      "id": "bmw-serie-1-f70",
+      "modelId": "bmw-serie-1",
+      "brandId": "bmw",
+      "modelName": "Série 1",
+      "name": "BMW Série 1 (F70)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte premium (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes (hayon)"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:BMW 1 Series F70 (2025) Front 1.jpg",
+          "caption": "BMW Série 1 (F70), vue avant",
+          "depicts": "BMW Série 1 (F70), vue avant, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW 1 Series Leonberg 2024 IMG 1119.jpg",
+          "caption": "BMW Série 1 (F70) à Leonberg (2024)",
+          "depicts": "BMW Série 1 (F70) à Leonberg (2024), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La BMW Série 1 de quatrième génération (F70) est la compacte d'entrée de gamme de BMW, à traction avant ou transmission intégrale xDrive. Elle reprend la base technique de la génération précédente avec une offre de moteurs essence et diesel, dont des versions micro-hybrides.",
+        "positioning": "Compacte premium de BMW, sous la Série 2 Gran Coupé et la Série 3 ; rivale des Mercedes Classe A et Audi A3 Sportback.",
+        "technicalFacts": [
+          "Longueur de 4 361 mm et empattement de 2 670 mm (Autotijd).",
+          "Moteurs 3 et 4 cylindres de 122 à 300 ch, boîte automatique à 7 rapports sur toutes les versions listées par Autotijd.",
+          "La M135 xDrive (300 ch, 400 Nm) atteint 100 km/h en 4,9 s selon Autotijd."
+        ],
+        "pros": [
+          "Gamme large, de la 116 sobre à la M135 xDrive très performante.",
+          "Diesel toujours proposé, rare dans la catégorie.",
+          "Prix d'appel belge en baisse par rapport au lancement (32 300 € contre 36 800 € en juin 2024 selon Autotijd)."
+        ],
+        "differentiators": [
+          "Seule compacte premium du segment à proposer à la fois diesel, essence et 300 ch en transmission intégrale."
+        ],
+        "pricePositioning": "Entrée de gamme belge à 32 300 € (116), jusqu'à 56 450 € pour la M135 xDrive (barème novembre 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Coffre réduit à 300 litres sur les versions micro-hybrides essence (380 litres sinon) selon Autotijd.",
+          "Pas de version hybride rechargeable ni électrique."
+        ]
+      },
+      "variants": [
+        {
+          "id": "bmw-serie-1-f70-116",
+          "name": "116 (122 ch)",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne",
+            "displacementCc": 1499
+          },
+          "powerHp": 122,
+          "powerKw": 90,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 9.8,
+          "topSpeedKmh": 210,
+          "consumption": {
+            "value": 5.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 135,
+          "weightKg": 1390,
+          "dimensions": {
+            "lengthMm": 4361,
+            "widthMm": 1800,
+            "heightMm": 1459,
+            "wheelbaseMm": 2670
+          },
+          "seats": 5,
+          "trunkL": 380,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 32300,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges (version de base)",
+                "url": "https://autotijd.be/fr/prix/bmw/1-reeks",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 5,9–6,4 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 135–146 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition version de base, barème 2024-11 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW Série 1 116",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/1-reeks/116-5000",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW Série 1 116",
+              "url": "https://autotijd.be/fr/dimensions/bmw/1-reeks/116-5000",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/1-reeks",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bmw-serie-1-f70-120d",
+          "name": "120d (163 ch)",
+          "tier": "mid",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "4 cylindres en ligne micro-hybride",
+            "displacementCc": 1995,
+            "electricMotors": 1
+          },
+          "powerHp": 163,
+          "powerKw": 120,
+          "torqueNm": 400,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 7.9,
+          "topSpeedKmh": 222,
+          "consumption": {
+            "value": 4.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 112,
+          "weightKg": 1495,
+          "dimensions": {
+            "lengthMm": 4361,
+            "widthMm": 1800,
+            "heightMm": 1459,
+            "wheelbaseMm": 2670
+          },
+          "seats": 5,
+          "trunkL": 380,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 38800,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges (version de base)",
+                "url": "https://autotijd.be/fr/prix/bmw/1-reeks",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Micro-hybridation (« MHEV ») selon Autotijd ; puissance et couple indiqués = valeurs système. Consommation WLTP 4,3–4,8 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 112–125 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition version de base, barème 2024-11 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW Série 1 120d",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/1-reeks/120d-4394",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW Série 1 120d",
+              "url": "https://autotijd.be/fr/dimensions/bmw/1-reeks/120d-4394",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/1-reeks",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bmw-serie-1-f70-m135-xdrive",
+          "name": "M135 xDrive (300 ch)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne",
+            "displacementCc": 1998
+          },
+          "powerHp": 300,
+          "powerKw": 221,
+          "torqueNm": 400,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 4.9,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 7.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 173,
+          "weightKg": 1550,
+          "dimensions": {
+            "lengthMm": 4361,
+            "widthMm": 1800,
+            "heightMm": 1459,
+            "wheelbaseMm": 2670
+          },
+          "seats": 5,
+          "trunkL": 380,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 56450,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges (M)",
+                "url": "https://autotijd.be/fr/prix/bmw/1-reeks",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 7,6–8,1 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 173–184 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition M, barème 2024-11 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW Série 1 M135 xDrive",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/1-reeks/m135-xdrive-awd-4392",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW Série 1 M135 xDrive",
+              "url": "https://autotijd.be/fr/dimensions/bmw/1-reeks/m135-xdrive-awd-4392",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/1-reeks",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique BMW Série 1",
+          "url": "https://autotijd.be/fr/fiches-techniques/bmw/1-reeks",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges BMW Série 1",
+          "url": "https://autotijd.be/fr/prix/bmw/1-reeks",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "bmw-x1-u11",
+      "modelId": "bmw-x1",
+      "brandId": "bmw",
+      "modelName": "X1",
+      "name": "BMW X1 (U11)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact premium (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2023-02 BMW U11-X1 s18d blue-green.jpg",
+          "caption": "BMW X1 sDrive18d (U11), 2023",
+          "depicts": "BMW X1 sDrive18d (U11), 2023, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW X1 U11 sDrive18d 2023 (1).jpg",
+          "caption": "BMW X1 sDrive18d (U11), 2023",
+          "depicts": "BMW X1 sDrive18d (U11), 2023, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le BMW X1 de troisième génération (U11) est le SUV compact de BMW, décliné en essence, diesel, hybride rechargeable et 100 % électrique (iX1). C'est l'un des modèles BMW les plus vendus en Europe.",
+        "positioning": "SUV d'entrée de gamme de BMW, sous le X3 ; base technique du X2 (U10). Rival des Mercedes GLA, Audi Q3 et Volvo XC40.",
+        "technicalFacts": [
+          "Longueur de 4 500 mm et empattement de 2 692 mm (Autotijd, versions thermiques).",
+          "Même carrosserie pour les versions thermiques, hybrides rechargeables et électriques (iX1).",
+          "iX1 : batterie de 66,5 kWh bruts et charge rapide DC jusqu'à 130 kW (Autotijd)."
+        ],
+        "pros": [
+          "Une des gammes de motorisations les plus complètes du segment.",
+          "Coffre jusqu'à 540 litres sur les versions thermiques non électrifiées (Autotijd).",
+          "Version électrique iX1 qui partage l'habitabilité du X1."
+        ],
+        "differentiators": [
+          "Offre simultanée essence, diesel, hybride rechargeable et électrique sur une même carrosserie."
+        ],
+        "pricePositioning": "De 40 300 € (sDrive18i) à 62 850 € (iX1 xDrive30 M Sport) en Belgique (barème février 2025, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Coffre réduit à 490 litres sur les hybrides rechargeables et l'iX1 (Autotijd).",
+          "L'iX1 est limité à 170–180 km/h."
+        ]
+      },
+      "variants": [
+        {
+          "id": "bmw-x1-u11-sdrive18d",
+          "name": "sDrive18d (150 ch)",
+          "tier": "entry",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "4 cylindres en ligne",
+            "displacementCc": 1995
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 360,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 8.9,
+          "topSpeedKmh": 210,
+          "consumption": {
+            "value": 4.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 129,
+          "weightKg": 1575,
+          "dimensions": {
+            "lengthMm": 4500,
+            "widthMm": 1845,
+            "heightMm": 1642,
+            "wheelbaseMm": 2692
+          },
+          "seats": 5,
+          "trunkL": 540,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 43050,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-02",
+              "source": {
+                "label": "Autotijd.be – prix belges (version de base)",
+                "url": "https://autotijd.be/fr/prix/bmw/x1",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 4,9–5,5 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 129–144 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition version de base, barème 2025-02 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW X1 sDrive18d",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/x1/sdrive18d-4781",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW X1 sDrive18d",
+              "url": "https://autotijd.be/fr/dimensions/bmw/x1/sdrive18d-4781",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/x1",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bmw-x1-u11-xdrive30e",
+          "name": "xDrive30e (326 ch, hybride rechargeable)",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "3 cylindres en ligne + moteur électrique (hybride rechargeable)",
+            "displacementCc": 1499,
+            "electricMotors": 1
+          },
+          "powerHp": 326,
+          "powerKw": 240,
+          "torqueNm": 477,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 5.6,
+          "topSpeedKmh": 205,
+          "consumption": {
+            "value": 0.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 85,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 16,
+          "weightKg": 1860,
+          "dimensions": {
+            "lengthMm": 4500,
+            "widthMm": 1845,
+            "heightMm": 1630,
+            "wheelbaseMm": 2692
+          },
+          "seats": 5,
+          "trunkL": 490,
+          "equipmentHighlights": [
+            "Batterie de 16,3 kWh (capacité brute ; capacité nette non publiée dans la source consultée)",
+            "Chargeur embarqué AC 7,4 kW",
+            "Consommation électrique WLTP 18,2–22,0 kWh/100 km"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 55800,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-02",
+              "source": {
+                "label": "Autotijd.be – prix belges (version de base)",
+                "url": "https://autotijd.be/fr/prix/bmw/x1",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance et couple indiqués = valeurs système. Consommation WLTP 0,7–1,1 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 16–24 g/km ; valeur basse retenue. Autonomie électrique WLTP 71–85 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition version de base, barème 2025-02 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW X1 xDrive30e",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/x1/xdrive30e-awd-3695",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW X1 xDrive30e",
+              "url": "https://autotijd.be/fr/dimensions/bmw/x1/xdrive30e-awd-3695",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/x1",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bmw-x1-u11-ix1-xdrive30",
+          "name": "iX1 xDrive30 (313 ch, électrique)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "2 moteurs électriques",
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "powerHp": 313,
+          "powerKw": 230,
+          "torqueNm": 494,
+          "drivetrain": "awd",
+          "gearbox": "Automatique, 1 rapport",
+          "accel0100s": 5.6,
+          "topSpeedKmh": 180,
+          "consumption": {
+            "value": 16.8,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 440,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 130,
+            "dc10to80Min": 29
+          },
+          "co2Gkm": null,
+          "weightKg": 2010,
+          "dimensions": {
+            "lengthMm": 4500,
+            "widthMm": 1845,
+            "heightMm": 1616,
+            "wheelbaseMm": 2692
+          },
+          "seats": 5,
+          "trunkL": 490,
+          "equipmentHighlights": [
+            "Batterie de 66,5 kWh (capacité brute ; capacité nette non publiée dans la source consultée)",
+            "Chargeur embarqué AC 11 kW, charge rapide DC 130 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 58900,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-02",
+              "source": {
+                "label": "Autotijd.be – prix belges (version de base)",
+                "url": "https://autotijd.be/fr/prix/bmw/x1",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 16,8–18,1 kWh/100 km selon équipement ; valeur basse retenue. Autonomie électrique WLTP 417–440 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). CO2 non indiqué sur la page Autotijd de cette version. Prix belge TTC de la finition version de base, barème 2025-02 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW iX1 xDrive30",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/ix1/xdrive30-awd-5309",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW iX1 xDrive30",
+              "url": "https://autotijd.be/fr/dimensions/bmw/ix1/xdrive30-awd-5309",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/x1",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique BMW X1 / iX1",
+          "url": "https://autotijd.be/fr/fiches-techniques/bmw/x1",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges BMW X1 / iX1",
+          "url": "https://autotijd.be/fr/prix/bmw/x1",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "bmw-serie-3-g20",
+      "modelId": "bmw-serie-3",
+      "brandId": "bmw",
+      "modelName": "Série 3",
+      "name": "BMW Série 3 Berline (G20, restylée)",
+      "yearsLabel": "2019 –",
+      "startYear": 2019,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Berline familiale premium (segment D)",
+      "bodyStyles": [
+        "Berline 4 portes"
+      ],
+      "categories": [
+        "family-sedan",
+        "sport-sedan"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "driving-pleasure",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Romanian Police BMW 3 Series G20 LCI 1 (cropped).jpg",
+          "caption": "BMW Série 3 Berline (G20 restylée) de la police roumaine",
+          "depicts": "BMW Série 3 Berline (G20, restylée), livrée de police roumaine",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La BMW Série 3 Berline G20, lancée en 2019 et restylée en 2022, reste la référence propulsion de la berline premium moyenne. Elle est proposée en essence, diesel, hybride rechargeable et en version M Performance.",
+        "positioning": "Berline moyenne de BMW, entre Série 1 et Série 5 ; rivale historique de la Mercedes Classe C et de l'Audi A4.",
+        "technicalFacts": [
+          "Architecture propulsion, transmission intégrale xDrive en option ; boîte automatique à 8 rapports (Autotijd).",
+          "Longueur de 4 713 mm et empattement de 2 851 mm (Autotijd).",
+          "330e : autonomie électrique WLTP jusqu'à 101 km selon Autotijd."
+        ],
+        "pros": [
+          "Comportement routier de propulsion apprécié.",
+          "Hybride rechargeable à grande autonomie électrique pour la catégorie.",
+          "Six cylindres en ligne toujours au catalogue (M340i, M340d)."
+        ],
+        "differentiators": [
+          "Une des dernières berlines premium du segment D à conserver des six cylindres en ligne hors modèles M."
+        ],
+        "pricePositioning": "De 41 000 € (318i) à 74 225 € (M340i xDrive) en Belgique, hors M3 (barème mars 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Coffre réduit à 375 litres sur la 330e (480 litres sinon) selon Autotijd.",
+          "Places arrière moins spacieuses que celles d'une Série 5."
+        ]
+      },
+      "variants": [
+        {
+          "id": "bmw-serie-3-g20-320d",
+          "name": "320d (190 ch)",
+          "tier": "entry",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "4 cylindres en ligne micro-hybride",
+            "displacementCc": 1995,
+            "electricMotors": 1
+          },
+          "powerHp": 190,
+          "powerKw": 140,
+          "torqueNm": 400,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 6.9,
+          "topSpeedKmh": 235,
+          "consumption": {
+            "value": 4.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 129,
+          "weightKg": 1595,
+          "dimensions": {
+            "lengthMm": 4713,
+            "widthMm": 1827,
+            "heightMm": 1440,
+            "wheelbaseMm": 2851
+          },
+          "seats": 5,
+          "trunkL": 480,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 48950,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges (version de base)",
+                "url": "https://autotijd.be/fr/prix/bmw/3-reeks-berline",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Micro-hybridation (« MHEV ») selon Autotijd ; puissance et couple indiqués = valeurs système. Consommation WLTP 4,9–5,6 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 129–147 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition version de base, barème 2024-03 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW 320d",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/3-reeks-berline/320d-4384",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW 320d",
+              "url": "https://autotijd.be/fr/dimensions/bmw/3-reeks-berline/320d-4384",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/3-reeks-berline",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bmw-serie-3-g20-330e",
+          "name": "330e (292 ch, hybride rechargeable)",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne + moteur électrique (hybride rechargeable)",
+            "displacementCc": 1998,
+            "electricMotors": 1
+          },
+          "powerHp": 292,
+          "powerKw": 215,
+          "torqueNm": 420,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 5.9,
+          "topSpeedKmh": 230,
+          "consumption": {
+            "value": 0.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 101,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 19,
+          "weightKg": 1835,
+          "dimensions": {
+            "lengthMm": 4713,
+            "widthMm": 1827,
+            "heightMm": 1446,
+            "wheelbaseMm": 2851
+          },
+          "seats": 5,
+          "trunkL": 375,
+          "equipmentHighlights": [
+            "Chargeur embarqué AC 11 kW",
+            "Consommation électrique WLTP 20,7–23,4 kWh/100 km"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 57000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges (version de base)",
+                "url": "https://autotijd.be/fr/prix/bmw/3-reeks-berline",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance et couple indiqués = valeurs système. Consommation WLTP 0,8–1,1 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 19–25 g/km ; valeur basse retenue. Autonomie électrique WLTP 85–101 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition version de base, barème 2024-03 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW 330e",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/3-reeks-berline/330e-4376",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW 330e",
+              "url": "https://autotijd.be/fr/dimensions/bmw/3-reeks-berline/330e-4376",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/3-reeks-berline",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bmw-serie-3-g20-m340i-xdrive",
+          "name": "M340i xDrive (374 ch)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "6 cylindres en ligne micro-hybride",
+            "displacementCc": 2998,
+            "electricMotors": 1
+          },
+          "powerHp": 374,
+          "powerKw": 275,
+          "torqueNm": 500,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 4.4,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 7.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 177,
+          "weightKg": 1725,
+          "dimensions": {
+            "lengthMm": 4714,
+            "widthMm": 1827,
+            "heightMm": 1440,
+            "wheelbaseMm": 2851
+          },
+          "seats": 5,
+          "trunkL": 480,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 74225,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges (M)",
+                "url": "https://autotijd.be/fr/prix/bmw/3-reeks-berline",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Micro-hybridation (« MHEV ») selon Autotijd ; puissance et couple indiqués = valeurs système. Consommation WLTP 7,8–8,5 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 177–192 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition M, barème 2024-03 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW M340i xDrive",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/3-reeks-berline/m340i-xdrive-awd-4382",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW M340i xDrive",
+              "url": "https://autotijd.be/fr/dimensions/bmw/3-reeks-berline/m340i-xdrive-awd-4382",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/3-reeks-berline",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique BMW Série 3 Berline",
+          "url": "https://autotijd.be/fr/fiches-techniques/bmw/3-reeks-berline",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges BMW Série 3 Berline",
+          "url": "https://autotijd.be/fr/prix/bmw/3-reeks-berline",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "bmw-x3-g45",
+      "modelId": "bmw-x3",
+      "brandId": "bmw",
+      "modelName": "X3",
+      "name": "BMW X3 (G45)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV familial premium (segment D)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "family",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:BMW G45 X3 20 xDrive M Sport Alpine White (1).jpg",
+          "caption": "BMW X3 20 xDrive M Sport (G45)",
+          "depicts": "BMW X3 20 xDrive M Sport (G45), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW G45 X3 M50 DSC 7047.jpg",
+          "caption": "BMW X3 M50 (G45)",
+          "depicts": "BMW X3 M50 (G45), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le BMW X3 de quatrième génération (G45) est le SUV familial de BMW, uniquement en transmission intégrale xDrive en Belgique. Il est proposé en essence micro-hybride, diesel, hybride rechargeable et en version M50.",
+        "positioning": "SUV moyen de BMW, entre X1 et X5 ; l'équivalent électrique est l'iX3. Rival du Mercedes GLC et de l'Audi Q5.",
+        "technicalFacts": [
+          "Longueur de 4 755 mm, largeur de 1 920 mm et empattement de 2 865 mm (Autotijd).",
+          "Toutes les versions listées par Autotijd sont à transmission intégrale et boîte automatique à 8 rapports.",
+          "X3 30e xDrive : batterie de 19,7 kWh bruts et autonomie électrique WLTP jusqu'à 90 km (Autotijd)."
+        ],
+        "pros": [
+          "Gamme cohérente, du 20 xDrive au M50 xDrive de 398 ch.",
+          "Coffre de 570 litres sur les versions non hybrides rechargeables (Autotijd).",
+          "Six cylindres en ligne sur le M50 et le 40d."
+        ],
+        "differentiators": [
+          "Transmission intégrale de série sur toute la gamme belge."
+        ],
+        "pricePositioning": "De 57 500 € (20 xDrive) à 83 100 € (M50 xDrive) en Belgique (barème février 2025, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Coffre ramené à 460 litres sur l'hybride rechargeable (Autotijd).",
+          "Poids proche de deux tonnes sur toutes les versions."
+        ]
+      },
+      "variants": [
+        {
+          "id": "bmw-x3-g45-20-xdrive",
+          "name": "20 xDrive (208 ch)",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne micro-hybride",
+            "displacementCc": 1998,
+            "electricMotors": 1
+          },
+          "powerHp": 208,
+          "powerKw": 153,
+          "torqueNm": 330,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 7.8,
+          "topSpeedKmh": 215,
+          "consumption": {
+            "value": 6.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 156,
+          "weightKg": 1930,
+          "dimensions": {
+            "lengthMm": 4755,
+            "widthMm": 1920,
+            "heightMm": 1660,
+            "wheelbaseMm": 2865
+          },
+          "seats": 5,
+          "trunkL": 570,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 57500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-02",
+              "source": {
+                "label": "Autotijd.be – prix belges (version de base)",
+                "url": "https://autotijd.be/fr/prix/bmw/x3",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Micro-hybridation (« MHEV ») selon Autotijd ; puissance et couple indiqués = valeurs système. Consommation WLTP 6,9–7,6 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 156–172 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition version de base, barème 2025-02 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW X3 20 xDrive",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/x3/20-xdrive-awd-4449",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW X3 20 xDrive",
+              "url": "https://autotijd.be/fr/dimensions/bmw/x3/20-xdrive-awd-4449",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/x3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bmw-x3-g45-30e-xdrive",
+          "name": "30e xDrive (299 ch, hybride rechargeable)",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne + moteur électrique (hybride rechargeable)",
+            "displacementCc": 1998,
+            "electricMotors": 1
+          },
+          "powerHp": 299,
+          "powerKw": 220,
+          "torqueNm": 450,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 6.2,
+          "topSpeedKmh": 215,
+          "consumption": {
+            "value": 0.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 90,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 21,
+          "weightKg": 2140,
+          "dimensions": {
+            "lengthMm": 4755,
+            "widthMm": 1920,
+            "heightMm": 1660,
+            "wheelbaseMm": 2865
+          },
+          "seats": 5,
+          "trunkL": 460,
+          "equipmentHighlights": [
+            "Batterie de 19,7 kWh (capacité brute ; capacité nette non publiée dans la source consultée)",
+            "Chargeur embarqué AC 11 kW",
+            "Consommation électrique WLTP 22,3–24,0 kWh/100 km"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 69350,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-02",
+              "source": {
+                "label": "Autotijd.be – prix belges (version de base)",
+                "url": "https://autotijd.be/fr/prix/bmw/x3",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance et couple indiqués = valeurs système. Consommation WLTP 0,9–1,1 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 21–26 g/km ; valeur basse retenue. Autonomie électrique WLTP 81–90 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition version de base, barème 2025-02 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW X3 30e xDrive",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/x3/30e-xdrive-awd-4448",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW X3 30e xDrive",
+              "url": "https://autotijd.be/fr/dimensions/bmw/x3/30e-xdrive-awd-4448",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/x3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bmw-x3-g45-m50-xdrive",
+          "name": "M50 xDrive (398 ch)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "6 cylindres en ligne micro-hybride",
+            "displacementCc": 2998,
+            "electricMotors": 1
+          },
+          "powerHp": 398,
+          "powerKw": 293,
+          "torqueNm": 580,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 4.6,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 7.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 175,
+          "weightKg": 2055,
+          "dimensions": {
+            "lengthMm": 4755,
+            "widthMm": 1920,
+            "heightMm": 1660,
+            "wheelbaseMm": 2865
+          },
+          "seats": 5,
+          "trunkL": 570,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 83100,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-02",
+              "source": {
+                "label": "Autotijd.be – prix belges (M)",
+                "url": "https://autotijd.be/fr/prix/bmw/x3",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Micro-hybridation (« MHEV ») selon Autotijd ; puissance et couple indiqués = valeurs système. Consommation WLTP 7,7–8,3 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 175–189 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition M, barème 2025-02 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW X3 M50 xDrive",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/x3/m50-xdrive-awd-4450",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW X3 M50 xDrive",
+              "url": "https://autotijd.be/fr/dimensions/bmw/x3/m50-xdrive-awd-4450",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/x3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique BMW X3",
+          "url": "https://autotijd.be/fr/fiches-techniques/bmw/x3",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges BMW X3",
+          "url": "https://autotijd.be/fr/prix/bmw/x3",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "bmw-serie-5-g60",
+      "modelId": "bmw-serie-5",
+      "brandId": "bmw",
+      "modelName": "Série 5",
+      "name": "BMW Série 5 Berline (G60) et i5",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Grande routière premium (segment E)",
+      "bodyStyles": [
+        "Berline 4 portes"
+      ],
+      "categories": [
+        "family-sedan",
+        "luxury"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "daily",
+        "travel",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:BMW 5-series (G60) Washington DC Metro Area, USA.jpg",
+          "caption": "BMW Série 5 (G60) aux États-Unis",
+          "depicts": "BMW Série 5 (G60) aux États-Unis, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La BMW Série 5 de huitième génération (G60) est proposée pour la première fois en version 100 % électrique, l'i5, aux côtés des motorisations diesel et hybrides rechargeables. Elle dépasse les 5 mètres de long.",
+        "positioning": "Grande berline routière de BMW, entre Série 3 et Série 7 ; rivale de la Mercedes Classe E et de l'Audi A6.",
+        "technicalFacts": [
+          "Longueur de 5 060 mm et empattement de 2 995 mm (Autotijd).",
+          "i5 : charge rapide DC jusqu'à 205 kW selon Autotijd.",
+          "i5 M60 xDrive : 601 ch et 820 Nm, 0 à 100 km/h en 3,8 s (Autotijd)."
+        ],
+        "pros": [
+          "Choix rare entre diesel, hybride rechargeable et électrique dans la même carrosserie.",
+          "Coffre de 520 litres sur les versions thermiques (Autotijd).",
+          "i5 M60 très performant pour une berline électrique de ce gabarit."
+        ],
+        "differentiators": [
+          "Berline du segment E proposée à la fois en thermique et en électrique sous la même carrosserie."
+        ],
+        "pricePositioning": "De 59 900 € (520i) à 109 300 € (i5 M60 xDrive) en Belgique, hors M5 (barème avril 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Gabarit encombrant en ville (plus de 5 m).",
+          "Poids de 2,3 tonnes pour l'i5 M60 (Autotijd)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "bmw-serie-5-g60-520d",
+          "name": "520d (197 ch)",
+          "tier": "entry",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "4 cylindres en ligne micro-hybride",
+            "displacementCc": 1995,
+            "electricMotors": 1
+          },
+          "powerHp": 197,
+          "powerKw": 145,
+          "torqueNm": 400,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 7.3,
+          "topSpeedKmh": 233,
+          "consumption": {
+            "value": 5.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 133,
+          "weightKg": 1850,
+          "dimensions": {
+            "lengthMm": 5060,
+            "widthMm": 1900,
+            "heightMm": 1515,
+            "wheelbaseMm": 2995
+          },
+          "seats": 5,
+          "trunkL": 520,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 60900,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – prix belges (version de base)",
+                "url": "https://autotijd.be/fr/prix/bmw/5-reeks-berline",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Micro-hybridation (« MHEV ») selon Autotijd ; puissance et couple indiqués = valeurs système. Consommation WLTP 5,1–5,6 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 133–147 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition version de base, barème 2024-04 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW 520d",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/5-reeks-berline/520d-197-hp-3973",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW 520d",
+              "url": "https://autotijd.be/fr/dimensions/bmw/5-reeks-berline/520d-197-hp-3973",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/5-reeks-berline",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bmw-serie-5-g60-530e",
+          "name": "530e (299 ch, hybride rechargeable)",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne + moteur électrique (hybride rechargeable)",
+            "displacementCc": 1998,
+            "electricMotors": 1
+          },
+          "powerHp": 299,
+          "powerKw": 220,
+          "torqueNm": 450,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 6.3,
+          "topSpeedKmh": 230,
+          "consumption": {
+            "value": 0.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 103,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 13,
+          "weightKg": 2005,
+          "dimensions": {
+            "lengthMm": 5060,
+            "widthMm": 1900,
+            "heightMm": 1515,
+            "wheelbaseMm": 2995
+          },
+          "seats": 5,
+          "trunkL": 520,
+          "equipmentHighlights": [
+            "Batterie de 22,1 kWh (capacité brute ; capacité nette non publiée dans la source consultée)",
+            "Chargeur embarqué AC 7,4 kW",
+            "Consommation électrique WLTP 19,9–21,7 kWh/100 km"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 68850,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – prix belges (version de base)",
+                "url": "https://autotijd.be/fr/prix/bmw/5-reeks-berline",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance et couple indiqués = valeurs système. Consommation WLTP 0,6–0,8 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 13–17 g/km ; valeur basse retenue. Autonomie électrique WLTP 93–103 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition version de base, barème 2024-04 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW 530e",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/5-reeks-berline/530e-4475",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW 530e",
+              "url": "https://autotijd.be/fr/dimensions/bmw/5-reeks-berline/530e-4475",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/5-reeks-berline",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bmw-serie-5-g60-i5-m60-xdrive",
+          "name": "i5 M60 xDrive (601 ch, électrique)",
+          "tier": "sport",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "2 moteurs électriques",
+            "displacementCc": null,
+            "electricMotors": 2
+          },
+          "powerHp": 601,
+          "powerKw": 442,
+          "torqueNm": 820,
+          "drivetrain": "awd",
+          "gearbox": "Automatique, 1 rapport",
+          "accel0100s": 3.8,
+          "topSpeedKmh": 230,
+          "consumption": {
+            "value": 18.2,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 516,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 205,
+            "dc10to80Min": 30
+          },
+          "co2Gkm": 0,
+          "weightKg": 2305,
+          "dimensions": {
+            "lengthMm": 5060,
+            "widthMm": 1900,
+            "heightMm": 1505,
+            "wheelbaseMm": 2995
+          },
+          "seats": 5,
+          "trunkL": 490,
+          "equipmentHighlights": [
+            "Chargeur embarqué AC 22 kW, charge rapide DC 205 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 109300,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – prix belges (M)",
+                "url": "https://autotijd.be/fr/prix/bmw/5-reeks-berline",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 18,2–20,6 kWh/100 km selon équipement ; valeur basse retenue. Autonomie électrique WLTP 455–516 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition M, barème 2024-04 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW i5 M60 xDrive",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/i5/m60-xdrive-awd-5400",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW i5 M60 xDrive",
+              "url": "https://autotijd.be/fr/dimensions/bmw/i5/m60-xdrive-awd-5400",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/5-reeks-berline",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique BMW Série 5 Berline / i5",
+          "url": "https://autotijd.be/fr/fiches-techniques/bmw/5-reeks-berline",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges BMW Série 5 Berline / i5",
+          "url": "https://autotijd.be/fr/prix/bmw/5-reeks-berline",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "bmw-x2-u10",
+      "modelId": "bmw-x2",
+      "brandId": "bmw",
+      "modelName": "X2",
+      "name": "BMW X2 (U10) et iX2",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV coupé compact premium (segment C)",
+      "bodyStyles": [
+        "SUV coupé 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:BMW X2 sDrive20i (U10, 2025) (54810381511).jpg",
+          "caption": "BMW X2 sDrive20i (U10), 2025",
+          "depicts": "BMW X2 sDrive20i (U10), 2025, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW U10 X2 M35i IMG 9921.jpg",
+          "caption": "BMW X2 M35i (U10)",
+          "depicts": "BMW X2 M35i (U10), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le BMW X2 de deuxième génération (U10) adopte une silhouette de SUV coupé et dérive du X1 (U11). Il existe en essence, diesel et en version électrique iX2.",
+        "positioning": "Variante plus stylée et plus longue du X1 ; rivale du Mercedes GLA, de l'Audi Q3 Sportback et du Volvo EX30 en version électrique.",
+        "technicalFacts": [
+          "Longueur de 4 554 mm et empattement de 2 692 mm, identique à celui du X1 (Autotijd).",
+          "iX2 : batterie de 66,5 kWh bruts et charge DC jusqu'à 130 kW (Autotijd).",
+          "M35i xDrive : 300 ch et 400 Nm (Autotijd)."
+        ],
+        "pros": [
+          "Coffre généreux pour un SUV coupé (515 à 560 litres en thermique selon Autotijd).",
+          "Version électrique iX2 avec une autonomie WLTP proche de 480 km.",
+          "M35i xDrive dynamique."
+        ],
+        "differentiators": [
+          "Ligne de SUV coupé sur base de X1, plus longue que ce dernier."
+        ],
+        "pricePositioning": "De 41 850 € (sDrive20i) à 63 470 € (iX2 xDrive30 M Sport) en Belgique (barème novembre 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Garde au toit arrière réduite par la ligne fuyante.",
+          "Poids élevé des versions électriques (près de 1,9 à 2,1 t selon Autotijd)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "bmw-x2-u10-sdrive18d",
+          "name": "sDrive18d (150 ch)",
+          "tier": "entry",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "4 cylindres en ligne",
+            "displacementCc": 1995
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 360,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 8.9,
+          "topSpeedKmh": 210,
+          "consumption": {
+            "value": 5.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 133,
+          "weightKg": 1675,
+          "dimensions": {
+            "lengthMm": 4554,
+            "widthMm": 1845,
+            "heightMm": 1690,
+            "wheelbaseMm": 2692
+          },
+          "seats": 5,
+          "trunkL": 560,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 42650,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges (version de base)",
+                "url": "https://autotijd.be/fr/prix/bmw/x2",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 5,1–5,5 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 133–145 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition version de base, barème 2024-11 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW X2 sDrive18d",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/x2/sdrive18d-150-hp-4061",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW X2 sDrive18d",
+              "url": "https://autotijd.be/fr/dimensions/bmw/x2/sdrive18d-150-hp-4061",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/x2",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bmw-x2-u10-ix2-edrive20",
+          "name": "iX2 eDrive20 (204 ch, électrique)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 250,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique, 1 rapport",
+          "accel0100s": 8.6,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 15.3,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 478,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 130,
+            "dc10to80Min": 29
+          },
+          "co2Gkm": 0,
+          "weightKg": 1885,
+          "dimensions": {
+            "lengthMm": 4554,
+            "widthMm": 1845,
+            "heightMm": 1560,
+            "wheelbaseMm": 2692
+          },
+          "seats": 5,
+          "trunkL": 525,
+          "equipmentHighlights": [
+            "Batterie de 66,5 kWh (capacité brute ; capacité nette non publiée dans la source consultée)",
+            "Chargeur embarqué AC 11 kW, charge rapide DC 130 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 51450,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges (version de base)",
+                "url": "https://autotijd.be/fr/prix/bmw/x2",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 15,3–16,9 kWh/100 km selon équipement ; valeur basse retenue. Autonomie électrique WLTP 439–478 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Sur la liste de prix X2 d'Autotijd, cette ligne est libellée « iX1 eDrive20 204 ch » ; il s'agit de la version électrique du X2 (prix distinct de celui de l'iX1). Prix belge TTC de la finition version de base, barème 2024-11 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW iX2 eDrive20",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/x2/ix2-edrive20-4786",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW iX2 eDrive20",
+              "url": "https://autotijd.be/fr/dimensions/bmw/x2/ix2-edrive20-4786",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/x2",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bmw-x2-u10-m35i-xdrive",
+          "name": "M35i xDrive (300 ch)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne",
+            "displacementCc": 1998
+          },
+          "powerHp": 300,
+          "powerKw": 221,
+          "torqueNm": 400,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 5.4,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 7.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 174,
+          "weightKg": 1770,
+          "dimensions": {
+            "lengthMm": 4567,
+            "widthMm": 1845,
+            "heightMm": 1575,
+            "wheelbaseMm": 2692
+          },
+          "seats": 5,
+          "trunkL": 560,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 61800,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges (M)",
+                "url": "https://autotijd.be/fr/prix/bmw/x2",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 7,7–8,0 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 174–181 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition M, barème 2024-11 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique BMW X2 M35i xDrive",
+              "url": "https://autotijd.be/fr/fiches-techniques/bmw/x2/m35i-xdrive-300-hp-awd-4060",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions BMW X2 M35i xDrive",
+              "url": "https://autotijd.be/fr/dimensions/bmw/x2/m35i-xdrive-300-hp-awd-4060",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/bmw/x2",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique BMW X2 / iX2",
+          "url": "https://autotijd.be/fr/fiches-techniques/bmw/x2",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges BMW X2 / iX2",
+          "url": "https://autotijd.be/fr/prix/bmw/x2",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mercedes-benz-classe-a-w177",
+      "modelId": "mercedes-benz-classe-a",
+      "brandId": "mercedes-benz",
+      "modelName": "Classe A",
+      "name": "Mercedes-Benz Classe A (W177)",
+      "yearsLabel": "2018 –",
+      "startYear": 2018,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Compacte premium (segment C)",
+      "bodyStyles": [
+        "Berline 5 portes (hayon)"
+      ],
+      "categories": [
+        "compact"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mercedes-Benz A 180 (W177, 2023) (54813754079).jpg",
+          "caption": "Mercedes-Benz A 180 (W177) restylée, 2023",
+          "depicts": "Mercedes-Benz A 180 (W177) restylée, 2023, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Mercedes-Benz Classe A W177, lancée en 2018 et restylée en 2023, est la compacte d'entrée de gamme de Mercedes. Elle va du A 180 micro-hybride à l'AMG A 45 S de plus de 400 ch, en passant par l'hybride rechargeable A 250 e.",
+        "positioning": "Porte d'entrée de la gamme Mercedes ; rivale des BMW Série 1 et Audi A3 Sportback.",
+        "technicalFacts": [
+          "Longueur de 4 428 mm et empattement de 2 729 mm (Autotijd).",
+          "AMG A 45 S 4MATIC+ : 421 ch et 500 Nm, 0 à 100 km/h en 3,9 s selon Autotijd.",
+          "A 250 e : batterie de 15,6 kWh bruts et autonomie électrique WLTP jusqu'à 78 km (Autotijd)."
+        ],
+        "pros": [
+          "Gamme très étendue, du diesel 116 ch à l'AMG A 45 S.",
+          "Hybride rechargeable à bonne autonomie électrique pour une compacte.",
+          "AMG A 45 S parmi les compactes les plus puissantes du marché."
+        ],
+        "differentiators": [
+          "Une des rares compactes premium à proposer une hybride rechargeable et une version AMG de plus de 400 ch."
+        ],
+        "pricePositioning": "De 37 510 € (A 180 Business Line) à 75 020 € (AMG A 45 S) en Belgique (barème mai 2023, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Coffre limité (345 à 370 litres, 310 litres sur l'A 250 e selon Autotijd).",
+          "Génération en fin de carrière, lancée en 2018."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mercedes-benz-classe-a-w177-a-180",
+          "name": "A 180 (136 ch)",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne micro-hybride",
+            "displacementCc": 1332,
+            "electricMotors": 1
+          },
+          "powerHp": 136,
+          "powerKw": 100,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 9.2,
+          "topSpeedKmh": 215,
+          "consumption": {
+            "value": 5.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 133,
+          "weightKg": 1440,
+          "dimensions": {
+            "lengthMm": 4428,
+            "widthMm": 1796,
+            "heightMm": 1452,
+            "wheelbaseMm": 2729
+          },
+          "seats": 5,
+          "trunkL": 355,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 37510,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2023-05",
+              "source": {
+                "label": "Autotijd.be – prix belges (Business Line)",
+                "url": "https://autotijd.be/fr/prix/mercedes/a-klasse",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Micro-hybridation (« MHEV ») selon Autotijd ; puissance et couple indiqués = valeurs système. Consommation WLTP 5,9–6,4 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 133–145 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition Business Line, barème 2023-05 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mercedes A 180",
+              "url": "https://autotijd.be/fr/fiches-techniques/mercedes/a-klasse/a-180-136-hp-3655",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mercedes A 180",
+              "url": "https://autotijd.be/fr/dimensions/mercedes/a-klasse/a-180-136-hp-3655",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mercedes/a-klasse",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mercedes-benz-classe-a-w177-a-250-e",
+          "name": "A 250 e (218 ch, hybride rechargeable)",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne + moteur électrique (hybride rechargeable)",
+            "displacementCc": 1332,
+            "electricMotors": 1
+          },
+          "powerHp": 218,
+          "powerKw": 160,
+          "torqueNm": 450,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 7.4,
+          "topSpeedKmh": 225,
+          "consumption": {
+            "value": 0.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 78,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 19,
+          "weightKg": 1700,
+          "dimensions": {
+            "lengthMm": 4428,
+            "widthMm": 1796,
+            "heightMm": 1452,
+            "wheelbaseMm": 2729
+          },
+          "seats": 5,
+          "trunkL": 310,
+          "equipmentHighlights": [
+            "Batterie de 15,6 kWh (capacité brute ; capacité nette non publiée dans la source consultée)",
+            "Consommation électrique WLTP 15,1–17,0 kWh/100 km"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 49610,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2023-05",
+              "source": {
+                "label": "Autotijd.be – prix belges (Business Line)",
+                "url": "https://autotijd.be/fr/prix/mercedes/a-klasse",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance et couple indiqués = valeurs système. Consommation WLTP 0,8–1,1 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 19–25 g/km ; valeur basse retenue. Autonomie électrique WLTP 70–78 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition Business Line, barème 2023-05 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mercedes A 250 e",
+              "url": "https://autotijd.be/fr/fiches-techniques/mercedes/a-klasse/a-250-e-218-hp-3659",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mercedes A 250 e",
+              "url": "https://autotijd.be/fr/dimensions/mercedes/a-klasse/a-250-e-218-hp-3659",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mercedes/a-klasse",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mercedes-benz-classe-a-w177-amg-a-45-s",
+          "name": "AMG A 45 S 4MATIC+ (421 ch)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne",
+            "displacementCc": 1991
+          },
+          "powerHp": 421,
+          "powerKw": 310,
+          "torqueNm": 500,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 3.9,
+          "topSpeedKmh": 270,
+          "consumption": {
+            "value": 9.0,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 205,
+          "weightKg": 1680,
+          "dimensions": {
+            "lengthMm": 4428,
+            "widthMm": 1796,
+            "heightMm": 1452,
+            "wheelbaseMm": 2729
+          },
+          "seats": 5,
+          "trunkL": 370,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 75020,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2023-05",
+              "source": {
+                "label": "Autotijd.be – prix belges (AMG)",
+                "url": "https://autotijd.be/fr/prix/mercedes/a-klasse",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 9,0–9,2 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 205–208 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). La liste de prix Autotijd indique 422 ch pour cette version, la fiche technique 421 ch / 310 kW ; la fiche technique est retenue. Prix belge TTC de la finition AMG, barème 2023-05 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mercedes-AMG A 45 S 4MATIC+",
+              "url": "https://autotijd.be/fr/fiches-techniques/mercedes/a-klasse/amg-a-45-s-4matic-421-hp-awd-3661",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mercedes-AMG A 45 S 4MATIC+",
+              "url": "https://autotijd.be/fr/dimensions/mercedes/a-klasse/amg-a-45-s-4matic-421-hp-awd-3661",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mercedes/a-klasse",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique Mercedes Classe A",
+          "url": "https://autotijd.be/fr/fiches-techniques/mercedes/a-klasse",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Mercedes Classe A",
+          "url": "https://autotijd.be/fr/prix/mercedes/a-klasse",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mercedes-benz-gla-h247",
+      "modelId": "mercedes-benz-gla",
+      "brandId": "mercedes-benz",
+      "modelName": "GLA",
+      "name": "Mercedes-Benz GLA (H247)",
+      "yearsLabel": "2020 –",
+      "startYear": 2020,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact premium (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mercedes-Benz GLA 200d 4MATIC (H247) front.jpg",
+          "caption": "Mercedes-Benz GLA 200 d 4MATIC (H247), vue avant",
+          "depicts": "Mercedes-Benz GLA 200 d 4MATIC (H247), vue avant, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:MERCEDES-AMG GLA 35 4MATIC (H247) China.jpg",
+          "caption": "Mercedes-AMG GLA 35 4MATIC (H247)",
+          "depicts": "Mercedes-AMG GLA 35 4MATIC (H247), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Mercedes-Benz GLA de deuxième génération (H247) est le SUV compact de Mercedes, dérivé de la Classe A. Il est proposé en essence, diesel, hybride rechargeable et en versions AMG.",
+        "positioning": "SUV d'entrée de gamme de Mercedes, sous le GLB et le GLC ; rival des BMW X1 et Audi Q3.",
+        "technicalFacts": [
+          "Longueur de 4 412 mm et empattement de 2 729 mm, identique à celui de la Classe A (Autotijd).",
+          "GLA 250 e : batterie de 15,6 kWh bruts et autonomie électrique WLTP jusqu'à 70 km (Autotijd).",
+          "Mercedes-AMG GLA 35 4MATIC : 306 ch et 400 Nm (Autotijd)."
+        ],
+        "pros": [
+          "Gabarit compact, facile en ville.",
+          "Gamme large de motorisations, jusqu'aux versions AMG.",
+          "Coffre correct pour la taille (425 à 435 litres selon Autotijd)."
+        ],
+        "differentiators": [
+          "Version AMG 45 S de 421 ch rare dans le segment des SUV compacts."
+        ],
+        "pricePositioning": "De 41 745 € (GLA 180 Essential Line) à 82 643 € (AMG 45 S) en Belgique (barème novembre 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Habitabilité arrière inférieure à celle du GLB.",
+          "Prix élevés face aux concurrents à équipement comparable."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mercedes-benz-gla-h247-200-d",
+          "name": "GLA 200 d (150 ch)",
+          "tier": "entry",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "4 cylindres en ligne",
+            "displacementCc": 1950
+          },
+          "powerHp": 150,
+          "powerKw": 110,
+          "torqueNm": 320,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 8.8,
+          "topSpeedKmh": 208,
+          "consumption": {
+            "value": 5.4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 140,
+          "weightKg": 1660,
+          "dimensions": {
+            "lengthMm": 4412,
+            "widthMm": 1834,
+            "heightMm": 1616,
+            "wheelbaseMm": 2729
+          },
+          "seats": 5,
+          "trunkL": 427,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 49610,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges (Luxury Line)",
+                "url": "https://autotijd.be/fr/prix/mercedes/gla",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 5,4–5,8 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 140–153 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition Luxury Line, barème 2024-11 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mercedes GLA 200 d",
+              "url": "https://autotijd.be/fr/fiches-techniques/mercedes/gla/200-d-150-hp-3986",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mercedes GLA 200 d",
+              "url": "https://autotijd.be/fr/dimensions/mercedes/gla/200-d-150-hp-3986",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mercedes/gla",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mercedes-benz-gla-h247-250-e",
+          "name": "GLA 250 e (218 ch, hybride rechargeable)",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "Essence 1 332 cm³ + moteur électrique (hybride rechargeable)",
+            "displacementCc": 1332,
+            "electricMotors": 1
+          },
+          "powerHp": 218,
+          "powerKw": 160,
+          "torqueNm": 450,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 7.9,
+          "topSpeedKmh": 210,
+          "consumption": {
+            "value": 1.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 70,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 25,
+          "weightKg": 1800,
+          "dimensions": {
+            "lengthMm": 4412,
+            "widthMm": 1834,
+            "heightMm": 1613,
+            "wheelbaseMm": 2729
+          },
+          "seats": 5,
+          "trunkL": 385,
+          "equipmentHighlights": [
+            "Batterie de 15,6 kWh (capacité brute ; capacité nette non publiée dans la source consultée)",
+            "Consommation électrique WLTP 19,0–20,4 kWh/100 km"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 55055,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges (Business Line)",
+                "url": "https://autotijd.be/fr/prix/mercedes/gla",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance et couple indiqués = valeurs système. Consommation WLTP 1,1–1,4 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 25–31 g/km ; valeur basse retenue. Autonomie électrique WLTP 63–70 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Nombre de cylindres non retenu : Autotijd indique 3 cylindres sur cette page mais 4 cylindres pour le même moteur de 1 332 cm³ sur la Classe A. Prix belge TTC de la finition Business Line, barème 2024-11 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mercedes GLA 250 e",
+              "url": "https://autotijd.be/fr/fiches-techniques/mercedes/gla/250-e-218-hp-3990",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mercedes GLA 250 e",
+              "url": "https://autotijd.be/fr/dimensions/mercedes/gla/250-e-218-hp-3990",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mercedes/gla",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mercedes-benz-gla-h247-amg-35-4matic",
+          "name": "AMG GLA 35 4MATIC (306 ch)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne micro-hybride",
+            "displacementCc": 1991,
+            "electricMotors": 1
+          },
+          "powerHp": 306,
+          "powerKw": 225,
+          "torqueNm": 400,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 8 rapports",
+          "accel0100s": 5.1,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 8.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 201,
+          "weightKg": 1750,
+          "dimensions": {
+            "lengthMm": 4412,
+            "widthMm": 1834,
+            "heightMm": 1616,
+            "wheelbaseMm": 2729
+          },
+          "seats": 5,
+          "trunkL": 435,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 67034,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges (AMG)",
+                "url": "https://autotijd.be/fr/prix/mercedes/gla",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Micro-hybridation (« MHEV ») selon Autotijd ; puissance et couple indiqués = valeurs système. Consommation WLTP 8,9–9,2 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 201–209 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition AMG, barème 2024-11 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mercedes-AMG GLA 35 4MATIC",
+              "url": "https://autotijd.be/fr/fiches-techniques/mercedes/gla/amg-35-4matic-306-hp-awd-3993",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mercedes-AMG GLA 35 4MATIC",
+              "url": "https://autotijd.be/fr/dimensions/mercedes/gla/amg-35-4matic-306-hp-awd-3993",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mercedes/gla",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique Mercedes GLA",
+          "url": "https://autotijd.be/fr/fiches-techniques/mercedes/gla",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Mercedes GLA",
+          "url": "https://autotijd.be/fr/prix/mercedes/gla",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mercedes-benz-glc-x254",
+      "modelId": "mercedes-benz-glc",
+      "brandId": "mercedes-benz",
+      "modelName": "GLC",
+      "name": "Mercedes-Benz GLC (X254)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV familial premium (segment D)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "family",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mercedes-Benz GLC 220 d 4MATIC (X254) front.jpg",
+          "caption": "Mercedes-Benz GLC 220 d 4MATIC (X254), vue avant",
+          "depicts": "Mercedes-Benz GLC 220 d 4MATIC (X254), vue avant, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes-Benz X254 GLC 300e 4MATIC AMG Line Obsidian Black (1).jpg",
+          "caption": "Mercedes-Benz GLC 300 e 4MATIC AMG Line (X254)",
+          "depicts": "Mercedes-Benz GLC 300 e 4MATIC AMG Line (X254), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Mercedes-Benz GLC de deuxième génération (X254) est le SUV familial de Mercedes et l'un des modèles les plus vendus de la marque. En Belgique, toute la gamme est en transmission intégrale 4MATIC, avec des hybrides rechargeables essence et diesel.",
+        "positioning": "SUV moyen de Mercedes, entre GLA/GLB et GLE ; rival des BMW X3 et Audi Q5.",
+        "technicalFacts": [
+          "Longueur de 4 716 mm et empattement de 2 888 mm (Autotijd).",
+          "Boîte automatique à 9 rapports sur toutes les versions (Autotijd).",
+          "GLC 300 e 4MATIC : batterie de 31,2 kWh bruts et autonomie électrique WLTP jusqu'à 130 km (Autotijd)."
+        ],
+        "pros": [
+          "Hybrides rechargeables à très grande autonomie électrique.",
+          "Coffre de 620 litres sur les versions non rechargeables (Autotijd).",
+          "Hybride rechargeable diesel (300 de) toujours proposée."
+        ],
+        "differentiators": [
+          "Une des rares offres d'hybride rechargeable diesel du marché."
+        ],
+        "pricePositioning": "De 58 080 € (200 4MATIC Business Line) à 122 573 € (AMG 63 S E Performance) en Belgique (barème mars 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Hybrides rechargeables lourdes (plus de 2,3 t selon Autotijd).",
+          "Coffre réduit à 470 litres sur les hybrides rechargeables (Autotijd)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mercedes-benz-glc-x254-220-d-4matic",
+          "name": "GLC 220 d 4MATIC (197 ch)",
+          "tier": "entry",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "4 cylindres en ligne micro-hybride",
+            "displacementCc": 1993,
+            "electricMotors": 1
+          },
+          "powerHp": 197,
+          "powerKw": 145,
+          "torqueNm": 440,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 9 rapports",
+          "accel0100s": 8.0,
+          "topSpeedKmh": 219,
+          "consumption": {
+            "value": 5.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 136,
+          "weightKg": 2000,
+          "dimensions": {
+            "lengthMm": 4716,
+            "widthMm": 1890,
+            "heightMm": 1640,
+            "wheelbaseMm": 2888
+          },
+          "seats": 5,
+          "trunkL": 620,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 60500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges (Business Line)",
+                "url": "https://autotijd.be/fr/prix/mercedes/glc",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Micro-hybridation (« MHEV ») selon Autotijd ; puissance et couple indiqués = valeurs système. Consommation WLTP 5,2–5,9 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 136–155 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition Business Line, barème 2024-03 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mercedes GLC 220 d 4MATIC",
+              "url": "https://autotijd.be/fr/fiches-techniques/mercedes/glc/220-d-4matic-197-hp-awd-3440",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mercedes GLC 220 d 4MATIC",
+              "url": "https://autotijd.be/fr/dimensions/mercedes/glc/220-d-4matic-197-hp-awd-3440",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mercedes/glc",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mercedes-benz-glc-x254-300-e-4matic",
+          "name": "GLC 300 e 4MATIC (313 ch, hybride rechargeable)",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres en ligne + moteur électrique (hybride rechargeable)",
+            "displacementCc": 1999,
+            "electricMotors": 1
+          },
+          "powerHp": 313,
+          "powerKw": 230,
+          "torqueNm": 550,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 9 rapports",
+          "accel0100s": 6.7,
+          "topSpeedKmh": 218,
+          "consumption": {
+            "value": 0.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 130,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 12,
+          "weightKg": 2355,
+          "dimensions": {
+            "lengthMm": 4716,
+            "widthMm": 1890,
+            "heightMm": 1648,
+            "wheelbaseMm": 2888
+          },
+          "seats": 5,
+          "trunkL": 470,
+          "equipmentHighlights": [
+            "Batterie de 31,2 kWh (capacité brute ; capacité nette non publiée dans la source consultée)",
+            "Consommation électrique WLTP 20,5–22,5 kWh/100 km"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 75020,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges (Business Line)",
+                "url": "https://autotijd.be/fr/prix/mercedes/glc",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance et couple indiqués = valeurs système. Consommation WLTP 0,5–0,6 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 12–15 g/km ; valeur basse retenue. Autonomie électrique WLTP 124–130 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition Business Line, barème 2024-03 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mercedes GLC 300 e 4MATIC",
+              "url": "https://autotijd.be/fr/fiches-techniques/mercedes/glc/300-e-4matic-313-hp-awd-3438",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mercedes GLC 300 e 4MATIC",
+              "url": "https://autotijd.be/fr/dimensions/mercedes/glc/300-e-4matic-313-hp-awd-3438",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mercedes/glc",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mercedes-benz-glc-x254-amg-43-4matic",
+          "name": "AMG GLC 43 4MATIC (421 ch)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne micro-hybride",
+            "displacementCc": 1991,
+            "electricMotors": 1
+          },
+          "powerHp": 421,
+          "powerKw": 310,
+          "torqueNm": 500,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 9 rapports",
+          "accel0100s": 4.8,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 9.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 223,
+          "weightKg": 1975,
+          "dimensions": {
+            "lengthMm": 4716,
+            "widthMm": 1890,
+            "heightMm": 1640,
+            "wheelbaseMm": 2888
+          },
+          "seats": 5,
+          "trunkL": 620,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 88693,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges (AMG)",
+                "url": "https://autotijd.be/fr/prix/mercedes/glc",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Micro-hybridation (« MHEV ») selon Autotijd ; puissance et couple indiqués = valeurs système. Consommation WLTP 9,8–10,2 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 223–232 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition AMG, barème 2024-03 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mercedes-AMG GLC 43 4MATIC",
+              "url": "https://autotijd.be/fr/fiches-techniques/mercedes/glc/amg-43-4matic-421-hp-awd-4025",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mercedes-AMG GLC 43 4MATIC",
+              "url": "https://autotijd.be/fr/dimensions/mercedes/glc/amg-43-4matic-421-hp-awd-4025",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mercedes/glc",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique Mercedes GLC",
+          "url": "https://autotijd.be/fr/fiches-techniques/mercedes/glc",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Mercedes GLC",
+          "url": "https://autotijd.be/fr/prix/mercedes/glc",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mercedes-benz-eqa-h243",
+      "modelId": "mercedes-benz-eqa",
+      "brandId": "mercedes-benz",
+      "modelName": "EQA",
+      "name": "Mercedes-Benz EQA (H243)",
+      "yearsLabel": "2021 –",
+      "startYear": 2021,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact électrique premium (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mercedes-Benz EQA 250 (H243) front.jpg",
+          "caption": "Mercedes-Benz EQA 250 (H243), vue avant",
+          "depicts": "Mercedes-Benz EQA 250 (H243), vue avant, modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes-Benz H243 EQA 250 AMG Line Denim Blue Metallic.jpg",
+          "caption": "Mercedes-Benz EQA 250 AMG Line (H243)",
+          "depicts": "Mercedes-Benz EQA 250 AMG Line (H243), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Mercedes-Benz EQA est la version 100 % électrique du GLA, commercialisée depuis 2021. Il est proposé en traction avant (250+) ou en transmission intégrale 4MATIC.",
+        "positioning": "SUV électrique d'entrée de gamme de Mercedes, sous l'EQB ; rival des BMW iX1, Audi Q4 e-tron et Volvo EX40.",
+        "technicalFacts": [
+          "Longueur de 4 463 mm et empattement de 2 729 mm (Autotijd).",
+          "EQA 250+ : batterie de 71 kWh bruts et autonomie WLTP jusqu'à 556 km (Autotijd).",
+          "Charge rapide DC jusqu'à 100 kW sur toutes les versions (Autotijd)."
+        ],
+        "pros": [
+          "Bonne autonomie de la version 250+.",
+          "Confort et finition dans la tradition Mercedes.",
+          "Format compact facile à vivre."
+        ],
+        "differentiators": [
+          "SUV électrique compact dérivé d'un modèle thermique (GLA), sans plateforme électrique dédiée."
+        ],
+        "pricePositioning": "De 53 240 € (250+ Essential Line) à 67 034 € (350 4MATIC AMG Line) en Belgique (barème novembre 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Coffre limité à 340 litres (Autotijd).",
+          "Vitesse maximale bridée à 160 km/h, poids supérieur à 2 tonnes (Autotijd).",
+          "Charge DC à 100 kW en retrait des modèles sur plateforme dédiée."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mercedes-benz-eqa-h243-250-plus",
+          "name": "EQA 250+ (190 ch)",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 190,
+          "powerKw": 140,
+          "torqueNm": 385,
+          "drivetrain": "fwd",
+          "gearbox": null,
+          "accel0100s": 8.6,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 14.6,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 556,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": 35
+          },
+          "co2Gkm": null,
+          "weightKg": 2055,
+          "dimensions": {
+            "lengthMm": 4463,
+            "widthMm": 1834,
+            "heightMm": 1612,
+            "wheelbaseMm": 2729
+          },
+          "seats": 5,
+          "trunkL": 340,
+          "equipmentHighlights": [
+            "Batterie de 71 kWh (capacité brute ; capacité nette non publiée dans la source consultée)",
+            "Chargeur embarqué AC 11 kW, charge rapide DC 100 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 53240,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges (Essential Line)",
+                "url": "https://autotijd.be/fr/prix/mercedes/eqa",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 14,6–16,4 kWh/100 km selon équipement ; valeur basse retenue. Autonomie électrique WLTP 497–556 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). CO2 et nombre de rapports non renseignés sur la page Autotijd. Prix belge TTC de la finition Essential Line, barème 2024-11 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mercedes EQA 250+",
+              "url": "https://autotijd.be/fr/fiches-techniques/mercedes/eqa/250plus-190-hp-4135",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mercedes EQA 250+",
+              "url": "https://autotijd.be/fr/dimensions/mercedes/eqa/250plus-190-hp-4135",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mercedes/eqa",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mercedes-benz-eqa-h243-300-4matic",
+          "name": "EQA 300 4MATIC (228 ch)",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Motorisation électrique 4MATIC (transmission intégrale)",
+            "displacementCc": null
+          },
+          "powerHp": 228,
+          "powerKw": 168,
+          "torqueNm": 390,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 7.7,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 17.8,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 432,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": 32
+          },
+          "co2Gkm": null,
+          "weightKg": 2110,
+          "dimensions": {
+            "lengthMm": 4463,
+            "widthMm": 1834,
+            "heightMm": 1612,
+            "wheelbaseMm": 2729
+          },
+          "seats": 5,
+          "trunkL": 340,
+          "equipmentHighlights": [
+            "Batterie de 67 kWh (capacité brute ; capacité nette non publiée dans la source consultée)",
+            "Chargeur embarqué AC 11 kW, charge rapide DC 100 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 61710,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges (Luxury Line)",
+                "url": "https://autotijd.be/fr/prix/mercedes/eqa",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 17,8–18,6 kWh/100 km selon équipement ; valeur basse retenue. Autonomie électrique WLTP 412–432 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). CO2 et nombre de moteurs non renseignés sur la page Autotijd. Prix belge TTC de la finition Luxury Line, barème 2024-11 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mercedes EQA 300 4MATIC",
+              "url": "https://autotijd.be/fr/fiches-techniques/mercedes/eqa/300-4matic-228-hp-awd-4136",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mercedes EQA 300 4MATIC",
+              "url": "https://autotijd.be/fr/dimensions/mercedes/eqa/300-4matic-228-hp-awd-4136",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mercedes/eqa",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mercedes-benz-eqa-h243-350-4matic",
+          "name": "EQA 350 4MATIC (292 ch)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Motorisation électrique 4MATIC (transmission intégrale)",
+            "displacementCc": null
+          },
+          "powerHp": 292,
+          "powerKw": 215,
+          "torqueNm": 520,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": 6.0,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 18.1,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 425,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 100,
+            "dc10to80Min": 32
+          },
+          "co2Gkm": null,
+          "weightKg": 2110,
+          "dimensions": {
+            "lengthMm": 4463,
+            "widthMm": 1834,
+            "heightMm": 1612,
+            "wheelbaseMm": 2729
+          },
+          "seats": 5,
+          "trunkL": 340,
+          "equipmentHighlights": [
+            "Batterie de 67 kWh (capacité brute ; capacité nette non publiée dans la source consultée)",
+            "Chargeur embarqué AC 11 kW, charge rapide DC 100 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 67034,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-11",
+              "source": {
+                "label": "Autotijd.be – prix belges (AMG Line)",
+                "url": "https://autotijd.be/fr/prix/mercedes/eqa",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 18,1–18,6 kWh/100 km selon équipement ; valeur basse retenue. Autonomie électrique WLTP 412–425 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). CO2 et nombre de moteurs non renseignés sur la page Autotijd. Prix belge TTC de la finition AMG Line, barème 2024-11 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique Mercedes EQA 350 4MATIC",
+              "url": "https://autotijd.be/fr/fiches-techniques/mercedes/eqa/350-4matic-292-hp-awd-4137",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions Mercedes EQA 350 4MATIC",
+              "url": "https://autotijd.be/fr/dimensions/mercedes/eqa/350-4matic-292-hp-awd-4137",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mercedes/eqa",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique Mercedes EQA",
+          "url": "https://autotijd.be/fr/fiches-techniques/mercedes/eqa",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges Mercedes EQA",
+          "url": "https://autotijd.be/fr/prix/mercedes/eqa",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mini-cooper-f66-j01",
+      "modelId": "mini-cooper",
+      "brandId": "mini",
+      "modelName": "Cooper",
+      "name": "MINI Cooper 3 portes (F66 / J01)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Citadine premium (segment B)",
+      "bodyStyles": [
+        "Berline 3 portes"
+      ],
+      "categories": [
+        "city"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:MINI F66 Cooper S Favoured 3 Door Midnight Black II (1).jpg",
+          "caption": "MINI Cooper S 3 portes thermique (F66)",
+          "depicts": "MINI Cooper S 3 portes thermique (F66), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:MINI J01 Cooper SE Favoured Blazing Blue (5).jpg",
+          "caption": "MINI Cooper SE électrique (J01)",
+          "depicts": "MINI Cooper SE électrique (J01), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La MINI Cooper 3 portes de nouvelle génération existe en deux familles techniques : thermique (F66) et 100 % électrique (J01). Les deux partagent le style et l'écran central rond, mais pas la plateforme.",
+        "positioning": "Modèle phare de MINI, sous l'Aceman et le Countryman ; rivale des Audi A1, Peugeot 208 et Renault 5 E-Tech pour l'électrique.",
+        "technicalFacts": [
+          "Thermique F66 : longueur de 3 876 mm et empattement de 2 495 mm ; électrique J01 : longueur de 3 858 mm et empattement de 2 526 mm (Autotijd).",
+          "Cooper S : 4 cylindres de 204 ch et 300 Nm, 0 à 100 km/h en 6,6 s (Autotijd).",
+          "Cooper SE : batterie de 54,2 kWh bruts et charge DC jusqu'à 95 kW (Autotijd)."
+        ],
+        "pros": [
+          "Agilité et format urbain.",
+          "Choix entre thermique et électrique sous un même style.",
+          "Prix d'appel contenu pour une marque premium (27 600 € en Belgique selon Autotijd)."
+        ],
+        "differentiators": [
+          "Seule citadine premium vendue simultanément en thermique et en électrique avec deux plateformes distinctes."
+        ],
+        "pricePositioning": "Thermique de 27 600 € (Cooper C) à 38 780 € (Cooper S JCW Trim) ; électrique de 34 500 € à 47 410 € en Belgique (Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Coffre de 210 litres seulement (Autotijd).",
+          "Places arrière d'appoint."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mini-cooper-f66-j01-cooper-c",
+          "name": "Cooper C (156 ch, thermique F66)",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne",
+            "displacementCc": 1499
+          },
+          "powerHp": 156,
+          "powerKw": 115,
+          "torqueNm": 230,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 7.7,
+          "topSpeedKmh": 225,
+          "consumption": {
+            "value": 5.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 133,
+          "weightKg": 1260,
+          "dimensions": {
+            "lengthMm": 3876,
+            "widthMm": 1744,
+            "heightMm": 1452,
+            "wheelbaseMm": 2495
+          },
+          "seats": 4,
+          "trunkL": 210,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 27600,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – prix belges (Essential Trim)",
+                "url": "https://autotijd.be/fr/prix/mini/3-deurs",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 5,9–6,2 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 133–140 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition Essential Trim, barème 2024-10 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique MINI Cooper C 3 portes",
+              "url": "https://autotijd.be/fr/fiches-techniques/mini/3-deurs/cooper-c-4919",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions MINI Cooper C 3 portes",
+              "url": "https://autotijd.be/fr/dimensions/mini/3-deurs/cooper-c-4919",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mini/3-deurs",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mini-cooper-f66-j01-cooper-s",
+          "name": "Cooper S (204 ch, thermique F66)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne",
+            "displacementCc": 1998
+          },
+          "powerHp": 204,
+          "powerKw": 150,
+          "torqueNm": 300,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 6.6,
+          "topSpeedKmh": 242,
+          "consumption": {
+            "value": 6.1,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 138,
+          "weightKg": 1285,
+          "dimensions": {
+            "lengthMm": 3876,
+            "widthMm": 1744,
+            "heightMm": 1452,
+            "wheelbaseMm": 2495
+          },
+          "seats": 4,
+          "trunkL": 210,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 31600,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-10",
+              "source": {
+                "label": "Autotijd.be – prix belges (Essential Trim)",
+                "url": "https://autotijd.be/fr/prix/mini/3-deurs",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 6,1–6,4 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 138–144 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition Essential Trim, barème 2024-10 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique MINI Cooper S 3 portes",
+              "url": "https://autotijd.be/fr/fiches-techniques/mini/3-deurs/cooper-s-4920",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions MINI Cooper S 3 portes",
+              "url": "https://autotijd.be/fr/dimensions/mini/3-deurs/cooper-s-4920",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mini/3-deurs",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mini-cooper-f66-j01-cooper-se",
+          "name": "Cooper SE (218 ch, électrique J01)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 218,
+          "powerKw": 160,
+          "torqueNm": 330,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique, 1 rapport",
+          "accel0100s": 6.7,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 14.1,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 402,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 95,
+            "dc10to80Min": 30
+          },
+          "co2Gkm": 0,
+          "weightKg": 1680,
+          "dimensions": {
+            "lengthMm": 3858,
+            "widthMm": 1756,
+            "heightMm": 1460,
+            "wheelbaseMm": 2526
+          },
+          "seats": 4,
+          "trunkL": 210,
+          "equipmentHighlights": [
+            "Batterie de 54,2 kWh (capacité brute ; capacité nette non publiée dans la source consultée)",
+            "Chargeur embarqué AC 11 kW, charge rapide DC 95 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 38500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be – prix belges (Essential Trim)",
+                "url": "https://autotijd.be/fr/prix/mini/cooper",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 14,1–14,7 kWh/100 km selon équipement ; valeur basse retenue. Autonomie électrique WLTP 387–402 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition Essential Trim, barème 2024-01 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique MINI Cooper SE",
+              "url": "https://autotijd.be/fr/fiches-techniques/mini/cooper/se-218-4113",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions MINI Cooper SE",
+              "url": "https://autotijd.be/fr/dimensions/mini/cooper/se-218-4113",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mini/cooper",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique MINI Cooper 3 portes",
+          "url": "https://autotijd.be/fr/fiches-techniques/mini/3-deurs",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges MINI Cooper 3 portes",
+          "url": "https://autotijd.be/fr/prix/mini/3-deurs",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges MINI Cooper 3 portes",
+          "url": "https://autotijd.be/fr/prix/mini/cooper",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mini-countryman-u25",
+      "modelId": "mini-countryman",
+      "brandId": "mini",
+      "modelName": "Countryman",
+      "name": "MINI Countryman (U25)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact premium (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mini Countryman (U25) IMG 8660.jpg",
+          "caption": "MINI Countryman (U25)",
+          "depicts": "MINI Countryman (U25), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mini Countryman (U25) John Cooper Works IMG 0034.jpg",
+          "caption": "MINI Countryman John Cooper Works (U25)",
+          "depicts": "MINI Countryman John Cooper Works (U25), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le MINI Countryman de troisième génération (U25) est le plus grand modèle de la marque. Il partage sa base technique avec le BMW X1 (U11) et existe en essence, diesel et électrique.",
+        "positioning": "SUV compact de MINI, au-dessus de l'Aceman ; rival des Audi Q3 et Volvo XC40.",
+        "technicalFacts": [
+          "Longueur de 4 444 mm et empattement de 2 692 mm, identique à celui du BMW X1 (Autotijd).",
+          "John Cooper Works ALL4 : 300 ch et 400 Nm, 0 à 100 km/h en 5,4 s (Autotijd).",
+          "Boîte automatique à 7 rapports sur les versions thermiques (Autotijd)."
+        ],
+        "pros": [
+          "Habitabilité et coffre (450 litres selon Autotijd) inédits chez MINI.",
+          "Version JCW de 300 ch.",
+          "Diesel encore proposé."
+        ],
+        "differentiators": [
+          "Seul MINI à proposer simultanément essence, diesel et électrique."
+        ],
+        "pricePositioning": "De 38 250 € (C Essential Trim) à 60 250 € (SE ALL4 JCW Trim) en Belgique (barème mars 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Gabarit qui s'éloigne de l'esprit citadin de la marque.",
+          "Prix proches de ceux du BMW X1."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mini-countryman-u25-c",
+          "name": "Countryman C (170 ch)",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne micro-hybride",
+            "displacementCc": 1499,
+            "electricMotors": 1
+          },
+          "powerHp": 170,
+          "powerKw": 125,
+          "torqueNm": 280,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 8.3,
+          "topSpeedKmh": 212,
+          "consumption": {
+            "value": 5.9,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 139,
+          "weightKg": 1545,
+          "dimensions": {
+            "lengthMm": 4444,
+            "widthMm": 1843,
+            "heightMm": 1661,
+            "wheelbaseMm": 2692
+          },
+          "seats": 5,
+          "trunkL": 450,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 38250,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges (Essential Trim)",
+                "url": "https://autotijd.be/fr/prix/mini/countryman",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Micro-hybridation (« MHEV ») selon Autotijd ; puissance et couple indiqués = valeurs système. Consommation WLTP 5,9–6,6 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 139–155 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition Essential Trim, barème 2024-03 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique MINI Countryman C",
+              "url": "https://autotijd.be/fr/fiches-techniques/mini/countryman/c-170-hp-4215",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions MINI Countryman C",
+              "url": "https://autotijd.be/fr/dimensions/mini/countryman/c-170-hp-4215",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mini/countryman",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mini-countryman-u25-d",
+          "name": "Countryman D (163 ch)",
+          "tier": "mid",
+          "powertrain": "diesel",
+          "engine": {
+            "architecture": "4 cylindres en ligne micro-hybride",
+            "displacementCc": 1995,
+            "electricMotors": 1
+          },
+          "powerHp": 163,
+          "powerKw": 120,
+          "torqueNm": 400,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 8.5,
+          "topSpeedKmh": 208,
+          "consumption": {
+            "value": 4.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 120,
+          "weightKg": 1620,
+          "dimensions": {
+            "lengthMm": 4444,
+            "widthMm": 1843,
+            "heightMm": 1661,
+            "wheelbaseMm": 2692
+          },
+          "seats": 5,
+          "trunkL": 450,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 41250,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges (Essential Trim)",
+                "url": "https://autotijd.be/fr/prix/mini/countryman",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Micro-hybridation (« MHEV ») selon Autotijd ; puissance et couple indiqués = valeurs système. Consommation WLTP 4,6–4,8 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 120–127 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition Essential Trim, barème 2024-03 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique MINI Countryman D",
+              "url": "https://autotijd.be/fr/fiches-techniques/mini/countryman/d-163-hp-4218",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions MINI Countryman D",
+              "url": "https://autotijd.be/fr/dimensions/mini/countryman/d-163-hp-4218",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mini/countryman",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mini-countryman-u25-jcw-all4",
+          "name": "John Cooper Works ALL4 (300 ch)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne",
+            "displacementCc": 1998
+          },
+          "powerHp": 300,
+          "powerKw": 221,
+          "torqueNm": 400,
+          "drivetrain": "awd",
+          "gearbox": "Automatique 7 rapports",
+          "accel0100s": 5.4,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 7.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 177,
+          "weightKg": 1660,
+          "dimensions": {
+            "lengthMm": 4447,
+            "widthMm": 1843,
+            "heightMm": 1645,
+            "wheelbaseMm": 2692
+          },
+          "seats": 5,
+          "trunkL": 505,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 54950,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – prix belges (John Cooper Works Trim)",
+                "url": "https://autotijd.be/fr/prix/mini/countryman",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 7,8–8,3 l/100 km selon équipement ; valeur basse retenue. CO2 WLTP 177–187 g/km ; valeur basse retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition John Cooper Works Trim, barème 2024-03 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique MINI Countryman JCW ALL4",
+              "url": "https://autotijd.be/fr/fiches-techniques/mini/countryman/jcw-all4-300-hp-awd-4216",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions MINI Countryman JCW ALL4",
+              "url": "https://autotijd.be/fr/dimensions/mini/countryman/jcw-all4-300-hp-awd-4216",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mini/countryman",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique MINI Countryman",
+          "url": "https://autotijd.be/fr/fiches-techniques/mini/countryman",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges MINI Countryman",
+          "url": "https://autotijd.be/fr/prix/mini/countryman",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mini-aceman-j05",
+      "modelId": "mini-aceman",
+      "brandId": "mini",
+      "modelName": "Aceman",
+      "name": "MINI Aceman (J05)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Crossover urbain électrique (segment B)",
+      "bodyStyles": [
+        "Crossover 5 portes"
+      ],
+      "categories": [
+        "city",
+        "suv"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mini J05 Aceman SE Favoured Rebel Red (1).jpg",
+          "caption": "MINI Aceman SE (J05)",
+          "depicts": "MINI Aceman SE (J05), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mini J05 Aceman Favoured Vescin Beige (1).jpg",
+          "caption": "MINI Aceman (J05)",
+          "depicts": "MINI Aceman (J05), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le MINI Aceman est un crossover urbain 100 % électrique lancé en 2024, placé entre la Cooper et le Countryman. Il partage sa technique avec la Cooper électrique (J01).",
+        "positioning": "Crossover électrique compact de MINI ; rival des Smart #1, Volvo EX30 et Jeep Avenger électrique.",
+        "technicalFacts": [
+          "Longueur de 4 079 mm et empattement de 2 606 mm (Autotijd).",
+          "Deux batteries : 42,5 kWh (E) ou 54,2 kWh bruts (SE), charge DC 75 ou 95 kW (Autotijd).",
+          "Autonomie WLTP jusqu'à 405 km pour la version SE (Autotijd)."
+        ],
+        "pros": [
+          "Format urbain avec cinq portes.",
+          "Autonomie correcte avec la grande batterie.",
+          "Prix d'appel belge à 36 500 € (Autotijd)."
+        ],
+        "differentiators": [
+          "MINI 100 % électrique à cinq portes, sans équivalent thermique."
+        ],
+        "pricePositioning": "De 36 500 € (E) à 40 500 € (SE) en finition Essential Trim en Belgique (barème avril 2024, Autotijd).",
+        "innovations": [],
+        "compromises": [
+          "Coffre de 300 litres (Autotijd).",
+          "Charge DC limitée à 75 kW sur la version E."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mini-aceman-j05-e",
+          "name": "Aceman E (184 ch)",
+          "tier": "entry",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 184,
+          "powerKw": 135,
+          "torqueNm": 290,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique, 1 rapport",
+          "accel0100s": 7.9,
+          "topSpeedKmh": 160,
+          "consumption": {
+            "value": 14.1,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 309,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 75,
+            "dc10to80Min": 29
+          },
+          "co2Gkm": 0,
+          "weightKg": 1645,
+          "dimensions": {
+            "lengthMm": 4079,
+            "widthMm": 1754,
+            "heightMm": 1514,
+            "wheelbaseMm": 2606
+          },
+          "seats": 5,
+          "trunkL": 300,
+          "equipmentHighlights": [
+            "Batterie de 42,5 kWh (capacité brute ; capacité nette non publiée dans la source consultée)",
+            "Chargeur embarqué AC 11 kW, charge rapide DC 75 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 36500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – prix belges (Essential Trim)",
+                "url": "https://autotijd.be/fr/prix/mini/aceman",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 14,1–14,7 kWh/100 km selon équipement ; valeur basse retenue. Autonomie électrique WLTP 298–309 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition Essential Trim, barème 2024-04 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique MINI Aceman E",
+              "url": "https://autotijd.be/fr/fiches-techniques/mini/aceman/e-184-4278",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions MINI Aceman E",
+              "url": "https://autotijd.be/fr/dimensions/mini/aceman/e-184-4278",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mini/aceman",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mini-aceman-j05-se",
+          "name": "Aceman SE (218 ch)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteur électrique avant",
+            "displacementCc": null,
+            "electricMotors": 1
+          },
+          "powerHp": 218,
+          "powerKw": 160,
+          "torqueNm": 330,
+          "drivetrain": "fwd",
+          "gearbox": "Automatique, 1 rapport",
+          "accel0100s": 7.1,
+          "topSpeedKmh": 170,
+          "consumption": {
+            "value": 14.0,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 405,
+          "batteryKwh": null,
+          "charging": {
+            "dcMaxKw": 95,
+            "dc10to80Min": 31
+          },
+          "co2Gkm": 0,
+          "weightKg": 1710,
+          "dimensions": {
+            "lengthMm": 4079,
+            "widthMm": 1754,
+            "heightMm": 1514,
+            "wheelbaseMm": 2606
+          },
+          "seats": 5,
+          "trunkL": 300,
+          "equipmentHighlights": [
+            "Batterie de 54,2 kWh (capacité brute ; capacité nette non publiée dans la source consultée)",
+            "Chargeur embarqué AC 11 kW, charge rapide DC 95 kW"
+          ],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 40500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-04",
+              "source": {
+                "label": "Autotijd.be – prix belges (Essential Trim)",
+                "url": "https://autotijd.be/fr/prix/mini/aceman",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Consommation WLTP 14,0–14,7 kWh/100 km selon équipement ; valeur basse retenue. Autonomie électrique WLTP 384–405 km selon équipement ; valeur haute retenue. Poids à vide selon Autotijd (le poids en ordre de marche, conducteur inclus, est plus élevé). Prix belge TTC de la finition Essential Trim, barème 2024-04 relevé sur une base de données tierce (Autotijd).",
+          "sources": [
+            {
+              "label": "Autotijd.be – fiche technique MINI Aceman SE",
+              "url": "https://autotijd.be/fr/fiches-techniques/mini/aceman/se-218-4279",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – dimensions MINI Aceman SE",
+              "url": "https://autotijd.be/fr/dimensions/mini/aceman/se-218-4279",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – liste de prix belge",
+              "url": "https://autotijd.be/fr/prix/mini/aceman",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Autotijd.be – fiche technique MINI Aceman",
+          "url": "https://autotijd.be/fr/fiches-techniques/mini/aceman",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – prix belges MINI Aceman",
+          "url": "https://autotijd.be/fr/prix/mini/aceman",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}
