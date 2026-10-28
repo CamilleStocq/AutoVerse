@@ -1,0 +1,2551 @@
+{
+  "generations": [
+    {
+      "id": "toyota-gr-yaris-rally1",
+      "modelId": "toyota-gr-yaris-rally1",
+      "brandId": "toyota",
+      "modelName": "GR Yaris Rally1",
+      "name": "Toyota GR Yaris Rally1 (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de rallye WRC (Rally1)",
+      "bodyStyles": [
+        "Berline compacte de rallye"
+      ],
+      "categories": [
+        "rally",
+        "sports"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La GR Yaris Rally1 est la voiture de Toyota Gazoo Racing en championnat du monde des rallyes depuis 2022. Elle a remporté le titre constructeurs chaque saison de 2022 à 2026.",
+        "positioning": "Voiture d'usine de la catégorie reine du WRC, au-dessus des Rally2 clients.",
+        "technicalFacts": [
+          "Moteur Toyota GI4B 1,6 l turbo à injection directe, boîte séquentielle 5 rapports.",
+          "Débuts au Rallye Monte-Carlo 2022, première victoire au Rallye de Suède 2022.",
+          "Titres constructeurs 2022, 2023, 2024, 2025 et 2026 ; titres pilotes 2022, 2023, 2025 et 2026 (Wikipedia).",
+          "Élue « Rally Car of the Year » aux Autosport Awards 2022."
+        ],
+        "pros": [
+          "Palmarès écrasant depuis l'introduction des Rally1.",
+          "Base de la GR Yaris de série, voiture de route sportive appréciée."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Voiture d'usine non commercialisée : réservée aux équipages engagés par Toyota.",
+          "Caractéristiques détaillées (couple, hauteur) non publiées."
+        ]
+      },
+      "variants": [
+        {
+          "id": "toyota-gr-yaris-rally1-2025",
+          "name": "GR Yaris Rally1 (spécification 2025-2026)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l turbo (Toyota GI4B)",
+            "displacementCc": 1600
+          },
+          "powerHp": 386,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Séquentielle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1180,
+          "dimensions": {
+            "lengthMm": 4225,
+            "widthMm": 1875,
+            "heightMm": null,
+            "wheelbaseMm": 2630
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Depuis 2025, les Rally1 roulent sans le système hybride de 100 kW (3,9 kWh) utilisé de 2022 à 2024 (Wikipedia – Rally1). Puissance : chiffre du moteur thermique 1,6 l annoncé (« 386 PS »), bridé par la réglementation ; aucun chiffre en kW ni couple publié dans la source. Poids : 1 180 kg « hybride retiré » (1 260 kg avec le système hybride) selon Wikipedia. Transmission intégrale à différentiels mécaniques avant et arrière.",
+          "sources": [
+            {
+              "label": "Wikipedia – Toyota GR Yaris Rally1",
+              "url": "https://en.wikipedia.org/wiki/Toyota_GR_Yaris_Rally1",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Rally1 (réglementation)",
+              "url": "https://en.wikipedia.org/wiki/Rally1",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Toyota GR Yaris Rally1",
+          "url": "https://en.wikipedia.org/wiki/Toyota_GR_Yaris_Rally1",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "hyundai-i20-n-rally1",
+      "modelId": "hyundai-i20-n-rally1",
+      "brandId": "hyundai",
+      "modelName": "i20 N Rally1",
+      "name": "Hyundai i20 N Rally1 (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de rallye WRC (Rally1)",
+      "bodyStyles": [
+        "Berline compacte de rallye"
+      ],
+      "categories": [
+        "rally",
+        "sports"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "L'i20 N Rally1 est la voiture de Hyundai Motorsport en WRC depuis 2022. Thierry Neuville a été sacré champion du monde 2024 à son volant.",
+        "positioning": "Voiture d'usine de la catégorie reine du WRC.",
+        "technicalFacts": [
+          "Moteur Hyundai Motorsport 1,6 l turbo à injection directe, boîte semi-automatique 5 rapports.",
+          "Débuts au Rallye Monte-Carlo 2022, première victoire au Rallye de Sardaigne 2022.",
+          "Titres pilote et copilote 2024 pour Thierry Neuville et Martijn Wydaeghe (Wikipedia)."
+        ],
+        "pros": [
+          "A offert à Hyundai son premier titre pilotes en WRC.",
+          "Équipage belge champion du monde."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Aucun titre constructeurs (Wikipedia).",
+          "Couple et hauteur non publiés."
+        ]
+      },
+      "variants": [
+        {
+          "id": "hyundai-i20-n-rally1-2025",
+          "name": "i20 N Rally1 (spécification 2025-2026)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l turbo",
+            "displacementCc": 1600
+          },
+          "powerHp": 386,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Semi-automatique 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1180,
+          "dimensions": {
+            "lengthMm": 4100,
+            "widthMm": 1875,
+            "heightMm": null,
+            "wheelbaseMm": 2630
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Depuis 2025, les Rally1 roulent sans le système hybride de 100 kW (3,9 kWh) utilisé de 2022 à 2024 (Wikipedia – Rally1). Puissance : chiffre du moteur thermique 1,6 l annoncé (« 386 PS »), bridé par la réglementation ; aucun chiffre en kW ni couple publié dans la source. Poids : 1 180 kg (1 260 kg avec le système hybride) selon Wikipedia.",
+          "sources": [
+            {
+              "label": "Wikipedia – Hyundai i20 N Rally1",
+              "url": "https://en.wikipedia.org/wiki/Hyundai_i20_N_Rally1",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Rally1 (réglementation)",
+              "url": "https://en.wikipedia.org/wiki/Rally1",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Hyundai i20 N Rally1",
+          "url": "https://en.wikipedia.org/wiki/Hyundai_i20_N_Rally1",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ford-puma-rally1",
+      "modelId": "ford-puma-rally1",
+      "brandId": "ford",
+      "modelName": "Puma Rally1",
+      "name": "Ford Puma Rally1 (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de rallye WRC (Rally1)",
+      "bodyStyles": [
+        "SUV compact de rallye"
+      ],
+      "categories": [
+        "rally",
+        "sports"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La Puma Rally1, développée par M-Sport, représente Ford en WRC depuis 2022. Elle a gagné dès ses débuts au Rallye Monte-Carlo 2022.",
+        "positioning": "Voiture Rally1 préparée par M-Sport pour Ford, également proposée aux équipes privées.",
+        "technicalFacts": [
+          "Moteur Ford EcoBoost 1,6 l turbo à injection directe, boîte semi-automatique 5 rapports.",
+          "Trois victoires en WRC : Monte-Carlo 2022, Suède 2023 et Chili 2023 (Wikipedia).",
+          "Troisième du championnat constructeurs en 2022, 2023, 2024 et 2025."
+        ],
+        "pros": [
+          "Silhouette de SUV urbain inédite en WRC.",
+          "Victoire dès sa première course."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Aucun titre mondial.",
+          "Poids et dimensions de la spécification 2025-2026 non publiés."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ford-puma-rally1-2025",
+          "name": "Puma Rally1 (spécification 2025-2026)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l turbo (Ford EcoBoost)",
+            "displacementCc": 1600
+          },
+          "powerHp": 386,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Semi-automatique 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": null,
+            "widthMm": null,
+            "heightMm": null,
+            "wheelbaseMm": 2600
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Depuis 2025, les Rally1 roulent sans le système hybride de 100 kW (3,9 kWh) utilisé de 2022 à 2024 (Wikipedia – Rally1). Puissance : chiffre du moteur thermique 1,6 l annoncé (« 386 PS »), bridé par la réglementation ; aucun chiffre en kW ni couple publié dans la source. Wikipedia indique 1 260 kg, valeur de la version hybride (2022-2024) : poids sans hybride non publié, laissé vide.",
+          "sources": [
+            {
+              "label": "Wikipedia – Ford Puma Rally1",
+              "url": "https://en.wikipedia.org/wiki/Ford_Puma_Rally1",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Rally1 (réglementation)",
+              "url": "https://en.wikipedia.org/wiki/Rally1",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Ford Puma Rally1",
+          "url": "https://en.wikipedia.org/wiki/Ford_Puma_Rally1",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "skoda-fabia-rs-rally2",
+      "modelId": "skoda-fabia-rs-rally2",
+      "brandId": "skoda",
+      "modelName": "Fabia RS Rally2",
+      "name": "Škoda Fabia RS Rally2 (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de rallye client (Rally2)",
+      "bodyStyles": [
+        "Berline compacte de rallye"
+      ],
+      "categories": [
+        "rally",
+        "compact"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La Fabia RS Rally2 est la voiture de rallye client de Škoda Motorsport, basée sur la Fabia de quatrième génération. Présentée le 14 juin 2022, elle a gagné dès sa première course.",
+        "positioning": "Voiture Rally2 vendue aux équipes privées, deuxième échelon du WRC (WRC2) et référence des championnats nationaux et européen.",
+        "technicalFacts": [
+          "Moteur 1,6 l turbo dérivé de l'EA888 du groupe Volkswagen.",
+          "Présentée à Mladá Boleslav le 14 juin 2022 ; victoire au Lausitz Rally en novembre 2022 pour sa première course.",
+          "Nombreuses victoires en WRC2 et en championnat d'Europe (ERC) depuis 2023."
+        ],
+        "pros": [
+          "Voiture client très répandue et éprouvée.",
+          "Palmarès fourni en WRC2 et ERC."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Prix client non publié.",
+          "Couple et hauteur non communiqués dans les sources consultées."
+        ]
+      },
+      "variants": [
+        {
+          "id": "skoda-fabia-rs-rally2-rally2",
+          "name": "Fabia RS Rally2",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres 1,6 l turbo 16 soupapes (base EA888)",
+            "displacementCc": 1600
+          },
+          "powerHp": 293,
+          "powerKw": 216,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Séquentielle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1230,
+          "dimensions": {
+            "lengthMm": 3999,
+            "widthMm": 1820,
+            "heightMm": null,
+            "wheelbaseMm": 2563
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance annoncée par Wikipedia : 289 hp (216 kW ; 293 PS), bridée par la réglementation Rally2. Poids : minimum réglementaire indiqué.",
+          "sources": [
+            {
+              "label": "Wikipedia – Škoda Fabia RS Rally2",
+              "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Fabia_RS_Rally2",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Škoda Fabia RS Rally2",
+          "url": "https://en.wikipedia.org/wiki/%C5%A0koda_Fabia_RS_Rally2",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "citroen-c3-rally2",
+      "modelId": "citroen-c3-rally2",
+      "brandId": "citroen",
+      "modelName": "C3 Rally2",
+      "name": "Citroën C3 Rally2 (ex-C3 R5, 2018)",
+      "yearsLabel": "2018 –",
+      "startYear": 2018,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de rallye client (Rally2)",
+      "bodyStyles": [
+        "Berline compacte de rallye"
+      ],
+      "categories": [
+        "rally",
+        "compact"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La C3 Rally2, née C3 R5 en 2018, est la voiture de rallye client de Citroën Racing. Elle a offert le titre WRC2 2020 à Mads Østberg.",
+        "positioning": "Voiture Rally2 vendue aux équipes privées.",
+        "technicalFacts": [
+          "Moteur 1,6 l turbo transversal conçu par Citroën Racing, boîte séquentielle SADEV 5 rapports.",
+          "Débuts au Tour de Corse 2018 (WRC-2), première victoire au Rallye d'Argentine 2019.",
+          "Titres pilotes : Mads Østberg (WRC2 2020) et Yohan Rossel (WRC3 2021)."
+        ],
+        "pros": [
+          "Palmarès en WRC2 et en championnat de France.",
+          "Base de la citadine Citroën C3."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Prix client non publié.",
+          "Couple et hauteur non communiqués."
+        ]
+      },
+      "variants": [
+        {
+          "id": "citroen-c3-rally2-rally2",
+          "name": "C3 Rally2",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres 1,6 l turbo",
+            "displacementCc": 1598
+          },
+          "powerHp": 282,
+          "powerKw": 210,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Séquentielle SADEV 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1230,
+          "dimensions": {
+            "lengthMm": 3996,
+            "widthMm": 1820,
+            "heightMm": null,
+            "wheelbaseMm": 2567
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance exprimée en bhp dans la source (282 bhp / 210 kW pour la Rally2, 280 bhp pour la C3 R5 d'origine) ; valeur bridée par la réglementation. Poids : minimum indiqué par Wikipedia.",
+          "sources": [
+            {
+              "label": "Wikipedia – Citroën C3 Rally2",
+              "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C3_Rally2",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Citroën C3 Rally2",
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_C3_Rally2",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "toyota-gr-yaris-rally2",
+      "modelId": "toyota-gr-yaris-rally2",
+      "brandId": "toyota",
+      "modelName": "GR Yaris Rally2",
+      "name": "Toyota GR Yaris Rally2 (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de rallye client (Rally2)",
+      "bodyStyles": [
+        "Berline compacte de rallye"
+      ],
+      "categories": [
+        "rally",
+        "compact"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La GR Yaris Rally2 est la voiture de rallye client de Toyota, dotée du 3 cylindres 1,6 l turbo de la GR Yaris de série. Elle a fait ses débuts en WRC2 au Monte-Carlo 2024.",
+        "positioning": "Voiture Rally2 vendue aux équipes privées, sous la GR Yaris Rally1 d'usine.",
+        "technicalFacts": [
+          "Moteur G16E-GTS 3 cylindres 1,6 l turbo, issu de la GR Yaris de série.",
+          "Première apparition publique au Rallye du Japon 2022 avec Juha Kankkunen ; débuts en compétition au Monte-Carlo 2024.",
+          "Première victoire au Rallye du Portugal 2024 (WRC2)."
+        ],
+        "pros": [
+          "Seule Rally2 à moteur 3 cylindres de cette liste, directement issu de la série.",
+          "Victoires en WRC2 et ERC dès ses premières saisons."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Prix client non publié.",
+          "Couple non communiqué."
+        ]
+      },
+      "variants": [
+        {
+          "id": "toyota-gr-yaris-rally2-rally2",
+          "name": "GR Yaris Rally2",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,6 l turbo (G16E-GTS)",
+            "displacementCc": 1600
+          },
+          "powerHp": 304,
+          "powerKw": 224,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Séquentielle Sadev 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1230,
+          "dimensions": {
+            "lengthMm": 3995,
+            "widthMm": 1820,
+            "heightMm": 1345,
+            "wheelbaseMm": 2556
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance indiquée par Wikipedia : 300 hp (224 kW ; 304 PS), bridée par la réglementation Rally2. Poids : minimum indiqué.",
+          "sources": [
+            {
+              "label": "Wikipedia – Toyota GR Yaris Rally2",
+              "url": "https://en.wikipedia.org/wiki/Toyota_GR_Yaris_Rally2",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Toyota GR Yaris Rally2",
+          "url": "https://en.wikipedia.org/wiki/Toyota_GR_Yaris_Rally2",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "hyundai-i20-n-rally2",
+      "modelId": "hyundai-i20-n-rally2",
+      "brandId": "hyundai",
+      "modelName": "i20 N Rally2",
+      "name": "Hyundai i20 N Rally2 (2021)",
+      "yearsLabel": "2021 –",
+      "startYear": 2021,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de rallye client (Rally2)",
+      "bodyStyles": [
+        "Berline compacte de rallye"
+      ],
+      "categories": [
+        "rally",
+        "compact"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "L'i20 N Rally2 est la voiture de rallye client de Hyundai Motorsport, lancée au Ypres Rally 2021. Hayden Paddon et Teemu Suninen comptent parmi ses vainqueurs.",
+        "positioning": "Voiture Rally2 vendue aux équipes privées par le programme Customer Racing de Hyundai Motorsport.",
+        "technicalFacts": [
+          "Moteur 4 cylindres 1,6 l turbo, transmission intégrale, boîte séquentielle 5 rapports.",
+          "Débuts au Ypres Rally (Belgique) en 2021.",
+          "Victoires en WRC2 2022 : Nouvelle-Zélande, Catalogne et Japon."
+        ],
+        "pros": [
+          "Fiche technique publiée par le constructeur.",
+          "Vainqueur en WRC2 et en ERC."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Débuts difficiles (problèmes de direction assistée au Ypres Rally 2021).",
+          "Prix client non publié."
+        ]
+      },
+      "variants": [
+        {
+          "id": "hyundai-i20-n-rally2-step2",
+          "name": "i20 N Rally2 (Step2)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l turbo",
+            "displacementCc": 1600
+          },
+          "powerHp": 300,
+          "powerKw": null,
+          "torqueNm": 350,
+          "drivetrain": "awd",
+          "gearbox": "Séquentielle 5 rapports",
+          "accel0100s": 5,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4040,
+            "widthMm": 1820,
+            "heightMm": null,
+            "wheelbaseMm": 2560
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Hyundai Motorsport annonce « 300 hp », « ~350 Nm » et 0-100 km/h en 5 s (valeurs arrondies). Poids : Hyundai indique 1 390 kg équipage compris, Wikipedia 1 210 kg ; laissé vide. Longueur : 4 040 mm selon Wikipedia (Hyundai affiche 4 400 mm, probablement une coquille). Hyundai écrit « 5 speed manual », Wikipedia boîte séquentielle.",
+          "sources": [
+            {
+              "label": "Hyundai Motorsport – Customer Racing, i20 N Rally2",
+              "url": "https://motorsport.hyundai.com/customer-programmes/rally2",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Hyundai i20 N Rally2",
+              "url": "https://en.wikipedia.org/wiki/Hyundai_i20_N_Rally2",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Hyundai Motorsport – Customer Racing, i20 N Rally2",
+          "url": "https://motorsport.hyundai.com/customer-programmes/rally2",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Hyundai i20 N Rally2",
+          "url": "https://en.wikipedia.org/wiki/Hyundai_i20_N_Rally2",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ford-fiesta-rally-m-sport",
+      "modelId": "ford-fiesta-rally-m-sport",
+      "brandId": "ford",
+      "modelName": "Fiesta Rally2 / Rally3",
+      "name": "Ford Fiesta Rally2 et Rally3 (M-Sport)",
+      "yearsLabel": "2019 –",
+      "startYear": 2019,
+      "endYear": null,
+      "status": "racing",
+      "segment": "Voiture de rallye client (Rally2 et Rally3)",
+      "bodyStyles": [
+        "Berline compacte de rallye"
+      ],
+      "categories": [
+        "rally",
+        "compact"
+      ],
+      "priceRange": null,
+      "usage": [
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "M-Sport décline la Fiesta en deux voitures de rallye client : la Rally2 à moteur 1,6 l et la Rally3, plus abordable, à 3 cylindres 1,5 l. La Rally3 est la voiture unique du Junior WRC depuis 2022.",
+        "positioning": "Gamme client de M-Sport sous la Puma Rally1 : la Rally2 vise le WRC2, la Rally3 la catégorie d'accès à quatre roues motrices.",
+        "technicalFacts": [
+          "Fiesta Rally2 : 4 cylindres 1,6 l turbo développé par M-Sport, boîte séquentielle Sadev 5 rapports.",
+          "Fiesta Rally3 : 3 cylindres EcoBoost 1,5 l turbo avec bride de 31 mm imposée par la FIA.",
+          "La Rally3 a été la seule voiture de sa catégorie jusqu'à l'homologation de la Renault Clio Rally3 en 2023."
+        ],
+        "pros": [
+          "La Rally3 a ouvert une catégorie à quatre roues motrices plus accessible.",
+          "Fiche technique Rally3 publiée par M-Sport."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Prix client non publiés.",
+          "Chiffres de puissance variables selon les évolutions et les sources."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ford-fiesta-rally-m-sport-rally2",
+          "name": "Fiesta Rally2",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l turbo 16 soupapes (M-Sport)",
+            "displacementCc": 1596
+          },
+          "powerHp": 290,
+          "powerKw": 220,
+          "torqueNm": 470,
+          "drivetrain": "awd",
+          "gearbox": "Séquentielle Sadev 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1210,
+          "dimensions": {
+            "lengthMm": 4065,
+            "widthMm": 1820,
+            "heightMm": null,
+            "wheelbaseMm": null
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Chiffres Wikipedia (290 bhp / 220 kW / 290 PS, 470 Nm), bridés par la réglementation Rally2. M-Sport a homologué une évolution moteur en 2026 dont les chiffres n'ont pas été trouvés.",
+          "sources": [
+            {
+              "label": "Wikipedia – Ford Fiesta Rally2",
+              "url": "https://en.wikipedia.org/wiki/Ford_Fiesta_Rally2",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "DirtFish – M-Sport extensively upgrades its Fiesta Rally2",
+              "url": "https://dirtfish.com/rally/wrc/m-sport-extensively-upgrades-its-fiesta-rally2/",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ford-fiesta-rally-m-sport-rally3-evo",
+          "name": "Fiesta Rally3 Evo (Performance Pack)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "3 cylindres en ligne 1,5 l turbo 12 soupapes (EcoBoost)",
+            "displacementCc": 1497
+          },
+          "powerHp": 245,
+          "powerKw": null,
+          "torqueNm": 420,
+          "drivetrain": "awd",
+          "gearbox": "Séquentielle Sadev 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1210,
+          "dimensions": {
+            "lengthMm": 4065,
+            "widthMm": 1735,
+            "heightMm": null,
+            "wheelbaseMm": 2490
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Fiche M-Sport : « 245 BHP @5000 RPM », « 420 Nm @ 3500 RPM », bride FIA de 31 mm, poids minimum 1 210 kg. Puissance exprimée en bhp. La Rally3 de base est annoncée à 240 PS / 400 Nm par Wikipedia.",
+          "sources": [
+            {
+              "label": "M-Sport – Ford Fiesta Rally3 Evo Performance Pack, fiche technique (PDF)",
+              "url": "https://www.m-sport.co.uk/_files/ugd/89553f_6e2a1c4bceaa4436b93535d4040bbf5f.pdf",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Ford Fiesta Rally3",
+              "url": "https://en.wikipedia.org/wiki/Ford_Fiesta_Rally3",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Ford Fiesta Rally2",
+          "url": "https://en.wikipedia.org/wiki/Ford_Fiesta_Rally2",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "M-Sport – Ford Fiesta Rally3 Evo Performance Pack, fiche technique (PDF)",
+          "url": "https://www.m-sport.co.uk/_files/ugd/89553f_6e2a1c4bceaa4436b93535d4040bbf5f.pdf",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "volkswagen-polo-gti-r5",
+      "modelId": "volkswagen-polo-gti-r5",
+      "brandId": "volkswagen",
+      "modelName": "Polo GTI R5",
+      "name": "Volkswagen Polo GTI R5 (2018)",
+      "yearsLabel": "2018 –",
+      "startYear": 2018,
+      "endYear": null,
+      "status": "discontinued",
+      "segment": "Voiture de rallye client (R5)",
+      "bodyStyles": [
+        "Berline compacte de rallye"
+      ],
+      "categories": [
+        "rally",
+        "compact"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La Polo GTI R5 est la voiture de rallye client de Volkswagen Motorsport, dévoilée fin 2017 et engagée en compétition dès le Rallye de Catalogne 2018. Elle a remporté plusieurs manches WRC-2 et ERC.",
+        "positioning": "Voiture R5 (Rally2) vendue aux équipes privées après l'arrêt du programme WRC d'usine de Volkswagen.",
+        "technicalFacts": [
+          "Moteur 1,6 l turbo à injection directe monté transversalement, transmission intégrale.",
+          "Développée en collaboration avec Škoda, qui proposait la Fabia R5 depuis 2015.",
+          "Débuts au Rallye de Catalogne 2018 avec Petter Solberg et Eric Camilli.",
+          "Victoires en WRC-2 (Suède 2019, Pays de Galles 2019, Portugal et Finlande 2021) et en ERC."
+        ],
+        "pros": [
+          "Voiture client issue de l'expérience de Volkswagen en WRC.",
+          "Accélération 0-100 km/h annoncée en 4,1 s."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Plus commercialisée selon la consigne de ce catalogue ; fin de production non trouvée dans les sources.",
+          "Prix client non publié."
+        ]
+      },
+      "variants": [
+        {
+          "id": "volkswagen-polo-gti-r5-r5",
+          "name": "Polo GTI R5",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l turbo à injection directe",
+            "displacementCc": 1600
+          },
+          "powerHp": 272,
+          "powerKw": 200,
+          "torqueNm": 400,
+          "drivetrain": "awd",
+          "gearbox": "Séquentielle 5 rapports",
+          "accel0100s": 4.1,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Chiffres de présentation (décembre 2017) : 272 hp (200 kW), 400 Nm, 0-100 km/h en 4,1 s. Motor1 cite un poids de 1 320 kg, incohérent avec le minimum réglementaire R5 : laissé vide. Statut « discontinued » repris de la consigne ; aucune date de fin de production sourcée.",
+          "sources": [
+            {
+              "label": "Motor1 – VW Polo GTI R5 Officially Revealed With 272 HP, Four-Wheel Drive",
+              "url": "https://www.motor1.com/news/223470/vw-polo-gti-r5-revealed/",
+              "type": "press",
+              "publishedAt": "2017-12-05",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Volkswagen Polo GTI R5",
+              "url": "https://en.wikipedia.org/wiki/Volkswagen_Polo_GTI_R5",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Volkswagen Polo GTI R5",
+          "url": "https://en.wikipedia.org/wiki/Volkswagen_Polo_GTI_R5",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Motor1 – VW Polo GTI R5 Officially Revealed",
+          "url": "https://www.motor1.com/news/223470/vw-polo-gti-r5-revealed/",
+          "type": "press",
+          "publishedAt": "2017-12-05",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lancia-stratos-hf",
+      "modelId": "lancia-stratos-hf",
+      "brandId": "lancia",
+      "modelName": "Stratos HF",
+      "name": "Lancia Stratos HF (1973)",
+      "yearsLabel": "1973 – 1978",
+      "startYear": 1973,
+      "endYear": 1978,
+      "status": "discontinued",
+      "segment": "Berlinette de rallye à moteur central",
+      "bodyStyles": [
+        "Berlinette (coupé)"
+      ],
+      "categories": [
+        "rally",
+        "classic",
+        "sports",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La Stratos HF est une berlinette de rallye à V6 Ferrari Dino en position centrale. Elle a offert à Lancia trois titres mondiaux consécutifs (1974, 1975, 1976).",
+        "positioning": "Arme de Lancia en rallye dans les années 1970, produite à environ 492 exemplaires routiers pour l'homologation en Groupe 4.",
+        "technicalFacts": [
+          "V6 2 418 cm³ d'origine Ferrari Dino en position centrale arrière, propulsion.",
+          "Empattement très court de 2 180 mm.",
+          "Champion du monde des rallyes (constructeurs) en 1974, 1975 et 1976.",
+          "Production routière estimée à 492 exemplaires."
+        ],
+        "pros": [
+          "Icône absolue du rallye, à la silhouette très compacte.",
+          "Poids plume."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Empattement court réputé délicat à maîtriser.",
+          "Chiffres d'époque variables selon les sources."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lancia-stratos-hf-stradale",
+          "name": "Stratos HF Stradale",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 2,4 l (Dino), 4 ACT, moteur central arrière",
+            "displacementCc": 2418
+          },
+          "powerHp": 190,
+          "powerKw": 140,
+          "torqueNm": 226,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": 6.8,
+          "topSpeedKmh": 232,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 980,
+          "dimensions": {
+            "lengthMm": 3710,
+            "widthMm": 1750,
+            "heightMm": 1110,
+            "wheelbaseMm": 2180
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs Wikipedia : 190 PS (140 kW) à 7 000 tr/min, 226 N·m à 4 000 tr/min. Fin de production 1975 ou 1978 selon les passages de la source.",
+          "sources": [
+            {
+              "label": "Wikipedia – Lancia Stratos",
+              "url": "https://en.wikipedia.org/wiki/Lancia_Stratos",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lancia-stratos-hf-groupe-4",
+          "name": "Stratos HF Groupe 4 (rallye)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 2,4 l (Dino), 12 soupapes, moteur central arrière",
+            "displacementCc": null
+          },
+          "powerHp": 275,
+          "powerKw": 205,
+          "torqueNm": null,
+          "drivetrain": "rwd",
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 880,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Wikipedia : « around 275 hp (205 kW) » pour la version 12 soupapes et environ 320 hp (239 kW) pour la version 24 soupapes ; chiffres approximatifs d'époque. Boîte et performances non précisées.",
+          "sources": [
+            {
+              "label": "Wikipedia – Lancia Stratos",
+              "url": "https://en.wikipedia.org/wiki/Lancia_Stratos",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Lancia Stratos",
+          "url": "https://en.wikipedia.org/wiki/Lancia_Stratos",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lancia-037",
+      "modelId": "lancia-037",
+      "brandId": "lancia",
+      "modelName": "Rally 037",
+      "name": "Lancia Rally 037 (1982)",
+      "yearsLabel": "1982 – 1984",
+      "startYear": 1982,
+      "endYear": 1984,
+      "status": "discontinued",
+      "segment": "Berlinette de rallye Groupe B",
+      "bodyStyles": [
+        "Berlinette (coupé)"
+      ],
+      "categories": [
+        "rally",
+        "classic",
+        "sports",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La Lancia 037 a remporté le titre mondial des constructeurs 1983 avec une simple propulsion, face aux Audi quattro. Son 4 cylindres 2,0 l est suralimenté par compresseur Volumex.",
+        "positioning": "Arme de Lancia en Groupe B entre la Stratos et la Delta S4.",
+        "technicalFacts": [
+          "Moteur 4 cylindres à compresseur volumétrique Abarth Volumex, monté longitudinalement en position centrale.",
+          "Titre mondial des constructeurs 1983.",
+          "Evo 2 introduite pour la saison 1984 avec une cylindrée portée à 2 111 cm³ et une injection d'eau.",
+          "Vingt exemplaires construits pour chacune des évolutions Evo 1 et Evo 2."
+        ],
+        "pros": [
+          "Propulsion titrée face aux quatre roues motrices Audi.",
+          "Ligne de berlinette très recherchée."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Rapidement dépassée par les quatre roues motrices.",
+          "Chiffres de puissance donnés en fourchette."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lancia-037-evo-2",
+          "name": "Rally 037 Evoluzione 2 (Groupe B)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2,1 l à compresseur Volumex, injection d'eau",
+            "displacementCc": 2111
+          },
+          "powerHp": 325,
+          "powerKw": 239,
+          "torqueNm": 333,
+          "drivetrain": "rwd",
+          "gearbox": "ZF 5 rapports à crabots",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 960,
+          "dimensions": {
+            "lengthMm": 3915,
+            "widthMm": 1850,
+            "heightMm": 1245,
+            "wheelbaseMm": 2440
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Wikipedia : 310–325 PS (228–239 kW) selon le tableau, valeur haute retenue ; couple 333 N·m à 5 500 tr/min. Le tableau ne distingue pas poids et dimensions entre versions (valeurs communes).",
+          "sources": [
+            {
+              "label": "Wikipedia – Lancia 037",
+              "url": "https://en.wikipedia.org/wiki/Lancia_037",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Lancia 037",
+          "url": "https://en.wikipedia.org/wiki/Lancia_037",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lancia-delta-s4",
+      "modelId": "lancia-delta-s4",
+      "brandId": "lancia",
+      "modelName": "Delta S4",
+      "name": "Lancia Delta S4 (1985)",
+      "yearsLabel": "1985 – 1986",
+      "startYear": 1985,
+      "endYear": 1986,
+      "status": "discontinued",
+      "segment": "Voiture de rallye Groupe B",
+      "bodyStyles": [
+        "Berline compacte de rallye"
+      ],
+      "categories": [
+        "rally",
+        "classic",
+        "sports"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La Delta S4 est la Groupe B à quatre roues motrices de Lancia, dont le 1,8 l combine compresseur et turbo. Elle a gagné le RAC Rally 1985 dès ses débuts, avant l'accident fatal d'Henri Toivonen au Tour de Corse 1986.",
+        "positioning": "Ultime Lancia du Groupe B, successeur de la 037, à moteur central et quatre roues motrices.",
+        "technicalFacts": [
+          "Moteur 1 759 cm³ à double suralimentation : compresseur Abarth Volumex et turbo KKK.",
+          "Transmission intégrale avec 60 à 75 % du couple envoyé vers l'arrière.",
+          "Victoire au RAC Rally 1985 pour sa première course, puis au Monte-Carlo 1986 (Toivonen).",
+          "L'accident de Toivonen et Cresto au Tour de Corse 1986 a conduit directement à l'abolition du Groupe B."
+        ],
+        "pros": [
+          "Solution technique audacieuse (compresseur + turbo).",
+          "Monument de l'ère Groupe B."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Histoire marquée par l'accident mortel de 1986.",
+          "Puissance réelle incertaine."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lancia-delta-s4-groupe-b",
+          "name": "Delta S4 Groupe B (rallye)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres 1,8 l, compresseur + turbo, moteur central",
+            "displacementCc": 1759
+          },
+          "powerHp": 490,
+          "powerKw": 360,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 5 rapports (Hewland)",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 890,
+          "dimensions": {
+            "lengthMm": 3990,
+            "widthMm": 1880,
+            "heightMm": 1344,
+            "wheelbaseMm": 2440
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance : 490 PS (360 kW) selon Wikipedia, certaines sources citant 500 PS. Poids : minimum FIA de 890 kg, voiture entre 890 et 1 050 kg selon configuration.",
+          "sources": [
+            {
+              "label": "Wikipedia – Lancia Delta S4",
+              "url": "https://en.wikipedia.org/wiki/Lancia_Delta_S4",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Lancia Delta S4",
+          "url": "https://en.wikipedia.org/wiki/Lancia_Delta_S4",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "audi-sport-quattro",
+      "modelId": "audi-sport-quattro",
+      "brandId": "audi",
+      "modelName": "Sport quattro",
+      "name": "Audi Sport quattro et S1 (1984)",
+      "yearsLabel": "1984 – 1986",
+      "startYear": 1984,
+      "endYear": 1986,
+      "status": "discontinued",
+      "segment": "Coupé de rallye Groupe B",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "rally",
+        "classic",
+        "sports",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La Sport quattro est la version raccourcie de l'Audi quattro, construite à 224 exemplaires pour homologuer la S1 en Groupe B. Son évolution S1 E2 fut la dernière Groupe B d'Audi.",
+        "positioning": "Successeur des quattro A1 et A2, avec lesquelles Audi a imposé la transmission intégrale en rallye.",
+        "technicalFacts": [
+          "Cinq cylindres en ligne tout aluminium à turbo KKK K27 ; empattement raccourci de 320 mm par rapport à la quattro.",
+          "224 exemplaires de la version courte construits.",
+          "Stig Blomqvist champion du monde 1984 sur quattro A2 et Sport quattro S1.",
+          "Michèle Mouton a remporté Pikes Peak 1985 en Sport quattro ; Walter Röhrl en 1987 sur S1 E2."
+        ],
+        "pros": [
+          "Lignée qui a imposé la transmission intégrale en rallye.",
+          "Sonorité du cinq cylindres légendaire."
+        ],
+        "differentiators": [],
+        "pricePositioning": "La version courte était proposée à 203 850 DM (Wikipedia), prix non saisi faute de devise prise en charge.",
+        "innovations": [],
+        "compromises": [
+          "Comportement réputé exigeant.",
+          "Puissance réelle de la S1 E2 supérieure au chiffre officiel."
+        ]
+      },
+      "variants": [
+        {
+          "id": "audi-sport-quattro-route",
+          "name": "Sport quattro (route)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "5 cylindres en ligne 2,1 l turbo, 4 soupapes par cylindre",
+            "displacementCc": 2133
+          },
+          "powerHp": 306,
+          "powerKw": 225,
+          "torqueNm": 350,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Wikipedia : 306 PS (225 kW) à 6 700 tr/min, 350 N·m à 3 700 tr/min. Boîte, poids et dimensions non précisés.",
+          "sources": [
+            {
+              "label": "Wikipedia – Audi Sport Quattro",
+              "url": "https://en.wikipedia.org/wiki/Audi_Sport_Quattro",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "audi-sport-quattro-s1-e2",
+          "name": "Sport quattro S1 E2 (Groupe B)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "5 cylindres en ligne 2,1 l turbo",
+            "displacementCc": 2110
+          },
+          "powerHp": 480,
+          "powerKw": 353,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4240,
+            "widthMm": 1860,
+            "heightMm": 1344,
+            "wheelbaseMm": 2204
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance officielle 480 PS (353 kW), réelle « in excess of 500 PS » à 8 000 tr/min selon Wikipedia. Poids : 1 200 kg (infobox) ou 1 090 kg (texte), laissé vide. Le 0-100 km/h en 3,1 s cité est attribué à « la S1 » sans précision, non retenu.",
+          "sources": [
+            {
+              "label": "Wikipedia – Audi Sport Quattro",
+              "url": "https://en.wikipedia.org/wiki/Audi_Sport_Quattro",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Audi Sport Quattro",
+          "url": "https://en.wikipedia.org/wiki/Audi_Sport_Quattro",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Audi Quattro",
+          "url": "https://en.wikipedia.org/wiki/Audi_Quattro",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "peugeot-205-turbo-16",
+      "modelId": "peugeot-205-turbo-16",
+      "brandId": "peugeot",
+      "modelName": "205 Turbo 16",
+      "name": "Peugeot 205 Turbo 16 (1984)",
+      "yearsLabel": "1984 – 1986",
+      "startYear": 1984,
+      "endYear": 1986,
+      "status": "discontinued",
+      "segment": "Voiture de rallye Groupe B à moteur central",
+      "bodyStyles": [
+        "Berline compacte de rallye"
+      ],
+      "categories": [
+        "rally",
+        "classic",
+        "sports",
+        "compact"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La 205 Turbo 16 est une 205 à moteur turbo central et quatre roues motrices, championne du monde des rallyes pilotes et constructeurs en 1985 et 1986. Elle a été homologuée grâce à 200 exemplaires routiers.",
+        "positioning": "Groupe B de Peugeot Talbot Sport, sans rapport mécanique avec la 205 de série.",
+        "technicalFacts": [
+          "Moteur XU8T 1 775 cm³ turbo 16 soupapes monté transversalement en position centrale.",
+          "200 exemplaires routiers (série 200) pour l'homologation, 219 au total avec les voitures de course.",
+          "Titres pilotes et constructeurs 1985 (Timo Salonen) et 1986 (Juha Kankkunen)."
+        ],
+        "pros": [
+          "Double championne du monde.",
+          "Version routière rare et très recherchée."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Chiffres de l'Évolution 2 limités à la puissance dans les sources consultées."
+        ]
+      },
+      "variants": [
+        {
+          "id": "peugeot-205-turbo-16-serie-200",
+          "name": "205 Turbo 16 « série 200 » (route)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,8 l turbo 16 soupapes (XU8T), moteur central",
+            "displacementCc": 1775
+          },
+          "powerHp": 200,
+          "powerKw": null,
+          "torqueNm": 255,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": 6.8,
+          "topSpeedKmh": 214,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1145,
+          "dimensions": {
+            "lengthMm": 3820,
+            "widthMm": 1700,
+            "heightMm": 1354,
+            "wheelbaseMm": 2540
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Valeurs de Wikipédia (fr) : 200 ch, 255 N·m, masse à vide 1 145 kg. Wikipedia (en) donne 200 PS (147 kW) à 6 750 tr/min.",
+          "sources": [
+            {
+              "label": "Wikipédia (fr) – Peugeot 205 Turbo 16",
+              "url": "https://fr.wikipedia.org/wiki/Peugeot_205_Turbo_16",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Peugeot 205 Turbo 16",
+              "url": "https://en.wikipedia.org/wiki/Peugeot_205_Turbo_16",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "peugeot-205-turbo-16-evo-2",
+          "name": "205 Turbo 16 Évolution 2 (Groupe B)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,8 l turbo (XU8T), moteur central",
+            "displacementCc": 1775
+          },
+          "powerHp": 530,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance de 530 ch selon Wikipédia (fr). Poids (940 kg) et dimensions de la page proviennent d'une fiche générique de la famille T16 : non retenus. Introduite pour la saison 1986.",
+          "sources": [
+            {
+              "label": "Wikipédia (fr) – Peugeot 205 Turbo 16",
+              "url": "https://fr.wikipedia.org/wiki/Peugeot_205_Turbo_16",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Peugeot 205 Turbo 16",
+              "url": "https://en.wikipedia.org/wiki/Peugeot_205_Turbo_16",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipédia (fr) – Peugeot 205 Turbo 16",
+          "url": "https://fr.wikipedia.org/wiki/Peugeot_205_Turbo_16",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Peugeot 205 Turbo 16",
+          "url": "https://en.wikipedia.org/wiki/Peugeot_205_Turbo_16",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ford-rs200",
+      "modelId": "ford-rs200",
+      "brandId": "ford",
+      "modelName": "RS200",
+      "name": "Ford RS200 (1984)",
+      "yearsLabel": "1984 – 1986",
+      "startYear": 1984,
+      "endYear": 1986,
+      "status": "discontinued",
+      "segment": "Voiture de rallye Groupe B à moteur central",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "rally",
+        "classic",
+        "sports",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La RS200 est la Groupe B de Ford, à moteur Cosworth turbo central et quatre roues motrices, construite à 200 exemplaires routiers. Sa meilleure place en championnat du monde est une troisième place au Rallye de Suède 1986.",
+        "positioning": "Voiture conçue spécifiquement pour le Groupe B, arrivée juste avant l'abolition de la catégorie.",
+        "technicalFacts": [
+          "Moteur Cosworth BDT 1,8 l turbo en position centrale, transmission intégrale.",
+          "200 exemplaires routiers construits entre 1984 et 1986 pour l'homologation.",
+          "Troisième place de Kalle Grundel au Rallye de Suède 1986.",
+          "Martin Schanche champion d'Europe de rallycross 1991 en RS200 E2."
+        ],
+        "pros": [
+          "Architecture pensée pour la course dès l'origine.",
+          "Seconde carrière en rallycross et à Pikes Peak."
+        ],
+        "differentiators": [],
+        "pricePositioning": "Prix d'origine de 49 995 £ en 1985 selon Wikipedia, pour la version routière.",
+        "innovations": [],
+        "compromises": [
+          "Carrière en championnat du monde écourtée par la fin du Groupe B.",
+          "Accidents tragiques au Portugal et à la Hessen-Rallye en 1986."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ford-rs200-groupe-b",
+          "name": "RS200 Groupe B (rallye)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,8 l turbo (Cosworth BDT), moteur central",
+            "displacementCc": 1803
+          },
+          "powerHp": 450,
+          "powerKw": 331,
+          "torqueNm": 490,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1050,
+          "dimensions": {
+            "lengthMm": 4000,
+            "widthMm": 1753,
+            "heightMm": null,
+            "wheelbaseMm": 2530
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Wikipedia : 450 PS (331 kW) à 8 000 tr/min et 490 N·m à 5 500 tr/min (350 à 450 hp selon la section historique). Dimensions de la section compétition, légèrement différentes de celles de l'infobox. Hauteur variable.",
+          "sources": [
+            {
+              "label": "Wikipedia – Ford RS200",
+              "url": "https://en.wikipedia.org/wiki/Ford_RS200",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Ford RS200",
+          "url": "https://en.wikipedia.org/wiki/Ford_RS200",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "subaru-impreza-wrc97",
+      "modelId": "subaru-impreza-wrc97",
+      "brandId": "subaru",
+      "modelName": "Impreza WRC",
+      "name": "Subaru Impreza WRC97 (1997)",
+      "yearsLabel": "1997",
+      "startYear": 1997,
+      "endYear": 1997,
+      "status": "discontinued",
+      "segment": "World Rally Car",
+      "bodyStyles": [
+        "Coupé 2 portes de rallye"
+      ],
+      "categories": [
+        "rally",
+        "classic",
+        "compact",
+        "sports"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "L'Impreza WRC97 est la première World Rally Car de Subaru, conçue par Prodrive sur la base du coupé Impreza. Elle a gagné huit des quatorze manches 1997 et le titre constructeurs.",
+        "positioning": "Première Impreza conçue selon la nouvelle réglementation World Rally Car de 1997.",
+        "technicalFacts": [
+          "Conçue par Prodrive sur la coque du coupé Impreza 2 portes (GC8).",
+          "Huit victoires sur quatorze manches en 1997 et titre mondial des constructeurs.",
+          "Colin McRae vice-champion du monde 1997 à un point du titre."
+        ],
+        "pros": [
+          "Livrée bleue et jaune emblématique.",
+          "Début de la lignée Impreza WRC, six fois titrée au total."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Poids, boîte et dimensions non trouvés dans les sources consultées."
+        ]
+      },
+      "variants": [
+        {
+          "id": "subaru-impreza-wrc97-wrc",
+          "name": "Impreza WRC97",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres à plat 2,0 l turbo",
+            "displacementCc": null
+          },
+          "powerHp": 300,
+          "powerKw": 224,
+          "torqueNm": 470,
+          "drivetrain": "awd",
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": null,
+            "widthMm": 1770,
+            "heightMm": null,
+            "wheelbaseMm": null
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Wikipedia : « 224 kW (300 hp) @ 5500 rpm », 470 N·m. Puissance exprimée en hp, bridée par la réglementation. D'autres sources citent 310 bhp. Poids, boîte et cylindrée exacte non vérifiés.",
+          "sources": [
+            {
+              "label": "Wikipedia – Subaru Impreza WRC",
+              "url": "https://en.wikipedia.org/wiki/Subaru_Impreza_WRC",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Fiskens – 1996 Subaru Impreza WRC97/001",
+              "url": "https://www.fiskens.com/stock/print/13751",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Subaru Impreza WRC",
+          "url": "https://en.wikipedia.org/wiki/Subaru_Impreza_WRC",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Fiskens – 1996 Subaru Impreza WRC97/001",
+          "url": "https://www.fiskens.com/stock/print/13751",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mitsubishi-lancer-evolution-vi",
+      "modelId": "mitsubishi-lancer-evolution-vi",
+      "brandId": "mitsubishi",
+      "modelName": "Lancer Evolution VI",
+      "name": "Mitsubishi Lancer Evolution VI (1999)",
+      "yearsLabel": "1999",
+      "startYear": 1999,
+      "endYear": null,
+      "status": "discontinued",
+      "segment": "Berline sportive d'homologation (Groupe A)",
+      "bodyStyles": [
+        "Berline 4 portes"
+      ],
+      "categories": [
+        "rally",
+        "classic",
+        "sport-sedan"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La Lancer Evolution VI est la berline avec laquelle Tommi Mäkinen a conquis en 1999 son quatrième titre mondial consécutif. Une série spéciale Tommi Mäkinen Edition lui a rendu hommage.",
+        "positioning": "Dernière Evo d'homologation sur la base de la Lancer de deuxième génération.",
+        "technicalFacts": [
+          "Moteur 4G63 2,0 l turbo, transmission intégrale avec Active Yaw Control sur la GSR.",
+          "Tommi Mäkinen champion du monde 1999, son quatrième titre consécutif.",
+          "Série Tommi Mäkinen Edition (Evo 6.5) produite à 4 092 exemplaires."
+        ],
+        "pros": [
+          "Base de série de la voiture championne du monde.",
+          "Mécanique réputée robuste."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Caractéristiques de la voiture de rallye Groupe A non trouvées dans une source fiable : la version décrite est la routière."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mitsubishi-lancer-evolution-vi-gsr",
+          "name": "Lancer Evolution VI GSR (route)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2,0 l turbo (4G63)",
+            "displacementCc": null
+          },
+          "powerHp": 280,
+          "powerKw": 206,
+          "torqueNm": 373,
+          "drivetrain": "awd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4350,
+            "widthMm": 1770,
+            "heightMm": null,
+            "wheelbaseMm": 2510
+          },
+          "seats": 5,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Version routière d'homologation, pas la voiture Groupe A. Wikipedia : 280 PS (206 kW), 373 N·m pour la gamme Evo VI ; poids 1 260 à 1 360 kg et hauteur 1 405 à 1 415 mm selon versions (laissés vides).",
+          "sources": [
+            {
+              "label": "Wikipedia – Mitsubishi Lancer Evolution",
+              "url": "https://en.wikipedia.org/wiki/Mitsubishi_Lancer_Evolution",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "RallyCars.com – Mitsubishi Lancer Evolution VI (1999) specs",
+              "url": "https://rallycars.com/cars/mitsubishi-lancer-evolution-vi/myspecs/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Mitsubishi Lancer Evolution",
+          "url": "https://en.wikipedia.org/wiki/Mitsubishi_Lancer_Evolution",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "RallyCars.com – Mitsubishi Lancer Evolution VI (1999)",
+          "url": "https://rallycars.com/cars/mitsubishi-lancer-evolution-vi/history/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "citroen-xsara-wrc",
+      "modelId": "citroen-xsara-wrc",
+      "brandId": "citroen",
+      "modelName": "Xsara WRC",
+      "name": "Citroën Xsara WRC (2001)",
+      "yearsLabel": "2001 – 2006",
+      "startYear": 2001,
+      "endYear": 2006,
+      "status": "discontinued",
+      "segment": "World Rally Car",
+      "bodyStyles": [
+        "Coupé 3 portes de rallye"
+      ],
+      "categories": [
+        "rally",
+        "classic",
+        "compact"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La Xsara WRC a remporté 32 rallyes mondiaux, dont 28 avec Sébastien Loeb. Elle a apporté à Citroën trois titres constructeurs (2003-2005) et à Loeb ses trois premiers titres pilotes (2004-2006).",
+        "positioning": "Première World Rally Car de Citroën, remplacée en 2007 par la C4 WRC.",
+        "technicalFacts": [
+          "Moteur PSA XU7JP4 2,0 l turbo, boîte séquentielle 6 rapports, transmission intégrale.",
+          "32 victoires en WRC, dont 28 pour Sébastien Loeb.",
+          "Titres constructeurs 2003, 2004 et 2005 ; titres pilotes 2004, 2005 et 2006."
+        ],
+        "pros": [
+          "Lança l'ère Loeb-Citroën.",
+          "Couple très élevé annoncé."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Date de débuts incohérente dans la source (Catalogne 2001 ou Monte-Carlo 2002)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "citroen-xsara-wrc-wrc",
+          "name": "Xsara WRC",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2,0 l turbo (PSA XU7JP4)",
+            "displacementCc": null
+          },
+          "powerHp": 315,
+          "powerKw": 235,
+          "torqueNm": 569,
+          "drivetrain": "awd",
+          "gearbox": "Séquentielle 6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1230,
+          "dimensions": {
+            "lengthMm": 4167,
+            "widthMm": 1770,
+            "heightMm": 1390,
+            "wheelbaseMm": 2555
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Wikipedia : 315 bhp (235 kW) à 5 500 tr/min et 569 N·m à 2 750 tr/min ; puissance exprimée en bhp, bridée par la réglementation. Poids : minimum réglementaire.",
+          "sources": [
+            {
+              "label": "Wikipedia – Citroën Xsara WRC",
+              "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Xsara_WRC",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Citroën Xsara WRC",
+          "url": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Xsara_WRC",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "volkswagen-polo-r-wrc",
+      "modelId": "volkswagen-polo-r-wrc",
+      "brandId": "volkswagen",
+      "modelName": "Polo R WRC",
+      "name": "Volkswagen Polo R WRC (2013)",
+      "yearsLabel": "2013 – 2016",
+      "startYear": 2013,
+      "endYear": 2016,
+      "status": "discontinued",
+      "segment": "World Rally Car",
+      "bodyStyles": [
+        "Berline compacte de rallye"
+      ],
+      "categories": [
+        "rally",
+        "classic",
+        "compact"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La Polo R WRC a gagné 43 des 53 rallyes qu'elle a disputés de 2013 à 2016. Elle a offert quatre titres pilotes à Sébastien Ogier et quatre titres constructeurs à Volkswagen.",
+        "positioning": "World Rally Car d'usine de Volkswagen, retirée après le départ de la marque du WRC fin 2016.",
+        "technicalFacts": [
+          "Moteur 1,6 l turbo spécifique Volkswagen avec bride de 33 mm, boîte séquentielle 6 rapports.",
+          "43 victoires en 53 rallyes, dont 31 pour Sébastien Ogier.",
+          "Titres pilotes, copilotes et constructeurs de 2013 à 2016."
+        ],
+        "pros": [
+          "Domination quasi totale pendant quatre saisons.",
+          "Sébastien Ogier quadruple champion du monde à son volant."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Carrière d'usine stoppée fin 2016 avec le retrait de Volkswagen."
+        ]
+      },
+      "variants": [
+        {
+          "id": "volkswagen-polo-r-wrc-wrc",
+          "name": "Polo R WRC",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,6 l turbo, bride de 33 mm",
+            "displacementCc": null
+          },
+          "powerHp": 318,
+          "powerKw": 235,
+          "torqueNm": 425,
+          "drivetrain": "awd",
+          "gearbox": "Séquentielle 6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1200,
+          "dimensions": {
+            "lengthMm": 3976,
+            "widthMm": 1820,
+            "heightMm": 1356,
+            "wheelbaseMm": 2480
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance : 318 hp / 235 kW pour la voiture 2016 (RallySport Magazine) ; 315 pk et 425 Nm annoncés à la présentation en 2012 (TopGear NL). Poids de 1 200 kg sans pilotes ni carburant (minimum réglementaire, Wikipedia).",
+          "sources": [
+            {
+              "label": "Wikipedia – Volkswagen Polo R WRC",
+              "url": "https://en.wikipedia.org/wiki/Volkswagen_Polo_R_WRC",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "RallySport Magazine – The Volkswagen for a new era of rallying",
+              "url": "https://rallysportmag.com/?p=1020656",
+              "type": "press",
+              "publishedAt": "2016-04-12",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "TopGear NL – Volkswagen Polo R WRC 220 pk",
+              "url": "https://topgear.nl/autonieuws/volkswagen-polo-r-wrc-220-pk/",
+              "type": "press",
+              "publishedAt": "2012-12-10",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Volkswagen Polo R WRC",
+          "url": "https://en.wikipedia.org/wiki/Volkswagen_Polo_R_WRC",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "toyota-celica-gt-four-st185",
+      "modelId": "toyota-celica-gt-four-st185",
+      "brandId": "toyota",
+      "modelName": "Celica GT-Four",
+      "name": "Toyota Celica GT-Four ST185 (Groupe A, 1992)",
+      "yearsLabel": "1992 – 1994",
+      "startYear": 1992,
+      "endYear": 1994,
+      "status": "discontinued",
+      "segment": "Coupé de rallye (Groupe A)",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "rally",
+        "classic",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La Celica GT-Four ST185 a offert trois titres pilotes consécutifs à Toyota : Carlos Sainz (1992), Juha Kankkunen (1993) et Didier Auriol (1994). Toyota a aussi remporté les titres constructeurs 1993 et 1994.",
+        "positioning": "Voiture de rallye Groupe A homologuée grâce à 5 000 Celica GT-Four RC de série.",
+        "technicalFacts": [
+          "Moteur 3S-GTE 1 998 cm³ turbo CT26 à double entrée, intercooler refroidi par eau.",
+          "Débuts au Rallye Monte-Carlo 1992.",
+          "Titres pilotes 1992, 1993 et 1994 ; titres constructeurs 1993 et 1994."
+        ],
+        "pros": [
+          "Fiche technique publiée par Toyota.",
+          "Trois titres pilotes de suite."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Coupé long de 4,41 m, plus encombrant que les compactes de rallye qui ont suivi."
+        ]
+      },
+      "variants": [
+        {
+          "id": "toyota-celica-gt-four-st185-groupe-a",
+          "name": "Celica GT-Four ST185 Groupe A",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 2,0 l turbo 16 soupapes (3S-GTE)",
+            "displacementCc": 1998
+          },
+          "powerHp": 299,
+          "powerKw": null,
+          "torqueNm": 459,
+          "drivetrain": "awd",
+          "gearbox": "6 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1100,
+          "dimensions": {
+            "lengthMm": 4410,
+            "widthMm": 1745,
+            "heightMm": 1300,
+            "wheelbaseMm": 2525
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Fiche Toyota : 299 PS à 5 700 tr/min, 459 Nm à 4 000 tr/min, 1 100 kg. Puissance bridée par la réglementation Groupe A.",
+          "sources": [
+            {
+              "label": "Toyota UK Media – Toyota Celica ST185",
+              "url": "https://media.toyota.co.uk/toyota-celica-st185/",
+              "type": "manufacturer",
+              "publishedAt": "2004-06-25",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Toyota Celica GT-Four",
+              "url": "https://en.wikipedia.org/wiki/Toyota_Celica_GT-Four",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Toyota UK Media – Toyota Celica ST185",
+          "url": "https://media.toyota.co.uk/toyota-celica-st185/",
+          "type": "manufacturer",
+          "publishedAt": "2004-06-25",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Toyota Celica GT-Four",
+          "url": "https://en.wikipedia.org/wiki/Toyota_Celica_GT-Four",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "renault-5-turbo",
+      "modelId": "renault-5-turbo",
+      "brandId": "renault",
+      "modelName": "5 Turbo",
+      "name": "Renault 5 Turbo (1980)",
+      "yearsLabel": "1980 – 1984",
+      "startYear": 1980,
+      "endYear": 1984,
+      "status": "discontinued",
+      "segment": "Citadine à moteur central (Groupe 4 / Groupe B)",
+      "bodyStyles": [
+        "Berline 3 portes"
+      ],
+      "categories": [
+        "rally",
+        "classic",
+        "sports",
+        "city"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [],
+      "editorial": {
+        "summary": "La Renault 5 Turbo place un 1,4 l turbo en position centrale arrière dans une R5 élargie. Jean Ragnotti l'a menée à la victoire au Rallye Monte-Carlo 1981 puis au Tour de Corse 1982 et 1985.",
+        "positioning": "Version d'homologation de rallye de la Renault 5, produite à 4 987 exemplaires (Turbo 1 et Turbo 2).",
+        "technicalFacts": [
+          "Moteur 1 397 cm³ turbo Garrett T3 en position centrale arrière, propulsion.",
+          "1 820 Turbo 1 et 3 167 Turbo 2 produites.",
+          "Victoires en WRC au Monte-Carlo 1981, au Tour de Corse 1982 et 1985 (Maxi Turbo) et au Portugal 1986."
+        ],
+        "pros": [
+          "Silhouette culte de la R5 aux ailes élargies.",
+          "Palmarès en WRC et en championnats nationaux."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Production routière comptée de 1980 à 1984 (infobox) ; carrière en rallye jusqu'en 1986."
+        ]
+      },
+      "variants": [
+        {
+          "id": "renault-5-turbo-turbo-1",
+          "name": "5 Turbo « Turbo 1 » (route)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,4 l turbo, moteur central arrière",
+            "displacementCc": 1397
+          },
+          "powerHp": 160,
+          "powerKw": 118,
+          "torqueNm": 221,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 5 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 970,
+          "dimensions": {
+            "lengthMm": 3660,
+            "widthMm": 1750,
+            "heightMm": 1320,
+            "wheelbaseMm": 2430
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Wikipedia : 160 PS (118 kW) à 6 000 tr/min, 221 N·m à 3 250 tr/min. Poids de l'infobox (970 kg), non spécifique à la Turbo 1.",
+          "sources": [
+            {
+              "label": "Wikipedia – Renault 5 Turbo",
+              "url": "https://en.wikipedia.org/wiki/Renault_5_Turbo",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "renault-5-turbo-maxi",
+          "name": "Maxi 5 Turbo (Groupe B)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "4 cylindres en ligne 1,5 l turbo, moteur central arrière",
+            "displacementCc": 1527
+          },
+          "powerHp": 350,
+          "powerKw": 257,
+          "torqueNm": null,
+          "drivetrain": "rwd",
+          "gearbox": null,
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Wikipedia : 350 PS (257 kW) en 1984. Poids, boîte et performances non précisés. Victoire au Tour de Corse 1985 (Ragnotti/Thimonier).",
+          "sources": [
+            {
+              "label": "Wikipedia – Renault 5 Turbo",
+              "url": "https://en.wikipedia.org/wiki/Renault_5_Turbo",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Renault 5 Turbo",
+          "url": "https://en.wikipedia.org/wiki/Renault_5_Turbo",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}

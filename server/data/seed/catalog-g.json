@@ -1,0 +1,3073 @@
+{
+  "generations": [
+    {
+      "id": "bugatti-chiron",
+      "modelId": "bugatti-chiron",
+      "brandId": "bugatti",
+      "modelName": "Chiron",
+      "name": "Bugatti Chiron (2016)",
+      "yearsLabel": "2016 – 2024",
+      "startYear": 2016,
+      "endYear": 2024,
+      "status": "discontinued",
+      "segment": "Hypercar à moteur central",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe",
+        "gt"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Bugatti Chiron, GIMS 2018, Le Grand-Saconnex (1X7A1765).jpg",
+          "caption": null,
+          "depicts": "Bugatti Chiron (2016), Salon de Genève 2018",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2021 Bugatti Chiron Super Sport 8.0 Front.jpg",
+          "caption": null,
+          "depicts": "Bugatti Chiron Super Sport (2021), Salon Privé 2021",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Successeur de la Veyron dévoilé au Salon de Genève 2016, la Chiron porte le W16 quadriturbo de 8,0 litres à 1 500 ch. Bugatti l'a produite à Molsheim jusqu'en 2024, avec une version Super Sport de 1 600 ch à partir de 2021.",
+        "positioning": "Hypercar de grand tourisme, sommet de la gamme Bugatti entre la Veyron et la Tourbillon.",
+        "technicalFacts": [
+          "W16 de 7 993 cm³ à quatre turbos fonctionnant en deux étages : deux turbos seulement au démarrage, les deux autres à partir d'environ 3 800 tr/min.",
+          "Couple de 1 600 Nm entre 2 000 et 6 000 tr/min, boîte à double embrayage 7 rapports et transmission intégrale permanente.",
+          "Vitesse limitée à 380 km/h dans les modes normaux, 420 km/h avec la seconde clé « Top Speed ».",
+          "Série annoncée de 500 exemplaires lors de la présentation."
+        ],
+        "pros": [
+          "Performances de très haut niveau associées à un vrai confort de grand tourisme.",
+          "Finition et matériaux authentiques (carbone, aluminium, cuir) très poussés."
+        ],
+        "differentiators": [
+          "Dernière lignée de Bugatti à moteur W16 avant la Tourbillon hybride."
+        ],
+        "pricePositioning": "Prix de base annoncé à 2,4 millions d'euros hors taxes en 2016, sans marché précisé ; Super Sport annoncée à 3,2 millions d'euros hors taxes.",
+        "innovations": [
+          "Bande lumineuse arrière continue de 1,60 m, présentée par Bugatti comme une première en série."
+        ],
+        "compromises": [
+          "Masse élevée pour une voiture de sport.",
+          "Production terminée : uniquement sur le marché de collection."
+        ]
+      },
+      "variants": [
+        {
+          "id": "bugatti-chiron-chiron",
+          "name": "Chiron",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "W16 quadriturbo",
+            "displacementCc": 7993
+          },
+          "powerHp": 1500,
+          "powerKw": 1103,
+          "torqueNm": 1600,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 2.4,
+          "topSpeedKmh": 420,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4544,
+            "widthMm": 2038,
+            "heightMm": 1212,
+            "wheelbaseMm": 2711
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Coffre pouvant accueillir une valise cabine de 44 litres (Bugatti)"
+          ],
+          "prices": [],
+          "notes": "Puissance annoncée « 1 500 HP » par Bugatti (1 500 PS / 1 103 kW selon Wikipedia). Vitesse limitée à 420 km/h avec la clé Top Speed (380 km/h sinon). 0-100 km/h de 2,4 s selon le constructeur, cité par Wikipedia. Masse non retenue : seule une estimation de Motor Trend (1 996 kg) est disponible. Dimensions issues de Wikipedia.",
+          "sources": [
+            {
+              "label": "Bugatti Newsroom – Geneva International Motor Show 2016: Bugatti Chiron",
+              "url": "https://newsroom.bugatti.com/en/press-releases/geneva-international-motor-show-2016",
+              "type": "manufacturer",
+              "publishedAt": "2016-02-29",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Bugatti Chiron",
+              "url": "https://en.wikipedia.org/wiki/Bugatti_Chiron",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bugatti-chiron-super-sport",
+          "name": "Chiron Super Sport",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "W16 quadriturbo",
+            "displacementCc": 7993
+          },
+          "powerHp": 1600,
+          "powerKw": 1176,
+          "torqueNm": 1600,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 440,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Version « longtail » à l'arrière allongé d'environ 25 cm. 0-200 km/h en 5,5 s et 0-300 km/h en 12,1 s selon Bugatti (0-100 km/h non publié). Couple disponible de 2 000 à 7 000 tr/min. Masse réduite de 23 kg par rapport à la Chiron selon Bugatti, sans valeur absolue publiée. Dimensions non publiées dans les sources consultées.",
+          "sources": [
+            {
+              "label": "Bugatti Newsroom – The Bugatti Chiron Super Sport: the quintessence of luxury and speed",
+              "url": "https://newsroom.bugatti.com/api/en/press-releases/pdf/the-bugatti-chiron-super-sport-the-quintessence-of-luxury-and-speed",
+              "type": "manufacturer",
+              "publishedAt": "2021-06-08",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Bugatti Chiron",
+              "url": "https://en.wikipedia.org/wiki/Bugatti_Chiron",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Bugatti Newsroom – Geneva International Motor Show 2016: Bugatti Chiron",
+          "url": "https://newsroom.bugatti.com/en/press-releases/geneva-international-motor-show-2016",
+          "type": "manufacturer",
+          "publishedAt": "2016-02-29",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Bugatti Newsroom – The Bugatti Chiron Super Sport: the quintessence of luxury and speed",
+          "url": "https://newsroom.bugatti.com/api/en/press-releases/pdf/the-bugatti-chiron-super-sport-the-quintessence-of-luxury-and-speed",
+          "type": "manufacturer",
+          "publishedAt": "2021-06-08",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Bugatti Chiron",
+          "url": "https://en.wikipedia.org/wiki/Bugatti_Chiron",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "bugatti-tourbillon",
+      "modelId": "bugatti-tourbillon",
+      "brandId": "bugatti",
+      "modelName": "Tourbillon",
+      "name": "Bugatti Tourbillon (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Hypercar hybride rechargeable",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "supercar",
+        "coupe",
+        "gt"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Bugatti Tourbillon.jpg",
+          "caption": null,
+          "depicts": "Bugatti Tourbillon (2024), Goodwood Festival of Speed 2024",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 Bugatti Tourbillon 5.jpg",
+          "caption": null,
+          "depicts": "Bugatti Tourbillon (2024)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Dévoilée le 20 juin 2024, la Tourbillon remplace la Chiron avec un V16 atmosphérique de 8,3 litres développé avec Cosworth et trois moteurs électriques, pour 1 800 ch. Elle est limitée à 250 exemplaires assemblés à Molsheim.",
+        "positioning": "Nouveau vaisseau amiral de Bugatti, première Bugatti sans W16 depuis plus de 20 ans.",
+        "technicalFacts": [
+          "V16 atmosphérique de 8,3 litres conçu avec Cosworth, 1 000 ch, moteur de 252 kg.",
+          "Deux moteurs électriques sur l'essieu avant et un à l'arrière, pour 800 ch électriques et une transmission intégrale avec vectorisation du couple.",
+          "Batterie 800 V refroidie par huile d'environ 25 kWh, autonomie électrique de plus de 60 km.",
+          "Instrumentation entièrement analogique réalisée par des horlogers suisses."
+        ],
+        "pros": [
+          "Puissance combinée inédite chez Bugatti.",
+          "Autonomie électrique utilisable au quotidien pour une hypercar."
+        ],
+        "differentiators": [
+          "V16 atmosphérique associé à une hybridation rechargeable."
+        ],
+        "pricePositioning": "Prix de départ annoncé à 3,8 millions d'euros hors taxes, sans marché précisé.",
+        "innovations": [
+          "Combiné d'instruments mécanique de type horloger au lieu de grands écrans."
+        ],
+        "compromises": [
+          "Diffusion confidentielle : 250 exemplaires.",
+          "Homologation encore en cours lors de la présentation."
+        ]
+      },
+      "variants": [
+        {
+          "id": "bugatti-tourbillon-tourbillon",
+          "name": "Tourbillon",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "V16 atmosphérique + 3 moteurs électriques",
+            "displacementCc": 8355,
+            "electricMotors": 3
+          },
+          "powerHp": 1800,
+          "powerKw": null,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage 8 rapports",
+          "accel0100s": 2.0,
+          "topSpeedKmh": 445,
+          "consumption": null,
+          "electricRangeKm": 60,
+          "batteryKwh": 24.8,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1995,
+          "dimensions": {
+            "lengthMm": 4671,
+            "widthMm": 2051,
+            "heightMm": 1189,
+            "wheelbaseMm": 2740
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance annoncée « 1 800 hp » par Bugatti (1 000 thermique + 800 électrique) ; kW non retenus faute d'unité constructeur cohérente. Couple combiné de 2 300 Nm selon Wikipedia, non confirmé dans le communiqué consulté : laissé vide. 0-100 km/h : 2,0 s selon Bugatti (« moins de 2,0 s » selon Wikipedia). Vitesse : 380 km/h limitée, 445 km/h avec la Speed Key. Masse : « < 1 995 kg (DIN) ». Batterie : 25 kWh selon le communiqué, 24,8 kWh brut selon Wikipedia. Autonomie électrique : plus de 60 km. Cylindrée, boîte et dimensions selon Wikipedia.",
+          "sources": [
+            {
+              "label": "Bugatti Newsroom – The Bugatti Tourbillon: an automotive icon 'Pour l'éternité'",
+              "url": "https://newsroom.bugatti.com/en/press-releases/the-bugatti-tourbillon-an-automotive-icon-pour-leternite",
+              "type": "manufacturer",
+              "publishedAt": "2024-06-21",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Bugatti Tourbillon",
+              "url": "https://en.wikipedia.org/wiki/Bugatti_Tourbillon",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Bugatti Newsroom – The Bugatti Tourbillon: an automotive icon 'Pour l'éternité'",
+          "url": "https://newsroom.bugatti.com/en/press-releases/the-bugatti-tourbillon-an-automotive-icon-pour-leternite",
+          "type": "manufacturer",
+          "publishedAt": "2024-06-21",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Bugatti Tourbillon",
+          "url": "https://en.wikipedia.org/wiki/Bugatti_Tourbillon",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "bugatti-veyron",
+      "modelId": "bugatti-veyron",
+      "brandId": "bugatti",
+      "modelName": "Veyron 16.4",
+      "name": "Bugatti Veyron 16.4 (2005)",
+      "yearsLabel": "2005 – 2011",
+      "startYear": 2005,
+      "endYear": 2011,
+      "status": "discontinued",
+      "segment": "Hypercar à moteur central",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe",
+        "gt"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2005 Bugatti Veyron 16.4.jpg",
+          "caption": null,
+          "depicts": "Bugatti Veyron 16.4 (2005)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Bugatti Veyron Super Sport front view.jpg",
+          "caption": null,
+          "depicts": "Bugatti Veyron 16.4 Super Sport, Londres 2013",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Première voiture de série à dépasser les 1 000 ch, la Veyron 16.4 entre en production en septembre 2005 avec un W16 quadriturbo de 8,0 litres. Sa version Super Sport de 1 200 ch a établi en 2010 un record de vitesse à 431 km/h.",
+        "positioning": "Hypercar fondatrice de la Bugatti moderne sous l'ère Volkswagen, remplacée par la Chiron.",
+        "technicalFacts": [
+          "W16 de 7 993 cm³ à quatre turbos, 1 001 ch et 1 250 Nm.",
+          "Boîte à double embrayage Ricardo à 7 rapports et transmission intégrale.",
+          "252 coupés Veyron 16.4 et 48 Super Sport produits.",
+          "Super Sport : 431,072 km/h lors du record de 2010, vitesse limitée à 415 km/h pour les clients."
+        ],
+        "pros": [
+          "Statut historique de première « 1 000 ch » de série.",
+          "Facilité d'utilisation surprenante pour son niveau de performance."
+        ],
+        "differentiators": [
+          "Record de vitesse des voitures de série détenu plusieurs années par la Super Sport."
+        ],
+        "pricePositioning": "Prix neuf d'époque cité par Wikipedia : 1 225 000 € pour le coupé et 1 912 500 € pour la Super Sport, sans marché précisé.",
+        "innovations": [
+          "Premier moteur W16 de série."
+        ],
+        "compromises": [
+          "Entretien extrêmement coûteux.",
+          "Poids élevé, près de 1,9 tonne."
+        ]
+      },
+      "variants": [
+        {
+          "id": "bugatti-veyron-16-4",
+          "name": "Veyron 16.4",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "W16 quadriturbo",
+            "displacementCc": 7993
+          },
+          "powerHp": 1001,
+          "powerKw": 736,
+          "torqueNm": 1250,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage Ricardo 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 408,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1888,
+          "dimensions": {
+            "lengthMm": 4462,
+            "widthMm": 1998,
+            "heightMm": 1204,
+            "wheelbaseMm": 2710
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Données Wikipedia. Vitesse : 408,47 km/h mesurés (343 km/h en usage normal sans clé de vitesse). 0-100 km/h laissé vide : la valeur de 2,46 s du tableau Wikipedia n'est pas attribuée clairement. Masse de 1 888 kg citée dans le texte de l'article.",
+          "sources": [
+            {
+              "label": "Wikipedia – Bugatti Veyron",
+              "url": "https://en.wikipedia.org/wiki/Bugatti_Veyron",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bugatti-veyron-16-4-super-sport",
+          "name": "Veyron 16.4 Super Sport",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "W16 quadriturbo",
+            "displacementCc": 7993
+          },
+          "powerHp": 1200,
+          "powerKw": 882,
+          "torqueNm": 1500,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage Ricardo 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 415,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Données Wikipedia. Vitesse limitée à 415 km/h pour les clients ; 431,072 km/h lors du record de 2010 (431,2 km/h selon Bugatti). Masse et dimensions spécifiques non publiées dans les sources consultées.",
+          "sources": [
+            {
+              "label": "Wikipedia – Bugatti Veyron",
+              "url": "https://en.wikipedia.org/wiki/Bugatti_Veyron",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Bugatti Newsroom – The Bugatti Chiron Super Sport: the quintessence of luxury and speed",
+              "url": "https://newsroom.bugatti.com/api/en/press-releases/pdf/the-bugatti-chiron-super-sport-the-quintessence-of-luxury-and-speed",
+              "type": "manufacturer",
+              "publishedAt": "2021-06-08",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Bugatti Veyron",
+          "url": "https://en.wikipedia.org/wiki/Bugatti_Veyron",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "koenigsegg-jesko",
+      "modelId": "koenigsegg-jesko",
+      "brandId": "koenigsegg",
+      "modelName": "Jesko",
+      "name": "Koenigsegg Jesko (2019)",
+      "yearsLabel": "2019 –",
+      "startYear": 2019,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Hypercar à moteur central",
+      "bodyStyles": [
+        "Coupé targa"
+      ],
+      "categories": [
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "collection",
+        "track",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Koenigsegg Jesko, GIMS 2019, Le Grand-Saconnex (GIMS1047).jpg",
+          "caption": null,
+          "depicts": "Koenigsegg Jesko, Salon de Genève 2019",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Koenigsegg Jesko Absolut 7389 FOS25.jpg",
+          "caption": null,
+          "depicts": "Koenigsegg Jesko Absolut, Goodwood Festival of Speed 2025",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Présentée au Salon de Genève 2019, la Jesko succède à l'Agera avec un V8 biturbo de 5,0 litres de 1 600 ch à l'E85. Elle existe en version Attack, orientée appui aérodynamique, et Absolut, conçue pour la vitesse maximale.",
+        "positioning": "Hypercar thermique de Koenigsegg, produite en 125 exemplaires.",
+        "technicalFacts": [
+          "V8 biturbo de 5,0 litres : 1 280 ch à l'essence, 1 600 ch à l'E85, régime maxi de 8 500 tr/min.",
+          "Boîte Light Speed Transmission (LST) à 9 rapports et multiples embrayages.",
+          "Attack : jusqu'à 1 400 kg d'appui aérodynamique ; Absolut : Cx de 0,278 et appui ramené à 150 kg.",
+          "Production limitée à 125 unités au total."
+        ],
+        "pros": [
+          "Puissance considérable pour un poids contenu.",
+          "Deux déclinaisons aux philosophies clairement différentes."
+        ],
+        "differentiators": [
+          "Boîte LST capable de passer directement à n'importe quel rapport."
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Light Speed Transmission à neuf rapports."
+        ],
+        "compromises": [
+          "Diffusion extrêmement limitée.",
+          "Puissance maximale réservée au carburant E85."
+        ]
+      },
+      "variants": [
+        {
+          "id": "koenigsegg-jesko-attack",
+          "name": "Jesko Attack",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 5065
+          },
+          "powerHp": 1600,
+          "powerKw": 1193,
+          "torqueNm": 1500,
+          "drivetrain": "rwd",
+          "gearbox": "LST 9 rapports multi-embrayages",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1420,
+          "dimensions": {
+            "lengthMm": 4626,
+            "widthMm": 2030,
+            "heightMm": 1210,
+            "wheelbaseMm": 2700
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance et couple maximaux à l'E85 ; 1 280 hp et 1 000 Nm (de 2 700 à 6 170 tr/min) à l'essence. Koenigsegg exprime la puissance en hp ; kW et cylindrée exacte selon Wikipedia. Masse en ordre de marche (1 320 kg à sec). Appui : 700 kg à 250 km/h, 1 400 kg maximum.",
+          "sources": [
+            {
+              "label": "Koenigsegg – Jesko Attack, technical specifications",
+              "url": "https://www.koenigsegg.com/technical-specifications-jesko-attack",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Koenigsegg Jesko",
+              "url": "https://en.wikipedia.org/wiki/Koenigsegg_Jesko",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "koenigsegg-jesko-absolut",
+          "name": "Jesko Absolut",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 5065
+          },
+          "powerHp": 1600,
+          "powerKw": 1193,
+          "torqueNm": 1500,
+          "drivetrain": "rwd",
+          "gearbox": "LST 9 rapports multi-embrayages",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1390,
+          "dimensions": {
+            "lengthMm": 4845,
+            "widthMm": 2030,
+            "heightMm": 1210,
+            "wheelbaseMm": 2700
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance et couple à l'E85 (1 280 hp à l'essence). Masse en ordre de marche (1 290 kg à sec). Vitesse maximale « à déterminer » selon Koenigsegg ; l'estimation constructeur de 500 km/h citée par Wikipedia n'est pas retenue. Coffre : 100 L à l'avant et 50 L à l'arrière.",
+          "sources": [
+            {
+              "label": "Koenigsegg – Jesko Absolut, technical specifications",
+              "url": "https://www.koenigsegg.com/technical-specifications-jesko-absolut",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Koenigsegg – Jesko Absolut",
+              "url": "https://www.koenigsegg.com/model/jesko-absolut",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Koenigsegg Jesko",
+              "url": "https://en.wikipedia.org/wiki/Koenigsegg_Jesko",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Koenigsegg – Jesko Attack, technical specifications",
+          "url": "https://www.koenigsegg.com/technical-specifications-jesko-attack",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Koenigsegg – Jesko Absolut, technical specifications",
+          "url": "https://www.koenigsegg.com/technical-specifications-jesko-absolut",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Koenigsegg Jesko",
+          "url": "https://en.wikipedia.org/wiki/Koenigsegg_Jesko",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "koenigsegg-gemera",
+      "modelId": "koenigsegg-gemera",
+      "brandId": "koenigsegg",
+      "modelName": "Gemera",
+      "name": "Koenigsegg Gemera (2020)",
+      "yearsLabel": "2020 –",
+      "startYear": 2020,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Hypercar quatre places hybride",
+      "bodyStyles": [
+        "Coupé 2 portes, 4 places"
+      ],
+      "categories": [
+        "supercar",
+        "coupe",
+        "gt"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "collection",
+        "travel",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Koenigsegg Gemera Auto Zuerich 2023 1X7A1120.jpg",
+          "caption": null,
+          "depicts": "Koenigsegg Gemera, Auto Zürich 2023",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Koenigsegg Gemera 2025.jpg",
+          "caption": null,
+          "depicts": "Koenigsegg Gemera",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Dévoilée en mars 2020, la Gemera est la première Koenigsegg à quatre places. Sa version de série associe le V8 « Hot V » de 5,0 litres au moteur électrique Dark Matter pour 2 300 ch et 2 750 Nm.",
+        "positioning": "« Mega-GT » familiale de Koenigsegg, limitée à 300 exemplaires.",
+        "technicalFacts": [
+          "V8 biturbo de 5,0 litres à turbos placés dans le V : 1 500 ch et 1 500 Nm.",
+          "Moteur électrique Dark Matter : 800 ch et 1 250 Nm.",
+          "Boîte Light Speed Tourbillon Transmission à 9 rapports, première Koenigsegg à transmission intégrale et vectorisation du couple sur les quatre roues.",
+          "Batterie de 14 kWh sous 850 V.",
+          "Le projet initial à trois cylindres TFG de 2,0 litres a été abandonné en 2024 faute de demande."
+        ],
+        "pros": [
+          "Quatre vraies places dans une hypercar.",
+          "Puissance combinée hors norme."
+        ],
+        "differentiators": [
+          "Une des rares hypercars à quatre places."
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Moteur électrique Dark Matter développé par Koenigsegg."
+        ],
+        "compromises": [
+          "Masse supérieure à deux tonnes.",
+          "Production limitée à 300 voitures."
+        ]
+      },
+      "variants": [
+        {
+          "id": "koenigsegg-gemera-hv8",
+          "name": "Gemera HV8",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "V8 biturbo + moteur électrique Dark Matter",
+            "displacementCc": null
+          },
+          "powerHp": 2300,
+          "powerKw": null,
+          "torqueNm": 2750,
+          "drivetrain": "awd",
+          "gearbox": "LSTT 9 rapports multi-embrayages",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": 50,
+          "batteryKwh": 14,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 2022,
+          "dimensions": {
+            "lengthMm": 4975,
+            "widthMm": 1995,
+            "heightMm": 1295,
+            "wheelbaseMm": 3000
+          },
+          "seats": 4,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance combinée de 2 300 hp selon Koenigsegg, annoncée à l'E85 selon la presse ; kW non retenus (1 715 kW selon Wikipedia, 1 688 kW selon Autotijd). Masse en ordre de marche avec 90 L de carburant. Largeur de caisse sans rétroviseurs. Empattement et autonomie électrique (50 km) selon Wikipedia. Le nombre de moteurs électriques de la version V8 diffère selon les sources : laissé vide.",
+          "sources": [
+            {
+              "label": "Koenigsegg – Gemera, technical specifications",
+              "url": "https://www.koenigsegg.com/technical-specifications-gemera-2023",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Koenigsegg Gemera",
+              "url": "https://en.wikipedia.org/wiki/Koenigsegg_Gemera",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Koenigsegg – Gemera, technical specifications",
+          "url": "https://www.koenigsegg.com/technical-specifications-gemera-2023",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Koenigsegg Gemera",
+          "url": "https://en.wikipedia.org/wiki/Koenigsegg_Gemera",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "koenigsegg-regera",
+      "modelId": "koenigsegg-regera",
+      "brandId": "koenigsegg",
+      "modelName": "Regera",
+      "name": "Koenigsegg Regera (2015)",
+      "yearsLabel": "2015 – 2022",
+      "startYear": 2015,
+      "endYear": 2022,
+      "status": "discontinued",
+      "segment": "Hypercar hybride",
+      "bodyStyles": [
+        "Coupé targa"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe",
+        "gt"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Koenigsegg Regera White.jpg",
+          "caption": null,
+          "depicts": "Koenigsegg Regera",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2019 Koenigsegg Regera HCC23.jpg",
+          "caption": null,
+          "depicts": "Koenigsegg Regera (2019), Hampton Court Concours 2023",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Dévoilée au Salon de Genève 2015, la Regera associe un V8 biturbo de 5,0 litres à trois moteurs électriques sans boîte de vitesses classique. Elle développe plus de 1 500 ch à l'E85 et a été produite à environ 80 exemplaires.",
+        "positioning": "Hypercar de grand tourisme hybride de Koenigsegg, aux côtés de l'Agera puis de la Jesko.",
+        "technicalFacts": [
+          "Koenigsegg Direct Drive : transmission à rapport fixe sans boîte multi-rapports.",
+          "V8 biturbo de 5,0 litres : 1 100 hp à l'essence, 1 500 hp à l'E85 ; couple combiné de plus de 2 000 Nm.",
+          "Batterie de 4,5 kWh sous 800 V, 75 kg.",
+          "Record 0-400-0 km/h en 28,81 s le 16 juin 2023 selon Wikipedia."
+        ],
+        "pros": [
+          "Accélérations continues sans rupture de passage de rapport.",
+          "Confort et équipement plus orientés grand tourisme que l'Agera."
+        ],
+        "differentiators": [
+          "Absence de boîte de vitesses, unique dans la catégorie."
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Transmission Koenigsegg Direct Drive."
+        ],
+        "compromises": [
+          "Masse plus élevée que les Koenigsegg purement thermiques.",
+          "Production terminée."
+        ]
+      },
+      "variants": [
+        {
+          "id": "koenigsegg-regera-regera",
+          "name": "Regera",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V8 biturbo + 3 moteurs électriques",
+            "displacementCc": null,
+            "electricMotors": 3
+          },
+          "powerHp": 1500,
+          "powerKw": 1110,
+          "torqueNm": 2000,
+          "drivetrain": "rwd",
+          "gearbox": "Koenigsegg Direct Drive (rapport fixe)",
+          "accel0100s": 2.8,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": 4.5,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1590,
+          "dimensions": {
+            "lengthMm": 4560,
+            "widthMm": 2050,
+            "heightMm": 1110,
+            "wheelbaseMm": 2662
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance combinée « plus de 1 500 hp (E85) ou 1,11 MW » et couple « plus de 2 000 Nm » selon Koenigsegg. Masse en ordre de marche (1 420 kg à sec selon Koenigsegg, 1 470 kg selon Wikipedia). 0-100 km/h de 2,8 s : annonce constructeur citée par Wikipedia. Nombre de moteurs électriques selon Wikipedia.",
+          "sources": [
+            {
+              "label": "Koenigsegg – Regera, technical specifications",
+              "url": "https://www.koenigsegg.com/technical-specifications-regera",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Koenigsegg Regera",
+              "url": "https://en.wikipedia.org/wiki/Koenigsegg_Regera",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Koenigsegg – Regera, technical specifications",
+          "url": "https://www.koenigsegg.com/technical-specifications-regera",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Koenigsegg Regera",
+          "url": "https://en.wikipedia.org/wiki/Koenigsegg_Regera",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "koenigsegg-cc850",
+      "modelId": "koenigsegg-cc850",
+      "brandId": "koenigsegg",
+      "modelName": "CC850",
+      "name": "Koenigsegg CC850 (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Supercar à moteur central",
+      "bodyStyles": [
+        "Coupé targa"
+      ],
+      "categories": [
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Koenigsegg CC850 Auto Zuerich 2025 DSC 3655.jpg",
+          "caption": null,
+          "depicts": "Koenigsegg CC850, Auto Zürich 2025",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2022 Koenigsegg CC850.jpg",
+          "caption": null,
+          "depicts": "Koenigsegg CC850",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Dévoilée le 19 août 2022 à Pebble Beach, la CC850 rend hommage à la CC8S pour les 20 ans de la première Koenigsegg de série. Sa boîte à neuf rapports simule une boîte manuelle six vitesses avec pédale d'embrayage.",
+        "positioning": "Hypercar néo-rétro de Koenigsegg, limitée à 70 exemplaires.",
+        "technicalFacts": [
+          "V8 biturbo de 5,0 litres : 1 185 hp à l'essence, 1 385 hp à l'E85, 1 385 Nm.",
+          "Boîte LST à 9 rapports avec Engage Shifter System : grille manuelle à six rapports et vraie pédale d'embrayage.",
+          "Masse en ordre de marche de 1 385 kg.",
+          "Série initialement fixée à 50 exemplaires, portée à 70 six jours après la présentation."
+        ],
+        "pros": [
+          "Expérience de conduite manuelle rare dans cette catégorie.",
+          "Design fidèle à la CC8S d'origine."
+        ],
+        "differentiators": [
+          "Boîte capable de fonctionner en manuel avec embrayage ou en automatique."
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Engage Shifter System."
+        ],
+        "compromises": [
+          "Diffusion très limitée."
+        ]
+      },
+      "variants": [
+        {
+          "id": "koenigsegg-cc850-cc850",
+          "name": "CC850",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 5065
+          },
+          "powerHp": 1385,
+          "powerKw": null,
+          "torqueNm": 1385,
+          "drivetrain": "rwd",
+          "gearbox": "LST 9 rapports avec Engage Shifter System (grille 6 rapports)",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1385,
+          "dimensions": {
+            "lengthMm": 4364,
+            "widthMm": 2024,
+            "heightMm": 1127,
+            "wheelbaseMm": 2700
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance à l'E85 (1 185 hp à l'essence), exprimée en hp par Koenigsegg ; kW non retenus. Cylindrée exacte selon Wikipedia. Masse en ordre de marche.",
+          "sources": [
+            {
+              "label": "Koenigsegg – CC850, technical specifications",
+              "url": "https://www.koenigsegg.com/technical-specifications-cc850",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Koenigsegg CC850",
+              "url": "https://en.wikipedia.org/wiki/Koenigsegg_CC850",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Koenigsegg – CC850, technical specifications",
+          "url": "https://www.koenigsegg.com/technical-specifications-cc850",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Koenigsegg CC850",
+          "url": "https://en.wikipedia.org/wiki/Koenigsegg_CC850",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "koenigsegg-agera-rs",
+      "modelId": "koenigsegg-agera",
+      "brandId": "koenigsegg",
+      "modelName": "Agera RS",
+      "name": "Koenigsegg Agera RS (2015)",
+      "yearsLabel": "2015 – 2018",
+      "startYear": 2015,
+      "endYear": 2018,
+      "status": "discontinued",
+      "segment": "Hypercar à moteur central",
+      "bodyStyles": [
+        "Coupé targa"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure",
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Koenigsegg Agera RS scf25.jpg",
+          "caption": null,
+          "depicts": "Koenigsegg Agera RS",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Agera RS 05.jpg",
+          "caption": null,
+          "depicts": "Koenigsegg Agera RS, Singapour",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Présentée au Salon de Genève 2015, l'Agera RS est la version la plus aboutie de l'Agera, construite à 27 exemplaires jusqu'en avril 2018. En novembre 2017, elle a atteint 447 km/h de moyenne sur route fermée au Nevada.",
+        "positioning": "Version ultime de l'Agera, entre la One:1 et la Jesko.",
+        "technicalFacts": [
+          "V8 biturbo de 5,0 litres, 1 176 ch à l'essence ; option « 1 MW » à 1 360 ch.",
+          "Boîte à double embrayage 7 rapports à palettes.",
+          "450 kg d'appui aérodynamique à 250 km/h.",
+          "27 exemplaires produits, le dernier le 4 avril 2018."
+        ],
+        "pros": [
+          "Record de vitesse emblématique.",
+          "Rapport poids/puissance exceptionnel."
+        ],
+        "differentiators": [
+          "Voiture du record de vitesse de 2017 (447,2 km/h de moyenne)."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Production terminée et cotes très élevées."
+        ]
+      },
+      "variants": [
+        {
+          "id": "koenigsegg-agera-rs-agera-rs",
+          "name": "Agera RS",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": null
+          },
+          "powerHp": 1176,
+          "powerKw": 865,
+          "torqueNm": 1280,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports à palettes",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1395,
+          "dimensions": {
+            "lengthMm": 4293,
+            "widthMm": 2050,
+            "heightMm": 1120,
+            "wheelbaseMm": 2662
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance de 1 160 hp (865 kW) à l'essence selon Koenigsegg, 1 176 PS selon Wikipedia ; option 1 MW à 1 360 ch. La page Koenigsegg donne aussi 960 hp et 1 100 Nm dans une autre section : couple de 1 280 Nm à 4 100 tr/min retenu (section moteur). 0-100 km/h non retenu (3 s sur la page Koenigsegg, peu cohérent avec le reste de la page). Masse en ordre de marche (1 295 kg à sec). Largeur de 2 050 mm selon Koenigsegg (1 996 mm selon Wikipedia). Le record de 447,2 km/h n'est pas retenu comme vitesse maximale.",
+          "sources": [
+            {
+              "label": "Koenigsegg – Agera RS, technical specifications",
+              "url": "https://www.koenigsegg.com/technical-specifications-agera-rs",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Koenigsegg Agera",
+              "url": "https://en.wikipedia.org/wiki/Koenigsegg_Agera",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Koenigsegg – Agera RS, technical specifications",
+          "url": "https://www.koenigsegg.com/technical-specifications-agera-rs",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Koenigsegg Agera",
+          "url": "https://en.wikipedia.org/wiki/Koenigsegg_Agera",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "koenigsegg-one-1",
+      "modelId": "koenigsegg-one-1",
+      "brandId": "koenigsegg",
+      "modelName": "One:1",
+      "name": "Koenigsegg One:1 (2014)",
+      "yearsLabel": "2014 – 2015",
+      "startYear": 2014,
+      "endYear": 2015,
+      "status": "discontinued",
+      "segment": "Hypercar à moteur central",
+      "bodyStyles": [
+        "Coupé targa"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Koenigsegg One-1 - Genève 2014 - 01.jpg",
+          "caption": null,
+          "depicts": "Koenigsegg One:1, Salon de Genève 2014",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Présentée au Salon de Genève 2014, la One:1 doit son nom à son rapport d'un cheval par kilo : 1 360 ch pour 1 360 kg. Koenigsegg l'a baptisée « première megacar » car sa puissance atteint un mégawatt.",
+        "positioning": "Série ultra-limitée dérivée de l'Agera : sept exemplaires dont un prototype.",
+        "technicalFacts": [
+          "V8 biturbo de 5,0 litres de 1 MW (1 360 ch) à 7 500 tr/min, compatible carburant flexible.",
+          "Couple de 1 371 Nm à 6 000 tr/min.",
+          "Masse de 1 360 kg avec 50 % de carburant.",
+          "Sept voitures construites en 2014 et 2015, dont un prototype."
+        ],
+        "pros": [
+          "Rapport poids/puissance mythique.",
+          "Rareté extrême."
+        ],
+        "differentiators": [
+          "Présentée comme la première voiture de série d'un mégawatt."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Quasi introuvable sur le marché."
+        ]
+      },
+      "variants": [
+        {
+          "id": "koenigsegg-one-1-one-1",
+          "name": "One:1",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": null
+          },
+          "powerHp": 1360,
+          "powerKw": 1000,
+          "torqueNm": 1371,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports à palettes",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1360,
+          "dimensions": {
+            "lengthMm": 4500,
+            "widthMm": 2060,
+            "heightMm": 1150,
+            "wheelbaseMm": 2662
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance de 1 MW selon Koenigsegg (1 360 ch). Masse avec 50 % de carburant et 100 % des fluides. 0-400 km/h en environ 20 s selon Koenigsegg ; 0-100 km/h et vitesse maximale non publiés sur la page consultée.",
+          "sources": [
+            {
+              "label": "Koenigsegg – One:1, technical specifications",
+              "url": "https://www.koenigsegg.com/technical-specifications-one1",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Supercars.net – 2014 Koenigsegg One:1",
+              "url": "https://www.supercars.net/blog/2014-koenigsegg-one1/",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Koenigsegg – One:1, technical specifications",
+          "url": "https://www.koenigsegg.com/technical-specifications-one1",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Supercars.net – 2014 Koenigsegg One:1",
+          "url": "https://www.supercars.net/blog/2014-koenigsegg-one1/",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "koenigsegg-ccx",
+      "modelId": "koenigsegg-ccx",
+      "brandId": "koenigsegg",
+      "modelName": "CCX",
+      "name": "Koenigsegg CCX (2006)",
+      "yearsLabel": "2006 – 2010",
+      "startYear": 2006,
+      "endYear": 2010,
+      "status": "discontinued",
+      "segment": "Supercar à moteur central",
+      "bodyStyles": [
+        "Coupé targa"
+      ],
+      "categories": [
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Koenigsegg CCX, GIMS 2018, Le Grand-Saconnex (1X7A1713).jpg",
+          "caption": null,
+          "depicts": "Koenigsegg CCX, Salon de Genève 2018",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2006 Koenigsegg CCX 8.jpg",
+          "caption": null,
+          "depicts": "Koenigsegg CCX (2006)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Dévoilée au Salon de Genève 2006, la CCX est une Koenigsegg à V8 4,7 litres suralimenté par deux compresseurs, pour 806 ch. Elle a été produite jusqu'en 2010 et déclinée en CCXR fonctionnant au biocarburant.",
+        "positioning": "Supercar de Koenigsegg entre la CCR et l'Agera.",
+        "technicalFacts": [
+          "V8 de 4,7 litres à deux compresseurs centrifuges Rotrex, 806 ch et 920 Nm.",
+          "Boîte manuelle 6 rapports, palettes en option.",
+          "En 2007, meilleur temps du tour de Top Gear (1 min 17,6 s) avec l'aileron optionnel, selon Wikipedia."
+        ],
+        "pros": [
+          "Boîte manuelle et suralimentation par compresseur.",
+          "Gabarit compact pour une hypercar."
+        ],
+        "differentiators": [
+          "Dernière Koenigsegg à compresseurs avant le passage aux turbos de l'Agera."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Production terminée.",
+          "Stabilité critiquée sans aileron lors des essais Top Gear."
+        ]
+      },
+      "variants": [
+        {
+          "id": "koenigsegg-ccx-ccx",
+          "name": "CCX",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 à double compresseur",
+            "displacementCc": 4700
+          },
+          "powerHp": 806,
+          "powerKw": 593,
+          "torqueNm": 920,
+          "drivetrain": "rwd",
+          "gearbox": "Manuelle 6 rapports (palettes en option)",
+          "accel0100s": 3.2,
+          "topSpeedKmh": 395,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1456,
+          "dimensions": {
+            "lengthMm": 4293,
+            "widthMm": 1996,
+            "heightMm": 1120,
+            "wheelbaseMm": 2660
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance de 806 hp selon Koenigsegg (806 PS / 593 kW selon Wikipedia). Vitesse « 395+ km/h » selon Koenigsegg. Masse en ordre de marche selon Wikipedia (1 280 kg à sec selon Koenigsegg). Empattement selon Wikipedia. Nombre d'exemplaires (29 ou 30) incohérent dans les sources.",
+          "sources": [
+            {
+              "label": "Koenigsegg – CCX, technical specifications",
+              "url": "https://www.koenigsegg.com/technical-specifications-ccx",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Koenigsegg CCX",
+              "url": "https://en.wikipedia.org/wiki/Koenigsegg_CCX",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Koenigsegg – CCX, technical specifications",
+          "url": "https://www.koenigsegg.com/technical-specifications-ccx",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Koenigsegg CCX",
+          "url": "https://en.wikipedia.org/wiki/Koenigsegg_CCX",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "pagani-huayra",
+      "modelId": "pagani-huayra",
+      "brandId": "pagani",
+      "modelName": "Huayra",
+      "name": "Pagani Huayra (2011)",
+      "yearsLabel": "2011 – 2018",
+      "startYear": 2011,
+      "endYear": 2018,
+      "status": "discontinued",
+      "segment": "Hypercar à moteur central",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Geneva MotorShow 2013 - Pagani Huayra blue front lights.jpg",
+          "caption": null,
+          "depicts": "Pagani Huayra, Salon de Genève 2013",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Yellow Pagani Huayra coupe.jpg",
+          "caption": null,
+          "depicts": "Pagani Huayra coupé, Hong Kong 2016",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Successeur de la Zonda annoncé en janvier 2011, la Huayra utilise un V12 biturbo Mercedes-AMG de 6,0 litres. Le coupé a été produit à 100 exemplaires, complété par la Huayra BC plus légère présentée à Genève en 2016.",
+        "positioning": "Deuxième modèle de Pagani, entre la Zonda et l'Utopia.",
+        "technicalFacts": [
+          "V12 biturbo Mercedes-AMG M158 de 5 980 cm³, 740 ch et 1 000 Nm (coupé).",
+          "Boîte séquentielle 7 rapports à simple embrayage.",
+          "Huayra BC : 764 ch et 1 218 kg à sec, soit 132 kg de moins que le coupé.",
+          "100 coupés produits de 2011 à 2018."
+        ],
+        "pros": [
+          "Artisanat et finition intérieure exceptionnels.",
+          "Couple très disponible du V12 biturbo."
+        ],
+        "differentiators": [
+          "Carrosserie en composites de carbone typique de Pagani."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Boîte à simple embrayage moins douce qu'une double embrayage.",
+          "Production terminée."
+        ]
+      },
+      "variants": [
+        {
+          "id": "pagani-huayra-coupe",
+          "name": "Huayra Coupé",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 biturbo Mercedes-AMG M158",
+            "displacementCc": 5980
+          },
+          "powerHp": 740,
+          "powerKw": 544,
+          "torqueNm": 1000,
+          "drivetrain": "rwd",
+          "gearbox": "Séquentielle 7 rapports, simple embrayage",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1350,
+          "dimensions": {
+            "lengthMm": 4625,
+            "widthMm": 2036,
+            "heightMm": 1169,
+            "wheelbaseMm": 2795
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Données Wikipedia. Masse à sec. 0-97 km/h (60 mph) en 2,8 s et vitesse d'environ 383 km/h cités, non retenus faute de valeur 0-100 km/h et de chiffre précis.",
+          "sources": [
+            {
+              "label": "Wikipedia – Pagani Huayra",
+              "url": "https://en.wikipedia.org/wiki/Pagani_Huayra",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "pagani-huayra-bc",
+          "name": "Huayra BC",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 biturbo Mercedes-AMG M158",
+            "displacementCc": null
+          },
+          "powerHp": 764,
+          "powerKw": 562,
+          "torqueNm": 1000,
+          "drivetrain": "rwd",
+          "gearbox": "Xtrac séquentielle 7 rapports, simple embrayage",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1218,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Données Wikipedia. Masse à sec. Couple de 1 000 Nm entre 2 500 et 5 600 tr/min. Environ 20 à 30 exemplaires selon les sources. Dimensions spécifiques non publiées dans la source consultée.",
+          "sources": [
+            {
+              "label": "Wikipedia – Pagani Huayra",
+              "url": "https://en.wikipedia.org/wiki/Pagani_Huayra",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – Pagani Huayra",
+          "url": "https://en.wikipedia.org/wiki/Pagani_Huayra",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "pagani-utopia",
+      "modelId": "pagani-utopia",
+      "brandId": "pagani",
+      "modelName": "Utopia",
+      "name": "Pagani Utopia (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Hypercar à moteur central",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Pagani Utopia Auto Zuerich 2023 1X7A1451.jpg",
+          "caption": null,
+          "depicts": "Pagani Utopia, Auto Zürich 2023",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Présentée le 12 septembre 2022 au Teatro Lirico de Milan, l'Utopia est la troisième Pagani. Elle conserve un V12 biturbo Mercedes-AMG de 864 ch et propose une vraie boîte manuelle à sept rapports.",
+        "positioning": "Successeur de la Huayra ; 99 coupés prévus, complétés par un Roadster.",
+        "technicalFacts": [
+          "V12 biturbo de 5 980 cm³ développé avec Mercedes-AMG : 864 ch et 1 100 Nm de 2 800 à 5 900 tr/min.",
+          "Boîte transversale Xtrac 7 rapports, robotisée ou manuelle, avec différentiel électromécanique.",
+          "Masse à sec de 1 280 kg.",
+          "Première livraison en octobre 2023."
+        ],
+        "pros": [
+          "Boîte manuelle proposée sur une hypercar moderne.",
+          "Absence d'hybridation, au profit de la légèreté."
+        ],
+        "differentiators": [
+          "Monocoque en Carbo-Titanium et Carbo-Triax."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Série très limitée, déjà attribuée aux clients."
+        ]
+      },
+      "variants": [
+        {
+          "id": "pagani-utopia-coupe",
+          "name": "Utopia Coupé",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 biturbo Mercedes-AMG",
+            "displacementCc": 5980
+          },
+          "powerHp": 864,
+          "powerKw": 635,
+          "torqueNm": 1100,
+          "drivetrain": "rwd",
+          "gearbox": "Xtrac 7 rapports robotisée ou manuelle",
+          "accel0100s": null,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1280,
+          "dimensions": {
+            "lengthMm": 4597,
+            "widthMm": 2037,
+            "heightMm": 1169,
+            "wheelbaseMm": 2794
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance « 864 HP (635 kW) » selon Pagani. Masse à sec. Dimensions selon Wikipedia. 0-100 km/h et vitesse maximale du coupé non publiés dans les sources consultées.",
+          "sources": [
+            {
+              "label": "Pagani – Utopia",
+              "url": "https://www.pagani.com/pagani-utopia/",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Pagani Utopia",
+              "url": "https://en.wikipedia.org/wiki/Pagani_Utopia",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Pagani – Utopia",
+          "url": "https://www.pagani.com/pagani-utopia/",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Pagani Utopia",
+          "url": "https://en.wikipedia.org/wiki/Pagani_Utopia",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "rimac-nevera",
+      "modelId": "rimac-nevera",
+      "brandId": "rimac",
+      "modelName": "Nevera",
+      "name": "Rimac Nevera (2021)",
+      "yearsLabel": "2021 –",
+      "startYear": 2021,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Hypercar électrique",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "supercar",
+        "coupe",
+        "gt"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "collection",
+        "driving-pleasure",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Rimac Nevera.jpg",
+          "caption": null,
+          "depicts": "Rimac Nevera, Goodwood Festival of Speed 2021",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Rimac Nevera R Auto Zuerich 2024 DSC 6340.jpg",
+          "caption": null,
+          "depicts": "Rimac Nevera R, Auto Zürich 2024",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Version de série du concept C_Two montré à Genève en 2018, la Nevera est une hypercar électrique croate de 1 914 ch à quatre moteurs. La Nevera R, dévoilée en août 2024, pousse la puissance à 2 107 ch.",
+        "positioning": "Unique modèle de Rimac Automobili, limité à 150 exemplaires pour la Nevera.",
+        "technicalFacts": [
+          "Quatre moteurs électriques, un par roue, avec vectorisation du couple.",
+          "Batterie de 120 kWh et 489 km d'autonomie WLTP pour la Nevera.",
+          "Recharge rapide jusqu'à 500 kW : 0-80 % en 19 minutes selon Rimac.",
+          "Nevera R : batterie de 108 kWh et appui aérodynamique augmenté de 15 % grâce à un grand aileron fixe."
+        ],
+        "pros": [
+          "Accélérations parmi les plus fortes de la production automobile.",
+          "Autonomie et recharge utilisables pour voyager."
+        ],
+        "differentiators": [
+          "Hypercar électrique de série développée par Rimac."
+        ],
+        "pricePositioning": "Annoncée à 2 millions d'euros lors du lancement en 2021, sans marché précisé.",
+        "innovations": [
+          "Vectorisation du couple par quatre moteurs indépendants."
+        ],
+        "compromises": [
+          "Masse de 2,3 tonnes.",
+          "Diffusion très limitée."
+        ]
+      },
+      "variants": [
+        {
+          "id": "rimac-nevera-nevera",
+          "name": "Nevera",
+          "tier": "sport",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "4 moteurs électriques synchrones à aimants permanents",
+            "displacementCc": null,
+            "electricMotors": 4
+          },
+          "powerHp": 1914,
+          "powerKw": 1408,
+          "torqueNm": 2340,
+          "drivetrain": "awd",
+          "gearbox": "Réducteurs à rapport unique",
+          "accel0100s": 1.81,
+          "topSpeedKmh": 412,
+          "consumption": {
+            "value": 30.0,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 489,
+          "batteryKwh": 120,
+          "charging": {
+            "dcMaxKw": 500,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 2300,
+          "dimensions": {
+            "lengthMm": 4745,
+            "widthMm": 2052,
+            "heightMm": 1240,
+            "wheelbaseMm": 2745
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [
+            "Charge AC triphasée 22 kW"
+          ],
+          "prices": [],
+          "notes": "0-100 km/h mesuré avec un départ « one-foot roll-out ». Le temps de charge publié (19 min) va de 0 à 80 %, d'où le champ 10-80 % laissé vide. Couple de 2 340 Nm selon Rimac (2 360 Nm selon Wikipedia). Dimensions selon Rimac ; Wikipedia donne des valeurs différentes.",
+          "sources": [
+            {
+              "label": "Rimac Automobili – Nevera",
+              "url": "https://www.rimac-automobili.com/nevera/",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Rimac Nevera",
+              "url": "https://en.wikipedia.org/wiki/Rimac_Nevera",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "rimac-nevera-r",
+          "name": "Nevera R",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "4 moteurs électriques",
+            "displacementCc": null,
+            "electricMotors": 4
+          },
+          "powerHp": 2107,
+          "powerKw": 1550,
+          "torqueNm": 2340,
+          "drivetrain": "awd",
+          "gearbox": "Réducteurs à rapport unique",
+          "accel0100s": 1.72,
+          "topSpeedKmh": 430,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": 108,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 2265,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "0-100 km/h avec départ « one-foot roll-out » ; 0-300 km/h en 7,89 s. Vitesse de 430 km/h « sous supervision du constructeur ». Masse d'environ 2 265 kg selon Wikipedia. Autonomie, recharge et dimensions non publiées dans les sources consultées.",
+          "sources": [
+            {
+              "label": "Rimac Automobili – Nevera R",
+              "url": "https://www.rimac-automobili.com/NeveraR/",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Rimac Nevera",
+              "url": "https://en.wikipedia.org/wiki/Rimac_Nevera",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Rimac Automobili – Nevera",
+          "url": "https://www.rimac-automobili.com/nevera/",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Rimac Automobili – Nevera R",
+          "url": "https://www.rimac-automobili.com/NeveraR/",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Rimac Nevera",
+          "url": "https://en.wikipedia.org/wiki/Rimac_Nevera",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mclaren-w1",
+      "modelId": "mclaren-w1",
+      "brandId": "mclaren",
+      "modelName": "W1",
+      "name": "McLaren W1 (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Hypercar hybride",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "collection",
+        "track",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2025 McLaren W1 FOS25.jpg",
+          "caption": null,
+          "depicts": "McLaren W1, Goodwood Festival of Speed 2025",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2024 McLaren W1 SP25.jpg",
+          "caption": null,
+          "depicts": "McLaren W1, Salon Privé 2025",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Dévoilée le 6 octobre 2024, la W1 est la troisième « 1 » de McLaren après la F1 et la P1. Son V8 biturbo de 4,0 litres et son moteur électrique délivrent 1 275 ch au total.",
+        "positioning": "Hypercar phare de McLaren, produite à 399 exemplaires à Woking.",
+        "technicalFacts": [
+          "V8 biturbo MHP-8 de 3 988 cm³ associé à un module électrique de 347 ch.",
+          "1 275 ch et 1 340 Nm combinés, propulsion.",
+          "Boîte à double embrayage 8 rapports avec marche arrière électrique.",
+          "Masse à sec la plus légère de 1 399 kg."
+        ],
+        "pros": [
+          "Rapport poids/puissance très élevé.",
+          "Lignée prestigieuse des « 1 » de McLaren."
+        ],
+        "differentiators": [
+          "Successeur direct de la P1 et de la F1."
+        ],
+        "pricePositioning": "Autocar évoque un prix d'environ 2 millions de livres.",
+        "innovations": [],
+        "compromises": [
+          "Série limitée à 399 exemplaires.",
+          "Propulsion seule malgré la puissance."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mclaren-w1-w1",
+          "name": "W1",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V8 biturbo + 1 moteur électrique",
+            "displacementCc": 3988,
+            "electricMotors": 1
+          },
+          "powerHp": 1275,
+          "powerKw": 938,
+          "torqueNm": 1340,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 8 rapports",
+          "accel0100s": 2.7,
+          "topSpeedKmh": 350,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": 1.384,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1399,
+          "dimensions": {
+            "lengthMm": 4635,
+            "widthMm": 2191,
+            "heightMm": 1182,
+            "wheelbaseMm": 2680
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Masse à sec la plus légère. 0-200 km/h en 5,8 s. Batterie de 1,384 kWh. Dimensions selon Wikipedia. Autocar NZ cite une vitesse limitée à 347 km/h ; 350 km/h retenus selon Autotijd et Wikipedia.",
+          "sources": [
+            {
+              "label": "Wikipedia – McLaren W1",
+              "url": "https://en.wikipedia.org/wiki/McLaren_W1",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – McLaren W1 V8 hybrid 1275 PS",
+              "url": "https://autotijd.be/en/specs/mclaren/w1/v8-hybrid-4915",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autocar – McLaren W1",
+              "url": "https://www.autocar.co.uk/car-review/mclaren/w1",
+              "type": "press",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – McLaren W1",
+          "url": "https://en.wikipedia.org/wiki/McLaren_W1",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – McLaren W1 V8 hybrid 1275 PS",
+          "url": "https://autotijd.be/en/specs/mclaren/w1/v8-hybrid-4915",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autocar – McLaren W1",
+          "url": "https://www.autocar.co.uk/car-review/mclaren/w1",
+          "type": "press",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mclaren-p1",
+      "modelId": "mclaren-p1",
+      "brandId": "mclaren",
+      "modelName": "P1",
+      "name": "McLaren P1 (2013)",
+      "yearsLabel": "2013 – 2015",
+      "startYear": 2013,
+      "endYear": 2015,
+      "status": "discontinued",
+      "segment": "Hypercar hybride",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2014 McLaren P1 3.8.jpg",
+          "caption": null,
+          "depicts": "McLaren P1 (2014), Concours d'Elegance Hampton Court 2019",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2013 McLaren P1.jpg",
+          "caption": null,
+          "depicts": "McLaren P1",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Présentée en version de série au Salon de Genève 2013, la P1 inaugure avec la LaFerrari et la Porsche 918 la génération des hypercars hybrides. Son V8 biturbo de 3,8 litres et son moteur électrique développent 916 ch.",
+        "positioning": "Héritière de la McLaren F1, produite à 375 exemplaires de 2013 à 2015.",
+        "technicalFacts": [
+          "V8 biturbo M838TQ de 3 799 cm³ (737 ch) et moteur électrique IPAS de 179 ch.",
+          "916 ch et 900 Nm combinés, boîte à double embrayage 7 rapports.",
+          "Batterie de 4,7 kWh et mode électrique d'environ 11 km (NEDC).",
+          "Monocoque en carbone « MonoCage »."
+        ],
+        "pros": [
+          "Pionnière des hypercars hybrides.",
+          "Comportement très affûté sur circuit."
+        ],
+        "differentiators": [
+          "Une des trois hypercars hybrides de 2013 avec la LaFerrari et la 918 Spyder."
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Moteur électrique IPAS de 26 kg."
+        ],
+        "compromises": [
+          "Production terminée.",
+          "Batterie de faible capacité selon les standards actuels."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mclaren-p1-p1",
+          "name": "P1",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V8 biturbo + 1 moteur électrique",
+            "displacementCc": 3799,
+            "electricMotors": 1
+          },
+          "powerHp": 916,
+          "powerKw": 674,
+          "torqueNm": 900,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": 2.8,
+          "topSpeedKmh": 350,
+          "consumption": null,
+          "electricRangeKm": 11,
+          "batteryKwh": 4.7,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1490,
+          "dimensions": {
+            "lengthMm": 4588,
+            "widthMm": 1946,
+            "heightMm": 1188,
+            "wheelbaseMm": 2670
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Masse DIN en ordre de marche selon McLaren (1 395 kg à sec). Vitesse limitée électroniquement. kW, cylindrée, batterie, autonomie électrique (environ 11 km NEDC) et dimensions selon Wikipedia.",
+          "sources": [
+            {
+              "label": "McLaren – McLaren P1, specification",
+              "url": "https://cars.mclaren.com/en/legacy/mclaren-p1/specification",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – McLaren P1",
+              "url": "https://en.wikipedia.org/wiki/McLaren_P1",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "McLaren – McLaren P1, specification",
+          "url": "https://cars.mclaren.com/en/legacy/mclaren-p1/specification",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – McLaren P1",
+          "url": "https://en.wikipedia.org/wiki/McLaren_P1",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ferrari-f80",
+      "modelId": "ferrari-f80",
+      "brandId": "ferrari",
+      "modelName": "F80",
+      "name": "Ferrari F80 (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Hypercar hybride",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "collection",
+        "track",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Ferrari F80.jpg",
+          "caption": null,
+          "depicts": "Ferrari F80 exposée à Maranello, octobre 2024",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2025 Ferrari F80.jpg",
+          "caption": null,
+          "depicts": "Ferrari F80",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Présentée le 17 octobre 2024, la F80 succède à la LaFerrari avec un V6 biturbo de 3,0 litres dérivé de la 499P victorieuse au Mans. Avec ses trois moteurs électriques, elle développe 1 200 ch.",
+        "positioning": "Supercar d'exception de Ferrari, dans la lignée GTO, F40, Enzo et LaFerrari, produite à 799 exemplaires.",
+        "technicalFacts": [
+          "V6 à 120° de 2 992 cm³ : 900 ch à 8 750 tr/min et 850 Nm, soit 300 ch/l.",
+          "Deux moteurs électriques sur l'essieu avant (142 ch chacun) et un MGU-K arrière ; 300 ch électriques au total.",
+          "Batterie de 2,28 kWh sous 860 V.",
+          "1 000 kg d'appui aérodynamique à 250 km/h."
+        ],
+        "pros": [
+          "Transfert technologique direct de la 499P d'endurance.",
+          "Appui aérodynamique de niveau course."
+        ],
+        "differentiators": [
+          "Première supercar d'exception de Ferrari à moteur V6."
+        ],
+        "pricePositioning": null,
+        "innovations": [
+          "Moteurs électriques développés et fabriqués par Ferrari à Maranello.",
+          "Suspension active participant à l'effet de sol."
+        ],
+        "compromises": [
+          "Toutes les unités réservées dès la présentation.",
+          "Coffre limité à 35 litres."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ferrari-f80-f80",
+          "name": "F80",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V6 biturbo 120° + 3 moteurs électriques",
+            "displacementCc": 2992,
+            "electricMotors": 3
+          },
+          "powerHp": 1200,
+          "powerKw": 883,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage F1 DCT 8 rapports",
+          "accel0100s": 2.15,
+          "topSpeedKmh": 350,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": 2.28,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1525,
+          "dimensions": {
+            "lengthMm": 4840,
+            "widthMm": 2060,
+            "heightMm": 1138,
+            "wheelbaseMm": 2665
+          },
+          "seats": 2,
+          "trunkL": 35,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Masse à sec avec contenus optionnels. Hauteur en ordre de marche. Couple combiné non publié (850 Nm pour le V6 seul). Puissance en kW selon Autotijd. 0-200 km/h en 5,75 s. Consommation et CO2 « en cours d'homologation » selon Ferrari.",
+          "sources": [
+            {
+              "label": "Ferrari – F80: Ferrari's new supercar (dossier de presse et fiche technique)",
+              "url": "https://cdn.ferrari.com/cms/network/media/pdf/CS_F80_gbr.pdf",
+              "type": "manufacturer",
+              "publishedAt": "2024-10-17",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Ferrari F80 V6 Hybrid AWD",
+              "url": "https://autotijd.be/en/specs/ferrari/f80/v6-hybrid-awd-4951",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Ferrari – F80: Ferrari's new supercar (dossier de presse et fiche technique)",
+          "url": "https://cdn.ferrari.com/cms/network/media/pdf/CS_F80_gbr.pdf",
+          "type": "manufacturer",
+          "publishedAt": "2024-10-17",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – Ferrari F80 V6 Hybrid AWD",
+          "url": "https://autotijd.be/en/specs/ferrari/f80/v6-hybrid-awd-4951",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Ferrari F80",
+          "url": "https://en.wikipedia.org/wiki/Ferrari_F80",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ferrari-laferrari",
+      "modelId": "ferrari-laferrari",
+      "brandId": "ferrari",
+      "modelName": "LaFerrari",
+      "name": "LaFerrari (2013)",
+      "yearsLabel": "2013 – 2016",
+      "startYear": 2013,
+      "endYear": 2016,
+      "status": "discontinued",
+      "segment": "Hypercar hybride",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Ferrari LaFerrari at Grand Basel 2018 01.jpg",
+          "caption": null,
+          "depicts": "LaFerrari, Grand Basel 2018",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:LaFerrari front.jpg",
+          "caption": null,
+          "depicts": "LaFerrari, Musée Ferrari de Maranello",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Présentée au Salon de Genève 2013, la LaFerrari est la première Ferrari de série hybride. Son V12 atmosphérique de 6,3 litres et son système HY-KERS dérivé de la Formule 1 développent 963 ch.",
+        "positioning": "Supercar d'exception de Ferrari entre l'Enzo et la F80.",
+        "technicalFacts": [
+          "V12 F140 de 6 262 cm³ : 800 ch à 9 000 tr/min et 700 Nm.",
+          "Moteur électrique HY-KERS de 163 ch ; 963 ch et 900 Nm combinés.",
+          "Boîte à double embrayage 7 rapports.",
+          "499 coupés produits selon Wikipedia, plus un 500e exemplaire vendu aux enchères."
+        ],
+        "pros": [
+          "V12 atmosphérique à haut régime.",
+          "Icône de la première génération d'hypercars hybrides."
+        ],
+        "differentiators": [
+          "Première Ferrari hybride de série."
+        ],
+        "pricePositioning": "Plus d'un million d'euros selon Wikipedia, sans prix exact sourcé.",
+        "innovations": [
+          "Système HY-KERS issu de la Formule 1."
+        ],
+        "compromises": [
+          "Production terminée.",
+          "Pas de mode électrique utilisable."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ferrari-laferrari-laferrari",
+          "name": "LaFerrari",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V12 atmosphérique + HY-KERS",
+            "displacementCc": 6262
+          },
+          "powerHp": 963,
+          "powerKw": 708,
+          "torqueNm": 900,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage 7 rapports",
+          "accel0100s": null,
+          "topSpeedKmh": 350,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1585,
+          "dimensions": {
+            "lengthMm": 4702,
+            "widthMm": 1992,
+            "heightMm": 1116,
+            "wheelbaseMm": 2650
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Données Wikipedia. Vitesse « plus de 350 km/h » selon Ferrari. Masse en ordre de marche (environ 1 255 kg à sec). 0-100 km/h non retenu (2,6 s cité par Wikipedia, sans source constructeur consultée). 0-200 km/h en 6,9 s selon le magazine Ferrari.",
+          "sources": [
+            {
+              "label": "Wikipedia – LaFerrari",
+              "url": "https://en.wikipedia.org/wiki/LaFerrari",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Ferrari Magazine – The LaFerrari: a true trailblazer",
+              "url": "https://www.ferrari.com/en-EN/magazine/articles/the-laferrari-a-true-trailblazer",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Wikipedia – LaFerrari",
+          "url": "https://en.wikipedia.org/wiki/LaFerrari",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Ferrari Magazine – The LaFerrari: a true trailblazer",
+          "url": "https://www.ferrari.com/en-EN/magazine/articles/the-laferrari-a-true-trailblazer",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "aston-martin-valkyrie",
+      "modelId": "aston-martin-valkyrie",
+      "brandId": "aston-martin",
+      "modelName": "Valkyrie",
+      "name": "Aston Martin Valkyrie (2021)",
+      "yearsLabel": "2021 – 2024",
+      "startYear": 2021,
+      "endYear": 2024,
+      "status": "discontinued",
+      "segment": "Hypercar hybride",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Aston Martin Valkyrie, EMS 2023, Essen (P1160761-RR).jpg",
+          "caption": null,
+          "depicts": "Aston Martin Valkyrie, Essen Motor Show 2023",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Aston Martin Valkyrie GIMS 2024 1X7A2266.jpg",
+          "caption": null,
+          "depicts": "Aston Martin Valkyrie, Salon de Genève 2024",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Conçue avec Red Bull Advanced Technologies, la Valkyrie de route est produite de novembre 2021 à décembre 2024. Son V12 atmosphérique Cosworth de 6,5 litres monte à 11 100 tr/min et développe 1 160 bhp avec l'hybridation.",
+        "positioning": "Hypercar d'inspiration Formule 1, au sommet de la gamme Aston Martin ; base de la Valkyrie engagée en Hypercar au WEC.",
+        "technicalFacts": [
+          "V12 à 65° de 6,5 litres conçu avec Cosworth : 1 000 bhp à 10 500 tr/min, régime maximal de 11 100 tr/min.",
+          "Hybridation Rimac et Integral Powertrain : +160 bhp et +280 Nm.",
+          "1 160 bhp et 900 Nm combinés.",
+          "150 coupés produits sur 275 Valkyrie au total (coupé, Spider et AMR Pro)."
+        ],
+        "pros": [
+          "Sonorité et régime du V12 atmosphérique.",
+          "Aérodynamique à effet de sol issue de la F1."
+        ],
+        "differentiators": [
+          "Une des voitures de route les plus proches d'une monoplace."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Habitacle exigu et accès difficile.",
+          "Production terminée."
+        ]
+      },
+      "variants": [
+        {
+          "id": "aston-martin-valkyrie-coupe",
+          "name": "Valkyrie",
+          "tier": "top",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "V12 atmosphérique + système hybride",
+            "displacementCc": 6500
+          },
+          "powerHp": 1176,
+          "powerKw": 865,
+          "torqueNm": 900,
+          "drivetrain": "rwd",
+          "gearbox": "Ricardo 7 rapports robotisée à simple embrayage",
+          "accel0100s": 2.6,
+          "topSpeedKmh": null,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": null,
+          "dimensions": {
+            "lengthMm": 4500,
+            "widthMm": 1965,
+            "heightMm": 1070,
+            "wheelbaseMm": 2770
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Puissance certifiée de 1 160 bhp à 10 500 tr/min et couple de 900 Nm à 6 000 tr/min selon Aston Martin ; 1 176 PS / 865 kW selon Wikipedia. Cylindrée arrondie (6,5 litres). 0-100 km/h, boîte et dimensions selon Wikipedia. Masse non retenue (valeurs contradictoires dans les sources).",
+          "sources": [
+            {
+              "label": "Aston Martin Media – Aston Martin Valkyrie: the ultimate hybrid powertrain for the ultimate hypercar",
+              "url": "https://media.astonmartin.com/aston-martin-valkyrie-the-ultimate-hybrid-powertrain-for-the-ultimate-hypercar/",
+              "type": "manufacturer",
+              "publishedAt": "2019-03-01",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Aston Martin Valkyrie",
+              "url": "https://en.wikipedia.org/wiki/Aston_Martin_Valkyrie",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Aston Martin Media – Aston Martin Valkyrie: the ultimate hybrid powertrain for the ultimate hypercar",
+          "url": "https://media.astonmartin.com/aston-martin-valkyrie-the-ultimate-hybrid-powertrain-for-the-ultimate-hypercar/",
+          "type": "manufacturer",
+          "publishedAt": "2019-03-01",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Aston Martin Valkyrie",
+          "url": "https://en.wikipedia.org/wiki/Aston_Martin_Valkyrie",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "aston-martin-valhalla",
+      "modelId": "aston-martin-valhalla",
+      "brandId": "aston-martin",
+      "modelName": "Valhalla",
+      "name": "Aston Martin Valhalla (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Supercar hybride rechargeable",
+      "bodyStyles": [
+        "Coupé"
+      ],
+      "categories": [
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2025 Aston Martin Valhalla 5.jpg",
+          "caption": null,
+          "depicts": "Aston Martin Valhalla",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Aston Martin Valhalla at the 2026 Adelaide Rally Street Party on King William Road (028A4063).jpg",
+          "caption": null,
+          "depicts": "Aston Martin Valhalla, Adelaide, octobre 2026",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Présentée dans sa version de série le 11 décembre 2024, la Valhalla est une Aston Martin à moteur central et hybridation rechargeable. Son V8 biturbo à vilebrequin plat et ses trois moteurs électriques délivrent 1 079 ch.",
+        "positioning": "Supercar d'Aston Martin sous la Valkyrie, limitée à 999 exemplaires.",
+        "technicalFacts": [
+          "V8 biturbo de 4,0 litres à vilebrequin plat : 828 ch.",
+          "Trois moteurs électriques (deux à l'avant, un dans la boîte) : 251 ch.",
+          "Boîte à double embrayage 8 rapports ; essieu avant uniquement électrique.",
+          "Plus de 600 kg d'appui aérodynamique à 240 km/h.",
+          "Mode électrique : 14 km jusqu'à 140 km/h."
+        ],
+        "pros": [
+          "Conception inspirée de la Valkyrie, plus accessible au quotidien.",
+          "Mode électrique pour la ville."
+        ],
+        "differentiators": [
+          "Première Aston Martin hybride rechargeable à moteur central."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Masse à sec de 1 655 kg.",
+          "Série limitée à 999 exemplaires."
+        ]
+      },
+      "variants": [
+        {
+          "id": "aston-martin-valhalla-coupe",
+          "name": "Valhalla",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "V8 biturbo + 3 moteurs électriques",
+            "displacementCc": 3982,
+            "electricMotors": 3
+          },
+          "powerHp": 1079,
+          "powerKw": 793,
+          "torqueNm": 1100,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage 8 rapports",
+          "accel0100s": 2.5,
+          "topSpeedKmh": 350,
+          "consumption": null,
+          "electricRangeKm": 14,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1655,
+          "dimensions": {
+            "lengthMm": 4748,
+            "widthMm": 2014,
+            "heightMm": 1161,
+            "wheelbaseMm": 2760
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Masse à sec. 0-100 km/h annoncé comme objectif dans le communiqué. Vitesse limitée électroniquement. Puissance en kW, cylindrée exacte et dimensions selon Wikipedia. Capacité de batterie non publiée par Aston Martin (6,1 kWh selon Wikipedia, non retenu).",
+          "sources": [
+            {
+              "label": "Aston Martin Media – Valhalla: the ultimate driver's supercar",
+              "url": "https://media.astonmartin.com/valhalla-the-ultimate-drivers-supercar/",
+              "type": "manufacturer",
+              "publishedAt": "2024-12-11",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Aston Martin Valhalla",
+              "url": "https://en.wikipedia.org/wiki/Aston_Martin_Valhalla",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Aston Martin Media – Valhalla: the ultimate driver's supercar",
+          "url": "https://media.astonmartin.com/valhalla-the-ultimate-drivers-supercar/",
+          "type": "manufacturer",
+          "publishedAt": "2024-12-11",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Aston Martin Valhalla",
+          "url": "https://en.wikipedia.org/wiki/Aston_Martin_Valhalla",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lamborghini-aventador",
+      "modelId": "lamborghini-aventador",
+      "brandId": "lamborghini",
+      "modelName": "Aventador",
+      "name": "Lamborghini Aventador (2011)",
+      "yearsLabel": "2011 – 2022",
+      "startYear": 2011,
+      "endYear": 2022,
+      "status": "discontinued",
+      "segment": "Supercar V12 à moteur central",
+      "bodyStyles": [
+        "Coupé",
+        "Roadster"
+      ],
+      "categories": [
+        "classic",
+        "supercar",
+        "coupe"
+      ],
+      "priceRange": null,
+      "usage": [
+        "collection",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Lamborghini Aventador LP700-4 Orange.jpg",
+          "caption": null,
+          "depicts": "Lamborghini Aventador LP 700-4, Goodwood Festival of Speed 2022",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Lamborghini Aventador SVJ 2019.jpg",
+          "caption": null,
+          "depicts": "Lamborghini Aventador SVJ (2019)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Lancée au Salon de Genève le 28 février 2011, l'Aventador porte le V12 atmosphérique de 6,5 litres de Lamborghini pendant plus de dix ans. L'Aventador SVJ de 770 ch, dévoilée en 2018, en est la version la plus radicale.",
+        "positioning": "Vaisseau amiral V12 de Lamborghini entre la Murciélago et la Revuelto.",
+        "technicalFacts": [
+          "V12 atmosphérique de 6 498 cm³ ; 700 ch à l'origine, 770 ch pour la SVJ.",
+          "Boîte robotisée ISR à 7 rapports et transmission intégrale.",
+          "11 831 exemplaires produits toutes versions confondues selon Wikipedia.",
+          "Remplacée par la Revuelto hybride en 2023."
+        ],
+        "pros": [
+          "Dernier grand V12 atmosphérique non hybridé de Lamborghini.",
+          "Présence visuelle spectaculaire."
+        ],
+        "differentiators": [
+          "Longévité exceptionnelle pour une supercar V12."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Boîte robotisée à simple embrayage brutale à basse vitesse.",
+          "Production terminée."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lamborghini-aventador-lp-700-4",
+          "name": "Aventador LP 700-4",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 atmosphérique",
+            "displacementCc": 6498
+          },
+          "powerHp": 700,
+          "powerKw": 515,
+          "torqueNm": 690,
+          "drivetrain": "awd",
+          "gearbox": "Robotisée ISR 7 rapports",
+          "accel0100s": 2.9,
+          "topSpeedKmh": 350,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1575,
+          "dimensions": {
+            "lengthMm": 4780,
+            "widthMm": 2030,
+            "heightMm": 1136,
+            "wheelbaseMm": 2700
+          },
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Données Wikipedia. Masse à sec. Couple à 5 500 tr/min, puissance à 8 250 tr/min.",
+          "sources": [
+            {
+              "label": "Wikipedia – Lamborghini Aventador",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_Aventador",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lamborghini-aventador-svj",
+          "name": "Aventador SVJ",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V12 atmosphérique",
+            "displacementCc": 6498
+          },
+          "powerHp": 770,
+          "powerKw": 566,
+          "torqueNm": 720,
+          "drivetrain": "awd",
+          "gearbox": "Robotisée ISR 7 rapports",
+          "accel0100s": 2.8,
+          "topSpeedKmh": 350,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1525,
+          "dimensions": null,
+          "seats": 2,
+          "trunkL": null,
+          "equipmentHighlights": [],
+          "prices": [],
+          "notes": "Vitesse « plus de 350 km/h » selon Lamborghini. Couple à 6 750 tr/min et masse à sec selon Wikipedia. Dimensions spécifiques non publiées dans les sources consultées.",
+          "sources": [
+            {
+              "label": "Lamborghini – Aventador SVJ (histoire)",
+              "url": "https://www.lamborghini.com/en-en/history/aventador-svj",
+              "type": "manufacturer",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Wikipedia – Lamborghini Aventador",
+              "url": "https://en.wikipedia.org/wiki/Lamborghini_Aventador",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Lamborghini – Aventador SVJ (histoire)",
+          "url": "https://www.lamborghini.com/en-en/history/aventador-svj",
+          "type": "manufacturer",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Wikipedia – Lamborghini Aventador",
+          "url": "https://en.wikipedia.org/wiki/Lamborghini_Aventador",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}
