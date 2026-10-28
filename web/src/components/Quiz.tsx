@@ -3,6 +3,7 @@
  * Un sans-faute rapporte un booster bonus (dans la limite fixée par collection.ts).
  */
 import { useEffect, useMemo, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { Check, X } from 'lucide-react';
 import type { WecSeason, WrcSeason } from '@shared/sport';
 import { useF1, useSeries } from '../hooks/queries';
@@ -61,7 +62,7 @@ export function Quiz({ discipline, onPerfect, onClose }: Props) {
     else setResult('missed');
   };
 
-  return (
+  return createPortal(
     <div className="quiz" role="dialog" aria-modal="true" aria-label={`Questionnaire ${NAMES[discipline]}`}>
       <div className="quiz-card">
         <header className="row between gap-3">
@@ -112,6 +113,7 @@ export function Quiz({ discipline, onPerfect, onClose }: Props) {
           </div>
         )}
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 }

@@ -6,8 +6,11 @@
  * Chaque geste a un bouton équivalent (clavier, accessibilité, mouvements réduits).
  */
 import { useEffect, useRef, useState, type CSSProperties, type PointerEvent as ReactPointerEvent } from 'react';
+import { createPortal } from 'react-dom';
 import type { CarSummary } from '@shared/api';
 import { TradingCard, RARITY } from './TradingCard';
+
+const cardKeyOf = (c: CarSummary) => c.card?.id ?? c.id;
 import { Logo } from './AppShell';
 
 type Stage = 'arrive' | 'pack' | 'torn' | 'emerge' | 'swipe' | 'spread' | 'adding';
@@ -100,7 +103,8 @@ export function BoosterOpening({ cards, isNew, packLabel, onAdd, onClose }: Prop
   const current = cards[index];
   const rarity = current?.card?.rarity ?? 'common';
 
-  return (
+  // Rendu directement dans <body> : l'écran couvre toujours tout l'affichage, même si la page a défilé.
+  return createPortal(
     <div className={`bo is-${stage}`} role="dialog" aria-modal="true" aria-label="Ouverture d'un booster">
       {(stage === 'arrive' || stage === 'pack' || stage === 'torn' || stage === 'emerge') && (
         <div className="bo-pack-zone">
@@ -145,9 +149,20 @@ export function BoosterOpening({ cards, isNew, packLabel, onAdd, onClose }: Prop
             onPointerUp={onUp}
             onPointerCancel={() => { start.current = null; setDrag(0); }}
           >
-            {cards.slice(index + 1, index + 3).reverse().map((c, k, arr) => (
-              <div key={`${c.id}-${index + arr.length - k}`} className="bo-behind" style={{ '--depth': arr.length - k } as CSSProperties} aria-hidden="true" />
-            ))}
+            {/* Cartes suivantes, déjà visibles juste en dessous : la prochaine grandit pendant qu'on glisse. */}
+            {cards.slice(index + 1, index + 3).map((c, k) => ({ c, depth: k + 1 })).reverse().map(({ c, depth }) => {
+              const progress = depth === 1 ? (leaving ? 1 : Math.min(1, Math.abs(drag) / 140)) : 0;
+              return (
+                <div
+                  key={`${cardKeyOf(c)}-${index + depth}`}
+                  className="bo-behind"
+                  style={{ '--depth': depth - progress, transition: start.current != null ? 'none' : undefined } as CSSProperties}
+                  aria-hidden="true"
+                >
+                  <TradingCard car={c} static />
+                </div>
+              );
+            })}
             <div
               key={index}
               className={`bo-card r-glow-${rarity}${leaving ? ` leaving-${leaving}` : ''}`}
@@ -182,6 +197,7 @@ export function BoosterOpening({ cards, isNew, packLabel, onAdd, onClose }: Prop
           </button>
         </div>
       )}
-    </div>
+    </div>,
+    document.body,
   );
 }
