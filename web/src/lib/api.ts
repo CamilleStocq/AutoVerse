@@ -19,6 +19,11 @@ export function buildQuery(params: Params = {}): string {
 }
 
 async function request<T>(method: string, path: string, body?: unknown): Promise<T> {
+  if (import.meta.env.VITE_STATIC === '1') {
+    if (method !== 'GET') throw new ApiError('Synchronisation indisponible dans la version en ligne.', 501);
+    const { staticGet } = await import('./staticApi');
+    return staticGet(path) as Promise<T>;
+  }
   let res: Response;
   try {
     res = await fetch(`/api${path}`, {

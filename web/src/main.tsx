@@ -19,6 +19,15 @@ try {
   document.documentElement.dataset.theme = 'dark';
 }
 
+// Application installable et hors ligne (version publiée uniquement).
+if (import.meta.env.PROD && 'serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`, { scope: import.meta.env.BASE_URL }).catch(() => {
+      // Sans service worker l'application fonctionne normalement, simplement sans mode hors ligne.
+    });
+  });
+}
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />

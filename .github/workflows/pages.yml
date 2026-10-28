@@ -1,0 +1,71 @@
+# Publie Autoverse sur GitHub Pages : l'application s'utilise depuis un navigateur,
+# sans rien installer. Les données (actualité, F1, calendrier, photos) sont régénérées
+# à chaque publication, et automatiquement toutes les 30 minutes.
+name: Publier Autoverse
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Tests
+        if: github.event_name != 'schedule'
+        run: npm test
+
+      # Cache des sources externes conservé d'une exécution à l'autre : si une source est
+      # momentanément indisponible, sa dernière copie connue est publiée (avec sa date).
+      - name: Restaurer le cache des sources
+        uses: actions/cache@v4
+        with:
+          path: server/data/runtime
+          key: autoverse-sources-${{ github.run_id }}
+          restore-keys: autoverse-sources-
+
+      - name: Exporter les données
+        run: npm run export:static --workspace server -- ../web/public/data
+        env:
+          HTTP_USER_AGENT: Autoverse/1.0 (https://github.com/${{ github.repository }})
+
+      - name: Construire l'application
+        run: npm run build:pages --workspace web
+        env:
+          VITE_STATIC: '1'
+          VITE_BASE: /${{ github.event.repository.name }}/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -4,7 +4,7 @@
  * l'interface affiche un visuel de remplacement plutôt qu'une image erronée.
  */
 import { getDb } from '../db.ts';
-import { fetchJson, UpstreamError } from '../lib/http.ts';
+import { fetchJson } from '../lib/http.ts';
 
 export interface CommonsImage {
   src: string;
@@ -67,19 +67,13 @@ export async function resolveCommonsImages(files: string[]): Promise<void> {
       + '&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1920'
       + '&iiextmetadatafilter=Artist|LicenseShortName|LicenseUrl'
       + `&titles=${encodeURIComponent(batch.join('|'))}`;
-    let json: ImageInfoResponse | null = null;
-    // Wikimedia limite le débit (HTTP 429) : jusqu'à 3 tentatives avec attente croissante.
-    for (let attempt = 0; attempt < 3 && !json; attempt++) {
-      try {
-        json = await fetchJson<ImageInfoResponse>(url, 'Wikimedia Commons', 20_000);
-      } catch (e) {
-        const retry = e instanceof UpstreamError && e.status === 429 && attempt < 2;
-        if (!retry) console.warn('[images]', e instanceof Error ? e.message : e);
-        if (retry) await new Promise((r) => setTimeout(r, 2000 * (attempt + 1)));
-        else break;
-      }
+    let json: ImageInfoResponse;
+    try {
+      json = await fetchJson<ImageInfoResponse>(url, 'Wikimedia Commons', 20_000);
+    } catch (e) {
+      console.warn('[images]', e instanceof Error ? e.message : e);
+      continue; // on garde les copies en cache éventuelles
     }
-    if (!json) continue; // on garde les copies en cache éventuelles
     const aliases = new Map((json.query?.normalized ?? []).map((n) => [n.to, n.from]));
     const now = new Date().toISOString();
     for (const page of Object.values(json.query?.pages ?? {})) {

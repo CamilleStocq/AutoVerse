@@ -2,7 +2,22 @@
 
 Magazine automobile personnel : catalogue personnalisé, fiches détaillées, nouveautés datées, wishlist, comparateur, actualité, et sport automobile (F1, WEC, WRC).
 
-## Démarrage
+## Utiliser l'application (rien à installer)
+
+**https://camillestocq.github.io/AutoVerse/**
+
+Elle s'ouvre dans n'importe quel navigateur, sur téléphone comme sur ordinateur. Pour l'avoir comme une application, en plein écran, avec son icône et utilisable hors ligne :
+- **Android, Chrome ou Edge sur ordinateur :** bouton *Installer l'app*, ou menu du navigateur → *Installer l'application*.
+- **iPhone, iPad :** dans Safari, *Partager* → *Sur l'écran d'accueil*.
+
+Fonctionnement de la version en ligne (GitHub Pages, sans serveur) :
+- Le workflow `.github/workflows/pages.yml` régénère les données toutes les 30 minutes : actualité, F1, calendrier, photos. GitHub peut décaler ces exécutions de quelques minutes.
+- Le catalogue, la recherche et la personnalisation tournent dans le navigateur, avec le même moteur que l'API (`shared/catalog-engine.ts`).
+- Préférences et favoris sont enregistrés sur l'appareil. Pour changer d'appareil : *Profil → Exporter mes données*, puis *Importer une sauvegarde* sur l'autre appareil. La synchronisation automatique n'existe qu'avec le serveur Node (voir plus bas).
+
+**Activation, une seule fois :** dans le dépôt GitHub, *Settings → Pages → Build and deployment → Source* : choisir **GitHub Actions**.
+
+## Développement local
 
 Prérequis : **Node.js ≥ 22.18** (testé avec Node 24). Aucune base de données à installer : SQLite est intégré à Node.
 

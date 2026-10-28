@@ -6,7 +6,8 @@
     "dev": "node --watch --env-file-if-exists=.env src/index.ts",
     "start": "node --env-file-if-exists=.env src/index.ts",
     "test": "node --import ./test/env.ts --test --test-concurrency=1 test/*.test.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "export:static": "node --env-file-if-exists=.env scripts/export-static.ts"
   },
   "dependencies": {
     "@hono/node-server": "^1.19.17",

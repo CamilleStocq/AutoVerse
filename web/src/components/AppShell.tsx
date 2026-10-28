@@ -1,6 +1,7 @@
 import { NavLink, Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { useCallback, useEffect, useState } from 'react';
-import { CalendarClock, Compass, Flag, Heart, Home, Newspaper, Search, Settings, X } from 'lucide-react';
+import { CalendarClock, Compass, Download, Flag, Heart, Home, Newspaper, Search, Settings, X } from 'lucide-react';
+import { useInstallState } from './InstallApp';
 import { QuickSearch, useQuickSearchShortcut } from './QuickSearch';
 import { useProfile } from '../state/ProfileProvider';
 import { useUi } from '../state/UiProvider';
@@ -8,9 +9,10 @@ import { useUi } from '../state/UiProvider';
 export function Logo() {
   return (
     <svg viewBox="0 0 64 64" aria-hidden="true">
-      <rect width="64" height="64" rx="14" fill="var(--surface-3)" />
-      <path d="M14 44 L30 18 L36 18 L50 44 L43 44 L33 26 L23 44 Z" fill="var(--accent)" />
-      <rect x="24" y="36" width="16" height="4" rx="1" fill="var(--text)" />
+      <rect width="64" height="64" rx="10" fill="var(--surface)" />
+      <path d="M30 4h20a10 10 0 0 1 10 10v16" fill="none" stroke="var(--accent)" strokeWidth="3.2" />
+      <path d="M12 52 29 14h8l17 38h-9L33 25 21 52Z" fill="var(--accent)" />
+      <rect x="23" y="40" width="20" height="5" fill="var(--text)" />
     </svg>
   );
 }
@@ -51,6 +53,7 @@ export function AppShell() {
   const { wishlist } = useProfile();
   const { pathname } = useLocation();
   const [searchOpen, setSearchOpen] = useState(false);
+  const install = useInstallState();
   const openSearch = useCallback(() => setSearchOpen(true), []);
   useQuickSearchShortcut(openSearch);
   useEffect(() => { window.scrollTo({ top: 0 }); }, [pathname]);
@@ -75,13 +78,19 @@ export function AppShell() {
             ))}
           </ul>
         </nav>
-        <p className="sidebar-foot">Données sourcées et datées. Photos : Wikimedia Commons (licences libres).</p>
+        {install.canPrompt && !install.installed && (
+          <button type="button" className="btn btn-sm" style={{ marginTop: 'auto' }} onClick={install.prompt}><Download size={16} /> Installer l’app</button>
+        )}
+        <p className="sidebar-foot" style={install.canPrompt && !install.installed ? { marginTop: 0 } : undefined}>Données sourcées et datées. Photos : Wikimedia Commons (licences libres).</p>
       </aside>
 
       <div className="content-wrap">
         <header className="topbar">
           <Link to="/" className="brandmark" style={{ padding: 0 }}><Logo /> Autoverse</Link>
           <div className="topbar-actions">
+            {install.canPrompt && !install.installed && (
+              <button type="button" className="icon-btn" onClick={install.prompt} aria-label="Installer l’application" data-tip="Installer"><Download size={20} /></button>
+            )}
             <button type="button" className="icon-btn" onClick={openSearch} aria-label="Rechercher" data-tip="Rechercher"><Search size={20} /></button>
             <NavLink to="/actualite" className="icon-btn" aria-label="Actualité" data-tip="Actualité"><Newspaper size={20} /></NavLink>
             <NavLink to="/profil" className="icon-btn" aria-label="Profil et paramètres" data-tip="Profil"><Settings size={20} /></NavLink>

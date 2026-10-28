@@ -54,7 +54,7 @@ export function CompareButton({ car, onImage, size = 20 }: Props) {
 export function ShareButton({ car, onImage, size = 20 }: Props) {
   const { toast } = useUi();
   const share = async () => {
-    const url = `${window.location.origin}/voiture/${car.id}`;
+    const url = `${window.location.origin}${import.meta.env.BASE_URL}voiture/${car.id}`;
     const title = `${car.brandName} ${car.modelName} ${car.generationName}`.trim();
     try {
       if (navigator.share) {

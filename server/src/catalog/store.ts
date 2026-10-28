@@ -11,7 +11,10 @@
 import { readdirSync, readFileSync, watch } from 'node:fs';
 import path from 'node:path';
 import type { Brand, CategoryId, Generation, MarketCode, Powertrain } from '../../../shared/types.ts';
-import type { CarSummary, PriceView, ResolvedImage } from '../../../shared/api.ts';
+import type { CarSummary, ResolvedImage } from '../../../shared/api.ts';
+import { powertrainsOf, summarize as engineSummarize, type CatalogContext } from '../../../shared/catalog-engine.ts';
+
+export { powertrainsOf, startingPrice } from '../../../shared/catalog-engine.ts';
 import { config } from '../config.ts';
 import { brandSchema, generationSchema } from './schema.ts';
 import { getCachedImage, resolveCommonsImages } from './images.ts';
@@ -34,12 +37,6 @@ export const catalog = () => state;
 
 function readJson(file: string): unknown {
   return JSON.parse(readFileSync(file, 'utf8'));
-}
-
-export function powertrainsOf(g: Generation): Powertrain[] {
-  const fromVariants = g.variants.map((v) => v.powertrain);
-  const list = fromVariants.length ? fromVariants : (g.upcoming?.expectedPowertrains ?? []);
-  return [...new Set(list)];
 }
 
 export function loadCatalog(seedDir = config.seedDir): CatalogState {
@@ -153,82 +150,13 @@ export function watchSeeds(onReload: () => void): void {
   }
 }
 
-// ---------- Résumés pour les cartes ----------
+// ---------- Contexte du moteur partagé ----------
 
-const MARKET_FALLBACK: MarketCode[] = ['BE', 'FR', 'LU', 'NL', 'DE', 'IT', 'ES', 'CH', 'GB'];
-
-function pricesFor(g: Generation, market: MarketCode, estimate: boolean): PriceView[] {
-  return g.variants.flatMap((v) =>
-    v.prices
-      .filter((p) => p.market === market && (p.type === 'estimate') === estimate)
-      .map((p) => ({ amount: p.amount, currency: p.currency, market: p.market, type: p.type, asOf: p.asOf, variantName: v.name, source: p.source, estimate: p.estimate ?? null })),
-  );
-}
-
-/**
- * Prix de départ sur le marché demandé. Aucun repli silencieux vers un autre pays :
- * si le marché n'a pas de prix, le frontend l'indique (et peut proposer un autre marché).
- */
-export function startingPrice(g: Generation, market: MarketCode, estimate = false): PriceView | null {
-  const list = pricesFor(g, market, estimate);
-  if (!list.length) return null;
-  return list.reduce((min, p) => (p.amount < min.amount ? p : min));
-}
-
-export function availablePriceMarkets(g: Generation): MarketCode[] {
-  const set = new Set(g.variants.flatMap((v) => v.prices.filter((p) => p.type !== 'estimate').map((p) => p.market)));
-  return MARKET_FALLBACK.filter((m) => set.has(m));
-}
-
-const RELEASE_KEYS = ['marketAvailability', 'firstDeliveries', 'ordersOpen', 'presentation'] as const;
-
-function keyFact(g: Generation): CarSummary['keyFact'] {
-  const powers = g.variants.map((v) => v.powerHp).filter((p): p is number => p != null);
-  const ranges = g.variants.map((v) => v.electricRangeKm).filter((p): p is number => p != null);
-  const isEv = g.variants.length > 0 && g.variants.every((v) => v.powertrain === 'ev');
-  if (isEv && ranges.length && !g.categories.some((c) => c === 'sports' || c === 'supercar')) {
-    return { label: 'Autonomie WLTP', value: `jusqu'à ${Math.max(...ranges)} km` };
-  }
-  if (powers.length) {
-    const min = Math.min(...powers);
-    const max = Math.max(...powers);
-    return { label: 'Puissance', value: min === max ? `${max} ch` : `${min} – ${max} ch` };
-  }
-  return null;
+/** Contexte courant pour le moteur du catalogue (shared/catalog-engine.ts). */
+export function catalogContext(): CatalogContext {
+  return { brands: state.brands, generations: state.generations, imagesFor: resolvedImages };
 }
 
 export function summarize(g: Generation, market: MarketCode): CarSummary {
-  const brand = state.brands.get(g.brandId)!;
-  const images = resolvedImages(g);
-  const powers = g.variants.map((v) => v.powerHp).filter((p): p is number => p != null);
-  const releaseKey = g.launch ? RELEASE_KEYS.find((k) => g.launch?.[k]?.date) ?? null : null;
-  return {
-    id: g.id,
-    brandId: g.brandId,
-    brandName: brand.name,
-    brandAccent: brand.accent,
-    modelId: g.modelId,
-    modelName: g.modelName,
-    generationName: g.name,
-    yearsLabel: g.yearsLabel,
-    startYear: g.startYear,
-    status: g.status,
-    confirmation: g.upcoming?.confirmation ?? null,
-    categories: g.categories,
-    powertrains: powertrainsOf(g),
-    segment: g.segment,
-    bodyStyles: g.bodyStyles,
-    priceRange: g.priceRange,
-    image: images[0] ?? null,
-    keyFact: keyFact(g),
-    maxPowerHp: powers.length ? Math.max(...powers) : null,
-    startingPrice: startingPrice(g, market),
-    otherMarketPrice: startingPrice(g, market) ? null : (MARKET_FALLBACK.filter((m) => m !== market).map((m) => startingPrice(g, m)).find((p) => !!p) ?? null),
-    estimatedPrice: startingPrice(g, market, true),
-    releaseDate: releaseKey ? g.launch![releaseKey]!.date : null,
-    releaseDateKind: releaseKey,
-    isUpcoming: !!g.upcoming && g.status !== 'discontinued',
-    variantCount: g.variants.length,
-    updatedAt: g.updatedAt,
-  };
+  return engineSummarize(catalogContext(), g, market);
 }

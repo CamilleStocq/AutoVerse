@@ -9,3 +9,4 @@ coverage/
 # Outils locaux et fichiers de travail
 .claude/
 *.pdf
+web/public/data/

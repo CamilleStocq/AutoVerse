@@ -58,7 +58,7 @@ export function App() {
     <QueryClientProvider client={queryClient}>
       <ProfileProvider>
         <UiProvider>
-          <BrowserRouter>
+          <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
             <AppRoutes />
           </BrowserRouter>
         </UiProvider>

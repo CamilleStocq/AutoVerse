@@ -15,7 +15,19 @@ type PendingOp =
   | { kind: 'wish-put'; entry: WishlistEntry }
   | { kind: 'wish-delete'; generationId: string };
 
-export type SyncState = 'synced' | 'syncing' | 'pending';
+export type SyncState = 'synced' | 'syncing' | 'pending' | 'local';
+
+/** Version hébergée sans serveur : tout reste sur l'appareil (export/import pour changer d'appareil). */
+export const SERVER_SYNC = import.meta.env.VITE_STATIC !== '1';
+
+export interface ExportedData {
+  format: 'autoverse-backup';
+  version: 1;
+  exportedAt: string;
+  preferences: Preferences;
+  onboardedAt: string | null;
+  wishlist: WishlistEntry[];
+}
 
 interface ProfileContextValue {
   profileId: string;
@@ -30,6 +42,8 @@ interface ProfileContextValue {
   removeWish: (id: string) => void;
   syncState: SyncState;
   linkProfile: (id: string) => Promise<void>;
+  exportData: () => ExportedData;
+  importData: (data: unknown) => number;
 }
 
 const ProfileContext = createContext<ProfileContextValue | null>(null);
@@ -71,6 +85,7 @@ export function ProfileProvider({ children }: { children: ReactNode }) {
   useEffect(() => writeLocal(KEYS.pending, pending), [pending]);
 
   const enqueue = useCallback((op: PendingOp) => {
+    if (!SERVER_SYNC) return;
     setPending((list) => {
       // Une seule opération en attente par cible : la plus récente l'emporte.
       const key = (o: PendingOp) => (o.kind === 'profile' ? 'profile' : o.kind === 'wish-put' ? o.entry.generationId : o.generationId);
@@ -103,6 +118,7 @@ export function ProfileProvider({ children }: { children: ReactNode }) {
 
   // Chargement initial : réconciliation avec le serveur.
   useEffect(() => {
+    if (!SERVER_SYNC) return;
     let cancelled = false;
     (async () => {
       const queued = readLocal<PendingOp[]>(KEYS.pending, []);
@@ -186,6 +202,29 @@ export function ProfileProvider({ children }: { children: ReactNode }) {
     return true;
   }, [wishedIds, removeWish, enqueue]);
 
+  const exportData = useCallback((): ExportedData => ({
+    format: 'autoverse-backup',
+    version: 1,
+    exportedAt: new Date().toISOString(),
+    preferences: { ...DEFAULT_PREFERENCES, ...profile.preferences },
+    onboardedAt: profile.onboardedAt,
+    wishlist,
+  }), [profile, wishlist]);
+
+  /** Restaure une sauvegarde : remplace préférences et wishlist. Renvoie le nombre de favoris importés. */
+  const importData = useCallback((data: unknown): number => {
+    const d = data as Partial<ExportedData> | null;
+    if (!d || d.format !== 'autoverse-backup' || !d.preferences || !Array.isArray(d.wishlist)) {
+      throw new Error('Ce fichier n’est pas une sauvegarde Autoverse.');
+    }
+    const entries = d.wishlist.filter((w): w is WishlistEntry => !!w && typeof w.generationId === 'string' && !!w.snapshot);
+    setProfile((p) => ({ ...p, preferences: { ...DEFAULT_PREFERENCES, ...d.preferences }, onboardedAt: d.onboardedAt ?? p.onboardedAt ?? new Date().toISOString(), updatedAt: new Date().toISOString() }));
+    setWishlist(entries);
+    enqueue({ kind: 'profile' });
+    entries.forEach((entry) => enqueue({ kind: 'wish-put', entry }));
+    return entries.length;
+  }, [enqueue]);
+
   const linkProfile = useCallback(async (id: string) => {
     const remote = await api.get<Profile | null>(`/profile/${id.trim()}`);
     if (!remote) throw new ApiError('Profil inconnu.', 404);
@@ -209,8 +248,10 @@ export function ProfileProvider({ children }: { children: ReactNode }) {
     isWished: (id) => wishedIds.has(id),
     toggleWish,
     removeWish,
-    syncState: syncing ? 'syncing' : pending.length ? 'pending' : 'synced',
+    syncState: !SERVER_SYNC ? 'local' : syncing ? 'syncing' : pending.length ? 'pending' : 'synced',
     linkProfile,
+    exportData,
+    importData,
   };
   return <ProfileContext.Provider value={value}>{children}</ProfileContext.Provider>;
 }

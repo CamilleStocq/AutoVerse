@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Check, Copy, Moon, Monitor, RefreshCw, Sun } from 'lucide-react';
+import { Check, Copy, Download, Moon, Monitor, RefreshCw, Sun, Upload } from 'lucide-react';
 import { CATEGORY_LABELS, INTEREST_LABELS, MARKETS, PERIOD_LABELS, POWERTRAIN_LABELS, PRICE_RANGE_LABELS, USAGE_LABELS } from '@shared/labels';
 import type { MarketCode } from '@shared/types';
 import { useMeta } from '../hooks/queries';
-import { useProfile } from '../state/ProfileProvider';
+import { SERVER_SYNC, useProfile } from '../state/ProfileProvider';
 import { useUi, type Theme } from '../state/UiProvider';
 import { ApiError } from '../lib/api';
+import { InstallPanel } from '../components/InstallApp';
 
 function Row({ label, values }: { label: string; values: string[] }) {
   return (
@@ -18,7 +19,7 @@ function Row({ label, values }: { label: string; values: string[] }) {
 }
 
 export function Settings() {
-  const { preferences, savePreferences, profileId, syncState, linkProfile, wishlist } = useProfile();
+  const { preferences, savePreferences, profileId, syncState, linkProfile, wishlist, exportData, importData } = useProfile();
   const { theme, setTheme, toast } = useUi();
   const meta = useMeta();
   const [linkId, setLinkId] = useState('');
@@ -26,6 +27,26 @@ export function Settings() {
   const brandNames = preferences.brands === 'all'
     ? ['Toutes les marques']
     : preferences.brands.map((id) => meta.data?.brands.find((b) => b.id === id)?.name ?? id);
+
+  const [importMsg, setImportMsg] = useState<{ ok: boolean; text: string } | null>(null);
+
+  const downloadBackup = () => {
+    const blob = new Blob([JSON.stringify(exportData(), null, 2)], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `autoverse-sauvegarde-${new Date().toISOString().slice(0, 10)}.json`;
+    a.click();
+    URL.revokeObjectURL(a.href);
+  };
+
+  const restoreBackup = async (file: File) => {
+    try {
+      const n = importData(JSON.parse(await file.text()));
+      setImportMsg({ ok: true, text: `Sauvegarde restaurée : préférences et ${n} favori${n > 1 ? 's' : ''}.` });
+    } catch (e) {
+      setImportMsg({ ok: false, text: e instanceof SyntaxError ? 'Ce fichier est illisible.' : (e as Error).message });
+    }
+  };
 
   const doLink = async () => {
     setLinkError(null);
@@ -47,6 +68,8 @@ export function Settings() {
         <h1>Profil et paramètres</h1>
         <p>Vos préférences orientent le catalogue, l’accueil et l’actualité. Elles restent modifiables à tout moment.</p>
       </header>
+
+      <InstallPanel />
 
       <section className="panel">
         <div className="row between wrap gap-3">
@@ -83,10 +106,26 @@ export function Settings() {
 
       <section className="panel">
         <h3>Sauvegarde et synchronisation</h3>
-        <p className="muted" style={{ fontSize: 'var(--text-sm)' }}>
-          Vos préférences et vos {wishlist.length} favori{wishlist.length > 1 ? 's' : ''} sont enregistrés sur cet appareil et sur le serveur Autoverse.
-          État : <strong style={{ color: syncState === 'pending' ? 'var(--warning)' : 'var(--positive)' }}>{syncState === 'synced' ? 'synchronisé' : syncState === 'syncing' ? 'synchronisation…' : 'en attente de connexion'}</strong>
-        </p>
+        {SERVER_SYNC ? (
+          <p className="muted" style={{ fontSize: 'var(--text-sm)' }}>
+            Vos préférences et vos {wishlist.length} favori{wishlist.length > 1 ? 's' : ''} sont enregistrés sur cet appareil et sur le serveur Autoverse.
+            État : <strong style={{ color: syncState === 'pending' ? 'var(--warning)' : 'var(--positive)' }}>{syncState === 'synced' ? 'synchronisé' : syncState === 'syncing' ? 'synchronisation…' : 'en attente de connexion'}</strong>
+          </p>
+        ) : (
+          <p className="muted" style={{ fontSize: 'var(--text-sm)' }}>
+            Vos préférences et vos {wishlist.length} favori{wishlist.length > 1 ? 's' : ''} sont enregistrés durablement sur cet appareil, sans compte.
+            Pour les retrouver sur un autre téléphone ou ordinateur, exportez-les ici puis importez le fichier là-bas.
+          </p>
+        )}
+        <div className="row gap-2 wrap" style={{ marginTop: 'var(--space-4)' }}>
+          <button type="button" className="btn btn-sm" onClick={downloadBackup}><Download size={16} /> Exporter mes données</button>
+          <label className="btn btn-sm" style={{ cursor: 'pointer' }}>
+            <Upload size={16} /> Importer une sauvegarde
+            <input type="file" accept="application/json,.json" className="sr-only" onChange={(e) => { const f = e.target.files?.[0]; if (f) restoreBackup(f); e.target.value = ''; }} />
+          </label>
+        </div>
+        {importMsg && <p role="status" style={{ fontSize: 'var(--text-sm)', marginTop: 'var(--space-2)', color: importMsg.ok ? 'var(--positive)' : 'var(--danger)' }}>{importMsg.text}</p>}
+        {SERVER_SYNC && <>
         <div className="field" style={{ marginTop: 'var(--space-4)' }}>
           <span className="label">Identifiant de ce profil</span>
           <div className="row gap-2">
@@ -104,6 +143,7 @@ export function Settings() {
           {linkError && <span role="alert" style={{ color: 'var(--danger)', fontSize: 'var(--text-sm)' }}>{linkError}</span>}
           <span className="subtle" style={{ fontSize: 'var(--text-xs)' }}>Les favoris de cet appareil seront remplacés par ceux du profil choisi.</span>
         </div>
+        </>}
       </section>
 
       <section className="panel">
@@ -111,6 +151,7 @@ export function Settings() {
         <ul className="bullet-list muted" style={{ fontSize: 'var(--text-sm)' }}>
           <li>Notifications (sorties, nouvelles générations, actualité de la wishlist) — <em>non encore disponibles</em>.</li>
           <li>Collections personnelles et calendrier personnel exportable — <em>non encore disponibles</em>.</li>
+          {!SERVER_SYNC && <li>Synchronisation automatique entre appareils — <em>non disponible dans la version en ligne</em> (utilisez l’export / import).</li>}
         </ul>
         <p className="row gap-2 subtle" style={{ fontSize: 'var(--text-xs)', marginTop: 'var(--space-3)' }}><Check size={14} /> Disponible dès maintenant : export de la wishlist (JSON), partage de fiche, recommandations similaires.</p>
       </section>

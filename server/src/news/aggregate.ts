@@ -81,6 +81,19 @@ export function dedupe(items: NewsItem[]): NewsItem[] {
   return kept.map((k) => k.item).sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 }
 
+/** Flux complet d'une rubrique avec ses métadonnées de provenance (API et export statique). */
+export async function newsFeed(scope: FeedSource['scope']) {
+  const { items, feeds, fetchedAt, stale } = await loadNews(scope);
+  return {
+    items,
+    feeds,
+    fetchedAt,
+    stale,
+    sources: FEEDS.filter((f) => f.scope === scope).map((f) => ({ label: f.name, url: f.homepage })),
+    errors: feeds.filter((f) => !f.ok).map((f) => `${f.name} : ${f.stale ? 'copie en cache servie' : 'indisponible'}${f.error ? ` (${f.error})` : ''}`),
+  };
+}
+
 export async function loadNews(scope: FeedSource['scope']): Promise<{ items: NewsItem[]; feeds: FeedStatus[]; fetchedAt: string; stale: boolean }> {
   const feeds = FEEDS.filter((f) => f.scope === scope);
   const results = await Promise.all(feeds.map(async (feed) => {
