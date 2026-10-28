@@ -1,0 +1,2760 @@
+{
+  "generations": [
+    {
+      "id": "ferrari-roma",
+      "modelId": "ferrari-roma",
+      "brandId": "ferrari",
+      "modelName": "Roma",
+      "name": "Ferrari Roma (2020)",
+      "yearsLabel": "2020 – 2024 (Spider : 2023 –)",
+      "startYear": 2020,
+      "endYear": null,
+      "status": "discontinued",
+      "segment": "GT 2+2 à moteur V8 avant",
+      "bodyStyles": [
+        "Coupé 2+2",
+        "Cabriolet 2+2"
+      ],
+      "categories": [
+        "gt",
+        "coupe",
+        "convertible"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2021 Ferrari Roma in Rosso Fiorano, front right.jpg",
+          "caption": "Ferrari Roma rouge (Rosso Fiorano), vue avant droite",
+          "depicts": "Ferrari Roma coupé (2020-2024), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Ferrari Roma Spider Auto Zuerich 2023 1X7A1186.jpg",
+          "caption": "Ferrari Roma Spider au salon Auto Zürich 2023",
+          "depicts": "Ferrari Roma Spider (2023), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La Ferrari Roma est une GT 2+2 à V8 biturbo avant de 620 ch, présentée fin 2019 et déclinée en Spider à capote toile en 2023. Le coupé a été remplacé par l'Amalfi.",
+        "positioning": "GT d'entrée de gamme à moteur avant de Ferrari, sous la 12Cilindri, au style épuré inspiré des GT des années 1950-60.",
+        "technicalFacts": [
+          "V8 biturbo de 3 855 cm³ : 620 ch (456 kW) de 5 750 à 7 500 tr/min et 760 Nm (fiche Ferrari).",
+          "Boîte F1 à double embrayage à 8 rapports, propulsion.",
+          "Coupé : 4 656 mm de long, empattement de 2 670 mm, 0-200 km/h en 9,3 s selon Ferrari.",
+          "Spider : capote toile repliable en 13,5 s selon CarGuide."
+        ],
+        "pros": [
+          "Ligne très sobre et élégante pour une Ferrari.",
+          "V8 très puissant associé à une boîte à 8 rapports.",
+          "Places arrière d'appoint et coffre utilisable pour une GT."
+        ],
+        "differentiators": [
+          "Une des rares Ferrari récentes proposées en coupé et en Spider à capote toile."
+        ],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Places arrière symboliques.",
+          "Consommation et CO2 non publiés dans les fiches consultées."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ferrari-roma-coupe",
+          "name": "Roma (coupé)",
+          "tier": "mid",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 90° biturbo",
+            "displacementCc": 3855,
+            "electricMotors": null
+          },
+          "powerHp": 620,
+          "powerKw": 456,
+          "torqueNm": 760,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage F1 à 8 rapports",
+          "accel0100s": 3.4,
+          "topSpeedKmh": 320,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1472,
+          "dimensions": {
+            "lengthMm": 4656,
+            "widthMm": 1974,
+            "heightMm": 1301,
+            "wheelbaseMm": 2670
+          },
+          "seats": 4,
+          "trunkL": 272,
+          "equipmentHighlights": [
+            "Jantes 20 pouces (245/35 ZR20 et 285/35 ZR20)",
+            "Freins avant 390 mm"
+          ],
+          "prices": [],
+          "notes": "Puissance exprimée en ch (cv) selon Ferrari, avec essence 98. Poids : masse à sec avec options (1 472 kg) ; masse en ordre de marche 1 570 kg selon la même fiche. Vitesse max annoncée « > 320 km/h ». Coffre 272 l (345 l selon configuration). Consommation et CO2 « en cours d'homologation » sur la fiche de lancement.",
+          "sources": [
+            {
+              "label": "Ferrari – Ferrari Roma Technical Specifications (fiche constructeur relayée par Auto International)",
+              "url": "https://autointernational.com.my/WebNews/Overseas/Year%202019/FERRARI%20ROMA%20LA%20NUOVA%20DOLCE%20VITA%20%20-%208%20Dec%2019/Ferrari%20Roma%20Technical%20Specifications.pdf",
+              "type": "press",
+              "publishedAt": "2019-12-08",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Ferrari Roma V8 620 ch (2020-2024)",
+              "url": "https://autotijd.be/en/specs/ferrari/roma/v8-620-hp-3479",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ferrari-roma-spider",
+          "name": "Roma Spider",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 620,
+          "powerKw": null,
+          "torqueNm": 760,
+          "drivetrain": "rwd",
+          "gearbox": "Double embrayage F1 à 8 rapports",
+          "accel0100s": 3.4,
+          "topSpeedKmh": 320,
+          "consumption": null,
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1556,
+          "dimensions": {
+            "lengthMm": 4656,
+            "widthMm": 1974,
+            "heightMm": 1306,
+            "wheelbaseMm": 2670
+          },
+          "seats": 4,
+          "trunkL": 255,
+          "equipmentHighlights": [
+            "Capote toile repliable en 13,5 s",
+            "Répartition des masses 48/52"
+          ],
+          "prices": [],
+          "notes": "Puissance donnée en PS par la source (620 PS). Cylindrée annoncée « 3.9 litres » sans valeur exacte. Poids : 1 556 kg présentés comme « curb weight » par CarGuide (d'autres sources le donnent comme masse à sec). 0-200 km/h en 9,7 s. Prix philippin non retenu (marché hors périmètre).",
+          "sources": [
+            {
+              "label": "CarGuide.ph – The new sweet life: Ferrari Roma Spider (fiche technique)",
+              "url": "https://carguide.ph/2024/03/the-new-sweet-life-ferrari-roma-spider.html",
+              "type": "press",
+              "publishedAt": "2024-03",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Ferrari – Ferrari Roma Technical Specifications (fiche constructeur relayée par Auto International)",
+          "url": "https://autointernational.com.my/WebNews/Overseas/Year%202019/FERRARI%20ROMA%20LA%20NUOVA%20DOLCE%20VITA%20%20-%208%20Dec%2019/Ferrari%20Roma%20Technical%20Specifications.pdf",
+          "type": "press",
+          "publishedAt": "2019-12-08",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "CarGuide.ph – The new sweet life: Ferrari Roma Spider (fiche technique)",
+          "url": "https://carguide.ph/2024/03/the-new-sweet-life-ferrari-roma-spider.html",
+          "type": "press",
+          "publishedAt": "2024-03",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "ferrari-sf90",
+      "modelId": "ferrari-sf90",
+      "brandId": "ferrari",
+      "modelName": "SF90",
+      "name": "Ferrari SF90 Stradale / Spider (2019)",
+      "yearsLabel": "2019 – 2025",
+      "startYear": 2019,
+      "endYear": 2025,
+      "status": "discontinued",
+      "segment": "Supercar hybride rechargeable à moteur central arrière",
+      "bodyStyles": [
+        "Coupé",
+        "Spider (toit rigide escamotable)"
+      ],
+      "categories": [
+        "supercar",
+        "sports",
+        "coupe",
+        "convertible"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "track",
+        "collection"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2022 Ferrari SF90 Stradale, red - front left.jpg",
+          "caption": "Ferrari SF90 Stradale rouge, vue avant gauche",
+          "depicts": "Ferrari SF90 Stradale (2022), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 Ferrari SF90 Spider.jpg",
+          "caption": "Ferrari SF90 Spider (2023)",
+          "depicts": "Ferrari SF90 Spider (2023), modèle de série",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La SF90 est la première Ferrari de série hybride rechargeable : un V8 biturbo de 780 ch et des moteurs électriques portent la puissance cumulée à 1 000 ch. Coupé Stradale (2019) et Spider à toit rigide (2020) ont été remplacés par la 849 Testarossa.",
+        "positioning": "Vaisseau amiral de la gamme Ferrari à moteur central lors de sa sortie, au-dessus de la F8 puis de la 296.",
+        "technicalFacts": [
+          "V8 biturbo à carter sec de 3 990 cm³ : 780 ch à 7 500 tr/min et 800 Nm (fiche Ferrari).",
+          "Moteurs électriques : 162 kW (220 ch), batterie de 7,9 kWh, 25 km d'autonomie électrique annoncés.",
+          "Transmission intégrale avec essieu avant électrique et boîte F1 à double embrayage à 8 rapports.",
+          "0-100 km/h en 2,5 s et 340 km/h selon Ferrari."
+        ],
+        "pros": [
+          "Performances de premier plan (0-200 km/h en 6,7 s pour le coupé).",
+          "Mode électrique pour les trajets urbains courts.",
+          "Le Spider ne perd que 0,3 s sur le 0-200 km/h."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [
+          "Première Ferrari de série hybride rechargeable avec traction intégrale électrique."
+        ],
+        "compromises": [
+          "Coffre avant de 74 litres seulement.",
+          "Poids supérieur aux supercars non hybrides du fait de la batterie et des moteurs électriques."
+        ]
+      },
+      "variants": [
+        {
+          "id": "ferrari-sf90-stradale",
+          "name": "SF90 Stradale",
+          "tier": "sport",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "V8 90° biturbo + 3 moteurs électriques",
+            "displacementCc": 3990,
+            "electricMotors": null
+          },
+          "powerHp": 1000,
+          "powerKw": null,
+          "torqueNm": 800,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage F1 à 8 rapports",
+          "accel0100s": 2.5,
+          "topSpeedKmh": 340,
+          "consumption": null,
+          "electricRangeKm": 25,
+          "batteryKwh": 7.9,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1570,
+          "dimensions": {
+            "lengthMm": 4710,
+            "widthMm": 1972,
+            "heightMm": 1186,
+            "wheelbaseMm": 2650
+          },
+          "seats": 2,
+          "trunkL": 74,
+          "equipmentHighlights": [
+            "Mode eDrive électrique (vitesse max 135 km/h selon Autotijd)",
+            "Freins avant 398 mm"
+          ],
+          "prices": [],
+          "notes": "Puissance cumulée 1 000 ch (PS) selon Autotijd ; V8 seul 780 ch (574 kW), moteurs électriques 162 kW (fiche Ferrari). Puissance cumulée en kW non indiquée sur ces pages. Couple : valeur du V8 seul. Poids : masse à sec avec options. Consommation et CO2 « en cours d'homologation » sur la fiche Ferrari.",
+          "sources": [
+            {
+              "label": "Ferrari – SF90 Stradale Technical Specifications (fiche constructeur relayée par Auto International)",
+              "url": "https://autointernational.com.my/WebNews/News/Year%202020/Ferrari%20SF90%20Stradale%20launch%20-%2023%20Sept%2020/TECHNICAL%20SPECIFICATIONS.pdf",
+              "type": "press",
+              "publishedAt": "2020-09-23",
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Ferrari SF90 Stradale V8 AWD (2019-2025)",
+              "url": "https://autotijd.be/en/specs/ferrari/sf90-stradale/v8-1000-hp-awd-1718",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "ferrari-sf90-spider",
+          "name": "SF90 Spider",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "V8 90° biturbo + moteurs électriques",
+            "displacementCc": 3990,
+            "electricMotors": null
+          },
+          "powerHp": 1000,
+          "powerKw": 735,
+          "torqueNm": 800,
+          "drivetrain": "awd",
+          "gearbox": "Double embrayage F1 à 8 rapports",
+          "accel0100s": 2.5,
+          "topSpeedKmh": 340,
+          "consumption": null,
+          "electricRangeKm": 25,
+          "batteryKwh": 7.9,
+          "charging": null,
+          "co2Gkm": null,
+          "weightKg": 1670,
+          "dimensions": {
+            "lengthMm": 4704,
+            "widthMm": 1973,
+            "heightMm": 1191,
+            "wheelbaseMm": 2649
+          },
+          "seats": 2,
+          "trunkL": 74,
+          "equipmentHighlights": [
+            "Toit rigide escamotable (RHT)",
+            "Essieu avant électrique"
+          ],
+          "prices": [],
+          "notes": "Puissance cumulée 1 000 ch (735 kW) en mode eManettino Qualify selon Ferrari ; V8 seul 780 ch. Couple : valeur du V8 seul. Poids : masse à sec avec options. 0-200 km/h en 7,0 s. Consommation et CO2 en cours d'homologation (cycle WLTC) sur la fiche.",
+          "sources": [
+            {
+              "label": "Ferrari – SF90 Spider technical specifications (fiche constructeur relayée par Auto International)",
+              "url": "https://autointernational.com.my/WebNews/Overseas/Year%202020/FERRARI_SF90%20SPIDER%20LIFTING%20THE%20ROOF%20ON%20FERRARI%E2%80%99S%20MOST%20POWERFUL%20SERIES-PRODUCTION%20SUPERCAR%20-%2014%20Nov%2020/Ferrari%20SF90_Spider%20Specs.pdf",
+              "type": "press",
+              "publishedAt": "2020-11-14",
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Ferrari – SF90 Stradale Technical Specifications (fiche constructeur relayée par Auto International)",
+          "url": "https://autointernational.com.my/WebNews/News/Year%202020/Ferrari%20SF90%20Stradale%20launch%20-%2023%20Sept%2020/TECHNICAL%20SPECIFICATIONS.pdf",
+          "type": "press",
+          "publishedAt": "2020-09-23",
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Ferrari – SF90 Spider technical specifications (fiche constructeur relayée par Auto International)",
+          "url": "https://autointernational.com.my/WebNews/Overseas/Year%202020/FERRARI_SF90%20SPIDER%20LIFTING%20THE%20ROOF%20ON%20FERRARI%E2%80%99S%20MOST%20POWERFUL%20SERIES-PRODUCTION%20SUPERCAR%20-%2014%20Nov%2020/Ferrari%20SF90_Spider%20Specs.pdf",
+          "type": "press",
+          "publishedAt": "2020-11-14",
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "bmw-m8-f92",
+      "modelId": "bmw-m8",
+      "brandId": "bmw",
+      "modelName": "M8",
+      "name": "BMW M8 Competition (F92 / F93)",
+      "yearsLabel": "2019 –",
+      "startYear": 2019,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Grand tourisme sportif (coupé et Gran Coupé)",
+      "bodyStyles": [
+        "Coupé 2 portes",
+        "Gran Coupé 4 portes"
+      ],
+      "categories": [
+        "gt",
+        "coupe",
+        "sport-sedan"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "driving-pleasure",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:BMW F92 M8 Competition xDrive Barcelona Blue Metallic.jpg",
+          "caption": "BMW M8 Competition Coupé (F92) bleu Barcelona",
+          "depicts": "BMW M8 Competition Coupé xDrive (F92)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:BMW M8 Gran Coupe Competition (Facelift) IAA 2025 DSC 1304.jpg",
+          "caption": "BMW M8 Competition Gran Coupé restylée à l'IAA 2025",
+          "depicts": "BMW M8 Competition Gran Coupé (F93) restylée",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La BMW M8 Competition est la version M de la Série 8, avec un V8 biturbo de 625 ch et la transmission intégrale M xDrive. Elle existe en coupé et en Gran Coupé quatre portes.",
+        "positioning": "GT la plus haut de gamme de BMW M, au-dessus des M4 et M5.",
+        "technicalFacts": [
+          "V8 biturbo de 4 395 cm³ : 625 ch (460 kW) et 750 Nm (ADAC).",
+          "Boîte automatique Steptronic à 8 rapports et transmission intégrale xDrive.",
+          "Gran Coupé : 5 098 mm de long et 3 027 mm d'empattement, contre 4 867 mm et 2 827 mm pour le coupé (ADAC)."
+        ],
+        "pros": [
+          "V8 très puissant et 0-100 km/h en 3,2 s.",
+          "Le Gran Coupé offre cinq places et 440 litres de coffre.",
+          "Bon compromis entre GT et sportive."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Poids proche de 2 tonnes.",
+          "Consommation WLTP supérieure à 11 l/100 km."
+        ]
+      },
+      "variants": [
+        {
+          "id": "bmw-m8-f92-competition-coupe",
+          "name": "M8 Competition Coupé",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 4395,
+            "electricMotors": null
+          },
+          "powerHp": 625,
+          "powerKw": 460,
+          "torqueNm": 750,
+          "drivetrain": "awd",
+          "gearbox": "Automatique Steptronic à 8 rapports",
+          "accel0100s": 3.2,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 11,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 251,
+          "weightKg": 1975,
+          "dimensions": {
+            "lengthMm": 4867,
+            "widthMm": 1907,
+            "heightMm": 1362,
+            "wheelbaseMm": 2827
+          },
+          "seats": 4,
+          "trunkL": 420,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 183500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2022-03",
+              "source": {
+                "label": "ADAC Autokatalog – BMW M8 Competition Coupé xDrive Steptronic Sport (03/22 - 03/24)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/8er-reihe/g14-g15-g16-f91-f92-f93-facelift/323032/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC pour la période 03/22 - 03/24 (version restylée). Poids à vide UE. Prix : prix de base allemand ADAC pour cette période ; aucun prix belge trouvé. Vitesse max bridée.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – BMW M8 Competition Coupé xDrive Steptronic Sport (03/22 - 03/24)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/8er-reihe/g14-g15-g16-f91-f92-f93-facelift/323032/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – BMW Série 8 Coupé M8 Competition 625 ch AWD",
+              "url": "https://autotijd.be/en/specs/bmw/8-reeks-coupe/m8-competition-625-hp-awd-3509",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "bmw-m8-f93-competition-gran-coupe",
+          "name": "M8 Competition Gran Coupé",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 4395,
+            "electricMotors": null
+          },
+          "powerHp": 625,
+          "powerKw": 460,
+          "torqueNm": 750,
+          "drivetrain": "awd",
+          "gearbox": "Automatique Steptronic à 8 rapports",
+          "accel0100s": 3.2,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 11.5,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 263,
+          "weightKg": 2070,
+          "dimensions": {
+            "lengthMm": 5098,
+            "widthMm": 1943,
+            "heightMm": 1420,
+            "wheelbaseMm": 3027
+          },
+          "seats": 5,
+          "trunkL": 440,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 182400,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "ADAC Autokatalog – BMW M8 Competition Gran Coupé xDrive Steptronic Sport (03/24 - 09/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/8er-reihe/g14-g15-g16-f91-f92-f93-facelift/333347",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC pour la période 03/24 - 09/25. Poids à vide UE. Prix : prix de base allemand ADAC ; aucun prix belge trouvé.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – BMW M8 Competition Gran Coupé xDrive Steptronic Sport (03/24 - 09/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/8er-reihe/g14-g15-g16-f91-f92-f93-facelift/333347",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – BMW M8 Competition Coupé xDrive Steptronic Sport (03/22 - 03/24)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/8er-reihe/g14-g15-g16-f91-f92-f93-facelift/323032/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – BMW M8 Competition Gran Coupé xDrive Steptronic Sport (03/24 - 09/25)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/bmw/8er-reihe/g14-g15-g16-f91-f92-f93-facelift/333347",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "audi-rs4-avant-b9",
+      "modelId": "audi-rs4-avant",
+      "brandId": "audi",
+      "modelName": "RS 4 Avant",
+      "name": "Audi RS 4 Avant (B9)",
+      "yearsLabel": "2018 – 2024",
+      "startYear": 2018,
+      "endYear": 2024,
+      "status": "discontinued",
+      "segment": "Break sportif compact premium",
+      "bodyStyles": [
+        "Break 5 portes"
+      ],
+      "categories": [
+        "wagon",
+        "sport-sedan"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "driving-pleasure",
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2018 Audi RS 4 Avant Front.jpg",
+          "caption": "Audi RS 4 Avant de 2018, vue avant",
+          "depicts": "Audi RS 4 Avant (B9) avant restylage, 2018",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 Audi RS4 Avant in Navarra Blue 01.jpg",
+          "caption": "Audi RS 4 Avant bleu Navarra (2023)",
+          "depicts": "Audi RS 4 Avant (B9) restylée, 2023",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La RS 4 Avant B9 est le break sportif d'Audi animé par un V6 2.9 TFSI biturbo de 450 ch et la transmission quattro. Produite de 2018 à 2024, elle a été restylée fin 2019.",
+        "positioning": "Version la plus sportive de l'A4 Avant, sous la RS 6 Avant.",
+        "technicalFacts": [
+          "V6 biturbo 2.9 TFSI de 2 894 cm³ : 450 ch (331 kW) et 600 Nm (ADAC).",
+          "Boîte tiptronic à 8 rapports et transmission intégrale quattro.",
+          "Coffre de 495 à 505 litres selon la phase (ADAC)."
+        ],
+        "pros": [
+          "Polyvalence d'un break familial et performances de sportive.",
+          "Transmission quattro efficace par tous les temps."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Le V6 biturbo a perdu la sonorité du V8 atmosphérique de la génération précédente.",
+          "Vitesse limitée à 250 km/h en série."
+        ]
+      },
+      "variants": [
+        {
+          "id": "audi-rs4-avant-b9-2018",
+          "name": "RS 4 Avant 2.9 TFSI quattro (2018)",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 biturbo",
+            "displacementCc": 2894,
+            "electricMotors": null
+          },
+          "powerHp": 450,
+          "powerKw": 331,
+          "torqueNm": 600,
+          "drivetrain": "awd",
+          "gearbox": "Automatique tiptronic à 8 rapports",
+          "accel0100s": 4.1,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 8.8,
+            "unit": "l/100km",
+            "cycle": "NEDC"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 199,
+          "weightKg": 1790,
+          "dimensions": {
+            "lengthMm": 4782,
+            "widthMm": 1866,
+            "heightMm": 1404,
+            "wheelbaseMm": 2826
+          },
+          "seats": 5,
+          "trunkL": 505,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 80700,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2018-01",
+              "source": {
+                "label": "ADAC Autokatalog – Audi RS4 Avant tiptronic (01/18 - 06/18)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a4/b9/283527/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC pour la période 01/18 - 06/18 (avant restylage). Consommation et CO2 selon le cycle NEDC (aucune valeur WLTP sur la page). Prix neuf allemand d'époque (ADAC).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Audi RS4 Avant tiptronic (01/18 - 06/18)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a4/b9/283527/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "audi-rs4-avant-b9-restylee",
+          "name": "RS 4 Avant 2.9 TFSI quattro (restylée)",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 biturbo",
+            "displacementCc": 2894,
+            "electricMotors": null
+          },
+          "powerHp": 450,
+          "powerKw": 331,
+          "torqueNm": 600,
+          "drivetrain": "awd",
+          "gearbox": "Automatique tiptronic à 8 rapports",
+          "accel0100s": 4.1,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 9.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 220,
+          "weightKg": 1820,
+          "dimensions": {
+            "lengthMm": 4782,
+            "widthMm": 1866,
+            "heightMm": 1438,
+            "wheelbaseMm": 2826
+          },
+          "seats": 5,
+          "trunkL": 495,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 87500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2021-01",
+              "source": {
+                "label": "ADAC Autokatalog – Audi RS4 Avant tiptronic (01/21 - 11/23)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a4/b9-facelift-2/319778",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC pour la période 01/21 - 11/23 (version restylée). Prix neuf allemand d'époque (ADAC).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Audi RS4 Avant tiptronic (01/21 - 11/23)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a4/b9-facelift-2/319778",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Audi RS4 Avant tiptronic (01/18 - 06/18)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a4/b9/283527/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – Audi RS4 Avant tiptronic (01/21 - 11/23)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/audi/a4/b9-facelift-2/319778",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "mercedes-amg-c63-w205",
+      "modelId": "mercedes-amg-c63",
+      "brandId": "mercedes-benz",
+      "modelName": "C 63",
+      "name": "Mercedes-AMG C 63 (W205 / C205)",
+      "yearsLabel": "2014 – 2023",
+      "startYear": 2014,
+      "endYear": 2023,
+      "status": "discontinued",
+      "segment": "Berline et coupé sportifs compacts premium",
+      "bodyStyles": [
+        "Berline 4 portes",
+        "Coupé 2 portes"
+      ],
+      "categories": [
+        "sport-sedan",
+        "coupe"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "driving-pleasure",
+        "daily"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Mercedes-AMG C63 S Sedan (W205) Washington DC Metro Area, USA.jpg",
+          "caption": "Mercedes-AMG C 63 S berline (W205)",
+          "depicts": "Mercedes-AMG C 63 S berline (W205)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Mercedes-AMG C63 S Coupé, Boulevard Haussmann, Paris 6 August 2021.jpg",
+          "caption": "Mercedes-AMG C 63 S Coupé à Paris (août 2021)",
+          "depicts": "Mercedes-AMG C 63 S Coupé (C205)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "La C 63 S de génération W205 est la dernière Classe C AMG animée par un V8 biturbo de 4,0 litres (510 ch), en propulsion. Sa remplaçante est passée à un quatre-cylindres hybride rechargeable.",
+        "positioning": "Version la plus puissante de la Classe C, rivale des BMW M3/M4 et Audi RS 5.",
+        "technicalFacts": [
+          "V8 biturbo de 3 982 cm³ : 510 ch (375 kW) et 700 Nm (ADAC).",
+          "Boîte automatique AMG SPEEDSHIFT à 9 rapports et propulsion.",
+          "Vitesse maximale de 290 km/h (ADAC)."
+        ],
+        "pros": [
+          "V8 biturbo puissant et sonore.",
+          "Propulsion pure appréciée des amateurs."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Consommation WLTP proche de 11 l/100 km.",
+          "Coffre réduit à 355 litres sur le coupé."
+        ]
+      },
+      "variants": [
+        {
+          "id": "mercedes-amg-c63-w205-s-berline",
+          "name": "C 63 S Berline",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 3982,
+            "electricMotors": null
+          },
+          "powerHp": 510,
+          "powerKw": 375,
+          "torqueNm": 700,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique AMG SPEEDSHIFT MCT à 9 rapports",
+          "accel0100s": 4,
+          "topSpeedKmh": 290,
+          "consumption": {
+            "value": 10.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 243,
+          "weightKg": 1755,
+          "dimensions": {
+            "lengthMm": 4757,
+            "widthMm": 1839,
+            "heightMm": 1426,
+            "wheelbaseMm": 2840
+          },
+          "seats": 5,
+          "trunkL": 480,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 87049,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2020-07",
+              "source": {
+                "label": "ADAC Autokatalog – Mercedes-Benz C 63 S AMG SPEEDSHIFT MCT 9G (07/20 - 02/21)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/205-facelift/313403",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC pour la berline restylée, période 07/20 - 02/21. Prix neuf allemand d'époque (ADAC).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Mercedes-Benz C 63 S AMG SPEEDSHIFT MCT 9G (07/20 - 02/21)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/205-facelift/313403",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "mercedes-amg-c63-c205-s-coupe",
+          "name": "C 63 S Coupé",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 3982,
+            "electricMotors": null
+          },
+          "powerHp": 510,
+          "powerKw": 375,
+          "torqueNm": 700,
+          "drivetrain": "rwd",
+          "gearbox": "Automatique AMG SPEEDSHIFT à 9 rapports",
+          "accel0100s": 3.9,
+          "topSpeedKmh": 290,
+          "consumption": {
+            "value": 10.8,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 245,
+          "weightKg": 1820,
+          "dimensions": {
+            "lengthMm": 4751,
+            "widthMm": 1877,
+            "heightMm": 1401,
+            "wheelbaseMm": 2840
+          },
+          "seats": 4,
+          "trunkL": 355,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 95741,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2020-07",
+              "source": {
+                "label": "ADAC Autokatalog – Mercedes-Benz C 63 S AMG Coupé AMG SPEEDSHIFT TCT 9G-TRONIC (07/20 - 03/23)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/205-facelift/313970",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC pour le coupé restylé, période 07/20 - 03/23. Prix neuf allemand d'époque (ADAC).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Mercedes-Benz C 63 S AMG Coupé AMG SPEEDSHIFT TCT 9G-TRONIC (07/20 - 03/23)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/205-facelift/313970",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Mercedes-Benz C 63 S AMG SPEEDSHIFT MCT 9G (07/20 - 02/21)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/205-facelift/313403",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – Mercedes-Benz C 63 S AMG Coupé AMG SPEEDSHIFT TCT 9G-TRONIC (07/20 - 03/23)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/mercedes-benz/c-klasse/205-facelift/313970",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "land-rover-range-rover-l460",
+      "modelId": "land-rover-range-rover",
+      "brandId": "land-rover",
+      "modelName": "Range Rover",
+      "name": "Land Rover Range Rover (L460)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Grand SUV de luxe",
+      "bodyStyles": [
+        "SUV 5 portes",
+        "SUV empattement long"
+      ],
+      "categories": [
+        "suv",
+        "luxury",
+        "offroad"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "travel",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2023 Land Rover Range Rover SV Automatic 4.4 Front.jpg",
+          "caption": "Range Rover SV 4.4 (2023), vue avant",
+          "depicts": "Land Rover Range Rover (L460) SV V8 4.4",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:25 Land Rover Range Rover P530 SE.jpg",
+          "caption": "Range Rover P530 SE (millésime 2025)",
+          "depicts": "Land Rover Range Rover (L460) P530 SE",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Cinquième génération du Range Rover, le L460 propose des hybrides rechargeables six cylindres et des V8 biturbo 4.4. La P550e annonce plus de 100 km d'autonomie électrique WLTP.",
+        "positioning": "Vaisseau amiral de Land Rover, au-dessus du Range Rover Sport et du Defender.",
+        "technicalFacts": [
+          "P550e : six-cylindres 3.0 hybride rechargeable de 550 ch, batterie de 38,2 kWh (31,8 kWh nets) et 109 km d'autonomie électrique WLTP (Ultimate Specs).",
+          "P530 et P615 SV : V8 biturbo de 4 395 cm³ à hybridation légère (Ultimate Specs).",
+          "Longueur d'environ 5,05 m et empattement de 2 997 mm en version standard."
+        ],
+        "pros": [
+          "Confort et raffinement de très haut niveau.",
+          "Hybride rechargeable à grande autonomie électrique.",
+          "Coffre de 818 litres."
+        ],
+        "differentiators": [],
+        "pricePositioning": "De 135 390 € (D300 SE) à plus de 258 000 € (P615 LWB SV) sur le barème belge de mars 2024 relevé par Autotijd.",
+        "innovations": [],
+        "compromises": [
+          "Poids compris entre 2,6 et 2,8 tonnes.",
+          "Prix très élevés, dépassant 230 000 € pour la SV en Belgique."
+        ]
+      },
+      "variants": [
+        {
+          "id": "land-rover-range-rover-l460-p530",
+          "name": "P530 V8",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo à hybridation légère",
+            "displacementCc": 4395,
+            "electricMotors": null
+          },
+          "powerHp": 530,
+          "powerKw": 390,
+          "torqueNm": 750,
+          "drivetrain": "awd",
+          "gearbox": "Automatique à 8 rapports",
+          "accel0100s": 4.6,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 11.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 255,
+          "weightKg": 2585,
+          "dimensions": {
+            "lengthMm": 5052,
+            "widthMm": 2047,
+            "heightMm": 1870,
+            "wheelbaseMm": 2997
+          },
+          "seats": 5,
+          "trunkL": 818,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 188250,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – Prix belge Land Rover Range Rover (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/land-rover/range-rover",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données Ultimate Specs pour la P530 millésime 2025. Prix belge : finition Autobiography (barème Autotijd de mars 2024), antérieur au millésime des données techniques.",
+          "sources": [
+            {
+              "label": "Ultimate Specs – Land Rover Range Rover (L460) P530 Auto (2025)",
+              "url": "https://www.ultimatespecs.com/car-specs/Land-Rover/149425/Land-Rover-Range-Rover-(L460)-P530-Auto.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge Land Rover Range Rover (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/land-rover/range-rover",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "land-rover-range-rover-l460-p615-sv",
+          "name": "P615 SV",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo à hybridation légère",
+            "displacementCc": 4395,
+            "electricMotors": null
+          },
+          "powerHp": 615,
+          "powerKw": 452,
+          "torqueNm": 750,
+          "drivetrain": "awd",
+          "gearbox": "Automatique à 8 rapports",
+          "accel0100s": 4.5,
+          "topSpeedKmh": 261,
+          "consumption": {
+            "value": 11.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 272,
+          "weightKg": 2791,
+          "dimensions": {
+            "lengthMm": 5058,
+            "widthMm": 2047,
+            "heightMm": 1870,
+            "wheelbaseMm": 2997
+          },
+          "seats": 5,
+          "trunkL": 818,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 233660,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – Prix belge Land Rover Range Rover (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/land-rover/range-rover",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données Ultimate Specs pour les millésimes 2023-2024. Prix belge : SV empattement standard (barème Autotijd de mars 2024).",
+          "sources": [
+            {
+              "label": "Ultimate Specs – Land Rover Range Rover (L460) P615 SV MHEV",
+              "url": "https://www.ultimatespecs.com/car-specs/Land-Rover/136096/Land-Rover-Range-Rover-(L460)-P615-SV-MHEV.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge Land Rover Range Rover (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/land-rover/range-rover",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Ultimate Specs – Land Rover Range Rover (L460) P550e",
+          "url": "https://www.ultimatespecs.com/car-specs/Land-Rover/136091/Land-Rover-Range-Rover-(L460)-P550e.html",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – Prix belge Land Rover Range Rover (mars 2024)",
+          "url": "https://autotijd.be/fr/prix/land-rover/range-rover",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "jeep-wrangler-jl",
+      "modelId": "jeep-wrangler",
+      "brandId": "jeep",
+      "modelName": "Wrangler",
+      "name": "Jeep Wrangler Unlimited 4xe (JL)",
+      "yearsLabel": "2018 –",
+      "startYear": 2018,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Tout-terrain",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "offroad",
+        "suv"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "driving-pleasure",
+        "travel"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Jeep Wrangler Unlimited (JL) Sahara PHEV Auto Zuerich 2021 IMG 0596.jpg",
+          "caption": "Jeep Wrangler Unlimited Sahara 4xe au salon Auto Zürich 2021",
+          "depicts": "Jeep Wrangler Unlimited Sahara 4xe (JL)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:24 Jeep Wrangler Unlimited Rubicon 4xe.jpg",
+          "caption": "Jeep Wrangler Unlimited Rubicon 4xe (millésime 2024)",
+          "depicts": "Jeep Wrangler Unlimited Rubicon 4xe (JL)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Quatrième génération du Wrangler, le JL est vendu en Belgique uniquement en Unlimited 4xe hybride rechargeable de 380 ch. Il conserve châssis séparé, essieux rigides et transmission 4x4.",
+        "positioning": "Tout-terrain emblématique de Jeep, au-dessus des Compass et Avenger.",
+        "technicalFacts": [
+          "Quatre-cylindres 2.0 turbo et moteur électrique : 380 ch (280 kW) et 637 Nm cumulés (ADAC).",
+          "Batterie de 17,3 kWh bruts ; 38 à 42 km d'autonomie électrique WLTP selon la finition (ADAC).",
+          "Boîte automatique à 8 rapports et transmission intégrale."
+        ],
+        "pros": [
+          "Capacités de franchissement de référence (Rubicon).",
+          "Trajets quotidiens possibles en électrique.",
+          "Toit et portes démontables."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Vitesse maximale limitée à 156 km/h pour le Rubicon (ADAC).",
+          "Consommation élevée une fois la batterie vide (11,8 l/100 km pour le Rubicon selon l'ADAC)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "jeep-wrangler-jl-sahara-4xe",
+          "name": "Unlimited Sahara 4xe",
+          "tier": "mid",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres 2.0 turbo + moteur électrique",
+            "displacementCc": 1995,
+            "electricMotors": null
+          },
+          "powerHp": 380,
+          "powerKw": 280,
+          "torqueNm": 637,
+          "drivetrain": "awd",
+          "gearbox": "Automatique à 8 rapports",
+          "accel0100s": 6.5,
+          "topSpeedKmh": 177,
+          "consumption": {
+            "value": 3.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 42,
+          "batteryKwh": 17.3,
+          "charging": null,
+          "co2Gkm": 74,
+          "weightKg": 2276,
+          "dimensions": {
+            "lengthMm": 4882,
+            "widthMm": 1894,
+            "heightMm": 1838,
+            "wheelbaseMm": 3008
+          },
+          "seats": 5,
+          "trunkL": 533,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 81000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be – Prix belge Jeep Wrangler (janvier 2024)",
+                "url": "https://autotijd.be/fr/prix/jeep/wrangler",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC pour la période 08/24 - 07/25. Puissance et couple cumulés ; moteur thermique seul 272 ch. Batterie : capacité brute. Consommation électrique WLTP 23,1 kWh/100 km. Prix belge : barème Autotijd de janvier 2024.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Jeep Wrangler Unlimited 2.0 T-GDI Plug-in-Hybrid Sahara 4xe Automatik (08/24 - 07/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/jeep/wrangler/jl-facelift/337144/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge Jeep Wrangler (janvier 2024)",
+              "url": "https://autotijd.be/fr/prix/jeep/wrangler",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "jeep-wrangler-jl-rubicon-4xe",
+          "name": "Unlimited Rubicon 4xe",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres 2.0 turbo + moteur électrique",
+            "displacementCc": 1995,
+            "electricMotors": null
+          },
+          "powerHp": 380,
+          "powerKw": 280,
+          "torqueNm": 637,
+          "drivetrain": "awd",
+          "gearbox": "Automatique à 8 rapports",
+          "accel0100s": 6.5,
+          "topSpeedKmh": 156,
+          "consumption": {
+            "value": 4,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 38,
+          "batteryKwh": 17.3,
+          "charging": null,
+          "co2Gkm": 91,
+          "weightKg": 2383,
+          "dimensions": {
+            "lengthMm": 4882,
+            "widthMm": 1894,
+            "heightMm": 1848,
+            "wheelbaseMm": 3008
+          },
+          "seats": 5,
+          "trunkL": 533,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 83500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-01",
+              "source": {
+                "label": "Autotijd.be – Prix belge Jeep Wrangler (janvier 2024)",
+                "url": "https://autotijd.be/fr/prix/jeep/wrangler",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC pour la période 08/24 - 07/25. Puissance et couple cumulés ; moteur thermique seul 272 ch (200 kW) et 400 Nm. Batterie : capacité brute. Consommation électrique WLTP 26,6 kWh/100 km. Prix belge : barème Autotijd de janvier 2024.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Jeep Wrangler Unlimited 2.0 T-GDI Plug-in-Hybrid Rubicon 4xe Automatik (08/24 - 07/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/jeep/wrangler/jl-facelift/337145/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge Jeep Wrangler (janvier 2024)",
+              "url": "https://autotijd.be/fr/prix/jeep/wrangler",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Jeep Wrangler Unlimited 2.0 T-GDI Plug-in-Hybrid Sahara 4xe Automatik (08/24 - 07/25)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/jeep/wrangler/jl-facelift/337144/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – Jeep Wrangler Unlimited 2.0 T-GDI Plug-in-Hybrid Rubicon 4xe Automatik (08/24 - 07/25)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/jeep/wrangler/jl-facelift/337145/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – Prix belge Jeep Wrangler (janvier 2024)",
+          "url": "https://autotijd.be/fr/prix/jeep/wrangler",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "alfa-romeo-tonale",
+      "modelId": "alfa-romeo-tonale",
+      "brandId": "alfa-romeo",
+      "modelName": "Tonale",
+      "name": "Alfa Romeo Tonale (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV compact premium (segment C)",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "compact"
+      ],
+      "priceRange": "mid",
+      "usage": [
+        "daily",
+        "family"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:Alfa Romeo Tonale 1.5 T 48V-Hybrid Speciale (2023) (54832610616).jpg",
+          "caption": "Alfa Romeo Tonale 1.5 T 48V-Hybrid Speciale (2023)",
+          "depicts": "Alfa Romeo Tonale 1.5 hybride 48 V (2023)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Alfa Romeo Tonale PHEV 1X7A6608.jpg",
+          "caption": "Alfa Romeo Tonale hybride rechargeable",
+          "depicts": "Alfa Romeo Tonale Plug-in Hybrid Q4",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Tonale est le SUV compact d'Alfa Romeo, lancé en 2022 avec des motorisations hybrides 48 V et une version hybride rechargeable Q4 de 280 ch à quatre roues motrices.",
+        "positioning": "SUV d'entrée de gamme premium d'Alfa Romeo, entre la Junior et le Stelvio.",
+        "technicalFacts": [
+          "1.5 VGT hybride 48 V : 160 ch (118 kW), boîte double embrayage à 7 rapports, traction (ADAC).",
+          "Plug-in Hybrid Q4 : 1.3 turbo de 180 ch et moteur électrique arrière, 280 ch cumulés, batterie de 15,5 kWh bruts (ADAC).",
+          "Longueur de 4 528 mm et empattement de 2 636 mm (ADAC)."
+        ],
+        "pros": [
+          "Style typiquement Alfa Romeo.",
+          "Hybride rechargeable à quatre roues motrices avec 62 km d'autonomie électrique WLTP."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Coffre réduit à 385 litres sur la version hybride rechargeable.",
+          "Performances modestes en hybride 48 V (0-100 km/h en 8,8 s)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "alfa-romeo-tonale-hybrid-160",
+          "name": "1.5 Hybrid 160 ch Veloce",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres 1.5 turbo à géométrie variable, hybride 48 V",
+            "displacementCc": 1469,
+            "electricMotors": null
+          },
+          "powerHp": 160,
+          "powerKw": 118,
+          "torqueNm": 240,
+          "drivetrain": "fwd",
+          "gearbox": "Double embrayage à 7 rapports",
+          "accel0100s": 8.8,
+          "topSpeedKmh": 212,
+          "consumption": {
+            "value": 5.6,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 127,
+          "weightKg": 1600,
+          "dimensions": {
+            "lengthMm": 4528,
+            "widthMm": 1835,
+            "heightMm": 1614,
+            "wheelbaseMm": 2636
+          },
+          "seats": 5,
+          "trunkL": 500,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 44335,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-08",
+              "source": {
+                "label": "Autotijd.be – Prix belge Alfa Romeo Tonale (août 2024)",
+                "url": "https://autotijd.be/fr/prix/alfa-romeo/tonale",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC pour la période 01/24 - 11/25. Puissance et couple système. Prix belge : finition Veloce (barème Autotijd d'août 2024).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Alfa Romeo Tonale 1.5 VGT 48V-Hybrid Veloce TCT (01/24 - 11/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/alfa-romeo/tonale/965/332723/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge Alfa Romeo Tonale (août 2024)",
+              "url": "https://autotijd.be/fr/prix/alfa-romeo/tonale",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "alfa-romeo-tonale-phev-q4-280",
+          "name": "Plug-in Hybrid Q4 280 ch Veloce",
+          "tier": "top",
+          "powertrain": "phev",
+          "engine": {
+            "architecture": "4 cylindres 1.3 turbo + moteur électrique arrière",
+            "displacementCc": 1332,
+            "electricMotors": 1
+          },
+          "powerHp": 280,
+          "powerKw": 206,
+          "torqueNm": null,
+          "drivetrain": "awd",
+          "gearbox": "Automatique à 6 rapports",
+          "accel0100s": 6.2,
+          "topSpeedKmh": 206,
+          "consumption": {
+            "value": 1.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 62,
+          "batteryKwh": 15.5,
+          "charging": null,
+          "co2Gkm": 30,
+          "weightKg": 1910,
+          "dimensions": {
+            "lengthMm": 4528,
+            "widthMm": 1835,
+            "heightMm": 1614,
+            "wheelbaseMm": 2636
+          },
+          "seats": 5,
+          "trunkL": 385,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 54948,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-08",
+              "source": {
+                "label": "Autotijd.be – Prix belge Alfa Romeo Tonale (août 2024)",
+                "url": "https://autotijd.be/fr/prix/alfa-romeo/tonale",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC pour la période 01/24 - 11/25. Puissance cumulée ; moteur thermique 180 ch et 270 Nm, moteur électrique 250 Nm ; couple cumulé non publié. Batterie 15,5 kWh bruts (12,0 kWh nets). Consommation électrique WLTP 18,5 kWh/100 km. Prix belge : finition Veloce (barème Autotijd d'août 2024).",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Alfa Romeo Tonale 1.3 T Multiair Plug-in Hybrid Veloce Q4 Automatik (01/24 - 11/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/alfa-romeo/tonale/965/332726",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge Alfa Romeo Tonale (août 2024)",
+              "url": "https://autotijd.be/fr/prix/alfa-romeo/tonale",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Alfa Romeo Tonale 1.5 VGT 48V-Hybrid Veloce TCT (01/24 - 11/25)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/alfa-romeo/tonale/965/332723/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – Alfa Romeo Tonale 1.3 T Multiair Plug-in Hybrid Veloce Q4 Automatik (01/24 - 11/25)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/alfa-romeo/tonale/965/332726",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – Prix belge Alfa Romeo Tonale (août 2024)",
+          "url": "https://autotijd.be/fr/prix/alfa-romeo/tonale",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lotus-emeya",
+      "modelId": "lotus-emeya",
+      "brandId": "lotus",
+      "modelName": "Emeya",
+      "name": "Lotus Emeya (2024)",
+      "yearsLabel": "2024 –",
+      "startYear": 2024,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Grande berline GT électrique",
+      "bodyStyles": [
+        "Berline 5 portes (hayon)"
+      ],
+      "categories": [
+        "gt",
+        "sport-sedan",
+        "luxury"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "travel",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2024 Lotus Emeya S in Akoya White, front right.jpg",
+          "caption": "Lotus Emeya S blanc Akoya, vue avant droite",
+          "depicts": "Lotus Emeya S (2024), version à 612 ch",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Lotus Emeya Auto Zuerich 2024 DSC 6171.jpg",
+          "caption": "Lotus Emeya au salon Auto Zürich 2024",
+          "depicts": "Lotus Emeya (2024), version non identifiée",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "L'Emeya est la grande berline GT 100 % électrique de Lotus, proposée en 600 (612 ch) et 900 (918 ch). Elle annonce une recharge 10-80 % en 15 minutes.",
+        "positioning": "Berline électrique haut de gamme de Lotus, sœur de l'Eletre, face aux Porsche Taycan et Mercedes-AMG EQE.",
+        "technicalFacts": [
+          "Batterie de 102 kWh nominaux (98,9 kWh utiles) selon EV Database.",
+          "Recharge DC jusqu'à 420 kW annoncés par Lotus, 10-80 % en 15 min.",
+          "Longueur de 5 139 mm et empattement de 3 069 mm."
+        ],
+        "pros": [
+          "Recharge rapide parmi les plus puissantes du marché.",
+          "Performances très élevées en version 900 (0-100 km/h en 2,8 s)."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Poids supérieur à 2,5 tonnes.",
+          "Autonomie WLTP réduite à 485 km sur la version 900."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lotus-emeya-600",
+          "name": "Emeya 600",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteurs électriques",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 612,
+          "powerKw": 450,
+          "torqueNm": 710,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur",
+          "accel0100s": 4.2,
+          "topSpeedKmh": 250,
+          "consumption": {
+            "value": 17.7,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 610,
+          "batteryKwh": 98.9,
+          "charging": {
+            "dcMaxKw": 420,
+            "dc10to80Min": 15
+          },
+          "co2Gkm": 0,
+          "weightKg": 2555,
+          "dimensions": {
+            "lengthMm": 5139,
+            "widthMm": 2005,
+            "heightMm": 1459,
+            "wheelbaseMm": 3069
+          },
+          "seats": 5,
+          "trunkL": 509,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 107990,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-10",
+              "source": {
+                "label": "EV Database – Lotus Emeya 600",
+                "url": "https://ev-database.org/car/3214/Lotus-Emeya-600",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance en PS (612 PS = 450 kW). Batterie : capacité utile (102 kWh nominaux). Recharge : valeurs constructeur (EV Database mesure 403 kW et 13 min). Coffre arrière 509 l + 34 l à l'avant. Prix allemand relevé sur EV Database (aucun prix belge trouvé).",
+          "sources": [
+            {
+              "label": "EV Database – Lotus Emeya 600",
+              "url": "https://ev-database.org/car/3214/Lotus-Emeya-600",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lotus-emeya-900",
+          "name": "Emeya 900",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteurs électriques",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 918,
+          "powerKw": 675,
+          "torqueNm": 985,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur",
+          "accel0100s": 2.8,
+          "topSpeedKmh": 256,
+          "consumption": {
+            "value": 22.4,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 485,
+          "batteryKwh": 98.9,
+          "charging": {
+            "dcMaxKw": 420,
+            "dc10to80Min": 15
+          },
+          "co2Gkm": 0,
+          "weightKg": 2650,
+          "dimensions": {
+            "lengthMm": 5139,
+            "widthMm": 2005,
+            "heightMm": 1459,
+            "wheelbaseMm": 3069
+          },
+          "seats": 5,
+          "trunkL": 509,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 145990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "EV Database – Lotus Emeya 900",
+                "url": "https://ev-database.org/car/3215/Lotus-Emeya-900",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Ex-Emeya R. Puissance en PS (918 PS = 675 kW). Batterie : capacité utile. Recharge : valeurs constructeur. Prix allemand relevé sur EV Database (aucun prix belge trouvé).",
+          "sources": [
+            {
+              "label": "EV Database – Lotus Emeya 900",
+              "url": "https://ev-database.org/car/3215/Lotus-Emeya-900",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "EV Database – Lotus Emeya 600",
+          "url": "https://ev-database.org/car/3214/Lotus-Emeya-600",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "EV Database – Lotus Emeya 900",
+          "url": "https://ev-database.org/car/3215/Lotus-Emeya-900",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "lotus-eletre",
+      "modelId": "lotus-eletre",
+      "brandId": "lotus",
+      "modelName": "Eletre",
+      "name": "Lotus Eletre (2023)",
+      "yearsLabel": "2023 –",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "Grand SUV sportif électrique",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "sport-suv",
+        "suv",
+        "luxury"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "travel",
+        "family",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2023 Lotus Eletre S 2.jpg",
+          "caption": "Lotus Eletre S (2023)",
+          "depicts": "Lotus Eletre S (2023), version à 612 ch",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 Lotus Eletre R.jpg",
+          "caption": "Lotus Eletre R (2023)",
+          "depicts": "Lotus Eletre R (2023), version à 918 ch",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "L'Eletre est le premier SUV de Lotus, entièrement électrique, proposé en 600 (612 ch) et 900 (918 ch, ex-Eletre R). Il mesure 5,10 m et offre 611 litres de coffre.",
+        "positioning": "Grand SUV électrique haut de gamme face aux Porsche Cayenne Electric et BMW iX M70.",
+        "technicalFacts": [
+          "Batterie de 111,9 kWh nominaux (109 kWh utiles) selon EV Database.",
+          "Recharge DC jusqu'à 350 kW annoncés, 10-80 % en 20 min.",
+          "Longueur de 5 103 mm et empattement de 3 019 mm."
+        ],
+        "pros": [
+          "Autonomie WLTP de 600 km en version 600.",
+          "Grand coffre (611 l + 46 l à l'avant)."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Poids de 2,6 à 2,7 tonnes.",
+          "Version 900 très chère."
+        ]
+      },
+      "variants": [
+        {
+          "id": "lotus-eletre-600",
+          "name": "Eletre 600",
+          "tier": "mid",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteurs électriques",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 612,
+          "powerKw": 450,
+          "torqueNm": 710,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur",
+          "accel0100s": 4.5,
+          "topSpeedKmh": 258,
+          "consumption": {
+            "value": 21.4,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 600,
+          "batteryKwh": 109,
+          "charging": {
+            "dcMaxKw": 350,
+            "dc10to80Min": 20
+          },
+          "co2Gkm": 0,
+          "weightKg": 2565,
+          "dimensions": {
+            "lengthMm": 5103,
+            "widthMm": 2019,
+            "heightMm": 1630,
+            "wheelbaseMm": 3019
+          },
+          "seats": 5,
+          "trunkL": 611,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 99990,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2026-10",
+              "source": {
+                "label": "EV Database – Lotus Eletre 600",
+                "url": "https://ev-database.org/car/3216/Lotus-Eletre-600",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance en PS (612 PS = 450 kW). Batterie : capacité utile (111,9 kWh nominaux). Recharge : valeurs constructeur. Prix allemand relevé sur EV Database (aucun prix belge trouvé).",
+          "sources": [
+            {
+              "label": "EV Database – Lotus Eletre 600",
+              "url": "https://ev-database.org/car/3216/Lotus-Eletre-600",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "lotus-eletre-900",
+          "name": "Eletre 900",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteurs électriques",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 918,
+          "powerKw": 675,
+          "torqueNm": 985,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur",
+          "accel0100s": 2.9,
+          "topSpeedKmh": 265,
+          "consumption": null,
+          "electricRangeKm": 500,
+          "batteryKwh": 109,
+          "charging": {
+            "dcMaxKw": 350,
+            "dc10to80Min": 20
+          },
+          "co2Gkm": 0,
+          "weightKg": 2725,
+          "dimensions": {
+            "lengthMm": 5103,
+            "widthMm": 2019,
+            "heightMm": 1636,
+            "wheelbaseMm": 3019
+          },
+          "seats": 5,
+          "trunkL": 611,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 145990,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "EV Database – Lotus Eletre 900",
+                "url": "https://ev-database.org/car/3217/Lotus-Eletre-900",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Ex-Eletre R. Consommation WLTP non publiée par EV Database (consommation véhicule indiquée : 218 Wh/km, non retenue). Batterie : capacité utile. Prix allemand relevé sur EV Database (aucun prix belge trouvé).",
+          "sources": [
+            {
+              "label": "EV Database – Lotus Eletre 900",
+              "url": "https://ev-database.org/car/3217/Lotus-Eletre-900",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "EV Database – Lotus Eletre 600",
+          "url": "https://ev-database.org/car/3216/Lotus-Eletre-600",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "EV Database – Lotus Eletre 900",
+          "url": "https://ev-database.org/car/3217/Lotus-Eletre-900",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "aston-martin-dbx",
+      "modelId": "aston-martin-dbx",
+      "brandId": "aston-martin",
+      "modelName": "DBX",
+      "name": "Aston Martin DBX (2020)",
+      "yearsLabel": "2020 –",
+      "startYear": 2020,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV de luxe sportif",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "sport-suv",
+        "luxury",
+        "suv"
+      ],
+      "priceRange": "luxury",
+      "usage": [
+        "travel",
+        "family",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2021 Aston Martin DBX in Midnight Blue, front left.jpg",
+          "caption": "Aston Martin DBX bleu nuit (2021)",
+          "depicts": "Aston Martin DBX V8 550 ch (2021)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:2023 Aston Martin DBX 707 in Xenon Grey, front right.jpg",
+          "caption": "Aston Martin DBX707 gris Xenon (2023)",
+          "depicts": "Aston Martin DBX707 (2023)",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Aston Martin DBX S 001.jpg",
+          "caption": "Aston Martin DBX S",
+          "depicts": "Aston Martin DBX S (2025)",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Premier SUV d'Aston Martin, le DBX utilise un V8 biturbo 4.0 de 550 ch, porté à 707 ch sur le DBX707 puis à 727 ch sur le DBX S. Il mesure 5,04 m pour 491 litres de coffre.",
+        "positioning": "SUV de luxe à vocation sportive, face aux Lamborghini Urus, Porsche Cayenne Turbo et Bentley Bentayga.",
+        "technicalFacts": [
+          "V8 biturbo de 3 982 cm³ et boîte automatique à 9 rapports (ADAC).",
+          "DBX707 : 707 ch (520 kW) et 900 Nm, 0-100 km/h en 3,3 s et 310 km/h (ADAC).",
+          "Longueur de 5 039 mm et empattement de 3 060 mm."
+        ],
+        "pros": [
+          "Performances de supercar en version 707 et S.",
+          "Habitacle cinq places et coffre de 491 litres."
+        ],
+        "differentiators": [],
+        "pricePositioning": null,
+        "innovations": [],
+        "compromises": [
+          "Consommation WLTP supérieure à 14 l/100 km.",
+          "Poids de 2,3 tonnes."
+        ]
+      },
+      "variants": [
+        {
+          "id": "aston-martin-dbx-v8",
+          "name": "DBX V8 (550 ch)",
+          "tier": "entry",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 3982,
+            "electricMotors": null
+          },
+          "powerHp": 550,
+          "powerKw": 405,
+          "torqueNm": 700,
+          "drivetrain": "awd",
+          "gearbox": "Automatique à 9 rapports",
+          "accel0100s": 4.5,
+          "topSpeedKmh": 291,
+          "consumption": {
+            "value": 14.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 323,
+          "weightKg": 2320,
+          "dimensions": {
+            "lengthMm": 5039,
+            "widthMm": 1998,
+            "heightMm": 1680,
+            "wheelbaseMm": 3060
+          },
+          "seats": 5,
+          "trunkL": 491,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 183500,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2020-10",
+              "source": {
+                "label": "ADAC Autokatalog – Aston Martin DBX Automatik (10/20 - 04/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/aston-martin/dbx/1generation/308819/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC pour la période 10/20 - 04/25. Prix neuf allemand (ADAC) ; aucun prix belge trouvé.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Aston Martin DBX Automatik (10/20 - 04/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/aston-martin/dbx/1generation/308819/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "aston-martin-dbx707",
+          "name": "DBX707",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 3982,
+            "electricMotors": null
+          },
+          "powerHp": 707,
+          "powerKw": 520,
+          "torqueNm": 900,
+          "drivetrain": "awd",
+          "gearbox": "Automatique à 9 rapports",
+          "accel0100s": 3.3,
+          "topSpeedKmh": 310,
+          "consumption": {
+            "value": 14.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 323,
+          "weightKg": 2320,
+          "dimensions": {
+            "lengthMm": 5039,
+            "widthMm": 1998,
+            "heightMm": 1680,
+            "wheelbaseMm": 3060
+          },
+          "seats": 5,
+          "trunkL": 491,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 258000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2026-10",
+              "source": {
+                "label": "ADAC Autokatalog – Aston Martin DBX707 Automatik (ab 04/22)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/aston-martin/dbx/1generation/325210",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC (période à partir de 04/22). Prix de base allemand affiché par l'ADAC lors de la consultation ; aucun prix belge trouvé.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Aston Martin DBX707 Automatik (ab 04/22)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/aston-martin/dbx/1generation/325210",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "aston-martin-dbx-s",
+          "name": "DBX S",
+          "tier": "top",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V8 biturbo",
+            "displacementCc": 3982,
+            "electricMotors": null
+          },
+          "powerHp": 727,
+          "powerKw": 535,
+          "torqueNm": 900,
+          "drivetrain": "awd",
+          "gearbox": "Automatique à 9 rapports",
+          "accel0100s": 3.3,
+          "topSpeedKmh": 310,
+          "consumption": {
+            "value": 14.3,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 319,
+          "weightKg": 2320,
+          "dimensions": {
+            "lengthMm": 5039,
+            "widthMm": 1998,
+            "heightMm": 1680,
+            "wheelbaseMm": 3060
+          },
+          "seats": 5,
+          "trunkL": 491,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "DE",
+              "amount": 258000,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2025-10",
+              "source": {
+                "label": "ADAC Autokatalog – Aston Martin DBX S Automatik (ab 10/25)",
+                "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/aston-martin/dbx/1generation/340268/",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données ADAC (période à partir de 10/25). Prix de base allemand (ADAC) ; aucun prix belge trouvé.",
+          "sources": [
+            {
+              "label": "ADAC Autokatalog – Aston Martin DBX S Automatik (ab 10/25)",
+              "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/aston-martin/dbx/1generation/340268/",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "ADAC Autokatalog – Aston Martin DBX Automatik (10/20 - 04/25)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/aston-martin/dbx/1generation/308819/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – Aston Martin DBX707 Automatik (ab 04/22)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/aston-martin/dbx/1generation/325210",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "ADAC Autokatalog – Aston Martin DBX S Automatik (ab 10/25)",
+          "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/aston-martin/dbx/1generation/340268/",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    },
+    {
+      "id": "maserati-grecale",
+      "modelId": "maserati-grecale",
+      "brandId": "maserati",
+      "modelName": "Grecale",
+      "name": "Maserati Grecale (2022)",
+      "yearsLabel": "2022 –",
+      "startYear": 2022,
+      "endYear": null,
+      "status": "on-sale",
+      "segment": "SUV moyen premium",
+      "bodyStyles": [
+        "SUV 5 portes"
+      ],
+      "categories": [
+        "suv",
+        "sport-suv",
+        "luxury"
+      ],
+      "priceRange": "premium",
+      "usage": [
+        "daily",
+        "family",
+        "driving-pleasure"
+      ],
+      "previousGenerationId": null,
+      "nextGenerationId": null,
+      "images": [
+        {
+          "commonsFile": "File:2022 Maserati Grecale GT MHEV.jpg",
+          "caption": "Maserati Grecale GT hybride léger (2022)",
+          "depicts": "Maserati Grecale GT 2.0 hybride léger",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Maserati Grecale Trofeo 1X7A5720.jpg",
+          "caption": "Maserati Grecale Trofeo",
+          "depicts": "Maserati Grecale Trofeo V6",
+          "isOfficial": false,
+          "resolved": null
+        },
+        {
+          "commonsFile": "File:Maserati Grecale Folgore (2024) (54093864426).jpg",
+          "caption": "Maserati Grecale Folgore (2024)",
+          "depicts": "Maserati Grecale Folgore électrique",
+          "isOfficial": false,
+          "resolved": null
+        }
+      ],
+      "editorial": {
+        "summary": "Le Grecale est le SUV moyen de Maserati, décliné en quatre-cylindres hybride léger (GT), V6 biturbo de 530 ch (Trofeo) et version 100 % électrique Folgore.",
+        "positioning": "SUV d'entrée de gamme de Maserati, sous le Levante, face au Porsche Macan.",
+        "technicalFacts": [
+          "Trofeo : V6 3.0 biturbo de 530 ch (390 kW) et 620 Nm, 0-100 km/h en 3,8 s et 285 km/h (Ultimate Specs).",
+          "Folgore : 557 ch, batterie de 105 kWh nominaux, recharge DC jusqu'à 150 kW (EV Database).",
+          "Coffre de 535 litres."
+        ],
+        "pros": [
+          "Gamme couvrant hybride, V6 sportif et électrique.",
+          "V6 biturbo de 530 ch sur la Trofeo."
+        ],
+        "differentiators": [],
+        "pricePositioning": "De 81 600 € (GT) à 126 650 € (Folgore) sur le barème belge de mars 2024 relevé par Autotijd.",
+        "innovations": [],
+        "compromises": [
+          "Recharge DC limitée à 150 kW sur la Folgore.",
+          "Consommation élevée de la Trofeo (11,2 l/100 km WLTP)."
+        ]
+      },
+      "variants": [
+        {
+          "id": "maserati-grecale-gt",
+          "name": "GT 2.0 hybride léger",
+          "tier": "entry",
+          "powertrain": "hybrid",
+          "engine": {
+            "architecture": "4 cylindres 2.0 turbo, hybride léger",
+            "displacementCc": 1995,
+            "electricMotors": null
+          },
+          "powerHp": 301,
+          "powerKw": 221,
+          "torqueNm": 450,
+          "drivetrain": "awd",
+          "gearbox": "Automatique à 8 rapports",
+          "accel0100s": 5.6,
+          "topSpeedKmh": 240,
+          "consumption": {
+            "value": 8.7,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 198,
+          "weightKg": 1870,
+          "dimensions": {
+            "lengthMm": 4846,
+            "widthMm": 1948,
+            "heightMm": 1670,
+            "wheelbaseMm": 2901
+          },
+          "seats": 5,
+          "trunkL": 535,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 81600,
+              "currency": "EUR",
+              "type": "range-start",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – Prix belge Maserati Grecale (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/maserati/grecale",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Puissance en PS (301 PS) selon Ultimate Specs ; Autotijd indique 300 ch. Prix belge : barème Autotijd de mars 2024.",
+          "sources": [
+            {
+              "label": "Ultimate Specs – Maserati Grecale GT 2.0 Mild Hybrid",
+              "url": "https://www.ultimatespecs.com/car-specs/Maserati/140048/Maserati-Grecale-GT-20-Mild-Hybrid.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge Maserati Grecale (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/maserati/grecale",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "maserati-grecale-trofeo",
+          "name": "Trofeo V6",
+          "tier": "sport",
+          "powertrain": "petrol",
+          "engine": {
+            "architecture": "V6 3.0 biturbo",
+            "displacementCc": 3000,
+            "electricMotors": null
+          },
+          "powerHp": 530,
+          "powerKw": 390,
+          "torqueNm": 620,
+          "drivetrain": "awd",
+          "gearbox": "Automatique à 8 rapports",
+          "accel0100s": 3.8,
+          "topSpeedKmh": 285,
+          "consumption": {
+            "value": 11.2,
+            "unit": "l/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": null,
+          "batteryKwh": null,
+          "charging": null,
+          "co2Gkm": 254,
+          "weightKg": 2027,
+          "dimensions": {
+            "lengthMm": 4859,
+            "widthMm": 1979,
+            "heightMm": 1659,
+            "wheelbaseMm": 2901
+          },
+          "seats": 5,
+          "trunkL": 535,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 122350,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – Prix belge Maserati Grecale (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/maserati/grecale",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Cylindrée arrondie à 3 000 cm³ par la source. Prix belge : barème Autotijd de mars 2024.",
+          "sources": [
+            {
+              "label": "Ultimate Specs – Maserati Grecale Trofeo 3.0 V6",
+              "url": "https://www.ultimatespecs.com/car-specs/Maserati/140045/Maserati-Grecale-Trofeo-30-V6.html",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge Maserati Grecale (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/maserati/grecale",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        },
+        {
+          "id": "maserati-grecale-folgore",
+          "name": "Folgore (électrique)",
+          "tier": "top",
+          "powertrain": "ev",
+          "engine": {
+            "architecture": "Moteurs électriques",
+            "displacementCc": null,
+            "electricMotors": null
+          },
+          "powerHp": 557,
+          "powerKw": 410,
+          "torqueNm": 820,
+          "drivetrain": "awd",
+          "gearbox": "Réducteur",
+          "accel0100s": 4.1,
+          "topSpeedKmh": 220,
+          "consumption": {
+            "value": 20.8,
+            "unit": "kWh/100km",
+            "cycle": "WLTP"
+          },
+          "electricRangeKm": 590,
+          "batteryKwh": 98.6,
+          "charging": {
+            "dcMaxKw": 150,
+            "dc10to80Min": null
+          },
+          "co2Gkm": 0,
+          "weightKg": 2555,
+          "dimensions": {
+            "lengthMm": 4874,
+            "widthMm": 1979,
+            "heightMm": 1662,
+            "wheelbaseMm": 2901
+          },
+          "seats": 5,
+          "trunkL": 535,
+          "equipmentHighlights": [],
+          "prices": [
+            {
+              "market": "BE",
+              "amount": 126650,
+              "currency": "EUR",
+              "type": "variant",
+              "asOf": "2024-03",
+              "source": {
+                "label": "Autotijd.be – Prix belge Maserati Grecale (mars 2024)",
+                "url": "https://autotijd.be/fr/prix/maserati/grecale",
+                "type": "database",
+                "publishedAt": null,
+                "retrievedAt": "2026-10-28"
+              }
+            }
+          ],
+          "notes": "Données EV Database pour le millésime 2027. Batterie : capacité utile (105 kWh nominaux). Recharge : Maserati annonce 20-80 % en 29 min ; EV Database calcule 10-80 % en 40 min, valeur non retenue. Prix belge : barème Autotijd de mars 2024, qui mentionne 550 ch (millésime antérieur).",
+          "sources": [
+            {
+              "label": "EV Database – Maserati Grecale Folgore (MY27)",
+              "url": "https://ev-database.org/car/3721/Maserati-Grecale-Folgore",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            },
+            {
+              "label": "Autotijd.be – Prix belge Maserati Grecale (mars 2024)",
+              "url": "https://autotijd.be/fr/prix/maserati/grecale",
+              "type": "database",
+              "publishedAt": null,
+              "retrievedAt": "2026-10-28"
+            }
+          ]
+        }
+      ],
+      "launch": null,
+      "upcoming": null,
+      "changes": null,
+      "sources": [
+        {
+          "label": "Ultimate Specs – Maserati Grecale GT 2.0 Mild Hybrid",
+          "url": "https://www.ultimatespecs.com/car-specs/Maserati/140048/Maserati-Grecale-GT-20-Mild-Hybrid.html",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Ultimate Specs – Maserati Grecale Trofeo 3.0 V6",
+          "url": "https://www.ultimatespecs.com/car-specs/Maserati/140045/Maserati-Grecale-Trofeo-30-V6.html",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "EV Database – Maserati Grecale Folgore (MY27)",
+          "url": "https://ev-database.org/car/3721/Maserati-Grecale-Folgore",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        },
+        {
+          "label": "Autotijd.be – Prix belge Maserati Grecale (mars 2024)",
+          "url": "https://autotijd.be/fr/prix/maserati/grecale",
+          "type": "database",
+          "publishedAt": null,
+          "retrievedAt": "2026-10-28"
+        }
+      ],
+      "updatedAt": "2026-10-28"
+    }
+  ]
+}
