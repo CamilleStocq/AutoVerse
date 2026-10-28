@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Check, Copy, Download, Moon, Monitor, RefreshCw, Sun, Upload } from 'lucide-react';
+import { Copy, Download, Moon, Monitor, RefreshCw, Sun, Upload } from 'lucide-react';
 import { CATEGORY_LABELS, INTEREST_LABELS, MARKETS, PERIOD_LABELS, POWERTRAIN_LABELS, PRICE_RANGE_LABELS, USAGE_LABELS } from '@shared/labels';
 import type { MarketCode } from '@shared/types';
 import { useMeta } from '../hooks/queries';
@@ -146,15 +146,6 @@ export function Settings() {
         </>}
       </section>
 
-      <section className="panel">
-        <h3>Fonctionnalités à venir</h3>
-        <ul className="bullet-list muted" style={{ fontSize: 'var(--text-sm)' }}>
-          <li>Notifications (sorties, nouvelles générations, actualité de la wishlist) — <em>non encore disponibles</em>.</li>
-          <li>Collections personnelles et calendrier personnel exportable — <em>non encore disponibles</em>.</li>
-          {!SERVER_SYNC && <li>Synchronisation automatique entre appareils — <em>non disponible dans la version en ligne</em> (utilisez l’export / import).</li>}
-        </ul>
-        <p className="row gap-2 subtle" style={{ fontSize: 'var(--text-xs)', marginTop: 'var(--space-3)' }}><Check size={14} /> Disponible dès maintenant : export de la wishlist (JSON), partage de fiche, recommandations similaires.</p>
-      </section>
     </div>
   );
 }
