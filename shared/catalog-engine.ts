@@ -24,6 +24,8 @@ export interface CarQuery {
   statuses?: Array<'on-sale' | 'upcoming' | 'discontinued'>;
   yearFrom?: number;
   yearTo?: number;
+  /** Puissance minimale (version la plus puissante de la fiche), ex. 900 ch pour les hypercars. */
+  minHp?: number;
   ids?: string[];
   sort?: 'relevance' | 'newest' | 'power' | 'price-asc' | 'price-desc' | 'release';
   market: MarketCode;
@@ -269,6 +271,7 @@ export function filterGenerations(ctx: CatalogContext, query: CarQuery): Generat
     const year = g.startYear;
     if (query.yearFrom && (year == null || year < query.yearFrom)) return false;
     if (query.yearTo && (year == null || year > query.yearTo)) return false;
+    if (query.minHp && Math.max(0, ...g.variants.map((v) => v.powerHp ?? 0)) < query.minHp) return false;
     return true;
   });
 }

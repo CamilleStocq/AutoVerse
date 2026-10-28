@@ -1,13 +1,13 @@
 /*
- * Service worker d'Autoverse : application installable et utilisable hors ligne.
- * - Pages : réseau d'abord, repli sur la dernière version en cache (l'app s'ouvre sans connexion).
- * - Données (/data/*.json) : réseau d'abord, repli sur la dernière copie (les écrans indiquent la date).
+ * Service worker d'Autoverse : application installable.
+ * - Pages : réseau d'abord, repli sur la dernière version en cache (sans connexion, l'app s'ouvre
+ *   uniquement pour afficher l'écran « Pas de connexion internet »).
+ * - Données (/data/*.json) : toujours le réseau, jamais de copie en cache (aucune donnée hors ligne).
  * - Fichiers de l'application (/assets, polices, icônes) : cache d'abord (noms versionnés par le build).
  * - Photos (Wikimedia, médias) : cache puis mise à jour en arrière-plan, nombre d'entrées limité.
  */
-const VERSION = 'v14';
+const VERSION = 'v15';
 const SHELL = `autoverse-shell-${VERSION}`;
-const DATA = `autoverse-data-${VERSION}`;
 const IMAGES = `autoverse-images-${VERSION}`;
 const MAX_IMAGES = 250;
 
@@ -24,7 +24,7 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys()
-      .then((keys) => Promise.all(keys.filter((k) => k.startsWith('autoverse-') && ![SHELL, DATA, IMAGES].includes(k)).map((k) => caches.delete(k))))
+      .then((keys) => Promise.all(keys.filter((k) => k.startsWith('autoverse-') && ![SHELL, IMAGES].includes(k)).map((k) => caches.delete(k))))
       .then(() => self.clients.claim()),
   );
 });
@@ -81,7 +81,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
   if (url.origin === self.location.origin && url.pathname.startsWith(`${base}data/`)) {
-    event.respondWith(networkFirst(request, DATA));
+    event.respondWith(fetch(request));
     return;
   }
   if (url.origin === self.location.origin) {

@@ -1,12 +1,13 @@
 /**
  * Explorer : uniquement une recherche. Aucune carte n'est affichée tant qu'on ne cherche rien ;
- * la carte et la fiche d'un modèle apparaissent seulement quand on le recherche.
+ * la carte et la fiche d'un modèle apparaissent seulement quand on le recherche, ou quand on
+ * choisit un raccourci (Hypercars, Endurance, Rallye…) pour explorer sans savoir quoi taper.
  * (Les cartes possédées sont rangées dans l'onglet Deck.)
  */
 import { useDeferredValue, useEffect, useMemo, useState } from 'react';
 import { Navigate, useSearchParams } from 'react-router-dom';
 import { Search, X } from 'lucide-react';
-import { useCards, useInfiniteCars } from '../hooks/queries';
+import { useCards, useInfiniteCars, type CarFilters } from '../hooks/queries';
 import { cardKey, useCollection } from '../state/collection';
 import { TradingCard } from '../components/TradingCard';
 import { EmptyState, ErrorState } from '../components/States';
@@ -19,7 +20,17 @@ function CardGridSkeleton() {
   );
 }
 
-function Results({ q }: { q: string }) {
+/** Raccourcis sous la barre : chacun est un filtre explicite, combinable avec le texte recherché. */
+const SHORTCUTS: Array<{ id: string; label: string; filters: CarFilters }> = [
+  { id: 'hypercars', label: 'Hypercars', filters: { minHp: 900, sort: 'power' } },
+  { id: 'supercars', label: 'Supercars', filters: { categories: ['supercar'], sort: 'power' } },
+  { id: 'endurance', label: 'Endurance', filters: { categories: ['endurance'] } },
+  { id: 'rallye', label: 'Rallye', filters: { categories: ['rally'] } },
+  { id: 'legendes', label: 'Légendes', filters: { categories: ['classic'] } },
+  { id: 'electriques', label: 'Électriques', filters: { powertrains: ['ev'] } },
+];
+
+function Results({ q, filters }: { q: string; filters?: CarFilters }) {
   const { owned } = useCollection();
   const allCards = useCards();
   // Versions possédées par fiche (la recherche montre une fiche, le deck une carte par version).
@@ -33,7 +44,7 @@ function Results({ q }: { q: string }) {
     return m;
   }, [allCards.data, owned]);
 
-  const cars = useInfiniteCars({ q, sort: 'relevance', pageSize: 12, personalize: false });
+  const cars = useInfiniteCars({ sort: 'relevance', ...filters, q: q || undefined, pageSize: 12, personalize: false });
   const items = cars.data?.pages.flatMap((p) => p.items) ?? [];
   const total = cars.data?.pages[0]?.total ?? 0;
 
@@ -66,11 +77,18 @@ export function Explore() {
   const [sp, setSp] = useSearchParams();
   const [q, setQ] = useState(sp.get('q') ?? '');
   const query = useDeferredValue(q.trim());
+  const shortcut = SHORTCUTS.find((s) => s.id === sp.get('raccourci')) ?? null;
+  const toggleShortcut = (id: string) => {
+    const next = new URLSearchParams(sp);
+    if (shortcut?.id === id) next.delete('raccourci'); else next.set('raccourci', id);
+    setSp(next, { replace: true });
+  };
 
   // Recherche reflétée dans l'URL (retour arrière depuis une fiche : la recherche est conservée).
   useEffect(() => {
     const t = setTimeout(() => {
-      const next = query ? new URLSearchParams({ q: query }) : new URLSearchParams();
+      const next = new URLSearchParams(sp);
+      if (query) next.set('q', query); else next.delete('q');
       if (next.toString() !== sp.toString()) setSp(next, { replace: true });
     }, 200);
     return () => clearTimeout(t);
@@ -94,9 +112,14 @@ export function Explore() {
         </label>
         {q && <button type="button" className="btn" aria-label="Effacer la recherche" onClick={() => setQ('')}><X size={18} /></button>}
       </div>
+      <div className="chip-row search-shortcuts" role="group" aria-label="Raccourcis">
+        {SHORTCUTS.map((s) => (
+          <button key={s.id} type="button" className="chip" aria-pressed={shortcut?.id === s.id} onClick={() => toggleShortcut(s.id)}>{s.label}</button>
+        ))}
+      </div>
       <div style={{ marginTop: 'var(--space-4)' }}>
-        {query ? <Results q={query} /> : (
-          <EmptyState icon={<Search size={28} />} title="Quel modèle cherchez-vous ?" message="Les cartes apparaissent ici dès que vous recherchez un modèle." />
+        {query || shortcut ? <Results q={query} filters={shortcut?.filters} /> : (
+          <EmptyState icon={<Search size={28} />} title="Quel modèle cherchez-vous ?" message="Les cartes apparaissent ici dès que vous recherchez un modèle, ou choisissez un raccourci ci-dessus." />
         )}
       </div>
     </div>

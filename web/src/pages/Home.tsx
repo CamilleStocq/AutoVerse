@@ -11,7 +11,7 @@ import { CarImage } from '../components/CarImage';
 import { CardGridSkeleton, EmptyState, ErrorState, Section } from '../components/States';
 import { NewsCard, NewsSkeleton } from '../components/NewsCard';
 import { DisciplineTag, EventCard, RaceStrip } from './sport/common';
-import { useCollection } from '../state/collection';
+import { BOOSTER_INTERVAL_HOURS, useCollection } from '../state/collection';
 import { priceLine } from '../components/PriceTag';
 
 function Hero({ car, brands }: { car: CarSummary | undefined; brands: string[] }) {
@@ -171,7 +171,7 @@ function CollectionBanner() {
         <strong>{state.boosters > 0 ? `${state.boosters} booster${state.boosters > 1 ? 's' : ''} à ouvrir` : 'Mon deck de cartes'}</strong>
         <span className="muted" style={{ fontSize: 'var(--text-sm)' }}>
           {count ? `${count} carte${count > 1 ? 's' : ''} collectionnée${count > 1 ? 's' : ''}` : 'Collectionnez les cartes de vos marques préférées'}
-          {state.boosters === 0 && ' · 1 booster toutes les 3 heures'}
+          {state.boosters === 0 && ` · 1 booster toutes les ${BOOSTER_INTERVAL_HOURS} heures`}
         </span>
       </span>
       <ArrowRight size={18} aria-hidden="true" />

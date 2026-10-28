@@ -4,6 +4,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ProfileProvider, useProfile } from './state/ProfileProvider';
 import { UiProvider } from './state/UiProvider';
 import { AppShell } from './components/AppShell';
+import { OfflineGate } from './components/OfflineGate';
 import { Onboarding } from './pages/Onboarding';
 import { Home } from './pages/Home';
 import { CardGridSkeleton } from './components/States';
@@ -63,7 +64,9 @@ export function App() {
       <ProfileProvider>
         <UiProvider>
           <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
-            <AppRoutes />
+            <OfflineGate>
+              <AppRoutes />
+            </OfflineGate>
           </BrowserRouter>
         </UiProvider>
       </ProfileProvider>

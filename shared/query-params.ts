@@ -42,6 +42,7 @@ export function carQueryFromParams(q: Q): CarQuery {
     ids: list(q.ids),
     yearFrom: q.yearFrom ? Number(q.yearFrom) : undefined,
     yearTo: q.yearTo ? Number(q.yearTo) : undefined,
+    minHp: q.minHp ? Number(q.minHp) || undefined : undefined,
     sort: SORTS.includes(q.sort as never) ? (q.sort as CarQuery['sort']) : 'relevance',
     market: marketOf(q.market),
     prefs: prefsFromQuery(q),

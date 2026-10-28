@@ -1,8 +1,9 @@
 /**
  * Deck de cartes (esprit cartes Pokémon). Une carte n'entre dans le deck que si elle sort d'un booster.
- * - Boosters : 3 de bienvenue, puis 1 toutes les 3 heures (jusqu'à 3 en réserve).
+ * - Boosters de 7 cartes : 3 de bienvenue, puis 1 toutes les 2 heures (jusqu'à 3 en réserve).
+ * - Jamais de double : un booster ne contient que des cartes pas encore possédées.
  * - Boosters bonus : questionnaire F1 / WEC / WRC parfait (5/5) ; au plus 2 bonus par période
- *   de 3 heures, et au plus 3 questionnaires par heure.
+ *   de 2 heures, et au plus 3 questionnaires par heure.
  * - Un booster ouvert reste « en attente » jusqu'au bouton « Ajouter au deck » : fermer l'app
  *   pendant l'ouverture ne fait rien perdre (l'ouverture reprend au retour).
  * Tout est enregistré sur l'appareil.
@@ -22,25 +23,29 @@ export interface CollectionState {
   pending: string[] | null;
   /** Débuts de questionnaires (ISO), pour la limite horaire. */
   quizzes: string[];
-  /** Boosters bonus gagnés (ISO), pour la limite de 2 par période de 3 h. */
+  /** Boosters bonus gagnés (ISO), pour la limite de 2 par période de 2 h. */
   bonuses: string[];
+  /** Badges déjà annoncés (pour ne féliciter qu'une fois). */
+  badges: string[];
 }
 
-export const BOOSTER_SIZE = 5;
+export const BOOSTER_SIZE = 7;
 export const MAX_STORED_BOOSTERS = 3;
 export const WELCOME_BOOSTERS = 3;
-export const BOOSTER_INTERVAL_MS = 3 * 3600 * 1000;
+export const BOOSTER_INTERVAL_MS = 2 * 3600 * 1000;
+/** Durée entre deux boosters gratuits, en heures (pour les textes). */
+export const BOOSTER_INTERVAL_HOURS = BOOSTER_INTERVAL_MS / 3600_000;
 export const QUIZ_PER_HOUR = 3;
 export const MAX_BONUS_PER_INTERVAL = 2;
 const HOUR = 3600 * 1000;
 
-const EMPTY: CollectionState = { cards: {}, boosters: 0, lastGrantAt: null, welcomeGiven: false, opened: 0, pending: null, quizzes: [], bonuses: [] };
+const EMPTY: CollectionState = { cards: {}, boosters: 0, lastGrantAt: null, welcomeGiven: false, opened: 0, pending: null, quizzes: [], bonuses: [], badges: [] };
 
 /** Probabilités par emplacement (la dernière carte du booster est au moins Rare). */
 export const RARITY_WEIGHTS: Record<Rarity, number> = { common: 55, rare: 30, epic: 12, legendary: 3 };
 const RARITY_ORDER: Rarity[] = ['common', 'rare', 'epic', 'legendary'];
 
-/** Boosters gagnés avec le temps : 3 à la première ouverture, puis 1 toutes les 3 h (réserve de 3). */
+/** Boosters gagnés avec le temps : 3 à la première ouverture, puis 1 toutes les 2 h (réserve de 3). */
 export function grantBoosters(s: CollectionState, now = new Date()): CollectionState {
   const t = now.getTime();
   if (!s.welcomeGiven) return { ...s, boosters: s.boosters + WELCOME_BOOSTERS, welcomeGiven: true, lastGrantAt: now.toISOString() };
@@ -62,7 +67,7 @@ export function nextBoosterIn(s: CollectionState, now = Date.now()): number | nu
 
 /**
  * Questionnaire possible ? Il faut à la fois une tentative disponible (3 par heure glissante)
- * et un booster bonus encore gagnable (2 par période glissante de 3 h).
+ * et un booster bonus encore gagnable (2 par période glissante de 2 h).
  */
 export function quizAllowance(s: CollectionState, now = Date.now()) {
   const recent = s.quizzes.filter((q) => now - Date.parse(q) < HOUR).sort();
@@ -86,42 +91,37 @@ function pickRarity(rng: () => number, minimum: Rarity = 'common'): Rarity {
 }
 
 /**
- * Tire un booster dans le paquet (marques préférées). Une carte pas encore possédée a deux fois
- * plus de chances de sortir ; si aucune carte n'existe à la rareté tirée, on prend la plus proche.
+ * Tire un booster : uniquement des cartes pas encore possédées, toutes différentes (jamais de double).
+ * Le paquet est d'abord celui des marques préférées, puis tout le catalogue quand elles sont complètes.
+ * La dernière carte est au moins Rare quand il en reste ; si aucune carte n'existe à la rareté tirée,
+ * on prend la plus proche. Quand il reste moins de cartes que la taille d'un booster, il est plus petit.
  */
-export function drawBooster(pool: CarSummary[], owned: CollectionState['cards'], rng: () => number = Math.random): CarSummary[] {
-  if (!pool.length) return [];
-  const byRarity = new Map<Rarity, CarSummary[]>();
-  for (const c of pool) {
-    const r = c.card?.rarity ?? 'common';
-    byRarity.set(r, [...(byRarity.get(r) ?? []), c]);
-  }
-  const nearest = (r: Rarity) => {
-    const i = RARITY_ORDER.indexOf(r);
-    const order = [i, i - 1, i + 1, i - 2, i + 2, i - 3, i + 3].filter((k) => k >= 0 && k < RARITY_ORDER.length);
-    for (const k of order) if (byRarity.get(RARITY_ORDER[k])?.length) return byRarity.get(RARITY_ORDER[k])!;
-    return pool;
-  };
+export function drawBooster(pool: CarSummary[], owned: CollectionState['cards'], rng: () => number = Math.random, fallback: CarSummary[] = []): CarSummary[] {
+  const fresh = (list: CarSummary[]) => list.filter((c) => !owned[cardKey(c)]);
+  let left = fresh(pool);
+  if (!left.length) left = fresh(fallback);
   const drawn: CarSummary[] = [];
-  for (let slot = 0; slot < BOOSTER_SIZE; slot++) {
-    const rarity = pickRarity(rng, slot === BOOSTER_SIZE - 1 ? 'rare' : 'common');
-    const candidates = nearest(rarity).filter((c) => !drawn.includes(c) || pool.length <= BOOSTER_SIZE);
-    const list = candidates.length ? candidates : nearest(rarity);
-    const weights = list.map((c) => (owned[cardKey(c)] ? 1 : 2));
-    let x = rng() * weights.reduce((a, b) => a + b, 0);
-    let pick = list[list.length - 1];
-    for (let i = 0; i < list.length; i++) {
-      x -= weights[i];
-      if (x <= 0) { pick = list[i]; break; }
+  const size = Math.min(BOOSTER_SIZE, left.length);
+  for (let slot = 0; slot < size; slot++) {
+    const byRarity = new Map<Rarity, CarSummary[]>();
+    for (const c of left) {
+      const r = c.card?.rarity ?? 'common';
+      byRarity.set(r, [...(byRarity.get(r) ?? []), c]);
     }
+    const rarity = pickRarity(rng, slot === size - 1 && [...byRarity.keys()].some((r) => r !== 'common') ? 'rare' : 'common');
+    const i = RARITY_ORDER.indexOf(rarity);
+    const order = [i, i - 1, i + 1, i - 2, i + 2, i - 3, i + 3].filter((k) => k >= 0 && k < RARITY_ORDER.length);
+    const list = order.map((k) => byRarity.get(RARITY_ORDER[k])).find((l) => l?.length) ?? left;
+    const pick = list[Math.min(list.length - 1, Math.floor(rng() * list.length))];
     drawn.push(pick);
+    left = left.filter((c) => c !== pick);
   }
   return drawn;
 }
 
 export function addCards(s: CollectionState, ids: string[], now = new Date().toISOString()): CollectionState {
   const cards = { ...s.cards };
-  for (const id of ids) cards[id] = { count: (cards[id]?.count ?? 0) + 1, firstAt: cards[id]?.firstAt ?? now };
+  for (const id of ids) cards[id] = { count: 1, firstAt: cards[id]?.firstAt ?? now };
   return { ...s, cards };
 }
 
@@ -153,7 +153,6 @@ export function applyCardMigration(legacy: Record<string, string>): void {
   if (next !== current) save(next);
 }
 
-export const doublesCount = (s: CollectionState) => Object.values(s.cards).reduce((n, c) => n + Math.max(0, c.count - 1), 0);
 
 // ---------- Hook ----------
 
@@ -161,9 +160,11 @@ const listeners = new Set<(s: CollectionState) => void>();
 
 function load(): CollectionState {
   const raw = readLocal<Partial<CollectionState> & { lastGrantDay?: string }>(KEYS.collection, {});
-  // Ancien format (1 booster par jour) : le compteur de 2 h démarre maintenant.
+  // Ancien format (1 booster par jour) : le compteur démarre maintenant.
   const { lastGrantDay: _legacy, ...rest } = raw;
-  return { ...EMPTY, ...rest, quizzes: rest.quizzes ?? [], bonuses: rest.bonuses ?? [], pending: rest.pending ?? null };
+  // Plus de doubles : une carte possédée compte toujours pour 1.
+  const cards = Object.fromEntries(Object.entries(rest.cards ?? {}).map(([id, c]) => [id, { ...c, count: 1 }]));
+  return { ...EMPTY, ...rest, cards, quizzes: rest.quizzes ?? [], bonuses: rest.bonuses ?? [], badges: rest.badges ?? [], pending: rest.pending ?? null };
 }
 
 function save(next: CollectionState) {
@@ -197,11 +198,12 @@ export function useCollection() {
   }, []);
 
   /** Ouvre un booster : le tirage est mis en attente jusqu'à « Ajouter au deck ». */
-  const openBooster = useCallback((pool: CarSummary[]) => {
+  const openBooster = useCallback((pool: CarSummary[], fallback: CarSummary[] = []) => {
     const current = load();
     if (current.pending) return current.pending;
     if (current.boosters < 1 || !pool.length) return null;
-    const ids = drawBooster(pool, current.cards).map(cardKey);
+    const ids = drawBooster(pool, current.cards, Math.random, fallback).map(cardKey);
+    if (!ids.length) return null;
     requestPersistentStorage();
     save({ ...current, boosters: current.boosters - 1, opened: current.opened + 1, pending: ids });
     return ids;
@@ -223,7 +225,7 @@ export function useCollection() {
     return true;
   }, []);
 
-  /** Questionnaire parfait : un booster bonus, dans la limite de 2 par période de 3 h. */
+  /** Questionnaire parfait : un booster bonus, dans la limite de 2 par période de 2 h. */
   const rewardQuiz = useCallback(() => {
     const current = load();
     if (quizAllowance(current).bonusLeft < 1) return false;
@@ -232,7 +234,15 @@ export function useCollection() {
     return true;
   }, []);
 
-  return { state, owned: state.cards, doubles: doublesCount(state), openBooster, commitPending, startQuiz, rewardQuiz };
+  /** Enregistre les badges annoncés ; renvoie ceux qui étaient nouveaux. */
+  const markBadges = useCallback((ids: string[]) => {
+    const current = load();
+    const fresh = ids.filter((id) => !current.badges.includes(id));
+    if (fresh.length) save({ ...current, badges: [...current.badges, ...fresh] });
+    return fresh;
+  }, []);
+
+  return { state, owned: state.cards, markBadges, openBooster, commitPending, startQuiz, rewardQuiz };
 }
 
 export function readCollection(): CollectionState {

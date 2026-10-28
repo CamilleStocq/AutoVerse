@@ -286,3 +286,21 @@
 .pref-row dt { color: var(--text-muted); }
 .pref-row dd { margin: 0; }
 .profile-id { padding: var(--space-2) var(--space-3); border-radius: var(--radius-sm); background: var(--surface-2); font-size: var(--text-xs); overflow-wrap: anywhere; }
+
+/* ================= Hors ligne ================= */
+.offline-screen {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  padding: calc(var(--space-6) + env(safe-area-inset-top)) var(--space-5) calc(var(--space-6) + env(safe-area-inset-bottom));
+  text-align: center;
+  background: var(--bg);
+  color: var(--text-muted);
+}
+.offline-screen h1 { font-size: var(--text-2xl); color: var(--text); text-transform: uppercase; }
+.offline-screen p { max-width: 34ch; font-size: var(--text-sm); }
+.offline-logo { width: 56px; height: 56px; }
+.offline-logo svg { width: 100%; height: 100%; }

@@ -106,7 +106,7 @@ export function Quiz({ discipline, onPerfect, onClose }: Props) {
           <div className="quiz-result">
             <strong className="quiz-score num">{score} / {QUIZ_LENGTH}</strong>
             {result === 'won' && <p><b>Sans-faute ! Un booster bonus vous attend.</b></p>}
-            {result === 'capped' && <p>Sans-faute, mais vous avez déjà gagné vos 2 boosters bonus de cette période de 3 heures.</p>}
+            {result === 'capped' && <p>Sans-faute, mais vous avez déjà gagné vos 2 boosters bonus de cette période de 2 heures.</p>}
             {result === 'missed' && <p>Il faut un sans-faute ({QUIZ_LENGTH}/{QUIZ_LENGTH}) pour gagner un booster bonus. Retentez votre chance plus tard.</p>}
             <button type="button" className="btn btn-primary" onClick={onClose} autoFocus>Continuer</button>
           </div>

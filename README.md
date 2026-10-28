@@ -30,7 +30,8 @@ Fonctionnement de la version en ligne (GitHub Pages, sans serveur) :
 ### Cartes à collectionner (Explorer et Deck)
 
 - **Une carte par version** (ex. 911 Carrera, 911 Carrera GTS) : stats et prix de cette seule version ; une fiche sans version publiée donne une seule carte. Les decks enregistrés avec l'ancien format (une carte par fiche) sont convertis automatiquement, doubles compris.
-- **Explorer = recherche uniquement :** aucune carte n'est affichée tant qu'on ne cherche rien ; un modèle recherché montre sa carte et sa fiche.
+- **Recherche :** aucune carte n'est affichée tant qu'on ne cherche rien ; un modèle recherché montre sa carte et sa fiche. Des raccourcis (Hypercars ≥ 900 ch, Supercars, Endurance, Rallye, Légendes, Électriques) permettent d'explorer sans savoir quoi taper.
+- **Hors ligne :** aucune donnée n'est affichée sans connexion (les données ne sont jamais mises en cache) ; un écran l'explique et l'app reprend dès le retour du réseau. La collection reste sur l'appareil.
 
 - **Catalogue :** chaque voiture est une carte à collectionner (format 63 × 88). Elle porte :
   - la puissance en « PV » et la rareté ;
@@ -45,9 +46,11 @@ Fonctionnement de la version en ligne (GitHub Pages, sans serveur) :
 
   Les cartes Épiques et Légendaires ont un reflet holographique.
 - **Onglet Deck** (barre du bas) : tout ce qui concerne les cartes.
-  - **Boosters :** 3 boosters de bienvenue, puis 1 booster gratuit toutes les 3 heures (jusqu'à 3 en réserve). Chaque booster contient 5 cartes tirées parmi vos marques préférées, dont au moins une Rare, avec plus de chances de tomber sur une carte qu'on n'a pas encore.
+  - **Boosters :** 3 boosters de bienvenue, puis 1 booster gratuit toutes les 2 heures (jusqu'à 3 en réserve). Chaque booster contient 7 cartes, toutes différentes et **jamais déjà possédées** (aucun double), tirées parmi vos marques préférées puis dans tout le catalogue quand elles sont complètes ; au moins une Rare quand il en reste.
+  - **Badges :** 17 badges calculés à partir de la collection (10, 50, 100, 250, 500 cartes, collection complète, Légendaires, séries Endurance, Rallye, Supercars, Légendes, marques complètes, boosters ouverts), annoncés une seule fois.
+  - **Filtre « Manquantes » :** les dossiers montrent soit vos cartes, soit les emplacements des cartes qui vous manquent.
   - **Ouverture animée :** le booster fermé arrive en grand, on glisse pour le déchirer, les cartes sortent, on les fait défiler une à une, puis elles s'affichent côte à côte avec le bouton « Ajouter au deck ». Un booster interrompu (app fermée) reprend à la réouverture.
-  - **Questionnaires F1, WEC, WRC :** 5 questions générées à partir des vraies données (classements, calendriers, engagés). Un sans-faute rapporte un booster bonus. Au plus 3 questionnaires par heure et 2 boosters bonus par période de 3 heures.
+  - **Questionnaires F1, WEC, WRC :** 5 questions générées à partir des vraies données (classements, calendriers, engagés). Un sans-faute rapporte un booster bonus. Au plus 3 questionnaires par heure et 2 boosters bonus par période de 2 heures.
   - **Dossiers par marque :** logo (Wikimedia Commons via Wikidata, auteur et licence indiqués ; monogramme aux couleurs de la marque si aucun logo fiable) + nom + progression. Un appui ouvre le dossier et montre les cartes obtenues, un nouvel appui le referme. Tous les dossiers sont fermés à chaque lancement de l'app.
   - **Recherche :** l'onglet Explorer montre la carte et la fiche de n'importe quelle voiture, mais une carte n'entre dans le deck qu'en sortant d'un booster (`web/src/state/collection.ts`).
 - La collection fait partie de la sauvegarde exportable (*Profil → Exporter mes données*).

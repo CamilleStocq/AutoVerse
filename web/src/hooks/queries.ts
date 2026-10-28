@@ -14,6 +14,7 @@ export interface CarFilters {
   status?: string[];
   yearFrom?: number | null;
   yearTo?: number | null;
+  minHp?: number;
   ids?: string[];
   sort?: string;
   pageSize?: number;
@@ -39,7 +40,7 @@ export function useMeta() {
 function carParams(f: CarFilters, prefs: Preferences) {
   return {
     q: f.q, brands: f.brands, categories: f.categories, powertrains: f.powertrains, priceRanges: f.priceRanges,
-    status: f.status, yearFrom: f.yearFrom ?? undefined, yearTo: f.yearTo ?? undefined, ids: f.ids,
+    status: f.status, yearFrom: f.yearFrom ?? undefined, yearTo: f.yearTo ?? undefined, minHp: f.minHp, ids: f.ids,
     sort: f.sort, market: prefs.market, pageSize: f.pageSize ?? 24,
     ...(f.personalize === false ? {} : prefsParams(prefs)),
   };

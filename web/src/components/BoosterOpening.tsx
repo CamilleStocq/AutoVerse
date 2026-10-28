@@ -17,7 +17,7 @@ const wait = (ms: number) => new Promise((r) => setTimeout(r, reduced() ? 0 : ms
 
 interface Props {
   cards: CarSummary[];
-  /** Nouvelle carte (pas encore dans le deck) ou double, pour chaque carte du booster. */
+  /** Nouvelle carte pour chaque carte du booster (les boosters ne contiennent jamais de double). */
   isNew: boolean[];
   packLabel: string;
   onAdd: () => void;
@@ -157,7 +157,7 @@ export function BoosterOpening({ cards, isNew, packLabel, onAdd, onClose }: Prop
             </div>
           </div>
           <p className="bo-caption" aria-live="polite">
-            <strong>{RARITY[rarity].symbol} {RARITY[rarity].label}</strong> · {isNew[index] ? 'nouvelle carte' : 'double'}
+            <strong>{RARITY[rarity].symbol} {RARITY[rarity].label}</strong> · nouvelle carte
           </p>
           <button type="button" className="btn btn-sm" onClick={() => nextCard('left')} autoFocus>
             {index < cards.length - 1 ? 'Carte suivante' : 'Voir toutes les cartes'}
@@ -169,7 +169,7 @@ export function BoosterOpening({ cards, isNew, packLabel, onAdd, onClose }: Prop
       {(stage === 'spread' || stage === 'adding') && (
         <div className="bo-spread">
           <h2>Votre booster</h2>
-          <p>{isNew.filter(Boolean).length} nouvelle(s) carte(s) · {isNew.filter((n) => !n).length} double(s)</p>
+          <p>{cards.length} nouvelle{cards.length > 1 ? 's' : ''} carte{cards.length > 1 ? 's' : ''}</p>
           <div className="bo-fan">
             {cards.map((c, i) => (
               <div key={`${c.id}-${i}`} className="bo-fan-card" style={{ '--i': i, '--n': cards.length } as CSSProperties}>

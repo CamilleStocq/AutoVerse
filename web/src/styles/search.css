@@ -426,3 +426,8 @@ kbd {
   font-size: var(--text-xs);
   white-space: nowrap;
 }
+
+/* Raccourcis sous la barre de recherche (Hypercars, Endurance…) : retour à la ligne, jamais de défilement latéral */
+.search-shortcuts {
+  margin-top: var(--space-3);
+}
