@@ -2,8 +2,11 @@
  * Badges de collection : calculés à partir des cartes possédées (rien n'est stocké à part
  * la liste des badges déjà annoncés, pour ne féliciter qu'une fois).
  */
+import { useMemo } from 'react';
 import type { CarSummary, Rarity } from '@shared/api';
 import type { CategoryId } from '@shared/types';
+import { useCards } from '../hooks/queries';
+import { useCollection } from '../state/collection';
 
 export type BadgeIcon = 'cards' | 'crown' | 'gem' | 'flag' | 'mountain' | 'zap' | 'clock' | 'package' | 'trophy';
 
@@ -14,6 +17,8 @@ export interface Badge {
   icon: BadgeIcon;
   have: number;
   goal: number;
+  /** Ce qui est compté, au singulier puis au pluriel (« carte » / « cartes »). */
+  unit: [string, string];
   unlocked: boolean;
 }
 
@@ -21,14 +26,16 @@ type Owned = Record<string, unknown>;
 
 const key = (c: CarSummary) => c.card?.id ?? c.id;
 
+const CARDS: [string, string] = ['carte', 'cartes'];
+
 function series(id: string, label: string, description: string, icon: BadgeIcon, cards: CarSummary[], owned: Owned): Badge | null {
   if (!cards.length) return null;
   const have = cards.filter((c) => owned[key(c)]).length;
-  return { id, label, description, icon, have, goal: cards.length, unlocked: have >= cards.length };
+  return { id, label, description, icon, have, goal: cards.length, unit: CARDS, unlocked: have >= cards.length };
 }
 
-function count(id: string, label: string, description: string, icon: BadgeIcon, have: number, goal: number): Badge {
-  return { id, label, description, icon, have: Math.min(have, goal), goal, unlocked: have >= goal };
+function count(id: string, label: string, description: string, icon: BadgeIcon, have: number, goal: number, unit: [string, string] = CARDS): Badge {
+  return { id, label, description, icon, have: Math.min(have, goal), goal, unit, unlocked: have >= goal };
 }
 
 const inCategory = (all: CarSummary[], c: CategoryId) => all.filter((x) => x.categories.includes(c));
@@ -58,10 +65,26 @@ export function computeBadges(all: CarSummary[], owned: Owned, opened: number): 
     series('series-rally', 'Groupe B', 'Toutes les voitures de rallye', 'mountain', inCategory(all, 'rally'), owned),
     series('series-supercar', 'Supercars', 'Toutes les supercars et hypercars', 'zap', inCategory(all, 'supercar'), owned),
     series('series-classic', 'Légendes de la route', 'Toutes les icônes de collection', 'gem', inCategory(all, 'classic'), owned),
-    count('brand-1', 'Marque complète', 'Compléter le dossier d’une marque', 'flag', brandsDone, 1),
-    count('brand-5', 'Cinq marques', 'Compléter 5 dossiers de marque', 'flag', brandsDone, 5),
-    count('boosters-10', 'Déballeur', 'Ouvrir 10 boosters', 'package', opened, 10),
-    count('boosters-50', 'Accro aux boosters', 'Ouvrir 50 boosters', 'package', opened, 50),
+    count('brand-1', 'Marque complète', 'Compléter le dossier d’une marque', 'flag', brandsDone, 1, ['marque', 'marques']),
+    count('brand-5', 'Cinq marques', 'Compléter 5 dossiers de marque', 'flag', brandsDone, 5, ['marque', 'marques']),
+    count('boosters-10', 'Déballeur', 'Ouvrir 10 boosters', 'package', opened, 10, ['booster', 'boosters']),
+    count('boosters-50', 'Accro aux boosters', 'Ouvrir 50 boosters', 'package', opened, 50, ['booster', 'boosters']),
   ];
   return list.filter((b): b is Badge => !!b);
+}
+
+/** « Encore 3 cartes », « Encore 1 booster »… */
+export function remainingText(b: Badge): string {
+  const left = b.goal - b.have;
+  return `Encore ${left} ${left > 1 ? b.unit[1] : b.unit[0]}`;
+}
+
+/** Badges de l'utilisateur, et ceux débloqués mais pas encore vus sur la page Badges. */
+export function useBadges() {
+  const cards = useCards();
+  const { state, owned, markBadges } = useCollection();
+  const all = cards.data ?? [];
+  const badges = useMemo(() => computeBadges(all, owned, state.opened), [all, owned, state.opened]);
+  const unseen = badges.filter((b) => b.unlocked && !state.badges.includes(b.id));
+  return { badges, unseen, loading: cards.isLoading, error: cards.isError, retry: () => cards.refetch(), markBadges };
 }

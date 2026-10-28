@@ -1,11 +1,12 @@
 import { NavLink, Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { useCallback, useEffect, useState } from 'react';
-import { Bell, CalendarClock, Download, Flag, Heart, Home, Layers, Newspaper, Search, Settings, X } from 'lucide-react';
+import { Bell, CalendarClock, Download, Flag, Heart, Home, Layers, Medal, Newspaper, Search, Settings, X } from 'lucide-react';
 import { useInstallState } from './InstallApp';
 import { useMyEvents } from '../state/alerts';
 import { useTableLabels } from '../hooks/useTableLabels';
 import { QuickSearch, useQuickSearchShortcut } from './QuickSearch';
 import { useCollection } from '../state/collection';
+import { useBadges } from '../lib/badges';
 import { useProfile } from '../state/ProfileProvider';
 import { useUi } from '../state/UiProvider';
 
@@ -65,6 +66,8 @@ export function AppShell() {
   // Badge du Deck : boosters de cartes prêts à ouvrir.
   const { state: collection } = useCollection();
   const boosters = collection.boosters;
+  // Point sur la médaille : un badge obtenu n'a pas encore été vu sur la page Badges.
+  const newBadges = useBadges().unseen.length;
   const { pathname } = useLocation();
   const [searchOpen, setSearchOpen] = useState(false);
   const install = useInstallState();
@@ -109,6 +112,7 @@ export function AppShell() {
             {install.canPrompt && !install.installed && (
               <button type="button" className="icon-btn" onClick={install.prompt} aria-label="Installer l’application" data-tip="Installer"><Download size={20} /></button>
             )}
+            <NavLink to="/badges" className="icon-btn" aria-label={newBadges ? `Badges (${newBadges} nouveau${newBadges > 1 ? 'x' : ''})` : 'Badges'} data-tip="Badges"><Medal size={20} />{newBadges > 0 && <span className="dot num">{newBadges > 9 ? '9+' : newBadges}</span>}</NavLink>
             <NavLink to="/alertes" className="icon-btn" aria-label={unread ? `Alertes (${unread} non lues)` : 'Alertes'} data-tip="Alertes"><Bell size={20} />{unread > 0 && <span className="dot num">{unread > 9 ? '9+' : unread}</span>}</NavLink>
             <NavLink to="/actualite" className="icon-btn" aria-label="Actualité" data-tip="Actualité"><Newspaper size={20} /></NavLink>
             <NavLink to="/profil" className="icon-btn" aria-label="Profil et paramètres" data-tip="Profil"><Settings size={20} /></NavLink>

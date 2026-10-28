@@ -47,7 +47,7 @@ Fonctionnement de la version en ligne (GitHub Pages, sans serveur) :
   Les cartes Épiques et Légendaires ont un reflet holographique.
 - **Onglet Deck** (barre du bas) : tout ce qui concerne les cartes.
   - **Boosters :** 3 boosters de bienvenue, puis 1 booster gratuit toutes les 2 heures (jusqu'à 3 en réserve). Chaque booster contient 7 cartes, toutes différentes et **jamais déjà possédées** (aucun double), tirées parmi vos marques préférées puis dans tout le catalogue quand elles sont complètes ; au moins une Rare quand il en reste.
-  - **Badges :** 17 badges calculés à partir de la collection (10, 50, 100, 250, 500 cartes, collection complète, Légendaires, séries Endurance, Rallye, Supercars, Légendes, marques complètes, boosters ouverts), annoncés une seule fois.
+  - **Badges :** page dédiée (icône médaille en haut, seul endroit où ils apparaissent) : 17 badges (), avec pour chacun la progression et ce qu'il reste avant de l'obtenir. Un point sur la médaille signale un badge obtenu pas encore vu.
   - **Filtre « Manquantes » :** les dossiers montrent soit vos cartes, soit les emplacements des cartes qui vous manquent.
   - **Ouverture animée :** le booster fermé arrive en grand, on glisse pour le déchirer, les cartes sortent, on les fait défiler une à une, puis elles s'affichent côte à côte avec le bouton « Ajouter au deck ». Un booster interrompu (app fermée) reprend à la réouverture.
   - **Questionnaires F1, WEC, WRC :** 5 questions générées à partir des vraies données (classements, calendriers, engagés). Un sans-faute rapporte un booster bonus. Au plus 3 questionnaires par heure et 2 boosters bonus par période de 2 heures.

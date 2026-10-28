@@ -3,14 +3,13 @@
  * dossiers par marque (fermés à chaque lancement de l’application). Une carte n'entre dans le deck que si elle sort d'un booster.
  */
 import { useEffect, useMemo, useState, type CSSProperties } from 'react';
-import { Check, ChevronDown, Clock, Crown, Flag, Gem, Layers, Mountain, Package, PackageOpen, Timer, Trophy, Zap, type LucideIcon } from 'lucide-react';
+import { ChevronDown, Clock, PackageOpen, Trophy } from 'lucide-react';
 import type { CarSummary } from '@shared/api';
 import { useCards, useMeta } from '../hooks/queries';
 import { useProfile } from '../state/ProfileProvider';
 import { useUi } from '../state/UiProvider';
 import { BOOSTER_INTERVAL_HOURS, MAX_BONUS_PER_INTERVAL, MAX_STORED_BOOSTERS, QUIZ_PER_HOUR, applyCardMigration, cardKey, nextBoosterIn, quizAllowance, useCollection } from '../state/collection';
 import type { QuizDiscipline } from '../lib/quiz';
-import { computeBadges, type BadgeIcon } from '../lib/badges';
 import { TradingCard } from './TradingCard';
 import { BoosterOpening } from './BoosterOpening';
 import { Quiz } from './Quiz';
@@ -33,8 +32,6 @@ export function useBoosterPool() {
 let sessionOpenFolders = new Set<string>();
 /** Filtre des dossiers (« Mes cartes » ou « Manquantes »), lui aussi remis à zéro à chaque lancement. */
 let sessionFolderFilter: 'owned' | 'missing' = 'owned';
-
-const BADGE_ICONS: Record<BadgeIcon, LucideIcon> = { cards: Layers, crown: Crown, gem: Gem, flag: Flag, mountain: Mountain, zap: Zap, clock: Timer, package: Package, trophy: Trophy };
 
 /** Emblème de marque : logo sur pastille claire, ou monogramme aux couleurs de la marque. */
 function BrandEmblem({ name, logo }: { name: string; logo: string | null }) {
@@ -65,7 +62,7 @@ const duration = (ms: number) => {
 export function Collection() {
   const { cars, all, pool, favorite } = useBoosterPool();
   const meta = useMeta();
-  const { state, owned, markBadges, openBooster, commitPending, startQuiz, rewardQuiz } = useCollection();
+  const { state, owned, openBooster, commitPending, startQuiz, rewardQuiz } = useCollection();
   const { toast } = useUi();
   const now = useNow(15_000);
   const [opening, setOpening] = useState<{ cards: CarSummary[]; isNew: boolean[] } | null>(null);
@@ -75,16 +72,6 @@ export function Collection() {
   const [filter, setFilterState] = useState(sessionFolderFilter);
   const setFilter = (f: 'owned' | 'missing') => { sessionFolderFilter = f; setFilterState(f); };
 
-  const badges = useMemo(() => computeBadges(all, owned, state.opened), [all, owned, state.opened]);
-  const unlockedCount = badges.filter((b) => b.unlocked).length;
-  // Nouveau badge débloqué : annoncé une seule fois (pas pendant l'ouverture d'un booster).
-  const unlockedKey = badges.filter((b) => b.unlocked).map((b) => b.id).join(',');
-  useEffect(() => {
-    if (!all.length || opening || !unlockedKey) return;
-    const fresh = markBadges(unlockedKey.split(','));
-    const first = badges.find((b) => b.id === fresh[0]);
-    if (first) toast(fresh.length > 1 ? `${fresh.length} badges débloqués, dont « ${first.label} »` : `Badge débloqué : « ${first.label} »`);
-  }, [unlockedKey, opening, all.length]);
 
   const showBooster = (ids: string[]) => {
     const cards = ids.map((id) => byId.get(id)).filter((c): c is CarSummary => !!c);
@@ -192,27 +179,6 @@ export function Collection() {
       </section>
 
       {cars.isLoading && <div className="skeleton" style={{ height: 300 }} />}
-
-      {all.length > 0 && (
-        <section className="stack gap-3" aria-label="Mes badges">
-          <h2 className="folders-title">Mes badges <span className="num muted">{unlockedCount} / {badges.length}</span></h2>
-          <div className="badge-grid">
-            {badges.map((b) => {
-              const Icon = BADGE_ICONS[b.icon];
-              return (
-                <div key={b.id} className={`badge-tile${b.unlocked ? ' unlocked' : ''}`} title={b.description}>
-                  <span className="badge-icon" aria-hidden="true"><Icon size={20} /></span>
-                  <strong>{b.label}</strong>
-                  <span className="badge-desc">{b.description}</span>
-                  {b.unlocked
-                    ? <span className="badge-state"><Check size={12} aria-hidden="true" /> Débloqué</span>
-                    : <span className="badge-progress num" aria-label={`${b.have} sur ${b.goal}`}><i style={{ width: `${(b.have / b.goal) * 100}%` }} /><em>{b.have} / {b.goal}</em></span>}
-                </div>
-              );
-            })}
-          </div>
-        </section>
-      )}
 
       <section className="stack gap-2" aria-label="Mes dossiers par marque">
         <div className="folders-head">
