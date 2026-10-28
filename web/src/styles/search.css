@@ -329,7 +329,7 @@ kbd {
 /* Barre de recherche et de tri collante dans Explorer */
 .explore-sticky {
   position: sticky;
-  top: var(--topbar-h);
+  top: var(--topbar-total);
   z-index: 15;
   margin: 0 calc(var(--space-4) * -1);
   padding: var(--space-3) var(--space-4);

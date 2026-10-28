@@ -86,10 +86,11 @@
   align-items: center;
   justify-content: space-between;
   gap: var(--space-3);
-  height: 56px;
-  padding: 0 var(--space-4);
-  padding-top: env(safe-area-inset-top);
-  background: color-mix(in srgb, var(--bg) 94%, transparent);
+  /* La zone de la barre d'état s'ajoute aux 56 px : sur iPhone, le logo et les boutons
+     restent sous l'heure et la batterie, hors de la zone que iOS floute. */
+  height: var(--topbar-total);
+  padding: env(safe-area-inset-top) var(--space-4) 0;
+  background: var(--bg);
   border-bottom: 1px solid var(--border);
 }
 

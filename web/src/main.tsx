@@ -33,7 +33,19 @@ document.addEventListener('touchmove', (e) => { if (e.touches.length > 1) e.prev
 // Application installable et hors ligne (version publiée uniquement).
 if (import.meta.env.PROD && 'serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`, { scope: import.meta.env.BASE_URL }).catch(() => {
+    navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`, { scope: import.meta.env.BASE_URL }).then((reg) => {
+      // Sur iPhone, l'app ajoutée à l'écran d'accueil reprend souvent sans se recharger :
+      // on cherche une nouvelle version à chaque retour au premier plan, et on l'applique
+      // au retour suivant (jamais en pleine utilisation).
+      const hadController = !!navigator.serviceWorker.controller;
+      let updated = false;
+      navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadController) updated = true; });
+      document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState !== 'visible') return;
+        if (updated) window.location.reload();
+        else reg.update().catch(() => {});
+      });
+    }).catch(() => {
       // Sans service worker l'application fonctionne normalement, simplement sans mode hors ligne.
     });
   });

@@ -42,6 +42,8 @@
   --sidebar-w: 232px;
   --bottomnav-h: 60px;
   --topbar-h: 56px;
+  /* Hauteur réelle de la barre du haut, encoche / Dynamic Island de l'iPhone comprise */
+  --topbar-total: calc(var(--topbar-h) + env(safe-area-inset-top));
   --content-max: 1440px;
 }
 
