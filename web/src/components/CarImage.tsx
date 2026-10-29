@@ -16,8 +16,18 @@ export function CarSilhouette() {
   );
 }
 
+/**
+ * Miniature Wikimedia plus légère pour les petites cartes (500 px suffisent à l'écran d'un téléphone,
+ * environ 3 fois moins lourd que la miniature de 960 px).
+ */
+export function cardThumb(url: string): string {
+  return url.replace(/\/(\d+)px-/, (m, w) => (Number(w) > 500 ? '/500px-' : m));
+}
+
 interface Props {
   image: ResolvedImage | null;
+  /** Petite carte : miniature allégée. */
+  small?: boolean;
   alt: string;
   sizes?: string;
   eager?: boolean;
@@ -26,7 +36,7 @@ interface Props {
 }
 
 /** Image chargée progressivement (lazy + fondu) avec visuel de remplacement en cas d'absence ou d'erreur. */
-export function CarImage({ image, alt, eager, large, placeholderLabel = 'Photo non disponible' }: Props) {
+export function CarImage({ image, alt, eager, large, small, placeholderLabel = 'Photo non disponible' }: Props) {
   const [loaded, setLoaded] = useState(false);
   const [failed, setFailed] = useState(false);
   if (!image || failed) {
@@ -41,7 +51,7 @@ export function CarImage({ image, alt, eager, large, placeholderLabel = 'Photo n
     <>
       {!loaded && <div className="skeleton" style={{ position: 'absolute', inset: 0, borderRadius: 0 }} aria-hidden="true" />}
       <img
-        src={large ? image.src : image.thumb}
+        src={large ? image.src : small ? cardThumb(image.thumb) : image.thumb}
         alt={alt}
         loading={eager ? 'eager' : 'lazy'}
         decoding="async"

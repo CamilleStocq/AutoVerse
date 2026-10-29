@@ -470,3 +470,10 @@
   font-weight: 900;
   line-height: 1;
 }
+
+.quiz-theme {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+}

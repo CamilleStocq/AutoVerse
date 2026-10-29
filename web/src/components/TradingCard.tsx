@@ -27,9 +27,11 @@ interface Props {
   /** Désactive le lien vers la fiche (ex. pendant l'ouverture d'un booster). */
   static?: boolean;
   onClick?: () => void;
+  /** Carte affichée en grand (ouverture de booster) : photo en meilleure définition. */
+  sharp?: boolean;
 }
 
-export function TradingCard({ car, locked, count, badge, static: isStatic, onClick }: Props) {
+export function TradingCard({ car, locked, count, badge, static: isStatic, onClick, sharp }: Props) {
   const { preferences } = useProfile();
   const card = car.card;
   const rarity = card?.rarity ?? 'common';
@@ -64,7 +66,7 @@ export function TradingCard({ car, locked, count, badge, static: isStatic, onCli
       </header>
       <span className="tcard-sub">{card?.variantName ? `${card.variantName} · ${car.generationName}` : `${car.brandName} · ${car.generationName}`}</span>
       <div className="tcard-art">
-        <CarImage image={car.image} alt={`${car.brandName} ${car.modelName}`} placeholderLabel="" />
+        <CarImage image={car.image} small={!sharp} alt={`${car.brandName} ${car.modelName}`} placeholderLabel="" />
       </div>
       <div className="tcard-types">
         {[primaryCategory(car), powertrainLabel(car)].filter(Boolean).map((t) => <span key={t}>{t}</span>)}

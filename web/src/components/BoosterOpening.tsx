@@ -168,7 +168,7 @@ export function BoosterOpening({ cards, isNew, packLabel, onAdd, onClose }: Prop
               className={`bo-card r-glow-${rarity}${leaving ? ` leaving-${leaving}` : ''}`}
               style={{ transform: leaving ? undefined : `translateX(${drag}px) rotate(${drag / 22}deg)`, transition: start.current != null ? 'none' : undefined }}
             >
-              <TradingCard car={current} static badge={isNew[index] ? 'Nouvelle !' : undefined} />
+              <TradingCard car={current} static sharp badge={isNew[index] ? 'Nouvelle !' : undefined} />
             </div>
           </div>
           <p className="bo-caption" aria-live="polite">

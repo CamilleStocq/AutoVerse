@@ -6,8 +6,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { Check, X } from 'lucide-react';
 import type { WecSeason, WrcSeason } from '@shared/sport';
-import { useF1, useSeries } from '../hooks/queries';
-import { buildQuiz, QUIZ_LENGTH, QUIZ_PASS, type QuizDiscipline } from '../lib/quiz';
+import { useCards, useF1, useSeries } from '../hooks/queries';
+import { buildQuiz, QUIZ_LENGTH, QUIZ_PASS, THEME_LABELS, type QuizDiscipline } from '../lib/quiz';
 import { formatDate } from '../lib/format';
 
 const NAMES: Record<QuizDiscipline, string> = { f1: 'Formule 1', wec: 'Endurance (WEC)', wrc: 'Rallye (WRC)' };
@@ -23,7 +23,8 @@ export function Quiz({ discipline, onPerfect, onClose }: Props) {
   const f1 = useF1();
   const wec = useSeries('wec');
   const wrc = useSeries('wrc');
-  const loading = discipline === 'f1' ? f1.isLoading : discipline === 'wec' ? wec.isLoading : wrc.isLoading;
+  const cards = useCards();
+  const loading = cards.isLoading || (discipline === 'f1' ? f1.isLoading : discipline === 'wec' ? wec.isLoading : wrc.isLoading);
   const asOf = discipline === 'f1' ? f1.data?.fetchedAt : discipline === 'wec' ? wec.data?.fetchedAt : wrc.data?.fetchedAt;
 
   // Les questions sont figées une fois les données chargées.
@@ -31,6 +32,7 @@ export function Quiz({ discipline, onPerfect, onClose }: Props) {
     f1: f1.data?.data,
     wec: wec.data?.data as WecSeason | undefined,
     wrc: wrc.data?.data as WrcSeason | undefined,
+    cards: cards.data,
   })), [loading, discipline]);
 
   const [step, setStep] = useState(0);
@@ -80,7 +82,7 @@ export function Quiz({ discipline, onPerfect, onClose }: Props) {
             <div className="quiz-progress" aria-hidden="true">
               {questions!.map((_, i) => <i key={i} className={i < step ? 'done' : i === step ? 'current' : undefined} />)}
             </div>
-            <p className="subtle num" style={{ fontSize: 'var(--text-xs)' }}>Question {step + 1} / {QUIZ_LENGTH}</p>
+            <p className="subtle num" style={{ fontSize: 'var(--text-xs)' }}>Question {step + 1} / {QUIZ_LENGTH} · <span className="quiz-theme">{THEME_LABELS[q.theme]}</span></p>
             <h3 className="quiz-question">{q.prompt}</h3>
             <div className="quiz-options" role="group" aria-label="Réponses">
               {q.options.map((o) => {
